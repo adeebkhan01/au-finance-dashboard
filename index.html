@@ -25,7 +25,6 @@
   --shadow-lg:0 8px 24px rgba(0,0,0,.08);
 }
 
-/* Dark mode */
 .dark{
   --bg:#141414;--surface:#1e1e1e;--card:#242424;--border:#333;
   --text:#e8e6e1;--muted:#8a8578;
@@ -38,7 +37,6 @@
 html{font-size:16px;scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;min-height:100vh;transition:background .3s,color .3s}
 
-/* Masthead */
 .masthead{border-bottom:1px solid var(--border);background:var(--surface);padding:0 1.5rem;position:sticky;top:0;z-index:100;transition:background .3s,border-color .3s}
 .masthead-inner{max-width:1360px;margin:0 auto;display:flex;align-items:center;gap:.75rem;height:54px}
 .logo{font-family:var(--serif);font-size:1.2rem;font-weight:700;color:var(--green);letter-spacing:-0.02em;display:flex;align-items:center;gap:.5rem;text-decoration:none}
@@ -56,7 +54,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 #refresh-btn.spinning svg{animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* Market ticker */
 .ticker{background:var(--card);border-bottom:1px solid var(--border);padding:.5rem 1.5rem;overflow:hidden;transition:background .3s}
 .ticker-inner{max-width:1360px;margin:0 auto;display:flex;gap:1.5rem;align-items:center;font-size:.72rem;font-family:var(--mono);overflow-x:auto;scrollbar-width:none}
 .ticker-inner::-webkit-scrollbar{display:none}
@@ -67,14 +64,12 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .ticker-item .chg.down{color:var(--red)}
 .ticker-sep{width:1px;height:14px;background:var(--border);flex-shrink:0}
 
-/* Layout */
 .dashboard{max-width:1360px;margin:0 auto;padding:1.25rem 1.5rem}
 .section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.85rem}
 .section-title{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--text);display:flex;align-items:center;gap:.5rem}
 .section-title .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
 .section-subtitle{font-size:.7rem;color:var(--muted);font-family:var(--mono)}
 
-/* Hero metrics */
 .hero-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.65rem;margin-bottom:1.25rem}
 .metric-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow)}
 .metric-card:hover{border-color:var(--green-lt);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
@@ -91,7 +86,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .metric-sub{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
 .metric-card .accent-bar{position:absolute;bottom:0;left:0;right:0;height:2px}
 
-/* Charts */
 .charts-row{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-bottom:1.25rem}
 .chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;box-shadow:var(--shadow)}
 .chart-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.65rem}
@@ -103,7 +97,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .chart-wrap{position:relative;height:200px}
 @media(max-width:800px){.charts-row{grid-template-columns:1fr}}
 
-/* Commodities */
 .commodities-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:.65rem;margin-bottom:1.25rem}
 .commodity-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem .85rem;transition:all .2s;box-shadow:var(--shadow)}
 .commodity-card:hover{border-color:var(--gold);transform:translateY(-1px)}
@@ -115,7 +108,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .commodity-change.up{color:var(--green)}
 .commodity-change.down{color:var(--red)}
 
-/* Indicators */
 .indicators-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;box-shadow:var(--shadow)}
 .indicators-tabs{display:flex;gap:0;border-bottom:1px solid var(--border);background:var(--surface);padding:0 .5rem}
 .tab-btn{font-size:.7rem;font-weight:500;padding:.6rem .8rem;border:none;background:transparent;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;font-family:var(--sans)}
@@ -129,7 +121,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .indicator-name{font-weight:500;display:flex;align-items:center;gap:.4rem}
 .indicator-badge{font-size:.55rem;padding:.12rem .35rem;border-radius:3px;font-weight:600;letter-spacing:.02em;text-transform:uppercase}
 
-/* News */
 .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.65rem;margin-bottom:1.25rem}
 .news-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;text-decoration:none;color:inherit;transition:all .2s;box-shadow:var(--shadow)}
 .news-card:hover{border-color:var(--blue);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
@@ -139,19 +130,16 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .news-title{font-family:var(--serif);font-size:.88rem;font-weight:600;line-height:1.4;margin-bottom:.3rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .news-snippet{font-size:.74rem;color:var(--muted);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
-/* Loading / Error */
 .loading-overlay{text-align:center;padding:4rem 1rem;color:var(--muted)}
 .loading-overlay h3{font-family:var(--serif);color:var(--text);margin-bottom:.5rem}
 .loading-spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 1rem}
 .error-box{background:var(--red-dim);border:1px solid #e8b4b4;border-radius:var(--radius);padding:1.5rem;color:#8b2020;text-align:center;margin:2rem 0}
 .error-box h3{font-family:var(--serif);margin-bottom:.5rem;font-size:1.1rem}
 
-/* Footer */
 footer{margin-top:1.5rem;padding:1.2rem 1.5rem;text-align:center;font-size:.68rem;color:var(--muted);border-top:1px solid var(--border);transition:border-color .3s}
 footer a{color:var(--green);text-decoration:none}
 footer a:hover{text-decoration:underline}
 
-/* Responsive */
 @media(max-width:1100px){
   .hero-grid{grid-template-columns:repeat(2,1fr)}
   .commodities-grid{grid-template-columns:repeat(3,1fr)}
@@ -174,20 +162,17 @@ footer a:hover{text-decoration:underline}
 
 <header class="masthead">
   <div class="masthead-inner">
-    <a class="logo" href="finance.html">
+    <a class="logo" href="index.html">
       <div class="au-flag">
         <svg viewBox="0 0 28 16" xmlns="http://www.w3.org/2000/svg">
           <rect width="28" height="16" fill="#00008B"/>
-          <!-- Union Jack simplified -->
           <line x1="0" y1="0" x2="13" y2="8" stroke="#fff" stroke-width="1.5"/>
           <line x1="13" y1="0" x2="0" y2="8" stroke="#fff" stroke-width="1.5"/>
           <line x1="0" y1="4" x2="13" y2="4" stroke="#fff" stroke-width="2.5"/>
           <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#fff" stroke-width="2.5"/>
           <line x1="0" y1="4" x2="13" y2="4" stroke="#C8102E" stroke-width="1.2"/>
           <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#C8102E" stroke-width="1.2"/>
-          <!-- Commonwealth Star -->
           <text x="6.5" y="13.5" text-anchor="middle" fill="#fff" font-size="6" font-weight="bold">&#9733;</text>
-          <!-- Southern Cross -->
           <text x="20" y="4" text-anchor="middle" fill="#fff" font-size="3.5">&#9733;</text>
           <text x="23" y="7" text-anchor="middle" fill="#fff" font-size="3">&#9733;</text>
           <text x="20" y="11" text-anchor="middle" fill="#fff" font-size="3.5">&#9733;</text>
@@ -198,8 +183,7 @@ footer a:hover{text-decoration:underline}
       AU Economy
     </a>
     <nav class="nav-links">
-      <a href="finance.html" class="active">Dashboard</a>
-      <a href="index.html">BD News</a>
+      <a href="index.html" class="active">Dashboard</a>
     </nav>
     <div class="masthead-right">
       <span class="last-updated" id="last-updated">—</span>
@@ -231,7 +215,7 @@ footer a:hover{text-decoration:underline}
 </div>
 
 <footer>
-  Australian Economy Dashboard · Data via RBA, ABS & Yahoo Finance · Refreshed every 3 hours · <a href="index.html">Bangladesh News</a>
+  Australian Economy Dashboard · Data via RBA, ABS & Yahoo Finance · Refreshed every 3 hours via GitHub Actions
 </footer>
 
 <script>
@@ -240,7 +224,6 @@ let charts = {};
 let loading = false;
 let activeTab = 'all';
 
-// ── Theme ──
 function toggleTheme() {
   document.body.classList.toggle('dark');
   const isDark = document.body.classList.contains('dark');
@@ -248,7 +231,6 @@ function toggleTheme() {
   document.getElementById('theme-icon').innerHTML = isDark
     ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
     : '<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>';
-  // Re-render charts with updated colors
   if (financeData) renderCharts(financeData);
 }
 if (localStorage.getItem('au-theme') === 'dark') {
@@ -256,7 +238,6 @@ if (localStorage.getItem('au-theme') === 'dark') {
   document.getElementById('theme-icon').innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
 }
 
-// ── Formatting ──
 function fmtNum(n) {
   if (n == null || isNaN(n)) return '—';
   return n.toLocaleString('en-AU');
@@ -295,7 +276,6 @@ function escapeHTML(str) {
   return String(str||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
 }
 
-// ── Sparkline (mini canvas) ──
 function drawSparkline(canvas, data, color) {
   if (!canvas || !data || data.length < 2) return;
   const ctx = canvas.getContext('2d');
@@ -318,7 +298,6 @@ function drawSparkline(canvas, data, color) {
   ctx.stroke();
 }
 
-// ── Ticker ──
 function renderTicker(d) {
   const items = [];
   if (d.asx200?.value != null) items.push({name:'ASX 200', val: fmtNum(Math.round(d.asx200.value)), chg: d.asx200.changePercent});
@@ -335,12 +314,10 @@ function renderTicker(d) {
   }).join('') + '</div>';
 }
 
-// ── Main render ──
 function renderDashboard(d) {
   const dash = document.getElementById('dashboard');
   let html = '';
 
-  // Section: Key Indicators
   html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Key Indicators</div>'
     + '<div class="section-subtitle">As of ' + escapeHTML(d.asx200?.asOf || d.fetchedAt?.split('T')[0] || '') + '</div></div>';
   html += '<div class="hero-grid">';
@@ -387,14 +364,12 @@ function renderDashboard(d) {
   });
   html += '</div>';
 
-  // Section: Charts
   html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Market Trends</div></div>';
   html += '<div class="charts-row">'
     + '<div class="chart-card"><div class="chart-header"><h3>S&P/ASX 200</h3><div class="chart-range"><button class="active">1M</button></div></div><div class="chart-wrap"><canvas id="chart-asx"></canvas></div></div>'
     + '<div class="chart-card"><div class="chart-header"><h3>AUD/USD Exchange Rate</h3><div class="chart-range"><button class="active">1M</button></div></div><div class="chart-wrap"><canvas id="chart-aud"></canvas></div></div>'
     + '</div>';
 
-  // Section: Commodities
   html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Commodities & Mining</div></div>';
   html += '<div class="commodities-grid">';
   (d.commodities||[]).forEach(c => {
@@ -408,7 +383,6 @@ function renderDashboard(d) {
   });
   html += '</div>';
 
-  // Section: Economic Indicators
   html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Economic Indicators</div></div>';
   html += '<div class="indicators-wrap">';
   html += '<div class="indicators-tabs">'
@@ -421,12 +395,9 @@ function renderDashboard(d) {
   html += '<table class="indicators-table"><thead><tr>'
     + '<th>Indicator</th><th>Value</th><th>Previous</th><th>Change</th><th>Period</th>'
     + '</tr></thead><tbody id="indicators-body">';
-  (d.indicators||[]).forEach(ind => {
-    html += indicatorRow(ind);
-  });
+  (d.indicators||[]).forEach(ind => { html += indicatorRow(ind); });
   html += '</tbody></table></div>';
 
-  // Section: News
   if (d.news && d.news.length) {
     html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Financial News</div>'
       + '<div class="section-subtitle">' + d.news.length + ' articles</div></div>';
@@ -444,7 +415,6 @@ function renderDashboard(d) {
 
   dash.innerHTML = html;
 
-  // Draw sparklines
   metrics.forEach((m, i) => {
     if (m.sparkData) {
       const canvas = document.querySelector('[data-spark="' + i + '"]');
@@ -500,12 +470,10 @@ function renderCharts(d) {
         titleColor: isDark ? '#e8e6e1' : '#1a1a18',
         bodyColor: isDark ? '#e8e6e1' : '#1a1a18',
         borderColor: isDark ? '#444' : '#ddd9cf',
-        borderWidth: 1,
-        padding: 10,
+        borderWidth: 1, padding: 10,
         titleFont: { family: 'DM Mono', size: 11 },
         bodyFont: { family: 'DM Mono', size: 12, weight: 500 },
-        displayColors: false,
-        cornerRadius: 6
+        displayColors: false, cornerRadius: 6
       }
     },
     scales: {
