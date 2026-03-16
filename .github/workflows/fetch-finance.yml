@@ -2,7 +2,7 @@ name: Fetch Finance Data
 
 on:
   schedule:
-    - cron: '30 */3 * * *'
+    - cron: '30 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -25,4 +25,3 @@ jobs:
           git add finance-data.json
           git diff --staged --quiet || git commit -m "chore: refresh finance data $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
-
