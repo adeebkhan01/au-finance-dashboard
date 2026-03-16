@@ -1,68 +1,244 @@
 {
-  "fetchedAt": "2025-03-16T09:00:00.000Z",
+  "fetchedAt": "2026-03-16T11:17:02.649Z",
   "asx200": {
-    "value": 7932.60,
-    "change": 45.30,
-    "changePercent": 0.57,
-    "previousClose": 7887.30,
-    "asOf": "2025-03-14",
+    "value": 8583.4,
+    "change": -383.4,
+    "changePercent": -4.28,
+    "previousClose": 8966.8,
+    "asOf": "2026-03-16",
     "history": [
-      {"date": "2025-02-14", "close": 8481.00},
-      {"date": "2025-02-17", "close": 8535.70},
-      {"date": "2025-02-18", "close": 8520.60},
-      {"date": "2025-02-19", "close": 8480.20},
-      {"date": "2025-02-20", "close": 8416.50},
-      {"date": "2025-02-21", "close": 8296.20},
-      {"date": "2025-02-24", "close": 8242.00},
-      {"date": "2025-02-25", "close": 8256.50},
-      {"date": "2025-02-26", "close": 8223.00},
-      {"date": "2025-02-27", "close": 8181.30},
-      {"date": "2025-02-28", "close": 8172.40},
-      {"date": "2025-03-03", "close": 8005.80},
-      {"date": "2025-03-04", "close": 7960.70},
-      {"date": "2025-03-05", "close": 8003.40},
-      {"date": "2025-03-06", "close": 8010.20},
-      {"date": "2025-03-07", "close": 7948.80},
-      {"date": "2025-03-10", "close": 7871.50},
-      {"date": "2025-03-11", "close": 7843.40},
-      {"date": "2025-03-12", "close": 7865.20},
-      {"date": "2025-03-13", "close": 7887.30},
-      {"date": "2025-03-14", "close": 7932.60}
+      {
+        "date": "2026-02-15",
+        "close": 8966.8
+      },
+      {
+        "date": "2026-02-16",
+        "close": 8958.9
+      },
+      {
+        "date": "2026-02-17",
+        "close": 9007
+      },
+      {
+        "date": "2026-02-18",
+        "close": 9086.2
+      },
+      {
+        "date": "2026-02-19",
+        "close": 9081.4
+      },
+      {
+        "date": "2026-02-22",
+        "close": 9026
+      },
+      {
+        "date": "2026-02-23",
+        "close": 9022.3
+      },
+      {
+        "date": "2026-02-24",
+        "close": 9128.3
+      },
+      {
+        "date": "2026-02-25",
+        "close": 9175.3
+      },
+      {
+        "date": "2026-02-26",
+        "close": 9198.6
+      },
+      {
+        "date": "2026-03-01",
+        "close": 9167.5
+      },
+      {
+        "date": "2026-03-02",
+        "close": 9077.3
+      },
+      {
+        "date": "2026-03-03",
+        "close": 8901.2
+      },
+      {
+        "date": "2026-03-04",
+        "close": 8940.3
+      },
+      {
+        "date": "2026-03-05",
+        "close": 8851
+      },
+      {
+        "date": "2026-03-08",
+        "close": 8599
+      },
+      {
+        "date": "2026-03-09",
+        "close": 8692.6
+      },
+      {
+        "date": "2026-03-10",
+        "close": 8743.5
+      },
+      {
+        "date": "2026-03-11",
+        "close": 8629
+      },
+      {
+        "date": "2026-03-12",
+        "close": 8617.1
+      },
+      {
+        "date": "2026-03-16",
+        "close": 8583.4
+      }
     ]
   },
   "audusd": {
-    "value": 0.6328,
-    "change": 0.0012,
-    "changePercent": 0.19,
-    "previousClose": 0.6316,
-    "asOf": "2025-03-14",
+    "value": 0.71,
+    "change": 0,
+    "changePercent": -0.23,
+    "previousClose": 0.71,
+    "asOf": "2026-03-16",
     "history": [
-      {"date": "2025-02-14", "close": 0.6358},
-      {"date": "2025-02-17", "close": 0.6371},
-      {"date": "2025-02-18", "close": 0.6385},
-      {"date": "2025-02-19", "close": 0.6392},
-      {"date": "2025-02-20", "close": 0.6367},
-      {"date": "2025-02-21", "close": 0.6355},
-      {"date": "2025-02-24", "close": 0.6378},
-      {"date": "2025-02-25", "close": 0.6365},
-      {"date": "2025-02-26", "close": 0.6340},
-      {"date": "2025-02-27", "close": 0.6295},
-      {"date": "2025-02-28", "close": 0.6270},
-      {"date": "2025-03-03", "close": 0.6235},
-      {"date": "2025-03-04", "close": 0.6220},
-      {"date": "2025-03-05", "close": 0.6260},
-      {"date": "2025-03-06", "close": 0.6305},
-      {"date": "2025-03-07", "close": 0.6290},
-      {"date": "2025-03-10", "close": 0.6275},
-      {"date": "2025-03-11", "close": 0.6260},
-      {"date": "2025-03-12", "close": 0.6295},
-      {"date": "2025-03-13", "close": 0.6316},
-      {"date": "2025-03-14", "close": 0.6328}
+      {
+        "date": "2026-02-16",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-17",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-19",
+        "close": 0.7
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-23",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-25",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-27",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-03",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-04",
+        "close": 0.7
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-06",
+        "close": 0.7
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.7
+      },
+      {
+        "date": "2026-03-10",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-16",
+        "close": 0.71
+      }
     ]
   },
+  "commodities": [
+    {
+      "name": "Gold",
+      "icon": "🥇",
+      "iconBg": "#fef9ee",
+      "price": 5004.3,
+      "change": 121.4,
+      "changePercent": 2.49
+    },
+    {
+      "name": "Silver",
+      "icon": "🥈",
+      "iconBg": "#f8f9fa",
+      "price": 79.05,
+      "change": 5.6,
+      "changePercent": 7.63
+    },
+    {
+      "name": "Crude Oil (WTI)",
+      "icon": "🛢️",
+      "iconBg": "#f3f0f9",
+      "price": 97.08,
+      "change": 34.75,
+      "changePercent": 55.75
+    },
+    {
+      "name": "Copper",
+      "icon": "🔶",
+      "iconBg": "#fef0e6",
+      "price": 5.76,
+      "change": 0.12,
+      "changePercent": 2.2
+    },
+    {
+      "name": "BHP Group",
+      "icon": "⛏️",
+      "iconBg": "#e6f2ec",
+      "price": 49.19,
+      "change": -1.17,
+      "changePercent": -2.32
+    },
+    {
+      "name": "Rio Tinto",
+      "icon": "🏗️",
+      "iconBg": "#eff6ff",
+      "price": 154.7,
+      "change": -8.05,
+      "changePercent": -4.95
+    }
+  ],
   "rbaRate": {
-    "value": 4.10,
-    "change": -25,
+    "value": 4.1,
+    "change": 0,
     "asOf": "2025-02-18",
     "note": "RBA Official Cash Rate Target"
   },
@@ -92,42 +268,222 @@
   },
   "consumerConfidence": {
     "value": 92.2,
-    "change": 1.0,
+    "change": 1,
     "period": "Feb 2025",
     "note": "Westpac-Melbourne Institute Consumer Sentiment"
   },
-  "commodities": [
-    {"name": "Gold", "icon": "\ud83e\udd47", "iconBg": "#fef9ee", "price": 2985.40, "change": 12.30, "changePercent": 0.41},
-    {"name": "Silver", "icon": "\ud83e\udd48", "iconBg": "#f8f9fa", "price": 33.62, "change": -0.18, "changePercent": -0.53},
-    {"name": "Crude Oil (WTI)", "icon": "\ud83d\udee2\ufe0f", "iconBg": "#f3f0f9", "price": 67.18, "change": -0.64, "changePercent": -0.94},
-    {"name": "Copper", "icon": "\ud83d\udd36", "iconBg": "#fef0e6", "price": 4.72, "change": 0.05, "changePercent": 1.07},
-    {"name": "BHP Group", "icon": "\u26cf\ufe0f", "iconBg": "#e6f2ec", "price": 39.85, "change": 0.42, "changePercent": 1.07},
-    {"name": "Rio Tinto", "icon": "\ud83c\udfd7\ufe0f", "iconBg": "#eff6ff", "price": 116.52, "change": -0.78, "changePercent": -0.67}
-  ],
   "indicators": [
-    {"name": "GDP Growth (Annual)", "value": "1.5%", "previous": "1.2%", "change": 0.3, "unit": "%", "period": "Q3 2024", "category": "growth"},
-    {"name": "GDP Growth (Quarterly)", "value": "0.3%", "previous": "0.2%", "change": 0.1, "unit": "%", "period": "Q3 2024", "category": "growth"},
-    {"name": "CPI Inflation (Annual)", "value": "2.4%", "previous": "2.9%", "change": -0.5, "unit": "%", "period": "Q4 2024", "category": "prices"},
-    {"name": "Trimmed Mean CPI", "value": "3.2%", "previous": "3.5%", "change": -0.3, "unit": "%", "period": "Q4 2024", "category": "prices"},
-    {"name": "RBA Cash Rate", "value": "4.10%", "previous": "4.35%", "change": -0.25, "unit": "%", "period": "Feb 2025", "category": "prices"},
-    {"name": "Unemployment Rate", "value": "4.1%", "previous": "4.0%", "change": 0.1, "unit": "%", "period": "Jan 2025", "category": "labour"},
-    {"name": "Participation Rate", "value": "67.2%", "previous": "67.1%", "change": 0.1, "unit": "%", "period": "Jan 2025", "category": "labour"},
-    {"name": "Wage Price Index (Annual)", "value": "3.5%", "previous": "4.1%", "change": -0.6, "unit": "%", "period": "Q3 2024", "category": "labour"},
-    {"name": "Trade Balance", "value": "A$5.9B", "previous": "A$4.6B", "change": 1.3, "unit": "B", "period": "Dec 2024", "category": "trade"},
-    {"name": "Retail Sales (Monthly)", "value": "0.1%", "previous": "0.5%", "change": -0.4, "unit": "%", "period": "Dec 2024", "category": "growth"},
-    {"name": "Building Approvals", "value": "-0.3%", "previous": "5.0%", "change": -5.3, "unit": "%", "period": "Dec 2024", "category": "growth"},
-    {"name": "Consumer Sentiment", "value": "92.2", "previous": "91.2", "change": 1.0, "unit": "", "period": "Feb 2025", "category": "growth"},
-    {"name": "Business Confidence (NAB)", "value": "4", "previous": "2", "change": 2, "unit": "", "period": "Jan 2025", "category": "growth"},
-    {"name": "PMI Manufacturing", "value": "50.2", "previous": "49.4", "change": 0.8, "unit": "", "period": "Feb 2025", "category": "growth"}
+    {
+      "name": "GDP Growth (Annual)",
+      "value": "1.5%",
+      "previous": "1.2%",
+      "change": 0.3,
+      "unit": "%",
+      "period": "Q3 2024",
+      "category": "growth"
+    },
+    {
+      "name": "GDP Growth (Quarterly)",
+      "value": "0.3%",
+      "previous": "0.2%",
+      "change": 0.1,
+      "unit": "%",
+      "period": "Q3 2024",
+      "category": "growth"
+    },
+    {
+      "name": "CPI Inflation (Annual)",
+      "value": "2.4%",
+      "previous": "2.9%",
+      "change": -0.5,
+      "unit": "%",
+      "period": "Q4 2024",
+      "category": "prices"
+    },
+    {
+      "name": "Trimmed Mean CPI",
+      "value": "3.2%",
+      "previous": "3.5%",
+      "change": -0.3,
+      "unit": "%",
+      "period": "Q4 2024",
+      "category": "prices"
+    },
+    {
+      "name": "RBA Cash Rate",
+      "value": "4.10%",
+      "previous": "4.35%",
+      "change": -0.25,
+      "unit": "%",
+      "period": "Feb 2025",
+      "category": "prices"
+    },
+    {
+      "name": "Unemployment Rate",
+      "value": "4.1%",
+      "previous": "4.0%",
+      "change": 0.1,
+      "unit": "%",
+      "period": "Jan 2025",
+      "category": "labour"
+    },
+    {
+      "name": "Participation Rate",
+      "value": "67.2%",
+      "previous": "67.1%",
+      "change": 0.1,
+      "unit": "%",
+      "period": "Jan 2025",
+      "category": "labour"
+    },
+    {
+      "name": "Wage Price Index (Annual)",
+      "value": "3.5%",
+      "previous": "4.1%",
+      "change": -0.6,
+      "unit": "%",
+      "period": "Q3 2024",
+      "category": "labour"
+    },
+    {
+      "name": "Trade Balance",
+      "value": "A$5.9B",
+      "previous": "A$4.6B",
+      "change": 1.3,
+      "unit": "B",
+      "period": "Dec 2024",
+      "category": "trade"
+    },
+    {
+      "name": "Retail Sales (Monthly)",
+      "value": "0.1%",
+      "previous": "0.5%",
+      "change": -0.4,
+      "unit": "%",
+      "period": "Dec 2024",
+      "category": "growth"
+    },
+    {
+      "name": "Building Approvals",
+      "value": "-0.3%",
+      "previous": "5.0%",
+      "change": -5.3,
+      "unit": "%",
+      "period": "Dec 2024",
+      "category": "growth"
+    },
+    {
+      "name": "Consumer Sentiment",
+      "value": "92.2",
+      "previous": "91.2",
+      "change": 1,
+      "unit": "",
+      "period": "Feb 2025",
+      "category": "growth"
+    },
+    {
+      "name": "Business Confidence (NAB)",
+      "value": "4",
+      "previous": "2",
+      "change": 2,
+      "unit": "",
+      "period": "Jan 2025",
+      "category": "growth"
+    },
+    {
+      "name": "PMI Manufacturing",
+      "value": "50.2",
+      "previous": "49.4",
+      "change": 0.8,
+      "unit": "",
+      "period": "Feb 2025",
+      "category": "growth"
+    }
   ],
   "news": [
-    {"title": "RBA cuts rates for first time in four years, cash rate now 4.10%", "link": "https://www.abc.net.au/news/2025-02-18/rba-interest-rate-decision/104946752", "snippet": "The Reserve Bank has cut the official cash rate by 25 basis points to 4.10%, the first reduction since November 2020.", "pubDate": "2025-02-18T03:30:00Z", "source": "ABC News"},
-    {"title": "ASX 200 recovers as Wall Street steadies after tariff volatility", "link": "https://www.afr.com/markets/equity-markets", "snippet": "The benchmark S&P/ASX 200 gained 0.6% as markets stabilised following a turbulent week driven by US tariff policy uncertainty.", "pubDate": "2025-03-14T06:00:00Z", "source": "AFR"},
-    {"title": "Australian dollar holds steady despite global trade tensions", "link": "https://www.smh.com.au/business/markets", "snippet": "The Aussie dollar is trading around US63.3 cents, supported by commodity prices but weighed down by global risk sentiment.", "pubDate": "2025-03-14T04:00:00Z", "source": "SMH Business"},
-    {"title": "Iron ore prices stabilise as China stimulus expectations build", "link": "https://www.afr.com/markets/commodities", "snippet": "Iron ore futures held above US$100 per tonne as investors anticipated further economic stimulus measures from Beijing.", "pubDate": "2025-03-13T08:00:00Z", "source": "AFR"},
-    {"title": "Housing market sees slower growth as rate cut impact assessed", "link": "https://www.abc.net.au/news", "snippet": "Australian property prices rose moderately in February, with analysts split on whether the recent rate cut will reignite demand.", "pubDate": "2025-03-12T05:00:00Z", "source": "ABC News"},
-    {"title": "Consumer confidence rises after RBA rate cut decision", "link": "https://www.smh.com.au/business", "snippet": "Westpac-Melbourne Institute Consumer Sentiment Index jumped 1 point to 92.2, the highest level in three months following the rate cut.", "pubDate": "2025-03-11T03:00:00Z", "source": "SMH Business"},
-    {"title": "BHP reports strong half-year result, flags commodity outlook", "link": "https://www.afr.com/companies", "snippet": "BHP Group posted underlying profit of US$5.7 billion for the half-year, with copper and iron ore driving the result.", "pubDate": "2025-03-10T07:00:00Z", "source": "AFR"},
-    {"title": "Unemployment edges higher to 4.1% as participation lifts", "link": "https://www.abc.net.au/news", "snippet": "The unemployment rate rose to 4.1% in January, slightly above expectations, while the participation rate climbed to a near-record 67.2%.", "pubDate": "2025-03-06T01:30:00Z", "source": "ABC News"}
+    {
+      "title": "Penthouse to courthouse: Antony Catalano’s empire unravels",
+      "link": "https://www.smh.com.au/business/companies/alex-waislitz-breaks-silence-on-assault-allegations-facing-antony-catalano-20260316-p5oaua.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The media mogul’s real estate agents have pulled his luxury Melbourne penthouse, which police were called to on Thursday night, from sale.",
+      "pubDate": "Mon, 16 Mar 2026 19:57:33 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "A now-or-never moment for the Albanese government",
+      "link": "https://www.smh.com.au/business/the-economy/a-now-or-never-moment-for-the-albanese-government-20260316-p5oazi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Jim Chalmers was already being pressured to unveil meaningful reforms in the May budget. Turmoil in the Middle East has made that even more pressing.",
+      "pubDate": "Mon, 16 Mar 2026 19:30:00 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "'We don't talk about it enough': Mum makes emotional return to Super Netball",
+      "link": "https://www.abc.net.au/news/2026-03-16/2026-super-netball-round-up-round1/106461062",
+      "snippet": "",
+      "pubDate": "Mon, 16 Mar 2026 07:58:59 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Fuel reserve released as farmers warn of food price hit",
+      "link": "https://www.smh.com.au/business/consumer-affairs/fuel-reserve-released-as-farmers-warn-of-food-price-hit-20260316-p5oax8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The government has authorised the release of up to 760 million litres of petrol and diesel, giving priority to regional areas that have been running short.",
+      "pubDate": "Mon, 16 Mar 2026 18:40:39 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "KIIS licence could be at risk if Kyle and Jackie O Show makes further breaches",
+      "link": "https://www.smh.com.au/business/companies/regulator-slaps-licence-conditions-on-network-behind-kyle-and-jackie-o-20260316-p5oas8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The media watchdog has imposed licence conditions on the radio network behind Kyle and Jackie O’s show one day before a key deadline.",
+      "pubDate": "Mon, 16 Mar 2026 18:37:09 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "‘Biblical disaster’: Trump plots a radical move to control oil prices",
+      "link": "https://www.smh.com.au/business/markets/biblical-disaster-trump-plots-a-radical-move-to-control-oil-prices-20260316-p5oapw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Trump administration is considering intervening in oil markets to push down prices despite warnings that it would have severe ramifications.",
+      "pubDate": "Mon, 16 Mar 2026 18:35:00 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Matildas coy about star duo's chances of facing China in Asian Cup semi",
+      "link": "https://www.abc.net.au/news/2026-03-16/asian-cup-matildas-china-steph-catley-hayley-raso/106461518",
+      "snippet": "",
+      "pubDate": "Mon, 16 Mar 2026 06:56:46 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Emirates flights from Australia diverted after attack on Dubai",
+      "link": "https://www.smh.com.au/business/companies/emirates-flights-from-australia-diverted-after-attack-on-dubai-20260316-p5ob00.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Even as the airline seeks to scale up flights following the start of the war, Canberra is advising travellers to avoid the region, including the airports.",
+      "pubDate": "Mon, 16 Mar 2026 17:45:15 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "It’s one of the greatest challenges we face, but oh baby, simplistic solutions won’t fix it",
+      "link": "https://www.smh.com.au/business/the-economy/it-s-one-of-the-greatest-challenges-we-face-but-oh-baby-simplistic-solutions-won-t-fix-it-20260316-p5oavy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Just because some commentators fail to grasp what is morally at stake or because they offer misguided solutions doesn’t mean we don’t have a serious problem on our hands.",
+      "pubDate": "Mon, 16 Mar 2026 16:33:32 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Magpies make call on Pendlebury's ban, Swans star set for surgery",
+      "link": "https://www.abc.net.au/news/2026-03-16/afl-magpies-scott-pendlebury-swans-errol-gulden/106460600",
+      "snippet": "",
+      "pubDate": "Mon, 16 Mar 2026 05:06:30 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Property sellers are flooding the market but buyers aren’t biting",
+      "link": "https://www.smh.com.au/business/the-economy/property-sellers-are-flooding-the-market-buyers-aren-t-biting-20260316-p5oavj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Home buyers have been struck by a perfect storm of interest rate uncertainty and the spectre of changes to tax policy that will affect housing demand.",
+      "pubDate": "Mon, 16 Mar 2026 15:55:15 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Drill rods spin as Gateway tests standout WA gold target",
+      "link": "https://www.smh.com.au/business/companies/drill-rods-spin-as-gateway-tests-standout-wa-gold-target-20260316-p5oay1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Gateway Mining has begun maiden drilling at its top-priority gold target, testing a 16km WA prospect with geology likened to the Jundee and St Ives gold camps.",
+      "pubDate": "Mon, 16 Mar 2026 14:02:28 +1100",
+      "source": "SMH Business"
+    }
   ]
 }
