@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-03-17T03:18:14.623Z",
+  "fetchedAt": "2026-03-17T07:35:31.962Z",
   "asx200": {
-    "value": 8581.3,
-    "change": -377.6,
-    "changePercent": -4.21,
+    "value": 8614.3,
+    "change": -344.6,
+    "changePercent": -3.85,
     "previousClose": 8958.9,
     "asOf": "2026-03-17",
     "history": [
@@ -85,14 +85,14 @@
       },
       {
         "date": "2026-03-17",
-        "close": 8581.3
+        "close": 8614.3
       }
     ]
   },
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.13,
+    "changePercent": 0,
     "previousClose": 0.71,
     "asOf": "2026-03-17",
     "history": [
@@ -183,49 +183,49 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 5027,
-      "change": 144.1,
-      "changePercent": 2.95
+      "price": 5019,
+      "change": 136.1,
+      "changePercent": 2.79
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 81.2,
-      "change": 7.75,
-      "changePercent": 10.56
+      "price": 81.15,
+      "change": 7.7,
+      "changePercent": 10.49
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 96,
-      "change": 33.67,
-      "changePercent": 54.02
+      "price": 96.95,
+      "change": 34.62,
+      "changePercent": 55.54
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.83,
-      "change": 0.19,
-      "changePercent": 3.42
+      "price": 5.78,
+      "change": 0.15,
+      "changePercent": 2.62
     },
     {
       "name": "BHP Group",
       "icon": "⛏️",
       "iconBg": "#e6f2ec",
-      "price": 49.36,
-      "change": -3.38,
-      "changePercent": -6.41
+      "price": 49.73,
+      "change": -3.01,
+      "changePercent": -5.71
     },
     {
       "name": "Rio Tinto",
       "icon": "🏗️",
       "iconBg": "#eff6ff",
-      "price": 155.65,
-      "change": -7.38,
-      "changePercent": -4.53
+      "price": 155.18,
+      "change": -7.85,
+      "changePercent": -4.82
     }
   ],
   "rbaRate": {
@@ -394,6 +394,69 @@
   ],
   "news": [
     {
+      "title": "Crown Melbourne cuts 200 jobs, blaming regulation and ‘challenging’ economy",
+      "link": "https://www.smh.com.au/business/companies/crown-melbourne-cuts-200-jobs-blaming-regulation-and-challenging-economy-20260317-p5oke4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Crown Resorts says it will cut 200 staff in Melbourne as cost of living factors curb customer spending, and as it faces stringent regulation.",
+      "pubDate": "Tue, 17 Mar 2026 18:15:52 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Leach pad re-crush ramps as Pacgold stacks SA gold hits",
+      "link": "https://www.smh.com.au/business/companies/leach-pad-re-crush-ramps-as-pacgold-stacks-sa-gold-hits-20260317-p5okeq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Pacgold Ltd’s White Dam drilling results have continued to support a resource upgrade as it commissions new crushing equipment and kicks off its leach dump re-crush program.",
+      "pubDate": "Tue, 17 Mar 2026 17:51:06 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "‘I haven’t heard anything’: Sandilands in the dark as deadline looms",
+      "link": "https://www.smh.com.au/business/companies/i-haven-t-heard-anything-sandilands-in-the-dark-as-deadline-looms-20260317-p5ob3x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The broadcaster declared his listeners wanted him to be back on air on Tuesday, hours before a deadline that could determine his future.",
+      "pubDate": "Tue, 17 Mar 2026 17:20:00 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Litchfield builds momentum across Northern Territory copper hunt",
+      "link": "https://www.smh.com.au/business/companies/litchfield-builds-momentum-across-northern-territory-copper-hunt-20260317-p5ok34.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Litchfield Minerals is continuing to drill its NT copper project, with assays pending and more RC holes to test geophysical anomalies, as a new senior geologist joins the crew.",
+      "pubDate": "Tue, 17 Mar 2026 16:46:46 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Siren reveals wider gold system at flagship NZ project",
+      "link": "https://www.smh.com.au/business/companies/siren-reveals-wider-gold-system-at-flagship-nz-project-20260317-p5ohql.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Siren Gold looks set for a multi-deposit gold resource at its Sam’s Creek project in NZ after a 19m hit came in at 1.30g/t gold 500m west of its existing 824,000-ounce resource.",
+      "pubDate": "Tue, 17 Mar 2026 16:15:45 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "For all the bluster, the watchdog can’t save us from petrol ‘gouging’",
+      "link": "https://www.smh.com.au/business/consumer-affairs/for-all-the-bluster-the-watchdog-can-t-save-us-from-petrol-gouging-20260317-p5ob7s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "What consumers call “gouging” or “profiteering” is what economists describe as the operation of supply and demand.",
+      "pubDate": "Tue, 17 Mar 2026 15:48:35 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Hiking rates is such a blunt instrument. There are other, better ways to target inflation",
+      "link": "https://www.smh.com.au/business/the-economy/hiking-rates-is-such-a-blunt-instrument-there-are-other-better-ways-to-target-inflation-20260317-p5ob3u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "If the RBA unleashes further painful interest rate hikes, we risk severely hurting the economy and plunging into recession without reducing inflation at all.",
+      "pubDate": "Tue, 17 Mar 2026 15:36:09 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Viking fast-tracks US tungsten processing plan with global partner",
+      "link": "https://www.smh.com.au/business/companies/viking-fast-tracks-us-tungsten-processing-plan-with-global-partner-20260317-p5ofls.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Viking Mines has engaged a global specialist to fast-track its US tungsten project, leveraging modular processing technology.",
+      "pubDate": "Tue, 17 Mar 2026 15:24:18 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "What Rankine learned after AFL ban, Swans back their new 'focal point'",
+      "link": "https://www.abc.net.au/news/2026-03-17/afl-izak-rankine-adelaide-crows-sydney-swans-charlie-curnow/106464680",
+      "snippet": "",
+      "pubDate": "Tue, 17 Mar 2026 03:55:31 +0000",
+      "source": "ABC News"
+    },
+    {
       "title": "True North eyes more Queensland gold-copper growth",
       "link": "https://www.smh.com.au/business/companies/true-north-eyes-more-queensland-gold-copper-growth-20260317-p5ofkh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Copper-gold explorer True North Copper is looking to Queensland’s Cloncurry district to bolster the company’s gold inventory from a suite of regional targets.",
@@ -408,74 +471,11 @@
       "source": "SMH Business"
     },
     {
-      "title": "Dateline wraps up airborne survey targeting new US rare earths",
-      "link": "https://www.smh.com.au/business/companies/dateline-wraps-up-airborne-survey-targeting-new-us-rare-earths-20260317-p5ob7y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dateline has wrapped up a major airborne survey at its newly acquired California heavy rare earths project, with field mapping and rock chip sampling already underway.",
-      "pubDate": "Tue, 17 Mar 2026 12:02:49 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Trump rushes to save his war on the world",
-      "link": "https://www.smh.com.au/business/the-economy/trump-rushes-to-save-his-war-on-the-world-20260317-p5ob3k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "While America was waging war in Iran, Donald Trump began preparing for a renewed assault on America’s trading partners.",
-      "pubDate": "Tue, 17 Mar 2026 11:59:04 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "NeuroScientific readies stem cell supply boost for bowel disease trials",
-      "link": "https://www.smh.com.au/business/companies/neuroscientific-readies-stem-cell-supply-boost-for-bowel-disease-trials-20260317-p5ob7f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "NeuroScientific Biopharmaceuticals has begun transferring the production of stem cells for its StemSmart therapy to Q-Gen in Brisbane, ahead of Crohn’s disease clinical trials.",
-      "pubDate": "Tue, 17 Mar 2026 11:33:38 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "As Middle East routes melt down, British Airways adds flights to Melbourne",
-      "link": "https://www.smh.com.au/business/companies/as-middle-east-routes-melt-down-british-airways-adds-flights-to-melbourne-20260317-p5ob4p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "As conflict ties up airports in the Middle East, British Airways has announced a new route to Australia, launching daily flights between London and Melbourne early next year.",
-      "pubDate": "Tue, 17 Mar 2026 11:28:42 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "ASX trades higher on RBA day after softer oil prices boost Wall Street",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-on-rba-day-as-falling-oil-prices-boost-wall-street-20260317-p5ob1z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The local sharemarket opened higher, following gains on Wall Street. Banks gained ahead of the Reserve Bank’s interest rate decision.",
-      "pubDate": "Tue, 17 Mar 2026 11:02:46 +1100",
-      "source": "SMH Business"
-    },
-    {
       "title": "Towns pick up pieces after loss of Commonwealth Games that should have started today",
       "link": "https://www.abc.net.au/news/2026-03-17/story-commonwealth-games-anniversary-victoria/106451122",
       "snippet": "",
       "pubDate": "Mon, 16 Mar 2026 21:34:11 +0000",
       "source": "ABC News"
-    },
-    {
-      "title": "Atlassian says it had right to fire engineer for suggesting billionaire CEO was a ‘rich jerk’",
-      "link": "https://www.smh.com.au/business/companies/atlassian-says-it-had-right-to-fire-engineer-for-suggesting-billionaire-ceo-was-a-rich-jerk-20260317-p5ob31.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The dispute started during an “Ask Me Anything” video call with employees that included chief executive officer Mike Cannon-Brookes.",
-      "pubDate": "Tue, 17 Mar 2026 08:11:34 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Chelsea receives record Premier League fine for breaches of financial rules",
-      "link": "https://www.abc.net.au/news/2026-03-17/chelsea-receives-record-premier-league-fine-financial-breaches/106462694",
-      "snippet": "",
-      "pubDate": "Mon, 16 Mar 2026 21:07:18 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "Australian tennis coach cops doping ban after admitting to blood transfusion",
-      "link": "https://www.abc.net.au/news/2026-03-17/former-tennis-player-marinko-matosevic-doping-ban/106462648",
-      "snippet": "",
-      "pubDate": "Mon, 16 Mar 2026 20:22:17 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "Billionaires pledged to give away most of their money. Now there is a backlash",
-      "link": "https://www.smh.com.au/business/the-economy/billionaires-pledged-to-give-away-most-of-their-money-now-there-is-a-backlash-20260316-p5oapz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Billionaires rushed to sign a pledge promising to donate most of their fortunes when it was launched in 2010. But times have changed.",
-      "pubDate": "Tue, 17 Mar 2026 06:22:00 +1100",
-      "source": "SMH Business"
     }
   ]
 }
