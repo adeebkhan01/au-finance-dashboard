@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-17T07:35:31.962Z",
+  "fetchedAt": "2026-03-17T13:56:21.916Z",
   "asx200": {
     "value": 8614.3,
     "change": -344.6,
@@ -84,6 +84,10 @@
         "close": 8617.1
       },
       {
+        "date": "2026-03-15",
+        "close": 8583.4
+      },
+      {
         "date": "2026-03-17",
         "close": 8614.3
       }
@@ -92,7 +96,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0,
+    "changePercent": 0.54,
     "previousClose": 0.71,
     "asOf": "2026-03-17",
     "history": [
@@ -173,6 +177,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-03-16",
+        "close": 0.7
+      },
+      {
         "date": "2026-03-17",
         "close": 0.71
       }
@@ -183,33 +191,33 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 5019,
-      "change": 136.1,
-      "changePercent": 2.79
+      "price": 5030.1,
+      "change": 147.2,
+      "changePercent": 3.01
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 81.15,
-      "change": 7.7,
-      "changePercent": 10.49
+      "price": 81.39,
+      "change": 7.94,
+      "changePercent": 10.81
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 96.95,
-      "change": 34.62,
-      "changePercent": 55.54
+      "price": 93.43,
+      "change": 31.1,
+      "changePercent": 49.9
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.78,
-      "change": 0.15,
-      "changePercent": 2.62
+      "price": 5.8,
+      "change": 0.16,
+      "changePercent": 2.92
     },
     {
       "name": "BHP Group",
@@ -394,6 +402,27 @@
   ],
   "news": [
     {
+      "title": "Quick hits: Sam Kerr provides geometric genius as Katrina Gorry takes a battering",
+      "link": "https://www.abc.net.au/news/2026-03-17/matildas-vs-china-quick-hits-sam-kerr-katrina-gorry/106465958",
+      "snippet": "",
+      "pubDate": "Tue, 17 Mar 2026 12:58:27 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "‘I have a job interview at Lowes’: Sandilands jokes about his future as deadline looms",
+      "link": "https://www.smh.com.au/business/companies/i-haven-t-heard-anything-sandilands-in-the-dark-as-deadline-looms-20260317-p5ob3x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The broadcaster declared his listeners wanted him to be back on air on Tuesday, hours before a deadline that could determine his future.",
+      "pubDate": "Tue, 17 Mar 2026 20:30:51 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Matildas book place in Asian Cup final with lion-hearted win over China",
+      "link": "https://www.abc.net.au/news/2026-03-17/matildas-vs-china-womens-asian-cup-semifinal-live-updates/106465674",
+      "snippet": "",
+      "pubDate": "Tue, 17 Mar 2026 08:42:56 +0000",
+      "source": "ABC News"
+    },
+    {
       "title": "Crown Melbourne cuts 200 jobs, blaming regulation and ‘challenging’ economy",
       "link": "https://www.smh.com.au/business/companies/crown-melbourne-cuts-200-jobs-blaming-regulation-and-challenging-economy-20260317-p5oke4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Crown Resorts says it will cut 200 staff in Melbourne as cost of living factors curb customer spending, and as it faces stringent regulation.",
@@ -405,13 +434,6 @@
       "link": "https://www.smh.com.au/business/companies/leach-pad-re-crush-ramps-as-pacgold-stacks-sa-gold-hits-20260317-p5okeq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Pacgold Ltd’s White Dam drilling results have continued to support a resource upgrade as it commissions new crushing equipment and kicks off its leach dump re-crush program.",
       "pubDate": "Tue, 17 Mar 2026 17:51:06 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "‘I haven’t heard anything’: Sandilands in the dark as deadline looms",
-      "link": "https://www.smh.com.au/business/companies/i-haven-t-heard-anything-sandilands-in-the-dark-as-deadline-looms-20260317-p5ob3x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The broadcaster declared his listeners wanted him to be back on air on Tuesday, hours before a deadline that could determine his future.",
-      "pubDate": "Tue, 17 Mar 2026 17:20:00 +1100",
       "source": "SMH Business"
     },
     {
@@ -436,9 +458,9 @@
       "source": "SMH Business"
     },
     {
-      "title": "Hiking rates is such a blunt instrument. There are other, better ways to target inflation",
+      "title": "Increasing rates is such a blunt instrument. There are other, better ways to target inflation",
       "link": "https://www.smh.com.au/business/the-economy/hiking-rates-is-such-a-blunt-instrument-there-are-other-better-ways-to-target-inflation-20260317-p5ob3u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "If the RBA unleashes further painful interest rate hikes, we risk severely hurting the economy and plunging into recession without reducing inflation at all.",
+      "snippet": "If the RBA unleashes further painful interest rate rises, we risk severely hurting the economy and plunging into recession without reducing inflation at all.",
       "pubDate": "Tue, 17 Mar 2026 15:36:09 +1100",
       "source": "SMH Business"
     },
@@ -462,20 +484,6 @@
       "snippet": "Copper-gold explorer True North Copper is looking to Queensland’s Cloncurry district to bolster the company’s gold inventory from a suite of regional targets.",
       "pubDate": "Tue, 17 Mar 2026 14:11:00 +1100",
       "source": "SMH Business"
-    },
-    {
-      "title": "Catalano’s newspapers not for sale, says ‘pissed off’ company boss",
-      "link": "https://www.smh.com.au/business/companies/catalano-s-newspapers-not-for-sale-says-pissed-off-company-boss-20260317-p5ob8n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The boss of the regional publishing company co-owned by Antony Catalano said he found out about the allegations against the media entrepreneur via press reports.",
-      "pubDate": "Tue, 17 Mar 2026 13:41:04 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Towns pick up pieces after loss of Commonwealth Games that should have started today",
-      "link": "https://www.abc.net.au/news/2026-03-17/story-commonwealth-games-anniversary-victoria/106451122",
-      "snippet": "",
-      "pubDate": "Mon, 16 Mar 2026 21:34:11 +0000",
-      "source": "ABC News"
     }
   ]
 }
