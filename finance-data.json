@@ -1,16 +1,12 @@
 {
-  "fetchedAt": "2026-03-17T19:33:41.297Z",
+  "fetchedAt": "2026-03-18T03:25:02.153Z",
   "asx200": {
-    "value": 8614.3,
-    "change": -344.6,
-    "changePercent": -3.85,
-    "previousClose": 8958.9,
-    "asOf": "2026-03-17",
+    "value": 8636.8,
+    "change": -370.2,
+    "changePercent": -4.11,
+    "previousClose": 9007,
+    "asOf": "2026-03-18",
     "history": [
-      {
-        "date": "2026-02-16",
-        "close": 8958.9
-      },
       {
         "date": "2026-02-17",
         "close": 9007
@@ -88,22 +84,22 @@
         "close": 8583.4
       },
       {
-        "date": "2026-03-17",
+        "date": "2026-03-16",
         "close": 8614.3
+      },
+      {
+        "date": "2026-03-18",
+        "close": 8636.8
       }
     ]
   },
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.44,
+    "changePercent": 0.35,
     "previousClose": 0.71,
-    "asOf": "2026-03-17",
+    "asOf": "2026-03-18",
     "history": [
-      {
-        "date": "2026-02-17",
-        "close": 0.71
-      },
       {
         "date": "2026-02-18",
         "close": 0.71
@@ -183,6 +179,10 @@
       {
         "date": "2026-03-17",
         "close": 0.71
+      },
+      {
+        "date": "2026-03-18",
+        "close": 0.71
       }
     ]
   },
@@ -191,49 +191,49 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 5003.3,
-      "change": 120.4,
-      "changePercent": 2.47
+      "price": 4997.5,
+      "change": 114.6,
+      "changePercent": 2.35
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 79.25,
-      "change": 5.8,
-      "changePercent": 7.9
+      "price": 78.83,
+      "change": 5.38,
+      "changePercent": 7.32
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 95.15,
-      "change": 32.82,
-      "changePercent": 52.66
+      "price": 93.7,
+      "change": 31.37,
+      "changePercent": 50.33
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.77,
-      "change": 0.13,
-      "changePercent": 2.39
+      "price": 5.75,
+      "change": 0.11,
+      "changePercent": 2.02
     },
     {
       "name": "BHP Group",
       "icon": "⛏️",
       "iconBg": "#e6f2ec",
-      "price": 49.73,
-      "change": -3.01,
-      "changePercent": -5.71
+      "price": 49.95,
+      "change": -2.34,
+      "changePercent": -4.48
     },
     {
       "name": "Rio Tinto",
       "icon": "🏗️",
       "iconBg": "#eff6ff",
-      "price": 155.18,
-      "change": -7.85,
-      "changePercent": -4.82
+      "price": 155.43,
+      "change": -9.76,
+      "changePercent": -5.91
     }
   ],
   "rbaRate": {
@@ -402,87 +402,87 @@
   ],
   "news": [
     {
-      "title": "Warner Bros boss set for $984 million windfall from Paramount sale",
-      "link": "https://www.smh.com.au/business/companies/warner-bros-boss-set-for-984-million-windfall-from-paramount-sale-20260318-p5okgo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "David Zaslav is being rewarded handsomely after overseeing the blockbuster takeover of the Harry Potter studio by Paramount.",
-      "pubDate": "Wed, 18 Mar 2026 06:20:52 +1100",
+      "title": "‘I don’t accept it’: Sandilands to fight $100 million KIIS termination",
+      "link": "https://www.smh.com.au/business/companies/kyle-sandilands-says-contract-has-been-terminated-20260318-p5okhn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The controversial broadcaster said he was willing to work with someone other than Jackie “O” Henderson if that was necessary to get back on the air, but his employer wouldn’t accept it.",
+      "pubDate": "Wed, 18 Mar 2026 14:04:14 +1100",
       "source": "SMH Business"
     },
     {
-      "title": "ASX set to edge up as Wall Street climbs; Oil prices advance",
+      "title": "West Wits pours first gold at South African mine",
+      "link": "https://www.smh.com.au/business/companies/west-wits-pours-first-gold-at-south-african-mine-20260318-p5ot2z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "West Wits Mining has poured its first gold from Qala Shallows, becoming the newest gold producer from the historic Witwatersrand Basin in South Africa.",
+      "pubDate": "Wed, 18 Mar 2026 13:29:42 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Trump’s war is wreaking more havoc than you think",
+      "link": "https://www.smh.com.au/business/markets/trump-s-war-is-wreaking-more-havoc-than-you-think-20260318-p5okiq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Oil and petrol prices get most of the headlines, but the economic damage inflicted on the world is much more widespread, and will last longer.",
+      "pubDate": "Wed, 18 Mar 2026 11:59:35 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Who will pay for Kyle Sandilands’ KIIS goodbye?",
+      "link": "https://www.smh.com.au/business/companies/who-will-pay-for-kyle-sandilands-kiis-goodbye-20260318-p5okj2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The controversial broadcaster has officially been dumped from the most lucrative contract in Australian media, but a legal battle royale has only just begun.",
+      "pubDate": "Wed, 18 Mar 2026 11:56:51 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "ASX inches higher after oil drop boosts Wall Street; Woodside names CEO",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-as-wall-street-climbs-oil-prices-advance-20260318-p5okgp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Oil prices are resuming their rise because of the war with Iran, but US stocks are holding steadier this time around.",
-      "pubDate": "Wed, 18 Mar 2026 05:20:32 +1100",
+      "snippet": "A drop in oil prices has helped send the US stock market to its best day since the war in Iran began.",
+      "pubDate": "Wed, 18 Mar 2026 11:14:58 +1100",
       "source": "SMH Business"
     },
     {
-      "title": "The conversation women can’t afford to avoid",
-      "link": "https://www.smh.com.au/business/the-economy/the-conversation-women-can-t-afford-to-avoid-20260311-p5o9jk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "It’s a curious thing. Australian women are more educated and active in the workforce than ever, yet we’re still reluctant to chat openly about our finances.",
-      "pubDate": "Wed, 18 Mar 2026 05:00:00 +1100",
+      "title": "BHP names new boss with chief Mike Henry to stand down after six years",
+      "link": "https://www.smh.com.au/business/companies/bhp-chief-mike-henry-to-stand-down-20260318-p5okii.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "BHP Americas chief Brandon Craig will succeed Henry as chief executive of Australia’s largest mining company in July.",
+      "pubDate": "Wed, 18 Mar 2026 10:30:56 +1100",
       "source": "SMH Business"
     },
     {
-      "title": "AI is being blamed for tech layoffs. Are IT students worried?",
-      "link": "https://www.smh.com.au/business/ai-is-being-blamed-for-tech-layoffs-are-it-students-worried-20260317-p5oflh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Artificial intelligence is being cited as the primary driver for thousands of job cuts in tech. So what happens when you&#39;re studying to join the field?",
-      "pubDate": "Wed, 18 Mar 2026 05:00:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Uber, taxi drivers push for fare increases amid fuel crisis",
-      "link": "https://www.smh.com.au/business/consumer-affairs/uber-taxi-drivers-push-for-fare-increases-amid-fuel-crisis-20260317-p5ofll.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "While motorists pay more at the bowser, fares on rideshare platforms and in taxis have remained stagnant, leaving professional drivers to foot the bill",
-      "pubDate": "Wed, 18 Mar 2026 05:00:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Quick hits: Sam Kerr provides geometric genius as Katrina Gorry takes a battering",
-      "link": "https://www.abc.net.au/news/2026-03-17/matildas-vs-china-quick-hits-sam-kerr-katrina-gorry/106465958",
+      "title": "Senegal's AFCON win overturned months after controversial final",
+      "link": "https://www.abc.net.au/news/2026-03-18/senegal-stripped-of-afcon-title-morocco-declared-winner/106467082",
       "snippet": "",
-      "pubDate": "Tue, 17 Mar 2026 12:58:27 +0000",
+      "pubDate": "Tue, 17 Mar 2026 22:39:55 +0000",
       "source": "ABC News"
     },
     {
-      "title": "‘I have a job interview at Lowes’: Sandilands jokes about his future as deadline looms",
-      "link": "https://www.smh.com.au/business/companies/i-haven-t-heard-anything-sandilands-in-the-dark-as-deadline-looms-20260317-p5ob3x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The broadcaster declared his listeners wanted him to be back on air on Tuesday, hours before a deadline that could determine his future.",
-      "pubDate": "Tue, 17 Mar 2026 20:30:51 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Matildas book place in Asian Cup final with lion-hearted win over China",
-      "link": "https://www.abc.net.au/news/2026-03-17/matildas-vs-china-womens-asian-cup-semifinal-live-updates/106465674",
+      "title": "Adelaide 36ers into their first NBL grand final since 2018",
+      "link": "https://www.abc.net.au/news/2026-03-18/bryce-cotton-steers-adelaide-36ers-into-nbl-grand-final/106466856",
       "snippet": "",
-      "pubDate": "Tue, 17 Mar 2026 08:42:56 +0000",
+      "pubDate": "Tue, 17 Mar 2026 21:11:45 +0000",
       "source": "ABC News"
     },
     {
-      "title": "Crown Melbourne cuts 200 jobs, blaming regulation and ‘challenging’ economy",
-      "link": "https://www.smh.com.au/business/companies/crown-melbourne-cuts-200-jobs-blaming-regulation-and-challenging-economy-20260317-p5oke4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Crown Resorts says it will cut 200 staff in Melbourne as cost of living factors curb customer spending, and as it faces stringent regulation.",
-      "pubDate": "Tue, 17 Mar 2026 18:15:52 +1100",
-      "source": "SMH Business"
+      "title": "Matildas coach explains Raso absence in Asian Cup semifinal win over China",
+      "link": "https://www.abc.net.au/news/2026-03-18/joe-montemurro-explains-hayley-raso-absence-matildas-china/106466894",
+      "snippet": "",
+      "pubDate": "Tue, 17 Mar 2026 21:06:21 +0000",
+      "source": "ABC News"
     },
     {
-      "title": "Leach pad re-crush ramps as Pacgold stacks SA gold hits",
-      "link": "https://www.smh.com.au/business/companies/leach-pad-re-crush-ramps-as-pacgold-stacks-sa-gold-hits-20260317-p5okeq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Pacgold Ltd’s White Dam drilling results have continued to support a resource upgrade as it commissions new crushing equipment and kicks off its leach dump re-crush program.",
-      "pubDate": "Tue, 17 Mar 2026 17:51:06 +1100",
-      "source": "SMH Business"
+      "title": "Pendlebury avoids ban due to 'exceptional circumstances', but no 'good bloke clause'",
+      "link": "https://www.abc.net.au/news/2026-03-18/scott-pendlebury-avoids-suspension-afl-tribunal/106466826",
+      "snippet": "",
+      "pubDate": "Tue, 17 Mar 2026 20:04:16 +0000",
+      "source": "ABC News"
     },
     {
-      "title": "Litchfield builds momentum across Northern Territory copper hunt",
-      "link": "https://www.smh.com.au/business/companies/litchfield-builds-momentum-across-northern-territory-copper-hunt-20260317-p5ok34.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Litchfield Minerals is continuing to drill its NT copper project, with assays pending and more RC holes to test geophysical anomalies, as a new senior geologist joins the crew.",
-      "pubDate": "Tue, 17 Mar 2026 16:46:46 +1100",
-      "source": "SMH Business"
+      "title": "Kerr single-handedly alters the Matildas' destiny, now others must come along for the ride",
+      "link": "https://www.abc.net.au/news/2026-03-18/matildas-v-china-semi-final-womens-asian-cup-butterfly-effect/106464262",
+      "snippet": "",
+      "pubDate": "Tue, 17 Mar 2026 19:42:39 +0000",
+      "source": "ABC News"
     },
     {
-      "title": "Siren reveals wider gold system at flagship NZ project",
-      "link": "https://www.smh.com.au/business/companies/siren-reveals-wider-gold-system-at-flagship-nz-project-20260317-p5ohql.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Siren Gold looks set for a multi-deposit gold resource at its Sam’s Creek project in NZ after a 19m hit came in at 1.30g/t gold 500m west of its existing 824,000-ounce resource.",
-      "pubDate": "Tue, 17 Mar 2026 16:15:45 +1100",
+      "title": "Billionaire boss: The eye-watering payday for Warner Bros CEO after Paramount deal",
+      "link": "https://www.smh.com.au/business/companies/warner-bros-boss-set-for-984-million-windfall-from-paramount-sale-20260318-p5okgo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "David Zaslav is being rewarded handsomely after overseeing the blockbuster takeover by Paramount.",
+      "pubDate": "Wed, 18 Mar 2026 06:20:52 +1100",
       "source": "SMH Business"
     }
   ]
