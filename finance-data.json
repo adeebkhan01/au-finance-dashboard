@@ -1,16 +1,12 @@
 {
-  "fetchedAt": "2026-03-18T19:28:52.428Z",
+  "fetchedAt": "2026-03-19T03:25:35.306Z",
   "asx200": {
-    "value": 8640.6,
-    "change": -366.4,
-    "changePercent": -4.07,
-    "previousClose": 9007,
-    "asOf": "2026-03-18",
+    "value": 8517.2,
+    "change": -569,
+    "changePercent": -6.26,
+    "previousClose": 9086.2,
+    "asOf": "2026-03-19",
     "history": [
-      {
-        "date": "2026-02-17",
-        "close": 9007
-      },
       {
         "date": "2026-02-18",
         "close": 9086.2
@@ -88,22 +84,22 @@
         "close": 8614.3
       },
       {
-        "date": "2026-03-18",
+        "date": "2026-03-17",
         "close": 8640.6
+      },
+      {
+        "date": "2026-03-19",
+        "close": 8517.2
       }
     ]
   },
   "audusd": {
-    "value": 0.7,
+    "value": 0.71,
     "change": 0,
-    "changePercent": -0.56,
-    "previousClose": 0.71,
-    "asOf": "2026-03-18",
+    "changePercent": 0.13,
+    "previousClose": 0.7,
+    "asOf": "2026-03-19",
     "history": [
-      {
-        "date": "2026-02-18",
-        "close": 0.71
-      },
       {
         "date": "2026-02-19",
         "close": 0.7
@@ -182,7 +178,11 @@
       },
       {
         "date": "2026-03-18",
-        "close": 0.7
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.71
       }
     ]
   },
@@ -191,49 +191,49 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 4864.9,
-      "change": -121.6,
-      "changePercent": -2.44
+      "price": 4865.5,
+      "change": -121,
+      "changePercent": -2.43
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 76.51,
-      "change": -1,
-      "changePercent": -1.3
+      "price": 76.52,
+      "change": -0.99,
+      "changePercent": -1.28
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 96.49,
-      "change": 31.3,
-      "changePercent": 48.01
+      "price": 96.04,
+      "change": 30.85,
+      "changePercent": 47.32
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.54,
-      "change": -0.26,
-      "changePercent": -4.45
+      "price": 5.53,
+      "change": -0.27,
+      "changePercent": -4.63
     },
     {
       "name": "BHP Group",
       "icon": "⛏️",
       "iconBg": "#e6f2ec",
-      "price": 50.09,
-      "change": -2.2,
-      "changePercent": -4.21
+      "price": 48.67,
+      "change": -4.56,
+      "changePercent": -8.57
     },
     {
       "name": "Rio Tinto",
       "icon": "🏗️",
       "iconBg": "#eff6ff",
-      "price": 156.38,
-      "change": -8.81,
-      "changePercent": -5.33
+      "price": 151.73,
+      "change": -16.82,
+      "changePercent": -9.98
     }
   ],
   "rbaRate": {
@@ -402,88 +402,88 @@
   ],
   "news": [
     {
-      "title": "ASX set to slump as Wall Street falls; Fed chief warns of war uncertainty as rates stay on hold",
+      "title": "Infini locks in key contractors for Canadian uranium push",
+      "link": "https://www.smh.com.au/business/companies/infini-locks-in-key-contractors-for-canadian-uranium-push-20260319-p5q901.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Infini Resources has locked in key firms for the company’s upcoming drill program at two of its Canadian uranium projects in the nation’s renowned Athabasca Basin.",
+      "pubDate": "Thu, 19 Mar 2026 14:02:52 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Dateline buys second rig for US gold-rare earths drilling blitz",
+      "link": "https://www.smh.com.au/business/companies/dateline-buys-second-rig-for-us-gold-rare-earths-drilling-blitz-20260319-p5q3av.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Dateline Resources has purchased a second drill rig to work at its flagship Colosseum project in California, accelerating its gold and rare earth exploration program.",
+      "pubDate": "Thu, 19 Mar 2026 12:31:35 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "‘Nobody knows’: Trump has left an old foe in the dark",
+      "link": "https://www.smh.com.au/business/the-economy/nobody-knows-trump-has-left-an-old-foe-in-the-dark-20260319-p5pqxa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Federal Reserve chair Jerome Powell has effectively acknowledged that the central bank hasn’t a clue what the impact of the Iran war might mean for the US economy.",
+      "pubDate": "Thu, 19 Mar 2026 11:58:11 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "ASX slumps as oil prices jump again; Unemployment rises; Fed stays on hold",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-slump-as-soaring-oil-prices-hit-wall-street-fed-stays-on-hold-20260319-p5pqw6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "US stocks are sinking after another climb for oil prices raised worries about inflation, while the Federal Reserve stayed on hold.",
-      "pubDate": "Thu, 19 Mar 2026 06:24:35 +1100",
+      "snippet": "The Australian sharemarket slid in early trade as oil prices spiked yet again following attacks on some of the Middle East’s most important energy facilities.",
+      "pubDate": "Thu, 19 Mar 2026 11:54:06 +1100",
       "source": "SMH Business"
     },
     {
-      "title": "Quick hits: Matildas put on notice as Japan soar into Asian Cup final",
-      "link": "https://www.abc.net.au/news/2026-03-19/japan-matildas-south-korea-asian-cup-final/106469610",
+      "title": "Rohan Dennis's online post described as 'deeply offensive'",
+      "link": "https://www.abc.net.au/news/2026-03-19/instagram-post-shared-by-rohan-dennis-labelled-deeply-offensive/106472330",
       "snippet": "",
-      "pubDate": "Wed, 18 Mar 2026 19:14:59 +0000",
+      "pubDate": "Thu, 19 Mar 2026 00:49:14 +0000",
       "source": "ABC News"
     },
     {
-      "title": "Jetstar flyers booted from Qantas lounge in rule change",
-      "link": "https://www.smh.com.au/business/companies/jetstar-flyers-booted-from-qantas-lounge-in-rule-change-20260318-p5pqvn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The change brings an end to the era of easy Qantas lounge access for customers of the low-cost carrier.",
-      "pubDate": "Thu, 19 Mar 2026 05:56:11 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Japan storm into Asian Cup final against Matildas with ominous dismantling of South Korea",
-      "link": "https://www.abc.net.au/news/2026-03-18/south-korea-vs-japan-live-blog-womens-asian-cup/106469438",
+      "title": "Dragons forward rushed to hospital in ambulance after training incident",
+      "link": "https://www.abc.net.au/news/2026-03-19/nrl-news-dragons-training-hospital-broncos-storm/106471896",
       "snippet": "",
-      "pubDate": "Wed, 18 Mar 2026 08:20:12 +0000",
+      "pubDate": "Wed, 18 Mar 2026 23:28:12 +0000",
       "source": "ABC News"
     },
     {
-      "title": "'Moment of pride': Venezuela edges US to win first World Baseball Classic",
-      "link": "https://www.abc.net.au/news/2026-03-18/world-baseball-classic-final-venezuela-united-states/106470290",
+      "title": "Kyle and Jackie O lose listeners in final ratings survey",
+      "link": "https://www.smh.com.au/business/companies/kyle-and-jackie-o-lose-listeners-in-final-ratings-survey-20260318-p5oqr8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The year’s first radio ratings survey covered a period while the duo were mostly still on air together. But Jackie “O” Henderson’s exit after their blow-up appears to have negatively impacted the show’s total audience.",
+      "pubDate": "Thu, 19 Mar 2026 10:26:29 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "The Lazy CEO’s secret to working smarter, not harder",
+      "link": "https://www.smh.com.au/business/workplace/the-lazy-ceo-s-secret-to-working-smarter-not-harder-20260316-p5oatp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Jane Lu has built one of Australia’s most successful fashion businesses by challenging one of startup culture’s most celebrated ideas: that success comes from working longer and harder than everyone else.",
+      "pubDate": "Thu, 19 Mar 2026 09:51:07 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "The lazy CEO: Jane Lu on building her $100M empire",
+      "link": "https://www.smh.com.au/business/workplace/the-lazy-ceo-jane-lu-on-building-her-100m-empire-20260316-p5oaug.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "At Showpo headquarters in Sydney’s inner west, the pace is fast, the team energetic and the racks of new-season dresses never stop moving. But founder and CEO Jane Lu insists she isn’t interested in glorifying hustle culture.",
+      "pubDate": "Thu, 19 Mar 2026 09:43:57 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Hawks primed to keep 'ball rolling' against red-hot Swans",
+      "link": "https://www.abc.net.au/news/2026-03-19/hawks-primed-to-keep-ball-rolling-against-swans/106471654",
       "snippet": "",
-      "pubDate": "Wed, 18 Mar 2026 07:22:57 +0000",
+      "pubDate": "Wed, 18 Mar 2026 22:24:52 +0000",
       "source": "ABC News"
     },
     {
-      "title": "Australia’s jet fuel supply is safe for now, but a price crunch is in the pipeline",
-      "link": "https://www.smh.com.au/business/markets/australia-s-jet-fuel-supply-is-safe-for-now-but-a-price-crunch-is-in-the-pipeline-20260316-p5oayn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "China, which is the nation’s biggest supplier of jet fuel, has flagged plans to restrict fuel exports amid disruptions as result from the Iran war.",
-      "pubDate": "Wed, 18 Mar 2026 17:43:26 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Swans dealt injury blow, Hawks warned against 'false sense of security'",
-      "link": "https://www.abc.net.au/news/2026-03-18/afl-sydney-swans-hawthorn-hawks-isaac-heeney/106470128",
+      "title": "Dutch player Noa Lang suffers freak hand injury against Liverpool",
+      "link": "https://www.abc.net.au/news/2026-03-19/barcelona-knock-newcastle-out-of-champions-league/106471572",
       "snippet": "",
-      "pubDate": "Wed, 18 Mar 2026 06:29:25 +0000",
+      "pubDate": "Wed, 18 Mar 2026 21:52:01 +0000",
       "source": "ABC News"
     },
     {
-      "title": "ASX inches higher as oil prices ease; ARN falls after firing Sandilands",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-as-wall-street-climbs-oil-prices-advance-20260318-p5okgp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket edged higher on Wednesday as oil prices eased and Wall Street rose for a second session.",
-      "pubDate": "Wed, 18 Mar 2026 17:27:38 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "DevEx, Barkly map kilometre-scale NT uranium targets",
-      "link": "https://www.smh.com.au/business/companies/devex-barkly-map-kilometre-scale-nt-uranium-targets-20260318-p5p6c3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Barkly partner DevEx has mapped new kilometre-scale uranium soil anomalies at Murphy West in the NT and is preparing permits for a multi-target drill program in 2026.",
-      "pubDate": "Wed, 18 Mar 2026 16:54:18 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Guest thanks Rinehart for organising Sky host’s birthday boat bash",
-      "link": "https://www.smh.com.au/business/companies/guest-thanks-rinehart-for-organising-sky-host-s-birthday-boat-bash-20260318-p5okv3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The head of a club of wealthy female fans of Donald Trump told Rita Panahi she was a women’s equivalent of the president, which the Sky host said was the “highest compliment”.",
-      "pubDate": "Wed, 18 Mar 2026 15:55:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Axed Bulldogs star challenged by coach, why Dolphins welcome fan abuse",
-      "link": "https://www.abc.net.au/news/2026-03-18/nrl-canterbury-bulldogs-bronson-xerri-cameron-ciraldo/106469328",
+      "title": "Basketballer jailed for raping woman texted friends he 'lowkey shouldn't have'",
+      "link": "https://www.abc.net.au/news/2026-03-19/roosvelt-williams-jr-jailed-sexual-assault-woman/106470462",
       "snippet": "",
-      "pubDate": "Wed, 18 Mar 2026 04:42:20 +0000",
+      "pubDate": "Wed, 18 Mar 2026 21:12:04 +0000",
       "source": "ABC News"
-    },
-    {
-      "title": "BHP could’ve made corporate history. Sadly for women, it didn’t",
-      "link": "https://www.smh.com.au/business/companies/bhp-could-ve-made-corporate-history-sadly-for-women-it-didn-t-20260318-p5ons6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Neither BHP’s local boss Geraldine Slattery nor chief financial officer Vandita Pant wore a hard hat strong enough to break the glass ceiling.",
-      "pubDate": "Wed, 18 Mar 2026 15:38:59 +1100",
-      "source": "SMH Business"
     }
   ]
 }
