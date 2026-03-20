@@ -1,16 +1,12 @@
 {
-  "fetchedAt": "2026-03-19T19:27:37.973Z",
+  "fetchedAt": "2026-03-20T03:15:19.925Z",
   "asx200": {
-    "value": 8497.8,
-    "change": -588.4,
-    "changePercent": -6.48,
-    "previousClose": 9086.2,
-    "asOf": "2026-03-19",
+    "value": 8467.1,
+    "change": -614.3,
+    "changePercent": -6.76,
+    "previousClose": 9081.4,
+    "asOf": "2026-03-20",
     "history": [
-      {
-        "date": "2026-02-18",
-        "close": 9086.2
-      },
       {
         "date": "2026-02-19",
         "close": 9081.4
@@ -88,22 +84,18 @@
         "close": 8640.6
       },
       {
-        "date": "2026-03-19",
-        "close": 8497.8
+        "date": "2026-03-20",
+        "close": 8467.1
       }
     ]
   },
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.68,
-    "previousClose": 0.7,
-    "asOf": "2026-03-19",
+    "changePercent": 0.41,
+    "previousClose": 0.71,
+    "asOf": "2026-03-20",
     "history": [
-      {
-        "date": "2026-02-19",
-        "close": 0.7
-      },
       {
         "date": "2026-02-20",
         "close": 0.71
@@ -182,6 +174,10 @@
       },
       {
         "date": "2026-03-19",
+        "close": 0.7
+      },
+      {
+        "date": "2026-03-20",
         "close": 0.71
       }
     ]
@@ -191,49 +187,49 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 4660.7,
-      "change": -315.2,
-      "changePercent": -6.33
+      "price": 4709.8,
+      "change": -266.1,
+      "changePercent": -5.35
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 72.48,
-      "change": -5.08,
-      "changePercent": -6.56
+      "price": 74.17,
+      "change": -3.4,
+      "changePercent": -4.38
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 92.97,
-      "change": 26.54,
-      "changePercent": 39.95
+      "price": 93.6,
+      "change": 27.17,
+      "changePercent": 40.9
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.54,
+      "price": 5.53,
       "change": -0.2,
-      "changePercent": -3.4
+      "changePercent": -3.51
     },
     {
       "name": "BHP Group",
       "icon": "⛏️",
       "iconBg": "#e6f2ec",
-      "price": 48.35,
-      "change": -4.88,
-      "changePercent": -9.17
+      "price": 47.49,
+      "change": -5.84,
+      "changePercent": -10.95
     },
     {
       "name": "Rio Tinto",
       "icon": "🏗️",
       "iconBg": "#eff6ff",
-      "price": 151.35,
-      "change": -17.2,
-      "changePercent": -10.2
+      "price": 146.51,
+      "change": -16.79,
+      "changePercent": -10.28
     }
   ],
   "rbaRate": {
@@ -402,14 +398,70 @@
   ],
   "news": [
     {
-      "title": "How the Matildas went from rent-a-crowd to record crowds at the Asian Cup",
+      "title": "Teen becomes youngest player since Nadal to win ATP Masters 1000 match",
+      "link": "https://www.abc.net.au/news/2026-03-20/moise-kouame-miami-open-atp-masters-1000/106478468",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 02:35:09 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "'Ugly, low cut, too exposed': How girls feel about their sports uniforms",
+      "link": "https://www.abc.net.au/news/2026-03-20/how-girls-feel-about-their-sports-uniforms/106467650",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 02:03:55 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "'The ABC got lucky': How the VFA became must-watch TV for footy fans",
+      "link": "https://www.abc.net.au/news/2026-03-20/vfa-coverage-the-history-of-the-game-on-the-abc/106476798",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 01:56:52 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Sydney-bound Delta flight hit by extreme turbulence, crew members taken to hospital",
+      "link": "https://www.smh.com.au/business/companies/sydney-bound-delta-flight-hit-by-extreme-turbulence-crew-hospitalised-20260320-p5qsd8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A number of people have been injured on a Delta flight from Los Angeles to Sydney this morning.",
+      "pubDate": "Fri, 20 Mar 2026 11:31:47 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "ASX slides lower with more pain for miners; Oil steadies",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-more-losses-as-rising-oil-prices-shake-global-markets-20260320-p5qs8w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket has dipped lower at the open after a spike in crude oil prices eased this morning as the leaders of the US and Israel sought to reassure investors",
+      "pubDate": "Fri, 20 Mar 2026 10:32:55 +1100",
+      "source": "SMH Business"
+    },
+    {
+      "title": "Hawks livewire accuses fans of throwing cans onto MCG",
+      "link": "https://www.abc.net.au/news/2026-03-20/hawks-player-accuses-swans-fans-throwing-cans-mcg/106476620",
+      "snippet": "",
+      "pubDate": "Thu, 19 Mar 2026 21:00:53 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Embattled F1 team dismisses rumours it is seeking new team principal",
+      "link": "https://www.abc.net.au/news/2026-03-20/aston-martin-f1-dismisses-adrian-newey-team-principal-rumours/106476534",
+      "snippet": "",
+      "pubDate": "Thu, 19 Mar 2026 20:14:50 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "FIFA mandates female coaches in its women's competitions",
+      "link": "https://www.abc.net.au/news/2026-03-20/fifa-mandates-female-coaches-in-its-women-competitions/106476500",
+      "snippet": "",
+      "pubDate": "Thu, 19 Mar 2026 19:54:04 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "The 'really dangerous' metric raising unfounded concerns about Matildas crowds",
       "link": "https://www.abc.net.au/news/2026-03-20/womens-asian-cup-final-2006-matildas-china-crowd/106467634",
       "snippet": "",
       "pubDate": "Thu, 19 Mar 2026 19:20:39 +0000",
       "source": "ABC News"
     },
     {
-      "title": "Bulldogs coach needs stitches after glass breaks in 's***house stadium'",
+      "title": "Canberra enforcer facing suspension, 's***house stadium' under fire",
       "link": "https://www.abc.net.au/news/2026-03-20/bulldogs-coach-stitches-after-glass-breaks-canberra-stadium/106476460",
       "snippet": "",
       "pubDate": "Thu, 19 Mar 2026 19:18:01 +0000",
@@ -428,62 +480,6 @@
       "snippet": "The Sundeck Hotel in Perisher Valley, said to be the country’s highest-altitude hotel, has been bought by hospitality investor Peter Dean.",
       "pubDate": "Fri, 20 Mar 2026 05:50:00 +1100",
       "source": "SMH Business"
-    },
-    {
-      "title": "'That's not very lady-like': Teen adds to family's wood-chopping legacy",
-      "link": "https://www.abc.net.au/news/2026-03-20/female-woodchopping-growing-in-size/105995278",
-      "snippet": "",
-      "pubDate": "Thu, 19 Mar 2026 18:33:21 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "ASX set for more losses as rising oil prices shake markets; Uber’s $1.8b robotaxi play",
-      "link": "https://www.smh.com.au/business/markets/asx-set-for-more-losses-as-rising-oil-prices-shake-global-markets-20260320-p5qs8w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Oil prices climbed again because of the war with Iran, tightening their grip on the global economy and sending stock markets lower around the world.",
-      "pubDate": "Fri, 20 Mar 2026 05:11:37 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "A recruiter verbally abused me. Is it safe for me to make a complaint?",
-      "link": "https://www.smh.com.au/business/workplace/a-recruiter-verbally-abused-me-is-it-safe-for-me-to-make-a-complaint-20260319-p5q5ws.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A good recruiter would have put their consternation aside and sought to understand why you seemingly ignored their advice, rather than blowing up at you.",
-      "pubDate": "Fri, 20 Mar 2026 05:01:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Why do workers leave good jobs? Because of bad bosses",
-      "link": "https://www.smh.com.au/business/workplace/why-do-workers-leave-good-jobs-because-of-bad-bosses-20260319-p5q844.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Nearly half of people who quit jobs they like say it’s because they dislike their manager.",
-      "pubDate": "Fri, 20 Mar 2026 05:01:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "The charts that show how the oil shock is worsening and hitting motorists",
-      "link": "https://www.smh.com.au/business/markets/the-charts-that-show-how-the-oil-shock-is-worsening-and-hitting-motorists-20260319-p5pqxw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The longer the crisis persists, the greater the danger of even bigger price rises, or even shortages, hitting home.",
-      "pubDate": "Fri, 20 Mar 2026 05:00:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Filipinos’ Flinders Street plan: Melbourne’s largest hotel with 766 rooms",
-      "link": "https://www.smh.com.au/business/companies/filipinos-flinders-street-plan-melbourne-s-largest-hotel-with-766-rooms-20260319-p5q0mm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A Philippines-based hotel developer has quietly snapped up a Flinders Street development site for more than $25 million and is planning to build a 766-room hotel.",
-      "pubDate": "Fri, 20 Mar 2026 05:00:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "How one CEO’s chatbot could cost his company $355 million",
-      "link": "https://www.smh.com.au/business/companies/how-one-ceo-s-chatbot-could-cost-his-company-355-million-20260319-p5q5nk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "After a takeover soured, the boss turned not to his lawyers but to his chatbot, creating a new dynamic in business.",
-      "pubDate": "Fri, 20 Mar 2026 05:00:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Dogs hold on to down Canberra in brutal wet-weather battle",
-      "link": "https://www.abc.net.au/news/2026-03-19/nrl-canberra-raiders-canterbury-bulldogs-match-report/106472082",
-      "snippet": "",
-      "pubDate": "Thu, 19 Mar 2026 08:21:01 +0000",
-      "source": "ABC News"
     }
   ]
 }
