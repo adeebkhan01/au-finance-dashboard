@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-20T07:28:54.184Z",
+  "fetchedAt": "2026-03-20T13:39:18.209Z",
   "asx200": {
     "value": 8428.4,
     "change": -653,
@@ -84,6 +84,10 @@
         "close": 8640.6
       },
       {
+        "date": "2026-03-18",
+        "close": 8497.8
+      },
+      {
         "date": "2026-03-20",
         "close": 8428.4
       }
@@ -92,7 +96,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.44,
+    "changePercent": 0.07,
     "previousClose": 0.71,
     "asOf": "2026-03-20",
     "history": [
@@ -187,33 +191,33 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 4680.5,
-      "change": -378.8,
-      "changePercent": -7.49
+      "price": 4663.6,
+      "change": -395.7,
+      "changePercent": -7.82
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 71.96,
-      "change": -10.32,
-      "changePercent": -12.55
+      "price": 71.53,
+      "change": -10.76,
+      "changePercent": -13.07
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 94.52,
-      "change": 28.13,
-      "changePercent": 42.37
+      "price": 95.5,
+      "change": 29.11,
+      "changePercent": 43.85
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.5,
-      "change": -0.33,
-      "changePercent": -5.63
+      "price": 5.41,
+      "change": -0.43,
+      "changePercent": -7.31
     },
     {
       "name": "BHP Group",
@@ -398,16 +402,30 @@
   ],
   "news": [
     {
-      "title": "Live: Roosters test their mettle against powerful Panthers",
+      "title": "Bulldog Baker's brilliant goal seals thrilling win over fast-finishing Crows",
+      "link": "https://www.abc.net.au/news/2026-03-20/afl-round-two-friday-live-blog-crows-bulldogs/106479850",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 07:58:49 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Giddey sets new Aussie NBA record as Bulls fall short of miracle comeback",
+      "link": "https://www.abc.net.au/news/2026-03-20/nba-josh-giddey-assists-record-doncic-60-points-lakers-heat/106480240",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 07:37:28 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Brisbane pull off grand final repeat in rematch with Storm",
       "link": "https://www.abc.net.au/news/2026-03-20/nrl-live-updates-roosters-panthers-storm-broncos-/106480150",
       "snippet": "",
       "pubDate": "Fri, 20 Mar 2026 06:35:06 +0000",
       "source": "ABC News"
     },
     {
-      "title": "‘Fool’s solution’: Trump could make the energy disaster worse if he plays his last card",
+      "title": "Trump could make the energy disaster worse if he plays his last card",
       "link": "https://www.smh.com.au/business/the-economy/fool-s-solution-trump-could-make-the-energy-disaster-worse-if-he-plays-his-last-card-20260320-p5qs8x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump is not someone known for making rational moves, and he has one last card to play that could deepen the energy nightmare.",
+      "snippet": "The US president is not someone known for making rational moves, and he has one last card to play that could deepen the energy nightmare.",
       "pubDate": "Fri, 20 Mar 2026 17:35:00 +1100",
       "source": "SMH Business"
     },
@@ -466,20 +484,6 @@
       "snippet": "",
       "pubDate": "Fri, 20 Mar 2026 01:56:52 +0000",
       "source": "ABC News"
-    },
-    {
-      "title": "Sydney-bound Delta flight hit by extreme turbulence, crew members taken to hospital",
-      "link": "https://www.smh.com.au/business/companies/sydney-bound-delta-flight-hit-by-extreme-turbulence-crew-hospitalised-20260320-p5qsd8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A number of people have been injured on a Delta flight from Los Angeles to Sydney this morning.",
-      "pubDate": "Fri, 20 Mar 2026 11:31:47 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "ASX slides lower as miners and banks lose ground",
-      "link": "https://www.smh.com.au/business/markets/asx-set-for-more-losses-as-rising-oil-prices-shake-global-markets-20260320-p5qs8w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket ended the week in the red as the big banks and miners lost ground amid concerns about the Iran war’s impact on energy prices.",
-      "pubDate": "Fri, 20 Mar 2026 10:32:55 +1100",
-      "source": "SMH Business"
     }
   ]
 }
