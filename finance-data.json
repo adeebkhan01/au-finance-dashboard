@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-20T19:11:28.775Z",
+  "fetchedAt": "2026-03-21T03:06:58.742Z",
   "asx200": {
     "value": 8428.4,
     "change": -653,
     "changePercent": -7.19,
     "previousClose": 9081.4,
-    "asOf": "2026-03-20",
+    "asOf": "2026-03-21",
     "history": [
       {
         "date": "2026-02-19",
@@ -88,6 +88,10 @@
         "close": 8497.8
       },
       {
+        "date": "2026-03-19",
+        "close": 8428.4
+      },
+      {
         "date": "2026-03-20",
         "close": 8428.4
       }
@@ -96,9 +100,9 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": -0.62,
+    "changePercent": -0.45,
     "previousClose": 0.71,
-    "asOf": "2026-03-20",
+    "asOf": "2026-03-21",
     "history": [
       {
         "date": "2026-02-20",
@@ -182,6 +186,10 @@
       },
       {
         "date": "2026-03-20",
+        "close": 0.71
+      },
+      {
+        "date": "2026-03-21",
         "close": 0.7
       }
     ]
@@ -191,33 +199,33 @@
       "name": "Gold",
       "icon": "🥇",
       "iconBg": "#fef9ee",
-      "price": 4512.3,
-      "change": -547,
-      "changePercent": -10.81
+      "price": 4492,
+      "change": -567.3,
+      "changePercent": -11.21
     },
     {
       "name": "Silver",
       "icon": "🥈",
       "iconBg": "#f8f9fa",
-      "price": 68.38,
-      "change": -13.91,
-      "changePercent": -16.9
+      "price": 67.81,
+      "change": -14.47,
+      "changePercent": -17.59
     },
     {
       "name": "Crude Oil (WTI)",
       "icon": "🛢️",
       "iconBg": "#f3f0f9",
-      "price": 98.31,
-      "change": 31.92,
-      "changePercent": 48.08
+      "price": 98.09,
+      "change": 31.7,
+      "changePercent": 47.75
     },
     {
       "name": "Copper",
       "icon": "🔶",
       "iconBg": "#fef0e6",
-      "price": 5.34,
-      "change": -0.49,
-      "changePercent": -8.47
+      "price": 5.3,
+      "change": -0.53,
+      "changePercent": -9.07
     },
     {
       "name": "BHP Group",
@@ -402,6 +410,62 @@
   ],
   "news": [
     {
+      "title": "Live: New-look Knights face Warriors without its two biggest stars",
+      "link": "https://www.abc.net.au/news/2026-03-21/nrl-live-knights-warriors-sharks-dolphins-rabbitohs-tigers/106476776",
+      "snippet": "",
+      "pubDate": "Sat, 21 Mar 2026 02:59:33 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Live: Richmond face Hardwick reunion, as Tassie makes VFL history",
+      "link": "https://www.abc.net.au/news/2026-03-21/afl-r2-tigers-suns-gws-saints-freo-dees-live-blog/106480120",
+      "snippet": "",
+      "pubDate": "Sat, 21 Mar 2026 01:50:22 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Matildas defender Kaitlyn Torpey is a goldfish, and it's taking her to new heights",
+      "link": "https://www.abc.net.au/news/2026-03-21/matildas-kaitlyn-torpey-womens-asian-cup-goldfish-mentality/106480820",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 21:22:32 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Aussie Olyslagers claims silver at World Athletics Indoor Championships",
+      "link": "https://www.abc.net.au/news/2026-03-21/world-indoor-athletics-championships-nicola-olyslagers/106481450",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 20:45:53 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "How to watch Matildas vs Japan in the Women's Asian Cup final",
+      "link": "https://www.abc.net.au/news/2026-03-21/matildas-japan-womens-asian-cup-final-how-to-follow/106479722",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 20:32:42 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Small but mighty cheers for team Japan at Asian Cup final",
+      "link": "https://www.abc.net.au/news/2026-03-21/womens-asian-cup-2026-japanese-diaspora-support-team/106479958",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 20:19:39 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "The 'crazy' running challenge pushing people to their limits",
+      "link": "https://www.abc.net.au/news/2026-03-21/last-man-standing-ultrarunning-challenge/106478220",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 20:15:44 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Australia's Cam McEvoy breaks 17-year-old 50m freestyle world record",
+      "link": "https://www.abc.net.au/news/2026-03-21/cameron-mcevoy-breaks-50-metres-freestyle-world-record/106481460",
+      "snippet": "",
+      "pubDate": "Fri, 20 Mar 2026 20:13:39 +0000",
+      "source": "ABC News"
+    },
+    {
       "title": "‘America’s first AI war’: Silicon Valley’s bet on military tech is paying off",
       "link": "https://www.smh.com.au/business/companies/america-s-first-ai-war-silicon-valley-s-bet-on-military-tech-is-paying-off-20260318-p5orn1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "From behemoths to smaller companies offering novel weapons, tech firms such as Google, Palantir and OpenAI have found themselves at the heart of the US war effort.",
@@ -418,7 +482,7 @@
     {
       "title": "‘Very aggressive’: The rise and fall of Antony Catalano",
       "link": "https://www.smh.com.au/business/companies/very-aggressive-the-rise-and-fall-of-antony-catalano-20260316-p5oas7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "There have long been whispers about the entrepreneur’s character in media and property circles, but they were drowned out by a catchier story about a rainmaking entrepreneur.",
+      "snippet": "There have long been whispers about the businessman’s character in media and property circles, but they were drowned out by a catchier story about a rainmaking entrepreneur.",
       "pubDate": "Sat, 21 Mar 2026 05:00:00 +1100",
       "source": "SMH Business"
     },
@@ -428,62 +492,6 @@
       "snippet": "Under-the-radar fashion house Strateas Carlucci has opened a new hybrid studio-shop in Brunswick.",
       "pubDate": "Sat, 21 Mar 2026 05:00:00 +1100",
       "source": "SMH Business"
-    },
-    {
-      "title": "Bulldog Baker's brilliant goal seals thrilling win over fast-finishing Crows",
-      "link": "https://www.abc.net.au/news/2026-03-20/afl-round-two-friday-live-blog-crows-bulldogs/106479850",
-      "snippet": "",
-      "pubDate": "Fri, 20 Mar 2026 07:58:49 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "Giddey sets new Aussie NBA record as Bulls fall short of miracle comeback",
-      "link": "https://www.abc.net.au/news/2026-03-20/nba-josh-giddey-assists-record-doncic-60-points-lakers-heat/106480240",
-      "snippet": "",
-      "pubDate": "Fri, 20 Mar 2026 07:37:28 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "Brisbane pull off grand final repeat in rematch with Storm",
-      "link": "https://www.abc.net.au/news/2026-03-20/nrl-live-updates-roosters-panthers-storm-broncos-/106480150",
-      "snippet": "",
-      "pubDate": "Fri, 20 Mar 2026 06:35:06 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "Trump could make the energy disaster worse if he plays his last card",
-      "link": "https://www.smh.com.au/business/the-economy/fool-s-solution-trump-could-make-the-energy-disaster-worse-if-he-plays-his-last-card-20260320-p5qs8x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The US president is not someone known for making rational moves, and he has one last card to play that could deepen the energy nightmare.",
-      "pubDate": "Fri, 20 Mar 2026 17:35:00 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "Sacked Smiggle CEO investigation goes global",
-      "link": "https://www.smh.com.au/business/companies/sacked-smiggle-ceo-investigation-goes-global-20260320-p5qx1c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Billionaire businessman Solomon Lew’s internal investigation into John Cheston has hit international waters. Meanwhile, the youth stationery brand is undergoing a reset.",
-      "pubDate": "Fri, 20 Mar 2026 17:29:03 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "ASX Runners of the Week: Immutep, Blue Star Helium &amp; Patagonia",
-      "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-immutep-blue-star-helium-and-patagonia-20260320-p5r8ex.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Immutep. The oncology mid-cap bounced hard from last week’s 90 per cent drop, gaining 53 per cent after a brutal sell-off.",
-      "pubDate": "Fri, 20 Mar 2026 17:27:18 +1100",
-      "source": "SMH Business"
-    },
-    {
-      "title": "'Asking why honey is better than s***': Japan coach spins favouritism ahead of Matildas clash",
-      "link": "https://www.abc.net.au/news/2026-03-20/matildas-womens-asian-cup-japan-coach-nils-nielsen/106472632",
-      "snippet": "",
-      "pubDate": "Fri, 20 Mar 2026 05:04:04 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "King stakes claim for Aussie World Cup recall after controversial omission",
-      "link": "https://www.abc.net.au/news/2026-03-20/cricket-alana-king-stars-australia-vs-west-indies-1st-t20/106479300",
-      "snippet": "",
-      "pubDate": "Fri, 20 Mar 2026 04:30:14 +0000",
-      "source": "ABC News"
     }
   ]
 }
