@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-22T07:12:54.278Z",
+  "fetchedAt": "2026-03-22T13:26:15.872Z",
   "asx200": {
     "value": 8428.4,
     "change": -653,
@@ -244,6 +244,294 @@
       "changePercent": -10.03
     }
   ],
+  "sectors": [
+    {
+      "name": "Financials",
+      "changePercent": -1.35,
+      "stocks": [
+        {
+          "name": "CBA",
+          "price": 175.64,
+          "changePercent": -0.97
+        },
+        {
+          "name": "WBC",
+          "price": 40.7,
+          "changePercent": -1.05
+        },
+        {
+          "name": "ANZ",
+          "price": 36.6,
+          "changePercent": -1.13
+        },
+        {
+          "name": "NAB",
+          "price": 45.57,
+          "changePercent": -2.25
+        }
+      ]
+    },
+    {
+      "name": "Materials",
+      "changePercent": -1.16,
+      "stocks": [
+        {
+          "name": "BHP",
+          "price": 47.47,
+          "changePercent": -1.82
+        },
+        {
+          "name": "RIO",
+          "price": 146.92,
+          "changePercent": -2.93
+        },
+        {
+          "name": "FMG",
+          "price": 18.96,
+          "changePercent": -0.42
+        },
+        {
+          "name": "MIN",
+          "price": 51.69,
+          "changePercent": 0.53
+        }
+      ]
+    },
+    {
+      "name": "Health Care",
+      "changePercent": -0.32,
+      "stocks": [
+        {
+          "name": "CSL",
+          "price": 138.5,
+          "changePercent": 2.88
+        },
+        {
+          "name": "COH",
+          "price": 164.62,
+          "changePercent": -1.32
+        },
+        {
+          "name": "RMD",
+          "price": 32.13,
+          "changePercent": -0.46
+        },
+        {
+          "name": "SHL",
+          "price": 20.07,
+          "changePercent": -2.38
+        }
+      ]
+    },
+    {
+      "name": "Consumer Discretionary",
+      "changePercent": -1.28,
+      "stocks": [
+        {
+          "name": "WES",
+          "price": 73.03,
+          "changePercent": -0.83
+        },
+        {
+          "name": "HVN",
+          "price": 5.05,
+          "changePercent": -1.37
+        },
+        {
+          "name": "JBH",
+          "price": 71.7,
+          "changePercent": -4.12
+        },
+        {
+          "name": "ALL",
+          "price": 45.27,
+          "changePercent": 1.21
+        }
+      ]
+    },
+    {
+      "name": "Industrials",
+      "changePercent": -0.63,
+      "stocks": [
+        {
+          "name": "TCL",
+          "price": 13.75,
+          "changePercent": -1.08
+        },
+        {
+          "name": "BXB",
+          "price": 22.35,
+          "changePercent": -0.36
+        },
+        {
+          "name": "SYD",
+          "price": 0,
+          "changePercent": 0
+        },
+        {
+          "name": "QAN",
+          "price": 8.34,
+          "changePercent": -1.07
+        }
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "changePercent": -0.94,
+      "stocks": [
+        {
+          "name": "GMG",
+          "price": 25.5,
+          "changePercent": -0.35
+        },
+        {
+          "name": "SGP",
+          "price": 4.28,
+          "changePercent": -2.28
+        },
+        {
+          "name": "GPT",
+          "price": 4.56,
+          "changePercent": -0.87
+        },
+        {
+          "name": "MGR",
+          "price": 1.8,
+          "changePercent": -0.28
+        }
+      ]
+    },
+    {
+      "name": "Consumer Staples",
+      "changePercent": -0.61,
+      "stocks": [
+        {
+          "name": "WOW",
+          "price": 36.42,
+          "changePercent": -0.87
+        },
+        {
+          "name": "COL",
+          "price": 21.59,
+          "changePercent": 0.75
+        },
+        {
+          "name": "TWE",
+          "price": 3.64,
+          "changePercent": -2.41
+        },
+        {
+          "name": "A2M",
+          "price": 9.47,
+          "changePercent": 0.11
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "changePercent": 1.64,
+      "stocks": [
+        {
+          "name": "WDS",
+          "price": 34.04,
+          "changePercent": 1.01
+        },
+        {
+          "name": "STO",
+          "price": 7.98,
+          "changePercent": -0.5
+        },
+        {
+          "name": "ORG",
+          "price": 12.01,
+          "changePercent": 2.13
+        },
+        {
+          "name": "WHC",
+          "price": 9.3,
+          "changePercent": 3.91
+        }
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "changePercent": 0.94,
+      "stocks": [
+        {
+          "name": "XRO",
+          "price": 77,
+          "changePercent": 0.03
+        },
+        {
+          "name": "WTC",
+          "price": 42.84,
+          "changePercent": 3.3
+        },
+        {
+          "name": "CPU",
+          "price": 27.67,
+          "changePercent": -1.28
+        },
+        {
+          "name": "APX",
+          "price": 1.48,
+          "changePercent": 1.72
+        }
+      ]
+    },
+    {
+      "name": "Communication Services",
+      "changePercent": -0.32,
+      "stocks": [
+        {
+          "name": "TLS",
+          "price": 5.29,
+          "changePercent": -0.19
+        },
+        {
+          "name": "REA",
+          "price": 156.91,
+          "changePercent": -1.12
+        },
+        {
+          "name": "CAR",
+          "price": 23.26,
+          "changePercent": 0.22
+        },
+        {
+          "name": "NWS",
+          "price": 38.68,
+          "changePercent": -0.21
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "changePercent": -0.16,
+      "stocks": [
+        {
+          "name": "AGL",
+          "price": 9.23,
+          "changePercent": -0.43
+        },
+        {
+          "name": "APA",
+          "price": 9.47,
+          "changePercent": -1.04
+        },
+        {
+          "name": "ORG",
+          "price": 12.01,
+          "changePercent": 2.13
+        },
+        {
+          "name": "MEZ",
+          "price": 4.52,
+          "changePercent": -1.31
+        }
+      ]
+    }
+  ],
   "rbaRate": {
     "value": 4.1,
     "change": 0,
@@ -272,7 +560,81 @@
     "medianPrice": 1182000,
     "changePercent": 4.7,
     "city": "Sydney (Median House)",
-    "note": "CoreLogic Home Value Index"
+    "note": "CoreLogic Home Value Index",
+    "cities": [
+      {
+        "city": "Sydney",
+        "median": 1182000,
+        "changePercent": 4.7,
+        "rentalYield": 2.8,
+        "auctionClearance": 68,
+        "priceToIncome": 13.2,
+        "daysOnMarket": 28
+      },
+      {
+        "city": "Melbourne",
+        "median": 935000,
+        "changePercent": 1.2,
+        "rentalYield": 3.1,
+        "auctionClearance": 62,
+        "priceToIncome": 10.5,
+        "daysOnMarket": 33
+      },
+      {
+        "city": "Brisbane",
+        "median": 872000,
+        "changePercent": 11.8,
+        "rentalYield": 3.6,
+        "auctionClearance": 55,
+        "priceToIncome": 8.9,
+        "daysOnMarket": 22
+      },
+      {
+        "city": "Perth",
+        "median": 785000,
+        "changePercent": 18.4,
+        "rentalYield": 4.2,
+        "auctionClearance": 48,
+        "priceToIncome": 7.1,
+        "daysOnMarket": 18
+      },
+      {
+        "city": "Adelaide",
+        "median": 762000,
+        "changePercent": 14.3,
+        "rentalYield": 3.8,
+        "auctionClearance": 72,
+        "priceToIncome": 8.2,
+        "daysOnMarket": 24
+      },
+      {
+        "city": "Hobart",
+        "median": 668000,
+        "changePercent": -0.8,
+        "rentalYield": 4,
+        "auctionClearance": 45,
+        "priceToIncome": 9.1,
+        "daysOnMarket": 38
+      },
+      {
+        "city": "Canberra",
+        "median": 955000,
+        "changePercent": 1.5,
+        "rentalYield": 3.4,
+        "auctionClearance": 58,
+        "priceToIncome": 7.8,
+        "daysOnMarket": 31
+      },
+      {
+        "city": "Darwin",
+        "median": 530000,
+        "changePercent": 2.1,
+        "rentalYield": 5.8,
+        "auctionClearance": 38,
+        "priceToIncome": 5.4,
+        "daysOnMarket": 42
+      }
+    ]
   },
   "consumerConfidence": {
     "value": 92.2,
@@ -280,6 +642,68 @@
     "period": "Feb 2025",
     "note": "Westpac-Melbourne Institute Consumer Sentiment"
   },
+  "rbaHistory": [
+    {
+      "date": "Feb 2025",
+      "rate": 4.1,
+      "change": -0.25,
+      "note": "First cut since Nov 2020 — CPI back within 2–3% target band"
+    },
+    {
+      "date": "Dec 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held steady; board noted disinflation progressing"
+    },
+    {
+      "date": "Nov 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; trimmed mean CPI still above target"
+    },
+    {
+      "date": "Sep 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; watching services inflation persistence"
+    },
+    {
+      "date": "Aug 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; acknowledged slowing growth"
+    },
+    {
+      "date": "Jun 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; inflation sticky but rate hike ruled out"
+    },
+    {
+      "date": "May 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; CPI surprised to upside in Q1"
+    },
+    {
+      "date": "Mar 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; easing bias introduced"
+    },
+    {
+      "date": "Feb 2024",
+      "rate": 4.35,
+      "change": 0,
+      "note": "Held; inflation declining but not fast enough"
+    },
+    {
+      "date": "Nov 2023",
+      "rate": 4.35,
+      "change": 0.25,
+      "note": "Final hike of cycle; CPI re-accelerated in Q3"
+    }
+  ],
   "indicators": [
     {
       "name": "GDP Growth (Annual)",
@@ -410,6 +834,20 @@
   ],
   "news": [
     {
+      "title": "Summer of cricket schedule includes four Tests in 31 days",
+      "link": "https://www.abc.net.au/news/2026-03-22/australia-cricket-international-schedule-2026-2027-summer/106484212",
+      "snippet": "",
+      "pubDate": "Sun, 22 Mar 2026 08:38:44 +0000",
+      "source": "ABC News"
+    },
+    {
+      "title": "Matildas rally behind Foord as Kerr faces club limbo",
+      "link": "https://www.abc.net.au/news/2026-03-22/matildas-rally-caitlin-foord-sam-kerr-club-limbo-asian-cup/106484182",
+      "snippet": "",
+      "pubDate": "Sun, 22 Mar 2026 07:43:47 +0000",
+      "source": "ABC News"
+    },
+    {
       "title": "Hannah Green makes Aussie golf history with WPGA Championship victory",
       "link": "https://www.abc.net.au/news/2026-03-22/hannah-green-wins-australian-wpga-championship-gold-coast/106483702",
       "snippet": "",
@@ -438,7 +876,7 @@
       "source": "ABC News"
     },
     {
-      "title": "Live: Addo-Carr scores length of the field try to end Dragons resistance",
+      "title": "Eels lose key forward with season-ending ACL injury",
       "link": "https://www.abc.net.au/news/2026-03-22/nrl-live-updates-eels-dragons-cowboys-titans/106474430",
       "snippet": "",
       "pubDate": "Sun, 22 Mar 2026 04:27:22 +0000",
@@ -452,7 +890,7 @@
       "source": "ABC News"
     },
     {
-      "title": "Live: Port dominating Bombers, but captain Rozee carried off in pain",
+      "title": "Eagles snap 308-day drought as Rozee blow puts AFL under fire",
       "link": "https://www.abc.net.au/news/2026-03-22/afl-round-2-port-bombers-eagles-kangaroos-live-blog/106483784",
       "snippet": "",
       "pubDate": "Sun, 22 Mar 2026 03:13:03 +0000",
@@ -477,20 +915,6 @@
       "link": "https://www.abc.net.au/news/2026-03-22/world-athletics-indoor-championships-jess-hull-kurtis-marschall/106483330",
       "snippet": "",
       "pubDate": "Sat, 21 Mar 2026 21:55:57 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "This footy team is so new the players didn't even know the club song",
-      "link": "https://www.abc.net.au/news/2026-03-22/tasmania-devils-football-win-first-vfl-match-against-coburg/106481760",
-      "snippet": "",
-      "pubDate": "Sat, 21 Mar 2026 21:17:13 +0000",
-      "source": "ABC News"
-    },
-    {
-      "title": "Matildas endure familiar pain in Asian Cup final, but will the relief ever come?",
-      "link": "https://www.abc.net.au/news/2026-03-22/matildas-v-japan-womens-asian-cup-final-analysis-pain-relief/106482794",
-      "snippet": "",
-      "pubDate": "Sat, 21 Mar 2026 20:30:23 +0000",
       "source": "ABC News"
     }
   ]
