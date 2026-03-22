@@ -1,556 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Australian Economy Dashboard</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-crosshair@2.0.0/dist/chartjs-plugin-crosshair.min.js" onerror="true"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#0a0a0f;--surface:#12121a;--card:#1a1a25;--card-hover:#22222f;
-  --border:#2a2a3a;--border-lt:#3a3a4f;
-  --green:#00d26a;--green-dim:rgba(0,210,106,.1);--green-bg:rgba(0,210,106,.06);
-  --red:#ff4757;--red-dim:rgba(255,71,87,.1);--red-bg:rgba(255,71,87,.06);
-  --blue:#3b82f6;--blue-dim:rgba(59,130,246,.1);
-  --gold:#f59e0b;--gold-dim:rgba(245,158,11,.1);
-  --purple:#8b5cf6;--purple-dim:rgba(139,92,246,.1);
-  --cyan:#06b6d4;--cyan-dim:rgba(6,182,212,.1);
-  --text:#e8e6f0;--text-secondary:#9896a8;--text-dim:#6b6980;
-  --sans:'Inter',system-ui,sans-serif;
-  --mono:'JetBrains Mono',monospace;
-  --radius:8px;--radius-lg:12px;
+  --bg:#f5f2eb;--surface:#edeade;--card:#ffffff;--border:#ddd9cf;
+  --green:#1a7a4a;--green-lt:#22915c;--green-dim:#e6f2ec;
+  --red:#c23a3a;--red-dim:#fdf0f0;
+  --text:#1a1a18;--muted:#7a7568;
+  --blue:#2563eb;--blue-dim:#eff6ff;
+  --gold:#b8860b;--gold-dim:#fef9ee;
+  --purple:#7c3aed;--purple-dim:#f3f0f9;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --mono:'DM Mono',monospace;
+  --radius:10px;
+  --shadow:0 1px 3px rgba(0,0,0,.04);
+  --shadow-lg:0 8px 24px rgba(0,0,0,.08);
 }
-.light{
-  --bg:#f8f9fc;--surface:#ffffff;--card:#ffffff;--card-hover:#f3f4f8;
-  --border:#e5e7eb;--border-lt:#d1d5db;
-  --green:#059669;--green-dim:rgba(5,150,105,.08);--green-bg:rgba(5,150,105,.04);
-  --red:#dc2626;--red-dim:rgba(220,38,38,.08);--red-bg:rgba(220,38,38,.04);
-  --blue:#2563eb;--blue-dim:rgba(37,99,235,.08);
-  --gold:#d97706;--gold-dim:rgba(217,119,6,.08);
-  --purple:#7c3aed;--purple-dim:rgba(124,58,237,.08);
-  --cyan:#0891b2;--cyan-dim:rgba(8,145,178,.08);
-  --text:#111827;--text-secondary:#6b7280;--text-dim:#9ca3af;
+
+/* Dark mode */
+.dark{
+  --bg:#141414;--surface:#1e1e1e;--card:#242424;--border:#333;
+  --text:#e8e6e1;--muted:#8a8578;
+  --green-dim:#1a2e22;--red-dim:#2e1a1a;--blue-dim:#1a1e2e;
+  --gold-dim:#2e2a1a;--purple-dim:#231a2e;
+  --shadow:0 1px 3px rgba(0,0,0,.2);
+  --shadow-lg:0 8px 24px rgba(0,0,0,.3);
 }
-html{font-size:15px}
-body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:400;min-height:100vh;transition:background .2s,color .2s}
-::selection{background:var(--blue);color:#fff}
+
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;min-height:100vh;transition:background .3s,color .3s}
 
 /* Masthead */
-.masthead{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;backdrop-filter:blur(12px)}
-.mast-inner{max-width:1440px;margin:0 auto;display:flex;align-items:center;height:48px;padding:0 1.25rem;gap:.75rem}
-.logo{font-weight:700;font-size:1rem;color:var(--text);display:flex;align-items:center;gap:.5rem;text-decoration:none;letter-spacing:-.02em}
-.logo-dot{width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0}
-.mast-search{flex:1;max-width:400px;margin:0 1rem;position:relative}
-.mast-search input{width:100%;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:.4rem .75rem .4rem 2rem;font-size:.78rem;color:var(--text);outline:none;font-family:var(--sans);transition:border-color .15s}
-.mast-search input:focus{border-color:var(--blue)}
-.mast-search input::placeholder{color:var(--text-dim)}
-.mast-search svg{position:absolute;left:.6rem;top:50%;transform:translateY(-50%);color:var(--text-dim);pointer-events:none}
-.mast-right{margin-left:auto;display:flex;align-items:center;gap:.5rem}
-.mast-time{font-size:.68rem;color:var(--text-dim);font-family:var(--mono)}
-.btn-sm{height:30px;padding:0 .6rem;border-radius:5px;border:1px solid var(--border);background:var(--card);color:var(--text-secondary);cursor:pointer;font-size:.7rem;font-weight:500;display:flex;align-items:center;gap:.3rem;transition:all .15s;font-family:var(--sans)}
-.btn-sm:hover{border-color:var(--blue);color:var(--blue)}
-.btn-sm.active{background:var(--blue);border-color:var(--blue);color:#fff}
-
-/* Ticker */
-.ticker{background:var(--surface);border-bottom:1px solid var(--border);overflow:hidden}
-.ticker-scroll{display:flex;gap:0;animation:tickerScroll 60s linear infinite;width:max-content}
-.ticker-scroll:hover{animation-play-state:paused}
-@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.tick{display:flex;align-items:center;gap:.4rem;padding:.45rem 1.2rem;font-size:.72rem;font-family:var(--mono);border-right:1px solid var(--border);white-space:nowrap;cursor:pointer;transition:background .15s}
-.tick:hover{background:var(--card-hover)}
-.tick .sym{color:var(--text-secondary);font-weight:500}
-.tick .price{color:var(--text);font-weight:500}
-.tick .chg{font-weight:500}
-.tick .chg.up{color:var(--green)}
-.tick .chg.down{color:var(--red)}
-
-/* Layout */
-.wrap{max-width:1440px;margin:0 auto;padding:1rem 1.25rem}
-.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
-.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem}
-.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
-.full{grid-column:1/-1}
-.mb{margin-bottom:.75rem}
-
-/* Section headers */
-.sec{display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem;padding:0 .1rem}
-.sec h2{font-size:.82rem;font-weight:600;color:var(--text);display:flex;align-items:center;gap:.4rem}
-.sec h2 .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
-.sec .sub{font-size:.65rem;color:var(--text-dim);font-family:var(--mono)}
-
-/* Cards */
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.8rem .9rem;transition:all .15s;position:relative;overflow:hidden}
-.card:hover{border-color:var(--border-lt);background:var(--card-hover)}
-.card-sm{padding:.65rem .8rem}
-
-/* Metric cards */
-.met-label{font-size:.62rem;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:var(--text-dim);margin-bottom:.3rem;display:flex;align-items:center;justify-content:space-between}
-.met-label .badge{font-size:.55rem;padding:.1rem .3rem;border-radius:3px;font-weight:600;letter-spacing:0}
-.met-val{font-size:1.35rem;font-weight:700;color:var(--text);line-height:1.1;letter-spacing:-.03em;font-family:var(--mono)}
-.met-row{display:flex;align-items:center;gap:.5rem;margin-top:.25rem}
-.met-chg{font-size:.68rem;font-weight:600;display:flex;align-items:center;gap:.15rem}
-.met-chg.up{color:var(--green)}
-.met-chg.down{color:var(--red)}
-.met-chg.flat{color:var(--text-dim)}
-.met-sub{font-size:.58rem;color:var(--text-dim);font-family:var(--mono)}
-.met-spark{position:absolute;bottom:0;right:0;width:90px;height:36px;opacity:.4}
-.accent{position:absolute;bottom:0;left:0;right:0;height:2px}
-
-/* Charts */
-.chart-controls{display:flex;gap:.25rem;margin-bottom:.5rem}
-.ch-btn{font-size:.6rem;font-weight:500;padding:.2rem .45rem;border-radius:4px;border:1px solid var(--border);background:transparent;color:var(--text-dim);cursor:pointer;font-family:var(--mono);transition:all .12s}
-.ch-btn:hover{border-color:var(--blue);color:var(--blue)}
-.ch-btn.active{background:var(--blue);border-color:var(--blue);color:#fff}
-.chart-area{position:relative;height:240px}
-.chart-info{display:flex;gap:1rem;margin-bottom:.4rem;font-size:.7rem;font-family:var(--mono)}
-.chart-info .lbl{color:var(--text-dim)}
-.chart-info .val{font-weight:600;color:var(--text)}
-
-/* Heatmap */
-.heatmap{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:4px}
-.heat-cell{border-radius:6px;padding:.55rem .5rem;cursor:pointer;transition:all .15s;border:1px solid transparent;min-height:64px}
-.heat-cell:hover{border-color:rgba(255,255,255,.15);transform:scale(1.02)}
-.heat-cell .hc-name{font-size:.6rem;font-weight:600;color:rgba(255,255,255,.9);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.2rem}
-.heat-cell .hc-val{font-size:.85rem;font-weight:700;color:#fff;font-family:var(--mono)}
-.heat-cell .hc-chg{font-size:.6rem;font-weight:600;color:rgba(255,255,255,.8)}
-
-/* RBA Timeline */
-.timeline{position:relative;padding-left:1.5rem}
-.timeline::before{content:'';position:absolute;left:.45rem;top:0;bottom:0;width:2px;background:var(--border)}
-.tl-item{position:relative;padding-bottom:.8rem}
-.tl-item:last-child{padding-bottom:0}
-.tl-dot{position:absolute;left:-1.5rem;top:.15rem;width:12px;height:12px;border-radius:50%;border:2px solid var(--border);background:var(--card)}
-.tl-dot.cut{border-color:var(--green);background:var(--green)}
-.tl-dot.hold{border-color:var(--gold);background:var(--gold)}
-.tl-dot.hike{border-color:var(--red);background:var(--red)}
-.tl-date{font-size:.6rem;color:var(--text-dim);font-family:var(--mono);margin-bottom:.1rem}
-.tl-rate{font-size:.82rem;font-weight:600;color:var(--text)}
-.tl-desc{font-size:.68rem;color:var(--text-secondary);margin-top:.1rem}
-
-/* Housing */
-.city-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem}
-.city-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.7rem .8rem;transition:all .15s}
-.city-card:hover{border-color:var(--blue)}
-.city-name{font-size:.72rem;font-weight:600;color:var(--text);margin-bottom:.35rem;display:flex;align-items:center;justify-content:space-between}
-.city-price{font-size:1rem;font-weight:700;font-family:var(--mono);color:var(--text)}
-.city-stats{display:grid;grid-template-columns:1fr 1fr;gap:.3rem;margin-top:.4rem}
-.city-stat{font-size:.6rem;color:var(--text-dim)}
-.city-stat span{display:block;font-size:.72rem;font-weight:600;color:var(--text);font-family:var(--mono)}
-
-/* Indicators table */
-.ind-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden}
-.ind-tabs{display:flex;border-bottom:1px solid var(--border);background:var(--surface);overflow-x:auto;scrollbar-width:none}
-.ind-tabs::-webkit-scrollbar{display:none}
-.ind-tab{font-size:.66rem;font-weight:500;padding:.5rem .75rem;border:none;background:transparent;color:var(--text-dim);cursor:pointer;border-bottom:2px solid transparent;transition:all .12s;white-space:nowrap;font-family:var(--sans)}
-.ind-tab:hover{color:var(--text)}
-.ind-tab.active{color:var(--blue);border-bottom-color:var(--blue)}
-table.ind{width:100%;border-collapse:collapse}
-table.ind th{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-dim);padding:.45rem .75rem;text-align:left;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;transition:color .15s}
-table.ind th:hover{color:var(--text)}
-table.ind th.sorted{color:var(--blue)}
-table.ind td{padding:.45rem .75rem;font-size:.75rem;border-bottom:1px solid var(--border);transition:background .1s}
-table.ind tr:last-child td{border-bottom:none}
-table.ind tr:hover td{background:var(--card-hover)}
-.ind-name{font-weight:500;display:flex;align-items:center;gap:.35rem}
-.ind-badge{font-size:.5rem;padding:.1rem .3rem;border-radius:3px;font-weight:600;text-transform:uppercase}
-
-/* News */
-.news-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:.5rem}
-.news-item{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.7rem .85rem;text-decoration:none;color:inherit;transition:all .15s;display:block}
-.news-item:hover{border-color:var(--blue);background:var(--card-hover)}
-.news-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:.25rem}
-.news-src{font-size:.55rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:.12rem .35rem;border-radius:3px;background:var(--blue-dim);color:var(--blue)}
-.news-time{font-size:.58rem;color:var(--text-dim);font-family:var(--mono)}
-.news-title{font-size:.8rem;font-weight:600;line-height:1.35;margin-bottom:.2rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.news-snip{font-size:.68rem;color:var(--text-secondary);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-
-/* Drill-down modal */
-.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:500;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
-.modal-overlay.open{display:flex}
-.modal{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);width:90%;max-width:700px;max-height:85vh;overflow-y:auto;padding:1.25rem}
-.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem}
-.modal-head h3{font-size:1rem;font-weight:700}
-.modal-close{width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.85rem;transition:all .15s}
-.modal-close:hover{border-color:var(--red);color:var(--red)}
-
-/* Loading */
-.loader{text-align:center;padding:4rem 1rem}
-.spin{width:28px;height:28px;border:2px solid var(--border);border-top-color:var(--blue);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto .75rem}
+.masthead{border-bottom:1px solid var(--border);background:var(--surface);padding:0 1.5rem;position:sticky;top:0;z-index:100;transition:background .3s,border-color .3s}
+.masthead-inner{max-width:1360px;margin:0 auto;display:flex;align-items:center;gap:.75rem;height:54px}
+.logo{font-family:var(--serif);font-size:1.2rem;font-weight:700;color:var(--green);letter-spacing:-0.02em;display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.au-flag{width:28px;height:16px;border-radius:2px;overflow:hidden;flex-shrink:0;position:relative;background:#00008B;border:1px solid rgba(0,0,0,.1)}
+.au-flag svg{width:100%;height:100%}
+.nav-links{display:flex;gap:.35rem;margin-left:.5rem}
+.nav-links a{font-size:.75rem;font-weight:500;color:var(--muted);text-decoration:none;padding:.25rem .6rem;border-radius:6px;transition:all .15s}
+.nav-links a:hover,.nav-links a.active{color:var(--green);background:var(--green-dim)}
+.masthead-right{margin-left:auto;display:flex;align-items:center;gap:.6rem}
+.last-updated{font-size:.68rem;color:var(--muted);font-family:var(--mono)}
+.btn-icon{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s}
+.btn-icon:hover{border-color:var(--green);color:var(--green)}
+#refresh-btn{font-size:.75rem;font-weight:500;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:6px;padding:.3rem .65rem;cursor:pointer;display:flex;align-items:center;gap:.35rem;transition:background .15s}
+#refresh-btn:hover{background:#155f39}
+#refresh-btn.spinning svg{animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
+/* Market ticker */
+.ticker{background:var(--card);border-bottom:1px solid var(--border);padding:.5rem 1.5rem;overflow:hidden;transition:background .3s}
+.ticker-inner{max-width:1360px;margin:0 auto;display:flex;gap:1.5rem;align-items:center;font-size:.72rem;font-family:var(--mono);overflow-x:auto;scrollbar-width:none}
+.ticker-inner::-webkit-scrollbar{display:none}
+.ticker-item{display:flex;align-items:center;gap:.4rem;white-space:nowrap;flex-shrink:0}
+.ticker-item .name{color:var(--muted);font-weight:500}
+.ticker-item .val{font-weight:500;color:var(--text)}
+.ticker-item .chg.up{color:var(--green)}
+.ticker-item .chg.down{color:var(--red)}
+.ticker-sep{width:1px;height:14px;background:var(--border);flex-shrink:0}
+
+/* Layout */
+.dashboard{max-width:1360px;margin:0 auto;padding:1.25rem 1.5rem}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.85rem}
+.section-title{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--text);display:flex;align-items:center;gap:.5rem}
+.section-title .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
+.section-subtitle{font-size:.7rem;color:var(--muted);font-family:var(--mono)}
+
+/* Hero metrics */
+.hero-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.65rem;margin-bottom:1.25rem}
+.metric-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.metric-card:hover{border-color:var(--green-lt);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
+.metric-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:.35rem}
+.metric-label{font-size:.68rem;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);display:flex;align-items:center;gap:.3rem}
+.metric-icon{width:18px;height:18px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;flex-shrink:0}
+.metric-spark{width:60px;height:24px}
+.metric-value{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--text);line-height:1.15;letter-spacing:-0.02em}
+.metric-bottom{display:flex;align-items:center;gap:.5rem;margin-top:.2rem}
+.metric-change{font-size:.72rem;font-weight:500;display:flex;align-items:center;gap:.2rem}
+.metric-change.up{color:var(--green)}
+.metric-change.down{color:var(--red)}
+.metric-change.neutral{color:var(--muted)}
+.metric-sub{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
+.metric-card .accent-bar{position:absolute;bottom:0;left:0;right:0;height:2px}
+
+/* Charts */
+.charts-row{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-bottom:1.25rem}
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;box-shadow:var(--shadow)}
+.chart-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.65rem}
+.chart-header h3{font-family:var(--serif);font-size:.9rem;font-weight:600}
+.chart-range{display:flex;gap:.2rem}
+.chart-range button{font-size:.62rem;font-weight:500;padding:.2rem .45rem;border-radius:4px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;font-family:var(--mono)}
+.chart-range button:hover{border-color:var(--green);color:var(--green)}
+.chart-range button.active{background:var(--green);border-color:var(--green);color:#fff}
+.chart-wrap{position:relative;height:200px}
+@media(max-width:800px){.charts-row{grid-template-columns:1fr}}
+
+/* Commodities */
+.commodities-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:.65rem;margin-bottom:1.25rem}
+.commodity-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem .85rem;transition:all .2s;box-shadow:var(--shadow)}
+.commodity-card:hover{border-color:var(--gold);transform:translateY(-1px)}
+.commodity-top{display:flex;align-items:center;gap:.5rem;margin-bottom:.4rem}
+.commodity-icon{width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0}
+.commodity-name{font-size:.65rem;font-weight:500;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);line-height:1.2}
+.commodity-price{font-family:var(--mono);font-size:.95rem;font-weight:500;margin-bottom:.15rem}
+.commodity-change{font-size:.68rem;font-weight:500}
+.commodity-change.up{color:var(--green)}
+.commodity-change.down{color:var(--red)}
+
+/* Indicators */
+.indicators-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;box-shadow:var(--shadow)}
+.indicators-tabs{display:flex;gap:0;border-bottom:1px solid var(--border);background:var(--surface);padding:0 .5rem}
+.tab-btn{font-size:.7rem;font-weight:500;padding:.6rem .8rem;border:none;background:transparent;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;font-family:var(--sans)}
+.tab-btn:hover{color:var(--text)}
+.tab-btn.active{color:var(--green);border-bottom-color:var(--green)}
+.indicators-table{width:100%;border-collapse:collapse}
+.indicators-table th{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:.55rem .85rem;text-align:left;border-bottom:1px solid var(--border);background:var(--surface)}
+.indicators-table td{padding:.55rem .85rem;font-size:.8rem;border-bottom:1px solid var(--border);transition:background .15s}
+.indicators-table tr:last-child td{border-bottom:none}
+.indicators-table tr:hover td{background:var(--surface)}
+.indicator-name{font-weight:500;display:flex;align-items:center;gap:.4rem}
+.indicator-badge{font-size:.55rem;padding:.12rem .35rem;border-radius:3px;font-weight:600;letter-spacing:.02em;text-transform:uppercase}
+
+/* News */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.65rem;margin-bottom:1.25rem}
+.news-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;text-decoration:none;color:inherit;transition:all .2s;box-shadow:var(--shadow)}
+.news-card:hover{border-color:var(--blue);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
+.news-meta{display:flex;align-items:center;justify-content:space-between;margin-bottom:.35rem}
+.news-source{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:.15rem .4rem;border-radius:3px;background:var(--blue-dim);color:var(--blue)}
+.news-time{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
+.news-title{font-family:var(--serif);font-size:.88rem;font-weight:600;line-height:1.4;margin-bottom:.3rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.news-snippet{font-size:.74rem;color:var(--muted);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Loading / Error */
+.loading-overlay{text-align:center;padding:4rem 1rem;color:var(--muted)}
+.loading-overlay h3{font-family:var(--serif);color:var(--text);margin-bottom:.5rem}
+.loading-spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 1rem}
+.error-box{background:var(--red-dim);border:1px solid #e8b4b4;border-radius:var(--radius);padding:1.5rem;color:#8b2020;text-align:center;margin:2rem 0}
+.error-box h3{font-family:var(--serif);margin-bottom:.5rem;font-size:1.1rem}
+
 /* Footer */
-footer{padding:1rem 1.25rem;text-align:center;font-size:.62rem;color:var(--text-dim);border-top:1px solid var(--border);margin-top:1rem}
+footer{margin-top:1.5rem;padding:1.2rem 1.5rem;text-align:center;font-size:.68rem;color:var(--muted);border-top:1px solid var(--border);transition:border-color .3s}
+footer a{color:var(--green);text-decoration:none}
+footer a:hover{text-decoration:underline}
 
 /* Responsive */
-@media(max-width:1100px){.grid-4{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.grid-2,.grid-3{grid-template-columns:1fr}.grid-4{grid-template-columns:repeat(2,1fr)}.mast-search{display:none}.chart-area{height:180px}}
-@media(max-width:480px){.grid-4{grid-template-columns:1fr}}
+@media(max-width:1100px){
+  .hero-grid{grid-template-columns:repeat(2,1fr)}
+  .commodities-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:768px){
+  .hero-grid{grid-template-columns:repeat(2,1fr)}
+  .commodities-grid{grid-template-columns:repeat(2,1fr)}
+  .metric-value{font-size:1.2rem}
+  .dashboard{padding:1rem}
+  .nav-links{display:none}
+  .ticker-inner{gap:1rem}
+}
+@media(max-width:480px){
+  .hero-grid{grid-template-columns:1fr}
+  .commodities-grid{grid-template-columns:1fr 1fr}
+}
 </style>
 </head>
 <body>
 
 <header class="masthead">
-<div class="mast-inner">
-  <a class="logo" href="/"><span class="logo-dot"></span>AU Economy</a>
-  <div class="mast-search">
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input id="search" type="text" placeholder="Search indicators, stocks, data..." oninput="onSearch(this.value)"/>
+  <div class="masthead-inner">
+    <a class="logo" href="finance.html">
+      <div class="au-flag">
+        <svg viewBox="0 0 28 16" xmlns="http://www.w3.org/2000/svg">
+          <rect width="28" height="16" fill="#00008B"/>
+          <!-- Union Jack simplified -->
+          <line x1="0" y1="0" x2="13" y2="8" stroke="#fff" stroke-width="1.5"/>
+          <line x1="13" y1="0" x2="0" y2="8" stroke="#fff" stroke-width="1.5"/>
+          <line x1="0" y1="4" x2="13" y2="4" stroke="#fff" stroke-width="2.5"/>
+          <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#fff" stroke-width="2.5"/>
+          <line x1="0" y1="4" x2="13" y2="4" stroke="#C8102E" stroke-width="1.2"/>
+          <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#C8102E" stroke-width="1.2"/>
+          <!-- Commonwealth Star -->
+          <text x="6.5" y="13.5" text-anchor="middle" fill="#fff" font-size="6" font-weight="bold">&#9733;</text>
+          <!-- Southern Cross -->
+          <text x="20" y="4" text-anchor="middle" fill="#fff" font-size="3.5">&#9733;</text>
+          <text x="23" y="7" text-anchor="middle" fill="#fff" font-size="3">&#9733;</text>
+          <text x="20" y="11" text-anchor="middle" fill="#fff" font-size="3.5">&#9733;</text>
+          <text x="17" y="8" text-anchor="middle" fill="#fff" font-size="3">&#9733;</text>
+          <text x="21.5" y="9" text-anchor="middle" fill="#fff" font-size="2">&#9733;</text>
+        </svg>
+      </div>
+      AU Economy
+    </a>
+    <nav class="nav-links">
+      <a href="finance.html" class="active">Dashboard</a>
+      <a href="index.html">BD News</a>
+    </nav>
+    <div class="masthead-right">
+      <span class="last-updated" id="last-updated">—</span>
+      <button class="btn-icon" id="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="theme-icon">
+          <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+      </button>
+      <button id="refresh-btn" onclick="loadData()">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="23 4 23 10 17 10"/>
+          <polyline points="1 20 1 14 7 14"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+        Refresh
+      </button>
+    </div>
   </div>
-  <div class="mast-right">
-    <span class="mast-time" id="clock"></span>
-    <button class="btn-sm" id="theme-btn" onclick="toggleTheme()">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="theme-ico"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-    </button>
-    <button class="btn-sm" id="refresh-btn" onclick="loadData()">
-      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
-      Refresh
-    </button>
-  </div>
-</div>
 </header>
 
-<div class="ticker"><div class="ticker-scroll" id="ticker"></div></div>
+<div class="ticker" id="ticker"></div>
 
-<div class="wrap" id="app">
-  <div class="loader"><div class="spin"></div><div style="font-size:.78rem;color:var(--text-dim)">Loading Australian economy data...</div></div>
+<div class="dashboard" id="dashboard">
+  <div class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <h3>Loading Australian Economy Data</h3>
+    <p style="font-size:.82rem">Fetching latest market & economic indicators</p>
+  </div>
 </div>
 
-<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
-  <div class="modal" id="modal-body"></div>
-</div>
-
-<footer>Australian Economy Dashboard · Data via RBA, ABS, Yahoo Finance · Auto-refreshed every 3 hours via GitHub Actions</footer>
+<footer>
+  Australian Economy Dashboard · Data via RBA, ABS & Yahoo Finance · Refreshed every 3 hours · <a href="index.html">Bangladesh News</a>
+</footer>
 
 <script>
-let D=null,charts={},sortCol='',sortDir=1,activeTab='all',searchQ='';
+let financeData = null;
+let charts = {};
+let loading = false;
+let activeTab = 'all';
 
-// Clock
-setInterval(()=>{const n=new Date();document.getElementById('clock').textContent=n.toLocaleTimeString('en-AU',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false})+' AEST'},1000);
-
-// Theme
-function toggleTheme(){document.body.classList.toggle('light');const l=document.body.classList.contains('light');localStorage.setItem('au-th',l?'light':'dark');document.getElementById('theme-ico').innerHTML=l?'<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>':'<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>';if(D)renderCharts()}
-if(localStorage.getItem('au-th')==='light'){document.body.classList.add('light');document.getElementById('theme-ico').innerHTML='<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';}
-
-// Helpers
-const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
-const fN=n=>(n==null||isNaN(n))?'—':n.toLocaleString('en-AU');
-const fM=(n,d=2)=>(n==null||isNaN(n))?'—':n.toLocaleString('en-AU',{minimumFractionDigits:d,maximumFractionDigits:d});
-const fP=n=>(n==null||isNaN(n))?'—':(n>=0?'+':'')+n.toFixed(2)+'%';
-const chgCls=v=>v>0?'up':v<0?'down':'flat';
-const arrow=v=>v>0?'&#9650; ':v<0?'&#9660; ':'';
-const timeAgo=s=>{if(!s)return'';const d=(Date.now()-Date.parse(s))/1e3;if(d<60)return'now';if(d<3600)return(d/60|0)+'m';if(d<86400)return(d/3600|0)+'h';return(d/86400|0)+'d'};
-
-// Search
-function onSearch(v){searchQ=v.trim().toLowerCase();renderAll()}
-
-// Modal
-function openModal(html){document.getElementById('modal-body').innerHTML=html;document.getElementById('modal').classList.add('open')}
-function closeModal(){document.getElementById('modal').classList.remove('open')}
-
-// Sparkline
-function spark(canvas,data,color){
-  if(!canvas||!data||data.length<2)return;
-  const c=canvas.getContext('2d'),w=canvas.width=canvas.offsetWidth*2,h=canvas.height=canvas.offsetHeight*2;
-  c.scale(2,2);const dw=canvas.offsetWidth,dh=canvas.offsetHeight;
-  const mn=Math.min(...data),mx=Math.max(...data),r=mx-mn||1,s=dw/(data.length-1);
-  c.beginPath();data.forEach((v,i)=>{const x=i*s,y=dh-((v-mn)/r)*(dh-4)-2;i?c.lineTo(x,y):c.moveTo(x,y)});
-  c.strokeStyle=color;c.lineWidth=1.5;c.lineJoin='round';c.stroke();
+// ── Theme ──
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+  const isDark = document.body.classList.contains('dark');
+  localStorage.setItem('au-theme', isDark ? 'dark' : 'light');
+  document.getElementById('theme-icon').innerHTML = isDark
+    ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
+    : '<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>';
+  // Re-render charts with updated colors
+  if (financeData) renderCharts(financeData);
+}
+if (localStorage.getItem('au-theme') === 'dark') {
+  document.body.classList.add('dark');
+  document.getElementById('theme-icon').innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
 }
 
-// Ticker
-function renderTicker(){
-  const items=[];
-  if(D.asx200?.value!=null)items.push({sym:'^AXJO',name:'ASX 200',price:fN(Math.round(D.asx200.value)),chg:D.asx200.changePercent});
-  if(D.audusd?.value!=null)items.push({sym:'AUDUSD',name:'AUD/USD',price:D.audusd.value.toFixed(4),chg:D.audusd.changePercent});
-  if(D.rbaRate?.value!=null)items.push({sym:'RBA',name:'Cash Rate',price:D.rbaRate.value.toFixed(2)+'%',chg:null});
-  (D.commodities||[]).forEach(c=>items.push({sym:'',name:c.name,price:'$'+fN(c.price),chg:c.changePercent}));
-  (D.sectors||[]).slice(0,6).forEach(s=>items.push({sym:'',name:s.name,price:'',chg:s.changePercent}));
-  const h=items.map(t=>{
-    const cls=chgCls(t.chg||0);
-    const chgS=t.chg!=null?`<span class="chg ${cls}">${fP(t.chg)}</span>`:'';
-    return `<div class="tick" onclick="drillDown('${esc(t.name)}')"><span class="sym">${esc(t.name)}</span><span class="price">${t.price}</span>${chgS}</div>`;
-  }).join('');
-  document.getElementById('ticker').innerHTML=h+h;
+// ── Formatting ──
+function fmtNum(n) {
+  if (n == null || isNaN(n)) return '—';
+  return n.toLocaleString('en-AU');
 }
 
-// Heatmap color
-function heatColor(v){
-  if(v>=3)return'#00a854';if(v>=1.5)return'#00c06a';if(v>=0.5)return'#1a7a4a';if(v>0)return'#2d5a3f';
-  if(v===0)return'#3a3a4a';
-  if(v>-0.5)return'#5a2d2d';if(v>-1.5)return'#8b2020';if(v>-3)return'#c23a3a';return'#ff4757';
+function fmt(n, decimals, prefix, suffix) {
+  if (n == null || isNaN(n)) return '—';
+  prefix = prefix || ''; suffix = suffix || '';
+  const abs = Math.abs(n);
+  if (abs >= 1e12) return prefix + (n/1e12).toFixed(1) + 'T' + suffix;
+  if (abs >= 1e9) return prefix + (n/1e9).toFixed(1) + 'B' + suffix;
+  if (abs >= 1e6) return prefix + (n/1e6).toFixed(1) + 'M' + suffix;
+  return prefix + n.toLocaleString('en-AU', {minimumFractionDigits: decimals, maximumFractionDigits: decimals}) + suffix;
 }
 
-// Main render
-function renderAll(){
-  const app=document.getElementById('app');
-  let h='';
+function changeHTML(val, suffix) {
+  if (val == null || isNaN(val)) return '<span class="metric-change neutral">—</span>';
+  suffix = suffix || '';
+  const cls = val > 0 ? 'up' : val < 0 ? 'down' : 'neutral';
+  const arrow = val > 0 ? '&#9650;' : val < 0 ? '&#9660;' : '&#8212;';
+  return '<span class="metric-change ' + cls + '">' + arrow + ' ' + Math.abs(val).toFixed(2) + suffix + '</span>';
+}
 
-  // Key Metrics
-  h+=`<div class="sec"><h2><span class="dot" style="background:var(--green)"></span>Key Indicators</h2><div class="sub">As of ${esc(D.asx200?.asOf||D.fetchedAt?.split('T')[0]||'')}</div></div>`;
-  h+='<div class="grid-4 mb">';
-  const mets=[
-    {l:'ASX 200',v:D.asx200?.value!=null?fN(Math.round(D.asx200.value)):'—',c:D.asx200?.changePercent,s:D.asx200?.history?.map(p=>p.close),col:'--green',sub:'S&P/ASX 200',bg:'green'},
-    {l:'AUD/USD',v:D.audusd?.value!=null?D.audusd.value.toFixed(4):'—',c:D.audusd?.changePercent,s:D.audusd?.history?.map(p=>p.close),col:'--blue',sub:'Exchange Rate',bg:'blue'},
-    {l:'RBA Cash Rate',v:D.rbaRate?.value!=null?D.rbaRate.value.toFixed(2)+'%':'—',c:D.rbaRate?.change,suf:' bps',col:'--gold',sub:D.rbaRate?.asOf||'',bg:'gold'},
-    {l:'CPI Inflation',v:D.cpi?.value!=null?D.cpi.value.toFixed(1)+'%':'—',c:D.cpi?.change,suf:'%',col:'--red',sub:D.cpi?.period||'',bg:'red'},
-    {l:'GDP Growth',v:D.gdp?.value!=null?D.gdp.value.toFixed(1)+'%':'—',c:D.gdp?.change,suf:'%',col:'--green',sub:D.gdp?.period||'',bg:'green'},
-    {l:'Unemployment',v:D.unemployment?.value!=null?D.unemployment.value.toFixed(1)+'%':'—',c:D.unemployment?.change,suf:'%',col:'--cyan',sub:D.unemployment?.period||'',bg:'cyan'},
-    {l:'Housing Median',v:D.housing?.medianPrice!=null?'$'+fN(D.housing.medianPrice):'—',c:D.housing?.changePercent,suf:'%',col:'--gold',sub:D.housing?.city||'',bg:'gold'},
-    {l:'Consumer Conf.',v:D.consumerConfidence?.value!=null?D.consumerConfidence.value.toFixed(1):'—',c:D.consumerConfidence?.change,col:'--purple',sub:D.consumerConfidence?.period||'',bg:'purple'}
+function timeAgo(dateStr) {
+  if (!dateStr) return '';
+  const t = Date.parse(dateStr);
+  if (!t) return '';
+  const diff = (Date.now() - t) / 1000;
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return Math.floor(diff/60) + 'm ago';
+  if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
+  return Math.floor(diff/86400) + 'd ago';
+}
+
+function escapeHTML(str) {
+  return String(str||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
+}
+
+// ── Sparkline (mini canvas) ──
+function drawSparkline(canvas, data, color) {
+  if (!canvas || !data || data.length < 2) return;
+  const ctx = canvas.getContext('2d');
+  const w = canvas.width = canvas.offsetWidth * 2;
+  const h = canvas.height = canvas.offsetHeight * 2;
+  ctx.scale(2, 2);
+  const dw = canvas.offsetWidth, dh = canvas.offsetHeight;
+  const min = Math.min(...data), max = Math.max(...data);
+  const range = max - min || 1;
+  const step = dw / (data.length - 1);
+  ctx.beginPath();
+  data.forEach((v, i) => {
+    const x = i * step;
+    const y = dh - ((v - min) / range) * (dh - 4) - 2;
+    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  });
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 1.5;
+  ctx.lineJoin = 'round';
+  ctx.stroke();
+}
+
+// ── Ticker ──
+function renderTicker(d) {
+  const items = [];
+  if (d.asx200?.value != null) items.push({name:'ASX 200', val: fmtNum(Math.round(d.asx200.value)), chg: d.asx200.changePercent});
+  if (d.audusd?.value != null) items.push({name:'AUD/USD', val: d.audusd.value.toFixed(4), chg: d.audusd.changePercent});
+  if (d.rbaRate?.value != null) items.push({name:'RBA Rate', val: d.rbaRate.value.toFixed(2) + '%', chg: null});
+  (d.commodities||[]).forEach(c => items.push({name: c.name, val: '$' + fmtNum(c.price), chg: c.changePercent}));
+
+  const el = document.getElementById('ticker');
+  el.innerHTML = '<div class="ticker-inner">' + items.map((item, i) => {
+    const cls = (item.chg||0) >= 0 ? 'up' : 'down';
+    const chgStr = item.chg != null ? '<span class="chg ' + cls + '">' + (item.chg >= 0 ? '+' : '') + item.chg.toFixed(2) + '%</span>' : '';
+    return (i > 0 ? '<span class="ticker-sep"></span>' : '')
+      + '<span class="ticker-item"><span class="name">' + item.name + '</span><span class="val">' + item.val + '</span>' + chgStr + '</span>';
+  }).join('') + '</div>';
+}
+
+// ── Main render ──
+function renderDashboard(d) {
+  const dash = document.getElementById('dashboard');
+  let html = '';
+
+  // Section: Key Indicators
+  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Key Indicators</div>'
+    + '<div class="section-subtitle">As of ' + escapeHTML(d.asx200?.asOf || d.fetchedAt?.split('T')[0] || '') + '</div></div>';
+  html += '<div class="hero-grid">';
+
+  const metrics = [
+    { label:'ASX 200', icon:'&#9652;', iconBg:'var(--green-dim)', color:'var(--green)',
+      value: d.asx200?.value != null ? fmtNum(Math.round(d.asx200.value)) : '—',
+      change: changeHTML(d.asx200?.changePercent, '%'), sub: 'S&P/ASX 200 Index',
+      sparkData: d.asx200?.history?.map(p=>p.close), sparkColor: (d.asx200?.changePercent||0)>=0?'#1a7a4a':'#c23a3a' },
+    { label:'AUD / USD', icon:'$', iconBg:'var(--blue-dim)', color:'var(--blue)',
+      value: d.audusd?.value != null ? d.audusd.value.toFixed(4) : '—',
+      change: changeHTML(d.audusd?.changePercent, '%'), sub: 'Exchange Rate',
+      sparkData: d.audusd?.history?.map(p=>p.close), sparkColor: (d.audusd?.changePercent||0)>=0?'#1a7a4a':'#c23a3a' },
+    { label:'RBA Cash Rate', icon:'%', iconBg:'var(--gold-dim)', color:'var(--gold)',
+      value: d.rbaRate?.value != null ? d.rbaRate.value.toFixed(2)+'%' : '—',
+      change: changeHTML(d.rbaRate?.change, ' bps'), sub: escapeHTML(d.rbaRate?.asOf || '') },
+    { label:'Inflation (CPI)', icon:'&#8593;', iconBg:'var(--red-dim)', color:'var(--red)',
+      value: d.cpi?.value != null ? d.cpi.value.toFixed(1)+'%' : '—',
+      change: changeHTML(d.cpi?.change, '%'), sub: escapeHTML(d.cpi?.period||'Annual') },
+    { label:'GDP Growth', icon:'G', iconBg:'var(--green-dim)', color:'var(--green)',
+      value: d.gdp?.value != null ? d.gdp.value.toFixed(1)+'%' : '—',
+      change: changeHTML(d.gdp?.change, '%'), sub: escapeHTML(d.gdp?.period||'Annual') },
+    { label:'Unemployment', icon:'U', iconBg:'var(--blue-dim)', color:'var(--blue)',
+      value: d.unemployment?.value != null ? d.unemployment.value.toFixed(1)+'%' : '—',
+      change: changeHTML(d.unemployment?.change, '%'), sub: escapeHTML(d.unemployment?.period||'') },
+    { label:'Housing (Median)', icon:'&#8962;', iconBg:'var(--gold-dim)', color:'var(--gold)',
+      value: d.housing?.medianPrice != null ? '$'+fmtNum(d.housing.medianPrice) : '—',
+      change: changeHTML(d.housing?.changePercent, '%'), sub: escapeHTML(d.housing?.city||'National') },
+    { label:'Consumer Confidence', icon:'C', iconBg:'var(--purple-dim)', color:'var(--purple)',
+      value: d.consumerConfidence?.value != null ? d.consumerConfidence.value.toFixed(1) : '—',
+      change: changeHTML(d.consumerConfidence?.change, ''), sub: escapeHTML(d.consumerConfidence?.period||'') }
   ];
-  mets.forEach((m,i)=>{
-    const cls=chgCls(m.c||0);
-    const cv=m.c!=null?`<span class="met-chg ${cls}">${arrow(m.c)}${Math.abs(m.c).toFixed(2)}${m.suf||'%'}</span>`:'';
-    h+=`<div class="card card-sm" style="cursor:pointer" onclick="drillDown('${esc(m.l)}')">
-      <div class="met-label">${esc(m.l)}<span class="badge" style="background:var(--${m.bg}-dim);color:var(--${m.bg})">${cls==='up'?'&#9650;':cls==='down'?'&#9660;':'—'}</span></div>
-      <div class="met-val">${m.v}</div>
-      <div class="met-row">${cv}<span class="met-sub">${esc(m.s?'':m.sub)}</span></div>
-      ${m.s?`<canvas class="met-spark" data-si="${i}"></canvas>`:''}
-      <div class="accent" style="background:var(${m.col})"></div>
-    </div>`;
+
+  metrics.forEach((m, i) => {
+    html += '<div class="metric-card">'
+      + '<div class="metric-top">'
+      + '<div class="metric-label"><span class="metric-icon" style="background:' + m.iconBg + ';color:' + m.color + '">' + m.icon + '</span>' + m.label + '</div>'
+      + (m.sparkData ? '<canvas class="metric-spark" data-spark="' + i + '"></canvas>' : '')
+      + '</div>'
+      + '<div class="metric-value">' + m.value + '</div>'
+      + '<div class="metric-bottom">' + m.change + '<span class="metric-sub">' + m.sub + '</span></div>'
+      + '<div class="accent-bar" style="background:' + m.color + '"></div>'
+      + '</div>';
   });
-  h+='</div>';
+  html += '</div>';
 
-  // Charts
-  h+=`<div class="sec"><h2><span class="dot" style="background:var(--blue)"></span>Market Trends</h2></div>`;
-  h+='<div class="grid-2 mb">';
-  h+=chartCard('chart-asx','S&P/ASX 200','asx200');
-  h+=chartCard('chart-aud','AUD/USD','audusd');
-  h+='</div>';
+  // Section: Charts
+  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Market Trends</div></div>';
+  html += '<div class="charts-row">'
+    + '<div class="chart-card"><div class="chart-header"><h3>S&P/ASX 200</h3><div class="chart-range"><button class="active">1M</button></div></div><div class="chart-wrap"><canvas id="chart-asx"></canvas></div></div>'
+    + '<div class="chart-card"><div class="chart-header"><h3>AUD/USD Exchange Rate</h3><div class="chart-range"><button class="active">1M</button></div></div><div class="chart-wrap"><canvas id="chart-aud"></canvas></div></div>'
+    + '</div>';
 
-  // Sector Heatmap
-  if(D.sectors?.length){
-    h+=`<div class="sec"><h2><span class="dot" style="background:var(--purple)"></span>ASX Sector Performance</h2><div class="sub">Daily change %</div></div>`;
-    h+='<div class="heatmap mb">';
-    D.sectors.forEach(s=>{
-      const bg=heatColor(s.changePercent);
-      h+=`<div class="heat-cell" style="background:${bg}" onclick="drillDown('${esc(s.name)}')">
-        <div class="hc-name">${esc(s.name)}</div>
-        <div class="hc-val">${fP(s.changePercent)}</div>
-      </div>`;
-    });
-    h+='</div>';
-  }
-
-  // RBA Timeline
-  if(D.rbaHistory?.length){
-    h+=`<div class="sec"><h2><span class="dot" style="background:var(--gold)"></span>RBA Rate Decisions</h2><div class="sub">Recent history</div></div>`;
-    h+='<div class="card mb" style="padding:1rem 1.2rem"><div class="timeline">';
-    D.rbaHistory.forEach(r=>{
-      const type=r.change<0?'cut':r.change>0?'hike':'hold';
-      h+=`<div class="tl-item"><div class="tl-dot ${type}"></div>
-        <div class="tl-date">${esc(r.date)}</div>
-        <div class="tl-rate">${r.rate.toFixed(2)}% ${r.change!==0?`<span class="met-chg ${type==='cut'?'down':'up'}" style="font-size:.7rem">${r.change>0?'+':''}${(r.change*100).toFixed(0)} bps</span>`:''}</div>
-        <div class="tl-desc">${esc(r.note||'')}</div>
-      </div>`;
-    });
-    h+='</div></div>';
-  }
-
-  // Commodities
-  h+=`<div class="sec"><h2><span class="dot" style="background:var(--gold)"></span>Commodities & Mining</h2></div>`;
-  h+='<div class="grid-3 mb">';
-  (D.commodities||[]).forEach(c=>{
-    const cls=chgCls(c.changePercent);
-    h+=`<div class="card card-sm" style="cursor:pointer" onclick="drillDown('${esc(c.name)}')">
-      <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.3rem">
-        <span style="font-size:1.1rem">${c.icon||''}</span>
-        <span style="font-size:.68rem;font-weight:600;color:var(--text-secondary);text-transform:uppercase">${esc(c.name)}</span>
-      </div>
-      <div style="font-size:1.05rem;font-weight:700;font-family:var(--mono)">$${fM(c.price)}</div>
-      <span class="met-chg ${cls}" style="font-size:.68rem">${arrow(c.changePercent)}${Math.abs(c.changePercent).toFixed(2)}%</span>
-    </div>`;
+  // Section: Commodities
+  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Commodities & Mining</div></div>';
+  html += '<div class="commodities-grid">';
+  (d.commodities||[]).forEach(c => {
+    const cls = (c.changePercent||0) >= 0 ? 'up' : 'down';
+    html += '<div class="commodity-card">'
+      + '<div class="commodity-top"><div class="commodity-icon" style="background:' + (c.iconBg||'#fef9ee') + '">' + (c.icon||'') + '</div>'
+      + '<div class="commodity-name">' + escapeHTML(c.name) + '</div></div>'
+      + '<div class="commodity-price">$' + fmtNum(c.price) + '</div>'
+      + '<div class="commodity-change ' + cls + '">' + (c.changePercent>=0?'&#9650;':'&#9660;') + ' ' + Math.abs(c.changePercent||0).toFixed(2) + '%</div>'
+      + '</div>';
   });
-  h+='</div>';
+  html += '</div>';
 
-  // Housing
-  if(D.housing?.cities?.length){
-    h+=`<div class="sec"><h2><span class="dot" style="background:var(--cyan)"></span>Housing Market</h2><div class="sub">Median house prices by city</div></div>`;
-    h+='<div class="city-grid mb">';
-    D.housing.cities.forEach(c=>{
-      const cls=chgCls(c.changePercent);
-      h+=`<div class="city-card">
-        <div class="city-name">${esc(c.city)}<span class="met-chg ${cls}" style="font-size:.65rem">${arrow(c.changePercent)}${Math.abs(c.changePercent).toFixed(1)}%</span></div>
-        <div class="city-price">$${fN(c.median)}</div>
-        <div class="city-stats">
-          <div class="city-stat">Rental Yield<span>${c.rentalYield?c.rentalYield.toFixed(1)+'%':'—'}</span></div>
-          <div class="city-stat">Auction Rate<span>${c.auctionClearance?c.auctionClearance.toFixed(0)+'%':'—'}</span></div>
-          <div class="city-stat">Price/Income<span>${c.priceToIncome?c.priceToIncome.toFixed(1)+'x':'—'}</span></div>
-          <div class="city-stat">Days on Mkt<span>${c.daysOnMarket||'—'}</span></div>
-        </div>
-      </div>`;
+  // Section: Economic Indicators
+  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Economic Indicators</div></div>';
+  html += '<div class="indicators-wrap">';
+  html += '<div class="indicators-tabs">'
+    + '<button class="tab-btn active" onclick="filterIndicators(\'all\',this)">All</button>'
+    + '<button class="tab-btn" onclick="filterIndicators(\'growth\',this)">Growth</button>'
+    + '<button class="tab-btn" onclick="filterIndicators(\'prices\',this)">Prices</button>'
+    + '<button class="tab-btn" onclick="filterIndicators(\'labour\',this)">Labour</button>'
+    + '<button class="tab-btn" onclick="filterIndicators(\'trade\',this)">Trade</button>'
+    + '</div>';
+  html += '<table class="indicators-table"><thead><tr>'
+    + '<th>Indicator</th><th>Value</th><th>Previous</th><th>Change</th><th>Period</th>'
+    + '</tr></thead><tbody id="indicators-body">';
+  (d.indicators||[]).forEach(ind => {
+    html += indicatorRow(ind);
+  });
+  html += '</tbody></table></div>';
+
+  // Section: News
+  if (d.news && d.news.length) {
+    html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Financial News</div>'
+      + '<div class="section-subtitle">' + d.news.length + ' articles</div></div>';
+    html += '<div class="news-grid">';
+    d.news.forEach(n => {
+      html += '<a class="news-card" href="' + escapeHTML(n.link) + '" target="_blank" rel="noopener">'
+        + '<div class="news-meta"><span class="news-source">' + escapeHTML(n.source) + '</span>'
+        + '<span class="news-time">' + timeAgo(n.pubDate) + '</span></div>'
+        + '<div class="news-title">' + escapeHTML(n.title) + '</div>'
+        + (n.snippet ? '<div class="news-snippet">' + escapeHTML(n.snippet) + '</div>' : '')
+        + '</a>';
     });
-    h+='</div>';
+    html += '</div>';
   }
 
-  // Indicators Table
-  h+=`<div class="sec"><h2><span class="dot" style="background:var(--blue)"></span>Economic Indicators</h2></div>`;
-  h+=renderIndicators();
+  dash.innerHTML = html;
 
-  // News
-  if(D.news?.length){
-    const news=searchQ?D.news.filter(n=>(n.title+n.snippet+n.source).toLowerCase().includes(searchQ)):D.news;
-    if(news.length){
-      h+=`<div class="sec" style="margin-top:.75rem"><h2><span class="dot" style="background:var(--cyan)"></span>Financial News</h2><div class="sub">${news.length} articles</div></div>`;
-      h+='<div class="news-list">';
-      news.forEach(n=>{
-        h+=`<a class="news-item" href="${esc(n.link)}" target="_blank" rel="noopener">
-          <div class="news-top"><span class="news-src">${esc(n.source)}</span><span class="news-time">${timeAgo(n.pubDate)} ago</span></div>
-          <div class="news-title">${esc(n.title)}</div>
-          ${n.snippet?`<div class="news-snip">${esc(n.snippet)}</div>`:''}
-        </a>`;
-      });
-      h+='</div>';
+  // Draw sparklines
+  metrics.forEach((m, i) => {
+    if (m.sparkData) {
+      const canvas = document.querySelector('[data-spark="' + i + '"]');
+      if (canvas) drawSparkline(canvas, m.sparkData, m.sparkColor);
     }
-  }
+  });
 
-  app.innerHTML=h;
-
-  // Sparklines
-  mets.forEach((m,i)=>{if(m.s){const c=document.querySelector(`[data-si="${i}"]`);if(c)spark(c,m.s,(m.c||0)>=0?'rgba(0,210,106,.5)':'rgba(255,71,87,.5)')}});
-
-  renderCharts();
+  renderCharts(d);
 }
 
-function chartCard(id,title,key){
-  return `<div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem">
-      <div style="font-size:.82rem;font-weight:600">${title}</div>
-      <div class="chart-controls" data-chart="${key}">
-        <button class="ch-btn active" onclick="setRange('${key}','1M',this)">1M</button>
-      </div>
-    </div>
-    <div class="chart-area"><canvas id="${id}"></canvas></div>
-  </div>`;
+function indicatorRow(ind) {
+  const cls = (ind.change||0) > 0 ? 'up' : (ind.change||0) < 0 ? 'down' : 'neutral';
+  const badgeColor = ind.category === 'growth' ? 'background:var(--green-dim);color:var(--green)'
+    : ind.category === 'labour' ? 'background:var(--blue-dim);color:var(--blue)'
+    : ind.category === 'prices' ? 'background:var(--gold-dim);color:var(--gold)'
+    : 'background:var(--purple-dim);color:var(--purple)';
+  return '<tr data-cat="' + escapeHTML(ind.category||'') + '">'
+    + '<td><span class="indicator-name"><span class="indicator-badge" style="' + badgeColor + '">' + escapeHTML(ind.category||'').toUpperCase() + '</span>' + escapeHTML(ind.name) + '</span></td>'
+    + '<td style="font-weight:500;font-family:var(--mono)">' + escapeHTML(ind.value) + '</td>'
+    + '<td style="font-family:var(--mono);color:var(--muted)">' + escapeHTML(ind.previous||'—') + '</td>'
+    + '<td><span class="metric-change ' + cls + '" style="font-size:.74rem">'
+      + ((ind.change||0)>0?'&#9650;':(ind.change||0)<0?'&#9660;':'&#8212;')
+      + ' ' + Math.abs(ind.change||0).toFixed(2) + escapeHTML(ind.unit||'') + '</span></td>'
+    + '<td style="font-size:.74rem;color:var(--muted)">' + escapeHTML(ind.period||'') + '</td>'
+    + '</tr>';
 }
 
-function setRange(key,range,btn){
-  btn.parentElement.querySelectorAll('.ch-btn').forEach(b=>b.classList.remove('active'));
+function filterIndicators(cat, btn) {
+  activeTab = cat;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-}
-
-function renderCharts(){
-  Object.values(charts).forEach(c=>c.destroy&&c.destroy());charts={};
-  const lt=document.body.classList.contains('light');
-  const gc=lt?'#e5e7eb':'#2a2a3a',tc=lt?'#9ca3af':'#6b6980';
-  const opts={responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-    plugins:{legend:{display:false},tooltip:{backgroundColor:lt?'#fff':'#1a1a25',titleColor:lt?'#111':'#e8e6f0',bodyColor:lt?'#111':'#e8e6f0',borderColor:lt?'#e5e7eb':'#3a3a4f',borderWidth:1,padding:10,titleFont:{family:'JetBrains Mono',size:10},bodyFont:{family:'JetBrains Mono',size:11,weight:500},displayColors:false,cornerRadius:6}},
-    scales:{x:{grid:{color:gc,drawBorder:false},ticks:{font:{family:'JetBrains Mono',size:9},color:tc,maxRotation:0,maxTicksLimit:6}},y:{grid:{color:gc,drawBorder:false},ticks:{font:{family:'JetBrains Mono',size:9},color:tc}}}};
-  function mk(id,hist){
-    if(!hist?.length)return;const ctx=document.getElementById(id);if(!ctx)return;
-    const labels=hist.map(p=>{const d=p.date.split('-');return d[2]+'/'+d[1]});
-    const vals=hist.map(p=>p.close);const up=vals[vals.length-1]>=vals[0];
-    const col=up?'#00d26a':'#ff4757';const bg=up?'rgba(0,210,106,.05)':'rgba(255,71,87,.05)';
-    return new Chart(ctx,{type:'line',data:{labels,datasets:[{data:vals,borderColor:col,backgroundColor:bg,fill:true,tension:.3,pointRadius:0,pointHoverRadius:4,pointHoverBackgroundColor:col,borderWidth:2}]},options:opts});
-  }
-  charts.asx=mk('chart-asx',D.asx200?.history);
-  charts.aud=mk('chart-aud',D.audusd?.history);
-}
-
-function renderIndicators(){
-  let inds=(D.indicators||[]).filter(i=>activeTab==='all'||i.category===activeTab);
-  if(searchQ)inds=inds.filter(i=>(i.name+i.value+i.category).toLowerCase().includes(searchQ));
-  if(sortCol){inds=[...inds].sort((a,b)=>{let av=a[sortCol],bv=b[sortCol];if(typeof av==='string')return sortDir*av.localeCompare(bv);return sortDir*((av||0)-(bv||0))});}
-  const tabs=['all','growth','prices','labour','trade'];
-  let h=`<div class="ind-wrap mb"><div class="ind-tabs">${tabs.map(t=>`<button class="ind-tab${activeTab===t?' active':''}" onclick="setTab('${t}',this)">${t.charAt(0).toUpperCase()+t.slice(1)}</button>`).join('')}</div>`;
-  h+=`<table class="ind"><thead><tr>
-    <th onclick="sortBy('name')"${sortCol==='name'?' class="sorted"':''}>Indicator</th>
-    <th onclick="sortBy('value')"${sortCol==='value'?' class="sorted"':''}>Value</th>
-    <th onclick="sortBy('previous')">Previous</th>
-    <th onclick="sortBy('change')"${sortCol==='change'?' class="sorted"':''}>Change</th>
-    <th>Period</th>
-  </tr></thead><tbody>`;
-  const badgeStyles={growth:'background:var(--green-dim);color:var(--green)',labour:'background:var(--blue-dim);color:var(--blue)',prices:'background:var(--gold-dim);color:var(--gold)',trade:'background:var(--purple-dim);color:var(--purple)'};
-  inds.forEach(i=>{
-    const cls=chgCls(i.change||0);
-    h+=`<tr style="cursor:pointer" onclick="drillDown('${esc(i.name)}')">
-      <td><span class="ind-name"><span class="ind-badge" style="${badgeStyles[i.category]||''}">${esc(i.category||'').toUpperCase()}</span>${esc(i.name)}</span></td>
-      <td style="font-weight:600;font-family:var(--mono)">${esc(i.value)}</td>
-      <td style="font-family:var(--mono);color:var(--text-dim)">${esc(i.previous||'—')}</td>
-      <td><span class="met-chg ${cls}" style="font-size:.7rem">${arrow(i.change)}${Math.abs(i.change||0).toFixed(2)}${esc(i.unit||'')}</span></td>
-      <td style="font-size:.7rem;color:var(--text-dim)">${esc(i.period||'')}</td>
-    </tr>`;
+  document.querySelectorAll('#indicators-body tr').forEach(tr => {
+    tr.style.display = (cat === 'all' || tr.dataset.cat === cat) ? '' : 'none';
   });
-  h+='</tbody></table></div>';
-  return h;
 }
 
-function setTab(t){activeTab=t;renderAll()}
-function sortBy(col){if(sortCol===col)sortDir*=-1;else{sortCol=col;sortDir=1;}renderAll()}
+function renderCharts(d) {
+  Object.values(charts).forEach(c => c.destroy && c.destroy());
+  charts = {};
 
-// Drill-down
-function drillDown(name){
-  let h=`<div class="modal-head"><h3>${esc(name)}</h3><button class="modal-close" onclick="closeModal()">&#10005;</button></div>`;
-  const met=[...(D.indicators||[])].find(i=>i.name.includes(name));
-  if(met){
-    h+=`<div style="margin-bottom:.75rem"><span style="font-size:1.5rem;font-weight:700;font-family:var(--mono)">${esc(met.value)}</span>
-    <span class="met-chg ${chgCls(met.change||0)}" style="margin-left:.5rem">${arrow(met.change)}${Math.abs(met.change||0).toFixed(2)}${esc(met.unit||'')}</span></div>`;
-    h+=`<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem;margin-bottom:1rem">
-      <div class="card card-sm"><div class="met-label">Current</div><div style="font-weight:600;font-family:var(--mono)">${esc(met.value)}</div></div>
-      <div class="card card-sm"><div class="met-label">Previous</div><div style="font-weight:600;font-family:var(--mono)">${esc(met.previous||'—')}</div></div>
-      <div class="card card-sm"><div class="met-label">Period</div><div style="font-weight:600;font-family:var(--mono)">${esc(met.period||'—')}</div></div>
-    </div>`;
-  }
-  // Check for market data
-  if(name.includes('ASX')&&D.asx200?.history?.length){
-    h+=`<div style="font-size:.78rem;font-weight:600;margin-bottom:.5rem">30-Day Price History</div>`;
-    h+=`<div style="overflow-x:auto"><table class="ind"><thead><tr><th>Date</th><th>Close</th><th>Change</th></tr></thead><tbody>`;
-    const hist=[...D.asx200.history].reverse();
-    hist.forEach((p,i)=>{
-      const prev=hist[i+1];const chg=prev?(p.close-prev.close)/prev.close*100:0;
-      h+=`<tr><td style="font-family:var(--mono);font-size:.72rem">${p.date}</td><td style="font-weight:600;font-family:var(--mono)">${fN(Math.round(p.close))}</td><td><span class="met-chg ${chgCls(chg)}" style="font-size:.68rem">${fP(chg)}</span></td></tr>`;
-    });
-    h+='</tbody></table></div>';
-  }
-  if(name.includes('AUD')&&D.audusd?.history?.length){
-    h+=`<div style="font-size:.78rem;font-weight:600;margin-bottom:.5rem">30-Day Rate History</div>`;
-    h+=`<div style="overflow-x:auto"><table class="ind"><thead><tr><th>Date</th><th>Rate</th><th>Change</th></tr></thead><tbody>`;
-    const hist=[...D.audusd.history].reverse();
-    hist.forEach((p,i)=>{
-      const prev=hist[i+1];const chg=prev?(p.close-prev.close)/prev.close*100:0;
-      h+=`<tr><td style="font-family:var(--mono);font-size:.72rem">${p.date}</td><td style="font-weight:600;font-family:var(--mono)">${p.close.toFixed(4)}</td><td><span class="met-chg ${chgCls(chg)}" style="font-size:.68rem">${fP(chg)}</span></td></tr>`;
-    });
-    h+='</tbody></table></div>';
-  }
-  if(!met&&!name.includes('ASX')&&!name.includes('AUD')){
-    const com=(D.commodities||[]).find(c=>c.name===name);
-    if(com){
-      h+=`<div style="font-size:1.3rem;margin-bottom:.5rem">${com.icon||''} <span style="font-weight:700;font-family:var(--mono)">$${fM(com.price)}</span>
-        <span class="met-chg ${chgCls(com.changePercent)}" style="margin-left:.5rem">${fP(com.changePercent)}</span></div>`;
-    }
-    const sector=(D.sectors||[]).find(s=>s.name===name);
-    if(sector){
-      h+=`<div style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem">${esc(sector.name)}</div>`;
-      h+=`<div class="met-chg ${chgCls(sector.changePercent)}" style="font-size:1rem;margin-bottom:.75rem">${fP(sector.changePercent)}</div>`;
-      if(sector.stocks?.length){
-        h+=`<table class="ind"><thead><tr><th>Stock</th><th>Price</th><th>Change</th></tr></thead><tbody>`;
-        sector.stocks.forEach(s=>{
-          h+=`<tr><td style="font-weight:500">${esc(s.name)}</td><td style="font-family:var(--mono);font-weight:600">$${fM(s.price)}</td><td><span class="met-chg ${chgCls(s.changePercent)}" style="font-size:.7rem">${fP(s.changePercent)}</span></td></tr>`;
-        });
-        h+='</tbody></table>';
+  const isDark = document.body.classList.contains('dark');
+  const gridColor = isDark ? '#333' : '#edeade';
+  const tickColor = isDark ? '#8a8578' : '#7a7568';
+
+  const baseOpts = {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: isDark ? '#333' : '#fff',
+        titleColor: isDark ? '#e8e6e1' : '#1a1a18',
+        bodyColor: isDark ? '#e8e6e1' : '#1a1a18',
+        borderColor: isDark ? '#444' : '#ddd9cf',
+        borderWidth: 1,
+        padding: 10,
+        titleFont: { family: 'DM Mono', size: 11 },
+        bodyFont: { family: 'DM Mono', size: 12, weight: 500 },
+        displayColors: false,
+        cornerRadius: 6
       }
+    },
+    scales: {
+      x: { grid: { color: gridColor, drawBorder: false }, ticks: { font: { family: 'DM Mono', size: 9 }, color: tickColor, maxRotation: 0, maxTicksLimit: 6 }},
+      y: { grid: { color: gridColor, drawBorder: false }, ticks: { font: { family: 'DM Mono', size: 9 }, color: tickColor }}
     }
+  };
+
+  function makeChart(id, historyData) {
+    if (!historyData?.length) return;
+    const ctx = document.getElementById(id);
+    if (!ctx) return;
+    const labels = historyData.map(p => { const d = p.date.split('-'); return d[2]+'/'+d[1]; });
+    const values = historyData.map(p => p.close);
+    const isUp = values[values.length-1] >= values[0];
+    const color = isUp ? '#1a7a4a' : '#c23a3a';
+    const bg = isUp ? 'rgba(26,122,74,.06)' : 'rgba(194,58,58,.06)';
+    return new Chart(ctx, {
+      type: 'line',
+      data: { labels, datasets: [{ data: values, borderColor: color, backgroundColor: bg, fill: true, tension: .35, pointRadius: 0, pointHoverRadius: 4, pointHoverBackgroundColor: color, borderWidth: 2 }] },
+      options: baseOpts
+    });
   }
-  openModal(h);
+
+  charts.asx = makeChart('chart-asx', d.asx200?.history);
+  charts.aud = makeChart('chart-aud', d.audusd?.history);
 }
 
-async function loadData(){
-  const btn=document.getElementById('refresh-btn');btn.classList.add('active');
-  try{
-    const base=window.location.pathname.replace(/[^/]*$/,'');
-    const r=await fetch(base+'finance-data.json?t='+Date.now());
-    if(!r.ok)throw new Error('HTTP '+r.status);
-    D=await r.json();
-    if(D.fetchedAt){const f=new Date(D.fetchedAt);document.querySelector('.mast-time').textContent=f.toLocaleDateString('en-AU',{day:'numeric',month:'short'})}
-    renderTicker();renderAll();
-  }catch(e){
-    document.getElementById('app').innerHTML=`<div class="card" style="text-align:center;padding:2rem;margin:2rem 0"><h3 style="font-size:.95rem;margin-bottom:.5rem">Waiting for data</h3><p style="font-size:.78rem;color:var(--text-dim)">Run the <strong>Fetch Finance Data</strong> workflow from the Actions tab.</p><p style="font-size:.68rem;color:var(--text-dim);margin-top:.5rem">${esc(e.message)}</p></div>`;
+async function loadData() {
+  if (loading) return;
+  loading = true;
+  const btn = document.getElementById('refresh-btn');
+  btn.classList.add('spinning');
+
+  try {
+    const base = window.location.pathname.replace(/[^/]*$/, '');
+    const res = await fetch(base + 'finance-data.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+
+    financeData = await res.json();
+
+    if (financeData.fetchedAt) {
+      const fetched = new Date(financeData.fetchedAt);
+      document.getElementById('last-updated').textContent =
+        fetched.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})
+        + ' · ' + fetched.toLocaleDateString('en-AU', {day:'numeric',month:'short',year:'numeric'});
+    }
+
+    renderTicker(financeData);
+    renderDashboard(financeData);
+
+  } catch(e) {
+    document.getElementById('dashboard').innerHTML =
+      '<div class="error-box">'
+      + '<h3>Waiting for first data fetch</h3>'
+      + '<p>Go to your repo &#8594; <strong>Actions</strong> tab &#8594; <strong>Fetch Finance Data</strong> &#8594; <strong>Run workflow</strong>.</p>'
+      + '<p style="margin-top:8px;font-size:.72rem;opacity:.7">Error: ' + escapeHTML(e.message) + '</p>'
+      + '</div>';
   }
-  btn.classList.remove('active');
+
+  btn.classList.remove('spinning');
+  loading = false;
 }
 
 loadData();
