@@ -106,6 +106,25 @@ canvas{width:100%!important}
 .range-btn:hover{border-color:var(--green);color:var(--green)}
 .range-btn.active{background:var(--green);border-color:var(--green);color:#fff}
 
+/* ── News Carousel ────────────────────────────────────── */
+.news-bar{background:var(--card);border-bottom:1px solid var(--border);padding:.55rem 1.25rem;transition:background .3s;overflow:hidden}
+.news-bar-inner{display:flex;align-items:center;gap:.65rem}
+.news-label{font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--green);font-family:var(--mono);white-space:nowrap;flex-shrink:0}
+.news-track-wrap{flex:1;overflow:hidden;position:relative}
+.news-track{display:flex;gap:.5rem;transition:transform .45s cubic-bezier(.4,0,.2,1);will-change:transform}
+.news-card{flex-shrink:0;width:240px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.5rem .72rem;cursor:pointer;text-decoration:none;display:block;transition:border-color .15s,box-shadow .15s}
+.news-card:hover{border-color:var(--green-lt);box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.news-src{font-size:.55rem;font-family:var(--mono);font-weight:700;color:var(--green);text-transform:uppercase;letter-spacing:.07em;margin-bottom:.15rem}
+.news-hl{font-size:.67rem;font-weight:500;line-height:1.35;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.news-age{font-size:.56rem;color:var(--muted);font-family:var(--mono);margin-top:.2rem}
+.news-nav{display:flex;gap:.22rem;align-items:center;flex-shrink:0}
+.news-nav-btn{width:24px;height:24px;border-radius:5px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;flex-shrink:0;line-height:1}
+.news-nav-btn:hover{border-color:var(--green);color:var(--green);background:var(--green-dim)}
+.news-nav-btn svg{width:11px;height:11px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.news-dots{display:flex;gap:.28rem;align-items:center;flex-shrink:0}
+.news-dot{width:5px;height:5px;border-radius:50%;background:var(--border);transition:background .2s,transform .2s;cursor:pointer}
+.news-dot.active{background:var(--green);transform:scale(1.35)}
+
 /* ── Grid layouts ─────────────────────────────────────── */
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.65rem}
 .grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.65rem}
@@ -265,6 +284,25 @@ footer a{color:var(--green);text-decoration:none}
 
 <!-- ── Ticker ── -->
 <div class="ticker"><div class="ticker-inner" id="ticker">Loading market data…</div></div>
+
+<!-- ── News Carousel ── -->
+<div class="news-bar" id="news-bar" style="display:none">
+  <div class="news-bar-inner">
+    <span class="news-label">📰 Headlines</span>
+    <div class="news-track-wrap">
+      <div class="news-track" id="news-track"></div>
+    </div>
+    <div class="news-nav">
+      <div class="news-dots" id="news-dots"></div>
+      <button class="news-nav-btn" id="news-prev" title="Previous">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="news-nav-btn" id="news-next" title="Next">
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
 
 <!-- ── Main content (injected by JS) ── -->
 <main id="main"></main>
@@ -1191,6 +1229,68 @@ function rebuildAllCharts() {
 }
 
 // ─────────────────────────────────────────────────────────
+// News Carousel
+// ─────────────────────────────────────────────────────────
+let _newsIdx = 0;
+let _newsMax = 0;
+let _newsTimer = null;
+
+function _newsAge(pubDate) {
+  if (!pubDate) return '';
+  const ms = Date.now() - Date.parse(pubDate);
+  if (isNaN(ms) || ms < 0) return '';
+  const m = Math.floor(ms / 60000);
+  if (m < 1) return 'just now';
+  if (m < 60) return m + 'm ago';
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + 'h ago';
+  return Math.floor(h / 24) + 'd ago';
+}
+
+function _newsGo(i) {
+  _newsIdx = Math.max(0, Math.min(i, _newsMax));
+  const card = document.querySelector('.news-card');
+  const gap = 8;
+  const w = card ? card.offsetWidth + gap : 248;
+  document.getElementById('news-track').style.transform = `translateX(-${_newsIdx * w}px)`;
+  document.querySelectorAll('.news-dot').forEach((d, j) => d.classList.toggle('active', j === _newsIdx));
+}
+
+function _newsKick() {
+  clearInterval(_newsTimer);
+  _newsTimer = setInterval(() => _newsGo(_newsIdx >= _newsMax ? 0 : _newsIdx + 1), 5500);
+}
+
+function renderNews(news) {
+  const bar = document.getElementById('news-bar');
+  if (!news?.length) return; // stay hidden
+  const top10 = news.slice(0, 10);
+  const track = document.getElementById('news-track');
+  const dotsEl = document.getElementById('news-dots');
+
+  track.innerHTML = top10.map(n => `<a class="news-card" href="${esc(n.link||'#')}" target="_blank" rel="noopener noreferrer">
+    <div class="news-src">${esc(n.source||'News')}</div>
+    <div class="news-hl">${esc(n.title||'')}</div>
+    <div class="news-age">${_newsAge(n.pubDate)}</div>
+  </a>`).join('');
+
+  bar.style.display = '';
+
+  // After paint: compute visible card count from wrapper width
+  requestAnimationFrame(() => {
+    const wrapW = document.querySelector('.news-track-wrap')?.offsetWidth || 700;
+    const cardW = 240 + 8;
+    const visible = Math.max(1, Math.floor(wrapW / cardW));
+    _newsMax = Math.max(0, top10.length - visible);
+    dotsEl.innerHTML = Array.from({length: _newsMax + 1}, (_, i) =>
+      `<span class="news-dot${i===0?' active':''}" onclick="_newsGo(${i});_newsKick()"></span>`).join('');
+    document.getElementById('news-prev').onclick = () => { _newsGo(_newsIdx - 1); _newsKick(); };
+    document.getElementById('news-next').onclick = () => { _newsGo(_newsIdx + 1); _newsKick(); };
+    _newsKick();
+  });
+}
+
+// ─────────────────────────────────────────────────────────
 // Render all slides
 // ─────────────────────────────────────────────────────────
 function renderAll(d) {
@@ -1235,6 +1335,7 @@ async function loadData() {
     }
 
     renderTicker(D);
+    renderNews(D.news);
     renderAll(D);
     document.getElementById('loading-overlay').style.display = 'none';
   } catch(e) {
