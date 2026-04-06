@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Bangladesh data fetcher
         working-directory: ${{ env.SCRIPT_DIR }}
-        run: node bd-fetch-finance.js
+        run: node bd-fetch.js
 
       - name: Commit and push updated data
         run: |
@@ -39,10 +39,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Only commit if the file actually changed
-          if git diff --quiet "${{ env.SCRIPT_DIR }}/bd-finance-data.json"; then
-            echo "No changes to bd-finance-data.json — skipping commit."
+          if git diff --quiet "${{ env.SCRIPT_DIR }}/bd-fetch.json"; then
+            echo "No changes to bd-fetch.json — skipping commit."
           else
-            git add "${{ env.SCRIPT_DIR }}/bd-finance-data.json"
+            git add "${{ env.SCRIPT_DIR }}/bd-fetch.json"
             git commit -m "chore: refresh BD finance data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push
           fi
