@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-06T13:51:21.304Z",
+  "fetchedAt": "2026-04-06T19:35:33.089Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.17,
+      "changePercent": -1.31,
       "previousClose": 0.7,
       "asOf": "2026-04-06",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.6,
       "change": 0,
-      "changePercent": -0.73,
+      "changePercent": -0.76,
       "previousClose": 0.6,
       "asOf": "2026-04-06",
       "history": [
@@ -2214,9 +2214,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": -0.07,
-      "changePercent": -1.44,
+      "value": 4.76,
+      "change": -0.08,
+      "changePercent": -1.57,
       "previousClose": 4.84,
       "asOf": "2026-04-06",
       "history": [
@@ -2306,7 +2306,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2571,7 +2571,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2681,7 +2681,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3315,14 +3315,14 @@
         },
         {
           "date": "2026-04-06",
-          "close": 4.77
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 110.52,
-      "change": 0.07,
-      "changePercent": 0.07,
+      "value": 110.5,
+      "change": 0.05,
+      "changePercent": 0.05,
       "previousClose": 110.45,
       "asOf": "2026-04-06",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.52
+          "close": 110.5
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.52
+          "close": 110.49
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.53
+          "close": 110.49
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.52
+          "close": 110.5
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.17,
+    "changePercent": -1.31,
     "previousClose": 0.7,
     "asOf": "2026-04-06",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 112.54,
-      "change": 21.64,
-      "changePercent": 23.81,
+      "value": 112.89,
+      "change": 21.99,
+      "changePercent": 24.19,
       "previousClose": 90.9,
       "asOf": "2026-04-06",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-06",
-          "close": 112.54
+          "close": 112.89
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.95,
-      "change": 16.26,
-      "changePercent": 17.54,
+      "value": 110.03,
+      "change": 17.34,
+      "changePercent": 18.71,
       "previousClose": 92.69,
       "asOf": "2026-04-06",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-06",
-          "close": 108.95
+          "close": 110.03
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.84,
-      "change": -0.34,
-      "changePercent": -10.77,
+      "value": 2.8,
+      "change": -0.38,
+      "changePercent": -12.02,
       "previousClose": 3.19,
       "asOf": "2026-04-06",
       "history": [
@@ -6004,7 +6004,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 2.84
+          "close": 2.8
         }
       ],
       "name": "Natural Gas",
@@ -7389,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4702.1,
-      "change": -444,
-      "changePercent": -8.63
+      "price": 4674.9,
+      "change": -471.2,
+      "changePercent": -9.16
     },
     {
       "name": "Silver",
-      "price": 72.79,
-      "change": -11.03,
-      "changePercent": -13.16
+      "price": 73.05,
+      "change": -10.77,
+      "changePercent": -12.84
     },
     {
       "name": "Copper",
       "price": 5.61,
-      "change": -0.14,
-      "changePercent": -2.51
+      "change": -0.15,
+      "changePercent": -2.6
     }
   ],
   "housing": {
@@ -7753,6 +7753,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "ASX set to retreat, Wall Street loses steam after Trump’s threat to ‘take out’ Iran; Oil rises",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-retreat-wall-street-loses-steam-after-trump-s-threat-to-take-out-iran-oil-rises-20260407-p5zlpt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street has pared some of its earlier gains after President Donald Trump said Iran could be “taken out in one night” as his deadline approaches.",
+      "pubDate": "Tue, 07 Apr 2026 05:26:23 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Inside the office where Trump’s words are turned into millions of dollars",
       "link": "https://www.smh.com.au/business/markets/inside-the-office-where-trump-s-words-are-turned-into-millions-of-dollars-20260402-p5zky2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "As US B-2 bombers and F-35 fighter jets strafe Iran, another battle rages over the price of oil.",
@@ -7765,6 +7772,20 @@
       "snippet": "Australian taxpayers have helped nearly 50,000 migrants purchase new homes since mid-2023 under a generous scheme available to non-citizens.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Fake missile strikes, White House memes and ‘useful idiots’: the AI war within the war",
+      "link": "https://www.smh.com.au/business/companies/fake-missile-strikes-white-house-memes-and-useful-idiots-the-ai-war-within-the-war-20260402-p5zl0y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Former Secretary of State John Kerry once said the US had learned lessons of dignity and transparency from the failed Vietnam War. But the Trump Administration and Iran are playing by different rules.",
+      "pubDate": "Tue, 07 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "How Australia’s big banks ran into an even bigger fish",
+      "link": "https://www.smh.com.au/business/banking-and-finance/how-australia-s-big-banks-ran-into-an-even-bigger-fish-20260406-p5zllb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Banks have long accused tech companies of free-riding, but lately those warnings have grown louder. Are banks just trying to protect their patch, or do they have a point?",
+      "pubDate": "Tue, 07 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Trump has America embracing a dangerous future",
@@ -7788,20 +7809,6 @@
       "source": "SMH"
     },
     {
-      "title": "Even if the Strait of Hormuz opened tomorrow, it could take months for fuel prices to come down",
-      "link": "https://www.smh.com.au/business/markets/australia-s-high-petrol-prices-face-long-recovery-to-pre-war-levels-20260331-p5zkcy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump says oil prices would fall rapidly if the US ended its war with Iran. Australian fuel companies are preparing for a longer setback.",
-      "pubDate": "Sun, 05 Apr 2026 15:46:30 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Apple’s 50-year history has redefined technology, culture and comebacks",
-      "link": "https://www.smh.com.au/business/companies/apple-s-50-year-history-has-redefined-technology-culture-and-comebacks-20260402-p5zktc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "An improbable odyssey began on April Fools’ Day five decades ago, when Steve Jobs and Steve Wozniak signed a two-page document that created Apple Computer Co.",
-      "pubDate": "Sat, 04 Apr 2026 07:00:00 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "Aussie stars testing the waters at Australian Open",
       "link": "https://www.abc.net.au/news/2026-04-06/australian-open-swimming-molly-ocallaghan-sam-short-kyle-chalmer/106535948",
       "snippet": "",
@@ -7813,13 +7820,6 @@
       "link": "https://www.abc.net.au/news/2026-04-06/essendon-bombers-on-cusp-of-record-losing-streak-at-gather-round/106535556",
       "snippet": "",
       "pubDate": "Mon, 06 Apr 2026 06:37:19 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Coach Maguire faces a Broncos first amid injury crisis",
-      "link": "https://www.abc.net.au/news/2026-04-06/brisbane-broncos-nrl-injury-crisis-halfback-options/106535422",
-      "snippet": "",
-      "pubDate": "Mon, 06 Apr 2026 05:46:54 +0000",
       "source": "ABC"
     }
   ]
