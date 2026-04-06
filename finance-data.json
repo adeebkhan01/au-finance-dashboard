@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-06T10:46:00.690Z",
+  "fetchedAt": "2026-04-06T12:02:27.564Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.16,
+      "changePercent": -1.18,
       "previousClose": 0.7,
       "asOf": "2026-04-06",
       "history": [
@@ -3320,9 +3320,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.49,
-      "change": 0.04,
-      "changePercent": 0.03,
+      "value": 110.53,
+      "change": 0.09,
+      "changePercent": 0.08,
       "previousClose": 110.45,
       "asOf": "2026-04-06",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.49
+          "close": 110.53
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.49
+          "close": 110.53
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.49
+          "close": 110.53
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.49
+          "close": 110.53
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.16,
+    "changePercent": -1.18,
     "previousClose": 0.7,
     "asOf": "2026-04-06",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 110.35,
-      "change": 19.45,
-      "changePercent": 21.4,
+      "value": 110.15,
+      "change": 19.25,
+      "changePercent": 21.18,
       "previousClose": 90.9,
       "asOf": "2026-04-06",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.35
+          "close": 110.15
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.18,
-      "change": 15.49,
-      "changePercent": 16.71,
+      "value": 108.7,
+      "change": 16.01,
+      "changePercent": 17.27,
       "previousClose": 92.69,
       "asOf": "2026-04-06",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-06",
-          "close": 108.18
+          "close": 108.7
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.85,
-      "change": -0.34,
-      "changePercent": -10.7,
+      "value": 2.83,
+      "change": -0.36,
+      "changePercent": -11.33,
       "previousClose": 3.19,
       "asOf": "2026-04-06",
       "history": [
@@ -6004,7 +6004,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 2.85
+          "close": 2.83
         }
       ],
       "name": "Natural Gas",
@@ -7389,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4714.9,
-      "change": -431.2,
-      "changePercent": -8.38
+      "price": 4709.4,
+      "change": -436.7,
+      "changePercent": -8.49
     },
     {
       "name": "Silver",
-      "price": 73.25,
-      "change": -10.57,
-      "changePercent": -12.61
+      "price": 73.5,
+      "change": -10.32,
+      "changePercent": -12.31
     },
     {
       "name": "Copper",
-      "price": 5.66,
-      "change": -0.1,
-      "changePercent": -1.69
+      "price": 5.68,
+      "change": -0.08,
+      "changePercent": -1.32
     }
   ],
   "housing": {
