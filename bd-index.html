@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Bangladesh Economy Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f5f2eb;--surface:#edeade;--card:#fff;--border:#ddd9cf;
+  --green:#006A4E;--green-lt:#00855f;--green-dim:#d4ece6;
+  --red:#F42A41;--red-dim:#fde8ea;
+  --text:#1a1a18;--muted:#7a7568;
+  --blue:#2563eb;--blue-dim:#eff6ff;
+  --gold:#b8860b;--gold-dim:#fef9ee;
+  --purple:#7c3aed;--purple-dim:#f3f0f9;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --mono:'DM Mono',monospace;
+  --radius:10px;--shadow:0 1px 3px rgba(0,0,0,.04);--shadow-lg:0 8px 24px rgba(0,0,0,.09);
+  --hdr:50px;--ticker:34px;--scroll-offset:88px;
+}
+.dark{
+  --bg:#131313;--surface:#1c1c1c;--card:#222;--border:#2e2e2e;
+  --text:#e8e6e1;--muted:#8a8578;
+  --green-dim:#0d2921;--red-dim:#2a1011;--blue-dim:#16192a;
+  --gold-dim:#2a2516;--purple-dim:#201628;
+  --shadow:0 1px 3px rgba(0,0,0,.25);--shadow-lg:0 8px 24px rgba(0,0,0,.35);
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;transition:background .3s,color .3s;padding-top:0}
+
+/* ── Masthead ─────────────────────────────────────────── */
+.masthead{position:sticky;top:0;z-index:200;border-bottom:1px solid var(--border);background:var(--surface);padding:0 1.25rem;transition:background .3s,border-color .3s}
+.masthead-inner{display:flex;align-items:center;gap:.55rem;height:var(--hdr)}
+.logo{font-family:var(--serif);font-size:1.05rem;font-weight:700;color:var(--green);letter-spacing:-.02em;display:flex;align-items:center;gap:.4rem;text-decoration:none;white-space:nowrap;flex-shrink:0}
+.bd-flag{width:24px;height:14px;border-radius:2px;overflow:hidden;flex-shrink:0}
+.bd-flag svg{width:100%;height:100%}
+.slide-nav{display:flex;align-items:center;gap:.18rem;margin-left:.35rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.slide-nav::-webkit-scrollbar{display:none}
+.snav-btn{padding:.22rem .5rem;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.62rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .15s;font-family:var(--mono);flex-shrink:0}
+.snav-btn:hover{border-color:var(--green);color:var(--green)}
+.snav-btn.active{background:var(--green);border-color:var(--green);color:#fff}
+.mhd-right{margin-left:auto;display:flex;align-items:center;gap:.45rem;flex-shrink:0}
+.last-upd{font-size:.62rem;color:var(--muted);font-family:var(--mono);white-space:nowrap}
+.btn-icon{width:28px;height:28px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s}
+.btn-icon:hover{border-color:var(--green);color:var(--green)}
+#refresh-btn{font-size:.68rem;font-weight:500;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:6px;padding:.25rem .55rem;cursor:pointer;display:flex;align-items:center;gap:.3rem;transition:background .15s}
+#refresh-btn:hover{background:#004d38}
+#refresh-btn.spinning svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Ticker ───────────────────────────────────────────── */
+.ticker{position:sticky;top:var(--hdr);z-index:199;background:var(--card);border-bottom:1px solid var(--border);padding:.35rem 1.25rem;overflow:hidden;transition:background .3s}
+.ticker-inner{display:flex;gap:1.1rem;align-items:center;font-size:.67rem;font-family:var(--mono);overflow-x:auto;scrollbar-width:none}
+.ticker-inner::-webkit-scrollbar{display:none}
+.titem{display:flex;align-items:center;gap:.3rem;white-space:nowrap;flex-shrink:0}
+.tname{color:var(--muted);font-weight:500}
+.tchg.up{color:var(--green)}.tchg.down{color:var(--red)}
+.tsep{width:1px;height:11px;background:var(--border);flex-shrink:0}
+
+/* ── Slides (scrollable, stacked) ────────────────────── */
+.slide{padding:1.5rem 1.25rem 2rem;border-bottom:2px solid var(--border);scroll-margin-top:var(--scroll-offset)}
+.slide:last-child{border-bottom:none}
+
+/* ── Slide header ─────────────────────────────────────── */
+.slide-hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1rem}
+.slide-hdr-left{}
+.slide-num-label{font-size:.6rem;font-family:var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.2rem}
+.slide-title{font-family:var(--serif);font-size:1.4rem;font-weight:700;line-height:1.2}
+.slide-sub{font-size:.72rem;color:var(--muted);margin-top:.25rem}
+.slide-asof{font-size:.6rem;font-family:var(--mono);color:var(--muted);text-align:right;flex-shrink:0;white-space:nowrap}
+
+/* ── Cards & chips ────────────────────────────────────── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;box-shadow:var(--shadow);transition:all .2s}
+.card:hover{border-color:var(--green-lt);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
+.card-label{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:.4rem;display:flex;align-items:center;gap:.3rem}
+.card-label .dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
+.card-val{font-family:var(--serif);font-size:1.6rem;font-weight:700;line-height:1.1;letter-spacing:-.02em;margin-bottom:.2rem}
+.card-chg{font-size:.7rem;font-weight:500;display:flex;align-items:center;gap:.18rem}
+.card-chg.up{color:var(--green)}.card-chg.down{color:var(--red)}.card-chg.flat{color:var(--muted)}
+.card-sub{font-size:.6rem;color:var(--muted);font-family:var(--mono);margin-top:.1rem}
+.card-accent{height:2px;margin:-0.85rem -1rem 0;margin-top:.55rem;border-radius:0 0 var(--radius) var(--radius)}
+
+.metric-row{display:flex;gap:.55rem;flex-wrap:wrap;margin-bottom:.85rem}
+.chip{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.5rem .75rem;flex:1;min-width:110px;box-shadow:var(--shadow)}
+.chip-label{font-size:.58rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.2rem}
+.chip-val{font-family:var(--mono);font-size:.92rem;font-weight:500;margin-bottom:.08rem}
+.chip-chg{font-size:.63rem;font-weight:500}
+.chip-chg.up{color:var(--green)}.chip-chg.down{color:var(--red)}.chip-chg.flat{color:var(--muted)}
+
+/* ── Charts ───────────────────────────────────────────── */
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.chart-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem;gap:.5rem;flex-wrap:wrap}
+.chart-hdr h3{font-family:var(--serif);font-size:.88rem;font-weight:600}
+.chart-hdr .csub{font-size:.6rem;color:var(--muted);font-family:var(--mono)}
+.chart-wrap{position:relative;height:200px}
+canvas{width:100%!important}
+
+/* ── Range buttons ────────────────────────────────────── */
+.range-btns{display:flex;gap:.2rem}
+.range-btn{font-size:.6rem;font-weight:600;padding:.18rem .42rem;border-radius:4px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;font-family:var(--mono)}
+.range-btn:hover{border-color:var(--green);color:var(--green)}
+.range-btn.active{background:var(--green);border-color:var(--green);color:#fff}
+
+/* ── News Carousel ────────────────────────────────────── */
+.news-bar{background:var(--card);border-bottom:1px solid var(--border);padding:.55rem 1.25rem;transition:background .3s;overflow:hidden}
+.news-bar-inner{display:flex;align-items:center;gap:.65rem}
+.news-label{font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--green);font-family:var(--mono);white-space:nowrap;flex-shrink:0}
+.news-track-wrap{flex:1;overflow:hidden;position:relative}
+.news-track{display:flex;gap:.5rem;transition:transform .45s cubic-bezier(.4,0,.2,1);will-change:transform}
+.news-card{flex-shrink:0;width:240px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.5rem .72rem;cursor:pointer;text-decoration:none;display:block;transition:border-color .15s,box-shadow .15s}
+.news-card:hover{border-color:var(--green-lt);box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.news-src{font-size:.55rem;font-family:var(--mono);font-weight:700;color:var(--green);text-transform:uppercase;letter-spacing:.07em;margin-bottom:.15rem}
+.news-hl{font-size:.67rem;font-weight:500;line-height:1.35;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.news-age{font-size:.56rem;color:var(--muted);font-family:var(--mono);margin-top:.2rem}
+.news-nav{display:flex;gap:.22rem;align-items:center;flex-shrink:0}
+.news-nav-btn{width:24px;height:24px;border-radius:5px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;flex-shrink:0;line-height:1}
+.news-nav-btn:hover{border-color:var(--green);color:var(--green);background:var(--green-dim)}
+.news-nav-btn svg{width:11px;height:11px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.news-dots{display:flex;gap:.28rem;align-items:center;flex-shrink:0}
+.news-dot{width:5px;height:5px;border-radius:50%;background:var(--border);transition:background .2s,transform .2s;cursor:pointer}
+.news-dot.active{background:var(--green);transform:scale(1.35)}
+
+/* ── Grid layouts ─────────────────────────────────────── */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.65rem}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.65rem}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:.65rem}
+.grid-fx{display:grid;grid-template-columns:1fr 1fr;gap:.65rem}
+@media(max-width:900px){.grid-2,.grid-3,.grid-4,.grid-fx{grid-template-columns:1fr 1fr}}
+@media(max-width:580px){.grid-2,.grid-3,.grid-4,.grid-fx{grid-template-columns:1fr}}
+.mb{margin-bottom:.65rem}
+
+/* ── Stock cards ──────────────────────────────────────── */
+.stock-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem .9rem;box-shadow:var(--shadow);border-top:3px solid var(--border);transition:all .2s}
+.stock-card:hover{transform:translateY(-1px);box-shadow:var(--shadow-lg)}
+.stk-ticker{font-family:var(--mono);font-size:.68rem;font-weight:700;color:var(--muted);margin-bottom:.2rem}
+.stk-name{font-size:.68rem;color:var(--muted);margin-bottom:.35rem}
+.stk-price{font-family:var(--serif);font-size:1.25rem;font-weight:700;margin-bottom:.12rem}
+.stk-chg{font-size:.7rem;font-weight:500}
+.stk-chg.up{color:var(--green)}.stk-chg.down{color:var(--red)}.stk-chg.flat{color:var(--muted)}
+
+/* ── Sector heatmap ───────────────────────────────────── */
+.sector-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.35rem}
+.sector-cell{border-radius:7px;padding:.45rem .6rem;transition:opacity .2s;cursor:default}
+.sc-name{font-size:.58rem;text-transform:uppercase;letter-spacing:.04em;opacity:.75;margin-bottom:.1rem}
+.sc-val{font-family:var(--mono);font-size:.85rem;font-weight:700}
+
+/* ── Trade partner bars ───────────────────────────────── */
+.partner-list{display:flex;flex-direction:column;gap:.38rem}
+.partner-row{display:flex;align-items:center;gap:.45rem;font-size:.7rem}
+.pname{width:85px;flex-shrink:0;color:var(--muted);font-weight:500}
+.pbar-track{flex:1;background:var(--surface);border-radius:3px;height:9px;overflow:hidden}
+.pbar-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.ppct{width:32px;text-align:right;font-family:var(--mono);font-weight:500;font-size:.68rem}
+
+/* ── Yield curve ──────────────────────────────────────── */
+.yield-list{display:flex;flex-direction:column}
+.yield-row{display:flex;align-items:center;gap:.65rem;padding:.38rem 0;border-bottom:1px solid var(--border);font-size:.76rem}
+.yield-row:last-child{border-bottom:none}
+.yield-lbl{width:100px;color:var(--muted);font-weight:500;flex-shrink:0}
+.yield-val{font-family:var(--mono);font-weight:700;width:52px;color:var(--green)}
+.yield-bar-wrap{flex:1;background:var(--surface);border-radius:3px;height:5px}
+.yield-bar{height:100%;border-radius:3px;background:var(--green)}
+
+/* ── BB table ────────────────────────────────────────── */
+.bb-table{width:100%;border-collapse:collapse;font-size:.74rem}
+.bb-table th{font-size:.58rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:.38rem .65rem;text-align:left;border-bottom:1px solid var(--border);background:var(--surface)}
+.bb-table td{padding:.42rem .65rem;border-bottom:1px solid var(--border)}
+.bb-table tr:last-child td{border-bottom:none}
+.bb-table tr:hover td{background:var(--surface)}
+.bb-badge{font-size:.53rem;padding:.1rem .3rem;border-radius:3px;font-weight:700;font-family:var(--mono)}
+
+/* ── Overview page ────────────────────────────────────── */
+.overview-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.65rem}
+@media(max-width:1000px){.overview-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:580px){.overview-grid{grid-template-columns:1fr}}
+.ov-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.1rem;box-shadow:var(--shadow);cursor:pointer;transition:all .2s;text-decoration:none;color:inherit;display:block}
+.ov-card:hover{border-color:var(--green-lt);transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.ov-num{font-size:.6rem;font-family:var(--mono);color:var(--muted);margin-bottom:.3rem;text-transform:uppercase;letter-spacing:.08em}
+.ov-title{font-family:var(--serif);font-size:.95rem;font-weight:700;margin-bottom:.5rem;line-height:1.2}
+.ov-metrics{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.ov-metric{display:flex;flex-direction:column}
+.ov-metric-label{font-size:.55rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.ov-metric-val{font-family:var(--mono);font-size:.82rem;font-weight:500}
+.ov-desc{font-size:.68rem;color:var(--muted);line-height:1.5}
+.ov-arrow{font-size:.75rem;color:var(--green);float:right;margin-top:.25rem}
+
+/* ── Explainer panel ──────────────────────────────────── */
+.explainer{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-top:.85rem}
+.explainer-head{display:flex;align-items:center;justify-content:space-between;padding:.55rem .85rem;cursor:pointer;user-select:none;font-size:.7rem;font-weight:600;color:var(--muted)}
+.explainer-head:hover{color:var(--text)}
+.explainer-toggle{font-size:.55rem;transition:transform .2s;flex-shrink:0}
+.explainer.open .explainer-toggle{transform:rotate(180deg)}
+.explainer-body{display:none;padding:.65rem .85rem;flex-direction:column;gap:.5rem;border-top:1px solid var(--border)}
+.explainer.open .explainer-body{display:flex}
+.expl-row{display:flex;gap:.6rem;font-size:.72rem;line-height:1.55}
+.expl-sig{font-size:.6rem;font-weight:700;padding:.15rem .4rem;border-radius:4px;white-space:nowrap;flex-shrink:0;height:fit-content;margin-top:.15rem;font-family:var(--mono)}
+.expl-sig.up{background:var(--green-dim);color:var(--green)}
+.expl-sig.down{background:var(--red-dim);color:var(--red)}
+.expl-sig.watch{background:var(--gold-dim);color:var(--gold)}
+.expl-sig.note{background:var(--blue-dim);color:var(--blue)}
+.expl-text{color:var(--muted)}
+.expl-text strong{color:var(--text)}
+
+/* ── Static note ──────────────────────────────────────── */
+.static-note{font-size:.6rem;color:var(--muted);font-style:italic;padding:.28rem .6rem;background:var(--surface);border-radius:4px;border-left:2px solid var(--border);margin-top:.45rem}
+
+/* ── Loading / Error ──────────────────────────────────── */
+#loading-overlay{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:1rem;color:var(--muted)}
+#loading-overlay h3{font-family:var(--serif);font-size:1.1rem;color:var(--text)}
+.spinner{width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite}
+.error-box{background:var(--red-dim);border:1px solid #e8b4b4;border-radius:var(--radius);padding:1.25rem;color:#8b2020;margin:1.5rem 1.25rem}
+
+/* ── Misc ─────────────────────────────────────────────── */
+.up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
+.mono{font-family:var(--mono)}
+footer{padding:1rem 1.25rem;text-align:center;font-size:.65rem;color:var(--muted);border-top:1px solid var(--border)}
+footer a{color:var(--green);text-decoration:none}
+</style>
+</head>
+<body>
+
+<!-- Loading overlay -->
+<div id="loading-overlay">
+  <div class="spinner"></div>
+  <h3>Loading Bangladesh Economy Data</h3>
+  <p style="font-size:.8rem">Fetching latest market &amp; economic indicators…</p>
+</div>
+
+<!-- ── Masthead ── -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="logo" href="#slide-0">
+      <div class="bd-flag">
+        <svg viewBox="0 0 450 300" xmlns="http://www.w3.org/2000/svg">
+          <rect width="450" height="300" fill="#006A4E"/>
+          <circle cx="210" cy="150" r="100" fill="#F42A41"/>
+        </svg>
+      </div>
+      BD Economy
+    </a>
+    <nav class="slide-nav" id="slide-nav"></nav>
+    <div class="mhd-right">
+      <span class="last-upd" id="last-upd">—</span>
+      <button class="btn-icon" onclick="toggleTheme()" title="Toggle dark mode">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="theme-icon">
+          <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+      </button>
+      <a class="btn-icon" href="index.html" title="Switch to Australia">
+        <svg viewBox="0 0 28 16" xmlns="http://www.w3.org/2000/svg" style="width:16px;height:10px">
+          <rect width="28" height="16" fill="#00008B"/>
+          <line x1="0" y1="0" x2="13" y2="8" stroke="#fff" stroke-width="1.5"/>
+          <line x1="13" y1="0" x2="0" y2="8" stroke="#fff" stroke-width="1.5"/>
+          <line x1="0" y1="4" x2="13" y2="4" stroke="#fff" stroke-width="2.5"/>
+          <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#fff" stroke-width="2.5"/>
+        </svg>
+      </a>
+      <button id="refresh-btn" onclick="loadData()">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+        Refresh
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ── Ticker ── -->
+<div class="ticker"><div class="ticker-inner" id="ticker">Loading market data…</div></div>
+
+<!-- ── News Carousel ── -->
+<div class="news-bar" id="news-bar" style="display:none">
+  <div class="news-bar-inner">
+    <span class="news-label">📰 Headlines</span>
+    <div class="news-track-wrap">
+      <div class="news-track" id="news-track"></div>
+    </div>
+    <div class="news-nav">
+      <div class="news-dots" id="news-dots"></div>
+      <button class="news-nav-btn" id="news-prev" title="Previous">
+        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="news-nav-btn" id="news-next" title="Next">
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Main content (injected by JS) ── -->
+<main id="main"></main>
+
+<footer>
+  Bangladesh Economy Dashboard · Data via Bangladesh Bank, BBS, BGMEA &amp; Yahoo Finance · Auto-refreshes every 6 hours via GitHub Actions
+</footer>
+
+<script>
+// ─────────────────────────────────────────────────────────
+// Constants & state
+// ─────────────────────────────────────────────────────────
+let D = null;
+let charts = {};
+let activeSlide = 'slide-0';
+
+const SLIDES = [
+  { id:'slide-0', label:'Overview',          icon:'🏠' },
+  { id:'slide-1', label:'BDT & FX',          icon:'💱' },
+  { id:'slide-2', label:'BB Rates',          icon:'🏦' },
+  { id:'slide-3', label:'Inflation & GDP',   icon:'📈' },
+  { id:'slide-4', label:'RMG & Exports',     icon:'👔' },
+  { id:'slide-5', label:'Trade Balance',     icon:'⚖️' },
+  { id:'slide-6', label:'Dhaka Market',      icon:'📊' },
+  { id:'slide-7', label:'Remittances',       icon:'💸' },
+  { id:'slide-8', label:'Labour & Dev',      icon:'👥' },
+];
+
+// ─────────────────────────────────────────────────────────
+// Utils
+// ─────────────────────────────────────────────────────────
+const esc = s => String(s||'').replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+const fmt   = (n,d=2) => n==null ? '—' : n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const fmtM  = n => n==null ? '—' : '$'+Math.round(n/1000)+'k';
+const pct   = (v,d=1) => v==null ? '—' : fmt(v,d)+'%';
+const r2    = n => Math.round(n*100)/100;
+
+function chg(v, sfx='%', d=2) {
+  if (v==null||isNaN(v)) return '<span class="flat">—</span>';
+  const cls = v>0?'up':v<0?'down':'flat';
+  const arr = v>0?'▲':v<0?'▼':'—';
+  return `<span class="${cls}">${arr} ${Math.abs(v).toFixed(d)}${sfx}</span>`;
+}
+
+function timeAgo(s) {
+  if (!s) return '';
+  const d = (Date.now()-Date.parse(s))/1000;
+  if (d<60) return 'just now';
+  if (d<3600) return Math.floor(d/60)+'m ago';
+  if (d<86400) return Math.floor(d/3600)+'h ago';
+  return Math.floor(d/86400)+'d ago';
+}
+
+function isDark() { return document.body.classList.contains('dark'); }
+
+function chartColors() {
+  const dk = isDark();
+  return {
+    grid: dk?'#282828':'#edeade', tick: dk?'#888':'#9a9080',
+    bg:   dk?'#222':'#fff',      text: dk?'#e8e6e1':'#1a1a18',
+    tt:  { bg: dk?'#2a2a2a':'#fff', border: dk?'#444':'#ddd9cf' },
+  };
+}
+
+function baseOpts(extra={}) {
+  const c = chartColors();
+  return {
+    responsive:true, maintainAspectRatio:false,
+    interaction:{mode:'index',intersect:false},
+    plugins:{
+      legend:{display:false},
+      tooltip:{backgroundColor:c.tt.bg,titleColor:c.text,bodyColor:c.text,borderColor:c.tt.border,borderWidth:1,padding:9,titleFont:{family:'DM Mono',size:10},bodyFont:{family:'DM Mono',size:11,weight:'500'},displayColors:false,cornerRadius:6},
+    },
+    scales:{
+      x:{grid:{color:c.grid,drawBorder:false},ticks:{font:{family:'DM Mono',size:9},color:c.tick,maxRotation:0,maxTicksLimit:8}},
+      y:{grid:{color:c.grid,drawBorder:false},ticks:{font:{family:'DM Mono',size:9},color:c.tick}},
+    },
+    ...extra,
+  };
+}
+
+function histLabels(h) {
+  return h.map(p=>{ const d=p.date.split('-'); return d[2]+'/'+d[1]; });
+}
+
+function lineDs(h, color, label='', fill=true) {
+  const isUp = h.length>1 && h[h.length-1].close >= h[0].close;
+  const bg = fill ? color.replace(')',',0.07)').replace('rgb','rgba') : 'transparent';
+  return { label, data:h.map(p=>p.close), borderColor:color, backgroundColor:bg, fill, tension:.35, pointRadius:0, pointHoverRadius:4, borderWidth:2 };
+}
+
+function mkChart(id, type, data, opts) {
+  const el = document.getElementById(id); if (!el) return null;
+  if (charts[id]) { try{charts[id].destroy()}catch(e){} }
+  charts[id] = new Chart(el, {type, data, options:baseOpts(opts||{})});
+  return charts[id];
+}
+
+// ─────────────────────────────────────────────────────────
+// Theme
+// ─────────────────────────────────────────────────────────
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+  const dk = isDark();
+  localStorage.setItem('bd-theme', dk?'dark':'light');
+  document.getElementById('theme-icon').innerHTML = dk
+    ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
+    : '<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>';
+  rebuildAllCharts();
+}
+if (localStorage.getItem('bd-theme')==='dark') {
+  document.body.classList.add('dark');
+  document.getElementById('theme-icon').innerHTML='<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
+}
+
+// ─────────────────────────────────────────────────────────
+// Navigation
+// ─────────────────────────────────────────────────────────
+// Build nav buttons
+const navEl = document.getElementById('slide-nav');
+SLIDES.forEach((s, i) => {
+  const b = document.createElement('button');
+  b.className = 'snav-btn' + (s.id==='slide-0'?' active':'');
+  b.textContent = i === 0 ? '⌂ Home' : String(i).padStart(2,'0') + ' · ' + s.label;
+  b.dataset.id = s.id;
+  b.onclick = () => scrollTo(s.id);
+  navEl.appendChild(b);
+});
+
+function scrollTo(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+// IntersectionObserver for active nav highlighting
+let obsTimer = null;
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting && e.intersectionRatio > 0.15) {
+      const id = e.target.id;
+      if (id !== activeSlide) {
+        activeSlide = id;
+        document.querySelectorAll('.snav-btn').forEach(b => b.classList.toggle('active', b.dataset.id===id));
+      }
+    }
+  });
+}, { threshold:[0.15, 0.5] });
+
+// ─────────────────────────────────────────────────────────
+// Ticker
+// ─────────────────────────────────────────────────────────
+function renderTicker(d) {
+  const items = [];
+  if (d.dsex?.value)         items.push({n:'DSEX',        v:Math.round(d.dsex.value).toLocaleString(),      c:d.dsex.changePercent});
+  if (d.fx?.usdbdt?.value)   items.push({n:'USD/BDT',     v:d.fx.usdbdt.value.toFixed(2),                  c:d.fx.usdbdt.changePercent});
+  if (d.fx?.eurbdt?.value)   items.push({n:'EUR/BDT',     v:d.fx.eurbdt.value.toFixed(2),                  c:d.fx.eurbdt.changePercent});
+  if (d.bbRate?.value)       items.push({n:'BB Rate',     v:d.bbRate.value.toFixed(2)+'%',                c:null});
+  if (d.cpi?.headline)       items.push({n:'CPI',         v:d.cpi.headline.toFixed(1)+'%',                c:null});
+  if (d.remittances?.monthly) items.push({n:'Remit/Mo',    v:'$'+d.remittances.monthly.toFixed(2)+'B',       c:d.remittances.change});
+  if (d.fxReserves?.gross)   items.push({n:'FX Reserves', v:'$'+d.fxReserves.gross.toFixed(2)+'B',           c:d.fxReserves.changePercent});
+  document.getElementById('ticker').innerHTML = items.map((it,i)=>{
+    const cls=(it.c||0)>=0?'up':'down';
+    const cs=it.c!=null?`<span class="tchg ${cls}">${it.c>=0?'+':''}${it.c.toFixed(2)}%</span>`:'';
+    return (i?'<span class="tsep"></span>':'')+`<span class="titem"><span class="tname">${it.n}</span> <span>${it.v}</span>${cs}</span>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────────────────
+// Explainer helper
+// ─────────────────────────────────────────────────────────
+function explainer(rows) {
+  const inner = rows.map(r=>`
+    <div class="expl-row">
+      <span class="expl-sig ${r.type}">${r.label}</span>
+      <span class="expl-text">${r.text}</span>
+    </div>`).join('');
+  return `
+    <div class="explainer" onclick="this.classList.toggle('open')">
+      <div class="explainer-head">
+        <span>📖 How to read this slide</span>
+        <span class="explainer-toggle">▼</span>
+      </div>
+      <div class="explainer-body">${inner}</div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 0: Overview / Home
+// ─────────────────────────────────────────────────────────
+function buildSlide0(d) {
+  const ovCards = [
+    {
+      id:'slide-1', num:'01', title:'BDT & FX', icon:'💱',
+      metrics:[
+        {label:'USD/BDT', val:d.fx?.usdbdt?.value?.toFixed(2)||'—', chg:d.fx?.usdbdt?.changePercent},
+        {label:'EUR/BDT', val:d.fx?.eurbdt?.value?.toFixed(2)||'—', chg:d.fx?.eurbdt?.changePercent},
+      ],
+      desc:'4 currency pairs with 1M–3Y charts. Taka stability reflects remittance inflows, exports, and reserves.',
+    },
+    {
+      id:'slide-2', num:'02', title:'BB Rates', icon:'🏦',
+      metrics:[
+        {label:'Repo Rate', val:d.bbRate?.value!=null?d.bbRate.value.toFixed(2)+'%':'—', chg:null},
+        {label:'Reverse Repo', val:d.reverseRepo!=null?d.reverseRepo.toFixed(2)+'%':'—', chg:null},
+      ],
+      desc:'Bangladesh Bank policy rate, T-bill yields, and lending/deposit rates. Critical for inflation and growth.',
+    },
+    {
+      id:'slide-3', num:'03', title:'Inflation & GDP', icon:'📈',
+      metrics:[
+        {label:'CPI (Headline)', val:d.cpi?.headline!=null?d.cpi.headline.toFixed(2)+'%':'—', chg:null},
+        {label:'GDP Growth', val:d.gdp?.value!=null?d.gdp.value.toFixed(2)+'%':'—', chg:null},
+      ],
+      desc:'CPI (food vs non-food), GDP growth by fiscal year, wages, and IMF inflation target 7%.',
+    },
+    {
+      id:'slide-4', num:'04', title:'RMG & Exports', icon:'👔',
+      metrics:[
+        {label:'Total Exports', val:d.exports?.total!=null?'$'+d.exports.total.toFixed(1)+'B':'—', chg:d.exports?.change},
+        {label:'RMG', val:d.exports?.rmg!=null?'$'+d.exports.rmg.toFixed(1)+'B':'—', chg:null},
+      ],
+      desc:'Ready-Made Garments dominate Bangladesh exports. LDC graduation and US tariffs pose risks.',
+    },
+    {
+      id:'slide-5', num:'05', title:'Trade Balance', icon:'⚖️',
+      metrics:[
+        {label:'Exports', val:d.trade?.exports!=null?'$'+d.trade.exports.toFixed(1)+'B':'—', chg:null},
+        {label:'Deficit', val:d.trade?.balance!=null?'$'+d.trade.balance.toFixed(1)+'B':'—', chg:null},
+      ],
+      desc:'Exports vs imports. China is the dominant import source; EU, USA the main export markets.',
+    },
+    {
+      id:'slide-6', num:'06', title:'Dhaka Market', icon:'📊',
+      metrics:[
+        {label:'DSEX', val:d.dsex?.value!=null?Math.round(d.dsex.value).toLocaleString():'—', chg:d.dsex?.changePercent},
+        {label:'DS30', val:d.ds30?.value!=null?Math.round(d.ds30.value).toLocaleString():'—', chg:d.ds30?.changePercent},
+      ],
+      desc:'Dhaka Stock Exchange indices, sector performance, and top-listed companies.',
+    },
+    {
+      id:'slide-7', num:'07', title:'Remittances', icon:'💸',
+      metrics:[
+        {label:'Monthly', val:d.remittances?.monthly!=null?'$'+d.remittances.monthly.toFixed(2)+'B':'—', chg:d.remittances?.change},
+        {label:'Annual', val:d.remittances?.annual!=null?'$'+d.remittances.annual.toFixed(1)+'B':'—', chg:null},
+      ],
+      desc:'Remittance inflows (2nd largest FX earner after exports). Surge post-Aug 2024 from hundi crackdown.',
+    },
+    {
+      id:'slide-8', num:'08', title:'Labour & Dev', icon:'👥',
+      metrics:[
+        {label:'Unemployment', val:d.labour?.unemployment!=null?d.labour.unemployment.toFixed(1)+'%':'—', chg:null},
+        {label:'HDI', val:d.hdi?.rank!=null?'#'+d.hdi.rank:'—', chg:null},
+      ],
+      desc:'Employment, poverty, literacy, HDI, and the 4.2M-strong garment workforce.',
+    },
+  ];
+
+  const cardsHtml = ovCards.map(ov => `
+    <a class="ov-card" href="#${ov.id}" onclick="scrollTo('${ov.id}')">
+      <div class="ov-num">${ov.num}</div>
+      <div class="ov-title">${ov.title}</div>
+      <div class="ov-metrics">
+        ${ov.metrics.map(m => `<div class="ov-metric"><span class="ov-metric-label">${esc(m.label)}</span><span class="ov-metric-val">${esc(m.val)}</span></div>`).join('')}
+      </div>
+      <div class="ov-desc">${ov.desc}<span class="ov-arrow">→</span></div>
+    </a>
+  `).join('');
+
+  return `
+    <section class="slide" id="slide-0">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Bangladesh Economy Dashboard</div>
+          <div class="slide-title">Overview</div>
+          <div class="slide-sub">Click any card to jump to that section, or scroll down to read through all 8 views.</div>
+        </div>
+      </div>
+      <div class="overview-grid">${cardsHtml}</div>
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 1: BDT & FX
+// ─────────────────────────────────────────────────────────
+function buildSlide1(d) {
+  const fx = d.fx||{};
+  const pairs = ['usdbdt','eurbdt','gbpbdt','inrbdt'];
+  const labels = {'usdbdt':'USD / BDT','eurbdt':'EUR / BDT','gbpbdt':'GBP / BDT','inrbdt':'INR / BDT'};
+
+  const chips = pairs.map(k => {
+    const q = fx[k];
+    const dec = k==='inrbdt'?4:2;
+    return `<div class="chip">
+      <div class="chip-label">${esc(labels[k])}</div>
+      <div class="chip-val mono">${q?.value!=null?q.value.toFixed(dec):'—'}</div>
+      <div class="chip-chg ${(q?.changePercent||0)>=0?'up':'down'}">${chg(q?.changePercent)}</div>
+    </div>`;
+  }).join('');
+
+  const chartCards = pairs.map(k => {
+    const q = fx[k];
+    return `<div class="chart-card">
+      <div class="chart-hdr">
+        <h3>${esc(labels[k])}</h3>
+        <div class="range-btns">
+          ${['1M','3M','6M','3Y'].map(r=>`<button class="range-btn${r==='1M'?' active':''}" data-pair="${k}" data-range="${r}" onclick="setFXRange('${k}','${r}',this)">${r}</button>`).join('')}
+        </div>
+      </div>
+      <div class="chart-wrap"><canvas id="chart-fx-${k}"></canvas></div>
+    </div>`;
+  }).join('');
+
+  return `
+    <section class="slide" id="slide-1">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 1 of 8</div>
+          <div class="slide-title">BDT &amp; Foreign Exchange</div>
+          <div class="slide-sub">Live rates · Toggle 1M / 3M / 6M / 3Y on each chart</div>
+        </div>
+        <div class="slide-asof">Live · ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'short'})}</div>
+      </div>
+      <div class="metric-row">${chips}</div>
+      <div class="grid-fx">${chartCards}</div>
+      ${explainer([
+        {type:'up',    label:'▲ Taka strengthening',   text:'<strong>Remittance inflows, export growth, or rising reserves</strong>. Good for importers and debt servicing, but reduces export competitiveness.'},
+        {type:'down',  label:'▼ Taka weakening',  text:'<strong>Reserve pressure, import demand, or capital outflows</strong>. Historically driven by energy import costs. Good for RMG exporters; raises inflation via import prices.'},
+        {type:'watch', label:'👀 Crawling peg regime', text:'Bangladesh Bank adopted a crawling peg in May 2024 after IMF agreement. Rate moves are <strong>managed, not free-floating</strong>. Sustained depreciation signals reserve stress.'},
+        {type:'note',  label:'📌 Remittance effect', text:'Remittance inflows are Bangladesh\'s <strong>2nd-largest FX earner</strong>. A surge in formal remittances (vs hundi) directly supports BDT stability and reserves.'},
+      ])}
+    </section>`;
+}
+
+// FX range toggle (called from range buttons)
+function setFXRange(pairKey, range, btn) {
+  document.querySelectorAll(`[data-pair="${pairKey}"]`).forEach(b => b.classList.toggle('active', b.dataset.range===range));
+  const fx = D?.fx?.[pairKey]; if (!fx) return;
+  const histMap = { '1M': fx.history, '3M': fx.h3m, '6M': fx.h6m, '3Y': fx.h3y };
+  const hist = histMap[range];
+  if (!hist?.length) return;
+  const chart = charts['chart-fx-'+pairKey]; if (!chart) return;
+  const isUp = hist[hist.length-1].close >= hist[0].close;
+  const col = isUp ? 'rgb(0,106,78)' : 'rgb(244,42,65)';
+  const bg  = isUp ? 'rgba(0,106,78,0.07)' : 'rgba(244,42,65,0.07)';
+  chart.data.labels = histLabels(hist);
+  chart.data.datasets[0].data = hist.map(p=>p.close);
+  chart.data.datasets[0].borderColor = col;
+  chart.data.datasets[0].backgroundColor = bg;
+  chart.update('none');
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 2: Bangladesh Bank & Interest Rates
+// ─────────────────────────────────────────────────────────
+function buildSlide2(d) {
+  const yields = [
+    {label:'Repo Rate',     v:d.bbRate?.value,      max:15},
+    {label:'Reverse Repo',  v:d.reverseRepo,        max:15},
+    {label:'T-Bill 91d',    v:d.tbill91,            max:15},
+    {label:'T-Bill 182d',   v:d.tbill182,           max:15},
+    {label:'T-Bill 364d',   v:d.tbill364,           max:15},
+    {label:'Avg Lending',   v:d.lendingRate,        max:15},
+  ];
+  const yieldRows = yields.map(y=>`<div class="yield-row">
+    <span class="yield-lbl">${esc(y.label)}</span>
+    <span class="yield-val">${y.v!=null?y.v.toFixed(2)+'%':'—'}</span>
+    <div class="yield-bar-wrap"><div class="yield-bar" style="width:${y.v!=null?Math.min((y.v/y.max)*100,100):0}%"></div></div>
+  </div>`).join('');
+
+  const bbRows = (d.bbHistory||[]).slice(0,10).map(r=>{
+    const bg = r.change>0?'background:var(--red-dim);color:var(--red)':r.change<0?'background:var(--green-dim);color:var(--green)':'background:var(--surface);color:var(--muted)';
+    const badge = r.change>0?'HIKE':r.change<0?'CUT':'HOLD';
+    return `<tr><td>${esc(r.date)}</td><td class="mono" style="font-weight:600">${r.rate.toFixed(2)}%</td>
+      <td><span class="bb-badge" style="${bg}">${badge}</span></td>
+      <td style="font-size:.68rem;color:var(--muted)">${esc(r.note||'')}</td></tr>`;
+  }).join('');
+
+  return `
+    <section class="slide" id="slide-2">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 2 of 8</div>
+          <div class="slide-title">Interest Rates &amp; Bangladesh Bank</div>
+          <div class="slide-sub">Policy rate · Lending/deposit rates · T-bill yields · Rate decision log</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">Repo Rate</div><div class="chip-val up">${d.bbRate?.value!=null?d.bbRate.value.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Policy Rate</div></div>
+        <div class="chip"><div class="chip-label">Reverse Repo</div><div class="chip-val mono">${d.reverseRepo!=null?d.reverseRepo.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Floor Rate</div></div>
+        <div class="chip"><div class="chip-label">Avg Lending</div><div class="chip-val mono">${d.lendingRate!=null?d.lendingRate.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Banks</div></div>
+        <div class="chip"><div class="chip-label">Avg Deposit</div><div class="chip-val mono">${d.depositRate!=null?d.depositRate.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Banks</div></div>
+      </div>
+      <div class="grid-2 mb">
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>Yield Rates</h3></div>
+          <div style="flex:1;overflow-y:auto;padding:.25rem 0">${yieldRows}</div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>Bangladesh Bank Rate History</h3></div>
+          <div class="chart-wrap"><canvas id="chart-bb-hist"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-label"><span class="dot"></span>Decision Log</div>
+        <table class="bb-table"><thead><tr><th>Date</th><th>Rate</th><th>Decision</th><th>Context</th></tr></thead>
+        <tbody>${bbRows}</tbody></table>
+      </div>
+      ${explainer([
+        {type:'up',    label:'▲ Rate rising',  text:'Bangladesh Bank is <strong>fighting inflation</strong>. Business borrowing costs rise. Consumer spending slows. Encourages savings and deposits.'},
+        {type:'down',  label:'▼ Rate falling', text:'BB is <strong>stimulating the economy</strong>. Credit expansion typically follows. Mortgages and business loans become cheaper. Growth and consumption accelerate.'},
+        {type:'watch', label:'👀 Crawling peg & IMF', text:'May 2024 IMF agreement tied BB to a gradual taka depreciation regime. Policy rate changes now balance inflation, growth, and <strong>reserve management</strong>.'},
+        {type:'note',  label:'📌 T-bill yields', text:'Government bond yields reveal market expectations for future BB rates. If 364d yields rise sharply, markets expect <strong>sustained tightening</strong>.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 3: Inflation & GDP
+// ─────────────────────────────────────────────────────────
+function buildSlide3(d) {
+  const cpi = d.cpi||{};
+  const inBand = cpi.headline>=6 && cpi.headline<=8;
+  return `
+    <section class="slide" id="slide-3">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 3 of 8</div>
+          <div class="slide-title">Inflation &amp; GDP</div>
+          <div class="slide-sub">CPI headline · Food vs non-food · Target 7% · GDP growth · Wages</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">Headline CPI</div><div class="chip-val ${inBand?'up':'flat'}">${cpi.headline!=null?cpi.headline.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">vs 7% target</div></div>
+        <div class="chip"><div class="chip-label">Food Inflation</div><div class="chip-val mono">${cpi.food!=null?cpi.food.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Weight 46%</div></div>
+        <div class="chip"><div class="chip-label">Non-Food</div><div class="chip-val mono">${cpi.nonFood!=null?cpi.nonFood.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Weight 54%</div></div>
+        <div class="chip"><div class="chip-label">GDP Growth</div><div class="chip-val mono">${d.gdp?.value!=null?d.gdp.value.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Fiscal Year</div></div>
+      </div>
+      <div class="grid-2 mb">
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>CPI Trend</h3></div>
+          <div class="chart-wrap"><canvas id="chart-cpi-trend"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>GDP Growth (FY)</h3></div>
+          <div class="chart-wrap"><canvas id="chart-gdp"></canvas></div>
+        </div>
+      </div>
+      ${explainer([
+        {type:'watch', label:'👀 Food inflation driver', text:'Food inflation (46% of CPI basket) is volatile — driven by imports, monsoons, and global commodity prices. <strong>Non-food core inflation is stickier</strong>.'},
+        {type:'down',  label:'▼ 7% target', text:'Bangladesh Bank targets 7% average inflation by end-2024. Current levels suggest <strong>tight monetary policy ahead</strong> if food price shocks persist.'},
+        {type:'note',  label:'📌 Growth vs inflation', text:'Bangladesh faces a classic dilemma: 3.97% GDP growth is below historical 6%+, but inflation remains elevated. Tight policy now risks further growth slowdown.'},
+        {type:'up',    label:'▲ IMF backdrop', text:'IMF programme (May 2024) requires <strong>inflation targeting 7%</strong> and gradual reserve recovery. This constrains BB\'s ability to cut rates for growth support.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 4: RMG & Exports
+// ─────────────────────────────────────────────────────────
+function buildSlide4(d) {
+  const expDests = [
+    {name:'EU',     pct:50.1},
+    {name:'USA',    pct:19.18},
+    {name:'UK',     pct:11.05},
+    {name:'Canada', pct:3.31},
+    {name:'Other',  pct:16.36},
+  ];
+  const topProds = [
+    {name:'Knitwear',   val:'$20.86B'},
+    {name:'Woven',      val:'$18.49B'},
+    {name:'Leather',    val:'$1.52B'},
+    {name:'Jute',       val:'$0.54B'},
+    {name:'Shrimp',     val:'$0.61B'},
+    {name:'Pharma',     val:'$2.18B'},
+  ];
+  const destBars = expDests.map(p=>`<div class="partner-row">
+    <span class="pname">${esc(p.name)}</span>
+    <div class="pbar-track"><div class="pbar-fill" style="width:${p.pct}%;background:var(--green)"></div></div>
+    <span class="ppct">${p.pct.toFixed(1)}%</span>
+  </div>`).join('');
+  const prodRows = topProds.map(p=>`<div style="font-size:.72rem;padding:.3rem 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between">
+    <span>${esc(p.name)}</span>
+    <span class="mono" style="font-weight:600">${esc(p.val)}</span>
+  </div>`).join('');
+
+  return `
+    <section class="slide" id="slide-4">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 4 of 8</div>
+          <div class="slide-title">RMG &amp; Exports</div>
+          <div class="slide-sub">Ready-Made Garments · Export breakdown · Destinations · Top products</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">Total Exports</div><div class="chip-val">${d.exports?.total!=null?'$'+d.exports.total.toFixed(1)+'B':'—'}</div><div class="chip-chg ${(d.exports?.change||0)>=0?'up':'down'}">${chg(d.exports?.change)}</div></div>
+        <div class="chip"><div class="chip-label">RMG</div><div class="chip-val mono">${d.exports?.rmg!=null?'$'+d.exports.rmg.toFixed(1)+'B':'—'}</div><div class="chip-chg flat">of total</div></div>
+        <div class="chip"><div class="chip-label">Knitwear</div><div class="chip-val mono">${d.exports?.knitwear!=null?'$'+d.exports.knitwear.toFixed(1)+'B':'—'}</div><div class="chip-chg flat">53% of RMG</div></div>
+        <div class="chip"><div class="chip-label">Woven</div><div class="chip-val mono">${d.exports?.woven!=null?'$'+d.exports.woven.toFixed(1)+'B':'—'}</div><div class="chip-chg flat">47% of RMG</div></div>
+      </div>
+      <div class="grid-2 mb">
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>Monthly Exports</h3></div>
+          <div class="chart-wrap"><canvas id="chart-exports"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-label"><span class="dot"></span>Destination Markets</div>
+          <div class="partner-list">${destBars}</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-label"><span class="dot"></span>Top Products</div>
+        <div style="padding:.3rem 0">${prodRows}</div>
+      </div>
+      ${explainer([
+        {type:'watch', label:'👀 RMG dependency', text:'RMG is <strong>83% of Bangladesh exports</strong> — huge concentration risk. Diversification into pharma, electronics, and agro-processing is slow.'},
+        {type:'down',  label:'▼ LDC graduation', text:'Bangladesh exits Least Developed Country (LDC) status in 2026. <strong>Tariff preferences will erode</strong> — RMG faces 12–16% tariff hikes in EU and USA.'},
+        {type:'note',  label:'📌 US tariffs', text:'Trump tariffs (20% on RMG) are <strong>highly likely if implemented</strong>. Diversion to Vietnam/India + price pressure = margin compression for Bangladesh mills.'},
+        {type:'up',    label:'▲ EU & UK markets', text:'EU (50% of RMG exports) and UK (11%) have less tariff risk than USA. Diversification of buyer base helps resilience.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 5: Trade Balance
+// ─────────────────────────────────────────────────────────
+function buildSlide5(d) {
+  const impParts = [
+    {name:'China',   pct:31},
+    {name:'India',   pct:15},
+    {name:'ASEAN',   pct:12},
+    {name:'EU',      pct:6},
+    {name:'USA',     pct:4},
+    {name:'Other',   pct:32},
+  ];
+  const expParts = [
+    {name:'EU',      pct:50},
+    {name:'USA',     pct:19},
+    {name:'UK',      pct:11},
+    {name:'Canada',  pct:3},
+    {name:'Other',   pct:17},
+  ];
+  const impBars = impParts.map(p=>`<div class="partner-row">
+    <span class="pname">${esc(p.name)}</span>
+    <div class="pbar-track"><div class="pbar-fill" style="width:${p.pct}%;background:var(--red)"></div></div>
+    <span class="ppct">${p.pct}%</span>
+  </div>`).join('');
+  const expBars = expParts.map(p=>`<div class="partner-row">
+    <span class="pname">${esc(p.name)}</span>
+    <div class="pbar-track"><div class="pbar-fill" style="width:${p.pct}%;background:var(--green)"></div></div>
+    <span class="ppct">${p.pct}%</span>
+  </div>`).join('');
+
+  return `
+    <section class="slide" id="slide-5">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 5 of 8</div>
+          <div class="slide-title">Trade Balance</div>
+          <div class="slide-sub">Exports · Imports · Deficit · Partner breakdown</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">Exports</div><div class="chip-val">${d.trade?.exports!=null?'$'+d.trade.exports.toFixed(1)+'B':'—'}</div><div class="chip-chg flat">12-month</div></div>
+        <div class="chip"><div class="chip-label">Imports</div><div class="chip-val mono">${d.trade?.imports!=null?'$'+d.trade.imports.toFixed(1)+'B':'—'}</div><div class="chip-chg flat">12-month</div></div>
+        <div class="chip"><div class="chip-label">Deficit</div><div class="chip-val down">${d.trade?.balance!=null?'$'+Math.abs(d.trade.balance).toFixed(1)+'B':'—'}</div><div class="chip-chg flat">Structural</div></div>
+      </div>
+      <div class="grid-2 mb">
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>Trade History</h3></div>
+          <div class="chart-wrap"><canvas id="chart-trade"></canvas></div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.65rem">
+          <div class="card">
+            <div class="card-label"><span class="dot"></span>Import Partners</div>
+            <div class="partner-list">${impBars}</div>
+          </div>
+          <div class="card">
+            <div class="card-label"><span class="dot"></span>Export Partners</div>
+            <div class="partner-list">${expBars}</div>
+          </div>
+        </div>
+      </div>
+      ${explainer([
+        {type:'watch', label:'👀 Chronic deficit', text:'Bangladesh runs a <strong>structural trade deficit</strong> (imports > exports). Energy, raw materials, and machinery account for bulk of imports.'},
+        {type:'note',  label:'📌 China dependence', text:'31% of Bangladesh imports come from China. Heavy reliance on one supplier creates <strong>price risk and supply chain vulnerability</strong>.'},
+        {type:'down',  label:'▼ Energy costs', text:'Fuel imports spike during high global oil prices. Recent LNG contracts lock in costs; limited domestic energy cushions impact.'},
+        {type:'up',    label:'▲ Remittances bridge deficit', text:'Trade deficit (–$12B) is nearly offset by remittances (+$30B). Without remittances, <strong>reserve drain would be severe</strong>.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 6: Dhaka Stock Market
+// ─────────────────────────────────────────────────────────
+function buildSlide6(d) {
+  const sectors = [
+    {name:'Banking',       chg:-0.55},
+    {name:'Pharma',        chg:0.82},
+    {name:'Textile',       chg:-0.20},
+    {name:'Telecom',       chg:0.15},
+    {name:'Insurance',     chg:-1.10},
+    {name:'Energy',        chg:0.48},
+    {name:'Cement',        chg:-0.35},
+    {name:'Food',          chg:0.62},
+    {name:'Engineering',   chg:0.18},
+    {name:'IT',            chg:1.24},
+    {name:'Mutual Fund',   chg:-0.38},
+  ];
+  const stocks = [
+    {ticker:'GP',         name:'Grameenphone',        price:310.20, chg:0.52},
+    {ticker:'SQURPHARMA', name:'Square Pharma',       price:235.40, chg:1.20},
+    {ticker:'BRACBANK',   name:'BRAC Bank',           price:45.80,  chg:-0.65},
+    {ticker:'DUTCHBANGL', name:'Dutch-Bangla Bank',   price:72.50,  chg:0.28},
+    {ticker:'RENATA',     name:'Renata Limited',      price:1190.00, chg:0.42},
+    {ticker:'BERGERPBL',  name:'Berger Paints',       price:870.50, chg:-0.18},
+    {ticker:'BATASHOE',   name:'Bata Shoe Company',   price:748.00, chg:0.80},
+    {ticker:'OLYMPIC',    name:'Olympic Industries',  price:145.60, chg:1.10},
+  ];
+  const sectorCells = sectors.map(s=>{
+    const bg = s.chg>=0 ? `background:var(--green-dim);color:var(--green)` : `background:var(--red-dim);color:var(--red)`;
+    return `<div class="sector-cell" style="${bg}">
+      <div class="sc-name">${esc(s.name)}</div>
+      <div class="sc-val">${s.chg>=0?'+':''}${s.chg.toFixed(2)}%</div>
+    </div>`;
+  }).join('');
+  const stockCards = stocks.map(s=>`<div class="stock-card">
+    <div class="stk-ticker">${esc(s.ticker)}</div>
+    <div class="stk-name">${esc(s.name)}</div>
+    <div class="stk-price">৳${s.price.toFixed(2)}</div>
+    <div class="stk-chg ${s.chg>=0?'up':'down'}">${s.chg>=0?'+':''}${s.chg.toFixed(2)}%</div>
+  </div>`).join('');
+
+  return `
+    <section class="slide" id="slide-6">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 6 of 8</div>
+          <div class="slide-title">Dhaka Stock Market</div>
+          <div class="slide-sub">DSEX · DS30 · Sector heat map · Top stocks</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">DSEX</div><div class="chip-val">${d.dsex?.value!=null?Math.round(d.dsex.value).toLocaleString():'—'}</div><div class="chip-chg ${(d.dsex?.changePercent||0)>=0?'up':'down'}">${chg(d.dsex?.changePercent)}</div></div>
+        <div class="chip"><div class="chip-label">DS30</div><div class="chip-val mono">${d.ds30?.value!=null?Math.round(d.ds30.value).toLocaleString():'—'}</div><div class="chip-chg ${(d.ds30?.changePercent||0)>=0?'up':'down'}">${chg(d.ds30?.changePercent)}</div></div>
+        <div class="chip"><div class="chip-label">DSES (Shariah)</div><div class="chip-val mono">${d.dses?.value!=null?Math.round(d.dses.value).toLocaleString():'—'}</div><div class="chip-chg ${(d.dses?.changePercent||0)>=0?'up':'down'}">${chg(d.dses?.changePercent)}</div></div>
+      </div>
+      <div class="card mb">
+        <div class="card-label"><span class="dot"></span>Sector Performance</div>
+        <div class="sector-grid">${sectorCells}</div>
+      </div>
+      <div class="grid-4">
+        ${stockCards}
+      </div>
+      ${explainer([
+        {type:'watch', label:'👀 DSEX composition', text:'Blue-chip financials & pharma dominate DSEX. Banking sector weight (>40%) means <strong>interest rate policy has outsized impact</strong> on index.'},
+        {type:'note',  label:'📌 Valuation context', text:'Bangladesh stock market valuations are often <strong>cheap vs regional peers</strong> — low institutional ownership, retail-driven trading, and limited FII participation.'},
+        {type:'down',  label:'▼ Liquidity concerns', text:'DSE daily turnover is thin; bid-ask spreads wide. Large positions difficult to move <strong>without price impact</strong>.'},
+        {type:'up',    label:'▲ Dividend yield', text:'Bangladesh stocks offer <strong>6–8% dividend yields</strong> on average, attracting income investors seeking alternatives to falling bond yields.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 7: Remittances & FX Reserves
+// ─────────────────────────────────────────────────────────
+function buildSlide7(d) {
+  const remitSources = [
+    {name:'Saudi Arabia',  pct:18.5},
+    {name:'UAE',           pct:15.2},
+    {name:'USA',           pct:11.8},
+    {name:'UK',            pct:8.3},
+    {name:'Malaysia',      pct:6.2},
+    {name:'Kuwait',        pct:5.1},
+    {name:'Italy',         pct:3.8},
+    {name:'Other',         pct:31.1},
+  ];
+  const remitBars = remitSources.map(p=>`<div class="partner-row">
+    <span class="pname">${esc(p.name)}</span>
+    <div class="pbar-track"><div class="pbar-fill" style="width:${p.pct}%;background:var(--green)"></div></div>
+    <span class="ppct">${p.pct.toFixed(1)}%</span>
+  </div>`).join('');
+
+  return `
+    <section class="slide" id="slide-7">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 7 of 8</div>
+          <div class="slide-title">Remittances &amp; FX Reserves</div>
+          <div class="slide-sub">Remittance flows · Top source countries · BB Gross vs IMF Net · Import coverage</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">Monthly Remittance</div><div class="chip-val">${d.remittances?.monthly!=null?'$'+d.remittances.monthly.toFixed(2)+'B':'—'}</div><div class="chip-chg ${(d.remittances?.change||0)>=0?'up':'down'}">${chg(d.remittances?.change)}</div></div>
+        <div class="chip"><div class="chip-label">Annual Remittance</div><div class="chip-val mono">${d.remittances?.annual!=null?'$'+d.remittances.annual.toFixed(1)+'B':'—'}</div><div class="chip-chg flat">12-month</div></div>
+        <div class="chip"><div class="chip-label">FX Reserves (Gross)</div><div class="chip-val mono">${d.fxReserves?.gross!=null?'$'+d.fxReserves.gross.toFixed(2)+'B':'—'}</div><div class="chip-chg ${(d.fxReserves?.changePercent||0)>=0?'up':'down'}">${chg(d.fxReserves?.changePercent)}</div></div>
+        <div class="chip"><div class="chip-label">FX Reserves (IMF Net)</div><div class="chip-val mono">${d.fxReserves?.net!=null?'$'+d.fxReserves.net.toFixed(2)+'B':'—'}</div><div class="chip-chg flat">BPM6</div></div>
+      </div>
+      <div class="grid-2 mb">
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>Remittance History (16-month)</h3></div>
+          <div class="chart-wrap"><canvas id="chart-remittances"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>FX Reserves (Gross &amp; Net)</h3></div>
+          <div class="chart-wrap"><canvas id="chart-fx-reserves"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-label"><span class="dot"></span>Source Countries</div>
+        <div class="partner-list">${remitBars}</div>
+      </div>
+      ${explainer([
+        {type:'up',    label:'▲ Remittance surge', text:'<strong>Post-Aug 2024 surge</strong>: Bangladesh cracked down on hundi (informal transfers). Formal remittances shot up 35%+ as workers channeled through official routes.'},
+        {type:'watch', label:'👀 IMF methodology', text:'BB reports <strong>gross reserves ($33.2B)</strong>, but IMF counts <strong>net reserves ($28.5B)</strong> after swaps & forward liabilities. Net reserves are the real buffer.'},
+        {type:'note',  label:'📌 Import coverage', text:'$28.5B net reserves covers ~5.7 months of imports. IMF target: 6+ months. Below target signals vulnerability to sudden outflows.'},
+        {type:'down',  label:'▼ Remittance volatility', text:'Remittances are not stable; they spike/crash with oil prices (affecting Middle East wages). Energy recession = migration crisis + remittance collapse.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// SLIDE 8: Labour & Development
+// ─────────────────────────────────────────────────────────
+function buildSlide8(d) {
+  const devMetrics = [
+    {label:'Per Capita Income',  val:d.labour?.perCapitaIncome!=null?'$'+d.labour.perCapitaIncome.toFixed(0):'—'},
+    {label:'Poverty Rate',        val:d.labour?.poverty!=null?d.labour.poverty.toFixed(1)+'%':'—'},
+    {label:'Extreme Poverty',     val:d.labour?.extremePoverty!=null?d.labour.extremePoverty.toFixed(1)+'%':'—'},
+    {label:'Literacy Rate',       val:d.labour?.literacy!=null?d.labour.literacy.toFixed(1)+'%':'—'},
+    {label:'HDI Score',           val:d.hdi?.score!=null?d.hdi.score.toFixed(3):'—'},
+    {label:'Garment Workers',     val:d.labour?.garmentWorkers!=null?d.labour.garmentWorkers.toFixed(1)+'M':'—'},
+  ];
+
+  return `
+    <section class="slide" id="slide-8">
+      <div class="slide-hdr">
+        <div class="slide-hdr-left">
+          <div class="slide-num-label">Slide 8 of 8</div>
+          <div class="slide-title">Labour &amp; Development</div>
+          <div class="slide-sub">Employment · Poverty · HDI · Literacy · Garment workforce</div>
+        </div>
+      </div>
+      <div class="metric-row">
+        <div class="chip"><div class="chip-label">Unemployment</div><div class="chip-val">${d.labour?.unemployment!=null?d.labour.unemployment.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Labour force</div></div>
+        <div class="chip"><div class="chip-label">Participation</div><div class="chip-val mono">${d.labour?.participation!=null?d.labour.participation.toFixed(1)+'%':'—'}</div><div class="chip-chg flat">Rate</div></div>
+        <div class="chip"><div class="chip-label">Poverty</div><div class="chip-val mono">${d.labour?.poverty!=null?d.labour.poverty.toFixed(1)+'%':'—'}</div><div class="chip-chg flat">Headcount</div></div>
+        <div class="chip"><div class="chip-label">HDI Rank</div><div class="chip-val mono">${d.hdi?.rank!=null?'#'+d.hdi.rank:'—'}</div><div class="chip-chg flat">of 191</div></div>
+      </div>
+      <div class="grid-2 mb">
+        <div class="chart-card">
+          <div class="chart-hdr"><h3>Labour Market</h3></div>
+          <div class="chart-wrap"><canvas id="chart-labour"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-label"><span class="dot"></span>Development Indicators</div>
+          <div style="display:flex;flex-direction:column;gap:.5rem">
+            ${devMetrics.map(m=>`<div style="display:flex;justify-content:space-between;align-items:center;font-size:.7rem;padding:.3rem 0;border-bottom:1px solid var(--border)">
+              <span style="color:var(--muted)">${esc(m.label)}</span>
+              <span class="mono" style="font-weight:600">${esc(m.val)}</span>
+            </div>`).join('')}
+          </div>
+        </div>
+      </div>
+      ${explainer([
+        {type:'watch', label:'👀 Informal economy', text:'<strong>~40% of Bangladesh workforce is informal</strong> — no benefits, unstable income, vulnerable to shocks. Underemployment is higher than official unemployment.'},
+        {type:'note',  label:'📌 Garment worker wages', text:'RMG wages (avg $110–160/month) are <strong>above rural agricultural wages</strong>, but below urban cost of living. Worker pressure for 23% raise ongoing.'},
+        {type:'down',  label:'▼ Brain drain', text:'Skilled workers migrating to USA, Canada, Australia. Remittance growth partly offsets wage loss, but <strong>human capital leakage is real</strong>.'},
+        {type:'up',    label:'▲ Development progress', text:'Poverty fallen from 35% (2010) to 18.7% (2023). HDI rank: #129 globally. <strong>Middle-income country trajectory</strong>, but vulnerable to external shocks.'},
+      ])}
+    </section>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// Render all slides
+// ─────────────────────────────────────────────────────────
+function renderAll(d) {
+  const html = [
+    buildSlide0(d),
+    buildSlide1(d),
+    buildSlide2(d),
+    buildSlide3(d),
+    buildSlide4(d),
+    buildSlide5(d),
+    buildSlide6(d),
+    buildSlide7(d),
+    buildSlide8(d),
+  ].join('');
+
+  document.getElementById('main').innerHTML = html;
+
+  // Observe all slides for active nav
+  document.querySelectorAll('.slide').forEach(el => obs.observe(el));
+
+  // Build all charts after DOM is painted
+  requestAnimationFrame(() => setTimeout(buildAllCharts, 50));
+}
+
+// ─────────────────────────────────────────────────────────
+// Data load
+// ─────────────────────────────────────────────────────────
+async function loadData() {
+  const btn = document.getElementById('refresh-btn');
+  btn.classList.add('spinning');
+  try {
+    const base = window.location.pathname.replace(/[^/]*$/,'');
+    const res = await fetch(base+'bd-finance-data.json?t='+Date.now());
+    if (!res.ok) throw new Error('HTTP '+res.status);
+    D = await res.json();
+
+    if (D.fetchedAt) {
+      const ago = timeAgo(D.fetchedAt);
+      document.getElementById('last-upd').textContent = ago?'Updated '+ago:'Updated just now';
+    }
+
+    document.getElementById('loading-overlay').style.display='none';
+    renderTicker(D);
+    renderNews(D.news);
+    renderAll(D);
+  } catch (e) {
+    console.error('Data load failed:', e);
+    document.getElementById('loading-overlay').innerHTML=`<div class="error-box" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width:500px"><strong>Data load failed</strong><p>${esc(e.message)}</p><p style="margin-top:.5rem;font-size:.75rem">Waiting for first data fetch…</p></div>`;
+  } finally {
+    btn.classList.remove('spinning');
+  }
+}
+
+// ─────────────────────────────────────────────────────────
+// News carousel
+// ─────────────────────────────────────────────────────────
+let _newsIdx = 0, _newsMax = 0;
+function _newsAge(pubDate) { return timeAgo(pubDate); }
+function _newsGo(i) { _newsIdx=Math.max(0,Math.min(i,_newsMax)); const px=_newsIdx*248; document.getElementById('news-track').style.transform=`translateX(-${px}px)`; document.querySelectorAll('.news-dot').forEach((d,j)=>d.classList.toggle('active',j===_newsIdx)); }
+function _newsKick() { setTimeout(()=>_newsGo((_newsIdx+1)%(_newsMax+1)),8000); }
+function renderNews(news) {
+  const bar = document.getElementById('news-bar');
+  if (!news?.length) return;
+  const top10 = news.slice(0, 10);
+  const track = document.getElementById('news-track');
+  const dotsEl = document.getElementById('news-dots');
+
+  track.innerHTML = top10.map(n => `<a class="news-card" href="${esc(n.link||'#')}" target="_blank" rel="noopener noreferrer">
+    <div class="news-src">${esc(n.source||'News')}</div>
+    <div class="news-hl">${esc(n.title||'')}</div>
+    <div class="news-age">${_newsAge(n.pubDate)}</div>
+  </a>`).join('');
+
+  bar.style.display = '';
+
+  requestAnimationFrame(() => {
+    const wrapW = document.querySelector('.news-track-wrap')?.offsetWidth || 700;
+    const cardW = 240 + 8;
+    const visible = Math.max(1, Math.floor(wrapW / cardW));
+    _newsMax = Math.max(0, top10.length - visible);
+    dotsEl.innerHTML = Array.from({length: _newsMax + 1}, (_, i) =>
+      `<span class="news-dot${i===0?' active':''}" onclick="_newsGo(${i});_newsKick()"></span>`).join('');
+    document.getElementById('news-prev').onclick = () => { _newsGo(_newsIdx - 1); _newsKick(); };
+    document.getElementById('news-next').onclick = () => { _newsGo(_newsIdx + 1); _newsKick(); };
+    _newsKick();
+  });
+}
+
+// ─────────────────────────────────────────────────────────
+// Chart builders
+// ─────────────────────────────────────────────────────────
+function buildAllCharts() {
+  if (!D) return;
+
+  // Slide 1: FX
+  ['usdbdt','eurbdt','gbpbdt','inrbdt'].forEach(k => {
+    const fx = D.fx?.[k];
+    if (!fx?.history?.length) return;
+    const h = fx.history;
+    const isUp = h[h.length-1].close >= h[0].close;
+    const col = isUp ? 'rgb(0,106,78)' : 'rgb(244,42,65)';
+    mkChart('chart-fx-'+k, 'line', {
+      labels: histLabels(h),
+      datasets: [lineDs(h, col)]
+    });
+  });
+
+  // Slide 2: BB rate history
+  if (D.bbHistory?.length) {
+    const h = D.bbHistory.slice().reverse();
+    mkChart('chart-bb-hist', 'bar', {
+      labels: h.map(p=>p.date.split('-').slice(1).join('/')),
+      datasets: [{label:'Repo Rate',data:h.map(p=>p.rate),backgroundColor:'rgb(0,106,78)',borderColor:'transparent'}]
+    });
+  }
+
+  // Slide 3: CPI trend
+  if (D.cpiHistory?.length) {
+    const h = D.cpiHistory;
+    mkChart('chart-cpi-trend', 'line', {
+      labels: h.map(p=>p.date.split('-').slice(1).join('/')),
+      datasets: [
+        lineDs(h, 'rgb(0,106,78)', 'Headline'),
+        lineDs(h, 'rgb(244,42,65)', 'Food'),
+        lineDs(h, 'rgb(180,142,44)', 'Non-Food'),
+      ]
+    });
+  }
+
+  // Slide 3: GDP
+  if (D.gdpHistory?.length) {
+    const h = D.gdpHistory;
+    mkChart('chart-gdp', 'bar', {
+      labels: h.map(p=>p.year),
+      datasets: [{label:'GDP Growth %',data:h.map(p=>p.value),backgroundColor:'rgb(0,106,78)',borderColor:'transparent'}]
+    }, {scales:{y:{beginAtZero:true}}});
+  }
+
+  // Slide 4: Exports
+  if (D.exportHistory?.length) {
+    const h = D.exportHistory;
+    mkChart('chart-exports', 'bar', {
+      labels: h.map(p=>p.date.split('-').slice(1).join('/')),
+      datasets: [
+        {label:'Total',data:h.map(p=>p.total),backgroundColor:'rgb(212,236,230)',borderColor:'transparent'},
+        {label:'RMG',data:h.map(p=>p.rmg),backgroundColor:'rgb(0,106,78)',borderColor:'transparent'},
+        {label:'Non-RMG',data:h.map(p=>p.nonRmg),backgroundColor:'rgb(244,42,65)',borderColor:'transparent'},
+      ]
+    });
+  }
+
+  // Slide 5: Trade
+  if (D.tradeHistory?.length) {
+    const h = D.tradeHistory;
+    const c = chartColors();
+    mkChart('chart-trade', 'bar', {
+      labels: h.map(p=>p.date.split('-').slice(1).join('/')),
+      datasets: [
+        {label:'Exports',data:h.map(p=>p.exports),backgroundColor:'rgb(0,106,78)',borderColor:'transparent',order:2},
+        {label:'Imports',data:h.map(p=>p.imports),backgroundColor:'rgb(244,42,65)',borderColor:'transparent',order:2},
+        {label:'Balance',data:h.map(p=>p.balance),borderColor:'rgb(0,106,78)',backgroundColor:'transparent',type:'line',fill:false,tension:.3,pointRadius:0,borderWidth:2,order:1},
+      ]
+    });
+  }
+
+  // Slide 7: Remittances
+  if (D.remittanceHistory?.length) {
+    const h = D.remittanceHistory;
+    mkChart('chart-remittances', 'bar', {
+      labels: h.map(p=>p.date.split('-').slice(1).join('/')),
+      datasets: [{label:'Monthly Remittance',data:h.map(p=>p.value),backgroundColor:'rgb(0,106,78)',borderColor:'transparent'}]
+    });
+  }
+
+  // Slide 7: FX Reserves
+  if (D.fxReserveHistory?.length) {
+    const h = D.fxReserveHistory;
+    const c = chartColors();
+    mkChart('chart-fx-reserves', 'line', {
+      labels: h.map(p=>p.date.split('-').slice(1).join('/')),
+      datasets: [
+        {label:'Gross',data:h.map(p=>p.gross),borderColor:'rgb(0,106,78)',backgroundColor:'rgba(0,106,78,0.07)',fill:true,tension:.3,pointRadius:0,borderWidth:2},
+        {label:'Net (IMF)',data:h.map(p=>p.net),borderColor:'rgb(244,42,65)',backgroundColor:'rgba(244,42,65,0.07)',fill:true,tension:.3,pointRadius:0,borderWidth:2},
+      ]
+    });
+  }
+
+  // Slide 8: Labour
+  if (D.labourHistory?.length) {
+    const h = D.labourHistory;
+    mkChart('chart-labour', 'line', {
+      labels: h.map(p=>p.year),
+      datasets: [
+        {label:'Unemployment %',data:h.map(p=>p.unemployment),borderColor:'rgb(244,42,65)',backgroundColor:'transparent',yAxisID:'y',tension:.3,pointRadius:0,borderWidth:2},
+        {label:'Participation %',data:h.map(p=>p.participation),borderColor:'rgb(0,106,78)',backgroundColor:'transparent',yAxisID:'y1',tension:.3,pointRadius:0,borderWidth:2},
+      ]
+    }, {scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}});
+  }
+}
+
+function rebuildAllCharts() {
+  buildAllCharts();
+}
+
+// ─────────────────────────────────────────────────────────
+// Init on page load
+// ─────────────────────────────────────────────────────────
+window.onload = loadData;
+</script>
+</body>
+</html>
