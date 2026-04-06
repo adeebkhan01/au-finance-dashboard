@@ -1036,8 +1036,9 @@ function buildSlide7(d) {
       <div class="metric-row">
         <div class="chip"><div class="chip-label">Variable Mortgage Rate</div><div class="chip-val down mono">${h.mortgageRate!=null?h.mortgageRate.toFixed(2)+'%':'—'}</div><div class="chip-chg flat">Bank avg</div></div>
         <div class="chip"><div class="chip-label">National Clearance Rate</div><div class="chip-val mono">${h.auctionNational!=null?h.auctionNational+'%':'—'}</div><div class="chip-chg flat">Auction weighted avg</div></div>
-        <div class="chip"><div class="chip-label">Sydney Median</div><div class="chip-val mono">${fmtM((h.cities||[]).find(c=>c.city==='Sydney')?.median)}</div><div class="chip-chg up">+${(h.cities||[]).find(c=>c.city==='Sydney')?.changePercent?.toFixed(1)||'—'}% annual</div></div>
-        <div class="chip"><div class="chip-label">Perth Median</div><div class="chip-val mono">${fmtM((h.cities||[]).find(c=>c.city==='Perth')?.median)}</div><div class="chip-chg up">+${(h.cities||[]).find(c=>c.city==='Perth')?.changePercent?.toFixed(1)||'—'}% annual</div></div>
+        <div class="chip"><div class="chip-label">Total Listings (National)</div><div class="chip-val mono">${h.totalListings!=null?h.totalListings.toLocaleString():'—'}</div><div class="chip-chg ${(h.listingsChangeYoY||0)>=0?'up':'down'}">${chg(h.listingsChangeYoY)} YoY</div></div>
+        <div class="chip"><div class="chip-label">New Listings (Monthly)</div><div class="chip-val mono">${h.newListings!=null?h.newListings.toLocaleString():'—'}</div><div class="chip-chg flat">Added this month</div></div>
+        <div class="chip"><div class="chip-label">Median Days on Market</div><div class="chip-val mono">${h.medianDaysOnMarket!=null?h.medianDaysOnMarket+' days':'—'}</div><div class="chip-chg flat">National avg</div></div>
       </div>
       <div class="grid-2 mb">
         <div class="chart-card">
