@@ -1,0 +1,43 @@
+name: Fetch BD Finance Data
+
+on:
+  schedule:
+    # Runs every 6 hours at :05 past the hour (offset from AU workflow to avoid overlap)
+    - cron: '5 0,6,12,18 * * *'
+  workflow_dispatch:
+    # Allow manual runs from the Actions tab at any time
+
+jobs:
+  fetch-bd-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write   # needed to commit bd-finance-data.json back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Bangladesh data fetcher
+        run: node bd-fetch-finance.js
+        # The script writes bd-finance-data.json in the same directory
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if the file actually changed
+          if git diff --quiet bd-finance-data.json; then
+            echo "No changes to bd-finance-data.json — skipping commit."
+          else
+            git add bd-finance-data.json
+            git commit -m "chore: refresh BD finance data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
