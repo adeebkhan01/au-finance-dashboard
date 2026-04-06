@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Australian Economy Dashboard</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -20,196 +20,222 @@
   --serif:'Playfair Display',Georgia,serif;
   --sans:'DM Sans',system-ui,sans-serif;
   --mono:'DM Mono',monospace;
-  --radius:10px;
-  --shadow:0 1px 3px rgba(0,0,0,.04);
-  --shadow-lg:0 8px 24px rgba(0,0,0,.08);
+  --radius:10px;--shadow:0 1px 3px rgba(0,0,0,.04);--shadow-lg:0 8px 24px rgba(0,0,0,.08);
 }
-
-/* Dark mode */
 .dark{
   --bg:#141414;--surface:#1e1e1e;--card:#242424;--border:#333;
   --text:#e8e6e1;--muted:#8a8578;
   --green-dim:#1a2e22;--red-dim:#2e1a1a;--blue-dim:#1a1e2e;
   --gold-dim:#2e2a1a;--purple-dim:#231a2e;
-  --shadow:0 1px 3px rgba(0,0,0,.2);
-  --shadow-lg:0 8px 24px rgba(0,0,0,.3);
+  --shadow:0 1px 3px rgba(0,0,0,.2);--shadow-lg:0 8px 24px rgba(0,0,0,.3);
 }
+html{font-size:16px}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;min-height:100vh;transition:background .3s,color .3s;overflow:hidden;display:flex;flex-direction:column}
 
-html{font-size:16px;scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;min-height:100vh;transition:background .3s,color .3s}
-
-/* Masthead */
-.masthead{border-bottom:1px solid var(--border);background:var(--surface);padding:0 1.5rem;position:sticky;top:0;z-index:100;transition:background .3s,border-color .3s}
-.masthead-inner{max-width:1360px;margin:0 auto;display:flex;align-items:center;gap:.75rem;height:54px}
-.logo{font-family:var(--serif);font-size:1.2rem;font-weight:700;color:var(--green);letter-spacing:-0.02em;display:flex;align-items:center;gap:.5rem;text-decoration:none}
-.au-flag{width:28px;height:16px;border-radius:2px;overflow:hidden;flex-shrink:0;position:relative;background:#00008B;border:1px solid rgba(0,0,0,.1)}
+/* ── Masthead ── */
+.masthead{border-bottom:1px solid var(--border);background:var(--surface);padding:0 1.25rem;flex-shrink:0;transition:background .3s}
+.masthead-inner{max-width:100%;display:flex;align-items:center;gap:.6rem;height:50px}
+.logo{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:var(--green);letter-spacing:-.02em;display:flex;align-items:center;gap:.4rem;text-decoration:none;white-space:nowrap}
+.au-flag{width:26px;height:15px;border-radius:2px;overflow:hidden;flex-shrink:0;background:#00008B}
 .au-flag svg{width:100%;height:100%}
-.nav-links{display:flex;gap:.35rem;margin-left:.5rem}
-.nav-links a{font-size:.75rem;font-weight:500;color:var(--muted);text-decoration:none;padding:.25rem .6rem;border-radius:6px;transition:all .15s}
-.nav-links a:hover,.nav-links a.active{color:var(--green);background:var(--green-dim)}
-.masthead-right{margin-left:auto;display:flex;align-items:center;gap:.6rem}
-.last-updated{font-size:.68rem;color:var(--muted);font-family:var(--mono)}
-.btn-icon{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s}
+.slide-nav{display:flex;gap:.2rem;margin-left:.5rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+.slide-nav::-webkit-scrollbar{display:none}
+.slide-nav-btn{width:26px;height:26px;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.65rem;font-weight:600;cursor:pointer;transition:all .15s;font-family:var(--mono);flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.slide-nav-btn:hover{border-color:var(--green);color:var(--green)}
+.slide-nav-btn.active{background:var(--green);border-color:var(--green);color:#fff}
+.masthead-right{margin-left:auto;display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+.last-updated{font-size:.65rem;color:var(--muted);font-family:var(--mono);white-space:nowrap}
+.btn-icon{width:30px;height:30px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;flex-shrink:0}
 .btn-icon:hover{border-color:var(--green);color:var(--green)}
-#refresh-btn{font-size:.75rem;font-weight:500;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:6px;padding:.3rem .65rem;cursor:pointer;display:flex;align-items:center;gap:.35rem;transition:background .15s}
+#refresh-btn{font-size:.72rem;font-weight:500;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:6px;padding:.28rem .6rem;cursor:pointer;display:flex;align-items:center;gap:.3rem;transition:background .15s;white-space:nowrap}
 #refresh-btn:hover{background:#155f39}
 #refresh-btn.spinning svg{animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* Market ticker */
-.ticker{background:var(--card);border-bottom:1px solid var(--border);padding:.5rem 1.5rem;overflow:hidden;transition:background .3s}
-.ticker-inner{max-width:1360px;margin:0 auto;display:flex;gap:1.5rem;align-items:center;font-size:.72rem;font-family:var(--mono);overflow-x:auto;scrollbar-width:none}
+/* ── Ticker ── */
+.ticker{background:var(--card);border-bottom:1px solid var(--border);padding:.4rem 1.25rem;overflow:hidden;flex-shrink:0}
+.ticker-inner{display:flex;gap:1.25rem;align-items:center;font-size:.68rem;font-family:var(--mono);overflow-x:auto;scrollbar-width:none}
 .ticker-inner::-webkit-scrollbar{display:none}
-.ticker-item{display:flex;align-items:center;gap:.4rem;white-space:nowrap;flex-shrink:0}
-.ticker-item .name{color:var(--muted);font-weight:500}
-.ticker-item .val{font-weight:500;color:var(--text)}
-.ticker-item .chg.up{color:var(--green)}
-.ticker-item .chg.down{color:var(--red)}
-.ticker-sep{width:1px;height:14px;background:var(--border);flex-shrink:0}
+.ticker-item{display:flex;align-items:center;gap:.35rem;white-space:nowrap;flex-shrink:0}
+.ticker-item .tname{color:var(--muted);font-weight:500}
+.ticker-item .tval{font-weight:500}
+.ticker-item .tchg.up{color:var(--green)}
+.ticker-item .tchg.down{color:var(--red)}
+.ticker-sep{width:1px;height:12px;background:var(--border);flex-shrink:0}
 
-/* Layout */
-.dashboard{max-width:1360px;margin:0 auto;padding:1.25rem 1.5rem}
-.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.85rem}
-.section-title{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--text);display:flex;align-items:center;gap:.5rem}
-.section-title .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
-.section-subtitle{font-size:.7rem;color:var(--muted);font-family:var(--mono)}
+/* ── Slide container ── */
+.slides-wrap{flex:1;overflow:hidden;position:relative;min-height:0}
+.slide{display:none;height:100%;overflow-y:auto;padding:1rem 1.25rem .5rem;flex-direction:column;gap:.75rem}
+.slide.active{display:flex}
+.slide-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-shrink:0}
+.slide-title-group{}
+.slide-num{font-size:.62rem;font-family:var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.2rem}
+.slide-title{font-family:var(--serif);font-size:1.3rem;font-weight:700;color:var(--text);line-height:1.2}
+.slide-context{font-size:.72rem;color:var(--muted);max-width:380px;line-height:1.5;margin-top:.3rem}
+.slide-asof{font-size:.62rem;font-family:var(--mono);color:var(--muted);text-align:right;flex-shrink:0}
 
-/* Hero metrics */
-.hero-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.65rem;margin-bottom:1.25rem}
-.metric-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;transition:all .2s;position:relative;overflow:hidden;box-shadow:var(--shadow)}
-.metric-card:hover{border-color:var(--green-lt);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
-.metric-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:.35rem}
-.metric-label{font-size:.68rem;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);display:flex;align-items:center;gap:.3rem}
-.metric-icon{width:18px;height:18px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;flex-shrink:0}
-.metric-spark{width:60px;height:24px}
-.metric-value{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--text);line-height:1.15;letter-spacing:-0.02em}
-.metric-bottom{display:flex;align-items:center;gap:.5rem;margin-top:.2rem}
-.metric-change{font-size:.72rem;font-weight:500;display:flex;align-items:center;gap:.2rem}
-.metric-change.up{color:var(--green)}
-.metric-change.down{color:var(--red)}
-.metric-change.neutral{color:var(--muted)}
-.metric-sub{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
-.metric-card .accent-bar{position:absolute;bottom:0;left:0;right:0;height:2px}
-
-/* Charts */
-.charts-row{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-bottom:1.25rem}
-.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;box-shadow:var(--shadow)}
-.chart-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.65rem}
-.chart-header h3{font-family:var(--serif);font-size:.9rem;font-weight:600}
-.chart-range{display:flex;gap:.2rem}
-.chart-range button{font-size:.62rem;font-weight:500;padding:.2rem .45rem;border-radius:4px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;font-family:var(--mono)}
-.chart-range button:hover{border-color:var(--green);color:var(--green)}
-.chart-range button.active{background:var(--green);border-color:var(--green);color:#fff}
-.chart-wrap{position:relative;height:200px}
-@media(max-width:800px){.charts-row{grid-template-columns:1fr}}
-
-/* Commodities */
-.commodities-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:.65rem;margin-bottom:1.25rem}
-.commodity-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem .85rem;transition:all .2s;box-shadow:var(--shadow)}
-.commodity-card:hover{border-color:var(--gold);transform:translateY(-1px)}
-.commodity-top{display:flex;align-items:center;gap:.5rem;margin-bottom:.4rem}
-.commodity-icon{width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0}
-.commodity-name{font-size:.65rem;font-weight:500;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);line-height:1.2}
-.commodity-price{font-family:var(--mono);font-size:.95rem;font-weight:500;margin-bottom:.15rem}
-.commodity-change{font-size:.68rem;font-weight:500}
-.commodity-change.up{color:var(--green)}
-.commodity-change.down{color:var(--red)}
-
-/* Indicators */
-.indicators-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:1.25rem;box-shadow:var(--shadow)}
-.indicators-tabs{display:flex;gap:0;border-bottom:1px solid var(--border);background:var(--surface);padding:0 .5rem}
-.tab-btn{font-size:.7rem;font-weight:500;padding:.6rem .8rem;border:none;background:transparent;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;font-family:var(--sans)}
-.tab-btn:hover{color:var(--text)}
-.tab-btn.active{color:var(--green);border-bottom-color:var(--green)}
-.indicators-table{width:100%;border-collapse:collapse}
-.indicators-table th{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:.55rem .85rem;text-align:left;border-bottom:1px solid var(--border);background:var(--surface)}
-.indicators-table td{padding:.55rem .85rem;font-size:.8rem;border-bottom:1px solid var(--border);transition:background .15s}
-.indicators-table tr:last-child td{border-bottom:none}
-.indicators-table tr:hover td{background:var(--surface)}
-.indicator-name{font-weight:500;display:flex;align-items:center;gap:.4rem}
-.indicator-badge{font-size:.55rem;padding:.12rem .35rem;border-radius:3px;font-weight:600;letter-spacing:.02em;text-transform:uppercase}
-
-/* News */
-.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.65rem;margin-bottom:1.25rem}
-.news-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;text-decoration:none;color:inherit;transition:all .2s;box-shadow:var(--shadow)}
-.news-card:hover{border-color:var(--blue);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
-.news-meta{display:flex;align-items:center;justify-content:space-between;margin-bottom:.35rem}
-.news-source{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:.15rem .4rem;border-radius:3px;background:var(--blue-dim);color:var(--blue)}
-.news-time{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
-.news-title{font-family:var(--serif);font-size:.88rem;font-weight:600;line-height:1.4;margin-bottom:.3rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.news-snippet{font-size:.74rem;color:var(--muted);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-
-/* Loading / Error */
-.loading-overlay{text-align:center;padding:4rem 1rem;color:var(--muted)}
-.loading-overlay h3{font-family:var(--serif);color:var(--text);margin-bottom:.5rem}
-.loading-spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 1rem}
-.error-box{background:var(--red-dim);border:1px solid #e8b4b4;border-radius:var(--radius);padding:1.5rem;color:#8b2020;text-align:center;margin:2rem 0}
-.error-box h3{font-family:var(--serif);margin-bottom:.5rem;font-size:1.1rem}
-
-/* Footer */
-footer{margin-top:1.5rem;padding:1.2rem 1.5rem;text-align:center;font-size:.68rem;color:var(--muted);border-top:1px solid var(--border);transition:border-color .3s}
-footer a{color:var(--green);text-decoration:none}
-footer a:hover{text-decoration:underline}
-
-/* Responsive */
-@media(max-width:1100px){
-  .hero-grid{grid-template-columns:repeat(2,1fr)}
-  .commodities-grid{grid-template-columns:repeat(3,1fr)}
+/* ── Slide body layouts ── */
+.slide-body{display:grid;gap:.65rem;flex:1;min-height:0}
+.layout-2col{grid-template-columns:1fr 1fr}
+.layout-3col{grid-template-columns:repeat(3,1fr)}
+.layout-left-wide{grid-template-columns:3fr 2fr}
+.layout-right-wide{grid-template-columns:2fr 3fr}
+.layout-metrics-chart{grid-template-columns:220px 1fr}
+.layout-4col{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){
+  .layout-2col,.layout-3col,.layout-left-wide,.layout-right-wide,.layout-metrics-chart,.layout-4col{grid-template-columns:1fr}
 }
-@media(max-width:768px){
-  .hero-grid{grid-template-columns:repeat(2,1fr)}
-  .commodities-grid{grid-template-columns:repeat(2,1fr)}
-  .metric-value{font-size:1.2rem}
-  .dashboard{padding:1rem}
-  .nav-links{display:none}
-  .ticker-inner{gap:1rem}
-}
-@media(max-width:480px){
-  .hero-grid{grid-template-columns:1fr}
-  .commodities-grid{grid-template-columns:1fr 1fr}
-}
+
+/* ── Cards ── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;box-shadow:var(--shadow);transition:all .2s}
+.card-sm{padding:.65rem .85rem}
+.card:hover{border-color:var(--green-lt);transform:translateY(-1px);box-shadow:var(--shadow-lg)}
+.card-title{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:.45rem;display:flex;align-items:center;gap:.35rem}
+.card-title .dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
+.card-big-val{font-family:var(--serif);font-size:1.65rem;font-weight:700;line-height:1.1;letter-spacing:-.02em;margin-bottom:.2rem}
+.card-change{font-size:.72rem;font-weight:500;display:flex;align-items:center;gap:.2rem;margin-bottom:.15rem}
+.card-change.up{color:var(--green)}
+.card-change.down{color:var(--red)}
+.card-change.flat{color:var(--muted)}
+.card-sub{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
+.card-accent{height:2px;border-radius:0 0 var(--radius) var(--radius);margin:-0.85rem -1rem 0;margin-top:.5rem}
+
+/* ── Metric row (horizontal) ── */
+.metric-row{display:flex;gap:.65rem;flex-wrap:wrap;flex-shrink:0}
+.metric-chip{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.5rem .75rem;flex:1;min-width:100px;box-shadow:var(--shadow)}
+.metric-chip-label{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.2rem}
+.metric-chip-val{font-family:var(--mono);font-size:.95rem;font-weight:500;margin-bottom:.1rem}
+.metric-chip-chg{font-size:.65rem;font-weight:500}
+.metric-chip-chg.up{color:var(--green)}
+.metric-chip-chg.down{color:var(--red)}
+.metric-chip-chg.flat{color:var(--muted)}
+
+/* ── Charts ── */
+.chart-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:0}
+.chart-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.6rem;flex-shrink:0}
+.chart-header h3{font-family:var(--serif);font-size:.88rem;font-weight:600}
+.chart-header .chart-sub{font-size:.62rem;color:var(--muted);font-family:var(--mono)}
+.chart-wrap{position:relative;flex:1;min-height:120px}
+canvas{width:100%!important}
+
+/* ── Sector heatmap ── */
+.sector-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.4rem}
+.sector-cell{border-radius:7px;padding:.5rem .65rem;font-size:.72rem;font-weight:500;transition:opacity .2s}
+.sector-cell .sc-name{font-size:.6rem;text-transform:uppercase;letter-spacing:.04em;opacity:.8;margin-bottom:.15rem}
+.sector-cell .sc-val{font-family:var(--mono);font-size:.88rem;font-weight:600}
+
+/* ── Property city grid ── */
+.city-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.5rem}
+.city-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.65rem .8rem;box-shadow:var(--shadow)}
+.city-name{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.3rem}
+.city-price{font-family:var(--mono);font-size:.9rem;font-weight:500;margin-bottom:.15rem}
+.city-chg{font-size:.68rem;font-weight:500}
+.city-chg.up{color:var(--green)}
+.city-chg.down{color:var(--red)}
+.city-meta{font-size:.6rem;color:var(--muted);margin-top:.2rem}
+
+/* ── RBA history table ── */
+.rba-table{width:100%;border-collapse:collapse;font-size:.75rem}
+.rba-table th{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:.4rem .65rem;text-align:left;border-bottom:1px solid var(--border);background:var(--surface)}
+.rba-table td{padding:.45rem .65rem;border-bottom:1px solid var(--border)}
+.rba-table tr:last-child td{border-bottom:none}
+.rba-table tr:hover td{background:var(--surface)}
+.rba-badge{font-size:.55rem;padding:.1rem .3rem;border-radius:3px;font-weight:700;font-family:var(--mono)}
+
+/* ── Indicators table ── */
+.ind-table{width:100%;border-collapse:collapse;font-size:.75rem}
+.ind-table th{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:.4rem .65rem;text-align:left;border-bottom:1px solid var(--border);background:var(--surface)}
+.ind-table td{padding:.45rem .65rem;border-bottom:1px solid var(--border)}
+.ind-table tr:last-child td{border-bottom:none}
+.ind-table tr:hover td{background:var(--surface)}
+.ind-badge{font-size:.55rem;padding:.1rem .3rem;border-radius:3px;font-weight:600;text-transform:uppercase}
+
+/* ── Stock comparison cards ── */
+.stock-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.65rem;flex-shrink:0}
+.stock-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem .9rem;box-shadow:var(--shadow);border-top:3px solid var(--border);transition:all .2s}
+.stock-card:hover{transform:translateY(-1px);box-shadow:var(--shadow-lg)}
+.stock-ticker{font-family:var(--mono);font-size:.7rem;font-weight:700;text-transform:uppercase;color:var(--muted);margin-bottom:.25rem}
+.stock-name{font-size:.7rem;color:var(--muted);margin-bottom:.4rem}
+.stock-price{font-family:var(--serif);font-size:1.3rem;font-weight:700;margin-bottom:.15rem}
+.stock-chg{font-size:.72rem;font-weight:500}
+.stock-chg.up{color:var(--green)}
+.stock-chg.down{color:var(--red)}
+.stock-chg.flat{color:var(--muted)}
+
+/* ── Trade partner bars ── */
+.partner-bar-wrap{display:flex;flex-direction:column;gap:.4rem}
+.partner-row{display:flex;align-items:center;gap:.5rem;font-size:.72rem}
+.partner-name{width:80px;flex-shrink:0;color:var(--muted);font-weight:500}
+.partner-bar-track{flex:1;background:var(--surface);border-radius:4px;height:10px;overflow:hidden}
+.partner-bar-fill{height:100%;border-radius:4px;transition:width .5s ease}
+.partner-pct{width:35px;text-align:right;font-family:var(--mono);font-weight:500}
+
+/* ── Yield curve ── */
+.yield-row{display:flex;align-items:center;gap:.75rem;padding:.35rem 0;border-bottom:1px solid var(--border);font-size:.78rem}
+.yield-row:last-child{border-bottom:none}
+.yield-label{width:90px;color:var(--muted);font-weight:500}
+.yield-val{font-family:var(--mono);font-weight:600;width:55px}
+.yield-bar-wrap{flex:1;background:var(--surface);border-radius:3px;height:6px}
+.yield-bar{height:100%;border-radius:3px;background:var(--green)}
+
+/* ── Bottom navigation ── */
+.slide-footer{background:var(--surface);border-top:1px solid var(--border);padding:.45rem 1.25rem;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.slide-footer-label{font-family:var(--serif);font-size:.85rem;font-weight:600;color:var(--text)}
+.slide-footer-sub{font-size:.62rem;font-family:var(--mono);color:var(--muted);margin-top:.1rem}
+.nav-arrows{display:flex;gap:.5rem;align-items:center}
+.nav-arrow{width:34px;height:34px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;font-size:.85rem}
+.nav-arrow:hover{border-color:var(--green);color:var(--green)}
+.nav-arrow:disabled{opacity:.3;cursor:default}
+.slide-counter{font-family:var(--mono);font-size:.72rem;color:var(--muted);min-width:50px;text-align:center}
+
+/* ── Loading/error ── */
+.loading-full{display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:1rem;color:var(--muted)}
+.spinner{width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite}
+.error-box{background:var(--red-dim);border:1px solid #e8b4b4;border-radius:var(--radius);padding:1.25rem;color:#8b2020;margin:1rem}
+
+/* ── Utilities ── */
+.up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
+.mono{font-family:var(--mono)}
+.bold{font-weight:600}
+.section-label{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:.35rem}
+.static-note{font-size:.6rem;color:var(--muted);font-style:italic;padding:.3rem .6rem;background:var(--surface);border-radius:4px;border-left:2px solid var(--border)}
 </style>
 </head>
 <body>
 
+<!-- ── Masthead ── -->
 <header class="masthead">
   <div class="masthead-inner">
-    <a class="logo" href="finance.html">
+    <a class="logo" href="#">
       <div class="au-flag">
         <svg viewBox="0 0 28 16" xmlns="http://www.w3.org/2000/svg">
           <rect width="28" height="16" fill="#00008B"/>
-          <!-- Union Jack simplified -->
           <line x1="0" y1="0" x2="13" y2="8" stroke="#fff" stroke-width="1.5"/>
           <line x1="13" y1="0" x2="0" y2="8" stroke="#fff" stroke-width="1.5"/>
           <line x1="0" y1="4" x2="13" y2="4" stroke="#fff" stroke-width="2.5"/>
           <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#fff" stroke-width="2.5"/>
           <line x1="0" y1="4" x2="13" y2="4" stroke="#C8102E" stroke-width="1.2"/>
           <line x1="6.5" y1="0" x2="6.5" y2="8" stroke="#C8102E" stroke-width="1.2"/>
-          <!-- Commonwealth Star -->
-          <text x="6.5" y="13.5" text-anchor="middle" fill="#fff" font-size="6" font-weight="bold">&#9733;</text>
-          <!-- Southern Cross -->
-          <text x="20" y="4" text-anchor="middle" fill="#fff" font-size="3.5">&#9733;</text>
-          <text x="23" y="7" text-anchor="middle" fill="#fff" font-size="3">&#9733;</text>
-          <text x="20" y="11" text-anchor="middle" fill="#fff" font-size="3.5">&#9733;</text>
-          <text x="17" y="8" text-anchor="middle" fill="#fff" font-size="3">&#9733;</text>
-          <text x="21.5" y="9" text-anchor="middle" fill="#fff" font-size="2">&#9733;</text>
+          <text x="6.5" y="13.5" text-anchor="middle" fill="#fff" font-size="6" font-weight="bold">★</text>
+          <text x="20" y="4"  text-anchor="middle" fill="#fff" font-size="3.5">★</text>
+          <text x="23" y="7"  text-anchor="middle" fill="#fff" font-size="3">★</text>
+          <text x="20" y="11" text-anchor="middle" fill="#fff" font-size="3.5">★</text>
+          <text x="17" y="8"  text-anchor="middle" fill="#fff" font-size="3">★</text>
+          <text x="21.5" y="9" text-anchor="middle" fill="#fff" font-size="2">★</text>
         </svg>
       </div>
       AU Economy
     </a>
-    <nav class="nav-links">
-      <a href="finance.html" class="active">Dashboard</a>
-      <a href="index.html">BD News</a>
-    </nav>
+    <nav class="slide-nav" id="slide-nav"></nav>
     <div class="masthead-right">
       <span class="last-updated" id="last-updated">—</span>
       <button class="btn-icon" id="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="theme-icon">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="theme-icon">
           <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
         </svg>
       </button>
       <button id="refresh-btn" onclick="loadData()">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <polyline points="23 4 23 10 17 10"/>
           <polyline points="1 20 1 14 7 14"/>
           <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
@@ -220,354 +246,738 @@ footer a:hover{text-decoration:underline}
   </div>
 </header>
 
-<div class="ticker" id="ticker"></div>
+<!-- ── Ticker ── -->
+<div class="ticker"><div class="ticker-inner" id="ticker">Loading...</div></div>
 
-<div class="dashboard" id="dashboard">
-  <div class="loading-overlay">
-    <div class="loading-spinner"></div>
-    <h3>Loading Australian Economy Data</h3>
-    <p style="font-size:.82rem">Fetching latest market & economic indicators</p>
+<!-- ── Slides ── -->
+<div class="slides-wrap" id="slides-wrap">
+  <div class="loading-full" id="loading-state">
+    <div class="spinner"></div>
+    <div>Loading Australian Economy Data...</div>
+  </div>
+  <!-- slides injected by JS -->
+</div>
+
+<!-- ── Footer nav ── -->
+<div class="slide-footer" id="slide-footer" style="display:none">
+  <div>
+    <div class="slide-footer-label" id="footer-title">—</div>
+    <div class="slide-footer-sub" id="footer-sub">Use ← → arrow keys to navigate</div>
+  </div>
+  <div class="nav-arrows">
+    <button class="nav-arrow" id="btn-prev" onclick="navigate(-1)">&#8592;</button>
+    <span class="slide-counter" id="slide-counter">1 / 12</span>
+    <button class="nav-arrow" id="btn-next" onclick="navigate(1)">&#8594;</button>
   </div>
 </div>
 
-<footer>
-  Australian Economy Dashboard · Data via RBA, ABS & Yahoo Finance · Refreshed every 3 hours · <a href="index.html">Bangladesh News</a>
-</footer>
-
 <script>
-let financeData = null;
+// ── State ────────────────────────────────────────────────
+let D = null;          // finance-data.json
+let currentSlide = 0;  // 0-indexed
 let charts = {};
 let loading = false;
-let activeTab = 'all';
 
-// ── Theme ──
-function toggleTheme() {
+const SLIDE_META = [
+  { title: 'AUD & FX',               sub: 'AUD/USD · AUD/EUR · AUD/CNY · AUD/JPY' },
+  { title: 'Interest Rates & RBA',    sub: 'Cash rate · Bond yields · RBA history' },
+  { title: 'Inflation & CPI',         sub: 'Headline · Trimmed mean · RBA target band' },
+  { title: 'Iron Ore & Steel',        sub: 'Spot price · China steel · Key miners' },
+  { title: 'Energy Dashboard',        sub: 'WTI · Brent · Natural Gas · Coal' },
+  { title: 'Trade Balance',           sub: 'Exports · Imports · Partner breakdown' },
+  { title: 'ASX 200 Overview',        sub: 'Index · Sector heat map · 30-day trend' },
+  { title: 'Big 4 Banks',             sub: 'CBA · NAB · ANZ · WBC' },
+  { title: 'Commodity Stocks',        sub: 'BHP · RIO · FMG · WDS' },
+  { title: 'Property Market',         sub: 'Median prices · Clearance rates · Cities' },
+  { title: 'Consumer & Retail',       sub: 'Westpac sentiment · Retail sales · Business confidence' },
+  { title: 'Labour Market',           sub: 'Unemployment · Participation · Wages · Vacancies' },
+];
+
+// ── Utils ────────────────────────────────────────────────
+const esc = s => String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
+const fmt = (n,d=2) => n==null?'—':n.toLocaleString('en-AU',{minimumFractionDigits:d,maximumFractionDigits:d});
+const fmtM = n => n==null?'—':'$'+Math.round(n/1000)+'k';
+const pct = (v,d=2) => v==null?'—':fmt(v,d)+'%';
+function chgHtml(v,sfx='%',d=2){
+  if(v==null||isNaN(v)) return '<span class="flat">—</span>';
+  const cls=v>0?'up':v<0?'down':'flat';
+  const arr=v>0?'▲':v<0?'▼':'—';
+  return `<span class="${cls}">${arr} ${Math.abs(v).toFixed(d)}${sfx}</span>`;
+}
+function timeAgo(s){
+  if(!s) return '';
+  const d=(Date.now()-Date.parse(s))/1000;
+  if(d<60) return 'just now';
+  if(d<3600) return Math.floor(d/60)+'m ago';
+  if(d<86400) return Math.floor(d/3600)+'h ago';
+  return Math.floor(d/86400)+'d ago';
+}
+function isDark(){return document.body.classList.contains('dark')}
+function chartColors(){
+  return {
+    grid: isDark()?'#2a2a2a':'#edeade',
+    tick: isDark()?'#8a8578':'#9a9080',
+    bg:   isDark()?'#1e1e1e':'#fff',
+    text: isDark()?'#e8e6e1':'#1a1a18',
+    tooltip:{bg:isDark()?'#2a2a2a':'#fff',border:isDark()?'#444':'#ddd9cf'}
+  };
+}
+function baseChartOpts(extra={}){
+  const c=chartColors();
+  return {
+    responsive:true, maintainAspectRatio:false,
+    interaction:{mode:'index',intersect:false},
+    plugins:{
+      legend:{display:false},
+      tooltip:{backgroundColor:c.tooltip.bg,titleColor:c.text,bodyColor:c.text,borderColor:c.tooltip.border,borderWidth:1,padding:9,titleFont:{family:'DM Mono',size:10},bodyFont:{family:'DM Mono',size:11,weight:'500'},displayColors:false,cornerRadius:6}
+    },
+    scales:{
+      x:{grid:{color:c.grid,drawBorder:false},ticks:{font:{family:'DM Mono',size:9},color:c.tick,maxRotation:0,maxTicksLimit:7}},
+      y:{grid:{color:c.grid,drawBorder:false},ticks:{font:{family:'DM Mono',size:9},color:c.tick}}
+    },
+    ...extra
+  };
+}
+
+// ── Theme ────────────────────────────────────────────────
+function toggleTheme(){
   document.body.classList.toggle('dark');
-  const isDark = document.body.classList.contains('dark');
-  localStorage.setItem('au-theme', isDark ? 'dark' : 'light');
-  document.getElementById('theme-icon').innerHTML = isDark
+  const dark=isDark();
+  localStorage.setItem('au-theme',dark?'dark':'light');
+  document.getElementById('theme-icon').innerHTML = dark
     ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
     : '<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>';
-  // Re-render charts with updated colors
-  if (financeData) renderCharts(financeData);
+  if(D) rebuildCharts();
 }
-if (localStorage.getItem('au-theme') === 'dark') {
+if(localStorage.getItem('au-theme')==='dark'){
   document.body.classList.add('dark');
-  document.getElementById('theme-icon').innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
+  document.getElementById('theme-icon').innerHTML='<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>';
 }
 
-// ── Formatting ──
-function fmtNum(n) {
-  if (n == null || isNaN(n)) return '—';
-  return n.toLocaleString('en-AU');
+// ── Navigation ───────────────────────────────────────────
+function navigate(dir){
+  const next=currentSlide+dir;
+  if(next<0||next>=SLIDE_META.length) return;
+  showSlide(next);
 }
-
-function fmt(n, decimals, prefix, suffix) {
-  if (n == null || isNaN(n)) return '—';
-  prefix = prefix || ''; suffix = suffix || '';
-  const abs = Math.abs(n);
-  if (abs >= 1e12) return prefix + (n/1e12).toFixed(1) + 'T' + suffix;
-  if (abs >= 1e9) return prefix + (n/1e9).toFixed(1) + 'B' + suffix;
-  if (abs >= 1e6) return prefix + (n/1e6).toFixed(1) + 'M' + suffix;
-  return prefix + n.toLocaleString('en-AU', {minimumFractionDigits: decimals, maximumFractionDigits: decimals}) + suffix;
-}
-
-function changeHTML(val, suffix) {
-  if (val == null || isNaN(val)) return '<span class="metric-change neutral">—</span>';
-  suffix = suffix || '';
-  const cls = val > 0 ? 'up' : val < 0 ? 'down' : 'neutral';
-  const arrow = val > 0 ? '&#9650;' : val < 0 ? '&#9660;' : '&#8212;';
-  return '<span class="metric-change ' + cls + '">' + arrow + ' ' + Math.abs(val).toFixed(2) + suffix + '</span>';
-}
-
-function timeAgo(dateStr) {
-  if (!dateStr) return '';
-  const t = Date.parse(dateStr);
-  if (!t) return '';
-  const diff = (Date.now() - t) / 1000;
-  if (diff < 60) return 'just now';
-  if (diff < 3600) return Math.floor(diff/60) + 'm ago';
-  if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
-  return Math.floor(diff/86400) + 'd ago';
-}
-
-function escapeHTML(str) {
-  return String(str||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m]);
-}
-
-// ── Sparkline (mini canvas) ──
-function drawSparkline(canvas, data, color) {
-  if (!canvas || !data || data.length < 2) return;
-  const ctx = canvas.getContext('2d');
-  const w = canvas.width = canvas.offsetWidth * 2;
-  const h = canvas.height = canvas.offsetHeight * 2;
-  ctx.scale(2, 2);
-  const dw = canvas.offsetWidth, dh = canvas.offsetHeight;
-  const min = Math.min(...data), max = Math.max(...data);
-  const range = max - min || 1;
-  const step = dw / (data.length - 1);
-  ctx.beginPath();
-  data.forEach((v, i) => {
-    const x = i * step;
-    const y = dh - ((v - min) / range) * (dh - 4) - 2;
-    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+function showSlide(idx){
+  document.querySelectorAll('.slide').forEach((s,i)=>{
+    s.classList.toggle('active',i===idx);
   });
-  ctx.strokeStyle = color;
-  ctx.lineWidth = 1.5;
-  ctx.lineJoin = 'round';
-  ctx.stroke();
+  document.querySelectorAll('.slide-nav-btn').forEach((b,i)=>{
+    b.classList.toggle('active',i===idx);
+  });
+  document.getElementById('footer-title').textContent = SLIDE_META[idx].title;
+  document.getElementById('footer-sub').textContent   = SLIDE_META[idx].sub;
+  document.getElementById('slide-counter').textContent = `${idx+1} / ${SLIDE_META.length}`;
+  document.getElementById('btn-prev').disabled = idx===0;
+  document.getElementById('btn-next').disabled = idx===SLIDE_META.length-1;
+  currentSlide=idx;
+  // Build this slide's charts lazily
+  if(D) buildSlideCharts(idx);
+}
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key==='ArrowDown') navigate(1);
+  if(e.key==='ArrowLeft' ||e.key==='ArrowUp')   navigate(-1);
+});
+
+// Build slide-nav buttons
+const nav=document.getElementById('slide-nav');
+SLIDE_META.forEach((_,i)=>{
+  const b=document.createElement('button');
+  b.className='slide-nav-btn'+(i===0?' active':'');
+  b.textContent=i+1;
+  b.title=SLIDE_META[i].title;
+  b.onclick=()=>showSlide(i);
+  nav.appendChild(b);
+});
+
+// ── Ticker ───────────────────────────────────────────────
+function renderTicker(d){
+  const items=[];
+  if(d.asx200?.value)     items.push({n:'ASX 200',v:Math.round(d.asx200.value).toLocaleString(),c:d.asx200.changePercent});
+  if(d.fx?.audusd?.value) items.push({n:'AUD/USD',v:d.fx.audusd.value.toFixed(4),c:d.fx.audusd.changePercent});
+  if(d.fx?.audcny?.value) items.push({n:'AUD/CNY',v:d.fx.audcny.value.toFixed(4),c:d.fx.audcny.changePercent});
+  if(d.rbaRate?.value)    items.push({n:'RBA Rate',v:d.rbaRate.value.toFixed(2)+'%',c:null});
+  if(d.cpi?.headline)     items.push({n:'CPI',v:d.cpi.headline.toFixed(1)+'%',c:null});
+  if(d.energy?.wti?.value) items.push({n:'WTI Oil',v:'$'+d.energy.wti.value.toFixed(2),c:d.energy.wti.changePercent});
+  if(d.ironOre?.price)    items.push({n:'Iron Ore',v:'$'+d.ironOre.price.toFixed(1),c:d.ironOre.changePercent});
+  (d.banks||[]).forEach(b=>{ if(b.price) items.push({n:b.ticker,v:'$'+b.price.toFixed(2),c:b.changePercent}); });
+  document.getElementById('ticker').innerHTML = items.map((it,i)=>{
+    const cls=(it.c||0)>=0?'up':'down';
+    const cStr=it.c!=null?`<span class="tchg ${cls}">${it.c>=0?'+':''}${it.c.toFixed(2)}%</span>`:'';
+    return (i?'<span class="ticker-sep"></span>':'')+`<span class="ticker-item"><span class="tname">${it.n}</span><span class="tval">${it.v}</span>${cStr}</span>`;
+  }).join('');
 }
 
-// ── Ticker ──
-function renderTicker(d) {
-  const items = [];
-  if (d.asx200?.value != null) items.push({name:'ASX 200', val: fmtNum(Math.round(d.asx200.value)), chg: d.asx200.changePercent});
-  if (d.audusd?.value != null) items.push({name:'AUD/USD', val: d.audusd.value.toFixed(4), chg: d.audusd.changePercent});
-  if (d.rbaRate?.value != null) items.push({name:'RBA Rate', val: d.rbaRate.value.toFixed(2) + '%', chg: null});
-  (d.commodities||[]).forEach(c => items.push({name: c.name, val: '$' + fmtNum(c.price), chg: c.changePercent}));
+// ── Slide HTML builders ──────────────────────────────────
 
-  const el = document.getElementById('ticker');
-  el.innerHTML = '<div class="ticker-inner">' + items.map((item, i) => {
-    const cls = (item.chg||0) >= 0 ? 'up' : 'down';
-    const chgStr = item.chg != null ? '<span class="chg ' + cls + '">' + (item.chg >= 0 ? '+' : '') + item.chg.toFixed(2) + '%</span>' : '';
-    return (i > 0 ? '<span class="ticker-sep"></span>' : '')
-      + '<span class="ticker-item"><span class="name">' + item.name + '</span><span class="val">' + item.val + '</span>' + chgStr + '</span>';
-  }).join('') + '</div>';
-}
-
-// ── Main render ──
-function renderDashboard(d) {
-  const dash = document.getElementById('dashboard');
-  let html = '';
-
-  // Section: Key Indicators
-  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Key Indicators</div>'
-    + '<div class="section-subtitle">As of ' + escapeHTML(d.asx200?.asOf || d.fetchedAt?.split('T')[0] || '') + '</div></div>';
-  html += '<div class="hero-grid">';
-
-  const metrics = [
-    { label:'ASX 200', icon:'&#9652;', iconBg:'var(--green-dim)', color:'var(--green)',
-      value: d.asx200?.value != null ? fmtNum(Math.round(d.asx200.value)) : '—',
-      change: changeHTML(d.asx200?.changePercent, '%'), sub: 'S&P/ASX 200 Index',
-      sparkData: d.asx200?.history?.map(p=>p.close), sparkColor: (d.asx200?.changePercent||0)>=0?'#1a7a4a':'#c23a3a' },
-    { label:'AUD / USD', icon:'$', iconBg:'var(--blue-dim)', color:'var(--blue)',
-      value: d.audusd?.value != null ? d.audusd.value.toFixed(4) : '—',
-      change: changeHTML(d.audusd?.changePercent, '%'), sub: 'Exchange Rate',
-      sparkData: d.audusd?.history?.map(p=>p.close), sparkColor: (d.audusd?.changePercent||0)>=0?'#1a7a4a':'#c23a3a' },
-    { label:'RBA Cash Rate', icon:'%', iconBg:'var(--gold-dim)', color:'var(--gold)',
-      value: d.rbaRate?.value != null ? d.rbaRate.value.toFixed(2)+'%' : '—',
-      change: changeHTML(d.rbaRate?.change, ' bps'), sub: escapeHTML(d.rbaRate?.asOf || '') },
-    { label:'Inflation (CPI)', icon:'&#8593;', iconBg:'var(--red-dim)', color:'var(--red)',
-      value: d.cpi?.value != null ? d.cpi.value.toFixed(1)+'%' : '—',
-      change: changeHTML(d.cpi?.change, '%'), sub: escapeHTML(d.cpi?.period||'Annual') },
-    { label:'GDP Growth', icon:'G', iconBg:'var(--green-dim)', color:'var(--green)',
-      value: d.gdp?.value != null ? d.gdp.value.toFixed(1)+'%' : '—',
-      change: changeHTML(d.gdp?.change, '%'), sub: escapeHTML(d.gdp?.period||'Annual') },
-    { label:'Unemployment', icon:'U', iconBg:'var(--blue-dim)', color:'var(--blue)',
-      value: d.unemployment?.value != null ? d.unemployment.value.toFixed(1)+'%' : '—',
-      change: changeHTML(d.unemployment?.change, '%'), sub: escapeHTML(d.unemployment?.period||'') },
-    { label:'Housing (Median)', icon:'&#8962;', iconBg:'var(--gold-dim)', color:'var(--gold)',
-      value: d.housing?.medianPrice != null ? '$'+fmtNum(d.housing.medianPrice) : '—',
-      change: changeHTML(d.housing?.changePercent, '%'), sub: escapeHTML(d.housing?.city||'National') },
-    { label:'Consumer Confidence', icon:'C', iconBg:'var(--purple-dim)', color:'var(--purple)',
-      value: d.consumerConfidence?.value != null ? d.consumerConfidence.value.toFixed(1) : '—',
-      change: changeHTML(d.consumerConfidence?.change, ''), sub: escapeHTML(d.consumerConfidence?.period||'') }
+function slide1(d){  // AUD & FX
+  const fx=d.fx||{};
+  const pairs=[
+    {key:'audusd',label:'AUD / USD',dec:4},
+    {key:'audeur',label:'AUD / EUR',dec:4},
+    {key:'audcny',label:'AUD / CNY',dec:4},
+    {key:'audjpy',label:'AUD / JPY',dec:2},
   ];
+  const cards=pairs.map(p=>{
+    const q=fx[p.key];
+    return `<div class="card"><div class="card-title"><span class="dot"></span>${esc(p.label)}</div>
+      <div class="card-big-val mono">${q?.value!=null?q.value.toFixed(p.dec):'—'}</div>
+      <div class="card-change ${q?.changePercent>=0?'up':'down'}">${chgHtml(q?.changePercent)}</div>
+      <div class="card-sub">vs prev close</div></div>`;
+  }).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 1 of 12</div><div class="slide-title">AUD &amp; FX</div>
+      <div class="slide-context">AUD is a commodity currency — it tracks iron ore, risk appetite, and China growth more than domestic policy alone.</div></div>
+      <div class="slide-asof">Live · ${new Date().toLocaleDateString('en-AU',{day:'numeric',month:'short'})}</div>
+    </div>
+    <div class="layout-4col" style="display:grid;gap:.65rem;grid-template-columns:repeat(4,1fr);flex-shrink:0">${cards}</div>
+    <div class="layout-2col slide-body">
+      <div class="chart-card"><div class="chart-header"><h3>AUD/USD — 30 Days</h3></div><div class="chart-wrap"><canvas id="chart-audusd"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>AUD/CNY — 30 Days</h3></div><div class="chart-wrap"><canvas id="chart-audcny"></canvas></div></div>
+    </div>`;
+}
 
-  metrics.forEach((m, i) => {
-    html += '<div class="metric-card">'
-      + '<div class="metric-top">'
-      + '<div class="metric-label"><span class="metric-icon" style="background:' + m.iconBg + ';color:' + m.color + '">' + m.icon + '</span>' + m.label + '</div>'
-      + (m.sparkData ? '<canvas class="metric-spark" data-spark="' + i + '"></canvas>' : '')
-      + '</div>'
-      + '<div class="metric-value">' + m.value + '</div>'
-      + '<div class="metric-bottom">' + m.change + '<span class="metric-sub">' + m.sub + '</span></div>'
-      + '<div class="accent-bar" style="background:' + m.color + '"></div>'
-      + '</div>';
+function slide2(d){  // Interest Rates & RBA
+  const b=d.bonds||{};
+  const yields=[
+    {label:'Cash Rate (RBA)',v:b.cash,max:6},
+    {label:'2-Year Bond',v:b.twoYear,max:6},
+    {label:'5-Year Bond',v:b.fiveYear,max:6},
+    {label:'10-Year Bond',v:b.tenYear,max:6},
+    {label:'30-Year Bond',v:b.thirtyYear,max:6},
+    {label:'US 10-Year',v:b.usTenYear,max:6},
+  ];
+  const yieldRows=yields.map(y=>`
+    <div class="yield-row">
+      <span class="yield-label">${esc(y.label)}</span>
+      <span class="yield-val up mono">${y.v!=null?y.v.toFixed(2)+'%':'—'}</span>
+      <div class="yield-bar-wrap"><div class="yield-bar" style="width:${y.v!=null?Math.min((y.v/y.max)*100,100):0}%"></div></div>
+    </div>`).join('');
+  const rbaRows=(d.rbaHistory||[]).slice(0,7).map(r=>{
+    const cls=r.change>0?'red':r.change<0?'green':'muted';
+    const badge=r.change>0?'HIKE':r.change<0?'CUT':'HOLD';
+    const bg=r.change>0?'background:var(--red-dim);color:var(--red)':r.change<0?'background:var(--green-dim);color:var(--green)':'background:var(--surface);color:var(--muted)';
+    return `<tr><td>${esc(r.date)}</td><td class="mono bold">${r.rate.toFixed(2)}%</td>
+      <td><span class="rba-badge" style="${bg}">${badge}</span></td>
+      <td style="font-size:.68rem;color:var(--muted)">${esc(r.note||'')}</td></tr>`;
+  }).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 2 of 12</div><div class="slide-title">Interest Rates &amp; RBA</div>
+      <div class="slide-context">The cash rate is the RBA's primary lever. The yield curve shows market expectations for future growth and inflation.</div></div>
+      <div class="slide-asof">Bonds: ${esc(b.asOf||'—')}</div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card">
+        <div class="chart-header"><h3>Australian Yield Curve</h3><span class="chart-sub">${esc(b.asOf||'')}</span></div>
+        <div style="flex:1;overflow-y:auto">${yieldRows}</div>
+        <div class="static-note" style="margin-top:.5rem">Spread 10yr–2yr: <strong>${b.spread10v2!=null?b.spread10v2.toFixed(2)+'%':'—'}</strong> ${b.spread10v2>0?'(normal curve)':b.spread10v2<0?'(inverted — recessionary signal)':'flat'}</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:.65rem">
+        <div class="chart-card" style="flex:0 0 auto">
+          <div class="chart-header"><h3>RBA Rate History</h3></div>
+          <div class="chart-wrap" style="min-height:140px"><canvas id="chart-rba"></canvas></div>
+        </div>
+        <div class="card" style="flex:1;overflow-y:auto">
+          <div class="card-title"><span class="dot"></span>Decision Log</div>
+          <table class="rba-table"><thead><tr><th>Date</th><th>Rate</th><th>Decision</th><th>Note</th></tr></thead>
+          <tbody>${rbaRows}</tbody></table>
+        </div>
+      </div>
+    </div>`;
+}
+
+function slide3(d){  // Inflation & CPI
+  const cpi=d.cpi||{};
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 3 of 12</div><div class="slide-title">Inflation &amp; CPI</div>
+      <div class="slide-context">RBA targets 2–3% headline CPI. Trimmed mean strips out volatile items and is the preferred measure for policy decisions.</div></div>
+      <div class="slide-asof">${esc(cpi.period||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">Headline CPI</div><div class="metric-chip-val up">${pct(cpi.headline,1)}</div><div class="metric-chip-chg ${(cpi.change||0)<0?'up':'down'}">${chgHtml(cpi.change)} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Trimmed Mean CPI</div><div class="metric-chip-val ${cpi.trimmedMean>3?'down':'up'}">${pct(cpi.trimmedMean,1)}</div><div class="metric-chip-chg flat">Policy focus</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">RBA Target Band</div><div class="metric-chip-val flat">2 – 3%</div><div class="metric-chip-chg ${cpi.headline>=2&&cpi.headline<=3?'up':'down'}">${cpi.headline>=2&&cpi.headline<=3?'In band':'Outside band'}</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">GDP Growth</div><div class="metric-chip-val">${pct(d.gdp?.value,1)}</div><div class="metric-chip-chg flat">${esc(d.gdp?.period||'')}</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Wage Growth (WPI)</div><div class="metric-chip-val">${pct(d.wageGrowth?.value,1)}</div><div class="metric-chip-chg flat">${esc(d.wageGrowth?.period||'')}</div></div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>CPI Trend</h3><span class="chart-sub">Quarterly, Annual change</span></div><div class="chart-wrap"><canvas id="chart-cpi"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>CPI vs RBA Target Band</h3></div><div class="chart-wrap"><canvas id="chart-cpi-band"></canvas></div></div>
+    </div>`;
+}
+
+function slide4(d){  // Iron Ore & Steel
+  const io=d.ironOre||{};
+  const cs=(d.commodityStocks||[]);
+  const fmg=cs.find(s=>s.ticker==='FMG')||{};
+  const rio=cs.find(s=>s.ticker==='RIO')||{};
+  const bhp=cs.find(s=>s.ticker==='BHP')||{};
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 4 of 12</div><div class="slide-title">Iron Ore &amp; Steel</div>
+      <div class="slide-context">Iron ore is Australia's #1 export (~$100B/yr). The price is driven by China's construction and steel output. Watch FMG as the pure-play proxy.</div></div>
+      <div class="slide-asof">${esc(io.asOf||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">Iron Ore Spot</div><div class="metric-chip-val mono">${io.price!=null?'$'+io.price.toFixed(1):' —'} <span style="font-size:.65rem;color:var(--muted)">${esc(io.unit||'USD/t')}</span></div><div class="metric-chip-chg ${(io.changePercent||0)<0?'down':'up'}">${chgHtml(io.changePercent)}</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">China Steel (HRC)</div><div class="metric-chip-val mono">${d.steelPrice?.price!=null?'¥'+d.steelPrice.price.toLocaleString():' —'}</div><div class="metric-chip-chg flat">${esc(d.steelPrice?.unit||'')}</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">BHP</div><div class="metric-chip-val mono">${bhp.price!=null?'$'+bhp.price.toFixed(2):'—'}</div><div class="metric-chip-chg ${(bhp.changePercent||0)>=0?'up':'down'}">${chgHtml(bhp.changePercent)}</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">RIO Tinto</div><div class="metric-chip-val mono">${rio.price!=null?'$'+rio.price.toFixed(2):'—'}</div><div class="metric-chip-chg ${(rio.changePercent||0)>=0?'up':'down'}">${chgHtml(rio.changePercent)}</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Fortescue (FMG)</div><div class="metric-chip-val mono">${fmg.price!=null?'$'+fmg.price.toFixed(2):'—'}</div><div class="metric-chip-chg ${(fmg.changePercent||0)>=0?'up':'down'}">${chgHtml(fmg.changePercent)}</div></div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>Iron Ore Price — Monthly</h3><span class="chart-sub">USD/t</span></div><div class="chart-wrap"><canvas id="chart-ironore"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>FMG vs RIO — 30 Days</h3></div><div class="chart-wrap"><canvas id="chart-miners"></canvas></div></div>
+    </div>`;
+}
+
+function slide5(d){  // Energy
+  const en=d.energy||{};
+  const items=[
+    {k:'wti',  label:'WTI Crude',           unit:'USD/bbl', icon:'🛢️'},
+    {k:'brent',label:'Brent Crude',          unit:'USD/bbl', icon:'⛽'},
+    {k:'gas',  label:'Natural Gas',          unit:'USD/MMBtu',icon:'🔥'},
+    {k:'coal', label:'Thermal Coal (Newcastle)',unit:'USD/t',icon:'⚫'},
+  ];
+  const cards=items.map(it=>{
+    const q=en[it.k]||{};
+    const v=q.value??q.price;
+    const c=q.changePercent;
+    return `<div class="card"><div class="card-title"><span style="font-size:1rem">${it.icon}</span> ${esc(it.label)}</div>
+      <div class="card-big-val mono">${v!=null?'$'+v.toFixed(2):'—'}</div>
+      <div class="card-change ${(c||0)>=0?'up':'down'}">${chgHtml(c)}</div>
+      <div class="card-sub">${esc(it.unit)}</div></div>`;
+  }).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 5 of 12</div><div class="slide-title">Energy Dashboard</div>
+      <div class="slide-context">Australia is one of the world's largest LNG exporters. Energy prices affect the trade balance, inflation, and Woodside &amp; Santos directly.</div></div>
+      <div class="slide-asof">Live market data</div>
+    </div>
+    <div class="layout-4col" style="display:grid;gap:.65rem;grid-template-columns:repeat(4,1fr);flex-shrink:0">${cards}</div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>WTI Crude — 30 Days</h3><span class="chart-sub">USD/bbl</span></div><div class="chart-wrap"><canvas id="chart-wti"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>Natural Gas — 30 Days</h3><span class="chart-sub">USD/MMBtu</span></div><div class="chart-wrap"><canvas id="chart-gas"></canvas></div></div>
+    </div>`;
+}
+
+function slide6(d){  // Trade Balance
+  const t=d.trade||{};
+  const partnerBars=(t.partners||[]).map(p=>{
+    const colors=['#c23a3a','#f59e0b','#3b82f6','#8b5cf6','#1a7a4a','#9ca3af'];
+    const ci=(t.partners||[]).indexOf(p);
+    return `<div class="partner-row">
+      <span class="partner-name">${esc(p.name)}</span>
+      <div class="partner-bar-track"><div class="partner-bar-fill" style="width:${p.exportShare}%;background:${colors[ci]||'#9ca3af'}"></div></div>
+      <span class="partner-pct">${p.exportShare}%</span>
+    </div>`;
+  }).join('');
+  const bStr=t.balance!=null?`$${(t.balance/1000).toFixed(1)}B`:'—';
+  const exStr=t.exports!=null?`$${(t.exports/1000).toFixed(1)}B`:'—';
+  const imStr=t.imports!=null?`$${(t.imports/1000).toFixed(1)}B`:'—';
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 6 of 12</div><div class="slide-title">Trade Balance</div>
+      <div class="slide-context">Australia typically runs a trade surplus driven by commodity exports. China takes ~33% of all exports — the relationship is Australia's most critical economic dependency.</div></div>
+      <div class="slide-asof">${esc(t.period||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">Trade Balance</div><div class="metric-chip-val up mono">${bStr}</div><div class="metric-chip-chg up">Surplus</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Total Exports</div><div class="metric-chip-val mono">${exStr}</div><div class="metric-chip-chg flat">Monthly</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Total Imports</div><div class="metric-chip-val mono">${imStr}</div><div class="metric-chip-chg flat">Monthly</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">China Share</div><div class="metric-chip-val down mono">${(t.partners||[]).find(p=>p.name==='China')?.exportShare??'—'}%</div><div class="metric-chip-chg flat">Of exports</div></div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>Trade Balance History</h3><span class="chart-sub">A$M</span></div><div class="chart-wrap"><canvas id="chart-trade"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>Export Destination Breakdown</h3></div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:.5rem 0">
+          <div class="partner-bar-wrap">${partnerBars}</div>
+        </div>
+      </div>
+    </div>`;
+}
+
+function slide7(d){  // ASX 200
+  const asx=d.asx200||{};
+  const sectorCells=(d.sectors||[]).map(s=>{
+    const up=s.changePercent>=0;
+    const intensity=Math.min(Math.abs(s.changePercent)/2,1);
+    const bg=up?`rgba(26,122,74,${0.08+intensity*0.22})`:`rgba(194,58,58,${0.08+intensity*0.22})`;
+    const col=up?'var(--green)':'var(--red)';
+    return `<div class="sector-cell" style="background:${bg};color:${col}">
+      <div class="sc-name">${esc(s.name)}</div>
+      <div class="sc-val">${s.changePercent>=0?'+':''}${s.changePercent.toFixed(2)}%</div>
+    </div>`;
+  }).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 7 of 12</div><div class="slide-title">ASX 200 Overview</div>
+      <div class="slide-context">The S&amp;P/ASX 200 is dominated by Financials (~30%) and Materials (~20%). A sector heatmap reveals where money is flowing today.</div></div>
+      <div class="slide-asof">${esc(asx.asOf||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">ASX 200 Level</div><div class="metric-chip-val mono">${asx.value!=null?Math.round(asx.value).toLocaleString():'—'}</div><div class="metric-chip-chg ${(asx.changePercent||0)>=0?'up':'down'}">${chgHtml(asx.changePercent)} today</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Point Change</div><div class="metric-chip-val mono ${(asx.change||0)>=0?'up':'down'}">${asx.change!=null?(asx.change>=0?'+':'')+asx.change.toFixed(1):'—'}</div><div class="metric-chip-chg flat">From prev close</div></div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>ASX 200 — 30 Days</h3></div><div class="chart-wrap"><canvas id="chart-asx"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>Sector Heat Map</h3><span class="chart-sub">Today's % change</span></div>
+        <div style="flex:1;overflow-y:auto;display:flex;align-items:flex-start"><div class="sector-grid" style="width:100%">${sectorCells}</div></div>
+      </div>
+    </div>`;
+}
+
+function slide8(d){  // Big 4 Banks
+  const banks=d.banks||[];
+  const stockCards=banks.map(b=>`
+    <div class="stock-card" style="border-top-color:${b.color||'var(--green)'}">
+      <div class="stock-ticker">${esc(b.ticker)}</div>
+      <div class="stock-name">${esc(b.name)}</div>
+      <div class="stock-price">$${b.price!=null?b.price.toFixed(2):'—'}</div>
+      <div class="stock-chg ${(b.changePercent||0)>=0?'up':'down'}">${chgHtml(b.changePercent)} today</div>
+      <div class="card-sub" style="margin-top:.3rem">Prev: $${b.previousClose!=null?b.previousClose.toFixed(2):'—'}</div>
+    </div>`).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 8 of 12</div><div class="slide-title">Big 4 Banks</div>
+      <div class="slide-context">Australian banks make up ~30% of the ASX 200. They move on RBA rate decisions, credit quality, housing market conditions, and global risk sentiment.</div></div>
+      <div class="slide-asof">Live · ASX</div>
+    </div>
+    <div class="stock-grid">${stockCards}</div>
+    <div class="slide-body" style="display:grid;gap:.65rem;grid-template-columns:1fr;flex:1">
+      <div class="chart-card"><div class="chart-header"><h3>Big 4 Banks — 30-Day Comparison (indexed to 100)</h3></div><div class="chart-wrap"><canvas id="chart-banks"></canvas></div></div>
+    </div>`;
+}
+
+function slide9(d){  // Commodity Stocks
+  const stocks=d.commodityStocks||[];
+  const stockCards=stocks.map(s=>`
+    <div class="stock-card" style="border-top-color:${s.color||'var(--green)'}">
+      <div class="stock-ticker">${esc(s.ticker)}</div>
+      <div class="stock-name">${esc(s.name)}</div>
+      <div class="stock-price">$${s.price!=null?s.price.toFixed(2):'—'}</div>
+      <div class="stock-chg ${(s.changePercent||0)>=0?'up':'down'}">${chgHtml(s.changePercent)} today</div>
+      <div class="card-sub" style="margin-top:.3rem">Prev: $${s.previousClose!=null?s.previousClose.toFixed(2):'—'}</div>
+    </div>`).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 9 of 12</div><div class="slide-title">Commodity Stocks</div>
+      <div class="slide-context">BHP and RIO are diversified miners. FMG is the pure iron ore play. WDS (Woodside) is the LNG bellwether. These four stocks move with China demand and energy prices.</div></div>
+      <div class="slide-asof">Live · ASX</div>
+    </div>
+    <div class="stock-grid">${stockCards}</div>
+    <div class="slide-body" style="display:grid;gap:.65rem;grid-template-columns:1fr;flex:1">
+      <div class="chart-card"><div class="chart-header"><h3>BHP · RIO · FMG · WDS — 30-Day Comparison (indexed to 100)</h3></div><div class="chart-wrap"><canvas id="chart-commstocks"></canvas></div></div>
+    </div>`;
+}
+
+function slide10(d){  // Property
+  const h=d.housing||{};
+  const cityCards=(h.cities||[]).map(c=>`
+    <div class="city-card">
+      <div class="city-name">${esc(c.city)}</div>
+      <div class="city-price mono">${fmtM(c.median)}</div>
+      <div class="city-chg ${c.changePercent>=0?'up':'down'}">${chgHtml(c.changePercent,'%',1)} annual</div>
+      <div class="city-meta">Yield ${c.rentalYield?.toFixed(1)}% · Clearance ${c.auctionClearance}% · ${c.daysOnMarket}d avg</div>
+    </div>`).join('');
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 10 of 12</div><div class="slide-title">Property Market</div>
+      <div class="slide-context">Australian housing is deeply intertwined with consumer wealth and banking stability. Perth and Adelaide lead 2024 gains; Sydney is the bellwether for sentiment.</div></div>
+      <div class="slide-asof">${esc(h.asOf||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">Std Variable Mortgage</div><div class="metric-chip-val down mono">${h.mortgageRate!=null?h.mortgageRate.toFixed(2)+'%':'—'}</div><div class="metric-chip-chg flat">Bank avg</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">National Clearance</div><div class="metric-chip-val mono">${h.auctionNational!=null?h.auctionNational+'%':'—'}</div><div class="metric-chip-chg flat">Auction rate</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Sydney Median</div><div class="metric-chip-val mono">${fmtM((h.cities||[]).find(c=>c.city==='Sydney')?.median)}</div><div class="metric-chip-chg up">+${(h.cities||[]).find(c=>c.city==='Sydney')?.changePercent?.toFixed(1)||'—'}% annual</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Perth Median</div><div class="metric-chip-val mono">${fmtM((h.cities||[]).find(c=>c.city==='Perth')?.median)}</div><div class="metric-chip-chg up">+${(h.cities||[]).find(c=>c.city==='Perth')?.changePercent?.toFixed(1)||'—'}% annual</div></div>
+    </div>
+    <div class="slide-body" style="display:grid;gap:.65rem;grid-template-columns:1fr;flex:1">
+      <div class="chart-card" style="flex:0 0 auto">
+        <div class="chart-header"><h3>Median House Price by City</h3><span class="chart-sub">A$, CoreLogic ${esc(h.asOf||'')}</span></div>
+        <div class="chart-wrap" style="min-height:160px"><canvas id="chart-property"></canvas></div>
+      </div>
+      <div class="card" style="flex:1;overflow-y:auto"><div class="card-title"><span class="dot"></span>City Detail</div>
+        <div class="city-grid">${cityCards}</div>
+      </div>
+    </div>`;
+}
+
+function slide11(d){  // Consumer & Retail
+  const cc=d.consumerConfidence||{};
+  const bc=d.businessConfidence||{};
+  const rs=d.retailSales||{};
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 11 of 12</div><div class="slide-title">Consumer &amp; Retail</div>
+      <div class="slide-context">Consumer confidence below 100 signals pessimists outnumber optimists. Retail sales growth tracks how households are spending — a key leading indicator for employment.</div></div>
+      <div class="slide-asof">${esc(cc.period||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">Consumer Sentiment</div><div class="metric-chip-val ${cc.value>=100?'up':'down'} mono">${cc.value!=null?cc.value.toFixed(1):'—'}</div><div class="metric-chip-chg ${(cc.change||0)>=0?'up':'down'}">${chgHtml(cc.change,'')} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Optimist/Pessimist</div><div class="metric-chip-val ${cc.value>=100?'up':'down'}">${cc.value>=100?'Optimists lead':'Pessimists lead'}</div><div class="metric-chip-chg flat">Benchmark: 100</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Retail Sales MoM</div><div class="metric-chip-val ${(rs.value||0)>=0?'up':'down'} mono">${rs.value!=null?rs.value.toFixed(1)+'%':'—'}</div><div class="metric-chip-chg ${(rs.change||0)>=0?'up':'down'}">${chgHtml(rs.change)} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Business Confidence</div><div class="metric-chip-val ${(bc.value||0)>=0?'up':'down'} mono">${bc.value!=null?bc.value:'—'}</div><div class="metric-chip-chg ${(bc.change||0)>=0?'up':'down'}">${chgHtml(bc.change,'')} vs prev</div></div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>Consumer Sentiment — Trend</h3><span class="chart-sub">Westpac-MI Index</span></div><div class="chart-wrap"><canvas id="chart-confidence"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>Retail Sales Growth</h3><span class="chart-sub">Monthly % change</span></div><div class="chart-wrap"><canvas id="chart-retail"></canvas></div></div>
+    </div>`;
+}
+
+function slide12(d){  // Labour Market
+  const u=d.unemployment||{};
+  const ue=d.underemployment||{};
+  const pr=d.participationRate||{};
+  const jv=d.jobVacancies||{};
+  const wg=d.wageGrowth||{};
+  return `
+    <div class="slide-header">
+      <div><div class="slide-num">Slide 12 of 12</div><div class="slide-title">Labour Market</div>
+      <div class="slide-context">The RBA watches unemployment closely. A rising unemployment rate reduces wage pressure and gives the RBA room to cut rates further.</div></div>
+      <div class="slide-asof">${esc(u.period||'—')}</div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-chip"><div class="metric-chip-label">Unemployment</div><div class="metric-chip-val mono">${pct(u.value,1)}</div><div class="metric-chip-chg ${(u.change||0)<=0?'up':'down'}">${chgHtml(u.change)} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Underemployment</div><div class="metric-chip-val mono">${pct(ue.value,1)}</div><div class="metric-chip-chg ${(ue.change||0)<=0?'up':'down'}">${chgHtml(ue.change)} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Participation Rate</div><div class="metric-chip-val mono">${pct(pr.value,1)}</div><div class="metric-chip-chg ${(pr.change||0)>=0?'up':'down'}">${chgHtml(pr.change)} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Job Vacancies</div><div class="metric-chip-val mono">${jv.value!=null?Math.round(jv.value/1000)+'k':'—'}</div><div class="metric-chip-chg ${(jv.change||0)>=0?'up':'down'}">${jv.change!=null?(jv.change>=0?'+':'')+Math.round(jv.change/1000)+'k':'—'} vs prev</div></div>
+      <div class="metric-chip"><div class="metric-chip-label">Wage Growth (WPI)</div><div class="metric-chip-val mono">${pct(wg.value,1)}</div><div class="metric-chip-chg ${(wg.change||0)>=0?'up':'down'}">${chgHtml(wg.change)} vs prev</div></div>
+    </div>
+    <div class="slide-body layout-2col">
+      <div class="chart-card"><div class="chart-header"><h3>Unemployment &amp; Participation — Trend</h3></div><div class="chart-wrap"><canvas id="chart-labour"></canvas></div></div>
+      <div class="chart-card"><div class="chart-header"><h3>Unemployment Rate vs RBA Cash Rate</h3><span class="chart-sub">Context: policy response</span></div><div class="chart-wrap"><canvas id="chart-labour-rba"></canvas></div></div>
+    </div>`;
+}
+
+// ── Render all slides ────────────────────────────────────
+function renderSlides(d){
+  const builders=[slide1,slide2,slide3,slide4,slide5,slide6,slide7,slide8,slide9,slide10,slide11,slide12];
+  const wrap=document.getElementById('slides-wrap');
+  wrap.innerHTML=builders.map((fn,i)=>`<div class="slide${i===0?' active':''}" id="slide-${i+1}">${fn(d)}</div>`).join('');
+  document.getElementById('slide-footer').style.display='flex';
+  showSlide(0);
+}
+
+// ── Chart builders ───────────────────────────────────────
+function lineDataset(history,color,label=''){
+  return {label,data:history.map(p=>p.close??p),borderColor:color,backgroundColor:color.replace(')',',0.07)').replace('rgb','rgba'),fill:true,tension:.35,pointRadius:0,pointHoverRadius:4,borderWidth:2};
+}
+function indexedDatasets(stocks,field='history'){
+  return stocks.filter(s=>(s[field]||[]).length>1).map(s=>{
+    const h=s[field];
+    const base=h[0].close;
+    return {label:s.ticker,data:h.map(p=>p.close!=null?round2((p.close/base)*100):null),borderColor:s.color,backgroundColor:'transparent',tension:.3,pointRadius:0,pointHoverRadius:4,borderWidth:2};
   });
-  html += '</div>';
+}
+function round2(n){return Math.round(n*100)/100}
+function histLabels(history){return history.map(p=>{const d=p.date.split('-');return d[2]+'/'+d[1];})}
 
-  // Section: Charts
-  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Market Trends</div></div>';
-  html += '<div class="charts-row">'
-    + '<div class="chart-card"><div class="chart-header"><h3>S&P/ASX 200</h3><div class="chart-range"><button class="active">1M</button></div></div><div class="chart-wrap"><canvas id="chart-asx"></canvas></div></div>'
-    + '<div class="chart-card"><div class="chart-header"><h3>AUD/USD Exchange Rate</h3><div class="chart-range"><button class="active">1M</button></div></div><div class="chart-wrap"><canvas id="chart-aud"></canvas></div></div>'
-    + '</div>';
+function buildSlideCharts(idx){
+  if(!D) return;
+  const c=chartColors();
+  const key='slide'+(idx+1);
+  Object.keys(charts).filter(k=>k.startsWith(key)).forEach(k=>{if(charts[k]){charts[k].destroy();delete charts[k];}});
 
-  // Section: Commodities
-  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Commodities & Mining</div></div>';
-  html += '<div class="commodities-grid">';
-  (d.commodities||[]).forEach(c => {
-    const cls = (c.changePercent||0) >= 0 ? 'up' : 'down';
-    html += '<div class="commodity-card">'
-      + '<div class="commodity-top"><div class="commodity-icon" style="background:' + (c.iconBg||'#fef9ee') + '">' + (c.icon||'') + '</div>'
-      + '<div class="commodity-name">' + escapeHTML(c.name) + '</div></div>'
-      + '<div class="commodity-price">$' + fmtNum(c.price) + '</div>'
-      + '<div class="commodity-change ' + cls + '">' + (c.changePercent>=0?'&#9650;':'&#9660;') + ' ' + Math.abs(c.changePercent||0).toFixed(2) + '%</div>'
-      + '</div>';
-  });
-  html += '</div>';
-
-  // Section: Economic Indicators
-  html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Economic Indicators</div></div>';
-  html += '<div class="indicators-wrap">';
-  html += '<div class="indicators-tabs">'
-    + '<button class="tab-btn active" onclick="filterIndicators(\'all\',this)">All</button>'
-    + '<button class="tab-btn" onclick="filterIndicators(\'growth\',this)">Growth</button>'
-    + '<button class="tab-btn" onclick="filterIndicators(\'prices\',this)">Prices</button>'
-    + '<button class="tab-btn" onclick="filterIndicators(\'labour\',this)">Labour</button>'
-    + '<button class="tab-btn" onclick="filterIndicators(\'trade\',this)">Trade</button>'
-    + '</div>';
-  html += '<table class="indicators-table"><thead><tr>'
-    + '<th>Indicator</th><th>Value</th><th>Previous</th><th>Change</th><th>Period</th>'
-    + '</tr></thead><tbody id="indicators-body">';
-  (d.indicators||[]).forEach(ind => {
-    html += indicatorRow(ind);
-  });
-  html += '</tbody></table></div>';
-
-  // Section: News
-  if (d.news && d.news.length) {
-    html += '<div class="section-header"><div class="section-title"><span class="dot"></span>Financial News</div>'
-      + '<div class="section-subtitle">' + d.news.length + ' articles</div></div>';
-    html += '<div class="news-grid">';
-    d.news.forEach(n => {
-      html += '<a class="news-card" href="' + escapeHTML(n.link) + '" target="_blank" rel="noopener">'
-        + '<div class="news-meta"><span class="news-source">' + escapeHTML(n.source) + '</span>'
-        + '<span class="news-time">' + timeAgo(n.pubDate) + '</span></div>'
-        + '<div class="news-title">' + escapeHTML(n.title) + '</div>'
-        + (n.snippet ? '<div class="news-snippet">' + escapeHTML(n.snippet) + '</div>' : '')
-        + '</a>';
-    });
-    html += '</div>';
+  function mkChart(id,type,data,opts){
+    const el=document.getElementById(id); if(!el) return;
+    if(charts[id]) charts[id].destroy();
+    charts[id]=new Chart(el,{type,data,options:baseChartOpts(opts||{})});
   }
 
-  dash.innerHTML = html;
+  if(idx===0){ // AUD & FX
+    const audusd=D.fx?.audusd?.history;
+    const audcny=D.fx?.audcny?.history;
+    if(audusd?.length) mkChart('chart-audusd','line',{labels:histLabels(audusd),datasets:[lineDataset(audusd,'rgb(26,122,74)')]});
+    if(audcny?.length) mkChart('chart-audcny','line',{labels:histLabels(audcny),datasets:[lineDataset(audcny,'rgb(37,99,235)')]});
+  }
 
-  // Draw sparklines
-  metrics.forEach((m, i) => {
-    if (m.sparkData) {
-      const canvas = document.querySelector('[data-spark="' + i + '"]');
-      if (canvas) drawSparkline(canvas, m.sparkData, m.sparkColor);
+  if(idx===1){ // RBA
+    const h=D.rbaHistory||[];
+    const rev=[...h].reverse();
+    mkChart('chart-rba','bar',{
+      labels:rev.map(r=>r.date),
+      datasets:[{label:'Cash Rate',data:rev.map(r=>r.rate),backgroundColor:rev.map(r=>r.change>0?'rgba(194,58,58,.7)':r.change<0?'rgba(26,122,74,.7)':'rgba(150,150,150,.4)'),borderRadius:4}]
+    },{scales:{y:{min:0,max:6,...baseChartOpts().scales?.y}}});
+  }
+
+  if(idx===2){ // CPI
+    const h=D.cpiHistory||[];
+    mkChart('chart-cpi','line',{
+      labels:h.map(p=>p.period),
+      datasets:[
+        {label:'Headline',data:h.map(p=>p.headline),borderColor:'rgb(194,58,58)',backgroundColor:'rgba(194,58,58,.06)',fill:true,tension:.3,pointRadius:3,borderWidth:2},
+        {label:'Trimmed Mean',data:h.map(p=>p.trimmedMean),borderColor:'rgb(37,99,235)',backgroundColor:'transparent',tension:.3,pointRadius:3,borderWidth:2},
+      ]
+    },{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
+    mkChart('chart-cpi-band','line',{
+      labels:h.map(p=>p.period),
+      datasets:[
+        {label:'Headline CPI',data:h.map(p=>p.headline),borderColor:'rgb(184,134,11)',backgroundColor:'rgba(184,134,11,.06)',fill:true,tension:.3,pointRadius:3,borderWidth:2},
+        {label:'Target Low',data:h.map(()=>2),borderColor:'rgba(26,122,74,.4)',backgroundColor:'transparent',borderDash:[4,4],pointRadius:0,borderWidth:1.5},
+        {label:'Target High',data:h.map(()=>3),borderColor:'rgba(26,122,74,.4)',backgroundColor:'rgba(26,122,74,.05)',fill:'-1',borderDash:[4,4],pointRadius:0,borderWidth:1.5},
+      ]
+    },{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
+  }
+
+  if(idx===3){ // Iron Ore
+    const io=D.ironOreHistory||[];
+    mkChart('chart-ironore','line',{
+      labels:io.map(p=>p.month),
+      datasets:[{label:'Iron Ore',data:io.map(p=>p.price),borderColor:'rgb(184,134,11)',backgroundColor:'rgba(184,134,11,.07)',fill:true,tension:.3,pointRadius:4,borderWidth:2}]
+    });
+    const fmg=(D.commodityStocks||[]).find(s=>s.ticker==='FMG');
+    const rio=(D.commodityStocks||[]).find(s=>s.ticker==='RIO');
+    const miners=[fmg,rio].filter(Boolean);
+    if(miners.length){
+      const labels=miners[0].history?.map(p=>{const d=p.date.split('-');return d[2]+'/'+d[1];})||[];
+      mkChart('chart-miners','line',{labels,datasets:indexedDatasets(miners)},{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
     }
-  });
+  }
 
-  renderCharts(d);
-}
+  if(idx===4){ // Energy
+    const wtiH=D.energy?.wti?.history;
+    const gasH=D.energy?.gas?.history;
+    if(wtiH?.length) mkChart('chart-wti','line',{labels:histLabels(wtiH),datasets:[lineDataset(wtiH,'rgb(124,58,237)')]});
+    if(gasH?.length) mkChart('chart-gas','line',{labels:histLabels(gasH),datasets:[lineDataset(gasH,'rgb(194,58,58)')]});
+  }
 
-function indicatorRow(ind) {
-  const cls = (ind.change||0) > 0 ? 'up' : (ind.change||0) < 0 ? 'down' : 'neutral';
-  const badgeColor = ind.category === 'growth' ? 'background:var(--green-dim);color:var(--green)'
-    : ind.category === 'labour' ? 'background:var(--blue-dim);color:var(--blue)'
-    : ind.category === 'prices' ? 'background:var(--gold-dim);color:var(--gold)'
-    : 'background:var(--purple-dim);color:var(--purple)';
-  return '<tr data-cat="' + escapeHTML(ind.category||'') + '">'
-    + '<td><span class="indicator-name"><span class="indicator-badge" style="' + badgeColor + '">' + escapeHTML(ind.category||'').toUpperCase() + '</span>' + escapeHTML(ind.name) + '</span></td>'
-    + '<td style="font-weight:500;font-family:var(--mono)">' + escapeHTML(ind.value) + '</td>'
-    + '<td style="font-family:var(--mono);color:var(--muted)">' + escapeHTML(ind.previous||'—') + '</td>'
-    + '<td><span class="metric-change ' + cls + '" style="font-size:.74rem">'
-      + ((ind.change||0)>0?'&#9650;':(ind.change||0)<0?'&#9660;':'&#8212;')
-      + ' ' + Math.abs(ind.change||0).toFixed(2) + escapeHTML(ind.unit||'') + '</span></td>'
-    + '<td style="font-size:.74rem;color:var(--muted)">' + escapeHTML(ind.period||'') + '</td>'
-    + '</tr>';
-}
-
-function filterIndicators(cat, btn) {
-  activeTab = cat;
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.querySelectorAll('#indicators-body tr').forEach(tr => {
-    tr.style.display = (cat === 'all' || tr.dataset.cat === cat) ? '' : 'none';
-  });
-}
-
-function renderCharts(d) {
-  Object.values(charts).forEach(c => c.destroy && c.destroy());
-  charts = {};
-
-  const isDark = document.body.classList.contains('dark');
-  const gridColor = isDark ? '#333' : '#edeade';
-  const tickColor = isDark ? '#8a8578' : '#7a7568';
-
-  const baseOpts = {
-    responsive: true,
-    maintainAspectRatio: false,
-    interaction: { mode: 'index', intersect: false },
-    plugins: {
-      legend: { display: false },
-      tooltip: {
-        backgroundColor: isDark ? '#333' : '#fff',
-        titleColor: isDark ? '#e8e6e1' : '#1a1a18',
-        bodyColor: isDark ? '#e8e6e1' : '#1a1a18',
-        borderColor: isDark ? '#444' : '#ddd9cf',
-        borderWidth: 1,
-        padding: 10,
-        titleFont: { family: 'DM Mono', size: 11 },
-        bodyFont: { family: 'DM Mono', size: 12, weight: 500 },
-        displayColors: false,
-        cornerRadius: 6
-      }
-    },
-    scales: {
-      x: { grid: { color: gridColor, drawBorder: false }, ticks: { font: { family: 'DM Mono', size: 9 }, color: tickColor, maxRotation: 0, maxTicksLimit: 6 }},
-      y: { grid: { color: gridColor, drawBorder: false }, ticks: { font: { family: 'DM Mono', size: 9 }, color: tickColor }}
-    }
-  };
-
-  function makeChart(id, historyData) {
-    if (!historyData?.length) return;
-    const ctx = document.getElementById(id);
-    if (!ctx) return;
-    const labels = historyData.map(p => { const d = p.date.split('-'); return d[2]+'/'+d[1]; });
-    const values = historyData.map(p => p.close);
-    const isUp = values[values.length-1] >= values[0];
-    const color = isUp ? '#1a7a4a' : '#c23a3a';
-    const bg = isUp ? 'rgba(26,122,74,.06)' : 'rgba(194,58,58,.06)';
-    return new Chart(ctx, {
-      type: 'line',
-      data: { labels, datasets: [{ data: values, borderColor: color, backgroundColor: bg, fill: true, tension: .35, pointRadius: 0, pointHoverRadius: 4, pointHoverBackgroundColor: color, borderWidth: 2 }] },
-      options: baseOpts
+  if(idx===5){ // Trade
+    const h=D.trade?.history||[];
+    mkChart('chart-trade','bar',{
+      labels:h.map(p=>p.month),
+      datasets:[
+        {label:'Exports',data:h.map(p=>p.exports),backgroundColor:'rgba(26,122,74,.7)',borderRadius:3},
+        {label:'Imports',data:h.map(p=>p.imports),backgroundColor:'rgba(194,58,58,.6)',borderRadius:3},
+        {label:'Balance',data:h.map(p=>p.balance),type:'line',borderColor:'rgb(184,134,11)',backgroundColor:'transparent',tension:.3,pointRadius:4,borderWidth:2,yAxisID:'y2'},
+      ]
+    },{
+      plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}},
+      scales:{...baseChartOpts().scales,y2:{type:'linear',position:'right',grid:{drawOnChartArea:false},ticks:{font:{family:'DM Mono',size:9},color:c.tick}}}
     });
   }
 
-  charts.asx = makeChart('chart-asx', d.asx200?.history);
-  charts.aud = makeChart('chart-aud', d.audusd?.history);
+  if(idx===6){ // ASX
+    const asxH=D.asx200?.history;
+    if(asxH?.length) mkChart('chart-asx','line',{labels:histLabels(asxH),datasets:[lineDataset(asxH,(D.asx200?.changePercent||0)>=0?'rgb(26,122,74)':'rgb(194,58,58)')]});
+  }
+
+  if(idx===7){ // Banks
+    const banks=D.banks||[];
+    const labels=banks.find(b=>b.history?.length)?.history?.map(p=>{const d=p.date.split('-');return d[2]+'/'+d[1];})||[];
+    if(labels.length) mkChart('chart-banks','line',{labels,datasets:indexedDatasets(banks)},{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
+  }
+
+  if(idx===8){ // Commodity stocks
+    const cs=D.commodityStocks||[];
+    const labels=cs.find(s=>s.history?.length)?.history?.map(p=>{const d=p.date.split('-');return d[2]+'/'+d[1];})||[];
+    if(labels.length) mkChart('chart-commstocks','line',{labels,datasets:indexedDatasets(cs)},{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
+  }
+
+  if(idx===9){ // Property
+    const cities=(D.housing?.cities||[]);
+    mkChart('chart-property','bar',{
+      labels:cities.map(c=>c.city),
+      datasets:[{
+        label:'Median Price',
+        data:cities.map(c=>c.median),
+        backgroundColor:cities.map(c=>c.changePercent>5?'rgba(26,122,74,.75)':c.changePercent<0?'rgba(194,58,58,.65)':'rgba(37,99,235,.65)'),
+        borderRadius:5,
+      }]
+    },{scales:{y:{ticks:{callback:v=>'$'+Math.round(v/1000)+'k',...baseChartOpts().scales.y.ticks},...baseChartOpts().scales.y},...baseChartOpts().scales}});
+  }
+
+  if(idx===10){ // Consumer
+    const h=D.consumerHistory||[];
+    mkChart('chart-confidence','line',{
+      labels:h.map(p=>p.period),
+      datasets:[
+        {label:'Consumer Confidence',data:h.map(p=>p.confidence),borderColor:'rgb(26,122,74)',backgroundColor:'rgba(26,122,74,.06)',fill:true,tension:.35,pointRadius:3,borderWidth:2},
+        {label:'Benchmark 100',data:h.map(()=>100),borderColor:'rgba(150,150,150,.5)',backgroundColor:'transparent',borderDash:[4,4],pointRadius:0,borderWidth:1.5},
+      ]
+    },{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
+    mkChart('chart-retail','bar',{
+      labels:h.filter(p=>p.retail!=null).map(p=>p.period),
+      datasets:[{
+        label:'Retail MoM',
+        data:h.filter(p=>p.retail!=null).map(p=>p.retail),
+        backgroundColor:h.filter(p=>p.retail!=null).map(p=>p.retail>=0?'rgba(26,122,74,.75)':'rgba(194,58,58,.7)'),
+        borderRadius:4,
+      }]
+    });
+  }
+
+  if(idx===11){ // Labour
+    const h=D.labourHistory||[];
+    mkChart('chart-labour','line',{
+      labels:h.map(p=>p.period),
+      datasets:[
+        {label:'Unemployment %',data:h.map(p=>p.unemployment),borderColor:'rgb(194,58,58)',backgroundColor:'rgba(194,58,58,.06)',fill:true,tension:.3,pointRadius:3,borderWidth:2},
+        {label:'Participation %',data:h.map(p=>p.participation),borderColor:'rgb(37,99,235)',backgroundColor:'transparent',tension:.3,pointRadius:3,borderWidth:2,yAxisID:'y2'},
+      ]
+    },{
+      plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}},
+      scales:{...baseChartOpts().scales,y:{min:0,max:6,...baseChartOpts().scales.y},y2:{type:'linear',position:'right',min:65,max:70,grid:{drawOnChartArea:false},ticks:{font:{family:'DM Mono',size:9},color:c.tick,callback:v=>v+'%'}}}
+    });
+    const rbaH=[...( D.rbaHistory||[])].reverse();
+    mkChart('chart-labour-rba','line',{
+      labels:h.map(p=>p.period),
+      datasets:[
+        {label:'Unemployment',data:h.map(p=>p.unemployment),borderColor:'rgb(194,58,58)',backgroundColor:'transparent',tension:.3,pointRadius:3,borderWidth:2},
+        {label:'RBA Rate',data:h.map(p=>{
+          const m=rbaH.slice().reverse().find(r=>r.date.includes(p.period.split(' ')[1]));
+          return m?.rate??null;
+        }),borderColor:'rgb(26,122,74)',backgroundColor:'transparent',tension:.3,pointRadius:3,borderWidth:2,borderDash:[3,3]},
+      ]
+    },{plugins:{...baseChartOpts().plugins,legend:{display:true,position:'top',labels:{font:{family:'DM Mono',size:10},color:c.tick,boxWidth:12}}}});
+  }
 }
 
-async function loadData() {
-  if (loading) return;
-  loading = true;
-  const btn = document.getElementById('refresh-btn');
+function rebuildCharts(){
+  Object.values(charts).forEach(c=>{try{c.destroy()}catch(e){}});
+  charts={};
+  buildSlideCharts(currentSlide);
+}
+
+// ── Data load ────────────────────────────────────────────
+async function loadData(){
+  if(loading) return;
+  loading=true;
+  const btn=document.getElementById('refresh-btn');
   btn.classList.add('spinning');
 
   try {
-    const base = window.location.pathname.replace(/[^/]*$/, '');
-    const res = await fetch(base + 'finance-data.json?t=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const base=window.location.pathname.replace(/[^/]*$/,'');
+    const res=await fetch(base+'finance-data.json?t='+Date.now());
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    D=await res.json();
 
-    financeData = await res.json();
-
-    if (financeData.fetchedAt) {
-      const fetched = new Date(financeData.fetchedAt);
-      document.getElementById('last-updated').textContent =
-        fetched.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})
-        + ' · ' + fetched.toLocaleDateString('en-AU', {day:'numeric',month:'short',year:'numeric'});
+    if(D.fetchedAt){
+      const f=new Date(D.fetchedAt);
+      document.getElementById('last-updated').textContent=
+        f.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})+' · '+
+        f.toLocaleDateString('en-AU',{day:'numeric',month:'short',year:'numeric'});
     }
 
-    renderTicker(financeData);
-    renderDashboard(financeData);
+    document.getElementById('loading-state').style.display='none';
+    renderTicker(D);
+    renderSlides(D);
 
   } catch(e) {
-    document.getElementById('dashboard').innerHTML =
-      '<div class="error-box">'
-      + '<h3>Waiting for first data fetch</h3>'
-      + '<p>Go to your repo &#8594; <strong>Actions</strong> tab &#8594; <strong>Fetch Finance Data</strong> &#8594; <strong>Run workflow</strong>.</p>'
-      + '<p style="margin-top:8px;font-size:.72rem;opacity:.7">Error: ' + escapeHTML(e.message) + '</p>'
-      + '</div>';
+    document.getElementById('slides-wrap').innerHTML=
+      `<div class="error-box"><strong>Waiting for first data fetch</strong><br>
+      Go to your repo ► Actions tab ► Fetch Finance Data ► Run workflow.<br>
+      <small style="opacity:.7">Error: ${esc(e.message)}</small></div>`;
+    document.getElementById('slide-footer').style.display='flex';
   }
 
   btn.classList.remove('spinning');
-  loading = false;
+  loading=false;
 }
 
 loadData();
