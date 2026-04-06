@@ -380,6 +380,53 @@ async function main() {
 
   // ── News ───────────────────────────────────────────────────────────────────
   console.log('\nNews...');
+
+  // Keywords that boost relevance to AU economy / business / markets
+  const NEWS_BOOST = [
+    'economy','economic','gdp','inflation','cpi','deflation','stagflation',
+    'rba','reserve bank','interest rate','cash rate','rate cut','rate hike','basis point',
+    'asx','market','stock','share','equity','index','bull','bear',
+    'dollar','aud','currency','forex','exchange rate','yuan','yen','euro','usd',
+    'bond','yield','treasury','debt','deficit','surplus',
+    'budget','fiscal','treasurer','albanese','chalmers','government spending','tax',
+    'trade','export','import','tariff','customs','wto','fta','trade war',
+    'employment','unemployment','jobs','labour','labor','wage','salary','hiring','layoff','redundan',
+    'housing','property','mortgage','real estate','rent','dwelling','auction','corelog',
+    'bank','banking','finance','financial','lend','loan','credit','nab','cba','anz','westpac',
+    'iron ore','coal','copper','gold','silver','lithium','oil','gas','lng','brent','wti',
+    'bhp','rio tinto','fortescue','woodside','santos','bhp','csl','wesfarmers',
+    'investment','investor','fund','super','superannuation','etf','ipo','listing',
+    'merger','acquisition','takeover','buyout','restructure',
+    'recession','contraction','expansion','growth','downturn','recovery',
+    'retail','consumer','spending','confidence','sentiment',
+    'monetary policy','quantitative','liquidity','credit',
+    'china','us economy','federal reserve','fed','ecb','imf','world bank','oecd',
+    'commodity','energy','power','electricity',
+    'profit','revenue','earnings','results','dividend','fy25','fy24',
+  ];
+
+  // Keywords that reduce relevance (off-topic for a finance dashboard)
+  const NEWS_PENALISE = [
+    'cricket','rugby','afl','nrl','football','soccer','tennis','golf','swimming','athletics',
+    'olympic','commonwealth games','world cup','grand final','grand prix',
+    'celebrity','actor','actress','kardashian','royals','royal family','prince','princess','king charles',
+    'movie','film','tv show','television','streaming','netflix','disney',
+    'music','singer','band','concert','album','grammy','aria award',
+    'recipe','cooking','restaurant','chef','food festival','wine',
+    'fashion','beauty','makeup','style','clothing','designer',
+    'horoscope','zodiac','astrology',
+    'pet','dog','cat','animal rescue',
+    'dating','relationship','wedding','divorce',
+  ];
+
+  function newsRelevanceScore(item) {
+    const text = ((item.title || '') + ' ' + (item.snippet || '')).toLowerCase();
+    let score = 0;
+    for (const kw of NEWS_BOOST)    { if (text.includes(kw)) score += 2; }
+    for (const kw of NEWS_PENALISE) { if (text.includes(kw)) score -= 4; }
+    return score;
+  }
+
   let allNews = [];
   for (const f of [
     {url:'https://www.afr.com/rss/markets',                            name:'AFR'},
@@ -390,9 +437,30 @@ async function main() {
     allNews = allNews.concat(await fetchRSS(f.url, f.name));
     await sleep(300);
   }
-  allNews.sort((a,b) => (Date.parse(b.pubDate)||0)-(Date.parse(a.pubDate)||0));
+
+  // Deduplicate by title prefix
   const seen = new Set();
-  data.news = allNews.filter(n => { const k=n.title.toLowerCase().slice(0,50); if(seen.has(k)) return false; seen.add(k); return true; }).slice(0,12);
+  allNews = allNews.filter(n => {
+    const k = n.title.toLowerCase().slice(0, 60);
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+
+  // Score each article; drop anything with a negative score (clearly off-topic)
+  allNews = allNews
+    .map(n => ({ ...n, _score: newsRelevanceScore(n) }))
+    .filter(n => n._score >= 0);
+
+  // Sort: relevance-first, break ties by recency
+  allNews.sort((a, b) => {
+    if (b._score !== a._score) return b._score - a._score;
+    return (Date.parse(b.pubDate) || 0) - (Date.parse(a.pubDate) || 0);
+  });
+
+  // Keep top 12; strip internal score field
+  data.news = allNews.slice(0, 12).map(({ _score, ...rest }) => rest);
+  console.log(`  Relevant articles kept: ${data.news.length} (from ${allNews.length + (allNews.length - data.news.length)} total after dedup)`);
 
   // ── Write ──────────────────────────────────────────────────────────────────
   const out = __dirname+'/finance-data.json';
