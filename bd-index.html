@@ -10,13 +10,24 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  :root {    
-  --bg:#0d1b2a;--surface:#162236;--card:#1e3045;--border:#ddd9cf;
-  --green:#006A4E;--green-lt:#00855f;--green-dim:#d4ece6;
-  --red:#F42A41;--red-dim:#fde8ea;
-  --text:#1a1a18;--muted:#7a7568;
+  --bg:#f2f5f9;
+  --surface:#e3eaf3;
+  --card:#ffffff;
+  --border:#c8d3e0;          /* derive: midpoint between surface and card */
+
+  --green:#9b6b08;           /* your --color-accent (light) */
+  --green-lt:#b8870e;        /* your --color-accent-lt (light) */
+  --green-dim:#f5edda;       /* soft tint of accent — use for chip backgrounds */
+
+  --red:#b83434;             /* your --color-negative (light) */
+  --red-dim:#fbe8e8;         /* soft tint of negative */
+
+  --text:#0d1b2a;            /* your --color-text (light) */
+  --muted:#4f6d8a;           /* your --color-text-muted (light) */
+
+  /* leave these unchanged: */
   --blue:#2563eb;--blue-dim:#eff6ff;
-  --gold:#b8860b;--gold-dim:#fef9ee;
+  --gold:#b8870e;--gold-dim:#f5edda;
   --purple:#7c3aed;--purple-dim:#f3f0f9;
   --serif:'Playfair Display',Georgia,serif;
   --sans:'DM Sans',system-ui,sans-serif;
@@ -25,11 +36,22 @@
   --hdr:50px;--ticker:34px;--scroll-offset:88px;
 }
 .dark{
-  --bg:#131313;--surface:#1c1c1c;--card:#222;--border:#2e2e2e;
-  --text:#e8e6e1;--muted:#8a8578;
-  --green-dim:#0d2921;--red-dim:#2a1011;--blue-dim:#16192a;
-  --gold-dim:#2a2516;--purple-dim:#201628;
-  --shadow:0 1px 3px rgba(0,0,0,.25);--shadow-lg:0 8px 24px rgba(0,0,0,.35);
+  --bg:#0d1b2a;
+  --surface:#162236;
+  --card:#1e3045;
+  --border:#243548;
+
+  --green:#d4a017;           /* your --color-accent (dark) */
+  --green-lt:#f0c84a;        /* your --color-accent-lt (dark) */
+  --green-dim:#2a2010;       /* dark tint of accent */
+
+  --red:#e05c5c;             /* your --color-negative (dark) */
+  --red-dim:#2a1818;         /* dark tint of negative */
+
+  --text:#e8edf5;            /* your --color-text (dark) */
+  --muted:#7a96b5;           /* your --color-text-muted (dark) */
+
+  --shadow:0 1px 3px rgba(0,0,0,.35);--shadow-lg:0 8px 24px rgba(0,0,0,.5);
 }
 html{font-size:16px;scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;transition:background .3s,color .3s;padding-top:0}
