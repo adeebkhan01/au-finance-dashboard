@@ -39,7 +39,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .logo{font-family:var(--serif);font-size:1.05rem;font-weight:700;color:var(--green);letter-spacing:-.02em;display:flex;align-items:center;gap:.4rem;text-decoration:none;white-space:nowrap;flex-shrink:0}
 .au-flag{width:24px;height:14px;border-radius:2px;overflow:hidden;flex-shrink:0;background:#00008B}
 .au-flag svg{width:100%;height:100%}
-.slide-nav{display:flex;gap:.18rem;margin-left:.35rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.slide-nav{display:flex;align-items:center;gap:.18rem;margin-left:.35rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .slide-nav::-webkit-scrollbar{display:none}
 .snav-btn{padding:.22rem .5rem;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.62rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .15s;font-family:var(--mono);flex-shrink:0}
 .snav-btn:hover{border-color:var(--green);color:var(--green)}
@@ -393,10 +393,10 @@ if (localStorage.getItem('au-theme')==='dark') {
 // ─────────────────────────────────────────────────────────
 // Build nav buttons
 const navEl = document.getElementById('slide-nav');
-SLIDES.forEach(s => {
+SLIDES.forEach((s, i) => {
   const b = document.createElement('button');
   b.className = 'snav-btn' + (s.id==='slide-0'?' active':'');
-  b.textContent = s.id==='slide-0' ? '⌂ Home' : s.label;
+  b.textContent = i === 0 ? '⌂ Home' : String(i).padStart(2,'0') + ' · ' + s.label;
   b.dataset.id = s.id;
   b.onclick = () => scrollTo(s.id);
   navEl.appendChild(b);
@@ -615,15 +615,22 @@ function buildSlide1(d) {
 
 // FX range toggle (called from range buttons)
 function setFXRange(pairKey, range, btn) {
+  // Always update active button state first so the UI responds immediately
+  document.querySelectorAll(`[data-pair="${pairKey}"]`).forEach(b => b.classList.toggle('active', b.dataset.range===range));
   const fx = D?.fx?.[pairKey]; if (!fx) return;
   const histMap = { '1M': fx.history, '3M': fx.h3m, '6M': fx.h6m, '3Y': fx.h3y };
   const hist = histMap[range];
   if (!hist?.length) return;
   const chart = charts['chart-fx-'+pairKey]; if (!chart) return;
+  // Update colour to reflect direction for the selected range
+  const isUp = hist[hist.length-1].close >= hist[0].close;
+  const col = isUp ? 'rgb(26,122,74)' : 'rgb(194,58,58)';
+  const bg  = isUp ? 'rgba(26,122,74,0.07)' : 'rgba(194,58,58,0.07)';
   chart.data.labels = histLabels(hist);
   chart.data.datasets[0].data = hist.map(p=>p.close);
+  chart.data.datasets[0].borderColor = col;
+  chart.data.datasets[0].backgroundColor = bg;
   chart.update('none');
-  document.querySelectorAll(`[data-pair="${pairKey}"]`).forEach(b => b.classList.toggle('active', b.dataset.range===range));
 }
 
 // ─────────────────────────────────────────────────────────
