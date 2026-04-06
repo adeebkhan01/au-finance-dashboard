@@ -39,6 +39,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:
 .logo{font-family:var(--serif);font-size:1.05rem;font-weight:700;color:var(--green);letter-spacing:-.02em;display:flex;align-items:center;gap:.4rem;text-decoration:none;white-space:nowrap;flex-shrink:0}
 .au-flag{width:24px;height:14px;border-radius:2px;overflow:hidden;flex-shrink:0;background:#00008B}
 .au-flag svg{width:100%;height:100%}
+.flag-switch{width:32px;height:20px;border-radius:3px;overflow:hidden;flex-shrink:0;border:1px solid var(--border);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:box-shadow .15s;text-decoration:none}
+.flag-switch:hover{box-shadow:0 0 0 2px var(--green)}
 .slide-nav{display:flex;align-items:center;gap:.18rem;margin-left:.35rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .slide-nav::-webkit-scrollbar{display:none}
 .snav-btn{padding:.22rem .5rem;border-radius:5px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.62rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .15s;font-family:var(--mono);flex-shrink:0}
@@ -266,6 +268,12 @@ footer a{color:var(--green);text-decoration:none}
     <nav class="slide-nav" id="slide-nav"></nav>
     <div class="mhd-right">
       <span class="last-upd" id="last-upd">—</span>
+      <a class="flag-switch" href="bd-index.html" title="Switch to Bangladesh Economy Dashboard">
+        <svg viewBox="0 0 450 300" xmlns="http://www.w3.org/2000/svg" width="32" height="20">
+          <rect width="450" height="300" fill="#006A4E"/>
+          <circle cx="210" cy="150" r="100" fill="#F42A41"/>
+        </svg>
+      </a>
       <button class="btn-icon" onclick="toggleTheme()" title="Toggle dark mode">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="theme-icon">
           <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
