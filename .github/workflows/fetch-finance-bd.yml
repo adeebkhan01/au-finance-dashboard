@@ -7,6 +7,11 @@ on:
   workflow_dispatch:
     # Allow manual runs from the Actions tab at any time
 
+env:
+  # Set this to the folder where bd-fetch-finance.js lives relative to repo root.
+  # If the file is at the root, set to: .
+  SCRIPT_DIR: .
+
 jobs:
   fetch-bd-data:
     runs-on: ubuntu-latest
@@ -25,8 +30,8 @@ jobs:
           node-version: '20'
 
       - name: Run Bangladesh data fetcher
+        working-directory: ${{ env.SCRIPT_DIR }}
         run: node bd-fetch-finance.js
-        # The script writes bd-finance-data.json in the same directory
 
       - name: Commit and push updated data
         run: |
@@ -34,10 +39,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Only commit if the file actually changed
-          if git diff --quiet bd-finance-data.json; then
+          if git diff --quiet "${{ env.SCRIPT_DIR }}/bd-finance-data.json"; then
             echo "No changes to bd-finance-data.json — skipping commit."
           else
-            git add bd-finance-data.json
+            git add "${{ env.SCRIPT_DIR }}/bd-finance-data.json"
             git commit -m "chore: refresh BD finance data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push
           fi
