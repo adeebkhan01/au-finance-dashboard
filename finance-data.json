@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-06T12:02:27.564Z",
+  "fetchedAt": "2026-04-06T13:51:21.304Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.18,
+      "changePercent": -1.17,
       "previousClose": 0.7,
       "asOf": "2026-04-06",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.6,
       "change": 0,
-      "changePercent": -0.66,
+      "changePercent": -0.73,
       "previousClose": 0.6,
       "asOf": "2026-04-06",
       "history": [
@@ -2216,7 +2216,7 @@
     "audcny": {
       "value": 4.77,
       "change": -0.07,
-      "changePercent": -1.42,
+      "changePercent": -1.44,
       "previousClose": 4.84,
       "asOf": "2026-04-06",
       "history": [
@@ -3320,9 +3320,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.53,
-      "change": 0.09,
-      "changePercent": 0.08,
+      "value": 110.52,
+      "change": 0.07,
+      "changePercent": 0.07,
       "previousClose": 110.45,
       "asOf": "2026-04-06",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.53
+          "close": 110.52
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.53
+          "close": 110.52
         }
       ],
       "h6m": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.53
+          "close": 110.52
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.18,
+    "changePercent": -1.17,
     "previousClose": 0.7,
     "asOf": "2026-04-06",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 110.15,
-      "change": 19.25,
-      "changePercent": 21.18,
+      "value": 112.54,
+      "change": 21.64,
+      "changePercent": 23.81,
       "previousClose": 90.9,
       "asOf": "2026-04-06",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-06",
-          "close": 110.15
+          "close": 112.54
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.7,
-      "change": 16.01,
-      "changePercent": 17.27,
+      "value": 108.95,
+      "change": 16.26,
+      "changePercent": 17.54,
       "previousClose": 92.69,
       "asOf": "2026-04-06",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-06",
-          "close": 108.7
+          "close": 108.95
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.83,
-      "change": -0.36,
-      "changePercent": -11.33,
+      "value": 2.84,
+      "change": -0.34,
+      "changePercent": -10.77,
       "previousClose": 3.19,
       "asOf": "2026-04-06",
       "history": [
@@ -6004,7 +6004,7 @@
         },
         {
           "date": "2026-04-06",
-          "close": 2.83
+          "close": 2.84
         }
       ],
       "name": "Natural Gas",
@@ -7389,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4709.4,
-      "change": -436.7,
-      "changePercent": -8.49
+      "price": 4702.1,
+      "change": -444,
+      "changePercent": -8.63
     },
     {
       "name": "Silver",
-      "price": 73.5,
-      "change": -10.32,
-      "changePercent": -12.31
+      "price": 72.79,
+      "change": -11.03,
+      "changePercent": -13.16
     },
     {
       "name": "Copper",
-      "price": 5.68,
-      "change": -0.08,
-      "changePercent": -1.32
+      "price": 5.61,
+      "change": -0.14,
+      "changePercent": -2.51
     }
   ],
   "housing": {
@@ -7411,10 +7411,6 @@
     "changePercent": 4.7,
     "mortgageRate": 6.28,
     "auctionNational": 65,
-    "totalListings":237500, 
-    "newListings":42800, 
-    "listingsChangeYoY":8.4, 
-    "medianDaysOnMarket":27,
     "asOf": "Feb 2025",
     "cities": [
       {
@@ -7806,6 +7802,13 @@
       "source": "SMH"
     },
     {
+      "title": "Aussie stars testing the waters at Australian Open",
+      "link": "https://www.abc.net.au/news/2026-04-06/australian-open-swimming-molly-ocallaghan-sam-short-kyle-chalmer/106535948",
+      "snippet": "",
+      "pubDate": "Mon, 06 Apr 2026 12:19:28 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Battling Bombers stare down unwanted record",
       "link": "https://www.abc.net.au/news/2026-04-06/essendon-bombers-on-cusp-of-record-losing-streak-at-gather-round/106535556",
       "snippet": "",
@@ -7817,13 +7820,6 @@
       "link": "https://www.abc.net.au/news/2026-04-06/brisbane-broncos-nrl-injury-crisis-halfback-options/106535422",
       "snippet": "",
       "pubDate": "Mon, 06 Apr 2026 05:46:54 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "How selectors hope to handle Australia's aging team ahead of away Ashes",
-      "link": "https://www.abc.net.au/news/2026-04-06/george-bailey-australia-abc-cricket-podcast/106528204",
-      "snippet": "",
-      "pubDate": "Mon, 06 Apr 2026 05:39:21 +0000",
       "source": "ABC"
     }
   ]
