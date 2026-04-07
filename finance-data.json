@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-07T14:08:07.940Z",
+  "fetchedAt": "2026-04-07T19:36:15.008Z",
   "fx": {
     "audusd": {
-      "value": 0.69,
+      "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.2,
+      "changePercent": -0.77,
       "previousClose": 0.7,
       "asOf": "2026-04-07",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
@@ -359,7 +359,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "h3y": [
@@ -1111,14 +1111,14 @@
         },
         {
           "date": "2026-04-07",
-          "close": 0.69
+          "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.6,
-      "change": -0.01,
-      "changePercent": -0.83,
+      "change": 0,
+      "changePercent": -0.58,
       "previousClose": 0.6,
       "asOf": "2026-04-07",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.76,
-      "change": -0.08,
-      "changePercent": -1.65,
+      "value": 4.77,
+      "change": -0.07,
+      "changePercent": -1.39,
       "previousClose": 4.84,
       "asOf": "2026-04-07",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.76
+          "close": 4.77
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.76
+          "close": 4.77
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.76
+          "close": 4.77
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.76
+          "close": 4.77
         }
       ]
     },
     "audjpy": {
-      "value": 110.76,
-      "change": 0.31,
-      "changePercent": 0.28,
+      "value": 111.1,
+      "change": 0.65,
+      "changePercent": 0.59,
       "previousClose": 110.45,
       "asOf": "2026-04-07",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.76
+          "close": 111.1
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.75
+          "close": 111.1
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.76
+          "close": 111.1
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.76
+          "close": 111.1
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.69,
+    "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.2,
+    "changePercent": -0.77,
     "previousClose": 0.7,
     "asOf": "2026-04-07",
     "history": [
@@ -4551,7 +4551,7 @@
       },
       {
         "date": "2026-04-07",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
@@ -4816,7 +4816,7 @@
       },
       {
         "date": "2026-04-07",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4930,7 +4930,7 @@
       },
       {
         "date": "2026-04-07",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "h3y": [
@@ -5568,7 +5568,7 @@
       },
       {
         "date": "2026-04-07",
-        "close": 0.69
+        "close": 0.7
       }
     ]
   },
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 116.03,
-      "change": 25.13,
-      "changePercent": 27.65,
+      "value": 113.08,
+      "change": 22.18,
+      "changePercent": 24.4,
       "previousClose": 90.9,
       "asOf": "2026-04-07",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-07",
-          "close": 116.03
+          "close": 113.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.46,
-      "change": 17.77,
-      "changePercent": 19.17,
+      "value": 108.29,
+      "change": 15.6,
+      "changePercent": 16.83,
       "previousClose": 92.69,
       "asOf": "2026-04-07",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.46
+          "close": 108.29
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.87,
-      "change": -0.32,
-      "changePercent": -9.92,
+      "value": 2.86,
+      "change": -0.33,
+      "changePercent": -10.23,
       "previousClose": 3.19,
       "asOf": "2026-04-07",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 2.87
+          "close": 2.86
         }
       ],
       "name": "Natural Gas",
@@ -7245,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4672.1,
-      "change": -474,
-      "changePercent": -9.21
+      "price": 4715.3,
+      "change": -430.8,
+      "changePercent": -8.37
     },
     {
       "name": "Silver",
-      "price": 71.45,
-      "change": -12.37,
-      "changePercent": -14.75
+      "price": 72.31,
+      "change": -11.51,
+      "changePercent": -13.73
     },
     {
       "name": "Copper",
-      "price": 5.57,
-      "change": -0.19,
-      "changePercent": -3.34
+      "price": 5.55,
+      "change": -0.2,
+      "changePercent": -3.53
     }
   ],
   "housing": {
@@ -7637,11 +7637,11 @@
       "source": "News.com.au"
     },
     {
-      "title": "Housing Australia says 48,000 migrant first homebuyers have used 5 per cent deposit scheme",
-      "link": "https://www.news.com.au/finance/real-estate/buying/housing-australia-says-48000-migrant-first-homebuyers-have-used-5-per-cent-deposit-scheme/news-story/6430a8d592f8acf335fd937f93fc0138?from=rss-basic",
-      "snippet": "Australian taxpayers have helped nearly 50,000 migrants purchase new homes since mid-2023 under a generous scheme available to non-citizens.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "Mel Kawa 'felt like a fraud' promoting her sport while playing for nothing",
+      "link": "https://www.abc.net.au/news/2026-04-08/women-in-elite-sport-survey-pay-and-resources-rugby-soccer/106458982",
+      "snippet": "",
+      "pubDate": "Tue, 07 Apr 2026 18:52:29 +0000",
+      "source": "ABC"
     },
     {
       "title": "McKeown 'too harsh' on herself, fights off Gold Coast bugs at Aus Open",
