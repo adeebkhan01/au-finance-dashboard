@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-07T07:55:58.894Z",
+  "fetchedAt": "2026-04-07T14:08:07.940Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.4,
+      "changePercent": -1.2,
       "previousClose": 0.7,
       "asOf": "2026-04-07",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": -0.09,
-      "changePercent": -1.84,
+      "value": 4.76,
+      "change": -0.08,
+      "changePercent": -1.65,
       "previousClose": 4.84,
       "asOf": "2026-04-07",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-07",
-          "close": 4.75
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 110.5,
-      "change": 0.05,
-      "changePercent": 0.05,
+      "value": 110.76,
+      "change": 0.31,
+      "changePercent": 0.28,
       "previousClose": 110.45,
       "asOf": "2026-04-07",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.5
+          "close": 110.76
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.5
+          "close": 110.75
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.5
+          "close": 110.76
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 110.5
+          "close": 110.76
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.4,
+    "changePercent": -1.2,
     "previousClose": 0.7,
     "asOf": "2026-04-07",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 115.14,
-      "change": 24.24,
-      "changePercent": 26.67,
+      "value": 116.03,
+      "change": 25.13,
+      "changePercent": 27.65,
       "previousClose": 90.9,
       "asOf": "2026-04-07",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-07",
-          "close": 115.14
+          "close": 116.03
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 111.46,
-      "change": 18.77,
-      "changePercent": 20.25,
+      "value": 110.46,
+      "change": 17.77,
+      "changePercent": 19.17,
       "previousClose": 92.69,
       "asOf": "2026-04-07",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-07",
-          "close": 111.46
+          "close": 110.46
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.8,
-      "change": -0.38,
-      "changePercent": -12.05,
+      "value": 2.87,
+      "change": -0.32,
+      "changePercent": -9.92,
       "previousClose": 3.19,
       "asOf": "2026-04-07",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-07",
-          "close": 2.8
+          "close": 2.87
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-04-01",
         "close": 8579.5
-      },
-      {
-        "date": "2026-04-07",
-        "close": 8728.8
       }
     ]
   },
@@ -7249,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4668.1,
-      "change": -478,
-      "changePercent": -9.29
+      "price": 4672.1,
+      "change": -474,
+      "changePercent": -9.21
     },
     {
       "name": "Silver",
-      "price": 72.33,
-      "change": -11.49,
-      "changePercent": -13.71
+      "price": 71.45,
+      "change": -12.37,
+      "changePercent": -14.75
     },
     {
       "name": "Copper",
-      "price": 5.63,
-      "change": -0.13,
-      "changePercent": -2.22
+      "price": 5.57,
+      "change": -0.19,
+      "changePercent": -3.34
     }
   ],
   "housing": {
@@ -7599,6 +7595,13 @@
   ],
   "news": [
     {
+      "title": "Peninsula trims debt as lender backs equity swap for US uranium project",
+      "link": "https://www.smh.com.au/business/companies/peninsula-trims-debt-as-lender-backs-equity-swap-for-us-uranium-project-20260407-p5zm08.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Peninsula Energy cut debt after US$4.1M of loans from Davidson Kempner were converted to equity, reducing debt to US$4.2M and marking a second trim of its US$15M facility.",
+      "pubDate": "Tue, 07 Apr 2026 18:42:44 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX rises ahead of Trump deadline; Oil climbs",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-retreat-wall-street-loses-steam-after-trump-s-threat-to-take-out-iran-oil-rises-20260407-p5zlpt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket has closed higher ahead of a deadline that President Donald Trump has set to bomb Iranian power plants.",
@@ -7611,13 +7614,6 @@
       "snippet": "A blueprint released by OpenAI boss Sam Altman includes ideas to socialise the monetary gains from AI by giving people “a stake in AI driven economic growth”.",
       "pubDate": "Tue, 07 Apr 2026 15:48:50 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Treasurer mum on big tax move",
-      "link": "https://www.news.com.au/national/politics/albanese-government-mum-on-capital-gains-reform-as-budget-looms/news-story/4f4af12cd31f9576d500b0c4035d30ab?from=rss-basic",
-      "snippet": "The Treasurer says he would be “pretty happy” if the headline out of the May budget was “tax reform”.",
-      "pubDate": "",
-      "source": "News.com.au"
     },
     {
       "title": "TMK continues to turn up the gas at Mongolian pilot project",
@@ -7648,6 +7644,20 @@
       "source": "News.com.au"
     },
     {
+      "title": "McKeown 'too harsh' on herself, fights off Gold Coast bugs at Aus Open",
+      "link": "https://www.abc.net.au/news/2026-04-07/australian-open-swimming-pallister-ocallaghan-mckeown/106539778",
+      "snippet": "",
+      "pubDate": "Tue, 07 Apr 2026 11:41:54 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Government issues ‘emergency’ order for truckers over fuel crisis",
+      "link": "https://www.smh.com.au/business/the-economy/government-issues-emergency-order-for-truckers-over-fuel-crisis-20260407-p5zlzo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A draft determination issued by the workplace relations minister late on Tuesday paves the way for trucking costs to be increased throughout the economy.",
+      "pubDate": "Tue, 07 Apr 2026 18:27:26 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Researchers behind viral AI prediction visited Hormuz on a speedboat. This is what they saw",
       "link": "https://www.smh.com.au/business/companies/researchers-behind-viral-ai-prediction-visited-hormuz-on-a-speedboat-this-is-what-they-saw-20260407-p5zlxd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "A Citrini Research analyst went to Strait of Hormuz to see what exactly is happening to the globe’s most vital energy artery. Their findings were startling.",
@@ -7662,25 +7672,11 @@
       "source": "SMH"
     },
     {
-      "title": "Elon Musk’s problem children could spoil his Wall Street dream",
-      "link": "https://www.smh.com.au/business/companies/elon-musk-s-problem-children-could-spoil-his-wall-street-dream-20260407-p5zlqr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The world’s richest person has never been afraid of talking up a big game. But, as usual, there are plenty of questions.",
-      "pubDate": "Tue, 07 Apr 2026 11:59:21 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Fake missile strikes, White House memes and ‘useful idiots’: the AI war within the war",
-      "link": "https://www.smh.com.au/business/companies/fake-missile-strikes-white-house-memes-and-useful-idiots-the-ai-war-within-the-war-20260402-p5zl0y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Former secretary of state John Kerry once said the US had learnt lessons of dignity and transparency from the failed Vietnam War. But the Trump administration and Iran are playing by different rules.",
-      "pubDate": "Tue, 07 Apr 2026 05:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Gibson jumps at chance to spearhead Australia against Great Britain",
-      "link": "https://www.abc.net.au/news/2026-04-07/talia-gibson-australia-great-britain-billie-jean-king-cup/106539416",
-      "snippet": "",
-      "pubDate": "Tue, 07 Apr 2026 07:18:25 +0000",
-      "source": "ABC"
+      "title": "‘Patriot agenda’: Nats leader’s plan for Aus",
+      "link": "https://www.news.com.au/national/politics/newlyminted-nationals-leader-matt-canavan-set-to-unleash-attack-on-net-zero-migration-in-radical-economic-blueprint-at-press-club-address/news-story/284068680d774dec3fe571a8de1f114b?from=rss-basic",
+      "snippet": "Newly-minted Nationals leader Matt Canavan will use his National Press Club debut to outline a “revolution” for Australia – including a “patriot agenda” for economic revival.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
