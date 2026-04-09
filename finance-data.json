@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-09T08:01:32.072Z",
+  "fetchedAt": "2026-04-09T14:19:35.331Z",
   "fx": {
     "audusd": {
-      "value": 0.7,
+      "value": 0.71,
       "change": 0.01,
-      "changePercent": 0.92,
+      "changePercent": 1.28,
       "previousClose": 0.7,
       "asOf": "2026-04-09",
       "history": [
@@ -102,7 +102,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 0.7
+          "close": 0.71
         }
       ],
       "label": "AUD/USD",
@@ -367,7 +367,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 0.7
+          "close": 0.71
         }
       ],
       "h6m": [
@@ -481,7 +481,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 0.7
+          "close": 0.71
         }
       ],
       "h3y": [
@@ -1119,14 +1119,14 @@
         },
         {
           "date": "2026-04-09",
-          "close": 0.7
+          "close": 0.71
         }
       ]
     },
     "audeur": {
       "value": 0.6,
       "change": 0,
-      "changePercent": -0.3,
+      "changePercent": -0.12,
       "previousClose": 0.6,
       "asOf": "2026-04-09",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.81,
-      "change": 0,
-      "changePercent": 0.01,
+      "value": 4.82,
+      "change": 0.02,
+      "changePercent": 0.34,
       "previousClose": 4.81,
       "asOf": "2026-04-09",
       "history": [
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-04-09",
-          "close": 4.81
+          "close": 4.82
         }
       ]
     },
     "audjpy": {
-      "value": 111.73,
-      "change": 1.38,
-      "changePercent": 1.25,
+      "value": 112.18,
+      "change": 1.82,
+      "changePercent": 1.65,
       "previousClose": 110.36,
       "asOf": "2026-04-09",
       "history": [
@@ -3468,7 +3468,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 111.73
+          "close": 112.18
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 111.73
+          "close": 112.17
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 111.73
+          "close": 112.17
         }
       ],
       "h3y": [
@@ -4485,15 +4485,15 @@
         },
         {
           "date": "2026-04-09",
-          "close": 111.73
+          "close": 112.17
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.7,
+    "value": 0.71,
     "change": 0.01,
-    "changePercent": 0.92,
+    "changePercent": 1.28,
     "previousClose": 0.7,
     "asOf": "2026-04-09",
     "history": [
@@ -4591,7 +4591,7 @@
       },
       {
         "date": "2026-04-09",
-        "close": 0.7
+        "close": 0.71
       }
     ],
     "label": "AUD/USD",
@@ -4856,7 +4856,7 @@
       },
       {
         "date": "2026-04-09",
-        "close": 0.7
+        "close": 0.71
       }
     ],
     "h6m": [
@@ -4970,7 +4970,7 @@
       },
       {
         "date": "2026-04-09",
-        "close": 0.7
+        "close": 0.71
       }
     ],
     "h3y": [
@@ -5608,7 +5608,7 @@
       },
       {
         "date": "2026-04-09",
-        "close": 0.7
+        "close": 0.71
       }
     ]
   },
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 98.05,
-      "change": 3.28,
-      "changePercent": 3.46,
+      "value": 100.74,
+      "change": 5.97,
+      "changePercent": 6.3,
       "previousClose": 94.77,
       "asOf": "2026-04-09",
       "history": [
@@ -5902,16 +5902,16 @@
         },
         {
           "date": "2026-04-09",
-          "close": 98.05
+          "close": 100.74
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 98.48,
-      "change": -0.48,
-      "changePercent": -0.49,
+      "value": 98.63,
+      "change": -0.33,
+      "changePercent": -0.33,
       "previousClose": 98.96,
       "asOf": "2026-04-09",
       "history": [
@@ -6005,16 +6005,16 @@
         },
         {
           "date": "2026-04-09",
-          "close": 98.48
+          "close": 98.63
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.73,
-      "change": -0.39,
-      "changePercent": -12.47,
+      "value": 2.7,
+      "change": -0.42,
+      "changePercent": -13.49,
       "previousClose": 3.12,
       "asOf": "2026-04-09",
       "history": [
@@ -6108,7 +6108,7 @@
         },
         {
           "date": "2026-04-09",
-          "close": 2.73
+          "close": 2.7
         }
       ],
       "name": "Natural Gas",
@@ -6283,10 +6283,6 @@
       {
         "date": "2026-04-08",
         "close": 8951.8
-      },
-      {
-        "date": "2026-04-09",
-        "close": 8973.2
       }
     ]
   },
@@ -7385,21 +7381,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4739.9,
-      "change": -351.6,
-      "changePercent": -6.91
+      "price": 4792.9,
+      "change": -298.6,
+      "changePercent": -5.86
     },
     {
       "name": "Silver",
-      "price": 73.81,
-      "change": -10.23,
-      "changePercent": -12.17
+      "price": 75.1,
+      "change": -8.93,
+      "changePercent": -10.63
     },
     {
       "name": "Copper",
-      "price": 5.71,
-      "change": -0.09,
-      "changePercent": -1.57
+      "price": 5.75,
+      "change": -0.05,
+      "changePercent": -0.88
     }
   ],
   "housing": {
@@ -7735,6 +7731,13 @@
   ],
   "news": [
     {
+      "title": "ASX edges higher as fragile ceasefire tests investor optimism",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-despite-worldwide-rally-following-ceasefire-with-iran-20260409-p5zmds.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The sharemarket closed in the green, helped by a jump in energy stocks as the ceasefire between the US and Iran hangs in the balance.",
+      "pubDate": "Thu, 09 Apr 2026 18:06:12 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Dalaroo launches 9km-long West African gold soil sampling blitz",
       "link": "https://www.smh.com.au/business/companies/dalaroo-launches-9km-long-west-african-gold-soil-sampling-blitz-20260409-p5zmno.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Dalaroo Metals has begun a 4400-sample soil geochemical program at the Goldridge prospect within its Bondoukou project in Côte d’Ivoire. The program is targeting a 9 km-long gold corridor to identify multiple drill targets, with soil assay results to",
@@ -7770,7 +7773,7 @@
       "source": "News.com.au"
     },
     {
-      "title": "There are 35 ships on their way with fuel. Here’s when they’ll arrive, and how they’ll get here",
+      "title": "There are dozens of fuel ships on their way. Here’s when they’ll arrive, and how they’ll get here",
       "link": "https://www.smh.com.au/business/markets/the-ships-that-are-delivering-for-australia-under-new-fuel-scheme-20260409-p5zmfa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Australia has opened its chequebook to buy up as much fuel as possible, as Anthony Albanese flies to Singapore seeking deals to bridge a looming shortfall.",
       "pubDate": "Thu, 09 Apr 2026 17:41:29 +1000",
@@ -7791,32 +7794,25 @@
       "source": "News.com.au"
     },
     {
-      "title": "ATO unveils app to combat scam calls",
-      "link": "https://www.news.com.au/finance/money/tax/australians-can-now-instantly-verify-calls-from-the-ato-with-new-app-feature/news-story/b45b493cd9ee8e778a1b3e2b4adb7ab7?from=rss-basic",
-      "snippet": "The Australian Taxation Office has unleashed a new app feature to help Aussies spot and outsmart scammers targeting their money and personal information.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "Strickland jags new base metals find in Serbia",
-      "link": "https://www.smh.com.au/business/companies/strickland-jags-new-base-metals-find-in-serbia-20260409-p5zmod.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Strickland Metals has jagged several noteworthy base metal hits from drilling at its Obradov Potok deposit, part of its huge Rogozna project in Serbia.",
-      "pubDate": "Thu, 09 Apr 2026 17:54:24 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Patient Aussie ousts 'idol' Moore in Bells Beach defence",
-      "link": "https://www.abc.net.au/news/2026-04-09/bells-beach-isabella-nichols-carissa-moore-surfing-wsl/106548108",
+      "title": "Bulldogs stun misfiring Panthers in big boilover victory",
+      "link": "https://www.abc.net.au/news/2026-04-09/nrl-live-updates-bulldogs-vs-panthers/106548612",
       "snippet": "",
-      "pubDate": "Thu, 09 Apr 2026 07:24:34 +0000",
+      "pubDate": "Thu, 09 Apr 2026 09:00:23 +0000",
       "source": "ABC"
     },
     {
-      "title": "Larvotto lines up defence insider for NSW antimony push",
-      "link": "https://www.smh.com.au/business/companies/larvotto-lines-up-defence-insider-for-nsw-antimony-push-20260409-p5zmmu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto Resources appoints former Defence Minister David Fawcett as Strategic Advisor to embed its Hillgrove antimony within Australia’s national security supply chains.",
-      "pubDate": "Thu, 09 Apr 2026 16:05:14 +1000",
-      "source": "SMH"
+      "title": "Crows get home against Blues in the wet in Gather Round opener",
+      "link": "https://www.abc.net.au/news/2026-04-09/afl-thursday-crows-blues-blog/106542620",
+      "snippet": "",
+      "pubDate": "Thu, 09 Apr 2026 08:46:40 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Saint to learn fate over alleged homophobic slur after marathon hearing",
+      "link": "https://www.abc.net.au/news/2026-04-09/afl-lance-collard-saints-alleged-homophobic-slur-tribunal/106548494",
+      "snippet": "",
+      "pubDate": "Thu, 09 Apr 2026 08:14:51 +0000",
+      "source": "ABC"
     }
   ]
 }
