@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-11T03:24:14.685Z",
+  "fetchedAt": "2026-04-11T07:32:29.201Z",
   "fx": {
     "audusd": {
       "value": 0.71,
@@ -105,7 +105,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-11",
           "close": 0.71
         }
       ],
@@ -374,7 +374,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-11",
           "close": 0.71
         }
       ],
@@ -488,7 +488,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-11",
           "close": 0.71
         }
       ],
@@ -1122,7 +1122,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-11",
           "close": 0.71
         }
       ]
@@ -4610,7 +4610,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-04-11",
         "close": 0.71
       }
     ],
@@ -4879,7 +4879,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-04-11",
         "close": 0.71
       }
     ],
@@ -4993,7 +4993,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-04-11",
         "close": 0.71
       }
     ],
@@ -5627,7 +5627,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-04-11",
         "close": 0.71
       }
     ]
@@ -5826,16 +5826,12 @@
   },
   "energy": {
     "wti": {
-      "value": 95.63,
-      "change": 12.18,
-      "changePercent": 14.6,
+      "value": 96.57,
+      "change": 13.12,
+      "changePercent": 15.72,
       "previousClose": 83.45,
       "asOf": "2026-04-11",
       "history": [
-        {
-          "date": "2026-03-10",
-          "close": 83.45
-        },
         {
           "date": "2026-03-11",
           "close": 87.25
@@ -5922,23 +5918,19 @@
         },
         {
           "date": "2026-04-10",
-          "close": 95.63
+          "close": 96.57
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 94.45,
-      "change": 6.65,
-      "changePercent": 7.57,
+      "value": 95.2,
+      "change": 7.4,
+      "changePercent": 8.43,
       "previousClose": 87.8,
       "asOf": "2026-04-11",
       "history": [
-        {
-          "date": "2026-03-10",
-          "close": 87.8
-        },
         {
           "date": "2026-03-11",
           "close": 91.98
@@ -6025,7 +6017,7 @@
         },
         {
           "date": "2026-04-10",
-          "close": 94.45
+          "close": 95.2
         }
       ],
       "name": "Brent Crude",
@@ -6034,14 +6026,10 @@
     "gas": {
       "value": 2.65,
       "change": -0.37,
-      "changePercent": -12.15,
+      "changePercent": -12.32,
       "previousClose": 3.02,
       "asOf": "2026-04-11",
       "history": [
-        {
-          "date": "2026-03-10",
-          "close": 3.02
-        },
         {
           "date": "2026-03-11",
           "close": 3.21
@@ -7405,21 +7393,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4771,
-      "change": -458.7,
-      "changePercent": -8.77
+      "price": 4787.4,
+      "change": -442.3,
+      "changePercent": -8.46
     },
     {
       "name": "Silver",
-      "price": 76.03,
-      "change": -13.06,
-      "changePercent": -14.66
+      "price": 76.48,
+      "change": -12.6,
+      "changePercent": -14.15
     },
     {
       "name": "Copper",
-      "price": 5.87,
-      "change": -0.04,
-      "changePercent": -0.61
+      "price": 5.89,
+      "change": -0.02,
+      "changePercent": -0.3
     }
   ],
   "housing": {
@@ -7825,18 +7813,18 @@
       "source": "SMH"
     },
     {
-      "title": "What Iran war will mean for iron ore",
-      "link": "https://www.news.com.au/finance/business/mining/what-the-iran-war-will-mean-for-iron-ore/news-story/875efa9aabda02070b949a3d8289efe7?from=rss-basic",
-      "snippet": "The Iran conflict could have a devastating impact on iron ore and steel, and those looking to China to pick up the slack will be very disappointed.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "New Zealand cyclone forces cancellation of Supercars race",
       "link": "https://www.abc.net.au/news/2026-04-11/supercars-taup%C5%8D-race-cancelled-by-new-zealand-cyclone/106554338",
       "snippet": "",
       "pubDate": "Sat, 11 Apr 2026 01:42:07 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "What happens when a drone-killer and toxic radio collide?",
+      "link": "https://www.smh.com.au/business/companies/what-happens-when-a-drone-killer-and-toxic-radio-collide-20260409-p5zmhj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s controversial multibillion-dollar defence star has made an unusual pick to rehabilitate its corporate reputation.",
+      "pubDate": "Sat, 11 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
     }
   ]
 }
