@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-04-10T19:26:22.768Z",
+  "fetchedAt": "2026-04-11T03:24:14.685Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": 0.14,
+      "changePercent": -0.1,
       "previousClose": 0.71,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -99,6 +99,10 @@
         {
           "date": "2026-04-08",
           "close": 0.7
+        },
+        {
+          "date": "2026-04-09",
+          "close": 0.71
         },
         {
           "date": "2026-04-10",
@@ -366,6 +370,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-04-09",
+          "close": 0.71
+        },
+        {
           "date": "2026-04-10",
           "close": 0.71
         }
@@ -477,7 +485,7 @@
         },
         {
           "date": "2026-04-05",
-          "close": 0.7
+          "close": 0.71
         },
         {
           "date": "2026-04-10",
@@ -1111,7 +1119,7 @@
         },
         {
           "date": "2026-04-05",
-          "close": 0.7
+          "close": 0.71
         },
         {
           "date": "2026-04-10",
@@ -1121,10 +1129,10 @@
     },
     "audeur": {
       "value": 0.6,
-      "change": 0,
-      "changePercent": -0.81,
+      "change": -0.01,
+      "changePercent": -1,
       "previousClose": 0.61,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -1217,6 +1225,10 @@
         {
           "date": "2026-04-08",
           "close": 0.6
+        },
+        {
+          "date": "2026-04-09",
+          "close": 0.61
         },
         {
           "date": "2026-04-10",
@@ -1484,6 +1496,10 @@
           "close": 0.6
         },
         {
+          "date": "2026-04-09",
+          "close": 0.61
+        },
+        {
           "date": "2026-04-10",
           "close": 0.6
         }
@@ -1595,7 +1611,7 @@
         },
         {
           "date": "2026-04-05",
-          "close": 0.6
+          "close": 0.61
         },
         {
           "date": "2026-04-10",
@@ -2229,7 +2245,7 @@
         },
         {
           "date": "2026-04-05",
-          "close": 0.6
+          "close": 0.61
         },
         {
           "date": "2026-04-10",
@@ -2238,11 +2254,11 @@
       ]
     },
     "audcny": {
-      "value": 4.83,
-      "change": -0.05,
-      "changePercent": -1.07,
+      "value": 4.82,
+      "change": -0.06,
+      "changePercent": -1.31,
       "previousClose": 4.88,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -2337,8 +2353,12 @@
           "close": 4.81
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-09",
           "close": 4.83
+        },
+        {
+          "date": "2026-04-10",
+          "close": 4.82
         }
       ],
       "label": "AUD/CNY",
@@ -2602,8 +2622,12 @@
           "close": 4.81
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-09",
           "close": 4.83
+        },
+        {
+          "date": "2026-04-10",
+          "close": 4.82
         }
       ],
       "h6m": [
@@ -2713,11 +2737,11 @@
         },
         {
           "date": "2026-04-05",
-          "close": 4.81
+          "close": 4.83
         },
         {
           "date": "2026-04-10",
-          "close": 4.83
+          "close": 4.82
         }
       ],
       "h3y": [
@@ -3347,20 +3371,20 @@
         },
         {
           "date": "2026-04-05",
-          "close": 4.81
+          "close": 4.83
         },
         {
           "date": "2026-04-10",
-          "close": 4.83
+          "close": 4.82
         }
       ]
     },
     "audjpy": {
-      "value": 112.74,
-      "change": 1.17,
-      "changePercent": 1.05,
+      "value": 112.47,
+      "change": 0.91,
+      "changePercent": 0.81,
       "previousClose": 111.57,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -3455,8 +3479,12 @@
           "close": 111.67
         },
         {
+          "date": "2026-04-09",
+          "close": 112.57
+        },
+        {
           "date": "2026-04-10",
-          "close": 112.74
+          "close": 112.47
         }
       ],
       "label": "AUD/JPY",
@@ -3720,8 +3748,12 @@
           "close": 111.67
         },
         {
+          "date": "2026-04-09",
+          "close": 112.57
+        },
+        {
           "date": "2026-04-10",
-          "close": 112.74
+          "close": 112.47
         }
       ],
       "h6m": [
@@ -3831,11 +3863,11 @@
         },
         {
           "date": "2026-04-05",
-          "close": 111.67
+          "close": 112.57
         },
         {
           "date": "2026-04-10",
-          "close": 112.74
+          "close": 112.47
         }
       ],
       "h3y": [
@@ -4465,11 +4497,11 @@
         },
         {
           "date": "2026-04-05",
-          "close": 111.67
+          "close": 112.57
         },
         {
           "date": "2026-04-10",
-          "close": 112.74
+          "close": 112.47
         }
       ]
     }
@@ -4477,9 +4509,9 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.14,
+    "changePercent": -0.1,
     "previousClose": 0.71,
-    "asOf": "2026-04-10",
+    "asOf": "2026-04-11",
     "history": [
       {
         "date": "2026-03-10",
@@ -4572,6 +4604,10 @@
       {
         "date": "2026-04-08",
         "close": 0.7
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.71
       },
       {
         "date": "2026-04-10",
@@ -4839,6 +4875,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-04-09",
+        "close": 0.71
+      },
+      {
         "date": "2026-04-10",
         "close": 0.71
       }
@@ -4950,7 +4990,7 @@
       },
       {
         "date": "2026-04-05",
-        "close": 0.7
+        "close": 0.71
       },
       {
         "date": "2026-04-10",
@@ -5584,7 +5624,7 @@
       },
       {
         "date": "2026-04-05",
-        "close": 0.7
+        "close": 0.71
       },
       {
         "date": "2026-04-10",
@@ -5786,11 +5826,11 @@
   },
   "energy": {
     "wti": {
-      "value": 95.9,
-      "change": 12.45,
-      "changePercent": 14.92,
+      "value": 95.63,
+      "change": 12.18,
+      "changePercent": 14.6,
       "previousClose": 83.45,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -5882,18 +5922,18 @@
         },
         {
           "date": "2026-04-10",
-          "close": 95.9
+          "close": 95.63
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 94.5,
-      "change": 6.7,
-      "changePercent": 7.63,
+      "value": 94.45,
+      "change": 6.65,
+      "changePercent": 7.57,
       "previousClose": 87.8,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -5985,18 +6025,18 @@
         },
         {
           "date": "2026-04-10",
-          "close": 94.5
+          "close": 94.45
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.64,
-      "change": -0.38,
-      "changePercent": -12.45,
+      "value": 2.65,
+      "change": -0.37,
+      "changePercent": -12.15,
       "previousClose": 3.02,
-      "asOf": "2026-04-10",
+      "asOf": "2026-04-11",
       "history": [
         {
           "date": "2026-03-10",
@@ -6088,7 +6128,7 @@
         },
         {
           "date": "2026-04-10",
-          "close": 2.64
+          "close": 2.65
         }
       ],
       "name": "Natural Gas",
@@ -6178,7 +6218,7 @@
     "change": 268,
     "changePercent": 3.08,
     "previousClose": 8692.6,
-    "asOf": "2026-04-10",
+    "asOf": "2026-04-11",
     "history": [
       {
         "date": "2026-03-09",
@@ -6263,6 +6303,10 @@
       {
         "date": "2026-04-09",
         "close": 8973.2
+      },
+      {
+        "date": "2026-04-10",
+        "close": 8960.6
       }
     ]
   },
@@ -7361,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4792.5,
-      "change": -437.2,
-      "changePercent": -8.36
+      "price": 4771,
+      "change": -458.7,
+      "changePercent": -8.77
     },
     {
       "name": "Silver",
-      "price": 76.6,
-      "change": -12.48,
-      "changePercent": -14.01
+      "price": 76.03,
+      "change": -13.06,
+      "changePercent": -14.66
     },
     {
       "name": "Copper",
-      "price": 5.88,
-      "change": -0.03,
-      "changePercent": -0.47
+      "price": 5.87,
+      "change": -0.04,
+      "changePercent": -0.61
     }
   ],
   "housing": {
@@ -7727,7 +7771,7 @@
     {
       "title": "‘Complete bulls***’: Debate erupts over claims property tax overhaul will drive rents up 30 per cent",
       "link": "https://www.news.com.au/finance/real-estate/buying/complete-bulls-debate-erupts-over-claims-property-tax-overhaul-will-drive-rents-up-30-per-cent/news-story/4107ad20213546677ba68a8730012be1?from=rss-basic",
-      "snippet": "Australia’s national pastime is facing its biggest shake up, with changes to generous tax concessions for property investors all but certain to be wound back.",
+      "snippet": "Australians are bracing for a major shake-up that experts warn could trigger a chain reaction with devastating consequences.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7788,11 +7832,11 @@
       "source": "News.com.au"
     },
     {
-      "title": "What happens when a drone-killer and toxic radio collide?",
-      "link": "https://www.smh.com.au/business/companies/what-happens-when-a-drone-killer-and-toxic-radio-collide-20260409-p5zmhj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Australia’s controversial multibillion-dollar defence star has made an unusual pick to rehabilitate its corporate reputation.",
-      "pubDate": "Sat, 11 Apr 2026 05:00:00 +1000",
-      "source": "SMH"
+      "title": "New Zealand cyclone forces cancellation of Supercars race",
+      "link": "https://www.abc.net.au/news/2026-04-11/supercars-taup%C5%8D-race-cancelled-by-new-zealand-cyclone/106554338",
+      "snippet": "",
+      "pubDate": "Sat, 11 Apr 2026 01:42:07 +0000",
+      "source": "ABC"
     }
   ]
 }
