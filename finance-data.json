@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-12T03:50:39.904Z",
+  "fetchedAt": "2026-04-12T07:49:11.199Z",
   "fx": {
     "audusd": {
       "value": 0.71,
@@ -105,7 +105,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-11",
+          "date": "2026-04-12",
           "close": 0.71
         }
       ],
@@ -374,7 +374,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-11",
+          "date": "2026-04-12",
           "close": 0.71
         }
       ],
@@ -488,7 +488,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-11",
+          "date": "2026-04-12",
           "close": 0.71
         }
       ],
@@ -1122,7 +1122,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-11",
+          "date": "2026-04-12",
           "close": 0.71
         }
       ]
@@ -4610,7 +4610,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "close": 0.71
       }
     ],
@@ -4879,7 +4879,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "close": 0.71
       }
     ],
@@ -4993,7 +4993,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "close": 0.71
       }
     ],
@@ -5627,7 +5627,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "close": 0.71
       }
     ]
@@ -5827,15 +5827,11 @@
   "energy": {
     "wti": {
       "value": 96.57,
-      "change": 13.12,
-      "changePercent": 15.72,
-      "previousClose": 83.45,
+      "change": 0.84,
+      "changePercent": 0.88,
+      "previousClose": 95.73,
       "asOf": "2026-04-12",
       "history": [
-        {
-          "date": "2026-03-11",
-          "close": 87.25
-        },
         {
           "date": "2026-03-12",
           "close": 95.73
@@ -5926,15 +5922,11 @@
     },
     "brent": {
       "value": 95.2,
-      "change": 7.4,
-      "changePercent": 8.43,
-      "previousClose": 87.8,
+      "change": -5.26,
+      "changePercent": -5.24,
+      "previousClose": 100.46,
       "asOf": "2026-04-12",
       "history": [
-        {
-          "date": "2026-03-11",
-          "close": 91.98
-        },
         {
           "date": "2026-03-12",
           "close": 100.46
@@ -6025,15 +6017,11 @@
     },
     "gas": {
       "value": 2.65,
-      "change": -0.37,
-      "changePercent": -12.32,
-      "previousClose": 3.02,
+      "change": -0.58,
+      "changePercent": -18.09,
+      "previousClose": 3.23,
       "asOf": "2026-04-12",
       "history": [
-        {
-          "date": "2026-03-11",
-          "close": 3.21
-        },
         {
           "date": "2026-03-12",
           "close": 3.23
@@ -7394,20 +7382,20 @@
     {
       "name": "Gold",
       "price": 4787.4,
-      "change": -442.3,
-      "changePercent": -8.46
+      "change": -328.4,
+      "changePercent": -6.42
     },
     {
       "name": "Silver",
       "price": 76.48,
-      "change": -12.6,
-      "changePercent": -14.15
+      "change": -8.19,
+      "changePercent": -9.67
     },
     {
       "name": "Copper",
       "price": 5.89,
-      "change": -0.02,
-      "changePercent": -0.3
+      "change": 0.06,
+      "changePercent": 1.06
     }
   ],
   "housing": {
@@ -7771,17 +7759,17 @@
       "source": "News.com.au"
     },
     {
+      "title": "Some Aussies have been ‘pantry stocking’: Are times that tough?",
+      "link": "https://www.smh.com.au/business/the-economy/some-aussies-have-been-pantry-stocking-are-times-that-tough-20260409-p5zmx3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Some customers have been snapping up “one or two” extra cans or toilet rolls amid fears of war-driven shortages, but that instinct is wearing off.",
+      "pubDate": "Sun, 12 Apr 2026 17:01:40 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Australia in no position to ease Asian gas crunch, data shows",
       "link": "https://www.smh.com.au/business/markets/australia-in-no-position-to-ease-asian-gas-crunch-data-shows-20260410-p5zmx6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Prompted by the Iran war energy crisis, Australia and Singapore struck a deal under which the two countries pledged to continue supplying each other refined fuel and gas.",
       "pubDate": "Sun, 12 Apr 2026 13:38:55 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Aurum clears 4M ounces after West African gold resource surge",
-      "link": "https://www.smh.com.au/business/companies/aurum-clears-4m-ounces-after-west-african-gold-resource-surge-20260410-p5zmze.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aurum’s Napié gold resource in West Africa rose to 1.2M ounces, lifting group inventories to 4.2M ounces. Only 13% of the shear zone has been drilled, with strong growth upside.",
-      "pubDate": "Fri, 10 Apr 2026 17:12:12 +1000",
       "source": "SMH"
     },
     {
@@ -7820,10 +7808,10 @@
       "source": "News.com.au"
     },
     {
-      "title": "Live: Injury-ravaged Eels host Titans in Parramatta",
-      "link": "https://www.abc.net.au/news/2026-04-12/nrl-live-updates-eels-titans-tigers-knights-blog-scores-stats/106551448",
+      "title": "Gout Gout smashes his Australian 200m record and goes under 20 seconds at Nationals",
+      "link": "https://www.abc.net.au/news/2026-04-12/gout-gout-200m-record-australian-athletics-championships/106555740",
       "snippet": "",
-      "pubDate": "Sun, 12 Apr 2026 03:21:25 +0000",
+      "pubDate": "Sun, 12 Apr 2026 04:38:54 +0000",
       "source": "ABC"
     }
   ]
