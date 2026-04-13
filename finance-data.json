@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-13T08:27:49.554Z",
+  "fetchedAt": "2026-04-13T14:14:15.223Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": -0.28,
+      "changePercent": -0.2,
       "previousClose": 0.71,
       "asOf": "2026-04-13",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.6,
       "change": -0.01,
-      "changePercent": -1.73,
+      "changePercent": -1.78,
       "previousClose": 0.61,
       "asOf": "2026-04-13",
       "history": [
@@ -2216,7 +2216,7 @@
     "audcny": {
       "value": 4.82,
       "change": -0.04,
-      "changePercent": -0.86,
+      "changePercent": -0.82,
       "previousClose": 4.86,
       "asOf": "2026-04-13",
       "history": [
@@ -3320,9 +3320,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.62,
-      "change": -0.02,
-      "changePercent": -0.01,
+      "value": 112.68,
+      "change": 0.05,
+      "changePercent": 0.04,
       "previousClose": 112.63,
       "asOf": "2026-04-13",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.62
+          "close": 112.68
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.62
+          "close": 112.68
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.62
+          "close": 112.68
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.62
+          "close": 112.68
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": -0.28,
+    "changePercent": -0.2,
     "previousClose": 0.71,
     "asOf": "2026-04-13",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 104.09,
-      "change": 5.38,
-      "changePercent": 5.45,
+      "value": 101.68,
+      "change": 2.97,
+      "changePercent": 3.01,
       "previousClose": 98.71,
       "asOf": "2026-04-13",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-13",
-          "close": 104.09
+          "close": 101.68
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 102.48,
-      "change": -0.66,
-      "changePercent": -0.64,
+      "value": 100.48,
+      "change": -2.66,
+      "changePercent": -2.58,
       "previousClose": 103.14,
       "asOf": "2026-04-13",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-13",
-          "close": 102.48
+          "close": 100.48
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.68,
+      "value": 2.67,
       "change": -0.46,
-      "changePercent": -14.56,
+      "changePercent": -14.66,
       "previousClose": 3.13,
       "asOf": "2026-04-13",
       "history": [
@@ -6171,10 +6171,6 @@
       {
         "date": "2026-04-10",
         "close": 8960.6
-      },
-      {
-        "date": "2026-04-13",
-        "close": 8926
       }
     ]
   },
@@ -7209,21 +7205,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4753.7,
-      "change": -298.8,
-      "changePercent": -5.91
+      "price": 4746.1,
+      "change": -306.4,
+      "changePercent": -6.06
     },
     {
       "name": "Silver",
-      "price": 74.76,
-      "change": -6.16,
-      "changePercent": -7.61
+      "price": 74.23,
+      "change": -6.68,
+      "changePercent": -8.26
     },
     {
       "name": "Copper",
-      "price": 5.86,
-      "change": 0.15,
-      "changePercent": 2.61
+      "price": 5.91,
+      "change": 0.19,
+      "changePercent": 3.34
     }
   ],
   "housing": {
@@ -7601,6 +7597,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "Who says money can’t buy happiness? Meet the unabashedly happy Mrs Sánchez Bezos",
+      "link": "https://www.smh.com.au/business/companies/who-says-money-can-t-buy-happiness-meet-the-unabashedly-happy-mrs-s-nchez-bezos-20260413-p5znbh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "As half of an unfathomably powerful couple, Amazon founder Jeff Bezos’ wife, Lauren Sánchez Bezos, seems to have influenced the uber-rich to stop apologising, and start enjoying themselves.",
+      "pubDate": "Mon, 13 Apr 2026 19:34:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "IKEA winds back its famous 365-day refund policy",
       "link": "https://www.smh.com.au/business/companies/ikea-winds-back-its-famous-365-day-refund-policy-20260413-p5znd5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Swedish furniture giant’s refund policy has been wound back to 60 days for Australian consumers to “minimise misuse”.",
@@ -7632,13 +7635,6 @@
       "title": "Shocking numbers show major housing issue",
       "link": "https://www.news.com.au/finance/economy/interest-rates/house-prices-in-two-major-cities-to-surge-by-over-50000-this-year-say-canstar/news-story/62117a82569dbd4b900b815f14ce49ce?from=rss-basic",
       "snippet": "The great Australian dream of owning a home is slipping further out of reach with house prices in major cities set to rise even more this year.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "Mining  royalty feud nears climax",
-      "link": "https://www.news.com.au/finance/business/mining/long-running-legal-stoush-between-mining-heiresses-gina-rinehart-angela-bennett-over-billions-in-mining-royalties-nears-climax/news-story/9fe7615324892c404975abbce038a928?from=rss-basic",
-      "snippet": "A feud between Australia’s richest woman Gina Rinehart and miners Angela Bennett, involving billions in royalties from lucrative iron ore mines, is coming to an end.",
       "pubDate": "",
       "source": "News.com.au"
     }
