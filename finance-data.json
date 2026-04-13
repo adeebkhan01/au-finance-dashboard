@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-13T14:14:15.223Z",
+  "fetchedAt": "2026-04-13T19:46:40.283Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": -0.2,
+      "changePercent": 0.28,
       "previousClose": 0.71,
       "asOf": "2026-04-13",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.6,
       "change": -0.01,
-      "changePercent": -1.78,
+      "changePercent": -1.73,
       "previousClose": 0.61,
       "asOf": "2026-04-13",
       "history": [
@@ -2214,9 +2214,9 @@
       ]
     },
     "audcny": {
-      "value": 4.82,
-      "change": -0.04,
-      "changePercent": -0.82,
+      "value": 4.85,
+      "change": -0.02,
+      "changePercent": -0.31,
       "previousClose": 4.86,
       "asOf": "2026-04-13",
       "history": [
@@ -2306,7 +2306,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 4.82
+          "close": 4.85
         }
       ],
       "label": "AUD/CNY",
@@ -2571,7 +2571,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 4.82
+          "close": 4.85
         }
       ],
       "h6m": [
@@ -2681,7 +2681,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 4.82
+          "close": 4.85
         }
       ],
       "h3y": [
@@ -3315,14 +3315,14 @@
         },
         {
           "date": "2026-04-13",
-          "close": 4.82
+          "close": 4.85
         }
       ]
     },
     "audjpy": {
-      "value": 112.68,
-      "change": 0.05,
-      "changePercent": 0.04,
+      "value": 113.06,
+      "change": 0.42,
+      "changePercent": 0.38,
       "previousClose": 112.63,
       "asOf": "2026-04-13",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.68
+          "close": 113.06
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.68
+          "close": 113.06
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.68
+          "close": 113.06
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 112.68
+          "close": 113.06
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": -0.2,
+    "changePercent": 0.28,
     "previousClose": 0.71,
     "asOf": "2026-04-13",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.68,
-      "change": 2.97,
-      "changePercent": 3.01,
+      "value": 97.85,
+      "change": -0.86,
+      "changePercent": -0.87,
       "previousClose": 98.71,
       "asOf": "2026-04-13",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-13",
-          "close": 101.68
+          "close": 97.85
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 100.48,
-      "change": -2.66,
-      "changePercent": -2.58,
+      "value": 98.4,
+      "change": -4.74,
+      "changePercent": -4.6,
       "previousClose": 103.14,
       "asOf": "2026-04-13",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-13",
-          "close": 100.48
+          "close": 98.4
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.67,
-      "change": -0.46,
-      "changePercent": -14.66,
+      "value": 2.63,
+      "change": -0.5,
+      "changePercent": -16.1,
       "previousClose": 3.13,
       "asOf": "2026-04-13",
       "history": [
@@ -6004,7 +6004,7 @@
         },
         {
           "date": "2026-04-13",
-          "close": 2.67
+          "close": 2.63
         }
       ],
       "name": "Natural Gas",
@@ -7205,21 +7205,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4746.1,
-      "change": -306.4,
-      "changePercent": -6.06
+      "price": 4768.7,
+      "change": -283.8,
+      "changePercent": -5.62
     },
     {
       "name": "Silver",
-      "price": 74.23,
-      "change": -6.68,
-      "changePercent": -8.26
+      "price": 75.74,
+      "change": -5.18,
+      "changePercent": -6.4
     },
     {
       "name": "Copper",
-      "price": 5.91,
-      "change": 0.19,
-      "changePercent": 3.34
+      "price": 6.02,
+      "change": 0.3,
+      "changePercent": 5.29
     }
   ],
   "housing": {
@@ -7569,13 +7569,6 @@
       "source": "News.com.au"
     },
     {
-      "title": "Beetaloo locks in $66.3M to fast-track to first NT gas",
-      "link": "https://www.smh.com.au/business/companies/beetaloo-locks-in-66-3m-to-fast-track-to-first-nt-gas-20260413-p5znje.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Beetaloo Energy has banked $66.3M and locked in a fully funded runway to first pilot gas this year, fast-tracking its Carpentaria project and broader Beetaloo Basin growth push.",
-      "pubDate": "Mon, 13 Apr 2026 15:43:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Dalaroo lists on OTCQB market to meet US Greenland rare earths demand",
       "link": "https://www.smh.com.au/business/companies/dalaroo-lists-on-otcqb-market-to-meet-us-greenland-rare-earths-demand-20260413-p5znjo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Dalaroo is now quoted in the US on the OTCQB under the ticker DALMF, giving North American traders a US-dollar line into its gold and critical minerals playbook.",
@@ -7611,11 +7604,18 @@
       "source": "SMH"
     },
     {
-      "title": "‘Early stages’: Ray Dalio’s chilling WW3 warning as he outlines 13 steps to a global conflict",
-      "link": "https://www.news.com.au/finance/work/leaders/early-stages-ray-dalios-chilling-ww3-warning-as-he-outlines-13-steps-to-a-global-conflict/news-story/16ff7ef00a13c0f3a8da960551fea09a?from=rss-basic",
-      "snippet": "A billionaire hedge fund manager has warned the escalating conflict in the Middle East could spiral into a “world war” scenario, in an unsettling note to investors.",
+      "title": "‘Shock’ super collapse costs Aussies $160m",
+      "link": "https://www.news.com.au/finance/superannuation/how-hundreds-of-australians-had-their-superannuation-wiped-out/news-story/d57c0cd79b9fcf58dbfed65d79d28706?from=rss-basic",
+      "snippet": "The hopes and dreams of 660 hard-working Aussies have been crushed after a superannuation scheme collapsed into liquidation.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Hollywood wants to turn this viral meme into a juggernaut. Fans aren’t happy",
+      "link": "https://www.smh.com.au/business/companies/hollywood-wants-to-turn-this-viral-meme-into-a-juggernaut-fans-aren-t-happy-20260413-p5znd2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Could Skibidi Toilet, the bizarre animated YouTube series that gets more views than the NBA on the site, become the next Transformers?",
+      "pubDate": "Tue, 14 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Critical fires up hunt for hidden lithium in Canada",
