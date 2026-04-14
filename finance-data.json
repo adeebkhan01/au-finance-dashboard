@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-14T08:10:43.415Z",
+  "fetchedAt": "2026-04-14T14:17:57.600Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": 0,
-      "changePercent": 0.28,
+      "change": 0.01,
+      "changePercent": 0.99,
       "previousClose": 0.71,
       "asOf": "2026-04-14",
       "history": [
@@ -1116,9 +1116,9 @@
       ]
     },
     "audeur": {
-      "value": 0.6,
+      "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.89,
+      "changePercent": -1.4,
       "previousClose": 0.61,
       "asOf": "2026-04-14",
       "history": [
@@ -1208,7 +1208,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "label": "AUD/EUR",
@@ -1473,7 +1473,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "h6m": [
@@ -1587,7 +1587,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "h3y": [
@@ -2225,14 +2225,14 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.6
+          "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.84,
-      "change": -0.03,
-      "changePercent": -0.52,
+      "value": 4.87,
+      "change": 0.01,
+      "changePercent": 0.14,
       "previousClose": 4.86,
       "asOf": "2026-04-14",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.84
+          "close": 4.87
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.84
+          "close": 4.87
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.84
+          "close": 4.87
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.84
+          "close": 4.87
         }
       ]
     },
     "audjpy": {
-      "value": 112.89,
-      "change": 0.25,
-      "changePercent": 0.22,
+      "value": 113.38,
+      "change": 0.75,
+      "changePercent": 0.66,
       "previousClose": 112.63,
       "asOf": "2026-04-14",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 112.89
+          "close": 113.38
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 112.88
+          "close": 113.38
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 112.88
+          "close": 113.38
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-04-14",
-          "close": 112.88
+          "close": 113.38
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": 0,
-    "changePercent": 0.28,
+    "change": 0.01,
+    "changePercent": 0.99,
     "previousClose": 0.71,
     "asOf": "2026-04-14",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.75,
-      "change": -1.96,
-      "changePercent": -1.99,
+      "value": 93.26,
+      "change": -5.45,
+      "changePercent": -5.52,
       "previousClose": 98.71,
       "asOf": "2026-04-14",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-14",
-          "close": 96.75
+          "close": 93.26
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 98.8,
-      "change": -4.34,
-      "changePercent": -4.21,
+      "value": 95.68,
+      "change": -7.46,
+      "changePercent": -7.23,
       "previousClose": 103.14,
       "asOf": "2026-04-14",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-14",
-          "close": 98.8
+          "close": 95.68
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.6,
-      "change": -0.53,
-      "changePercent": -16.93,
+      "value": 2.61,
+      "change": -0.52,
+      "changePercent": -16.64,
       "previousClose": 3.13,
       "asOf": "2026-04-14",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 2.6
+          "close": 2.61
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-04-13",
         "close": 8926
-      },
-      {
-        "date": "2026-04-14",
-        "close": 8970.8
       }
     ]
   },
@@ -7249,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4799.4,
-      "change": -253.1,
-      "changePercent": -5.01
+      "price": 4822.5,
+      "change": -230,
+      "changePercent": -4.55
     },
     {
       "name": "Silver",
-      "price": 77.84,
-      "change": -3.07,
-      "changePercent": -3.8
+      "price": 78.77,
+      "change": -2.15,
+      "changePercent": -2.66
     },
     {
       "name": "Copper",
-      "price": 6.03,
-      "change": 0.31,
-      "changePercent": 5.51
+      "price": 6.09,
+      "change": 0.38,
+      "changePercent": 6.59
     }
   ],
   "housing": {
@@ -7627,13 +7623,6 @@
       "source": "News.com.au"
     },
     {
-      "title": "Albo flags move on controversial Aussie tax",
-      "link": "https://www.news.com.au/finance/albanese-flags-move-on-controversial-australian-housing-tax/news-story/174727e711e0f2343c52c124553c8a2b?from=rss-basic",
-      "snippet": "Anthony Albanese has given the strongest indication yet Labor could seek to scrap a controversial housing tax break at next month’s budget.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "Higher fares, fewer flights: Qantas goes into damage control",
       "link": "https://www.smh.com.au/business/companies/higher-fares-fewer-flights-qantas-goes-into-damage-control-20260414-p5znrc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The airline is pulling every operational and pricing lever to blunt the hit on its profits resulting from the Iran war, which has blown out its jet fuel costs by hundreds of millions of dollars.",
@@ -7657,7 +7646,7 @@
     {
       "title": "The tech jobs bust is real. Don’t blame AI (yet)",
       "link": "https://www.smh.com.au/business/the-economy/the-tech-jobs-bust-is-real-don-t-blame-ai-yet-20260414-p5znse.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Worries about a tech-jobs AI-mageddon spread far beyond Silicon Valley. But what’s really behind the lay-off in the technology sector?",
+      "snippet": "Worries about a tech jobs AI-mageddon spread far beyond Silicon Valley. But what’s really behind the lay-off in the technology sector?",
       "pubDate": "Tue, 14 Apr 2026 18:00:00 +1000",
       "source": "SMH"
     },
@@ -7681,6 +7670,13 @@
       "snippet": "Critica Limited has lifted pilot plant rare earths recoveries for its Jupiter project in WA, hitting 71% TREO and 81% for the valuable magnet rare earths oxides.",
       "pubDate": "Tue, 14 Apr 2026 13:32:35 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "‘Dominates’: China’s genius move revealed",
+      "link": "https://www.news.com.au/finance/business/other-industries/why-the-iran-war-could-be-the-wake-up-call-australias-food-system-desperately-needs/news-story/d364ea8b9df32eba9ead9dff22d8017d?from=rss-basic",
+      "snippet": "An expert has lifted the lid on a “volatile” industry in crisis – and while Aussies are about to feel the consequences, China is having the last laugh.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
