@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-14T14:17:57.600Z",
+  "fetchedAt": "2026-04-14T19:48:17.934Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 0.99,
+      "changePercent": 0.73,
       "previousClose": 0.71,
       "asOf": "2026-04-14",
       "history": [
@@ -1116,9 +1116,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.6,
       "change": -0.01,
-      "changePercent": -1.4,
+      "changePercent": -1.56,
       "previousClose": 0.61,
       "asOf": "2026-04-14",
       "history": [
@@ -1208,7 +1208,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.61
+          "close": 0.6
         }
       ],
       "label": "AUD/EUR",
@@ -1473,7 +1473,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.61
+          "close": 0.6
         }
       ],
       "h6m": [
@@ -1587,7 +1587,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.61
+          "close": 0.6
         }
       ],
       "h3y": [
@@ -2225,14 +2225,14 @@
         },
         {
           "date": "2026-04-14",
-          "close": 0.61
+          "close": 0.6
         }
       ]
     },
     "audcny": {
-      "value": 4.87,
-      "change": 0.01,
-      "changePercent": 0.14,
+      "value": 4.86,
+      "change": 0,
+      "changePercent": -0.09,
       "previousClose": 4.86,
       "asOf": "2026-04-14",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-14",
-          "close": 4.87
+          "close": 4.86
         }
       ]
     },
     "audjpy": {
-      "value": 113.38,
-      "change": 0.75,
-      "changePercent": 0.66,
+      "value": 113.22,
+      "change": 0.59,
+      "changePercent": 0.52,
       "previousClose": 112.63,
       "asOf": "2026-04-14",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 113.38
+          "close": 113.22
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 113.38
+          "close": 113.22
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 113.38
+          "close": 113.22
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 113.38
+          "close": 113.21
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 0.99,
+    "changePercent": 0.73,
     "previousClose": 0.71,
     "asOf": "2026-04-14",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 93.26,
-      "change": -5.45,
-      "changePercent": -5.52,
+      "value": 91.84,
+      "change": -6.87,
+      "changePercent": -6.96,
       "previousClose": 98.71,
       "asOf": "2026-04-14",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-14",
-          "close": 93.26
+          "close": 91.84
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.68,
-      "change": -7.46,
-      "changePercent": -7.23,
+      "value": 95.02,
+      "change": -8.12,
+      "changePercent": -7.87,
       "previousClose": 103.14,
       "asOf": "2026-04-14",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-14",
-          "close": 95.68
+          "close": 95.02
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.61,
-      "change": -0.52,
-      "changePercent": -16.64,
+      "value": 2.6,
+      "change": -0.53,
+      "changePercent": -16.96,
       "previousClose": 3.13,
       "asOf": "2026-04-14",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-14",
-          "close": 2.61
+          "close": 2.6
         }
       ],
       "name": "Natural Gas",
@@ -7245,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4822.5,
-      "change": -230,
-      "changePercent": -4.55
+      "price": 4865.5,
+      "change": -187,
+      "changePercent": -3.7
     },
     {
       "name": "Silver",
-      "price": 78.77,
-      "change": -2.15,
-      "changePercent": -2.66
+      "price": 79.6,
+      "change": -1.31,
+      "changePercent": -1.62
     },
     {
       "name": "Copper",
       "price": 6.09,
-      "change": 0.38,
-      "changePercent": 6.59
+      "change": 0.37,
+      "changePercent": 6.52
     }
   ],
   "housing": {
@@ -7602,16 +7602,16 @@
       "source": "SMH"
     },
     {
-      "title": "Trump move rocks Aussie sharemarket",
-      "link": "https://www.news.com.au/finance/markets/australian-markets/gold-miners-and-tech-stocks-drag-aussie-sharemarket-down-but-oil-soars-amid-further-middle-east-tensions/news-story/edccb9d6257f543f07757f9a6cbc3ebf?from=rss-basic",
-      "snippet": "Gold miners and tech stocks have dragged the ASX 200 down, but oil has soared after US President Donald Trump ordered a blockade of the Strait of Hormuz.",
+      "title": "ASX jumps on US, Iran peace talks",
+      "link": "https://www.news.com.au/finance/markets/australian-markets/asx-200-jumps-on-peace-talk-hopes-as-miners-and-tech-stocks-rally/news-story/2f50e726e7246c8588a963cd88702231?from=rss-basic",
+      "snippet": "Australia’s sharemarket has briefly hit the psychological 9000-point milestone as traders welcomed signs of potential Middle East peace talks.",
       "pubDate": "",
       "source": "News.com.au"
     },
     {
-      "title": "ASX jumps on US, Iran peace talks",
-      "link": "https://www.news.com.au/finance/markets/australian-markets/asx-200-jumps-on-peace-talk-hopes-as-miners-and-tech-stocks-rally/news-story/2f50e726e7246c8588a963cd88702231?from=rss-basic",
-      "snippet": "Australia’s sharemarket has briefly hit the psychological 9000-point milestone as traders welcomed signs of potential Middle East peace talks.",
+      "title": "Inside the Albanese Government’s secret sales pitch to justify slashing tax breaks for landlords",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/inside-the-albanese-governments-secret-sales-pitch-to-justify-slashing-tax-breaks-for-landlords/news-story/cb1fb54a6547aade5a4d81af8b91d90f?from=rss-basic",
+      "snippet": "Anthony Albanese is set to use a slump in home ownership among younger Aussies to justify big changes for landlords in the Budget.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7665,18 +7665,18 @@
       "source": "SMH"
     },
     {
-      "title": "Critica met test lands 81% magnet rare earths recovery in WA",
-      "link": "https://www.smh.com.au/business/companies/critica-met-test-lands-81-percent-magnet-rare-earths-recovery-in-wa-20260414-p5zntj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critica Limited has lifted pilot plant rare earths recoveries for its Jupiter project in WA, hitting 71% TREO and 81% for the valuable magnet rare earths oxides.",
-      "pubDate": "Tue, 14 Apr 2026 13:32:35 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘Dominates’: China’s genius move revealed",
       "link": "https://www.news.com.au/finance/business/other-industries/why-the-iran-war-could-be-the-wake-up-call-australias-food-system-desperately-needs/news-story/d364ea8b9df32eba9ead9dff22d8017d?from=rss-basic",
       "snippet": "An expert has lifted the lid on a “volatile” industry in crisis – and while Aussies are about to feel the consequences, China is having the last laugh.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Collard handed monster ban over 'entirely unacceptable' homophobic slur",
+      "link": "https://www.abc.net.au/news/2026-04-14/afl-st-kilda-lance-collard-suspension-homophobic-slur/106564042",
+      "snippet": "",
+      "pubDate": "Tue, 14 Apr 2026 07:41:03 +0000",
+      "source": "ABC"
     }
   ]
 }
