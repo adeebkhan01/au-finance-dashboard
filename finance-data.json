@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-15T08:12:36.075Z",
+  "fetchedAt": "2026-04-15T14:09:14.547Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 0.96,
+      "changePercent": 1.05,
       "previousClose": 0.71,
       "asOf": "2026-04-15",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.32,
+      "changePercent": -1.27,
       "previousClose": 0.61,
       "asOf": "2026-04-15",
       "history": [
@@ -2240,7 +2240,7 @@
     "audcny": {
       "value": 4.87,
       "change": 0.01,
-      "changePercent": 0.15,
+      "changePercent": 0.26,
       "previousClose": 4.86,
       "asOf": "2026-04-15",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.43,
-      "change": 0.8,
-      "changePercent": 0.71,
+      "value": 113.68,
+      "change": 1.05,
+      "changePercent": 0.93,
       "previousClose": 112.63,
       "asOf": "2026-04-15",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.43
+          "close": 113.68
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.43
+          "close": 113.69
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.43
+          "close": 113.69
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.43
+          "close": 113.68
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 0.96,
+    "changePercent": 1.05,
     "previousClose": 0.71,
     "asOf": "2026-04-15",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.68,
-      "change": -2.82,
-      "changePercent": -3.02,
+      "value": 91.2,
+      "change": -2.3,
+      "changePercent": -2.46,
       "previousClose": 93.5,
       "asOf": "2026-04-15",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-04-15",
-          "close": 90.68
+          "close": 91.2
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 94.68,
-      "change": -5.53,
-      "changePercent": -5.52,
+      "value": 94.69,
+      "change": -5.52,
+      "changePercent": -5.51,
       "previousClose": 100.21,
       "asOf": "2026-04-15",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-04-15",
-          "close": 94.68
+          "close": 94.69
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.59,
-      "change": -0.43,
-      "changePercent": -14.32,
+      "value": 2.6,
+      "change": -0.42,
+      "changePercent": -13.96,
       "previousClose": 3.02,
       "asOf": "2026-04-15",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 2.59
+          "close": 2.6
         }
       ],
       "name": "Natural Gas",
@@ -6247,10 +6247,6 @@
       {
         "date": "2026-04-14",
         "close": 8970.8
-      },
-      {
-        "date": "2026-04-15",
-        "close": 8978.7
       }
     ]
   },
@@ -6309,7 +6305,7 @@
     },
     {
       "name": "Health Care",
-      "changePercent": 0.65,
+      "changePercent": 1.09,
       "stocks": [
         {
           "name": "CSL",
@@ -6318,8 +6314,8 @@
         },
         {
           "name": "COH",
-          "price": 172,
-          "changePercent": -1.75
+          "price": 0,
+          "changePercent": 0
         },
         {
           "name": "RMD",
@@ -7317,21 +7313,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4831.2,
-      "change": -162.8,
-      "changePercent": -3.26
+      "price": 4849.1,
+      "change": -144.9,
+      "changePercent": -2.9
     },
     {
       "name": "Silver",
-      "price": 79.3,
-      "change": -0.96,
-      "changePercent": -1.2
+      "price": 80.33,
+      "change": 0.06,
+      "changePercent": 0.08
     },
     {
       "name": "Copper",
-      "price": 6.1,
-      "change": 0.31,
-      "changePercent": 5.41
+      "price": 6.08,
+      "change": 0.29,
+      "changePercent": 4.97
     }
   ],
   "housing": {
@@ -7681,13 +7677,6 @@
       "source": "SMH"
     },
     {
-      "title": "Iran war could trigger global recession, IMF warns",
-      "link": "https://www.news.com.au/finance/economy/world-economy/dangerous-moment-world-warned-iran-war-could-trigger-global-recession/news-story/23d868d28fd73c9eaa1e3313c6bd8a1b?from=rss-basic",
-      "snippet": "The Treasurer has issued a stark warning after emergency talks as an international body reveals three scenarios that could reshape the world.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "Workplace safety regulator investigating two suicides among NAB staff",
       "link": "https://www.smh.com.au/business/workplace/workplace-safety-regulator-investigating-two-suicides-among-nab-staff-20260415-p5zo7c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The federal workplace health and safety authority is investigating the circumstances surrounding two NAB employees who died by suicide just weeks apart.",
@@ -7702,13 +7691,6 @@
       "source": "SMH"
     },
     {
-      "title": "When the war is over, the world won’t be the same",
-      "link": "https://www.smh.com.au/business/the-economy/when-the-war-is-over-the-world-won-t-be-the-same-20260415-p5zo02.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The International Monetary Fund has produced gloomy scenarios for the economic impact of the war in the Middle East. The long-term outlook is worse.",
-      "pubDate": "Wed, 15 Apr 2026 12:08:38 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "ASX to gain on oil price drop",
       "link": "https://www.news.com.au/finance/markets/australian-markets/asx-futures-gain-on-usiran-peace-talk-prospects-oil-price-settling/news-story/4eaeed8af3a5ff1fe38a6e31437aecc1?from=rss-basic",
       "snippet": "The prospect of the US and Iran meeting for more peace talks has taken some sting out of oil prices, pushing ASX futures toward gains.",
@@ -7716,9 +7698,9 @@
       "source": "News.com.au"
     },
     {
-      "title": "‘Worrying’: Grim warning amid recession fears",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/australias-economy-in-weakened-state-bridget-mckenzie-says-as-imf-delivers-recession-warning/news-story/1ea63b39df08f2f258b6a32481fa6043?from=rss-basic",
-      "snippet": "A senior Nationals senator has delivered a grim warning for Australia’s economy as recession fears grow and the war in the Middle East rages on.",
+      "title": "RBA worker loses major wage claim",
+      "link": "https://www.news.com.au/finance/work/at-work/reserve-bank-employee-loses-major-unpaid-wages-claim-but-receives-limited-disciplinary-payout/news-story/b0bc58f2a9ebe3238c528252c339bf8d?from=rss-basic",
+      "snippet": "An RBA employee who was medically unfit to work consecutive days or take on any “high stress” activities has made a failed wage claim to Fair Work.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7737,6 +7719,13 @@
       "source": "SMH"
     },
     {
+      "title": "‘Faster’: Fertiliser fix amid food fears",
+      "link": "https://www.news.com.au/national/politics/labor-streamlines-fertiliser-imports-as-brunei-looks-to-boost-shipments/news-story/63f3d4377994f1079f9e936fe2eb0fd5?from=rss-basic",
+      "snippet": "Labor is making it easier to bring in foreign fertiliser amid fears growers will not have enough for April seeding.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
       "title": "Finance giant hit with $4m spam fine",
       "link": "https://www.news.com.au/finance/business/banking/aussie-finance-giant-latitude-finance-australia-hit-with-396m-fine-after-27m-antispam-law-breaches/news-story/6814e3a94e9f6e32c36a43e53f516dd4?from=rss-basic",
       "snippet": "An Aussie finance giant has copped a massive fine after breaching spam regulations millions of times – despite being fined for similar conduct years before.",
@@ -7747,6 +7736,13 @@
       "title": "‘Plagiarised’: Big call on shock policy",
       "link": "https://www.news.com.au/national/politics/angus-taylor-copying-other-countries-with-valuescentric-migration-plan-chalmers/news-story/ceae348be0bd197d5225d44c5eab3053?from=rss-basic",
       "snippet": "A core claim underpinning the Coalition’s migration plan has been rebuked by the Home Affairs Minister.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Kids’ charity at breaking point in fuel crisis",
+      "link": "https://www.news.com.au/finance/business/travel/breaking-point-sick-kids-charity-reveals-dire-impact-of-fuel-crisis-in-australia/news-story/7f204322123e28a114a79cde886dcda9?from=rss-basic",
+      "snippet": "As the fuel crisis continues to stretch across the globe, a non-profit charity has revealed the ‘crippling’ impact it’s had on sick kids across the country.",
       "pubDate": "",
       "source": "News.com.au"
     }
