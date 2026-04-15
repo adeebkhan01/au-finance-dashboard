@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-15T14:09:14.547Z",
+  "fetchedAt": "2026-04-15T19:48:38.080Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
+      "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.05,
+      "changePercent": 1.41,
       "previousClose": 0.71,
       "asOf": "2026-04-15",
       "history": [
@@ -98,7 +98,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "label": "AUD/USD",
@@ -363,7 +363,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h6m": [
@@ -477,7 +477,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h3y": [
@@ -1115,14 +1115,14 @@
         },
         {
           "date": "2026-04-15",
-          "close": 0.71
+          "close": 0.72
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.27,
+      "changePercent": -0.99,
       "previousClose": 0.61,
       "asOf": "2026-04-15",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.87,
-      "change": 0.01,
-      "changePercent": 0.26,
+      "value": 4.88,
+      "change": 0.02,
+      "changePercent": 0.46,
       "previousClose": 4.86,
       "asOf": "2026-04-15",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 4.87
+          "close": 4.88
         }
       ],
       "label": "AUD/CNY",
@@ -2599,7 +2599,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 4.87
+          "close": 4.88
         }
       ],
       "h6m": [
@@ -2713,7 +2713,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 4.87
+          "close": 4.88
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-04-15",
-          "close": 4.87
+          "close": 4.88
         }
       ]
     },
     "audjpy": {
-      "value": 113.68,
-      "change": 1.05,
-      "changePercent": 0.93,
+      "value": 114.06,
+      "change": 1.42,
+      "changePercent": 1.26,
       "previousClose": 112.63,
       "asOf": "2026-04-15",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.68
+          "close": 114.06
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.69
+          "close": 114.06
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.69
+          "close": 114.06
         }
       ],
       "h3y": [
@@ -4469,15 +4469,15 @@
         },
         {
           "date": "2026-04-15",
-          "close": 113.68
+          "close": 114.06
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
+    "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.05,
+    "changePercent": 1.41,
     "previousClose": 0.71,
     "asOf": "2026-04-15",
     "history": [
@@ -4571,7 +4571,7 @@
       },
       {
         "date": "2026-04-15",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "label": "AUD/USD",
@@ -4836,7 +4836,7 @@
       },
       {
         "date": "2026-04-15",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h6m": [
@@ -4950,7 +4950,7 @@
       },
       {
         "date": "2026-04-15",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h3y": [
@@ -5588,7 +5588,7 @@
       },
       {
         "date": "2026-04-15",
-        "close": 0.71
+        "close": 0.72
       }
     ]
   },
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.2,
-      "change": -2.3,
-      "changePercent": -2.46,
+      "value": 91.04,
+      "change": -2.46,
+      "changePercent": -2.63,
       "previousClose": 93.5,
       "asOf": "2026-04-15",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-04-15",
-          "close": 91.2
+          "close": 91.04
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 94.69,
-      "change": -5.52,
-      "changePercent": -5.51,
+      "value": 94.83,
+      "change": -5.38,
+      "changePercent": -5.37,
       "previousClose": 100.21,
       "asOf": "2026-04-15",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-04-15",
-          "close": 94.69
+          "close": 94.83
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.6,
-      "change": -0.42,
-      "changePercent": -13.96,
+      "value": 2.61,
+      "change": -0.41,
+      "changePercent": -13.63,
       "previousClose": 3.02,
       "asOf": "2026-04-15",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-04-15",
-          "close": 2.6
+          "close": 2.61
         }
       ],
       "name": "Natural Gas",
@@ -6305,7 +6305,7 @@
     },
     {
       "name": "Health Care",
-      "changePercent": 1.09,
+      "changePercent": 0.65,
       "stocks": [
         {
           "name": "CSL",
@@ -6314,8 +6314,8 @@
         },
         {
           "name": "COH",
-          "price": 0,
-          "changePercent": 0
+          "price": 172,
+          "changePercent": -1.75
         },
         {
           "name": "RMD",
@@ -7313,21 +7313,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4849.1,
-      "change": -144.9,
-      "changePercent": -2.9
+      "price": 4821.7,
+      "change": -172.3,
+      "changePercent": -3.45
     },
     {
       "name": "Silver",
-      "price": 80.33,
-      "change": 0.06,
-      "changePercent": 0.08
+      "price": 79.52,
+      "change": -0.74,
+      "changePercent": -0.93
     },
     {
       "name": "Copper",
-      "price": 6.08,
-      "change": 0.29,
-      "changePercent": 4.97
+      "price": 6.09,
+      "change": 0.3,
+      "changePercent": 5.25
     }
   ],
   "housing": {
@@ -7670,10 +7670,24 @@
       "source": "SMH"
     },
     {
-      "title": "TMK throws doors open to partners for Mongolian gas project",
-      "link": "https://www.smh.com.au/business/companies/tmk-throws-doors-open-to-partners-for-mongolian-gas-project-20260415-p5zo4x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "TMK Energy launched a farm-out for its Mongolian gas project as its pilot wells delivered results, desorption was achieved and a 1.2Tcf resource edges closer to development.",
-      "pubDate": "Wed, 15 Apr 2026 13:12:46 +1000",
+      "title": "ASX set for flat open, Wall Street eyes record as rally continues; $A stronger",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-flat-open-wall-street-eyes-record-as-rally-continues-a-stronger-20260416-p5zoa0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are flirting with a record following their big rally the last two weeks on hopes that the global economy can avoid a worst-case scenario because of the US-Iran war.",
+      "pubDate": "Thu, 16 Apr 2026 05:22:24 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Navigating turbulent times, airlines look to apps to keep travellers happy",
+      "link": "https://www.smh.com.au/business/companies/navigating-turbulent-times-airlines-look-to-apps-to-keep-travellers-happy-20260330-p5zjpy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Airlines now use AI-powered tools to explain flight delays and offer automatic rebooking for cancellations. Apps are becoming an increasingly important feature in improving their customer service.",
+      "pubDate": "Thu, 16 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Another interest rate rise will tip Australia into a recession we don’t have to have",
+      "link": "https://www.smh.com.au/business/the-economy/another-interest-rate-rise-will-tip-australia-into-a-recession-we-don-t-have-to-have-20260415-p5zo0r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Higher fuel prices mean that households who have little choice about how much fuel they use have less to spend on other goods and services, which reduces demand in much the same way as higher interest rates do.",
+      "pubDate": "Thu, 16 Apr 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7684,11 +7698,11 @@
       "source": "SMH"
     },
     {
-      "title": "Larvotto closes in on first antimony ingots at NSW mine",
-      "link": "https://www.smh.com.au/business/companies/larvotto-closes-in-on-first-antimony-ingots-at-nsw-mine-20260415-p5zo6k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto Resources is on track for first antimony ingots by mid-year at its NSW antimony-gold mine, just as Canberra legislates a national stockpile for the critical mineral.",
-      "pubDate": "Wed, 15 Apr 2026 15:03:26 +1000",
-      "source": "SMH"
+      "title": "Union’s move on fuel vouchers as apprentices feel the pinch",
+      "link": "https://www.news.com.au/national/politics/cfmeu-to-offer-100-fuel-vouchers-to-apprentices-as-iran-crisis-risks-housing-pledge/news-story/86ab03eba1ccaf9a2d355cb0cac7bee0?from=rss-basic",
+      "snippet": "Thousands of workers will be eligible for $100 fuel vouchers, as cost of living pressures put Australia’s housing future at risk.",
+      "pubDate": "",
+      "source": "News.com.au"
     },
     {
       "title": "ASX to gain on oil price drop",
@@ -7712,13 +7726,6 @@
       "source": "SMH"
     },
     {
-      "title": "One group won the Rinehart v Wright case, and it wasn’t the brawling billionaires",
-      "link": "https://www.smh.com.au/business/companies/one-group-won-the-rinehart-v-wright-case-and-it-wasn-t-the-brawling-billionaire-families-20260415-p5zo6z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "But much like the generational brawl between the extended billionaire iron ore Wright and Rinehart families, the legal verdict was as messy as it was mixed.",
-      "pubDate": "Wed, 15 Apr 2026 15:58:17 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘Faster’: Fertiliser fix amid food fears",
       "link": "https://www.news.com.au/national/politics/labor-streamlines-fertiliser-imports-as-brunei-looks-to-boost-shipments/news-story/63f3d4377994f1079f9e936fe2eb0fd5?from=rss-basic",
       "snippet": "Labor is making it easier to bring in foreign fertiliser amid fears growers will not have enough for April seeding.",
@@ -7736,13 +7743,6 @@
       "title": "‘Plagiarised’: Big call on shock policy",
       "link": "https://www.news.com.au/national/politics/angus-taylor-copying-other-countries-with-valuescentric-migration-plan-chalmers/news-story/ceae348be0bd197d5225d44c5eab3053?from=rss-basic",
       "snippet": "A core claim underpinning the Coalition’s migration plan has been rebuked by the Home Affairs Minister.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "Kids’ charity at breaking point in fuel crisis",
-      "link": "https://www.news.com.au/finance/business/travel/breaking-point-sick-kids-charity-reveals-dire-impact-of-fuel-crisis-in-australia/news-story/7f204322123e28a114a79cde886dcda9?from=rss-basic",
-      "snippet": "As the fuel crisis continues to stretch across the globe, a non-profit charity has revealed the ‘crippling’ impact it’s had on sick kids across the country.",
       "pubDate": "",
       "source": "News.com.au"
     }
