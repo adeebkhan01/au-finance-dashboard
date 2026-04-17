@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-17T14:02:56.934Z",
+  "fetchedAt": "2026-04-17T19:37:05.246Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.98,
+      "changePercent": 1.49,
       "previousClose": 0.71,
       "asOf": "2026-04-17",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.91,
-      "change": 0,
-      "changePercent": -0.04,
+      "value": 4.89,
+      "change": -0.02,
+      "changePercent": -0.51,
       "previousClose": 4.92,
       "asOf": "2026-04-17",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 4.91
+          "close": 4.89
         }
       ],
       "label": "AUD/CNY",
@@ -2603,7 +2603,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 4.91
+          "close": 4.89
         }
       ],
       "h6m": [
@@ -2717,7 +2717,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 4.91
+          "close": 4.89
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-04-17",
-          "close": 4.91
+          "close": 4.89
         }
       ]
     },
     "audjpy": {
-      "value": 113.96,
-      "change": 1.51,
-      "changePercent": 1.34,
+      "value": 113.7,
+      "change": 1.25,
+      "changePercent": 1.11,
       "previousClose": 112.45,
       "asOf": "2026-04-17",
       "history": [
@@ -3456,7 +3456,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 113.96
+          "close": 113.7
         }
       ],
       "label": "AUD/JPY",
@@ -3721,7 +3721,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 113.95
+          "close": 113.7
         }
       ],
       "h6m": [
@@ -3835,7 +3835,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 113.95
+          "close": 113.7
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 113.96
+          "close": 113.7
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.98,
+    "changePercent": 1.49,
     "previousClose": 0.71,
     "asOf": "2026-04-17",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.83,
-      "change": -14.38,
-      "changePercent": -14.95,
+      "value": 83.18,
+      "change": -13.03,
+      "changePercent": -13.54,
       "previousClose": 96.21,
       "asOf": "2026-04-17",
       "history": [
@@ -5882,16 +5882,16 @@
         },
         {
           "date": "2026-04-17",
-          "close": 81.83
+          "close": 83.18
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 89.09,
-      "change": -14.33,
-      "changePercent": -13.86,
+      "value": 90.71,
+      "change": -12.71,
+      "changePercent": -12.29,
       "previousClose": 103.42,
       "asOf": "2026-04-17",
       "history": [
@@ -5985,16 +5985,16 @@
         },
         {
           "date": "2026-04-17",
-          "close": 89.09
+          "close": 90.71
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.67,
-      "change": -0.37,
-      "changePercent": -12.07,
+      "value": 2.68,
+      "change": -0.36,
+      "changePercent": -11.74,
       "previousClose": 3.03,
       "asOf": "2026-04-17",
       "history": [
@@ -6088,7 +6088,7 @@
         },
         {
           "date": "2026-04-17",
-          "close": 2.67
+          "close": 2.68
         }
       ],
       "name": "Natural Gas",
@@ -7361,21 +7361,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4894.1,
-      "change": -106.9,
-      "changePercent": -2.14
+      "price": 4876.7,
+      "change": -124.3,
+      "changePercent": -2.49
     },
     {
       "name": "Silver",
-      "price": 82.27,
-      "change": 2.73,
-      "changePercent": 3.44
+      "price": 81.32,
+      "change": 1.78,
+      "changePercent": 2.24
     },
     {
       "name": "Copper",
-      "price": 6.11,
-      "change": 0.38,
-      "changePercent": 6.65
+      "price": 6.09,
+      "change": 0.36,
+      "changePercent": 6.3
     }
   ],
   "housing": {
@@ -7746,6 +7746,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "That meeting you hate may stop AI from stealing your job",
+      "link": "https://www.smh.com.au/business/workplace/that-meeting-you-hate-may-stop-ai-from-stealing-your-job-20260416-p5zoh2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The job of presenting, debating, lobbying or just plain selling the work is rising in importance.",
+      "pubDate": "Sat, 18 Apr 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "‘It’s the vibe’: Court brawl hinges on alleged industrial-scale data hack",
       "link": "https://www.smh.com.au/business/companies/it-s-the-vibe-court-brawl-hinges-on-alleged-industrial-scale-data-hack-20260416-p5zok6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Was it industrial espionage on a massive scale, or is an Australian property data giant just hiding behind a case inspired by ‘The Castle’ in this bruising legal battle?",
@@ -7767,20 +7774,6 @@
       "source": "ABC"
     },
     {
-      "title": "Gold Fields, Great Southern ready rig for big Qld gold target",
-      "link": "https://www.smh.com.au/business/companies/gold-fields-great-southern-ready-rig-for-big-qld-gold-target-20260417-p5zovt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gold Fields and Great Southern Mining are sharpening the drill bits in preparation for a return to the duo’s vast Edinburgh Park gold project in north Queensland.",
-      "pubDate": "Fri, 17 Apr 2026 15:55:26 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Wealthy Maple-Browns to offload two Woollahra shops; Centennial Flats on the market",
-      "link": "https://www.smh.com.au/business/small-business/wealthy-maple-browns-to-offload-two-woollahra-shops-centennial-flats-on-the-market-20260416-p5zoib.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The wealthy Maple-Brown family is selling two shops in leafy Woollahra and a newly constructed Dan Murphy’s has hit the market.",
-      "pubDate": "Fri, 17 Apr 2026 08:19:54 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Bleak outlook ahead for Aussie renters",
       "link": "https://www.news.com.au/finance/real-estate/renting/australian-rents-jump-again-as-vacancy-crisis-deepens-and-households-spend-record-share-of-income-on-housing/news-story/a4069521623244e6d6c21a784e68f8c6?from=rss-basic",
       "snippet": "Australia’s rental crisis has slammed back into overdrive, with new figures revealing tenants are being squeezed harder than ever.",
@@ -7791,6 +7784,13 @@
       "title": "Massive deal for Aussie farmers",
       "link": "https://www.news.com.au/national/politics/indonesia-to-supply-250000-tonnes-of-urea-for-australian-farmers/news-story/7ea5db12a9bbd75ac36cac6399a93ef8?from=rss-basic",
       "snippet": "A critical stock has been locked in for Australian farmers after the war in Iran crippled supply routes.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "‘No explanation’: Probe into suspicious trades",
+      "link": "https://www.news.com.au/finance/markets/world-markets/us-regulator-investigating-suspiciously-timed-trades-made-just-before-donald-trumps-announcements/news-story/cb5ef0271cd07c0a5eef564d3b9b584d?from=rss-basic",
+      "snippet": "A “pattern” of suspiciously timed, highly lucrative trades, all made just before major announcements on the Iran War, is being investigated.",
       "pubDate": "",
       "source": "News.com.au"
     }
