@@ -1,17 +1,13 @@
 {
-  "fetchedAt": "2026-04-16T19:44:16.237Z",
+  "fetchedAt": "2026-04-17T03:50:33.358Z",
   "fx": {
     "audusd": {
       "value": 0.72,
-      "change": 0.02,
-      "changePercent": 2.24,
-      "previousClose": 0.7,
-      "asOf": "2026-04-16",
+      "change": 0.01,
+      "changePercent": 1.37,
+      "previousClose": 0.71,
+      "asOf": "2026-04-17",
       "history": [
-        {
-          "date": "2026-03-16",
-          "close": 0.7
-        },
         {
           "date": "2026-03-17",
           "close": 0.71
@@ -101,7 +97,11 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-15",
+          "close": 0.72
+        },
+        {
+          "date": "2026-04-17",
           "close": 0.72
         }
       ],
@@ -110,10 +110,6 @@
       "dec": 4,
       "h3m": [
         {
-          "date": "2026-01-16",
-          "close": 0.67
-        },
-        {
           "date": "2026-01-19",
           "close": 0.67
         },
@@ -366,7 +362,11 @@
           "close": 0.71
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-15",
+          "close": 0.72
+        },
+        {
+          "date": "2026-04-17",
           "close": 0.72
         }
       ],
@@ -477,18 +477,14 @@
         },
         {
           "date": "2026-04-12",
-          "close": 0.71
+          "close": 0.72
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-17",
           "close": 0.72
         }
       ],
       "h3y": [
-        {
-          "date": "2023-04-09",
-          "close": 0.67
-        },
         {
           "date": "2023-04-16",
           "close": 0.67
@@ -1115,25 +1111,21 @@
         },
         {
           "date": "2026-04-12",
-          "close": 0.71
+          "close": 0.72
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-17",
           "close": 0.72
         }
       ]
     },
     "audeur": {
       "value": 0.61,
-      "change": 0,
-      "changePercent": -0.77,
+      "change": -0.01,
+      "changePercent": -1.07,
       "previousClose": 0.61,
-      "asOf": "2026-04-16",
+      "asOf": "2026-04-17",
       "history": [
-        {
-          "date": "2026-03-16",
-          "close": 0.61
-        },
         {
           "date": "2026-03-17",
           "close": 0.61
@@ -1223,7 +1215,11 @@
           "close": 0.6
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-15",
+          "close": 0.61
+        },
+        {
+          "date": "2026-04-17",
           "close": 0.61
         }
       ],
@@ -1232,10 +1228,6 @@
       "dec": 4,
       "h3m": [
         {
-          "date": "2026-01-16",
-          "close": 0.58
-        },
-        {
           "date": "2026-01-19",
           "close": 0.58
         },
@@ -1488,7 +1480,11 @@
           "close": 0.6
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-15",
+          "close": 0.61
+        },
+        {
+          "date": "2026-04-17",
           "close": 0.61
         }
       ],
@@ -1599,18 +1595,14 @@
         },
         {
           "date": "2026-04-12",
-          "close": 0.6
+          "close": 0.61
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-17",
           "close": 0.61
         }
       ],
       "h3y": [
-        {
-          "date": "2023-04-09",
-          "close": 0.6
-        },
         {
           "date": "2023-04-16",
           "close": 0.6
@@ -2237,25 +2229,21 @@
         },
         {
           "date": "2026-04-12",
-          "close": 0.6
+          "close": 0.61
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-17",
           "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.88,
-      "change": 0.05,
-      "changePercent": 1.1,
-      "previousClose": 4.83,
-      "asOf": "2026-04-16",
+      "value": 4.89,
+      "change": -0.03,
+      "changePercent": -0.57,
+      "previousClose": 4.92,
+      "asOf": "2026-04-17",
       "history": [
-        {
-          "date": "2026-03-16",
-          "close": 4.83
-        },
         {
           "date": "2026-03-17",
           "close": 4.92
@@ -2345,18 +2333,18 @@
           "close": 4.86
         },
         {
-          "date": "2026-04-16",
-          "close": 4.88
+          "date": "2026-04-15",
+          "close": 4.89
+        },
+        {
+          "date": "2026-04-17",
+          "close": 4.89
         }
       ],
       "label": "AUD/CNY",
       "symbol": "AUDCNY=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-01-16",
-          "close": 4.67
-        },
         {
           "date": "2026-01-19",
           "close": 4.66
@@ -2610,8 +2598,12 @@
           "close": 4.86
         },
         {
-          "date": "2026-04-16",
-          "close": 4.88
+          "date": "2026-04-15",
+          "close": 4.89
+        },
+        {
+          "date": "2026-04-17",
+          "close": 4.89
         }
       ],
       "h6m": [
@@ -2721,18 +2713,14 @@
         },
         {
           "date": "2026-04-12",
-          "close": 4.86
+          "close": 4.89
         },
         {
-          "date": "2026-04-16",
-          "close": 4.88
+          "date": "2026-04-17",
+          "close": 4.89
         }
       ],
       "h3y": [
-        {
-          "date": "2023-04-09",
-          "close": 4.57
-        },
         {
           "date": "2023-04-16",
           "close": 4.63
@@ -3359,25 +3347,21 @@
         },
         {
           "date": "2026-04-12",
-          "close": 4.86
+          "close": 4.89
         },
         {
-          "date": "2026-04-16",
-          "close": 4.88
+          "date": "2026-04-17",
+          "close": 4.89
         }
       ]
     },
     "audjpy": {
-      "value": 113.98,
-      "change": 2.2,
-      "changePercent": 1.97,
-      "previousClose": 111.78,
-      "asOf": "2026-04-16",
+      "value": 114.19,
+      "change": 1.74,
+      "changePercent": 1.55,
+      "previousClose": 112.45,
+      "asOf": "2026-04-17",
       "history": [
-        {
-          "date": "2026-03-16",
-          "close": 111.78
-        },
         {
           "date": "2026-03-17",
           "close": 112.45
@@ -3467,18 +3451,18 @@
           "close": 113.2
         },
         {
-          "date": "2026-04-16",
-          "close": 113.98
+          "date": "2026-04-15",
+          "close": 113.95
+        },
+        {
+          "date": "2026-04-17",
+          "close": 114.19
         }
       ],
       "label": "AUD/JPY",
       "symbol": "AUDJPY=X",
       "dec": 2,
       "h3m": [
-        {
-          "date": "2026-01-16",
-          "close": 106.28
-        },
         {
           "date": "2026-01-19",
           "close": 105.35
@@ -3732,8 +3716,12 @@
           "close": 113.2
         },
         {
-          "date": "2026-04-16",
-          "close": 113.98
+          "date": "2026-04-15",
+          "close": 113.95
+        },
+        {
+          "date": "2026-04-17",
+          "close": 114.19
         }
       ],
       "h6m": [
@@ -3843,18 +3831,14 @@
         },
         {
           "date": "2026-04-12",
-          "close": 113.2
+          "close": 113.95
         },
         {
-          "date": "2026-04-16",
-          "close": 113.98
+          "date": "2026-04-17",
+          "close": 114.19
         }
       ],
       "h3y": [
-        {
-          "date": "2023-04-09",
-          "close": 89.73
-        },
         {
           "date": "2023-04-16",
           "close": 89.78
@@ -4481,26 +4465,22 @@
         },
         {
           "date": "2026-04-12",
-          "close": 113.2
+          "close": 113.95
         },
         {
-          "date": "2026-04-16",
-          "close": 113.98
+          "date": "2026-04-17",
+          "close": 114.19
         }
       ]
     }
   },
   "audusd": {
     "value": 0.72,
-    "change": 0.02,
-    "changePercent": 2.24,
-    "previousClose": 0.7,
-    "asOf": "2026-04-16",
+    "change": 0.01,
+    "changePercent": 1.37,
+    "previousClose": 0.71,
+    "asOf": "2026-04-17",
     "history": [
-      {
-        "date": "2026-03-16",
-        "close": 0.7
-      },
       {
         "date": "2026-03-17",
         "close": 0.71
@@ -4590,7 +4570,11 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-15",
+        "close": 0.72
+      },
+      {
+        "date": "2026-04-17",
         "close": 0.72
       }
     ],
@@ -4598,10 +4582,6 @@
     "symbol": "AUDUSD=X",
     "dec": 4,
     "h3m": [
-      {
-        "date": "2026-01-16",
-        "close": 0.67
-      },
       {
         "date": "2026-01-19",
         "close": 0.67
@@ -4855,7 +4835,11 @@
         "close": 0.71
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-15",
+        "close": 0.72
+      },
+      {
+        "date": "2026-04-17",
         "close": 0.72
       }
     ],
@@ -4966,18 +4950,14 @@
       },
       {
         "date": "2026-04-12",
-        "close": 0.71
+        "close": 0.72
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "close": 0.72
       }
     ],
     "h3y": [
-      {
-        "date": "2023-04-09",
-        "close": 0.67
-      },
       {
         "date": "2023-04-16",
         "close": 0.67
@@ -5604,10 +5584,10 @@
       },
       {
         "date": "2026-04-12",
-        "close": 0.71
+        "close": 0.72
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "close": 0.72
       }
     ]
@@ -5806,11 +5786,11 @@
   },
   "energy": {
     "wti": {
-      "value": 90.07,
-      "change": -3.43,
-      "changePercent": -3.67,
+      "value": 89.94,
+      "change": -3.56,
+      "changePercent": -3.81,
       "previousClose": 93.5,
-      "asOf": "2026-04-16",
+      "asOf": "2026-04-17",
       "history": [
         {
           "date": "2026-03-16",
@@ -5902,18 +5882,22 @@
         },
         {
           "date": "2026-04-16",
-          "close": 90.07
+          "close": 94.69
+        },
+        {
+          "date": "2026-04-17",
+          "close": 89.94
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 98.2,
-      "change": -2.01,
-      "changePercent": -2.01,
+      "value": 98.29,
+      "change": -1.92,
+      "changePercent": -1.92,
       "previousClose": 100.21,
-      "asOf": "2026-04-16",
+      "asOf": "2026-04-17",
       "history": [
         {
           "date": "2026-03-16",
@@ -6005,7 +5989,11 @@
         },
         {
           "date": "2026-04-16",
-          "close": 98.2
+          "close": 99.39
+        },
+        {
+          "date": "2026-04-17",
+          "close": 98.29
         }
       ],
       "name": "Brent Crude",
@@ -6013,10 +6001,10 @@
     },
     "gas": {
       "value": 2.66,
-      "change": -0.36,
-      "changePercent": -11.91,
+      "change": -0.37,
+      "changePercent": -12.11,
       "previousClose": 3.02,
-      "asOf": "2026-04-16",
+      "asOf": "2026-04-17",
       "history": [
         {
           "date": "2026-03-16",
@@ -6108,6 +6096,10 @@
         },
         {
           "date": "2026-04-16",
+          "close": 2.65
+        },
+        {
+          "date": "2026-04-17",
           "close": 2.66
         }
       ],
@@ -6194,16 +6186,12 @@
     ]
   },
   "asx200": {
-    "value": 8955,
-    "change": 371.6,
-    "changePercent": 4.33,
-    "previousClose": 8583.4,
-    "asOf": "2026-04-16",
+    "value": 8924.1,
+    "change": 309.8,
+    "changePercent": 3.6,
+    "previousClose": 8614.3,
+    "asOf": "2026-04-17",
     "history": [
-      {
-        "date": "2026-03-15",
-        "close": 8583.4
-      },
       {
         "date": "2026-03-16",
         "close": 8614.3
@@ -6283,132 +6271,140 @@
       {
         "date": "2026-04-15",
         "close": 8978.7
+      },
+      {
+        "date": "2026-04-16",
+        "close": 8955
+      },
+      {
+        "date": "2026-04-17",
+        "close": 8924.1
       }
     ]
   },
   "sectors": [
     {
       "name": "Financials",
-      "changePercent": -2.05,
+      "changePercent": -0.94,
       "stocks": [
         {
           "name": "CBA",
-          "price": 178.11,
-          "changePercent": -2.77
+          "price": 177.38,
+          "changePercent": -0.41
         },
         {
           "name": "WBC",
-          "price": 40.02,
-          "changePercent": -1.65
+          "price": 39.57,
+          "changePercent": -1.12
         },
         {
           "name": "ANZ",
-          "price": 37.73,
-          "changePercent": -1.28
+          "price": 37.7,
+          "changePercent": -0.08
         },
         {
           "name": "NAB",
-          "price": 43.41,
-          "changePercent": -2.49
+          "price": 42.48,
+          "changePercent": -2.14
         }
       ]
     },
     {
       "name": "Materials",
-      "changePercent": 0.43,
+      "changePercent": 1.19,
       "stocks": [
         {
           "name": "BHP",
-          "price": 55.92,
-          "changePercent": -0.34
+          "price": 55.86,
+          "changePercent": -0.12
         },
         {
           "name": "RIO",
-          "price": 172.6,
-          "changePercent": -0.7
+          "price": 172.06,
+          "changePercent": -0.31
         },
         {
           "name": "FMG",
-          "price": 20.98,
-          "changePercent": 1.01
+          "price": 21.02,
+          "changePercent": 0.19
         },
         {
           "name": "MIN",
-          "price": 59.34,
-          "changePercent": 1.75
+          "price": 62.31,
+          "changePercent": 5.01
         }
       ]
     },
     {
       "name": "Health Care",
-      "changePercent": -1.1,
+      "changePercent": -0.66,
       "stocks": [
         {
           "name": "CSL",
-          "price": 137.55,
-          "changePercent": -1.36
+          "price": 136.43,
+          "changePercent": -0.81
         },
         {
           "name": "COH",
-          "price": 169.79,
-          "changePercent": -1.28
+          "price": 168.69,
+          "changePercent": -0.65
         },
         {
           "name": "RMD",
-          "price": 32.02,
-          "changePercent": -2.08
+          "price": 31.42,
+          "changePercent": -1.87
         },
         {
           "name": "SHL",
-          "price": 20.53,
-          "changePercent": 0.34
+          "price": 20.67,
+          "changePercent": 0.68
         }
       ]
     },
     {
       "name": "Consumer Discretionary",
-      "changePercent": 1.74,
+      "changePercent": -1.35,
       "stocks": [
         {
           "name": "WES",
-          "price": 74.06,
-          "changePercent": -0.43
+          "price": 72.79,
+          "changePercent": -1.72
         },
         {
           "name": "HVN",
-          "price": 4.71,
-          "changePercent": 1.51
+          "price": 4.6,
+          "changePercent": -2.34
         },
         {
           "name": "JBH",
-          "price": 76.45,
-          "changePercent": 2.84
+          "price": 75.71,
+          "changePercent": -0.97
         },
         {
           "name": "ALL",
-          "price": 49.13,
-          "changePercent": 3.04
+          "price": 48.94,
+          "changePercent": -0.39
         }
       ]
     },
     {
       "name": "Industrials",
-      "changePercent": -0.18,
+      "changePercent": 0.24,
       "stocks": [
         {
           "name": "TCL",
-          "price": 13.37,
-          "changePercent": -1.26
+          "price": 13.51,
+          "changePercent": 1.05
         },
         {
           "name": "BXB",
-          "price": 22.2,
-          "changePercent": -0.22
+          "price": 22.29,
+          "changePercent": 0.41
         },
         {
           "name": "QAN",
-          "price": 9.16,
-          "changePercent": 0.77
+          "price": 9.12,
+          "changePercent": -0.49
         },
         {
           "name": "SYD",
@@ -6419,157 +6415,157 @@
     },
     {
       "name": "Real Estate",
-      "changePercent": 1.69,
+      "changePercent": 0.71,
       "stocks": [
         {
           "name": "GMG",
-          "price": 29.53,
-          "changePercent": 3.98
+          "price": 29.65,
+          "changePercent": 0.39
         },
         {
           "name": "SGP",
-          "price": 4.28,
-          "changePercent": 1.42
+          "price": 4.32,
+          "changePercent": 0.82
         },
         {
           "name": "GPT",
-          "price": 4.68,
-          "changePercent": 1.08
+          "price": 4.69,
+          "changePercent": 0.21
         },
         {
           "name": "MGR",
-          "price": 1.76,
-          "changePercent": 0.29
+          "price": 1.78,
+          "changePercent": 1.42
         }
       ]
     },
     {
       "name": "Consumer Staples",
-      "changePercent": -0.08,
+      "changePercent": -0.19,
       "stocks": [
         {
           "name": "WOW",
-          "price": 36.77,
-          "changePercent": 0.05
+          "price": 36.38,
+          "changePercent": -1.06
         },
         {
           "name": "COL",
-          "price": 22.7,
-          "changePercent": 0.18
+          "price": 22.45,
+          "changePercent": -1.1
         },
         {
           "name": "TWE",
-          "price": 3.97,
-          "changePercent": 1.53
+          "price": 4.01,
+          "changePercent": 1.13
         },
         {
           "name": "A2M",
-          "price": 7.55,
-          "changePercent": -2.08
+          "price": 7.57,
+          "changePercent": 0.26
         }
       ]
     },
     {
       "name": "Energy",
-      "changePercent": -0.37,
+      "changePercent": -1.42,
       "stocks": [
         {
           "name": "WDS",
-          "price": 32.81,
-          "changePercent": -1.06
+          "price": 32.63,
+          "changePercent": -0.55
         },
         {
           "name": "STO",
-          "price": 7.65,
-          "changePercent": -1.03
+          "price": 7.61,
+          "changePercent": -0.52
         },
         {
           "name": "ORG",
-          "price": 12.38,
-          "changePercent": 1.56
+          "price": 12.36,
+          "changePercent": -0.16
         },
         {
           "name": "WHC",
-          "price": 8.42,
-          "changePercent": -0.94
+          "price": 8.05,
+          "changePercent": -4.45
         }
       ]
     },
     {
       "name": "Info Technology",
-      "changePercent": 7.62,
+      "changePercent": 2.03,
       "stocks": [
         {
           "name": "XRO",
-          "price": 81.86,
-          "changePercent": 9
+          "price": 82.16,
+          "changePercent": 0.37
         },
         {
           "name": "WTC",
-          "price": 44.9,
-          "changePercent": 12.36
+          "price": 45.99,
+          "changePercent": 2.43
         },
         {
           "name": "CPU",
-          "price": 30.09,
-          "changePercent": 0.91
+          "price": 30.4,
+          "changePercent": 1.03
         },
         {
           "name": "APX",
-          "price": 1.52,
-          "changePercent": 8.21
+          "price": 1.58,
+          "changePercent": 4.29
         }
       ]
     },
     {
       "name": "Comm Services",
-      "changePercent": 3.19,
+      "changePercent": 1.34,
       "stocks": [
         {
           "name": "TLS",
-          "price": 5.34,
-          "changePercent": -0.93
+          "price": 5.33,
+          "changePercent": -0.28
         },
         {
           "name": "REA",
-          "price": 171.56,
-          "changePercent": 6.01
+          "price": 174.47,
+          "changePercent": 1.7
         },
         {
           "name": "CAR",
-          "price": 25.66,
-          "changePercent": 6.78
+          "price": 26.23,
+          "changePercent": 2.22
         },
         {
           "name": "NWS",
-          "price": 40.77,
-          "changePercent": 0.89
+          "price": 41.47,
+          "changePercent": 1.72
         }
       ]
     },
     {
       "name": "Utilities",
-      "changePercent": 0.21,
+      "changePercent": 0.11,
       "stocks": [
         {
           "name": "AGL",
-          "price": 9.5,
+          "price": 9.42,
           "changePercent": -0.84
         },
         {
           "name": "APA",
-          "price": 9.74,
-          "changePercent": -0.31
+          "price": 9.88,
+          "changePercent": 1.44
         },
         {
           "name": "ORG",
-          "price": 12.38,
-          "changePercent": 1.56
+          "price": 12.36,
+          "changePercent": -0.16
         },
         {
           "name": "MEZ",
           "price": 4.64,
-          "changePercent": 0.43
+          "changePercent": 0
         }
       ]
     }
@@ -6580,15 +6576,11 @@
       "name": "Commonwealth Bank",
       "ticker": "CBA",
       "color": "#f59e0b",
-      "price": 178.11,
-      "change": 2.58,
-      "changePercent": 1.47,
-      "previousClose": 175.53,
+      "price": 177.41,
+      "change": 1.29,
+      "changePercent": 0.73,
+      "previousClose": 176.12,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 175.53
-        },
         {
           "date": "2026-03-16",
           "close": 176.12
@@ -6672,6 +6664,10 @@
         {
           "date": "2026-04-16",
           "close": 178.11
+        },
+        {
+          "date": "2026-04-17",
+          "close": 177.41
         }
       ]
     },
@@ -6680,15 +6676,11 @@
       "name": "NAB",
       "ticker": "NAB",
       "color": "#1a7a4a",
-      "price": 43.41,
-      "change": -3.65,
-      "changePercent": -7.76,
-      "previousClose": 47.06,
+      "price": 42.48,
+      "change": -4.98,
+      "changePercent": -10.49,
+      "previousClose": 47.46,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 47.06
-        },
         {
           "date": "2026-03-16",
           "close": 47.46
@@ -6772,6 +6764,10 @@
         {
           "date": "2026-04-16",
           "close": 43.41
+        },
+        {
+          "date": "2026-04-17",
+          "close": 42.48
         }
       ]
     },
@@ -6780,15 +6776,11 @@
       "name": "ANZ",
       "ticker": "ANZ",
       "color": "#2563eb",
-      "price": 37.73,
-      "change": 0.28,
-      "changePercent": 0.75,
-      "previousClose": 37.45,
+      "price": 37.7,
+      "change": 0.16,
+      "changePercent": 0.44,
+      "previousClose": 37.53,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 37.45
-        },
         {
           "date": "2026-03-16",
           "close": 37.53
@@ -6872,6 +6864,10 @@
         {
           "date": "2026-04-16",
           "close": 37.73
+        },
+        {
+          "date": "2026-04-17",
+          "close": 37.69
         }
       ]
     },
@@ -6880,15 +6876,11 @@
       "name": "Westpac",
       "ticker": "WBC",
       "color": "#c23a3a",
-      "price": 40.02,
-      "change": -0.9,
-      "changePercent": -2.2,
-      "previousClose": 40.92,
+      "price": 39.57,
+      "change": -1.92,
+      "changePercent": -4.63,
+      "previousClose": 41.49,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 40.92
-        },
         {
           "date": "2026-03-16",
           "close": 41.49
@@ -6972,6 +6964,10 @@
         {
           "date": "2026-04-16",
           "close": 40.02
+        },
+        {
+          "date": "2026-04-17",
+          "close": 39.57
         }
       ]
     }
@@ -6982,15 +6978,11 @@
       "name": "BHP Group",
       "ticker": "BHP",
       "color": "#1a7a4a",
-      "price": 55.92,
-      "change": 6.73,
-      "changePercent": 13.68,
-      "previousClose": 49.19,
+      "price": 55.85,
+      "change": 6.12,
+      "changePercent": 12.31,
+      "previousClose": 49.73,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 49.19
-        },
         {
           "date": "2026-03-16",
           "close": 49.73
@@ -7074,6 +7066,10 @@
         {
           "date": "2026-04-16",
           "close": 55.92
+        },
+        {
+          "date": "2026-04-17",
+          "close": 55.85
         }
       ]
     },
@@ -7082,15 +7078,11 @@
       "name": "Rio Tinto",
       "ticker": "RIO",
       "color": "#2563eb",
-      "price": 172.6,
-      "change": 17.9,
-      "changePercent": 11.57,
-      "previousClose": 154.7,
+      "price": 172.05,
+      "change": 16.86,
+      "changePercent": 10.87,
+      "previousClose": 155.18,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 154.7
-        },
         {
           "date": "2026-03-16",
           "close": 155.18
@@ -7174,6 +7166,10 @@
         {
           "date": "2026-04-16",
           "close": 172.6
+        },
+        {
+          "date": "2026-04-17",
+          "close": 172.04
         }
       ]
     },
@@ -7182,15 +7178,11 @@
       "name": "Fortescue",
       "ticker": "FMG",
       "color": "#f59e0b",
-      "price": 20.98,
-      "change": 1.29,
-      "changePercent": 6.55,
-      "previousClose": 19.69,
+      "price": 21.02,
+      "change": 1.07,
+      "changePercent": 5.34,
+      "previousClose": 19.95,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 19.69
-        },
         {
           "date": "2026-03-16",
           "close": 19.95
@@ -7274,6 +7266,10 @@
         {
           "date": "2026-04-16",
           "close": 20.98
+        },
+        {
+          "date": "2026-04-17",
+          "close": 21.01
         }
       ]
     },
@@ -7282,15 +7278,11 @@
       "name": "Woodside",
       "ticker": "WDS",
       "color": "#7c3aed",
-      "price": 32.81,
-      "change": 1.18,
-      "changePercent": 3.73,
-      "previousClose": 31.63,
+      "price": 32.63,
+      "change": 1.21,
+      "changePercent": 3.85,
+      "previousClose": 31.42,
       "history": [
-        {
-          "date": "2026-03-15",
-          "close": 31.63
-        },
         {
           "date": "2026-03-16",
           "close": 31.42
@@ -7374,6 +7366,10 @@
         {
           "date": "2026-04-16",
           "close": 32.81
+        },
+        {
+          "date": "2026-04-17",
+          "close": 32.63
         }
       ]
     }
@@ -7381,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4812.7,
-      "change": -181.3,
-      "changePercent": -3.63
+      "price": 4813.5,
+      "change": -180.5,
+      "changePercent": -3.61
     },
     {
       "name": "Silver",
-      "price": 78.7,
-      "change": -1.56,
-      "changePercent": -1.95
+      "price": 78.86,
+      "change": -1.4,
+      "changePercent": -1.74
     },
     {
       "name": "Copper",
-      "price": 6.05,
-      "change": 0.26,
-      "changePercent": 4.49
+      "price": 6.04,
+      "change": 0.25,
+      "changePercent": 4.37
     }
   ],
   "housing": {
@@ -7731,10 +7727,10 @@
   ],
   "news": [
     {
-      "title": "ASX set to dip, Wall Street steady; Oil prices climb",
+      "title": "Banks drag on ASX; Oil slides lower",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-dip-wall-street-steady-oil-prices-climb-20260417-p5zolv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The US stockmarket is holding near its record high as Wall Street waits for more clues about what will happen in the Iran war before making its next big move.",
-      "pubDate": "Fri, 17 Apr 2026 05:25:16 +1000",
+      "snippet": "The Australian sharemarket has slid lower at the open despite more gains on Wall Street overnight, while oil prices retreated",
+      "pubDate": "Fri, 17 Apr 2026 11:28:17 +1000",
       "source": "SMH"
     },
     {
@@ -7752,18 +7748,18 @@
       "source": "News.com.au"
     },
     {
-      "title": "NSW nurses and midwives land major payrise",
-      "link": "https://www.news.com.au/finance/work/at-work/nsw-nurses-and-midwives-set-for-bumper-payrise/news-story/d5652172ad9dfb34b766aca7f550bf65?from=rss-basic",
-      "snippet": "A landmark payrise for nurses and midwives in NSW will cost “billions”, the state’s treasurer has warned, but says the investment is crucial.",
+      "title": "ajor call on fuel supply after refinery blaze",
+      "link": "https://www.news.com.au/national/victoria/news/not-doing-that-deputy-pms-major-call-on-fuel-supply-after-geelong-refinery-blaze/news-story/4b4cdebdbcd12afdd0f636deddbc1958?from=rss-basic",
+      "snippet": "One group of Aussies could be set for a hit to their hip pockets, an expert has warned, after the Viva Energy oil refinery burst into flames.",
       "pubDate": "",
       "source": "News.com.au"
     },
     {
-      "title": "Government’s Iran response must be ‘fiscally responsible’: statement",
-      "link": "https://www.news.com.au/national/politics/australia-joins-uk-statement-calling-for-iran-ceasefire-responsible-domestic-response/news-story/8ce027a04e4cf596a0c698b694706dfc?from=rss-basic",
-      "snippet": "Australia’s Treasurer has signed an extraordinary joint statement with US allies warning governments to be “responsible” as fallout from the Iran war grows.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "Wealthy Maple-Browns to offload two Woollahra shops; Centennial Flats on the market",
+      "link": "https://www.smh.com.au/business/small-business/wealthy-maple-browns-to-offload-two-woollahra-shops-centennial-flats-on-the-market-20260416-p5zoib.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The wealthy Maple-Brown family is selling two shops in leafy Woollahra and a newly constructed Dan Murphy’s has hit the market.",
+      "pubDate": "Fri, 17 Apr 2026 08:19:54 +1000",
+      "source": "SMH"
     },
     {
       "title": "AI is taking entry-level jobs. For young workers, it’s a huge problem",
@@ -7801,18 +7797,18 @@
       "source": "News.com.au"
     },
     {
-      "title": "First signs of Mideast conflict hit Australian jobs",
-      "link": "https://www.news.com.au/finance/work/careers/first-economic-impact-of-iran-war-revealed-in-new-australian-jobs-data/news-story/80c13fdfb8298c788ae284e787d4b408?from=rss-basic",
-      "snippet": "Thousands of Australians entered the workforce at the start of the year, but experts warn it could be the calm before the storm and rates may rise again.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "St Kilda announces appeal against Collard ban for homophobic slur",
+      "link": "https://www.abc.net.au/news/2026-04-17/st-kilda-appeal-suspension-lance-collard-using-homophobic-slur/106575702",
+      "snippet": "",
+      "pubDate": "Fri, 17 Apr 2026 02:41:15 +0000",
+      "source": "ABC"
     },
     {
-      "title": "My job doesn’t take mental health seriously. How can I change this?",
-      "link": "https://www.smh.com.au/business/workplace/my-job-doesn-t-take-mental-health-seriously-how-can-i-change-this-20260416-p5zogv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Unfortunately, there’s no blanket solution for managing mental health in the workplace. But there are a few things you can do.",
-      "pubDate": "Fri, 17 Apr 2026 05:01:00 +1000",
-      "source": "SMH"
+      "title": "Former Arsenal, Juventus goalkeeper killed after car hit by train",
+      "link": "https://www.abc.net.au/news/2026-04-17/former-austria-goalkeeper-alex-manninger-killed-car-hit-train/106575124",
+      "snippet": "",
+      "pubDate": "Fri, 17 Apr 2026 00:52:50 +0000",
+      "source": "ABC"
     }
   ]
 }
