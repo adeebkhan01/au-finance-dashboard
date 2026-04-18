@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-18T03:36:04.980Z",
+  "fetchedAt": "2026-04-18T07:41:20.023Z",
   "fx": {
     "audusd": {
       "value": 0.72,
@@ -105,7 +105,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "close": 0.72
         }
       ],
@@ -374,7 +374,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "close": 0.72
         }
       ],
@@ -488,7 +488,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "close": 0.72
         }
       ],
@@ -1122,7 +1122,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "close": 0.72
         }
       ]
@@ -4610,7 +4610,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "close": 0.72
       }
     ],
@@ -4879,7 +4879,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "close": 0.72
       }
     ],
@@ -4993,7 +4993,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "close": 0.72
       }
     ],
@@ -5627,7 +5627,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "close": 0.72
       }
     ]
@@ -5826,16 +5826,12 @@
   },
   "energy": {
     "wti": {
-      "value": 84,
-      "change": -12.21,
-      "changePercent": -12.69,
+      "value": 82.59,
+      "change": -13.62,
+      "changePercent": -14.16,
       "previousClose": 96.21,
       "asOf": "2026-04-18",
       "history": [
-        {
-          "date": "2026-03-17",
-          "close": 96.21
-        },
         {
           "date": "2026-03-18",
           "close": 96.32
@@ -5922,23 +5918,19 @@
         },
         {
           "date": "2026-04-17",
-          "close": 84
+          "close": 83.85
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.87,
-      "change": -11.55,
-      "changePercent": -11.17,
+      "value": 90.38,
+      "change": -13.04,
+      "changePercent": -12.61,
       "previousClose": 103.42,
       "asOf": "2026-04-18",
       "history": [
-        {
-          "date": "2026-03-17",
-          "close": 103.42
-        },
         {
           "date": "2026-03-18",
           "close": 107.38
@@ -6025,23 +6017,19 @@
         },
         {
           "date": "2026-04-17",
-          "close": 91.87
+          "close": 90.38
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.68,
+      "value": 2.67,
       "change": -0.36,
-      "changePercent": -11.8,
+      "changePercent": -11.84,
       "previousClose": 3.03,
       "asOf": "2026-04-18",
       "history": [
-        {
-          "date": "2026-03-17",
-          "close": 3.03
-        },
         {
           "date": "2026-03-18",
           "close": 3.07
@@ -7405,21 +7393,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4849.4,
-      "change": -151.6,
-      "changePercent": -3.03
+      "price": 4879.6,
+      "change": -121.4,
+      "changePercent": -2.43
     },
     {
       "name": "Silver",
-      "price": 80.93,
-      "change": 1.4,
-      "changePercent": 1.76
+      "price": 81.84,
+      "change": 2.31,
+      "changePercent": 2.91
     },
     {
       "name": "Copper",
-      "price": 6.08,
-      "change": 0.36,
-      "changePercent": 6.2
+      "price": 6.11,
+      "change": 0.39,
+      "changePercent": 6.78
     }
   ],
   "housing": {
@@ -7811,13 +7799,6 @@
       "source": "SMH"
     },
     {
-      "title": "Panthers win golden point thriller but lose key man Kenny",
-      "link": "https://www.abc.net.au/news/2026-04-17/nrl-live-updates-raiders-storm-dolphins-panthers/106578186",
-      "snippet": "",
-      "pubDate": "Fri, 17 Apr 2026 07:30:42 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "US-Israeli war against Iran means world has ‘permanently lost’ a chunk of daily oil supply",
       "link": "https://www.news.com.au/finance/economy/world-economy/usisraeli-war-against-iran-means-world-has-permanently-lost-a-chunk-of-daily-oil-supply/news-story/80f891df6b283cfff448ffade4b58706?from=rss-basic",
       "snippet": "The fragility of the planet has been woefully exposed by warring governments this year, and now experts are saying it the effects will be permanent.",
@@ -7837,6 +7818,13 @@
       "snippet": "A critical stock has been locked in for Australian farmers after the war in Iran crippled supply routes.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Country town buzzing as Lance Franklin returns to footy",
+      "link": "https://www.abc.net.au/news/2026-04-18/afl-buddy-franklin-dowerin-game/106550940",
+      "snippet": "",
+      "pubDate": "Sat, 18 Apr 2026 06:24:14 +0000",
+      "source": "ABC"
     }
   ]
 }
