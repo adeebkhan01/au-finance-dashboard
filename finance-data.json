@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-20T14:18:44.313Z",
+  "fetchedAt": "2026-04-20T19:39:37.373Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.2,
+      "changePercent": 1.37,
       "previousClose": 0.71,
       "asOf": "2026-04-20",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.47,
+      "changePercent": -0.44,
       "previousClose": 0.61,
       "asOf": "2026-04-20",
       "history": [
@@ -2214,9 +2214,9 @@
       ]
     },
     "audcny": {
-      "value": 4.88,
-      "change": 0,
-      "changePercent": -0.06,
+      "value": 4.89,
+      "change": 0.01,
+      "changePercent": 0.14,
       "previousClose": 4.89,
       "asOf": "2026-04-20",
       "history": [
@@ -2306,7 +2306,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 4.88
+          "close": 4.89
         }
       ],
       "label": "AUD/CNY",
@@ -2571,7 +2571,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 4.88
+          "close": 4.89
         }
       ],
       "h6m": [
@@ -2681,7 +2681,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 4.88
+          "close": 4.89
         }
       ],
       "h3y": [
@@ -3315,14 +3315,14 @@
         },
         {
           "date": "2026-04-20",
-          "close": 4.88
+          "close": 4.89
         }
       ]
     },
     "audjpy": {
-      "value": 113.75,
-      "change": 1.93,
-      "changePercent": 1.73,
+      "value": 113.99,
+      "change": 2.18,
+      "changePercent": 1.95,
       "previousClose": 111.82,
       "asOf": "2026-04-20",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 113.75
+          "close": 113.99
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 113.74
+          "close": 113.99
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 113.74
+          "close": 114
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 113.74
+          "close": 114
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.2,
+    "changePercent": 1.37,
     "previousClose": 0.71,
     "asOf": "2026-04-20",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 86.35,
-      "change": -11.97,
-      "changePercent": -12.17,
+      "value": 87.13,
+      "change": -11.19,
+      "changePercent": -11.38,
       "previousClose": 98.32,
       "asOf": "2026-04-20",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-20",
-          "close": 86.35
+          "close": 87.13
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 94.25,
-      "change": -17.94,
-      "changePercent": -15.99,
+      "value": 95.21,
+      "change": -16.98,
+      "changePercent": -15.14,
       "previousClose": 112.19,
       "asOf": "2026-04-20",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-20",
-          "close": 94.25
+          "close": 95.21
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.69,
+      "value": 2.68,
       "change": -0.41,
-      "changePercent": -13.21,
+      "changePercent": -13.38,
       "previousClose": 3.1,
       "asOf": "2026-04-20",
       "history": [
@@ -6004,7 +6004,7 @@
         },
         {
           "date": "2026-04-20",
-          "close": 2.69
+          "close": 2.68
         }
       ],
       "name": "Natural Gas",
@@ -7205,21 +7205,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4833.5,
-      "change": 263.1,
-      "changePercent": 5.76
+      "price": 4837.5,
+      "change": 267.1,
+      "changePercent": 5.84
     },
     {
       "name": "Silver",
-      "price": 80.06,
-      "change": 10.7,
-      "changePercent": 15.43
+      "price": 79.97,
+      "change": 10.61,
+      "changePercent": 15.3
     },
     {
       "name": "Copper",
-      "price": 6.06,
-      "change": 0.72,
-      "changePercent": 13.49
+      "price": 6.04,
+      "change": 0.7,
+      "changePercent": 13.14
     }
   ],
   "housing": {
@@ -7569,6 +7569,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to edge up, Wall Street slips; Oil prices higher",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-slips-oil-prices-higher-20260421-p5zpkt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Oil prices are climbing following the latest rise of tensions between the United States and Iran while stocks are giving back a bit of their record-breaking rally.",
+      "pubDate": "Tue, 21 Apr 2026 05:21:19 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Woolies said it ‘Price Dropped’ 276 products – but 96% of them cost more",
       "link": "https://www.smh.com.au/business/companies/woolies-said-it-price-dropped-276-products-but-96-percent-of-them-cost-more-20260420-p5zpf8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Documents released by the Federal Court show the supermarket giant negotiated to raise prices and then “discount” them at the same time.",
@@ -7604,11 +7611,11 @@
       "source": "SMH"
     },
     {
-      "title": "True North triggers QLD copper consolidation with strategic JV",
-      "link": "https://www.smh.com.au/business/companies/true-north-triggers-qld-copper-consolidation-with-strategic-jv-20260420-p5zphj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "True North Copper has moved to consolidate its Qld copper project, offering to buy Renegade Exploration’s stake in the Carpentaria JV, merging two adjacent copper-gold deposits.",
-      "pubDate": "Mon, 20 Apr 2026 15:28:35 +1000",
-      "source": "SMH"
+      "title": "Giant's debut and a taunted Aussie in spotlight as NBA playoffs begin",
+      "link": "https://www.abc.net.au/news/2026-04-21/basketball-nba-playoffs-first-round-series-analysis/106550466",
+      "snippet": "",
+      "pubDate": "Mon, 20 Apr 2026 19:02:12 +0000",
+      "source": "ABC"
     },
     {
       "title": "Flights cancelled, routes change as war uncertainty, fuel price grows",
@@ -7630,13 +7637,6 @@
       "snippet": "More than 6.2 million Australians eligible to claim a $1000 tax deduction without receipts will have to wait.",
       "pubDate": "",
       "source": "News.com.au"
-    },
-    {
-      "title": "Blues confirm Hollands has been admitted to hospital after concerning scenes",
-      "link": "https://www.abc.net.au/news/2026-04-20/carlton-player-elijah-hollands-in-hospital/106585880",
-      "snippet": "",
-      "pubDate": "Mon, 20 Apr 2026 10:32:10 +0000",
-      "source": "ABC"
     }
   ]
 }
