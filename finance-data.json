@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-21T14:15:07.225Z",
+  "fetchedAt": "2026-04-21T19:44:29.735Z",
   "fx": {
     "audusd": {
-      "value": 0.72,
+      "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.37,
+      "changePercent": 0.8,
       "previousClose": 0.71,
       "asOf": "2026-04-21",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.72
+          "close": 0.71
         }
       ],
       "label": "AUD/USD",
@@ -359,7 +359,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.72
+          "close": 0.71
         }
       ],
       "h6m": [
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.72
+          "close": 0.71
         }
       ],
       "h3y": [
@@ -1111,14 +1111,14 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.72
+          "close": 0.71
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.28,
+      "changePercent": -0.47,
       "previousClose": 0.61,
       "asOf": "2026-04-21",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.89,
-      "change": 0,
-      "changePercent": 0.08,
+      "value": 4.86,
+      "change": -0.02,
+      "changePercent": -0.48,
       "previousClose": 4.89,
       "asOf": "2026-04-21",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.89
+          "close": 4.86
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.89
+          "close": 4.86
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.89
+          "close": 4.86
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.89
+          "close": 4.86
         }
       ]
     },
     "audjpy": {
-      "value": 114.18,
-      "change": 2.37,
-      "changePercent": 2.12,
+      "value": 113.81,
+      "change": 1.99,
+      "changePercent": 1.78,
       "previousClose": 111.82,
       "asOf": "2026-04-21",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 114.18
+          "close": 113.81
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 114.18
+          "close": 113.81
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 114.17
+          "close": 113.82
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-04-21",
-          "close": 114.17
+          "close": 113.82
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.72,
+    "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.37,
+    "changePercent": 0.8,
     "previousClose": 0.71,
     "asOf": "2026-04-21",
     "history": [
@@ -4551,7 +4551,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.72
+        "close": 0.71
       }
     ],
     "label": "AUD/USD",
@@ -4816,7 +4816,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.72
+        "close": 0.71
       }
     ],
     "h6m": [
@@ -4930,7 +4930,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.72
+        "close": 0.71
       }
     ],
     "h3y": [
@@ -5568,7 +5568,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.72
+        "close": 0.71
       }
     ]
   },
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 87.17,
-      "change": -11.15,
-      "changePercent": -11.34,
+      "value": 88.79,
+      "change": -9.53,
+      "changePercent": -9.69,
       "previousClose": 98.32,
       "asOf": "2026-04-21",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-21",
-          "close": 87.17
+          "close": 88.79
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 90.83,
-      "change": -21.36,
-      "changePercent": -19.04,
+      "value": 92.37,
+      "change": -19.82,
+      "changePercent": -17.67,
       "previousClose": 112.19,
       "asOf": "2026-04-21",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-21",
-          "close": 90.83
+          "close": 92.37
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.67,
-      "change": -0.43,
-      "changePercent": -13.73,
+      "value": 2.7,
+      "change": -0.4,
+      "changePercent": -12.89,
       "previousClose": 3.1,
       "asOf": "2026-04-21",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 2.67
+          "close": 2.7
         }
       ],
       "name": "Natural Gas",
@@ -7245,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4800.1,
-      "change": 229.7,
-      "changePercent": 5.03
+      "price": 4729.1,
+      "change": 158.7,
+      "changePercent": 3.47
     },
     {
       "name": "Silver",
-      "price": 78.88,
-      "change": 9.52,
-      "changePercent": 13.73
+      "price": 77,
+      "change": 7.64,
+      "changePercent": 11.01
     },
     {
       "name": "Copper",
-      "price": 6.06,
-      "change": 0.72,
-      "changePercent": 13.46
+      "price": 6.01,
+      "change": 0.67,
+      "changePercent": 12.5
     }
   ],
   "housing": {
@@ -7595,13 +7595,6 @@
   ],
   "news": [
     {
-      "title": "ASX wobbles as oil stocks and gold miners fall, Wall Street slips",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-slips-oil-prices-higher-20260421-p5zpkt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket opened higher but erased its gains within the first half hour of trading as investors await progress on further peace talks between the US and Iran.",
-      "pubDate": "Tue, 21 Apr 2026 17:16:33 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "ASX stalls as investors eye Iran tensions",
       "link": "https://www.news.com.au/finance/australian-shares-stall-as-investors-await-outcome-of-usiran-ceasefire-talks/news-story/a6c4a9b8b33cab7cb9b354a21b2f0deb?from=rss-basic",
       "snippet": "Australian shares closed flat as investors held back ahead of a Middle East ceasefire deadline, with energy stocks falling and banks delivered mixed results.",
@@ -7609,10 +7602,10 @@
       "source": "News.com.au"
     },
     {
-      "title": "Fortescue launches ad campaign against billion-dollar diesel tax ‘handouts’ to miners",
-      "link": "https://www.smh.com.au/business/companies/fortescue-launches-ad-campaign-against-billion-dollar-diesel-tax-handouts-to-miners-20260421-p5zpu7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Fortescue is pushing for reform of the country’s diesel tax credits, which it says are an unnecessary “handout” to the mining industry worth billions of dollars.",
-      "pubDate": "Tue, 21 Apr 2026 18:08:42 +1000",
+      "title": "ASX set to fall, Wall Street slides as deadline nears; Trump’s Fed nominee grilled",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-wall-street-slides-as-deadline-nears-trump-s-fed-nominee-grilled-20260422-p5zpwx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are losing ground as Wall Street weighs the latest round of profit reports from big companies with the lingering risks from the ongoing war between the US and Iran.",
+      "pubDate": "Wed, 22 Apr 2026 05:24:53 +1000",
       "source": "SMH"
     },
     {
@@ -7637,6 +7630,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "A $50 billion NDIS is proving too tempting for Australia’s rich-listers",
+      "link": "https://www.smh.com.au/business/companies/a-50-billion-ndis-is-proving-too-tempting-for-australia-s-rich-listers-20260420-p5zpf5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "One NDIS business recorded a 45 per cent revenue jump last financial year and could become the first $1 billion disability business to list on the ASX.",
+      "pubDate": "Wed, 22 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX flat despite Middle East crisis, oil price jump",
       "link": "https://www.news.com.au/finance/markets/australian-markets/oil-price-jump-fails-to-lift-australian-sharemarket-as-middle-east-conflict-hits-banks/news-story/b211eccd4850c1ba262e0600dff39c42?from=rss-basic",
       "snippet": "Australian shares barely moved despite oil prices surging 8 per cent, as US-Iran tensions escalated from the seizure of an Iranian vessel.",
@@ -7658,25 +7658,25 @@
       "source": "SMH"
     },
     {
-      "title": "Are we being cheated on prices? ACCC and supermarkets slug it out in court",
-      "link": "https://www.smh.com.au/business/consumer-affairs/are-we-being-cheated-on-prices-accc-and-supermarkets-slug-it-out-in-court-20260421-p5zpr7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "For the consumer watchdog, this court battle is about more than the prices of Tim Tams, Coke and dog food. It goes to the heart of the grocery giants’ pricing and marketing methods.",
-      "pubDate": "Tue, 21 Apr 2026 15:45:23 +1000",
+      "title": "Retirement Roadmap",
+      "link": "https://www.smh.com.au/business/banking-and-finance/retirement-roadmap-20260420-p5zpio.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Our team of financial experts help you navigate to and through retirement in this six-part series.",
+      "pubDate": "Wed, 22 Apr 2026 05:30:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Aurum rigs roar as thick high-grade gold hits stack up in West Africa",
-      "link": "https://www.smh.com.au/business/companies/aurum-rigs-roar-as-thick-high-grade-gold-hits-stack-up-in-west-africa-20260421-p5zprs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aurum Resources has struck thick gold at Boundiali, extending BDT2 mineralisation beyond its resource as drilling ramps up ahead of key feasibility studies.",
-      "pubDate": "Tue, 21 Apr 2026 13:12:29 +1000",
+      "title": "How drivers could get bigger tax deductions for car expenses within months",
+      "link": "https://www.smh.com.au/business/workplace/how-drivers-could-get-bigger-tax-deductions-for-car-expenses-within-months-20260421-p5zpn1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian Tax Office will decide in May whether to increase the cents-per-kilometre rate for work-related tax deductions, as fuel prices have surged.",
+      "pubDate": "Wed, 22 Apr 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Giant's debut and a taunted Aussie in spotlight as NBA playoffs begin",
-      "link": "https://www.abc.net.au/news/2026-04-21/basketball-nba-playoffs-first-round-series-analysis/106550466",
-      "snippet": "",
-      "pubDate": "Mon, 20 Apr 2026 19:02:12 +0000",
-      "source": "ABC"
+      "title": "Lovin’ democracy? You’re probably doing all right, then",
+      "link": "https://www.smh.com.au/business/the-economy/lovin-democracy-you-re-probably-doing-all-right-then-20260421-p5zps8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Those who aren’t doing well in the economy are less likely to be happy with the way our democracy is treating them. That’s a problem for everyone.",
+      "pubDate": "Wed, 22 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
     }
   ]
 }
