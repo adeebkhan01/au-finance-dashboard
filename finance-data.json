@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-21T08:16:27.405Z",
+  "fetchedAt": "2026-04-21T14:15:07.225Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
+      "value": 0.72,
       "change": 0.01,
-      "changePercent": 0.89,
+      "changePercent": 1.37,
       "previousClose": 0.71,
       "asOf": "2026-04-21",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "label": "AUD/USD",
@@ -359,7 +359,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h6m": [
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h3y": [
@@ -1111,14 +1111,14 @@
         },
         {
           "date": "2026-04-21",
-          "close": 0.71
+          "close": 0.72
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.65,
+      "changePercent": -0.28,
       "previousClose": 0.61,
       "asOf": "2026-04-21",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.87,
-      "change": -0.02,
-      "changePercent": -0.34,
+      "value": 4.89,
+      "change": 0,
+      "changePercent": 0.08,
       "previousClose": 4.89,
       "asOf": "2026-04-21",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.87
+          "close": 4.89
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.87
+          "close": 4.89
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.87
+          "close": 4.89
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-21",
-          "close": 4.87
+          "close": 4.89
         }
       ]
     },
     "audjpy": {
-      "value": 113.74,
-      "change": 1.92,
-      "changePercent": 1.72,
+      "value": 114.18,
+      "change": 2.37,
+      "changePercent": 2.12,
       "previousClose": 111.82,
       "asOf": "2026-04-21",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 113.74
+          "close": 114.18
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 113.74
+          "close": 114.18
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 113.74
+          "close": 114.17
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-04-21",
-          "close": 113.74
+          "close": 114.17
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
+    "value": 0.72,
     "change": 0.01,
-    "changePercent": 0.89,
+    "changePercent": 1.37,
     "previousClose": 0.71,
     "asOf": "2026-04-21",
     "history": [
@@ -4551,7 +4551,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "label": "AUD/USD",
@@ -4816,7 +4816,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h6m": [
@@ -4930,7 +4930,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h3y": [
@@ -5568,7 +5568,7 @@
       },
       {
         "date": "2026-04-21",
-        "close": 0.71
+        "close": 0.72
       }
     ]
   },
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 86.59,
-      "change": -11.73,
-      "changePercent": -11.93,
+      "value": 87.17,
+      "change": -11.15,
+      "changePercent": -11.34,
       "previousClose": 98.32,
       "asOf": "2026-04-21",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-21",
-          "close": 86.59
+          "close": 87.17
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 90.12,
-      "change": -22.07,
-      "changePercent": -19.67,
+      "value": 90.83,
+      "change": -21.36,
+      "changePercent": -19.04,
       "previousClose": 112.19,
       "asOf": "2026-04-21",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-21",
-          "close": 90.12
+          "close": 90.83
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.66,
-      "change": -0.44,
-      "changePercent": -14.05,
+      "value": 2.67,
+      "change": -0.43,
+      "changePercent": -13.73,
       "previousClose": 3.1,
       "asOf": "2026-04-21",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-21",
-          "close": 2.66
+          "close": 2.67
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-04-20",
         "close": 8953.3
-      },
-      {
-        "date": "2026-04-21",
-        "close": 8949.4
       }
     ]
   },
@@ -7249,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4802,
-      "change": 231.6,
-      "changePercent": 5.07
+      "price": 4800.1,
+      "change": 229.7,
+      "changePercent": 5.03
     },
     {
       "name": "Silver",
-      "price": 78.94,
-      "change": 9.58,
-      "changePercent": 13.8
+      "price": 78.88,
+      "change": 9.52,
+      "changePercent": 13.73
     },
     {
       "name": "Copper",
-      "price": 6.03,
-      "change": 0.69,
-      "changePercent": 12.84
+      "price": 6.06,
+      "change": 0.72,
+      "changePercent": 13.46
     }
   ],
   "housing": {
@@ -7613,7 +7609,7 @@
       "source": "News.com.au"
     },
     {
-      "title": "Fortescue launches ad campaign against billion dollar diesel tax ‘handouts’ to miners",
+      "title": "Fortescue launches ad campaign against billion-dollar diesel tax ‘handouts’ to miners",
       "link": "https://www.smh.com.au/business/companies/fortescue-launches-ad-campaign-against-billion-dollar-diesel-tax-handouts-to-miners-20260421-p5zpu7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Fortescue is pushing for reform of the country’s diesel tax credits, which it says are an unnecessary “handout” to the mining industry worth billions of dollars.",
       "pubDate": "Tue, 21 Apr 2026 18:08:42 +1000",
@@ -7648,6 +7644,20 @@
       "source": "News.com.au"
     },
     {
+      "title": "Mining giant hits out at diesel tax credits",
+      "link": "https://www.smh.com.au/business/mining-giant-hits-out-at-diesel-tax-credits-20260421-p5zpvw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A television advertisement from Fortescue&#39;s campaign for reform of the diesel tax credits system.",
+      "pubDate": "Tue, 21 Apr 2026 18:35:44 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Trump is an absolute disaster for the oil and gas industry",
+      "link": "https://www.smh.com.au/business/the-economy/trump-is-an-absolute-disaster-for-the-oil-and-gas-industry-20260420-p5zp9c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US president has done more than anyone to accelerate the world’s green revolution and pull forward the irreversible collapse of fossil fuels.",
+      "pubDate": "Tue, 21 Apr 2026 18:25:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Are we being cheated on prices? ACCC and supermarkets slug it out in court",
       "link": "https://www.smh.com.au/business/consumer-affairs/are-we-being-cheated-on-prices-accc-and-supermarkets-slug-it-out-in-court-20260421-p5zpr7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "For the consumer watchdog, this court battle is about more than the prices of Tim Tams, Coke and dog food. It goes to the heart of the grocery giants’ pricing and marketing methods.",
@@ -7667,20 +7677,6 @@
       "snippet": "",
       "pubDate": "Mon, 20 Apr 2026 19:02:12 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "What can we expect from Apple’s next boss?",
-      "link": "https://www.smh.com.au/business/companies/what-can-we-expect-from-apple-s-next-boss-20260421-p5zprw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "At 50, John Ternus has spent half his life working at Apple. In September, he’ll take over as chief executive.",
-      "pubDate": "Tue, 21 Apr 2026 17:11:14 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Qantas, Virgin launch domestic ticket deals to fill cash coffers in Iran crisis",
-      "link": "https://www.smh.com.au/business/companies/qantas-virgin-launch-domestic-ticket-deals-to-fill-cash-coffers-in-iran-crisis-20260421-p5zppr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Just a week after Qantas warned of an $800 million fuel cost blowout due to the war in the Middle East, the airline and rival Virgin have announced extensive domestic ticket sales.",
-      "pubDate": "Tue, 21 Apr 2026 14:34:12 +1000",
-      "source": "SMH"
     }
   ]
 }
