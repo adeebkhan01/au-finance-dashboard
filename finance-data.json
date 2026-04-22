@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-22T08:14:34.385Z",
+  "fetchedAt": "2026-04-22T14:14:51.125Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.3,
+      "changePercent": 1.2,
       "previousClose": 0.71,
       "asOf": "2026-04-22",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.26,
+      "changePercent": -0.16,
       "previousClose": 0.61,
       "asOf": "2026-04-22",
       "history": [
@@ -2240,7 +2240,7 @@
     "audcny": {
       "value": 4.89,
       "change": 0,
-      "changePercent": 0.09,
+      "changePercent": 0.05,
       "previousClose": 4.89,
       "asOf": "2026-04-22",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.19,
-      "change": 2.38,
-      "changePercent": 2.13,
+      "value": 114.08,
+      "change": 2.26,
+      "changePercent": 2.02,
       "previousClose": 111.82,
       "asOf": "2026-04-22",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.19
+          "close": 114.07
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.19
+          "close": 114.07
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.19
+          "close": 114.08
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.19
+          "close": 114.07
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.3,
+    "changePercent": 1.2,
     "previousClose": 0.71,
     "asOf": "2026-04-22",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.3,
-      "change": 1.17,
-      "changePercent": 1.33,
+      "value": 91.65,
+      "change": 3.52,
+      "changePercent": 3.99,
       "previousClose": 88.13,
       "asOf": "2026-04-22",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-04-22",
-          "close": 89.3
+          "close": 91.65
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.11,
-      "change": -6.83,
-      "changePercent": -6.83,
+      "value": 95.09,
+      "change": -4.85,
+      "changePercent": -4.85,
       "previousClose": 99.94,
       "asOf": "2026-04-22",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-04-22",
-          "close": 93.11
+          "close": 95.09
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.72,
-      "change": -0.17,
-      "changePercent": -6.05,
+      "value": 2.74,
+      "change": -0.16,
+      "changePercent": -5.4,
       "previousClose": 2.89,
       "asOf": "2026-04-22",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 2.72
+          "close": 2.73
         }
       ],
       "name": "Natural Gas",
@@ -6247,10 +6247,6 @@
       {
         "date": "2026-04-21",
         "close": 8949.4
-      },
-      {
-        "date": "2026-04-22",
-        "close": 8843.6
       }
     ]
   },
@@ -7317,21 +7313,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4777.6,
-      "change": 373.5,
-      "changePercent": 8.48
+      "price": 4763.9,
+      "change": 359.8,
+      "changePercent": 8.17
     },
     {
       "name": "Silver",
-      "price": 78.22,
-      "change": 9.17,
-      "changePercent": 13.28
+      "price": 78.15,
+      "change": 9.1,
+      "changePercent": 13.18
     },
     {
       "name": "Copper",
       "price": 6.06,
       "change": 0.62,
-      "changePercent": 11.43
+      "changePercent": 11.47
     }
   ],
   "housing": {
@@ -7702,16 +7698,16 @@
       "source": "News.com.au"
     },
     {
-      "title": "‘Nothing more than a tax hike’: Harsh budget call as Chalmers urged to raise GST, cut income taxes",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/nothing-more-than-a-tax-hike-harsh-budget-call-as-chalmers-urged-to-raise-gst-cut-income-taxes/news-story/7132fdd4a35ab35291f9d65e05521ab6?from=rss-basic",
-      "snippet": "A top economist has delivered a harsh verdict on Jim Chalmers’ budget plans as the Treasurer plots a crackdown on “intergenerational unfairness”.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "KIIS turns tables on Kyle and Jackie O, sues pair for millions",
+      "link": "https://www.smh.com.au/business/companies/don-t-bother-coming-back-kyle-s-alleged-rant-at-jackie-o-20260421-p5zpn9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The radio station has filed a letter with the Federal Court from Jackie “O” Henderson’s lawyers alleging Kyle Sandilands systematically bullied her as it defends contract claims from both stars.",
+      "pubDate": "Wed, 22 Apr 2026 19:03:41 +1000",
+      "source": "SMH"
     },
     {
-      "title": "‘Theft’: Brutal swipe as debt nears $1 trillion",
-      "link": "https://www.news.com.au/finance/economy/australian-economy/coalition-launches-debt-clock-to-track-national-debt-under-labor/news-story/415e2e1db8c803fa44cfcbcc159f9c4d?from=rss-basic",
-      "snippet": "The Coalition has taken an unconventional approach in its latest attack on Labor’s management of the Australian economy.",
+      "title": "$19bn tax plan to fix Aussie housing crisis",
+      "link": "https://www.news.com.au/finance/economy/australian-economy/experts-urge-sweeping-tax-overhaul-to-scrap-stamp-duty-for-land-tax/news-story/222874969a0e7d2e5f14a59e7b1dc681?from=rss-basic",
+      "snippet": "A sweeping reform involving Australia’s “most damaging” tax being abolished could unlock homeownership for thousands of Australians, experts have claimed.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7737,17 +7733,17 @@
       "source": "SMH"
     },
     {
-      "title": "Kaiser Reef readies rigs for Victorian gold drilling blitz",
-      "link": "https://www.smh.com.au/business/companies/kaiser-reef-readies-rigs-for-victorian-gold-drilling-blitz-20260422-p5zq6o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Kaiser Reef has prepped its Maldon gold project for a drilling blitz, with refurbishment and fresh exploration set to unlock high-grade targets in Victoria’s Golden Triangle.",
-      "pubDate": "Wed, 22 Apr 2026 15:05:32 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Group says site of new greyhound track should be for housing",
       "link": "https://www.abc.net.au/news/2026-04-22/orange-greyhound-track-approved/106587268",
       "snippet": "",
       "pubDate": "Wed, 22 Apr 2026 03:25:15 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "NSW welcomes back superstar, hands Origin debut to Dragons gun",
+      "link": "https://www.abc.net.au/news/2026-04-22/nsw-sky-blues-name-team-for-womens-state-of-origin-i/106592350",
+      "snippet": "",
+      "pubDate": "Wed, 22 Apr 2026 03:05:21 +0000",
       "source": "ABC"
     }
   ]
