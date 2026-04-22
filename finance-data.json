@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-22T14:14:51.125Z",
+  "fetchedAt": "2026-04-22T19:46:10.909Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.2,
+      "changePercent": 1.12,
       "previousClose": 0.71,
       "asOf": "2026-04-22",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.16,
+      "changePercent": -0.02,
       "previousClose": 0.61,
       "asOf": "2026-04-22",
       "history": [
@@ -2240,7 +2240,7 @@
     "audcny": {
       "value": 4.89,
       "change": 0,
-      "changePercent": 0.05,
+      "changePercent": -0.01,
       "previousClose": 4.89,
       "asOf": "2026-04-22",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.08,
-      "change": 2.26,
-      "changePercent": 2.02,
+      "value": 114.19,
+      "change": 2.38,
+      "changePercent": 2.12,
       "previousClose": 111.82,
       "asOf": "2026-04-22",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.07
+          "close": 114.19
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.07
+          "close": 114.19
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.08
+          "close": 114.19
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 114.07
+          "close": 114.19
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.2,
+    "changePercent": 1.12,
     "previousClose": 0.71,
     "asOf": "2026-04-22",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.65,
-      "change": 3.52,
-      "changePercent": 3.99,
+      "value": 92.59,
+      "change": 4.46,
+      "changePercent": 5.06,
       "previousClose": 88.13,
       "asOf": "2026-04-22",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-04-22",
-          "close": 91.65
+          "close": 92.59
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.09,
-      "change": -4.85,
-      "changePercent": -4.85,
+      "value": 101.47,
+      "change": 1.53,
+      "changePercent": 1.53,
       "previousClose": 99.94,
       "asOf": "2026-04-22",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-04-22",
-          "close": 95.09
+          "close": 101.47
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.74,
-      "change": -0.16,
-      "changePercent": -5.4,
+      "value": 2.71,
+      "change": -0.18,
+      "changePercent": -6.16,
       "previousClose": 2.89,
       "asOf": "2026-04-22",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-04-22",
-          "close": 2.73
+          "close": 2.71
         }
       ],
       "name": "Natural Gas",
@@ -7313,21 +7313,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4763.9,
-      "change": 359.8,
-      "changePercent": 8.17
+      "price": 4758.6,
+      "change": 354.5,
+      "changePercent": 8.05
     },
     {
       "name": "Silver",
-      "price": 78.15,
-      "change": 9.1,
-      "changePercent": 13.18
+      "price": 77.66,
+      "change": 8.61,
+      "changePercent": 12.47
     },
     {
       "name": "Copper",
-      "price": 6.06,
-      "change": 0.62,
-      "changePercent": 11.47
+      "price": 6.14,
+      "change": 0.7,
+      "changePercent": 12.83
     }
   ],
   "housing": {
@@ -7670,25 +7670,18 @@
       "source": "News.com.au"
     },
     {
-      "title": "ASX slumps on war uncertainty, Cochlear tanks; BHP gains on China breakthrough",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-wall-street-slides-as-deadline-nears-trump-s-fed-nominee-grilled-20260422-p5zpwx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The ASX has closed in the red as Middle East uncertainty hovers over markets, even after President Donald Trump agreed to extend a ceasefire.",
-      "pubDate": "Wed, 22 Apr 2026 16:48:58 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "BHP has won the battle, but China’s $93b iron ore flex will continue",
-      "link": "https://www.smh.com.au/business/companies/bhp-has-won-the-battle-but-china-s-93b-iron-ore-flex-will-continue-20260422-p5zq21.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The stakes were huge in the brutal nine-month iron ore pricing stand-off between China and our largest miner - for the company, the industry and the Australian economy.",
-      "pubDate": "Wed, 22 Apr 2026 15:43:19 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Expert warns negative gearing change will supercharge rents, ‘tighten’ supply",
       "link": "https://www.news.com.au/finance/economy/federal-budget/expert-warns-negative-gearing-change-will-supercharge-rents-tighten-supply/news-story/0b18d9089bc660f8c17e05e98a9c6d5c?from=rss-basic",
       "snippet": "A leading property figure has issued a warning ahead of the biggest shake-up Australia’s housing market has faced in decades.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "ASX set to slide, Wall Street advances; Tesla results ahead",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-advances-oil-climbs-20260423-p5zq9s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street rises on the back of strong company results but the Australian sharemarket is set to decline as uncertainty over the Iran war continues to cast a shadow over markets.",
+      "pubDate": "Thu, 23 Apr 2026 05:19:33 +1000",
+      "source": "SMH"
     },
     {
       "title": "Billions wiped from ASX in worst day in three weeks",
@@ -7719,17 +7712,17 @@
       "source": "News.com.au"
     },
     {
+      "title": "LinkedIn wins news bargaining reprieve as Microsoft boss lands in Sydney",
+      "link": "https://www.smh.com.au/business/companies/linkedin-wins-news-bargaining-reprieve-as-microsoft-boss-lands-in-sydney-20260422-p5zpzn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Satya Nadella arrives in Australia this week as Treasury finalises a news bargaining scheme that is expected to leave his company untouched.",
+      "pubDate": "Thu, 23 Apr 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Hastings eyes US$53M first-year revenue from Thai rare earths plant",
       "link": "https://www.smh.com.au/business/companies/hastings-eyes-us-53m-first-year-revenue-from-thai-rare-earths-plant-20260422-p5zq7y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Hastings Technology Metals is nearing first revenue from its Thai hydromet plant. The facility is due to start in Q4 and is forecast to generate US$53.4M in year one.",
       "pubDate": "Wed, 22 Apr 2026 17:00:54 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Gateway hits end-of-hole gold at WA Yandal play",
-      "link": "https://www.smh.com.au/business/companies/gateway-hits-end-of-hole-gold-at-wa-yandal-play-20260422-p5zq76.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gateway Mining has hit a 32m gold in a hole that ended in mineralisation at its Mustang prospect in Western Australia, extending the target to 900m of strike.",
-      "pubDate": "Wed, 22 Apr 2026 15:55:36 +1000",
       "source": "SMH"
     },
     {
@@ -7745,6 +7738,13 @@
       "snippet": "",
       "pubDate": "Wed, 22 Apr 2026 03:05:21 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "China’s genius move shows up Australia",
+      "link": "https://www.news.com.au/finance/economy/world-economy/china-sidesteps-global-energy-shock-after-us-assault-on-iran-triggers-crisis/news-story/8384adb9c0bdcdb4ced8304d853e2b7d?from=rss-basic",
+      "snippet": "Beijing now controls the supply chains of a massive list of crucial minerals. And now we know it is absolutely willing to exploit them.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
