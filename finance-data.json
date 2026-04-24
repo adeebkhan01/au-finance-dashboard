@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-24T08:30:21.211Z",
+  "fetchedAt": "2026-04-24T14:13:22.175Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.78,
+      "changePercent": 1.93,
       "previousClose": 0.7,
       "asOf": "2026-04-24",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.04,
+      "changePercent": 0.99,
       "previousClose": 0.6,
       "asOf": "2026-04-24",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.87,
-      "change": 0.05,
-      "changePercent": 1.1,
+      "value": 4.88,
+      "change": 0.06,
+      "changePercent": 1.19,
       "previousClose": 4.82,
       "asOf": "2026-04-24",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 4.87
+          "close": 4.88
         }
       ],
       "label": "AUD/CNY",
@@ -2603,7 +2603,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 4.87
+          "close": 4.88
         }
       ],
       "h6m": [
@@ -2717,7 +2717,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 4.87
+          "close": 4.88
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-04-24",
-          "close": 4.87
+          "close": 4.88
         }
       ]
     },
     "audjpy": {
-      "value": 113.89,
-      "change": 2.88,
-      "changePercent": 2.6,
+      "value": 113.86,
+      "change": 2.84,
+      "changePercent": 2.56,
       "previousClose": 111.01,
       "asOf": "2026-04-24",
       "history": [
@@ -3456,7 +3456,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 113.89
+          "close": 113.86
         }
       ],
       "label": "AUD/JPY",
@@ -3721,7 +3721,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 113.89
+          "close": 113.86
         }
       ],
       "h6m": [
@@ -3835,7 +3835,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 113.89
+          "close": 113.85
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 113.89
+          "close": 113.85
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.78,
+    "changePercent": 1.93,
     "previousClose": 0.7,
     "asOf": "2026-04-24",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 97.13,
-      "change": 4.78,
-      "changePercent": 5.18,
+      "value": 95.38,
+      "change": 3.03,
+      "changePercent": 3.28,
       "previousClose": 92.35,
       "asOf": "2026-04-24",
       "history": [
@@ -5882,16 +5882,16 @@
         },
         {
           "date": "2026-04-24",
-          "close": 97.13
+          "close": 95.38
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 100.78,
-      "change": -3.71,
-      "changePercent": -3.55,
+      "value": 99.42,
+      "change": -5.07,
+      "changePercent": -4.85,
       "previousClose": 104.49,
       "asOf": "2026-04-24",
       "history": [
@@ -5985,16 +5985,16 @@
         },
         {
           "date": "2026-04-24",
-          "close": 100.78
+          "close": 99.42
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.73,
-      "change": -0.21,
-      "changePercent": -7.24,
+      "value": 2.67,
+      "change": -0.27,
+      "changePercent": -9.24,
       "previousClose": 2.94,
       "asOf": "2026-04-24",
       "history": [
@@ -6088,7 +6088,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 2.73
+          "close": 2.67
         }
       ],
       "name": "Natural Gas",
@@ -6263,10 +6263,6 @@
       {
         "date": "2026-04-23",
         "close": 8793.4
-      },
-      {
-        "date": "2026-04-24",
-        "close": 8786.5
       }
     ]
   },
@@ -7365,21 +7361,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4708.7,
-      "change": 309.4,
-      "changePercent": 7.03
+      "price": 4729.1,
+      "change": 329.8,
+      "changePercent": 7.5
     },
     {
       "name": "Silver",
-      "price": 74.82,
-      "change": 5.54,
-      "changePercent": 8
+      "price": 75.74,
+      "change": 6.47,
+      "changePercent": 9.33
     },
     {
       "name": "Copper",
-      "price": 6.02,
-      "change": 0.6,
-      "changePercent": 11.01
+      "price": 6.03,
+      "change": 0.61,
+      "changePercent": 11.17
     }
   ],
   "housing": {
@@ -7771,6 +7767,13 @@
       "source": "SMH"
     },
     {
+      "title": "Beware of resource-hungry Big Tech taking a foothold",
+      "link": "https://www.smh.com.au/business/small-business/beware-of-resource-hungry-big-tech-taking-a-foothold-20260424-p5zqpa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Communities in the US oppose data centres for environmental and employment reasons so IT giants are rushing into Australia’s open arms.",
+      "pubDate": "Fri, 24 Apr 2026 18:30:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Massive update on Aussie fuel",
       "link": "https://www.news.com.au/national/politics/australia-to-receive-an-additional-100-million-litres-of-diesel-as-albanese-eyes-regional-qld/news-story/f53602bb1d677beabfbad32a52315416?from=rss-basic",
       "snippet": "Australia has struck a deal for another massive diesel shipment, as the Albanese government eyes one parched region.",
@@ -7785,17 +7788,10 @@
       "source": "News.com.au"
     },
     {
-      "title": "Blues star says Women's Origin timing 'not ideal' after six-month lay-off",
-      "link": "https://www.abc.net.au/news/2026-04-24/kezie-apps-says-womens-state-of-origin-timing-not-ideal/106604306",
+      "title": "Ruthless Demons notch big win as Richmond's winless season continues",
+      "link": "https://www.abc.net.au/news/2026-04-24/afl-round-seven-friday-richmond-melbourne-live-blog/106604112",
       "snippet": "",
-      "pubDate": "Fri, 24 Apr 2026 07:44:04 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Live: Cowboys welcome back key players, Raiders call out vile online abuse",
-      "link": "https://www.abc.net.au/news/2026-04-24/nrl-live-updates-cowboys-sharks-broncos-bulldogs/106591508",
-      "snippet": "",
-      "pubDate": "Fri, 24 Apr 2026 06:55:54 +0000",
+      "pubDate": "Fri, 24 Apr 2026 08:44:00 +0000",
       "source": "ABC"
     }
   ]
