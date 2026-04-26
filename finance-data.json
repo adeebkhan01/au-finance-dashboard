@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-04-25T19:25:33.192Z",
+  "fetchedAt": "2026-04-26T04:01:49.999Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
       "changePercent": 2.1,
       "previousClose": 0.7,
-      "asOf": "2026-04-25",
+      "asOf": "2026-04-26",
       "history": [
         {
           "date": "2026-03-24",
@@ -1132,7 +1132,7 @@
       "change": 0.01,
       "changePercent": 1.04,
       "previousClose": 0.6,
-      "asOf": "2026-04-25",
+      "asOf": "2026-04-26",
       "history": [
         {
           "date": "2026-03-24",
@@ -2258,7 +2258,7 @@
       "change": 0.07,
       "changePercent": 1.41,
       "previousClose": 4.82,
-      "asOf": "2026-04-25",
+      "asOf": "2026-04-26",
       "history": [
         {
           "date": "2026-03-24",
@@ -3384,7 +3384,7 @@
       "change": 2.94,
       "changePercent": 2.65,
       "previousClose": 111.01,
-      "asOf": "2026-04-25",
+      "asOf": "2026-04-26",
       "history": [
         {
           "date": "2026-03-24",
@@ -4511,7 +4511,7 @@
     "change": 0.01,
     "changePercent": 2.1,
     "previousClose": 0.7,
-    "asOf": "2026-04-25",
+    "asOf": "2026-04-26",
     "history": [
       {
         "date": "2026-03-24",
@@ -5827,15 +5827,11 @@
   "energy": {
     "wti": {
       "value": 94.4,
-      "change": 2.05,
-      "changePercent": 2.22,
-      "previousClose": 92.35,
-      "asOf": "2026-04-25",
+      "change": -0.08,
+      "changePercent": -0.08,
+      "previousClose": 94.48,
+      "asOf": "2026-04-26",
       "history": [
-        {
-          "date": "2026-03-25",
-          "close": 90.32
-        },
         {
           "date": "2026-03-26",
           "close": 94.48
@@ -5926,15 +5922,11 @@
     },
     "brent": {
       "value": 99.13,
-      "change": -5.36,
-      "changePercent": -5.13,
-      "previousClose": 104.49,
-      "asOf": "2026-04-25",
+      "change": -8.88,
+      "changePercent": -8.22,
+      "previousClose": 108.01,
+      "asOf": "2026-04-26",
       "history": [
-        {
-          "date": "2026-03-25",
-          "close": 102.22
-        },
         {
           "date": "2026-03-26",
           "close": 108.01
@@ -6017,7 +6009,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 105.33
+          "close": 99.13
         }
       ],
       "name": "Brent Crude",
@@ -6025,15 +6017,11 @@
     },
     "gas": {
       "value": 2.68,
-      "change": -0.26,
-      "changePercent": -8.83,
-      "previousClose": 2.94,
-      "asOf": "2026-04-25",
+      "change": -0.32,
+      "changePercent": -10.54,
+      "previousClose": 3,
+      "asOf": "2026-04-26",
       "history": [
-        {
-          "date": "2026-03-25",
-          "close": 2.95
-        },
         {
           "date": "2026-03-26",
           "close": 3
@@ -6116,7 +6104,7 @@
         },
         {
           "date": "2026-04-24",
-          "close": 2.52
+          "close": 2.68
         }
       ],
       "name": "Natural Gas",
@@ -6206,7 +6194,7 @@
     "change": 407.1,
     "changePercent": 4.86,
     "previousClose": 8379.4,
-    "asOf": "2026-04-25",
+    "asOf": "2026-04-26",
     "history": [
       {
         "date": "2026-03-23",
@@ -7394,20 +7382,20 @@
     {
       "name": "Gold",
       "price": 4740.9,
-      "change": 341.6,
-      "changePercent": 7.76
+      "change": 365.4,
+      "changePercent": 8.35
     },
     {
       "name": "Silver",
       "price": 76.41,
-      "change": 7.14,
-      "changePercent": 10.31
+      "change": 8.74,
+      "changePercent": 12.92
     },
     {
       "name": "Copper",
       "price": 6.03,
-      "change": 0.6,
-      "changePercent": 11.15
+      "change": 0.58,
+      "changePercent": 10.66
     }
   ],
   "housing": {
@@ -7764,6 +7752,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "‘Pretty rude’: What shoppers thought as Woolies defended discounts in court",
+      "link": "https://www.smh.com.au/business/consumer-affairs/pretty-rude-what-shoppers-thought-as-woolies-defended-discounts-in-court-20260421-p5zpsv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The supermarket chain argues that its suppliers were demanding it raise prices as inflation spiked, and it then offered shoppers genuine specials.",
+      "pubDate": "Sun, 26 Apr 2026 05:30:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX falls for fifth straight session",
       "link": "https://www.news.com.au/finance/markets/australian-markets/australian-sharemarket-drops-for-fifth-straight-day-as-oil-prices-jump/news-story/d6fe92489b3c092fdc3670055f59c624?from=rss-basic",
       "snippet": "Australian shares have plunged for five consecutive sessions, with the market now facing its second straight week of losses amid global tensions.",
@@ -7792,17 +7787,10 @@
       "source": "SMH"
     },
     {
-      "title": "Black Ferns outclass Wallaroos in Anzac Day Test",
-      "link": "https://www.abc.net.au/news/2026-04-25/anzac-day-test-wallaroos-black-ferns-australia-new-zealand-live/106606480",
+      "title": "Reed to keep starting role after Dragons suffer Anzac Day belting",
+      "link": "https://www.abc.net.au/news/2026-04-26/dragons-nrl-halfback-kade-reed-to-keep-starting-role/106606818",
       "snippet": "",
-      "pubDate": "Sat, 25 Apr 2026 09:00:09 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Family history drives Wallaroos star in Anzac Day Test against NZ",
-      "link": "https://www.abc.net.au/news/2026-04-25/anzac-day-test-australia-new-zealand-wallaroos-piper-duck/106601970",
-      "snippet": "",
-      "pubDate": "Fri, 24 Apr 2026 19:12:32 +0000",
+      "pubDate": "Sat, 25 Apr 2026 21:01:04 +0000",
       "source": "ABC"
     },
     {
