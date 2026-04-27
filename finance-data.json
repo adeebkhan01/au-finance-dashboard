@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-27T09:03:53.429Z",
+  "fetchedAt": "2026-04-27T14:33:52.532Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.41,
+      "changePercent": 4.44,
       "previousClose": 0.69,
       "asOf": "2026-04-27",
       "history": [
@@ -1109,8 +1109,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0.01,
-      "changePercent": 2.48,
+      "change": 0.02,
+      "changePercent": 2.6,
       "previousClose": 0.6,
       "asOf": "2026-04-27",
       "history": [
@@ -2215,8 +2215,8 @@
     },
     "audcny": {
       "value": 4.9,
-      "change": 0.14,
-      "changePercent": 3.02,
+      "change": 0.15,
+      "changePercent": 3.06,
       "previousClose": 4.76,
       "asOf": "2026-04-27",
       "history": [
@@ -3320,9 +3320,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.39,
-      "change": 4.41,
-      "changePercent": 4.01,
+      "value": 114.47,
+      "change": 4.49,
+      "changePercent": 4.08,
       "previousClose": 109.98,
       "asOf": "2026-04-27",
       "history": [
@@ -3412,7 +3412,7 @@
         },
         {
           "date": "2026-04-27",
-          "close": 114.39
+          "close": 114.47
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-04-27",
-          "close": 114.39
+          "close": 114.47
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-04-27",
-          "close": 114.39
+          "close": 114.47
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-04-27",
-          "close": 114.39
+          "close": 114.47
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.41,
+    "changePercent": 4.44,
     "previousClose": 0.69,
     "asOf": "2026-04-27",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.54,
-      "change": -3.1,
-      "changePercent": -3.11,
+      "value": 96.18,
+      "change": -3.46,
+      "changePercent": -3.47,
       "previousClose": 99.64,
       "asOf": "2026-04-27",
       "history": [
@@ -5814,16 +5814,16 @@
         },
         {
           "date": "2026-04-27",
-          "close": 96.54
+          "close": 96.18
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 101.6,
-      "change": -10.97,
-      "changePercent": -9.75,
+      "value": 101.42,
+      "change": -11.15,
+      "changePercent": -9.9,
       "previousClose": 112.57,
       "asOf": "2026-04-27",
       "history": [
@@ -5909,16 +5909,16 @@
         },
         {
           "date": "2026-04-27",
-          "close": 101.6
+          "close": 101.42
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.7,
-      "change": -0.39,
-      "changePercent": -12.67,
+      "value": 2.8,
+      "change": -0.3,
+      "changePercent": -9.6,
       "previousClose": 3.1,
       "asOf": "2026-04-27",
       "history": [
@@ -6004,7 +6004,7 @@
         },
         {
           "date": "2026-04-27",
-          "close": 2.7
+          "close": 2.8
         }
       ],
       "name": "Natural Gas",
@@ -6171,10 +6171,6 @@
       {
         "date": "2026-04-24",
         "close": 8786.5
-      },
-      {
-        "date": "2026-04-27",
-        "close": 8766.4
       }
     ]
   },
@@ -7209,21 +7205,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4722.9,
-      "change": 230.9,
-      "changePercent": 5.14
+      "price": 4707.7,
+      "change": 215.7,
+      "changePercent": 4.8
     },
     {
       "name": "Silver",
-      "price": 75.56,
-      "change": 6.02,
-      "changePercent": 8.65
+      "price": 75.23,
+      "change": 5.69,
+      "changePercent": 8.17
     },
     {
       "name": "Copper",
-      "price": 6.1,
-      "change": 0.64,
-      "changePercent": 11.62
+      "price": 6.08,
+      "change": 0.61,
+      "changePercent": 11.13
     }
   ],
   "housing": {
@@ -7615,16 +7611,16 @@
       "source": "ABC"
     },
     {
-      "title": "Revolutionary plan to get Boomers out of their big homes",
-      "link": "https://www.news.com.au/finance/real-estate/selling/bedroom-glutton-revolutionary-plan-to-get-boomers-out-of-their-big-homes/news-story/dfc1c6a9fb2625eee7e7e0fc7acf07cf?from=rss-basic",
-      "snippet": "A new plan could help free up some of Australia’s 13 million empty bedrooms as the nation’s housing shortage deepens.",
+      "title": "Coalition’s $800m plan to solve fuel crisis",
+      "link": "https://www.news.com.au/national/politics/coalition-puts-forward-an-800m-plan-to-double-fuel-reserves-and-provide-more-storage/news-story/f98508ecb3a91bb570d1d6218502a3a5?from=rss-basic",
+      "snippet": "The Coalition has unveiled its $800m plan to secure fuel reserves and provide an additional 1bn litres of storage, amid ongoing fallout from the Middle East conflict.",
       "pubDate": "",
       "source": "News.com.au"
     },
     {
-      "title": "Massive update on Aussie fuel",
-      "link": "https://www.news.com.au/national/politics/australia-to-receive-an-additional-100-million-litres-of-diesel-as-albanese-eyes-regional-qld/news-story/f53602bb1d677beabfbad32a52315416?from=rss-basic",
-      "snippet": "Australia has struck a deal for another massive diesel shipment, as the Albanese government eyes one parched region.",
+      "title": "Revolutionary plan to get Boomers out of their big homes",
+      "link": "https://www.news.com.au/finance/real-estate/selling/bedroom-glutton-revolutionary-plan-to-get-boomers-out-of-their-big-homes/news-story/dfc1c6a9fb2625eee7e7e0fc7acf07cf?from=rss-basic",
+      "snippet": "A new plan could help free up some of Australia’s 13 million empty bedrooms as the nation’s housing shortage deepens.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7638,7 +7634,7 @@
     {
       "title": "Australia’s addiction to Amazon is set to blow past $5 billion",
       "link": "https://www.smh.com.au/business/companies/australia-s-addiction-to-amazon-is-set-to-blow-past-5-billion-20260427-p5zrba.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The numbers lay bare how rapidly Amazon is growing in Australia as it begins to make more money from ads, subscriptions and fees than it does selling goods.",
+      "snippet": "The numbers show how rapidly the online giant is growing with shoppers as it begins to make more money from ads, subscriptions and fees than by selling goods.",
       "pubDate": "Mon, 27 Apr 2026 17:28:11 +1000",
       "source": "SMH"
     }
