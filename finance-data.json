@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-28T15:03:33.325Z",
+  "fetchedAt": "2026-04-28T20:00:35.049Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.14,
+      "changePercent": 4.28,
       "previousClose": 0.69,
       "asOf": "2026-04-28",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.02,
-      "changePercent": 2.58,
+      "changePercent": 2.7,
       "previousClose": 0.6,
       "asOf": "2026-04-28",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.9,
-      "change": 0.14,
-      "changePercent": 2.95,
+      "value": 4.91,
+      "change": 0.15,
+      "changePercent": 3.14,
       "previousClose": 4.76,
       "asOf": "2026-04-28",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.9
+          "close": 4.91
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.9
+          "close": 4.91
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.9
+          "close": 4.91
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.9
+          "close": 4.91
         }
       ]
     },
     "audjpy": {
-      "value": 114.46,
-      "change": 4.48,
-      "changePercent": 4.07,
+      "value": 114.62,
+      "change": 4.64,
+      "changePercent": 4.22,
       "previousClose": 109.98,
       "asOf": "2026-04-28",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.46
+          "close": 114.62
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.46
+          "close": 114.62
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.46
+          "close": 114.63
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.46
+          "close": 114.63
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.14,
+    "changePercent": 4.28,
     "previousClose": 0.69,
     "asOf": "2026-04-28",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100,
-      "change": 0.36,
-      "changePercent": 0.36,
+      "value": 99.94,
+      "change": 0.3,
+      "changePercent": 0.3,
       "previousClose": 99.64,
       "asOf": "2026-04-28",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-28",
-          "close": 100
+          "close": 99.94
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.43,
-      "change": -8.14,
-      "changePercent": -7.23,
+      "value": 104.39,
+      "change": -8.18,
+      "changePercent": -7.27,
       "previousClose": 112.57,
       "asOf": "2026-04-28",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-28",
-          "close": 104.43
+          "close": 104.39
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.73,
-      "change": -0.37,
-      "changePercent": -11.86,
+      "value": 2.69,
+      "change": -0.41,
+      "changePercent": -13.15,
       "previousClose": 3.1,
       "asOf": "2026-04-28",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 2.73
+          "close": 2.69
         }
       ],
       "name": "Natural Gas",
@@ -7245,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4578.9,
-      "change": 86.9,
-      "changePercent": 1.93
+      "price": 4610.2,
+      "change": 118.2,
+      "changePercent": 2.63
     },
     {
       "name": "Silver",
-      "price": 73.15,
-      "change": 3.61,
-      "changePercent": 5.18
+      "price": 73.7,
+      "change": 4.16,
+      "changePercent": 5.97
     },
     {
       "name": "Copper",
-      "price": 5.97,
-      "change": 0.5,
-      "changePercent": 9.11
+      "price": 5.98,
+      "change": 0.51,
+      "changePercent": 9.33
     }
   ],
   "housing": {
@@ -7602,6 +7602,20 @@
       "source": "SMH"
     },
     {
+      "title": "Rents will rise but won’t be ‘supercharged’ under negative gearing, CGT changes: expert",
+      "link": "https://www.news.com.au/finance/money/tax/rents-will-rise-but-wont-be-supercharged-under-negative-gearing-cgt-changes-expert/news-story/bbe7e9cc0588ef1645368ece7f7881f3?from=rss-basic",
+      "snippet": "Scrapping property tax breaks will see rents rise but far from the 30 per cent figure claimed by some in the industry, an expert says.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "ASX set to fall as sinking AI stocks weigh down Wall Street; UAE to leave OPEC oil cartel",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-sinking-ai-stocks-and-rising-oil-prices-weigh-down-wall-street-20260429-p5zrvj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Slumping AI stocks and another climb in oil prices because of the Iran war are helping to halt Wall Street’s record-setting rally.",
+      "pubDate": "Wed, 29 Apr 2026 05:15:56 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Frontline workers to benefit from huge housing boost",
       "link": "https://www.news.com.au/finance/business/mining/frontline-workers-in-seven-cities-across-western-australia-to-benefit-from-huge-housing-boost-in-state-budget/news-story/7024b0e02b7e9176a7bdce0f1edeada2?from=rss-basic",
       "snippet": "Frontline workers in seven cities across one Aussie state are set to benefit from hundreds of millions of dollars being invested into housing stock.",
@@ -7630,24 +7644,10 @@
       "source": "SMH"
     },
     {
-      "title": "Raiz funds under management reach $2.17B as customers keep piling in",
-      "link": "https://www.smh.com.au/business/companies/raiz-funds-under-management-reach-2-17b-as-customers-keep-piling-in-20260428-p5zrs9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Raiz Invest lifted funds under management 23.6% to $2.04B in Q3 and grew revenue per user 14% to $86.61, with a rebound pushing total funds to $2.17B in April.",
-      "pubDate": "Tue, 28 Apr 2026 15:39:02 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "David Jones’ nail-biting escape from a near-death experience",
       "link": "https://www.smh.com.au/business/companies/an-iconic-store-on-life-support-djs-gets-more-time-but-no-more-money-20260428-p5zrph.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "David Jones has a historic and iconic place in the history of Australian retailing, but like many department stores, it has been in structural decline for decades.",
       "pubDate": "Tue, 28 Apr 2026 16:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "A $700m super-yacht linked to a Russian oligarch just sailed through the Strait of Hormuz",
-      "link": "https://www.smh.com.au/business/companies/a-700m-super-yacht-linked-to-a-russian-oligarch-just-sailed-through-the-strait-of-hormuz-20260428-p5zrq0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "It is not clear how the multi-deck pleasure vessel, complete with a helipad and a submarine, was able to use the blockaded shipping lane at the heart of the US-Iran conflict.",
-      "pubDate": "Tue, 28 Apr 2026 15:22:00 +1000",
       "source": "SMH"
     },
     {
@@ -7665,17 +7665,17 @@
       "source": "News.com.au"
     },
     {
+      "title": "Are you ready for Australia’s $5 trillion wealth transfer?",
+      "link": "https://www.smh.com.au/business/banking-and-finance/are-you-ready-for-australia-s-5-trillion-wealth-transfer-20260428-p5zrnf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Even if your situation seems straightforward, you’re doing a huge favour for those you leave behind.",
+      "pubDate": "Wed, 29 Apr 2026 05:30:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Barkly gets green light for 10,000m NT rare earths drilling blitz",
       "link": "https://www.smh.com.au/business/companies/barkly-gets-green-light-for-10-000m-nt-rare-earths-drilling-blitz-20260428-p5zrt7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Barkly Rare Earths has secured its environmental mining licence, paving the way for a 10,000m drilling blitz to grow its 40-million-tonne resource in the Northern Territory.",
       "pubDate": "Tue, 28 Apr 2026 17:05:23 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Proteomics diagnostic tests shift from lab coats to commercial launch",
-      "link": "https://www.smh.com.au/business/companies/proteomics-diagnostic-tests-shift-from-lab-coats-to-commercial-launch-20260428-p5zrtr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Proteomics International is rolling out a commercial roadmap with a four-test diagnostics suite targeting kidney disease, cancer and endometriosis across Australia and the US.",
-      "pubDate": "Tue, 28 Apr 2026 17:02:57 +1000",
       "source": "SMH"
     }
   ]
