@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-28T08:42:20.487Z",
+  "fetchedAt": "2026-04-28T15:03:33.325Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.25,
+      "changePercent": 4.14,
       "previousClose": 0.69,
       "asOf": "2026-04-28",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.02,
-      "changePercent": 2.75,
+      "changePercent": 2.58,
       "previousClose": 0.6,
       "asOf": "2026-04-28",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.91,
-      "change": 0.15,
-      "changePercent": 3.08,
+      "value": 4.9,
+      "change": 0.14,
+      "changePercent": 2.95,
       "previousClose": 4.76,
       "asOf": "2026-04-28",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.91
+          "close": 4.9
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.91
+          "close": 4.9
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.91
+          "close": 4.9
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-04-28",
-          "close": 4.91
+          "close": 4.9
         }
       ]
     },
     "audjpy": {
-      "value": 114.52,
-      "change": 4.53,
-      "changePercent": 4.12,
+      "value": 114.46,
+      "change": 4.48,
+      "changePercent": 4.07,
       "previousClose": 109.98,
       "asOf": "2026-04-28",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.51
+          "close": 114.46
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.51
+          "close": 114.46
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.52
+          "close": 114.46
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 114.52
+          "close": 114.46
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.25,
+    "changePercent": 4.14,
     "previousClose": 0.69,
     "asOf": "2026-04-28",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 98.5,
-      "change": -1.14,
-      "changePercent": -1.14,
+      "value": 100,
+      "change": 0.36,
+      "changePercent": 0.36,
       "previousClose": 99.64,
       "asOf": "2026-04-28",
       "history": [
@@ -5854,16 +5854,16 @@
         },
         {
           "date": "2026-04-28",
-          "close": 98.5
+          "close": 100
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 103.84,
-      "change": -8.73,
-      "changePercent": -7.76,
+      "value": 104.43,
+      "change": -8.14,
+      "changePercent": -7.23,
       "previousClose": 112.57,
       "asOf": "2026-04-28",
       "history": [
@@ -5949,16 +5949,16 @@
         },
         {
           "date": "2026-04-28",
-          "close": 103.84
+          "close": 104.43
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.71,
-      "change": -0.38,
-      "changePercent": -12.41,
+      "value": 2.73,
+      "change": -0.37,
+      "changePercent": -11.86,
       "previousClose": 3.1,
       "asOf": "2026-04-28",
       "history": [
@@ -6044,7 +6044,7 @@
         },
         {
           "date": "2026-04-28",
-          "close": 2.71
+          "close": 2.73
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-04-27",
         "close": 8766.4
-      },
-      {
-        "date": "2026-04-28",
-        "close": 8710.7
       }
     ]
   },
@@ -7249,21 +7245,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4645.7,
-      "change": 153.7,
-      "changePercent": 3.42
+      "price": 4578.9,
+      "change": 86.9,
+      "changePercent": 1.93
     },
     {
       "name": "Silver",
-      "price": 74.06,
-      "change": 4.52,
-      "changePercent": 6.49
+      "price": 73.15,
+      "change": 3.61,
+      "changePercent": 5.18
     },
     {
       "name": "Copper",
-      "price": 6.02,
-      "change": 0.56,
-      "changePercent": 10.19
+      "price": 5.97,
+      "change": 0.5,
+      "changePercent": 9.11
     }
   ],
   "housing": {
@@ -7613,11 +7609,11 @@
       "source": "News.com.au"
     },
     {
-      "title": "ASX falls for fifth straight session",
-      "link": "https://www.news.com.au/finance/markets/australian-markets/australian-sharemarket-drops-for-fifth-straight-day-as-oil-prices-jump/news-story/d6fe92489b3c092fdc3670055f59c624?from=rss-basic",
-      "snippet": "Australian shares have plunged for five consecutive sessions, with the market now facing its second straight week of losses amid global tensions.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "Netball's powerful statement on Anzac Day",
+      "link": "https://www.abc.net.au/news/2026-04-28/2026-super-netball-round-up-round7/106617878",
+      "snippet": "",
+      "pubDate": "Tue, 28 Apr 2026 10:13:14 +0000",
+      "source": "ABC"
     },
     {
       "title": "True North launches drilling blitz in Qld to grow copper discovery",
