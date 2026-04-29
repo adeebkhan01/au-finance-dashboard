@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-29T14:37:01.922Z",
+  "fetchedAt": "2026-04-29T19:59:04.425Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": 0.03,
-      "changePercent": 3.66,
+      "change": 0.02,
+      "changePercent": 3.37,
       "previousClose": 0.69,
       "asOf": "2026-04-29",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 2.21,
+      "changePercent": 2.09,
       "previousClose": 0.6,
       "asOf": "2026-04-29",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.88,
-      "change": 0.12,
-      "changePercent": 2.53,
+      "value": 4.86,
+      "change": 0.1,
+      "changePercent": 2.19,
       "previousClose": 4.76,
       "asOf": "2026-04-29",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 4.88
+          "close": 4.86
         }
       ],
       "label": "AUD/CNY",
@@ -2599,7 +2599,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 4.88
+          "close": 4.86
         }
       ],
       "h6m": [
@@ -2713,7 +2713,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 4.88
+          "close": 4.86
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-04-29",
-          "close": 4.88
+          "close": 4.86
         }
       ]
     },
     "audjpy": {
-      "value": 114.27,
-      "change": 4.29,
-      "changePercent": 3.9,
+      "value": 114.14,
+      "change": 4.15,
+      "changePercent": 3.78,
       "previousClose": 109.98,
       "asOf": "2026-04-29",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 114.27
+          "close": 114.14
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 114.27
+          "close": 114.13
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 114.27
+          "close": 114.14
         }
       ],
       "h3y": [
@@ -4469,15 +4469,15 @@
         },
         {
           "date": "2026-04-29",
-          "close": 114.27
+          "close": 114.13
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": 0.03,
-    "changePercent": 3.66,
+    "change": 0.02,
+    "changePercent": 3.37,
     "previousClose": 0.69,
     "asOf": "2026-04-29",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 104.72,
-      "change": 1.84,
-      "changePercent": 1.79,
+      "value": 107.97,
+      "change": 5.09,
+      "changePercent": 4.95,
       "previousClose": 102.88,
       "asOf": "2026-04-29",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-04-29",
-          "close": 104.72
+          "close": 107.97
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 109.35,
-      "change": -3.43,
-      "changePercent": -3.04,
+      "value": 111.56,
+      "change": -1.22,
+      "changePercent": -1.08,
       "previousClose": 112.78,
       "asOf": "2026-04-29",
       "history": [
@@ -5977,7 +5977,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 109.35
+          "close": 111.56
         }
       ],
       "name": "Brent Crude",
@@ -5985,8 +5985,8 @@
     },
     "gas": {
       "value": 2.65,
-      "change": -0.23,
-      "changePercent": -8.14,
+      "change": -0.24,
+      "changePercent": -8.38,
       "previousClose": 2.89,
       "asOf": "2026-04-29",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-04-29",
-          "close": 2.65
+          "close": 2.64
         }
       ],
       "name": "Natural Gas",
@@ -7313,21 +7313,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4547.4,
-      "change": 21.4,
-      "changePercent": 0.47
+      "price": 4560.8,
+      "change": 34.8,
+      "changePercent": 0.77
     },
     {
       "name": "Silver",
-      "price": 72.36,
-      "change": 2.04,
-      "changePercent": 2.9
+      "price": 72.14,
+      "change": 1.81,
+      "changePercent": 2.58
     },
     {
       "name": "Copper",
-      "price": 5.96,
-      "change": 0.48,
-      "changePercent": 8.84
+      "price": 5.93,
+      "change": 0.45,
+      "changePercent": 8.27
     }
   ],
   "housing": {
@@ -7663,6 +7663,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to fall as Wall Street slides, oil jumps; A divided Fed keeps rates on hold",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-wall-street-slides-oil-jumps-a-divided-fed-keeps-rates-on-hold-20260430-p5zsck.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Oil prices kept spurting higher and neared their highest levels since 2022 while Federal Reserve kept rates on hold, but there was a lot of dissent over future cuts.",
+      "pubDate": "Thu, 30 Apr 2026 05:15:31 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "‘Intergenerational war’: Wild Budget claim",
       "link": "https://www.news.com.au/finance/economy/federal-budget/coalition-accuses-labor-of-waging-intergenerational-war-with-budget/news-story/9c8022d64c57b33f3d7f8294c7e4e631?from=rss-basic",
       "snippet": "Anthony Albanese is promising a federal budget to help younger Australians get ahead. But the Coalition says he is waging an “intergenerational war”.",
@@ -7723,13 +7730,6 @@
       "link": "https://www.smh.com.au/business/companies/eclipse-shares-surge-on-big-upgrade-at-greenland-rare-earths-play-20260429-p5zs6l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Eclipse Metals has surged after doubling its Greenlandic rare earths project’s resource to 208Mt, including some 456,000 tonnes of the highly sought-after permanent magnet metals.",
       "pubDate": "Wed, 29 Apr 2026 14:26:21 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Locksley taps Columbia Uni tech to fast-track US rare earths",
-      "link": "https://www.smh.com.au/business/companies/locksley-taps-columbia-uni-tech-to-fast-track-us-rare-earths-20260429-p5zs6c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Locksley Resources is advancing rare earths processing options for its US Mojave project with Columbia University, aiming to simplify recovery and separation flowsheets.",
-      "pubDate": "Wed, 29 Apr 2026 14:10:42 +1000",
       "source": "SMH"
     },
     {
