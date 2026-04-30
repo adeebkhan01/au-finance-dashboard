@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-04-30T14:32:34.687Z",
+  "fetchedAt": "2026-04-30T19:55:59.887Z",
   "fx": {
     "audusd": {
       "value": 0.72,
-      "change": 0.03,
-      "changePercent": 4.86,
+      "change": 0.04,
+      "changePercent": 5.14,
       "previousClose": 0.69,
       "asOf": "2026-04-30",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.02,
-      "changePercent": 2.84,
+      "changePercent": 2.89,
       "previousClose": 0.6,
       "asOf": "2026-04-30",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.9,
-      "change": 0.17,
-      "changePercent": 3.55,
+      "value": 4.91,
+      "change": 0.18,
+      "changePercent": 3.81,
       "previousClose": 4.73,
       "asOf": "2026-04-30",
       "history": [
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 4.9
+          "close": 4.91
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 4.9
+          "close": 4.91
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 4.9
+          "close": 4.91
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-04-30",
-          "close": 4.9
+          "close": 4.91
         }
       ]
     },
     "audjpy": {
-      "value": 112.55,
-      "change": 2.79,
-      "changePercent": 2.54,
+      "value": 112.67,
+      "change": 2.9,
+      "changePercent": 2.64,
       "previousClose": 109.77,
       "asOf": "2026-04-30",
       "history": [
@@ -3468,7 +3468,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 112.55
+          "close": 112.67
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 112.56
+          "close": 112.66
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 112.55
+          "close": 112.67
         }
       ],
       "h3y": [
@@ -4485,15 +4485,15 @@
         },
         {
           "date": "2026-04-30",
-          "close": 112.56
+          "close": 112.67
         }
       ]
     }
   },
   "audusd": {
     "value": 0.72,
-    "change": 0.03,
-    "changePercent": 4.86,
+    "change": 0.04,
+    "changePercent": 5.14,
     "previousClose": 0.69,
     "asOf": "2026-04-30",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 105.05,
-      "change": 2.17,
-      "changePercent": 2.11,
+      "value": 105.08,
+      "change": 2.2,
+      "changePercent": 2.14,
       "previousClose": 102.88,
       "asOf": "2026-04-30",
       "history": [
@@ -5902,16 +5902,16 @@
         },
         {
           "date": "2026-04-30",
-          "close": 105.05
+          "close": 105.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 109.93,
-      "change": -2.85,
-      "changePercent": -2.53,
+      "value": 110.81,
+      "change": -1.97,
+      "changePercent": -1.75,
       "previousClose": 112.78,
       "asOf": "2026-04-30",
       "history": [
@@ -6005,16 +6005,16 @@
         },
         {
           "date": "2026-04-30",
-          "close": 109.93
+          "close": 110.81
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.67,
-      "change": -0.21,
-      "changePercent": -7.41,
+      "value": 2.76,
+      "change": -0.12,
+      "changePercent": -4.3,
       "previousClose": 2.89,
       "asOf": "2026-04-30",
       "history": [
@@ -6108,7 +6108,7 @@
         },
         {
           "date": "2026-04-30",
-          "close": 2.67
+          "close": 2.76
         }
       ],
       "name": "Natural Gas",
@@ -7381,21 +7381,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4637.2,
-      "change": 111.2,
-      "changePercent": 2.46
+      "price": 4635.1,
+      "change": 109.1,
+      "changePercent": 2.41
     },
     {
       "name": "Silver",
-      "price": 73.86,
-      "change": 3.54,
-      "changePercent": 5.04
+      "price": 74.2,
+      "change": 3.88,
+      "changePercent": 5.51
     },
     {
       "name": "Copper",
-      "price": 5.97,
-      "change": 0.49,
-      "changePercent": 8.97
+      "price": 6.02,
+      "change": 0.54,
+      "changePercent": 9.86
     }
   ],
   "housing": {
@@ -7731,17 +7731,10 @@
   ],
   "news": [
     {
-      "title": "ASX falls as oil hits new wartime high, Woolies slumps on inflation warning",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-wall-street-slides-oil-jumps-a-divided-fed-keeps-rates-on-hold-20260430-p5zsck.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket has extended its losing streak as Brent oil soared to a wartime high after a report that Donald Trump is set to receive a briefing on new military options for Iran.",
-      "pubDate": "Thu, 30 Apr 2026 16:54:16 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "BNK Banking hits straps with record high-margin March quarter",
-      "link": "https://www.smh.com.au/business/companies/bnk-banking-hits-straps-with-record-high-margin-march-quarter-20260430-p5zspq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "BNK Banking Corporation has hit a record 2.11 per cent net interest margin for the March quarter, as its higher-yielding commercial loan book ballooned to more than $210 million.",
-      "pubDate": "Thu, 30 Apr 2026 17:00:29 +1000",
+      "title": "ASX set to surge as Wall Street rises, oil retreats; Meta tumbles; $A jumps",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-surge-as-wall-street-rises-oil-retreats-meta-tumbles-a-jumps-20260501-p5zss2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is rising following strong profit reports from big companies like Alphabet while oil prices lost some steam after surging on Thursday.",
+      "pubDate": "Fri, 01 May 2026 05:19:51 +1000",
       "source": "SMH"
     },
     {
@@ -7750,6 +7743,20 @@
       "snippet": "Anthony Albanese is promising a federal budget to help younger Australians get ahead. But the Coalition says he is waging an “intergenerational war”.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Skipping Girl building’s Little Audrey lights up property market. Her price: $20m",
+      "link": "https://www.smh.com.au/business/companies/skipping-girl-building-s-little-audrey-lights-up-property-market-her-price-20m-20260430-p5zslz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "She is back to her old tricks and skipping the night away, but her Art Deco office building home is for sale.",
+      "pubDate": "Fri, 01 May 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Uber-rich collectables: A 66 million-year-old dinosaur skull and $14m pre-loved Birkin bag",
+      "link": "https://www.smh.com.au/business/small-business/uber-rich-collectables-a-66-million-year-old-dinosaur-skull-and-14m-pre-loved-birkin-bag-20260430-p5zsn7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Geopolitical unrest and higher interest rates may affect ordinary folks’ spending habits, but the super wealthy still spend big on collectibles with history and “providence”.",
+      "pubDate": "Fri, 01 May 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "‘Locked in’: Former RBA assistant governor reveals what will happen to rates",
@@ -7773,20 +7780,6 @@
       "source": "SMH"
     },
     {
-      "title": "This oil shock will hit Asia harder than the 1970s",
-      "link": "https://www.smh.com.au/business/markets/this-oil-shock-will-hit-asia-harder-than-the-1970s-20260430-p5zslu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Europe’s oil demand never recovered from the shocks of the 1970s. If the crisis in the Strait of Hormuz doesn’t end soon, a dramatic transformation awaits in Asia.",
-      "pubDate": "Thu, 30 Apr 2026 17:30:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Woolies launches charm offensive for customers as shareholders take a hit",
-      "link": "https://www.smh.com.au/business/consumer-affairs/woolies-launches-charm-offensive-for-customers-as-shareholders-take-a-hit-20260430-p5zsib.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Woolworths is love-bombing customers in a strategy to win market share and improve loyalty - at least in the near term.",
-      "pubDate": "Thu, 30 Apr 2026 15:08:25 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Shock Aussie small business trend revealed",
       "link": "https://www.news.com.au/finance/economy/australian-economy/solid-start-australian-small-businesses-coping-with-middle-east-crisis-despite-warning-worst-is-yet-to-come/news-story/a1722346458ca8d83c36daa9b96e2d2b?from=rss-basic",
       "snippet": "Australian small businesses have made a surprising start to the new year, as the ongoing conflict in the Middle East and rate hikes threaten sales growth.",
@@ -7794,23 +7787,30 @@
       "source": "News.com.au"
     },
     {
-      "title": "Siren stretches multi-kilometre NZ antimony-gold system",
-      "link": "https://www.smh.com.au/business/companies/siren-stretches-multi-kilometre-nz-antimony-gold-system-20260430-p5zsol.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Siren Gold has extended mineralisation to almost 8km at its NZ Queen Charlotte project, with high-grade gold and antimony from surface sampling ahead of drilling approvals.",
-      "pubDate": "Thu, 30 Apr 2026 15:37:14 +1000",
+      "title": "Fake job scams are on the rise. Here’s what to look out for",
+      "link": "https://www.smh.com.au/business/workplace/fake-job-scams-are-on-the-rise-here-s-what-to-look-out-for-20260430-p5zsmn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Jobs platforms are being inundated with fake job ads generated by artificial intelligence, costing jobseekers time and money.",
+      "pubDate": "Fri, 01 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘My stuff-up’: Alan Kohler pulls out of political event",
+      "link": "https://www.smh.com.au/business/companies/my-stuff-up-alan-kohler-pulls-out-of-political-event-20260430-p5zsg6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "ABC finance presenter Alan Kohler, arguably Australia’s most experienced business journalist, was an unlikely headline speaker at a ticketed event in Melbourne.",
+      "pubDate": "Fri, 01 May 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Housing isn’t just a young people problem. We know how this story ends",
+      "link": "https://www.smh.com.au/business/the-economy/housing-isn-t-just-a-young-people-problem-we-know-how-this-story-ends-20260430-p5zsiq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Intergenerational fairness is an issue for all of us. Our politicians need to act on it.",
+      "pubDate": "Fri, 01 May 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
       "title": "Woolies reveals massive jump in sales",
       "link": "https://www.news.com.au/finance/business/retail/woolworths-has-posted-45-per-cent-jump-in-sales-for-q3/news-story/dcddfcbd6003ee9642c05e7eed6c2cf3?from=rss-basic",
       "snippet": "Woolworths says key producers have asked to be paid more, with surging inflation and massive extra fuel costs expected to lead to higher prices at the checkout.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Distressing situation’: Indian man brings sister’s corpse to bank to withdraw $300",
-      "link": "https://www.news.com.au/finance/business/banking/distressing-situation-indian-man-brings-sisters-corpse-to-bank-to-withdraw-300/news-story/565c95d2872f47c289c2b643615c29e1?from=rss-basic",
-      "snippet": "A man in India has made headlines for bringing his sister’s corpse to the bank after growing frustrated at the procedure for withdrawing money from her account.",
       "pubDate": "",
       "source": "News.com.au"
     }
