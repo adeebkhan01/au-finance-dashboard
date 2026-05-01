@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-01T08:28:50.029Z",
+  "fetchedAt": "2026-05-01T13:59:21.186Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.02,
+      "changePercent": 4.23,
       "previousClose": 0.69,
       "asOf": "2026-05-01",
       "history": [
@@ -1117,8 +1117,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0.01,
-      "changePercent": 2.46,
+      "change": 0.02,
+      "changePercent": 2.54,
       "previousClose": 0.6,
       "asOf": "2026-05-01",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.91,
-      "change": 0.14,
-      "changePercent": 3.02,
+      "value": 4.92,
+      "change": 0.15,
+      "changePercent": 3.05,
       "previousClose": 4.77,
       "asOf": "2026-05-01",
       "history": [
@@ -2326,7 +2326,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 4.91
+          "close": 4.92
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 4.91
+          "close": 4.92
         }
       ],
       "h6m": [
@@ -2705,7 +2705,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 4.91
+          "close": 4.92
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-05-01",
-          "close": 4.91
+          "close": 4.92
         }
       ]
     },
     "audjpy": {
-      "value": 112.49,
-      "change": 2.79,
-      "changePercent": 2.54,
+      "value": 112.87,
+      "change": 3.17,
+      "changePercent": 2.89,
       "previousClose": 109.71,
       "asOf": "2026-05-01",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.49
+          "close": 112.87
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.49
+          "close": 112.87
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.5
+          "close": 112.88
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.5
+          "close": 112.87
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.02,
+    "changePercent": 4.23,
     "previousClose": 0.69,
     "asOf": "2026-05-01",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 105.59,
-      "change": 5.47,
-      "changePercent": 5.46,
+      "value": 101.74,
+      "change": 1.62,
+      "changePercent": 1.62,
       "previousClose": 100.12,
       "asOf": "2026-05-01",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-05-01",
-          "close": 105.59
+          "close": 101.74
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.67,
-      "change": 3.51,
-      "changePercent": 3.47,
+      "value": 108.9,
+      "change": 7.74,
+      "changePercent": 7.65,
       "previousClose": 101.16,
       "asOf": "2026-05-01",
       "history": [
@@ -5957,16 +5957,16 @@
         },
         {
           "date": "2026-05-01",
-          "close": 104.67
+          "close": 108.9
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.79,
-      "change": -0.03,
-      "changePercent": -1.06,
+      "value": 2.78,
+      "change": -0.04,
+      "changePercent": -1.38,
       "previousClose": 2.82,
       "asOf": "2026-05-01",
       "history": [
@@ -6056,7 +6056,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 2.79
+          "close": 2.78
         }
       ],
       "name": "Natural Gas",
@@ -7297,21 +7297,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4583.5,
-      "change": -199.7,
-      "changePercent": -4.18
+      "price": 4613.5,
+      "change": -169.7,
+      "changePercent": -3.55
     },
     {
       "name": "Silver",
-      "price": 73.63,
-      "change": -2.24,
-      "changePercent": -2.96
+      "price": 76.01,
+      "change": 0.14,
+      "changePercent": 0.18
     },
     {
       "name": "Copper",
-      "price": 5.99,
-      "change": 0.37,
-      "changePercent": 6.52
+      "price": 5.98,
+      "change": 0.36,
+      "changePercent": 6.32
     }
   ],
   "housing": {
@@ -7717,18 +7717,18 @@
       "source": "SMH"
     },
     {
-      "title": "Stuart tells Bellamy to put himself first after shock neurological diagnosis",
-      "link": "https://www.abc.net.au/news/2026-05-01/nrl-coach-ricky-stuart-advice-to-craig-bellamy-after-diagnosis/106629970",
-      "snippet": "",
-      "pubDate": "Fri, 01 May 2026 01:33:20 +0000",
-      "source": "ABC"
+      "title": "‘Work to live’: Push for four-day work week",
+      "link": "https://www.news.com.au/finance/work/at-work/unions-push-for-fourday-work-week-in-radical-workplace-relations-overhaul/news-story/1048d53cf5899d77ae13b82e4efea506?from=rss-basic",
+      "snippet": "Unions have launched a radical push for a four-day work week without pay cuts, calling it the biggest employment shake-up since the 1970s.",
+      "pubDate": "",
+      "source": "News.com.au"
     },
     {
-      "title": "Qantas, Jetstar extend domestic cuts, trim NZ flights as fuel crisis bites",
-      "link": "https://www.smh.com.au/business/the-economy/qantas-jetstar-extend-cuts-to-domestic-nz-flights-as-fuel-crisis-bites-20260430-p5zsf1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "But the airline is adding flights between Australia and Europe as the global industry grapples with fuel price shock.",
-      "pubDate": "Fri, 01 May 2026 10:05:49 +1000",
-      "source": "SMH"
+      "title": "Woolies reveals massive jump in sales",
+      "link": "https://www.news.com.au/finance/business/retail/woolworths-has-posted-45-per-cent-jump-in-sales-for-q3/news-story/dcddfcbd6003ee9642c05e7eed6c2cf3?from=rss-basic",
+      "snippet": "Woolworths says key producers have asked to be paid more, with surging inflation and massive extra fuel costs expected to lead to higher prices at the checkout.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
