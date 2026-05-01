@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-01T13:59:21.186Z",
+  "fetchedAt": "2026-05-01T19:47:17.368Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.23,
+      "changePercent": 4.16,
       "previousClose": 0.69,
       "asOf": "2026-05-01",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.02,
-      "changePercent": 2.54,
+      "changePercent": 2.81,
       "previousClose": 0.6,
       "asOf": "2026-05-01",
       "history": [
@@ -2232,7 +2232,7 @@
     "audcny": {
       "value": 4.92,
       "change": 0.15,
-      "changePercent": 3.05,
+      "changePercent": 3.15,
       "previousClose": 4.77,
       "asOf": "2026-05-01",
       "history": [
@@ -3344,9 +3344,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.87,
-      "change": 3.17,
-      "changePercent": 2.89,
+      "value": 113.18,
+      "change": 3.48,
+      "changePercent": 3.17,
       "previousClose": 109.71,
       "asOf": "2026-05-01",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.87
+          "close": 113.18
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.87
+          "close": 113.18
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.88
+          "close": 113.18
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 112.87
+          "close": 113.18
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.23,
+    "changePercent": 4.16,
     "previousClose": 0.69,
     "asOf": "2026-05-01",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.74,
-      "change": 1.62,
-      "changePercent": 1.62,
+      "value": 102.1,
+      "change": 1.98,
+      "changePercent": 1.98,
       "previousClose": 100.12,
       "asOf": "2026-05-01",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-05-01",
-          "close": 101.74
+          "close": 102.1
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.9,
-      "change": 7.74,
-      "changePercent": 7.65,
+      "value": 108.45,
+      "change": 7.29,
+      "changePercent": 7.21,
       "previousClose": 101.16,
       "asOf": "2026-05-01",
       "history": [
@@ -5957,16 +5957,16 @@
         },
         {
           "date": "2026-05-01",
-          "close": 108.9
+          "close": 108.45
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.78,
-      "change": -0.04,
-      "changePercent": -1.38,
+      "value": 2.79,
+      "change": -0.03,
+      "changePercent": -1.03,
       "previousClose": 2.82,
       "asOf": "2026-05-01",
       "history": [
@@ -6056,7 +6056,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 2.78
+          "close": 2.79
         }
       ],
       "name": "Natural Gas",
@@ -6227,10 +6227,6 @@
       {
         "date": "2026-04-30",
         "close": 8665.8
-      },
-      {
-        "date": "2026-05-01",
-        "close": 8729.8
       }
     ]
   },
@@ -7297,21 +7293,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4613.5,
-      "change": -169.7,
-      "changePercent": -3.55
+      "price": 4628.9,
+      "change": -154.3,
+      "changePercent": -3.23
     },
     {
       "name": "Silver",
-      "price": 76.01,
-      "change": 0.14,
-      "changePercent": 0.18
+      "price": 76.09,
+      "change": 0.22,
+      "changePercent": 0.29
     },
     {
       "name": "Copper",
-      "price": 5.98,
-      "change": 0.36,
-      "changePercent": 6.32
+      "price": 5.97,
+      "change": 0.34,
+      "changePercent": 6.13
     }
   ],
   "housing": {
@@ -7675,13 +7671,6 @@
       "source": "News.com.au"
     },
     {
-      "title": "‘This crisis is still at the beginning’: ANZ boss sends Iran war warning",
-      "link": "https://www.smh.com.au/business/banking-and-finance/ahead-of-us-anz-boss-warns-of-future-impact-of-iran-war-20260501-p5zst6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "As ANZ delivered a $3.8 billion profit, chief executive Nuno Matos has sounded a warning over the risks that would arise from a prolonged conflict in the Middle East.",
-      "pubDate": "Fri, 01 May 2026 11:58:26 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Major chain crowned ‘best’ Aussie supermarket",
       "link": "https://www.news.com.au/finance/business/retail/aldi-claims-roy-morgans-supermarket-of-the-year-award-for-sixth-time-in-a-row/news-story/ec66c8728155fcd9095868881ea4bf37?from=rss-basic",
       "snippet": "A major supermarket chain has claimed the crown for being the “best” supermarket in Australia - for the sixth time in a row.",
@@ -7715,6 +7704,13 @@
       "snippet": "Critical Resources has completed fieldwork at its Lammerlaw and Croesus projects in New Zealand, confirming high-grade gold and tungsten targets amid surging prices.",
       "pubDate": "Fri, 01 May 2026 15:04:53 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Stuart tells Bellamy to put himself first after shock neurological diagnosis",
+      "link": "https://www.abc.net.au/news/2026-05-01/nrl-coach-ricky-stuart-advice-to-craig-bellamy-after-diagnosis/106629970",
+      "snippet": "",
+      "pubDate": "Fri, 01 May 2026 01:33:20 +0000",
+      "source": "ABC"
     },
     {
       "title": "‘Work to live’: Push for four-day work week",
