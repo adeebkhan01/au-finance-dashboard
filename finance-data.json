@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-02T03:59:21.481Z",
+  "fetchedAt": "2026-05-02T08:06:59.718Z",
   "fx": {
     "audusd": {
       "value": 0.72,
@@ -101,7 +101,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-05-02",
           "close": 0.72
         }
       ],
@@ -370,7 +370,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-05-02",
           "close": 0.72
         }
       ],
@@ -484,7 +484,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-05-02",
           "close": 0.72
         }
       ],
@@ -1118,7 +1118,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-05-02",
           "close": 0.72
         }
       ]
@@ -4590,7 +4590,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-01",
+        "date": "2026-05-02",
         "close": 0.72
       }
     ],
@@ -4859,7 +4859,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-01",
+        "date": "2026-05-02",
         "close": 0.72
       }
     ],
@@ -4973,7 +4973,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-01",
+        "date": "2026-05-02",
         "close": 0.72
       }
     ],
@@ -5607,7 +5607,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-01",
+        "date": "2026-05-02",
         "close": 0.72
       }
     ]
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.5,
-      "change": 2.38,
-      "changePercent": 2.38,
+      "value": 101.94,
+      "change": 1.82,
+      "changePercent": 1.82,
       "previousClose": 100.12,
       "asOf": "2026-05-02",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-05-01",
-          "close": 102.5
+          "close": 101.94
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.83,
-      "change": 7.67,
-      "changePercent": 7.58,
+      "value": 108.17,
+      "change": 7.01,
+      "changePercent": 6.93,
       "previousClose": 101.16,
       "asOf": "2026-05-02",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-05-01",
-          "close": 108.83
+          "close": 108.17
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.79,
-      "change": -0.03,
-      "changePercent": -1.06,
+      "value": 2.78,
+      "change": -0.04,
+      "changePercent": -1.38,
       "previousClose": 2.82,
       "asOf": "2026-05-02",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-05-01",
-          "close": 2.79
+          "close": 2.78
         }
       ],
       "name": "Natural Gas",
@@ -7325,21 +7325,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4625.6,
-      "change": -157.6,
-      "changePercent": -3.29
+      "price": 4644.5,
+      "change": -138.7,
+      "changePercent": -2.9
     },
     {
       "name": "Silver",
-      "price": 75.84,
-      "change": -0.03,
-      "changePercent": -0.04
+      "price": 76.43,
+      "change": 0.56,
+      "changePercent": 0.74
     },
     {
       "name": "Copper",
-      "price": 5.96,
-      "change": 0.34,
-      "changePercent": 6.05
+      "price": 5.98,
+      "change": 0.36,
+      "changePercent": 6.41
     }
   ],
   "housing": {
@@ -7724,6 +7724,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "Live: Broncos welcome back superstars after Raiders beat Titans",
+      "link": "https://www.abc.net.au/news/2026-05-02/nrl-live-titans-raiders-eels-warriors-roosters-broncos/106634596",
+      "snippet": "",
+      "pubDate": "Sat, 02 May 2026 04:44:06 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Super shoes won't be banned despite 'technological doping' claims",
       "link": "https://www.abc.net.au/news/2026-05-02/sebastian-coe-world-athletics-president-shoe-marathon-record/106634252",
       "snippet": "",
@@ -7748,13 +7755,6 @@
       "title": "Tony Burke says migrants are the ‘solution, not the problem’, defends pre-election citizenship ceremonies",
       "link": "https://www.news.com.au/finance/economy/australian-economy/tony-burke-says-migrants-are-the-solution-not-the-problem-defends-preelection-citizenship-ceremonies/news-story/8ea8d3e93a334035a8b58262f6e2483e?from=rss-basic",
       "snippet": "Tony Burke has declared immigration is the “solution, not the problem” for the housing crisis — and revealed the first thing he says to new Indian-Australian citizens.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Work to live’: Push for four-day work week",
-      "link": "https://www.news.com.au/finance/work/at-work/unions-push-for-fourday-work-week-in-radical-workplace-relations-overhaul/news-story/1048d53cf5899d77ae13b82e4efea506?from=rss-basic",
-      "snippet": "Unions have launched a radical push for a four-day work week without pay cuts, calling it the biggest employment shake-up since the 1970s.",
       "pubDate": "",
       "source": "News.com.au"
     }
