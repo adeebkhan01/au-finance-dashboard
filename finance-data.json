@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-05-02T19:33:59.289Z",
+  "fetchedAt": "2026-05-03T04:27:16.502Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
       "changePercent": 4.15,
       "previousClose": 0.69,
-      "asOf": "2026-05-02",
+      "asOf": "2026-05-03",
       "history": [
         {
           "date": "2026-03-31",
@@ -101,7 +101,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "close": 0.72
         }
       ],
@@ -370,7 +370,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "close": 0.72
         }
       ],
@@ -484,7 +484,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "close": 0.72
         }
       ],
@@ -1118,7 +1118,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "close": 0.72
         }
       ]
@@ -1128,7 +1128,7 @@
       "change": 0.02,
       "changePercent": 2.81,
       "previousClose": 0.6,
-      "asOf": "2026-05-02",
+      "asOf": "2026-05-03",
       "history": [
         {
           "date": "2026-03-31",
@@ -2250,7 +2250,7 @@
       "change": 0.15,
       "changePercent": 3.15,
       "previousClose": 4.77,
-      "asOf": "2026-05-02",
+      "asOf": "2026-05-03",
       "history": [
         {
           "date": "2026-03-31",
@@ -3372,7 +3372,7 @@
       "change": 3.46,
       "changePercent": 3.15,
       "previousClose": 109.71,
-      "asOf": "2026-05-02",
+      "asOf": "2026-05-03",
       "history": [
         {
           "date": "2026-03-31",
@@ -4495,7 +4495,7 @@
     "change": 0.03,
     "changePercent": 4.15,
     "previousClose": 0.69,
-    "asOf": "2026-05-02",
+    "asOf": "2026-05-03",
     "history": [
       {
         "date": "2026-03-31",
@@ -4590,7 +4590,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "close": 0.72
       }
     ],
@@ -4859,7 +4859,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "close": 0.72
       }
     ],
@@ -4973,7 +4973,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "close": 0.72
       }
     ],
@@ -5607,7 +5607,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "close": 0.72
       }
     ]
@@ -5807,15 +5807,11 @@
   "energy": {
     "wti": {
       "value": 101.94,
-      "change": 1.82,
-      "changePercent": 1.82,
-      "previousClose": 100.12,
-      "asOf": "2026-05-02",
+      "change": -9.6,
+      "changePercent": -8.61,
+      "previousClose": 111.54,
+      "asOf": "2026-05-03",
       "history": [
-        {
-          "date": "2026-04-02",
-          "close": 111.54
-        },
         {
           "date": "2026-04-06",
           "close": 112.41
@@ -5902,15 +5898,11 @@
     },
     "brent": {
       "value": 108.17,
-      "change": 7.01,
-      "changePercent": 6.93,
-      "previousClose": 101.16,
-      "asOf": "2026-05-02",
+      "change": -0.86,
+      "changePercent": -0.79,
+      "previousClose": 109.03,
+      "asOf": "2026-05-03",
       "history": [
-        {
-          "date": "2026-04-02",
-          "close": 109.03
-        },
         {
           "date": "2026-04-06",
           "close": 109.77
@@ -5997,15 +5989,11 @@
     },
     "gas": {
       "value": 2.78,
-      "change": -0.04,
-      "changePercent": -1.38,
-      "previousClose": 2.82,
-      "asOf": "2026-05-02",
+      "change": -0.02,
+      "changePercent": -0.71,
+      "previousClose": 2.8,
+      "asOf": "2026-05-03",
       "history": [
-        {
-          "date": "2026-04-02",
-          "close": 2.8
-        },
         {
           "date": "2026-04-06",
           "close": 2.81
@@ -6174,7 +6162,7 @@
     "change": 58,
     "changePercent": 0.67,
     "previousClose": 8671.8,
-    "asOf": "2026-05-02",
+    "asOf": "2026-05-03",
     "history": [
       {
         "date": "2026-03-31",
@@ -7326,20 +7314,20 @@
     {
       "name": "Gold",
       "price": 4644.5,
-      "change": -138.7,
-      "changePercent": -2.9
+      "change": -7,
+      "changePercent": -0.15
     },
     {
       "name": "Silver",
       "price": 76.43,
-      "change": 0.56,
-      "changePercent": 0.74
+      "change": 3.7,
+      "changePercent": 5.08
     },
     {
       "name": "Copper",
       "price": 5.98,
-      "change": 0.36,
-      "changePercent": 6.41
+      "change": 0.42,
+      "changePercent": 7.58
     }
   ],
   "housing": {
@@ -7682,23 +7670,16 @@
       "source": "SMH"
     },
     {
-      "title": "ASX Runners of the Week: 1414, Pathkey.AI, Eclipse &amp; European Lithium",
-      "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-1414-pathkey-ai-eclipse-and-european-lithium-20260501-p5zszs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Bulls N’ Bears ASX Runner of the Week is… 1414 Degrees, which exploded after its nanoparticle battery tech delivered a 50 per cent boost over traditional graphite.",
-      "pubDate": "Fri, 01 May 2026 16:46:08 +1000",
-      "source": "SMH"
+      "title": "‘Tax cut?’ Key budget question",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/federal-buget-2026-labor-tightlipped-on-tax-cut-in-the-may-12-budget/news-story/f7095e21e04966dd4943e00f6cdca97c?from=rss-basic",
+      "snippet": "Labor is keeping tight-lipped about what will be in the upcoming federal budget, including whether Australians will get more money back from the commonwealth.",
+      "pubDate": "",
+      "source": "News.com.au"
     },
     {
       "title": "Coles sales revenue rises 4 per cent for March quarter",
       "link": "https://www.news.com.au/finance/business/retail/coles-says-it-can-absorb-cost-rises-as-it-reports-sales-revenue-rises-4-per-cent-to-start-2026/news-story/4355e655d11f472d58b9bc26ae2390f6?from=rss-basic",
       "snippet": "Supermarket giant Coles has delivered its sales results for the March quarter, making a huge promise to Aussies on looming price hikes.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Locked in’: Former RBA assistant governor reveals what will happen to rates",
-      "link": "https://www.news.com.au/finance/economy/interest-rates/locked-in-former-rba-assistant-governor-reveals-what-will-happen-to-rates/news-story/0cc6e866b3065e9fb9efaa4fab42bb5e?from=rss-basic",
-      "snippet": "A chief economist says the writing is on the wall ahead of the central bank’s meeting next week, after inflation hit its highest point since 2023.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7724,25 +7705,18 @@
       "source": "News.com.au"
     },
     {
+      "title": "Danger in the air: Fume events haunt flight crew",
+      "link": "https://www.smh.com.au/business/workplace/danger-in-the-air-fume-events-haunt-flight-crew-20260120-p5nvjm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Flight attendants, pilots, even passengers have been affected by neurotoxins in the air supply of commercial jet aircraft. They’re calling for change.",
+      "pubDate": "Sun, 03 May 2026 05:45:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "A year after scandal, childcare giant faces financial peril and mass closures",
       "link": "https://www.smh.com.au/business/companies/a-year-after-scandal-childcare-giant-faces-financial-peril-and-mass-closures-20260430-p5zsqg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "G8 Education might have to dump thousands of kids from care to stay profitable. That comes at a cost to parents.",
       "pubDate": "Sun, 03 May 2026 05:00:00 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Brisbane Lions coach slams 'hero' parent after whiteboard leak",
-      "link": "https://www.abc.net.au/news/2026-05-02/chris-fagan-brisbane-lions-whiteboard-leak/106634834",
-      "snippet": "",
-      "pubDate": "Sat, 02 May 2026 08:36:38 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Super shoes won't be banned despite 'technological doping' claims",
-      "link": "https://www.abc.net.au/news/2026-05-02/sebastian-coe-world-athletics-president-shoe-marathon-record/106634252",
-      "snippet": "",
-      "pubDate": "Sat, 02 May 2026 00:07:11 +0000",
-      "source": "ABC"
     },
     {
       "title": "Kaiser doubles down in Victoria with round-the-clock gold",
@@ -7757,6 +7731,20 @@
       "snippet": "Tony Burke has declared immigration is the “solution, not the problem” for the housing crisis — and revealed the first thing he says to new Indian-Australian citizens.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "‘Work to live’: Push for four-day work week",
+      "link": "https://www.news.com.au/finance/work/at-work/unions-push-for-fourday-work-week-in-radical-workplace-relations-overhaul/news-story/1048d53cf5899d77ae13b82e4efea506?from=rss-basic",
+      "snippet": "Unions have launched a radical push for a four-day work week without pay cuts, calling it the biggest employment shake-up since the 1970s.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "The ocean-facing home with mystique and stunning views on every level",
+      "link": "https://www.smh.com.au/business/consumer-affairs/the-ocean-facing-home-with-mystique-and-stunning-views-on-every-level-20260430-p5zsmc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There’s an endless blue horizon on offer for occupants of a newly built Newcastle home, which cascades over five levels towards the Pacific Ocean.",
+      "pubDate": "Sat, 02 May 2026 05:00:00 +1000",
+      "source": "SMH"
     }
   ]
 }
