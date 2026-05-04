@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-04T14:38:04.205Z",
+  "fetchedAt": "2026-05-04T20:01:55.283Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.07,
+      "changePercent": 3.81,
       "previousClose": 0.69,
       "asOf": "2026-05-04",
       "history": [
@@ -1102,7 +1102,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 2.49,
+      "changePercent": 2.41,
       "previousClose": 0.6,
       "asOf": "2026-05-04",
       "history": [
@@ -2198,9 +2198,9 @@
       ]
     },
     "audcny": {
-      "value": 4.91,
-      "change": 0.15,
-      "changePercent": 3.1,
+      "value": 4.89,
+      "change": 0.14,
+      "changePercent": 2.85,
       "previousClose": 4.76,
       "asOf": "2026-05-04",
       "history": [
@@ -2286,7 +2286,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 4.91
+          "close": 4.89
         }
       ],
       "label": "AUD/CNY",
@@ -2547,7 +2547,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 4.91
+          "close": 4.89
         }
       ],
       "h6m": [
@@ -2657,7 +2657,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 4.91
+          "close": 4.89
         }
       ],
       "h3y": [
@@ -3291,14 +3291,14 @@
         },
         {
           "date": "2026-05-04",
-          "close": 4.91
+          "close": 4.89
         }
       ]
     },
     "audjpy": {
-      "value": 112.86,
-      "change": 2.66,
-      "changePercent": 2.41,
+      "value": 112.67,
+      "change": 2.46,
+      "changePercent": 2.23,
       "previousClose": 110.2,
       "asOf": "2026-05-04",
       "history": [
@@ -3384,7 +3384,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 112.86
+          "close": 112.67
         }
       ],
       "label": "AUD/JPY",
@@ -3645,7 +3645,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 112.86
+          "close": 112.67
         }
       ],
       "h6m": [
@@ -3755,7 +3755,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 112.85
+          "close": 112.67
         }
       ],
       "h3y": [
@@ -4389,7 +4389,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 112.86
+          "close": 112.67
         }
       ]
     }
@@ -4397,7 +4397,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.07,
+    "changePercent": 3.81,
     "previousClose": 0.69,
     "asOf": "2026-05-04",
     "history": [
@@ -5686,9 +5686,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.07,
-      "change": -9.47,
-      "changePercent": -8.49,
+      "value": 105.19,
+      "change": -6.35,
+      "changePercent": -5.69,
       "previousClose": 111.54,
       "asOf": "2026-05-04",
       "history": [
@@ -5774,16 +5774,16 @@
         },
         {
           "date": "2026-05-04",
-          "close": 102.07
+          "close": 105.19
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.69,
-      "change": 1.66,
-      "changePercent": 1.52,
+      "value": 114.13,
+      "change": 5.1,
+      "changePercent": 4.68,
       "previousClose": 109.03,
       "asOf": "2026-05-04",
       "history": [
@@ -5869,7 +5869,7 @@
         },
         {
           "date": "2026-05-04",
-          "close": 110.69
+          "close": 114.13
         }
       ],
       "name": "Brent Crude",
@@ -5878,7 +5878,7 @@
     "gas": {
       "value": 2.85,
       "change": 0.05,
-      "changePercent": 1.68,
+      "changePercent": 1.79,
       "previousClose": 2.8,
       "asOf": "2026-05-04",
       "history": [
@@ -7165,21 +7165,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4585.9,
-      "change": -65.6,
-      "changePercent": -1.41
+      "price": 4529.4,
+      "change": -122.1,
+      "changePercent": -2.62
     },
     {
       "name": "Silver",
-      "price": 74.78,
-      "change": 2.05,
-      "changePercent": 2.81
+      "price": 73.36,
+      "change": 0.62,
+      "changePercent": 0.85
     },
     {
       "name": "Copper",
-      "price": 5.91,
-      "change": 0.34,
-      "changePercent": 6.19
+      "price": 5.86,
+      "change": 0.3,
+      "changePercent": 5.39
     }
   ],
   "housing": {
@@ -7522,6 +7522,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to fall, oil jumps on war uncertainty; RBA decision ahead; GameStop makes $78b bid for eBay",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-oil-jumps-on-war-uncertainty-rba-decision-ahead-gamestop-makes-78b-bid-for-ebay-20260505-p5ztq9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is falling from its record heights while oil prices jump following escalations in the Middle East that may be undermining the ceasefire in the war with Iran.",
+      "pubDate": "Tue, 05 May 2026 05:22:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "‘Tax cut?’ Key budget question",
       "link": "https://www.news.com.au/finance/economy/federal-budget/federal-buget-2026-labor-tightlipped-on-tax-cut-in-the-may-12-budget/news-story/f7095e21e04966dd4943e00f6cdca97c?from=rss-basic",
       "snippet": "Labor is keeping tight-lipped about what will be in the upcoming federal budget, including whether Australians will get more money back from the commonwealth.",
@@ -7571,20 +7578,6 @@
       "source": "SMH"
     },
     {
-      "title": "Larvotto extends high-grade gold-antimony-tungsten story in NSW",
-      "link": "https://www.smh.com.au/business/companies/larvotto-extends-high-grade-gold-antimony-tungsten-story-in-nsw-20260504-p5ztlm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto Resources’ recent drilling of its Midas Gully system has extended high-grade gold-antimony mineralisation at the Metz Mining Centre in its Hillgrove project in NSW.",
-      "pubDate": "Mon, 04 May 2026 15:17:47 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Pacgold pours first doré bar from South Australian gold mine",
-      "link": "https://www.smh.com.au/business/companies/pacgold-pours-first-dor-bar-from-south-australian-gold-mine-20260504-p5ztku.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Pacgold Limited has poured maiden gold doré from its SA White Dam mine, producing 80 ounces as heap leach operations ramp up, with the first cash flow marking a move to producer.",
-      "pubDate": "Mon, 04 May 2026 14:37:52 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Tony Burke says migrants are the ‘solution, not the problem’, defends pre-election citizenship ceremonies",
       "link": "https://www.news.com.au/finance/economy/australian-economy/tony-burke-says-migrants-are-the-solution-not-the-problem-defends-preelection-citizenship-ceremonies/news-story/8ea8d3e93a334035a8b58262f6e2483e?from=rss-basic",
       "snippet": "Tony Burke has declared immigration is the “solution, not the problem” for the housing crisis — and revealed the first thing he says to new Indian-Australian citizens.",
@@ -7597,6 +7590,13 @@
       "snippet": "A financial expert has revealed nine ways you can legally “hide” your money to boost your age pension entitlement.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Qantas, Virgin lag foreign airlines on customer satisfaction",
+      "link": "https://www.smh.com.au/business/consumer-affairs/qantas-virgin-lag-foreign-airlines-on-customer-satisfaction-20260504-p5ztes.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The survey of Australians’ air travel behaviour experiences paints a picture of resigned customers, accustomed not to seek remedies when disruptions occur.",
+      "pubDate": "Tue, 05 May 2026 05:00:00 +1000",
+      "source": "SMH"
     }
   ]
 }
