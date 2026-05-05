@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-05T08:31:32.897Z",
+  "fetchedAt": "2026-05-05T19:57:14.514Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.03,
-      "changePercent": 3.65,
+      "changePercent": 3.95,
       "previousClose": 0.69,
       "asOf": "2026-05-05",
       "history": [
@@ -1113,8 +1113,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0.01,
-      "changePercent": 2.25,
+      "change": 0.02,
+      "changePercent": 2.56,
       "previousClose": 0.6,
       "asOf": "2026-05-05",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.89,
-      "change": 0.13,
-      "changePercent": 2.72,
+      "value": 4.91,
+      "change": 0.15,
+      "changePercent": 3.14,
       "previousClose": 4.76,
       "asOf": "2026-05-05",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 4.89
+          "close": 4.91
         }
       ],
       "label": "AUD/CNY",
@@ -2575,7 +2575,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 4.89
+          "close": 4.91
         }
       ],
       "h6m": [
@@ -2689,7 +2689,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 4.89
+          "close": 4.91
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-05-05",
-          "close": 4.89
+          "close": 4.91
         }
       ]
     },
     "audjpy": {
-      "value": 112.6,
-      "change": 2.4,
-      "changePercent": 2.18,
+      "value": 113.38,
+      "change": 3.17,
+      "changePercent": 2.88,
       "previousClose": 110.2,
       "asOf": "2026-05-05",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 112.6
+          "close": 113.38
         }
       ],
       "label": "AUD/JPY",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 112.6
+          "close": 113.38
         }
       ],
       "h6m": [
@@ -3799,7 +3799,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 112.6
+          "close": 113.38
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 112.6
+          "close": 113.38
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.03,
-    "changePercent": 3.65,
+    "changePercent": 3.95,
     "previousClose": 0.69,
     "asOf": "2026-05-05",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 103.96,
-      "change": -8.45,
-      "changePercent": -7.52,
+      "value": 102.65,
+      "change": -9.76,
+      "changePercent": -8.68,
       "previousClose": 112.41,
       "asOf": "2026-05-05",
       "history": [
@@ -5838,16 +5838,16 @@
         },
         {
           "date": "2026-05-05",
-          "close": 103.96
+          "close": 102.65
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 113.07,
-      "change": 3.3,
-      "changePercent": 3.01,
+      "value": 110.12,
+      "change": 0.35,
+      "changePercent": 0.32,
       "previousClose": 109.77,
       "asOf": "2026-05-05",
       "history": [
@@ -5937,16 +5937,16 @@
         },
         {
           "date": "2026-05-05",
-          "close": 113.07
+          "close": 110.12
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.82,
-      "change": 0.01,
-      "changePercent": 0.46,
+      "value": 2.77,
+      "change": -0.04,
+      "changePercent": -1.57,
       "previousClose": 2.81,
       "asOf": "2026-05-05",
       "history": [
@@ -6036,7 +6036,7 @@
         },
         {
           "date": "2026-05-05",
-          "close": 2.82
+          "close": 2.77
         }
       ],
       "name": "Natural Gas",
@@ -6207,10 +6207,6 @@
       {
         "date": "2026-05-04",
         "close": 8697.1
-      },
-      {
-        "date": "2026-05-05",
-        "close": 8680.5
       }
     ]
   },
@@ -7277,21 +7273,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4560.1,
-      "change": -96.7,
-      "changePercent": -2.08
+      "price": 4566.2,
+      "change": -90.6,
+      "changePercent": -1.95
     },
     {
       "name": "Silver",
-      "price": 73.83,
-      "change": 1.16,
-      "changePercent": 1.6
+      "price": 73.34,
+      "change": 0.68,
+      "changePercent": 0.93
     },
     {
       "name": "Copper",
-      "price": 5.95,
-      "change": 0.37,
-      "changePercent": 6.56
+      "price": 5.98,
+      "change": 0.4,
+      "changePercent": 7.09
     }
   ],
   "housing": {
@@ -7634,10 +7630,10 @@
       "source": "SMH"
     },
     {
-      "title": "Westpac raises buffers for bad loans as it braces for slowdown",
-      "link": "https://www.smh.com.au/business/banking-and-finance/westpac-raises-buffers-for-bad-loans-as-it-braces-for-slowdown-20260505-p5ztws.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The banking giant is preparing for a softer economy and disruption from the energy crisis caused by the war in the Middle East.",
-      "pubDate": "Tue, 05 May 2026 13:54:23 +1000",
+      "title": "ASX set to rise, Wall Street rebounds as oil prices fall",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-rebounds-as-oil-prices-fall-20260506-p5zu4a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is rising toward records after an easing of oil prices let Wall Street turn its focus back to the big profits that companies keep producing.",
+      "pubDate": "Wed, 06 May 2026 05:13:06 +1000",
       "source": "SMH"
     },
     {
@@ -7662,7 +7658,7 @@
       "source": "News.com.au"
     },
     {
-      "title": "What a $12,500 cocktail and a $78b EBay bid say about our red-hot markets",
+      "title": "What a $12,500 cocktail and a $78b eBay bid say about our red-hot markets",
       "link": "https://www.smh.com.au/business/companies/what-a-12-500-cocktail-and-a-78b-ebay-bid-say-about-our-red-hot-markets-20260505-p5ztw1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "We’re living in an investing world where meme stock GameStop launching a $78b bid for the far larger eBay is not the craziest trade on the market.",
       "pubDate": "Tue, 05 May 2026 18:07:40 +1000",
@@ -7704,11 +7700,11 @@
       "source": "ABC"
     },
     {
-      "title": "Tony Burke says migrants are the ‘solution, not the problem’, defends pre-election citizenship ceremonies",
-      "link": "https://www.news.com.au/finance/economy/australian-economy/tony-burke-says-migrants-are-the-solution-not-the-problem-defends-preelection-citizenship-ceremonies/news-story/8ea8d3e93a334035a8b58262f6e2483e?from=rss-basic",
-      "snippet": "Tony Burke has declared immigration is the “solution, not the problem” for the housing crisis — and revealed the first thing he says to new Indian-Australian citizens.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "James Murdoch makes $418 million offer for digital media giant: report",
+      "link": "https://www.smh.com.au/business/companies/james-murdoch-makes-418-million-offer-for-digital-media-giant-report-20260506-p5zu4c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Rupert Murdoch’s youngest son is looking to make his mark in US media after cashing out of the family empire last year after a bitter court battle.",
+      "pubDate": "Wed, 06 May 2026 05:55:25 +1000",
+      "source": "SMH"
     }
   ]
 }
