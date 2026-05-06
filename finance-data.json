@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-06T15:10:48.497Z",
+  "fetchedAt": "2026-05-06T20:08:55.801Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.04,
-      "changePercent": 5.13,
+      "changePercent": 5.14,
       "previousClose": 0.69,
       "asOf": "2026-05-06",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.02,
-      "changePercent": 2.91,
+      "changePercent": 2.96,
       "previousClose": 0.6,
       "asOf": "2026-05-06",
       "history": [
@@ -2232,7 +2232,7 @@
     "audcny": {
       "value": 4.93,
       "change": 0.19,
-      "changePercent": 4.07,
+      "changePercent": 4.04,
       "previousClose": 4.74,
       "asOf": "2026-05-06",
       "history": [
@@ -3344,9 +3344,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.2,
-      "change": 3.21,
-      "changePercent": 2.91,
+      "value": 113.18,
+      "change": 3.18,
+      "changePercent": 2.89,
       "previousClose": 110,
       "asOf": "2026-05-06",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-06",
-          "close": 113.2
+          "close": 113.18
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-05-06",
-          "close": 113.2
+          "close": 113.17
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-05-06",
-          "close": 113.2
+          "close": 113.17
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-06",
-          "close": 113.2
+          "close": 113.17
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.04,
-    "changePercent": 5.13,
+    "changePercent": 5.14,
     "previousClose": 0.69,
     "asOf": "2026-05-06",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 94.89,
-      "change": -17.52,
-      "changePercent": -15.59,
+      "value": 95.11,
+      "change": -17.3,
+      "changePercent": -15.39,
       "previousClose": 112.41,
       "asOf": "2026-05-06",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-06",
-          "close": 94.89
+          "close": 95.11
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 101.82,
-      "change": -7.95,
-      "changePercent": -7.24,
+      "value": 101.34,
+      "change": -8.43,
+      "changePercent": -7.68,
       "previousClose": 109.77,
       "asOf": "2026-05-06",
       "history": [
@@ -5965,7 +5965,7 @@
         },
         {
           "date": "2026-05-06",
-          "close": 101.82
+          "close": 101.34
         }
       ],
       "name": "Brent Crude",
@@ -5974,7 +5974,7 @@
     "gas": {
       "value": 2.72,
       "change": -0.09,
-      "changePercent": -3.38,
+      "changePercent": -3.31,
       "previousClose": 2.81,
       "asOf": "2026-05-06",
       "history": [
@@ -7341,21 +7341,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4713.9,
-      "change": 57.1,
-      "changePercent": 1.23
+      "price": 4705.4,
+      "change": 48.6,
+      "changePercent": 1.04
     },
     {
       "name": "Silver",
-      "price": 77.96,
-      "change": 5.3,
-      "changePercent": 7.29
+      "price": 77.99,
+      "change": 5.33,
+      "changePercent": 7.33
     },
     {
       "name": "Copper",
       "price": 6.18,
       "change": 0.6,
-      "changePercent": 10.71
+      "changePercent": 10.73
     }
   ],
   "housing": {
@@ -7691,13 +7691,6 @@
   ],
   "news": [
     {
-      "title": "Banks, miners drive ASX to its biggest gain in weeks amid Iran hopes; Oil slides",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-rebounds-as-oil-prices-fall-20260506-p5zu4a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket had a strong session as mining and banking heavyweights rallied amid rising hopes that the US and Iran can agree to a peace deal.",
-      "pubDate": "Wed, 06 May 2026 17:00:42 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘Hypothetical’: Grim RBA warning downplayed",
       "link": "https://www.news.com.au/finance/economy/interest-rates/rba-rate-hike-a-hammerblow-to-australian-families-taylor/news-story/22be75fed9a967c32a63e1699623c64b?from=rss-basic",
       "snippet": "Treasurer Jim Chalmers has dismissed a stark warning from the RBA governor on a cost-of-living measure reportedly included in the federal budget.",
@@ -7705,32 +7698,11 @@
       "source": "News.com.au"
     },
     {
-      "title": "Big Hits - BMC Minerals, Caspin Resources and Barton Gold",
-      "link": "https://www.smh.com.au/business/companies/big-hits-bmc-minerals-caspin-resources-and-barton-gold-20260506-p5zuf0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Bulls N’ Bears Big Hits looks at notable intercepts recently reported to the ASX by BMC Minerals, Caspin Resources and Barton Gold.",
-      "pubDate": "Wed, 06 May 2026 16:37:40 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "H3 Energy fires twin-shot at WA gas giant and SA energy elephant",
-      "link": "https://www.smh.com.au/business/companies/h3-energy-fires-twin-shot-at-wa-gas-giant-and-sa-energy-elephant-20260506-p5zudu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "H3 Energy has raised $3.5M to fast-track its Warro gas redevelopment in WA and prepare the drill for its basin-scale Alinya multi-commodity play in South Australia.",
-      "pubDate": "Wed, 06 May 2026 15:10:28 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "RBA has just ‘guaranteed’ Aussie stagflation",
       "link": "https://www.news.com.au/finance/economy/australian-economy/expert-claims-rba-has-guaranteed-lower-living-standards-after-brutal-interest-rate-hike/news-story/542b3830fc100e5e609db8e66993b0dc?from=rss-basic",
       "snippet": "An Australian finance expert has hit out at the RBA, warning that living standards are now almost certain to plummet – fast.",
       "pubDate": "",
       "source": "News.com.au"
-    },
-    {
-      "title": "Hormuz blockade puts ASX helium stocks in the spotlight",
-      "link": "https://www.smh.com.au/business/companies/hormuz-blockade-puts-asx-helium-stocks-in-the-spotlight-20260506-p5zuc9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The era of cheap helium is over. A fourfold price spike has turned the hunt for supply into a global crisis, handing a strategic edge to ASX-listed pure-plays.",
-      "pubDate": "Wed, 06 May 2026 14:02:06 +1000",
-      "source": "SMH"
     },
     {
       "title": "Albo’s new fuel plan amid Coalition snub",
@@ -7745,13 +7717,6 @@
       "snippet": "",
       "pubDate": "Wed, 06 May 2026 04:38:30 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Advance launches major drill push for high-grade silver in Mexico",
-      "link": "https://www.smh.com.au/business/companies/advance-launches-major-drill-push-for-high-grade-silver-in-mexico-20260506-p5zucq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Advance Metals has kicked off a 4500m drilling program at its high-grade Gavilanes silver project in Mexico, aiming to upgrade a 22.4-million-ounce silver equivalent foreign estimate.",
-      "pubDate": "Wed, 06 May 2026 14:11:27 +1000",
-      "source": "SMH"
     },
     {
       "title": "‘Outlier’ behind Aussie dollar’s 4-year high",
@@ -7773,6 +7738,41 @@
       "snippet": "",
       "pubDate": "Wed, 06 May 2026 04:53:58 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "Rahm pays fine to return to DP World Tour as LIV doubt grows",
+      "link": "https://www.abc.net.au/news/2026-05-06/rahm-pays-fine-to-return-to-dp-world-tour-as-liv-doubt-grows/106646308",
+      "snippet": "",
+      "pubDate": "Tue, 05 May 2026 22:18:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Arsenal close in on historic double by reaching Champions League final",
+      "link": "https://www.abc.net.au/news/2026-05-06/arsenal-through-to-champions-league-final-atletico-madrid/106646246",
+      "snippet": "",
+      "pubDate": "Tue, 05 May 2026 21:51:20 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Shocking number of Aussies on benefits",
+      "link": "https://www.news.com.au/finance/australias-789bn-income-support-system-under-strain-as-mental-health-claims-surge/news-story/c9baa5a6c0d3b2cb195beaef3d887916?from=rss-basic",
+      "snippet": "Australia’s income support system is under mounting strain from the staggering number of people drawing some form of assistance.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Alleged young thieves stopped by bystanders",
+      "link": "https://www.news.com.au/finance/business/retail/moment-brave-bystanders-stop-teens-from-allegedly-stealing-alcohol-from-dan-murphys/news-story/680723098f05c6cfb6d0459a7b7a30df?from=rss-basic",
+      "snippet": "Wild footage has captured the moment bystanders stepped in to stop two teenagers allegedly attempting to steal alcohol from a Dan Murphy’s store.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "‘Breathtaking hypocrisy’: Aussie rich-lister slams new tax proposal",
+      "link": "https://www.news.com.au/finance/economy/australian-economy/budgets-hammer-blow-for-young-aussies-as-experts-warn-removing-the-capital-gains-tax-discount-will-punish-millennial-and-gen-z-investors/news-story/33f5b2e045e7ef18b9e2e74873adb8da?from=rss-basic",
+      "snippet": "One of Australia’s richest men has eviscerated the Federal Government in a series of scathing posts, describing a proposed new tax as “theft”.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
