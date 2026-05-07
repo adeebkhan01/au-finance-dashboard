@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-07T15:11:39.366Z",
+  "fetchedAt": "2026-05-07T19:58:37.367Z",
   "fx": {
     "audusd": {
-      "value": 0.73,
+      "value": 0.72,
       "change": 0.03,
-      "changePercent": 4.96,
+      "changePercent": 4.44,
       "previousClose": 0.69,
       "asOf": "2026-05-07",
       "history": [
@@ -98,7 +98,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 0.73
+          "close": 0.72
         }
       ],
       "label": "AUD/USD",
@@ -359,7 +359,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 0.73
+          "close": 0.72
         }
       ],
       "h6m": [
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 0.73
+          "close": 0.72
         }
       ],
       "h3y": [
@@ -1111,14 +1111,14 @@
         },
         {
           "date": "2026-05-07",
-          "close": 0.73
+          "close": 0.72
         }
       ]
     },
     "audeur": {
       "value": 0.62,
       "change": 0.02,
-      "changePercent": 2.8,
+      "changePercent": 2.64,
       "previousClose": 0.6,
       "asOf": "2026-05-07",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.93,
-      "change": 0.17,
-      "changePercent": 3.61,
+      "value": 4.91,
+      "change": 0.15,
+      "changePercent": 3.15,
       "previousClose": 4.76,
       "asOf": "2026-05-07",
       "history": [
@@ -2326,7 +2326,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 4.93
+          "close": 4.91
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 4.93
+          "close": 4.91
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 4.93
+          "close": 4.91
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-05-07",
-          "close": 4.93
+          "close": 4.91
         }
       ]
     },
     "audjpy": {
-      "value": 113.43,
-      "change": 2.98,
-      "changePercent": 2.7,
+      "value": 113.22,
+      "change": 2.77,
+      "changePercent": 2.51,
       "previousClose": 110.44,
       "asOf": "2026-05-07",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 113.43
+          "close": 113.21
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 113.43
+          "close": 113.21
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 113.43
+          "close": 113.21
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-05-07",
-          "close": 113.43
+          "close": 113.21
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.73,
+    "value": 0.72,
     "change": 0.03,
-    "changePercent": 4.96,
+    "changePercent": 4.44,
     "previousClose": 0.69,
     "asOf": "2026-05-07",
     "history": [
@@ -4555,7 +4555,7 @@
       },
       {
         "date": "2026-05-07",
-        "close": 0.73
+        "close": 0.72
       }
     ],
     "label": "AUD/USD",
@@ -4816,7 +4816,7 @@
       },
       {
         "date": "2026-05-07",
-        "close": 0.73
+        "close": 0.72
       }
     ],
     "h6m": [
@@ -4930,7 +4930,7 @@
       },
       {
         "date": "2026-05-07",
-        "close": 0.73
+        "close": 0.72
       }
     ],
     "h3y": [
@@ -5568,7 +5568,7 @@
       },
       {
         "date": "2026-05-07",
-        "close": 0.73
+        "close": 0.72
       }
     ]
   },
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.47,
-      "change": -21.48,
-      "changePercent": -19.02,
+      "value": 96.47,
+      "change": -16.48,
+      "changePercent": -14.59,
       "previousClose": 112.95,
       "asOf": "2026-05-07",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-07",
-          "close": 91.47
+          "close": 96.47
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.44,
-      "change": -11.83,
-      "changePercent": -10.83,
+      "value": 101.96,
+      "change": -7.31,
+      "changePercent": -6.69,
       "previousClose": 109.27,
       "asOf": "2026-05-07",
       "history": [
@@ -5965,16 +5965,16 @@
         },
         {
           "date": "2026-05-07",
-          "close": 97.44
+          "close": 101.96
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.79,
-      "change": -0.08,
-      "changePercent": -2.79,
+      "value": 2.78,
+      "change": -0.09,
+      "changePercent": -3.21,
       "previousClose": 2.87,
       "asOf": "2026-05-07",
       "history": [
@@ -6068,7 +6068,7 @@
         },
         {
           "date": "2026-05-07",
-          "close": 2.79
+          "close": 2.78
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4770.6,
-      "change": 113.5,
-      "changePercent": 2.44
+      "price": 4715.2,
+      "change": 58.1,
+      "changePercent": 1.25
     },
     {
       "name": "Silver",
-      "price": 82.39,
-      "change": 10.56,
-      "changePercent": 14.71
+      "price": 79.66,
+      "change": 7.83,
+      "changePercent": 10.91
     },
     {
       "name": "Copper",
-      "price": 6.22,
-      "change": 0.68,
-      "changePercent": 12.23
+      "price": 6.16,
+      "change": 0.61,
+      "changePercent": 11.06
     }
   ],
   "housing": {
@@ -7727,11 +7727,25 @@
   ],
   "news": [
     {
+      "title": "‘Double the tax’: Finance guru’s grim warning",
+      "link": "https://www.news.com.au/finance/money/tax/double-the-tax-finance-guru-mark-bouris-grim-tax-reform-warning-revealed/news-story/f0959f5676786e1fe5822e59712c73f9?from=rss-basic",
+      "snippet": "Next week’s federal budget could fundamentally reshape how all Australians build wealth – and not in a good way, a finance expert warns.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
       "title": "‘Hypothetical’: Grim RBA warning downplayed",
       "link": "https://www.news.com.au/finance/economy/interest-rates/rba-rate-hike-a-hammerblow-to-australian-families-taylor/news-story/22be75fed9a967c32a63e1699623c64b?from=rss-basic",
       "snippet": "Treasurer Jim Chalmers has dismissed a stark warning from the RBA governor on a cost-of-living measure reportedly included in the federal budget.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "ASX set to fall as Wall Street retreats from records",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-wall-street-retreats-from-records-20260508-p5zuwt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is hanging just below its records while oil prices keep dropping on hopes that a deal may be nearing to allow tankers to deliver crude once again from the Persian Gulf to customers.",
+      "pubDate": "Fri, 08 May 2026 05:17:23 +1000",
+      "source": "SMH"
     },
     {
       "title": "Zenith weighs corporate pathways for emerging WA gold hub",
@@ -7748,17 +7762,10 @@
       "source": "News.com.au"
     },
     {
-      "title": "‘Have you seen the share price!?’ Controversial AI founder slams short attack",
-      "link": "https://www.smh.com.au/business/companies/have-you-seen-the-share-price-controversial-ai-founder-slams-short-attack-20260507-p5zuoy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Short sellers behind a damning report on Aussie startup Sharon AI have been burnt spectacularly after its shares soared in a market enamoured with the boom in artificial intelligence.",
-      "pubDate": "Thu, 07 May 2026 16:28:47 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Thick, shallow gold extends Pacgold pit in South Australia",
-      "link": "https://www.smh.com.au/business/companies/thick-shallow-gold-extends-pacgold-pit-in-south-australia-20260507-p5zutv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Pacgold has hit thick, shallow gold mineralisation just outside its Vertigo resource in South Australia, with results likely to add ounces and potentially extend the existing open pit.",
-      "pubDate": "Thu, 07 May 2026 16:22:32 +1000",
+      "title": "Michele Bullock has made a bold move – and it’s not the rate rise",
+      "link": "https://www.smh.com.au/business/the-economy/michele-bullock-has-made-a-bold-move-and-it-s-not-the-rate-rise-20260507-p5zum6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The RBA governor is careful not to make her predecessor’s mistakes. But she’s changed her tune this week – in a good way.",
+      "pubDate": "Fri, 08 May 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7767,6 +7774,20 @@
       "snippet": "Anthony Albanese has made a big announcement on Australia’s fuel security after a high-stakes meeting with state and territory leaders.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Why did my workplace agree to an idea we knew would fail?",
+      "link": "https://www.smh.com.au/business/workplace/why-did-my-workplace-agree-to-an-idea-we-knew-would-fail-20260507-p5zuq3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Rather than dwelling too much on the bad idea itself, it might be better to look at why it was suggested in the first place.",
+      "pubDate": "Fri, 08 May 2026 05:10:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Sydney silk sells Newtown’s Courthouse pub to a beer baron in a frothy $24m deal",
+      "link": "https://www.smh.com.au/business/small-business/sydney-silk-sells-newtown-s-courthouse-pub-to-a-beer-baron-in-a-frothy-24m-deal-20260507-p5zupt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Barrister Brian Dooley called last drinks at Newtown’s Courthouse pub. He’ll hand the keys to his thirsty tenant, pub baron Bruce Solomon, who has paid a frothy $24 million.",
+      "pubDate": "Fri, 08 May 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Aurum keeps piling on the ounces at giant Côte d’Ivoire gold play",
@@ -7783,30 +7804,9 @@
       "source": "ABC"
     },
     {
-      "title": "Lindian powers towards rare earths production lift off in Malawi",
-      "link": "https://www.smh.com.au/business/companies/lindian-powers-towards-rare-earths-production-lift-off-in-malawi-20260507-p5zuu1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Lindian Resources remains on track for first rare earths production in Malawi by late 2026, with mining activities and plant construction now ramping up on site.",
-      "pubDate": "Thu, 07 May 2026 16:28:56 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Moonlight delivers 450m strike boost to Qld gold system",
-      "link": "https://www.smh.com.au/business/companies/moonlight-delivers-450m-strike-boost-to-qld-gold-system-20260507-p5zurt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Phase two drilling at Moonlight Resources’ Leo Grande prospect in Qld has extended the gold footprint, with wide near-surface gold hits and several holes ending in mineralisation.",
-      "pubDate": "Thu, 07 May 2026 15:15:07 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Bombshell report reveals $3bn worker rip-off",
       "link": "https://www.news.com.au/finance/work/at-work/international-students-cheated-out-of318bn-in-annual-wages-new-report-finds/news-story/28981750cb1f6db3b0f1ea9095165ed4?from=rss-basic",
       "snippet": "Sham contracting, falsified pay slips and unpaid super are just some of the ways Aussie employers are ripping off one group of workers.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Outlier’ behind Aussie dollar’s 4-year high",
-      "link": "https://www.news.com.au/finance/markets/australian-dollar/reserve-bank-interest-rate-rise-sends-australian-dollar-to-fouryear-high/news-story/efbb28477efaabf6b71f3e9c83709a6f?from=rss-basic",
-      "snippet": "The surprising reason for the Australian dollar being propelled to a four-year high has been revealed.",
       "pubDate": "",
       "source": "News.com.au"
     }
