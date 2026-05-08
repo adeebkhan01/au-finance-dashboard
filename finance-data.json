@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-08T14:22:40.402Z",
+  "fetchedAt": "2026-05-08T19:54:02.102Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 2.37,
+      "changePercent": 2.4,
       "previousClose": 0.71,
       "asOf": "2026-05-08",
       "history": [
@@ -1116,9 +1116,9 @@
       ]
     },
     "audeur": {
-      "value": 0.62,
+      "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.57,
+      "changePercent": 1.55,
       "previousClose": 0.61,
       "asOf": "2026-05-08",
       "history": [
@@ -1212,7 +1212,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 0.62
+          "close": 0.61
         }
       ],
       "label": "AUD/EUR",
@@ -1477,7 +1477,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 0.62
+          "close": 0.61
         }
       ],
       "h6m": [
@@ -1591,7 +1591,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 0.62
+          "close": 0.61
         }
       ],
       "h3y": [
@@ -2225,14 +2225,14 @@
         },
         {
           "date": "2026-05-08",
-          "close": 0.62
+          "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.92,
+      "value": 4.93,
       "change": 0.07,
-      "changePercent": 1.49,
+      "changePercent": 1.54,
       "previousClose": 4.85,
       "asOf": "2026-05-08",
       "history": [
@@ -2326,7 +2326,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 4.92
+          "close": 4.93
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 4.92
+          "close": 4.93
         }
       ],
       "h6m": [
@@ -2705,7 +2705,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 4.92
+          "close": 4.93
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-05-08",
-          "close": 4.92
+          "close": 4.93
         }
       ]
     },
     "audjpy": {
-      "value": 113.44,
-      "change": 1.13,
-      "changePercent": 1,
+      "value": 113.56,
+      "change": 1.25,
+      "changePercent": 1.11,
       "previousClose": 112.31,
       "asOf": "2026-05-08",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 113.44
+          "close": 113.56
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 113.44
+          "close": 113.56
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 113.43
+          "close": 113.56
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 113.43
+          "close": 113.55
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 2.37,
+    "changePercent": 2.4,
     "previousClose": 0.71,
     "asOf": "2026-05-08",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 95.26,
-      "change": 0.85,
-      "changePercent": 0.9,
+      "value": 94.78,
+      "change": 0.37,
+      "changePercent": 0.39,
       "previousClose": 94.41,
       "asOf": "2026-05-08",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-08",
-          "close": 95.26
+          "close": 94.78
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 101.32,
-      "change": 6.57,
-      "changePercent": 6.93,
+      "value": 100.55,
+      "change": 5.8,
+      "changePercent": 6.12,
       "previousClose": 94.75,
       "asOf": "2026-05-08",
       "history": [
@@ -5965,16 +5965,16 @@
         },
         {
           "date": "2026-05-08",
-          "close": 101.32
+          "close": 100.55
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.84,
-      "change": 0.11,
-      "changePercent": 4.07,
+      "value": 2.75,
+      "change": 0.02,
+      "changePercent": 0.88,
       "previousClose": 2.72,
       "asOf": "2026-05-08",
       "history": [
@@ -6068,7 +6068,7 @@
         },
         {
           "date": "2026-05-08",
-          "close": 2.84
+          "close": 2.75
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4736.4,
-      "change": -13.1,
-      "changePercent": -0.28
+      "price": 4735,
+      "change": -14.5,
+      "changePercent": -0.31
     },
     {
       "name": "Silver",
-      "price": 81.38,
-      "change": 6.15,
-      "changePercent": 8.18
+      "price": 81.22,
+      "change": 6,
+      "changePercent": 7.97
     },
     {
       "name": "Copper",
-      "price": 6.27,
-      "change": 0.5,
-      "changePercent": 8.77
+      "price": 6.3,
+      "change": 0.54,
+      "changePercent": 9.34
     }
   ],
   "housing": {
@@ -7727,13 +7727,6 @@
   ],
   "news": [
     {
-      "title": "ASX dives, wiping out $40b, as banks slide and oil climbs",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-wall-street-retreats-from-records-20260508-p5zuwt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The sharemarket had its largest one-day fall in seven weeks on Friday.",
-      "pubDate": "Fri, 08 May 2026 09:05:54 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "$64bn detail in budget",
       "link": "https://www.news.com.au/finance/economy/federal-budget/federal-budget-2026-labor-finds-64bn-in-savings/news-story/84de8966ea57373d6403ae529b6208f4?from=rss-basic",
       "snippet": "The Albanese government’s finance chiefs have revealed savings worth tens of billions of dollars in next week’s federal budget.",
@@ -7804,11 +7797,18 @@
       "source": "SMH"
     },
     {
-      "title": "LeBron's new gear at 41 leads lessons from first round of NBA Playoffs",
-      "link": "https://www.abc.net.au/news/2026-05-08/basketball-five-lessons-first-round-nba-playoffs-lebron-knicks/106613426",
-      "snippet": "",
-      "pubDate": "Thu, 07 May 2026 22:26:53 +0000",
-      "source": "ABC"
+      "title": "Bombshell report reveals $3bn worker rip-off",
+      "link": "https://www.news.com.au/finance/work/at-work/international-students-cheated-out-of318bn-in-annual-wages-new-report-finds/news-story/28981750cb1f6db3b0f1ea9095165ed4?from=rss-basic",
+      "snippet": "Sham contracting, falsified pay slips and unpaid super are just some of the ways Aussie employers are ripping off one group of workers.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "‘Outlier’ behind Aussie dollar’s 4-year high",
+      "link": "https://www.news.com.au/finance/markets/australian-dollar/reserve-bank-interest-rate-rise-sends-australian-dollar-to-fouryear-high/news-story/efbb28477efaabf6b71f3e9c83709a6f?from=rss-basic",
+      "snippet": "The surprising reason for the Australian dollar being propelled to a four-year high has been revealed.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
