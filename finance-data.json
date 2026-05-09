@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-09T04:02:34.117Z",
+  "fetchedAt": "2026-05-09T08:15:50.863Z",
   "fx": {
     "audusd": {
       "value": 0.73,
@@ -101,7 +101,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-08",
+          "date": "2026-05-09",
           "close": 0.72
         }
       ],
@@ -370,7 +370,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-08",
+          "date": "2026-05-09",
           "close": 0.72
         }
       ],
@@ -484,7 +484,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-08",
+          "date": "2026-05-09",
           "close": 0.72
         }
       ],
@@ -1118,7 +1118,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-08",
+          "date": "2026-05-09",
           "close": 0.72
         }
       ]
@@ -4590,7 +4590,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "close": 0.72
       }
     ],
@@ -4859,7 +4859,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "close": 0.72
       }
     ],
@@ -4973,7 +4973,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "close": 0.72
       }
     ],
@@ -5607,7 +5607,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-08",
+        "date": "2026-05-09",
         "close": 0.72
       }
     ]
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 94.68,
-      "change": 0.27,
-      "changePercent": 0.29,
+      "value": 95.42,
+      "change": 1.01,
+      "changePercent": 1.07,
       "previousClose": 94.41,
       "asOf": "2026-05-09",
       "history": [
@@ -5905,9 +5905,9 @@
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 100.49,
-      "change": 5.74,
-      "changePercent": 6.06,
+      "value": 101.29,
+      "change": 6.54,
+      "changePercent": 6.9,
       "previousClose": 94.75,
       "asOf": "2026-05-09",
       "history": [
@@ -6004,9 +6004,9 @@
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.75,
+      "value": 2.76,
       "change": 0.03,
-      "changePercent": 0.95,
+      "changePercent": 1.21,
       "previousClose": 2.72,
       "asOf": "2026-05-09",
       "history": [
@@ -7409,21 +7409,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4723.7,
-      "change": -25.8,
-      "changePercent": -0.54
+      "price": 4730.7,
+      "change": -18.8,
+      "changePercent": -0.4
     },
     {
       "name": "Silver",
-      "price": 80.83,
-      "change": 5.61,
-      "changePercent": 7.46
+      "price": 80.86,
+      "change": 5.64,
+      "changePercent": 7.5
     },
     {
       "name": "Copper",
-      "price": 6.28,
-      "change": 0.52,
-      "changePercent": 9.06
+      "price": 6.3,
+      "change": 0.54,
+      "changePercent": 9.32
     }
   ],
   "housing": {
@@ -7780,25 +7780,11 @@
       "source": "News.com.au"
     },
     {
-      "title": "RBA has just ‘guaranteed’ Aussie stagflation",
-      "link": "https://www.news.com.au/finance/economy/australian-economy/expert-claims-rba-has-guaranteed-lower-living-standards-after-brutal-interest-rate-hike/news-story/542b3830fc100e5e609db8e66993b0dc?from=rss-basic",
-      "snippet": "An Australian finance expert has hit out at the RBA, warning that living standards are now almost certain to plummet – fast.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "ASX Runners of the Week: Key Petroleum, Kaoko, Swift TV &amp; Caprice",
       "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-key-petroleum-kaoko-swift-tv-and-caprice-20260508-p5zv5w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Key Petroleum, which surged after edging closer to State approvals over its permits in the oil-rich Cooper-Eromanga Basin amid ongoing global oil price volatility.",
       "pubDate": "Fri, 08 May 2026 16:30:33 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "The long road to recovery after concussion",
-      "link": "https://www.abc.net.au/news/2026-05-09/road-to-recovery-after-concussions/106636020",
-      "snippet": "",
-      "pubDate": "Fri, 08 May 2026 21:33:12 +0000",
-      "source": "ABC"
     },
     {
       "title": "Warren Buffett’s big bets set to haunt the $1.4 trillion giant he built",
@@ -7841,6 +7827,20 @@
       "snippet": "The food industry is warning grocery prices are set to rise because rising oil costs and global supply disruptions for an unexpected reason.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Bombshell report reveals $3bn worker rip-off",
+      "link": "https://www.news.com.au/finance/work/at-work/international-students-cheated-out-of318bn-in-annual-wages-new-report-finds/news-story/28981750cb1f6db3b0f1ea9095165ed4?from=rss-basic",
+      "snippet": "Sham contracting, falsified pay slips and unpaid super are just some of the ways Aussie employers are ripping off one group of workers.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Maroons dealt massive blow ahead of State of Origin series",
+      "link": "https://www.abc.net.au/news/2026-05-09/nrl-state-of-origin-queensland-maroons-tom-dearden-injury/106661932",
+      "snippet": "",
+      "pubDate": "Sat, 09 May 2026 06:10:29 +0000",
+      "source": "ABC"
     }
   ]
 }
