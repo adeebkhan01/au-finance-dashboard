@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-12T09:18:20.555Z",
+  "fetchedAt": "2026-05-12T15:20:32.408Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 2.02,
+      "changePercent": 2.09,
       "previousClose": 0.71,
       "asOf": "2026-05-12",
       "history": [
@@ -1112,9 +1112,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.5,
+      "changePercent": 1.73,
       "previousClose": 0.61,
       "asOf": "2026-05-12",
       "history": [
@@ -1204,7 +1204,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1465,7 +1465,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1579,7 +1579,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2217,14 +2217,14 @@
         },
         {
           "date": "2026-05-12",
-          "close": 0.61
+          "close": 0.62
         }
       ]
     },
     "audcny": {
       "value": 4.9,
       "change": 0.07,
-      "changePercent": 1.44,
+      "changePercent": 1.42,
       "previousClose": 4.83,
       "asOf": "2026-05-12",
       "history": [
@@ -3332,9 +3332,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.78,
-      "change": 1.22,
-      "changePercent": 1.08,
+      "value": 113.9,
+      "change": 1.33,
+      "changePercent": 1.18,
       "previousClose": 112.57,
       "asOf": "2026-05-12",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 113.78
+          "close": 113.9
         }
       ],
       "label": "AUD/JPY",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 113.78
+          "close": 113.9
         }
       ],
       "h6m": [
@@ -3799,7 +3799,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 113.78
+          "close": 113.9
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 113.79
+          "close": 113.89
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 2.02,
+    "changePercent": 2.09,
     "previousClose": 0.71,
     "asOf": "2026-05-12",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.22,
-      "change": 2.14,
-      "changePercent": 2.16,
+      "value": 101.66,
+      "change": 2.58,
+      "changePercent": 2.6,
       "previousClose": 99.08,
       "asOf": "2026-05-12",
       "history": [
@@ -5838,16 +5838,16 @@
         },
         {
           "date": "2026-05-12",
-          "close": 101.22
+          "close": 101.66
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 107.09,
-      "change": 7.73,
-      "changePercent": 7.78,
+      "value": 107.9,
+      "change": 8.54,
+      "changePercent": 8.6,
       "previousClose": 99.36,
       "asOf": "2026-05-12",
       "history": [
@@ -5937,16 +5937,16 @@
         },
         {
           "date": "2026-05-12",
-          "close": 107.09
+          "close": 107.9
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.92,
-      "change": 0.29,
-      "changePercent": 11.19,
+      "value": 2.83,
+      "change": 0.2,
+      "changePercent": 7.73,
       "previousClose": 2.63,
       "asOf": "2026-05-12",
       "history": [
@@ -6036,7 +6036,7 @@
         },
         {
           "date": "2026-05-12",
-          "close": 2.92
+          "close": 2.83
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-05-11",
         "close": 8701.8
-      },
-      {
-        "date": "2026-05-12",
-        "close": 8670.7
       }
     ]
   },
@@ -7313,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4707.5,
-      "change": -34.9,
-      "changePercent": -0.74
+      "price": 4678,
+      "change": -64.4,
+      "changePercent": -1.36
     },
     {
       "name": "Silver",
-      "price": 84.78,
-      "change": 9.25,
-      "changePercent": 12.25
+      "price": 85.08,
+      "change": 9.55,
+      "changePercent": 12.65
     },
     {
       "name": "Copper",
-      "price": 6.49,
-      "change": 0.51,
-      "changePercent": 8.53
+      "price": 6.54,
+      "change": 0.56,
+      "changePercent": 9.43
     }
   ],
   "housing": {
@@ -7670,25 +7666,25 @@
       "source": "SMH"
     },
     {
-      "title": "Chalmers flags ‘difficult decisions’ ahead of budget",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/chalmers-hits-out-at-critics-flags-difficult-decisions-ahead-of-federal-budget/news-story/397c74f48f2147971af3ea1843472daa?from=rss-basic",
-      "snippet": "With Labor poised to overhaul the housing and tax systems, some Aussies have been warned to brace for “difficult decisions” in Tuesday’s budget.",
+      "title": "Can changes to negative gearing and capital gains tax help you buy a home?",
+      "link": "https://www.smh.com.au/business/can-changes-to-negative-gearing-and-capital-gains-tax-help-you-buy-a-home-20260512-p5zw5u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Property investors are targeted in the budget, but will it actually help future Australia? Economics writer Millie Muroi unpacks the tax changes.",
+      "pubDate": "Tue, 12 May 2026 21:27:30 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Easy but wrong’: Labor explains tax overhaul",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/federal-budget-2026-chalmers-accepts-political-risk-with-cgt-negative-gearing-overhaul/news-story/d8581b2c4f8700eea0ad7ef95e31f1e2?from=rss-basic",
+      "snippet": "Treasurer Jim Chalmers has explained why the Albanese government broke an election promise.",
       "pubDate": "",
       "source": "News.com.au"
     },
     {
-      "title": "PM dodges grilling on ‘broken promises’",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/budget-to-target-housing-investors-and-unveil-cash-boost/news-story/21b0aa33e051b0b1c39b4764d7574cac?from=rss-basic",
-      "snippet": "A controversial measure reportedly included in Labor’s fifth federal budget has sparked outrage from the Coalition, which has accused it of breaching voter trust.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "Big changes looming for Australia",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/everything-we-know-about-the-2026-federal-budget/news-story/fa29691549c4529fa98deff65236e059?from=rss-basic",
-      "snippet": "Tax changes, fuel security and housing are just some of the key areas Labor will address in the May 12 budget. Here’s what we know.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "The federal budget at a glance",
+      "link": "https://www.smh.com.au/business/the-federal-budget-at-a-glance-20260512-p5zw4z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "While some budgets seek to play it safe, the government is taking risks this year. Economics writer Millie Muroi explains what you need to know.",
+      "pubDate": "Tue, 12 May 2026 19:41:05 +1000",
+      "source": "SMH"
     },
     {
       "title": "China can far outlast America over the Middle East conflict",
@@ -7705,6 +7701,27 @@
       "source": "SMH"
     },
     {
+      "title": "Find out if you come out in front with the 2026 budget calculator",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/find-out-if-you-come-out-in-front-with-the-2026-budget-calculator/news-story/994151745121d4b5033a0cbede4d034f?from=rss-basic",
+      "snippet": "Tuesday’s budget contains a slew of tax changes and funding announcements. Find out if you come out ahead.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "‘Kaz tax’: Exiled druglord behind $15 billion budget blow",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/kaz-tax-exiled-druglord-behind-15-billion-budget-blow/news-story/f1b0aec52ec6c35cebb6efd50512daaf?from=rss-basic",
+      "snippet": "An staggering $15 billion budget black hole has blown the Aussie economy wide open for a chilling reason.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Federal budget: EV drivers to lose key tax break",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/electric-vehicle-leasing-changes-explained-after-major-changes-in-budget/news-story/5526bf624ddf5473163d35c3ff739dfa?from=rss-basic",
+      "snippet": "Changes to the way electric cars are taxed will bring a welcome reprieve for a government looking for cash.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
       "title": "Larvotto hauls first antimony-gold ore as NSW Hillgrove restart nears",
       "link": "https://www.smh.com.au/business/companies/larvotto-hauls-first-antimony-gold-ore-as-nsw-hillgrove-restart-nears-20260512-p5zw2y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Larvotto Resources has hailed a key milestone at its Hillgrove mine in NSW, delivering the first underground ore to a surface stockpile, as plant restart remains on track for August.",
@@ -7719,30 +7736,9 @@
       "source": "SMH"
     },
     {
-      "title": "Dalaroo closes in on drill targets at 9km Côte d’Ivoire gold corridor",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-closes-in-on-drill-targets-at-9km-c-te-d-ivoire-gold-corridor-20260512-p5zw1d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals has completed a district-scale 4363-sample soil program across its 9km Gold Ridge corridor in Côte d’Ivoire, paving the way for maiden drilling.",
-      "pubDate": "Tue, 12 May 2026 14:15:58 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Aussie billionaire’s lingerie brawl: Victoria’s Secret lobs corporate espionage claims",
-      "link": "https://www.smh.com.au/business/companies/aussie-billionaire-s-lingerie-brawl-victoria-s-secret-lobs-corporate-espionage-claims-20260512-p5zvw0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Retail magnate Brett Blundy’s company has been accused of hiring executives with a history of sexual harassment allegations by the Victoria’s Secret board.",
-      "pubDate": "Tue, 12 May 2026 12:32:39 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Disaster looms for one group of Aussies",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/negative-gearing-overhaul-set-to-crush-young-homebuyers-and-send-rents-soaring/news-story/2078f332756ae3bba47c1e2052ddb056?from=rss-basic",
-      "snippet": "The idea that tonight’s massive tax shake up will level the playing field for young people is a load of codswallop, argues Caleb Bond.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Bad for households’: Your pain is the budget’s gain",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/federal-budget-to-get-major-windfall-from-high-prices-hitting-australian-households/news-story/94bc83f14d58be60486a47de92fdbc42?from=rss-basic",
-      "snippet": "Australia’s budget will come in billions of dollars better off, but it will be a bitter pill for many households to swallow.",
+      "title": "Chalmers confirms huge tax changes",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/further-tax-cuts-to-every-worker-as-chalmers-flags-generational-tax-change/news-story/28c075ea9231cbfc82ee748de838e947?from=rss-basic",
+      "snippet": "Australian workers have been dubbed the big winner as the government as a group slams a critical tax change.",
       "pubDate": "",
       "source": "News.com.au"
     }
