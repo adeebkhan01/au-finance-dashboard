@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-14T15:04:56.225Z",
+  "fetchedAt": "2026-05-14T20:13:22.684Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.85,
+      "changePercent": 1.75,
       "previousClose": 0.71,
       "asOf": "2026-05-14",
       "history": [
@@ -2232,7 +2232,7 @@
     "audcny": {
       "value": 4.9,
       "change": 0.05,
-      "changePercent": 1.08,
+      "changePercent": 1,
       "previousClose": 4.85,
       "asOf": "2026-05-14",
       "history": [
@@ -3344,9 +3344,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.23,
-      "change": 1.21,
-      "changePercent": 1.07,
+      "value": 114.35,
+      "change": 1.33,
+      "changePercent": 1.17,
       "previousClose": 113.02,
       "asOf": "2026-05-14",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-14",
-          "close": 114.23
+          "close": 114.35
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-05-14",
-          "close": 114.24
+          "close": 114.35
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-05-14",
-          "close": 114.23
+          "close": 114.35
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-14",
-          "close": 114.23
+          "close": 114.35
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.85,
+    "changePercent": 1.75,
     "previousClose": 0.71,
     "asOf": "2026-05-14",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100.99,
-      "change": 9.71,
-      "changePercent": 10.64,
+      "value": 102,
+      "change": 10.72,
+      "changePercent": 11.74,
       "previousClose": 91.28,
       "asOf": "2026-05-14",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-14",
-          "close": 100.99
+          "close": 102
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 105.48,
-      "change": 10.69,
-      "changePercent": 11.28,
+      "value": 106.55,
+      "change": 11.76,
+      "changePercent": 12.41,
       "previousClose": 94.79,
       "asOf": "2026-05-14",
       "history": [
@@ -5965,16 +5965,16 @@
         },
         {
           "date": "2026-05-14",
-          "close": 105.48
+          "close": 106.55
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.86,
-      "change": 0.26,
-      "changePercent": 10.12,
+      "value": 2.91,
+      "change": 0.31,
+      "changePercent": 11.81,
       "previousClose": 2.6,
       "asOf": "2026-05-14",
       "history": [
@@ -6068,7 +6068,7 @@
         },
         {
           "date": "2026-05-14",
-          "close": 2.86
+          "close": 2.91
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4691.2,
-      "change": -133.8,
-      "changePercent": -2.77
+      "price": 4659.7,
+      "change": -165.3,
+      "changePercent": -3.43
     },
     {
       "name": "Silver",
-      "price": 85.29,
-      "change": 5.89,
-      "changePercent": 7.42
+      "price": 84.12,
+      "change": 4.72,
+      "changePercent": 5.95
     },
     {
       "name": "Copper",
-      "price": 6.61,
-      "change": 0.54,
-      "changePercent": 8.9
+      "price": 6.58,
+      "change": 0.51,
+      "changePercent": 8.47
     }
   ],
   "housing": {
@@ -7727,17 +7727,17 @@
   ],
   "news": [
     {
-      "title": "‘They’re worried’: Telling gap in forecasts",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/theyre-more-worried-gap-in-economic-forecasts-between-rba-and-treasury-reveals-uncertainty-at-heart-of-the-federal-budget/news-story/2da62605a1849cfd2858fbb76d8070f1?from=rss-basic",
-      "snippet": "Two sets of numbers, same crisis, vastly different outcomes. What the Reserve Bank knows that Treasury doesn’t want you to see.",
-      "pubDate": "",
-      "source": "News.com.au"
+      "title": "ASX set to rise as Wall Street climbs again",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-as-wall-street-climbs-again-20260515-p5zx6g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is rising toward more records after Cisco Systems joined the parade of US companies reporting fatter profits for the start of 2026 than analysts expected.",
+      "pubDate": "Fri, 15 May 2026 05:26:12 +1000",
+      "source": "SMH"
     },
     {
-      "title": "Peninsula bags US$56M for Wyoming uranium ramp up",
-      "link": "https://www.smh.com.au/business/companies/peninsula-bags-us-56m-for-wyoming-uranium-ramp-up-20260514-p5zx59.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Peninsula Energy has locked in US$56 million (A$77M) in funding to fast-track its Lance uranium project in Wyoming, backed by a substantial investment from Soul Patts.",
-      "pubDate": "Thu, 14 May 2026 19:13:55 +1000",
+      "title": "Labor’s property taxes are worth the pain",
+      "link": "https://www.smh.com.au/business/the-economy/labor-s-property-taxes-are-worth-the-pain-20260514-p5zwpu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The latest tax changes will hurt people, including some of the people they’re meant to help. But they’re the right move to make.",
+      "pubDate": "Fri, 15 May 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7776,24 +7776,31 @@
       "source": "News.com.au"
     },
     {
+      "title": "Why staying in your ‘safe’ job is costing you $5700 a year",
+      "link": "https://www.smh.com.au/business/workplace/why-staying-in-your-safe-job-is-costing-you-5700-a-year-20260514-p5zwyt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "In our unstable world it’s no surprise many see secure employment as a victory. But what if I told you this could come at a cost?",
+      "pubDate": "Fri, 15 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Truck carpark’s value jumps seventeenfold in 21 years. Not bad for a patch of dirt in Dingley",
+      "link": "https://www.smh.com.au/business/companies/truck-carpark-s-value-jumps-seventeenfold-in-21-years-not-bad-for-a-patch-of-dirt-in-dingley-20260514-p5zwvs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "It last changed hands in 2005 for $450,000. Now it’s likely to fetch around $8 million, a seventeenfold increase or a compound annual growth rate of 14.7 per cent.",
+      "pubDate": "Fri, 15 May 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "A truck stop called Plan B Whitsunday just sold for $13m. What’s Plan A worth?",
+      "link": "https://www.smh.com.au/business/small-business/a-truck-stop-called-plan-b-whitsunday-just-sold-for-13m-what-s-plan-a-worth-20260514-p5zwzm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Selling a northbound truck stop in Halfway Creek, anchored by ASX-listed tenant Ampol, for around $13 million appears to be a great outcome.",
+      "pubDate": "Fri, 15 May 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "A bursary helped Joseph become a doctor. He fears trust changes will deny others that opportunity",
       "link": "https://www.smh.com.au/business/the-economy/a-bursary-helped-joseph-become-a-doctor-he-fears-trust-changes-will-deny-others-that-opportunity-20260513-p5zwho.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Hundreds of thousands of Australians with trusts could be affected by the latest tax change, with some warning small businesses will suffer.",
       "pubDate": "Thu, 14 May 2026 19:20:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "‘What happened?’: Why Gen Z workers are revolting against AI",
-      "link": "https://www.smh.com.au/business/workplace/what-happened-why-gen-z-workers-are-revolting-against-ai-20260514-p5zwx9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A poorly received commencement speech made by a real estate executive in the US has shown just how quickly young people are turning against AI.",
-      "pubDate": "Thu, 14 May 2026 15:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Larvotto unlocks hidden antimony-gold value in NSW Hillgrove waste",
-      "link": "https://www.smh.com.au/business/companies/larvotto-unlocks-hidden-antimony-gold-value-in-nsw-hillgrove-waste-20260514-p5zx1f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto Resources says it can recover up to 95 per cent antimony and 75 per cent gold from a 1.4Mt legacy tailings facility at its Hillgrove project in New South Wales.",
-      "pubDate": "Thu, 14 May 2026 14:50:34 +1000",
       "source": "SMH"
     },
     {
@@ -7802,13 +7809,6 @@
       "snippet": "The federal budget was meant to win over young people by scrapping negative gearing and their reaction may shock you.",
       "pubDate": "",
       "source": "News.com.au"
-    },
-    {
-      "title": "Miraculous try-savers hand NSW second straight Origin series win",
-      "link": "https://www.abc.net.au/news/2026-05-14/womens-state-of-origin-live-qld-maroons-nsw-blues-lang-park/106679346",
-      "snippet": "",
-      "pubDate": "Thu, 14 May 2026 08:23:52 +0000",
-      "source": "ABC"
     }
   ]
 }
