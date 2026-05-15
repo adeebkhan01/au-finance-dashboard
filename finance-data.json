@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-15T14:59:20.243Z",
+  "fetchedAt": "2026-05-15T19:59:28.440Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
-      "changePercent": 0.39,
+      "changePercent": 0.32,
       "previousClose": 0.71,
       "asOf": "2026-05-15",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.82,
+      "changePercent": 1.8,
       "previousClose": 0.6,
       "asOf": "2026-05-15",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.88,
+      "value": 4.87,
       "change": 0.02,
-      "changePercent": 0.36,
+      "changePercent": 0.33,
       "previousClose": 4.86,
       "asOf": "2026-05-15",
       "history": [
@@ -2326,7 +2326,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 4.88
+          "close": 4.87
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 4.88
+          "close": 4.87
         }
       ],
       "h6m": [
@@ -2705,7 +2705,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 4.88
+          "close": 4.87
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-05-15",
-          "close": 4.88
+          "close": 4.87
         }
       ]
     },
     "audjpy": {
-      "value": 113.47,
-      "change": 0.26,
-      "changePercent": 0.23,
+      "value": 113.52,
+      "change": 0.32,
+      "changePercent": 0.28,
       "previousClose": 113.2,
       "asOf": "2026-05-15",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 113.46
+          "close": 113.52
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 113.46
+          "close": 113.52
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 113.46
+          "close": 113.52
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 113.46
+          "close": 113.53
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0,
-    "changePercent": 0.39,
+    "changePercent": 0.32,
     "previousClose": 0.71,
     "asOf": "2026-05-15",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100.37,
-      "change": 9.08,
-      "changePercent": 9.95,
+      "value": 101.02,
+      "change": 9.73,
+      "changePercent": 10.66,
       "previousClose": 91.29,
       "asOf": "2026-05-15",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-15",
-          "close": 100.37
+          "close": 101.02
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 109.18,
-      "change": 14.25,
-      "changePercent": 15.01,
+      "value": 109.29,
+      "change": 14.36,
+      "changePercent": 15.13,
       "previousClose": 94.93,
       "asOf": "2026-05-15",
       "history": [
@@ -5965,16 +5965,16 @@
         },
         {
           "date": "2026-05-15",
-          "close": 109.18
+          "close": 109.29
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.96,
-      "change": 0.35,
-      "changePercent": 13.37,
+      "value": 2.97,
+      "change": 0.36,
+      "changePercent": 13.79,
       "previousClose": 2.61,
       "asOf": "2026-05-15",
       "history": [
@@ -6068,7 +6068,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 2.96
+          "close": 2.97
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4555.6,
-      "change": -244.4,
-      "changePercent": -5.09
+      "price": 4556,
+      "change": -244,
+      "changePercent": -5.08
     },
     {
       "name": "Silver",
-      "price": 76.72,
-      "change": -2.77,
-      "changePercent": -3.49
+      "price": 76.84,
+      "change": -2.65,
+      "changePercent": -3.33
     },
     {
       "name": "Copper",
       "price": 6.29,
-      "change": 0.21,
-      "changePercent": 3.53
+      "change": 0.22,
+      "changePercent": 3.55
     }
   ],
   "housing": {
@@ -7755,10 +7755,10 @@
       "source": "SMH"
     },
     {
-      "title": "Chariot lands pivotal Nigerian lithium licence for free",
-      "link": "https://www.smh.com.au/business/companies/chariot-lands-pivotal-nigerian-lithium-licence-for-free-20260515-p5zxd7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Chariot has added a key lease to its Fonlo lithium acquisition in Nigeria and is pursuing three mining-lease conversions to strengthen tenure over key project areas.",
-      "pubDate": "Fri, 15 May 2026 14:08:20 +1000",
+      "title": "‘Collision with reality’: The $100 billion downfall of an Aussie giant",
+      "link": "https://www.smh.com.au/business/companies/collision-with-reality-the-100-billion-downfall-of-an-aussie-giant-20260513-p5zw9p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There is no hiding from the bloody mess at CSL, one of Australia’s global success stories. Can it recover?",
+      "pubDate": "Sat, 16 May 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7766,13 +7766,6 @@
       "link": "https://www.smh.com.au/business/consumer-affairs/boeing-ordered-to-pay-69m-to-the-family-of-woman-killed-in-plane-crash-20260515-p5zx85.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The 24-year-old American was travelling to Uganda for her job with a non-profit organisation when the plane crashed minutes after take-off in 2019.",
       "pubDate": "Fri, 15 May 2026 19:30:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Dateline strikes huge gold zones beyond Californian pit shell",
-      "link": "https://www.smh.com.au/business/companies/dateline-strikes-huge-gold-zones-beyond-californian-pit-shell-20260515-p5zxc4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dateline has hit ultra-wide gold intercepts outside its resource boundary and confirmed high-density rare earths targets at its Colosseum project in California.",
-      "pubDate": "Fri, 15 May 2026 12:51:04 +1000",
       "source": "SMH"
     },
     {
@@ -7790,6 +7783,20 @@
       "source": "News.com.au"
     },
     {
+      "title": "First Qantas, now Coles: the star corporate lawyer beating her one-time clients",
+      "link": "https://www.smh.com.au/business/companies/first-qantas-now-coles-the-star-corporate-lawyer-beating-her-one-time-clients-20260515-p5zxav.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Kevin Rudd implied that Gina Cass-Gottlieb would be a patsy for the corporate world she had represented as a lawyer when she came to the ACCC. The accusation hasn’t held up.",
+      "pubDate": "Sat, 16 May 2026 05:45:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Just push through’: Five signs you might be overachieving at work",
+      "link": "https://www.smh.com.au/business/workplace/just-push-through-five-signs-you-might-be-overachieving-at-work-20260514-p5zwzk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "These five core beliefs form the operating system most ambitious, driven people are running on, often without realising it.",
+      "pubDate": "Sat, 16 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Swans hold on for gritty victory over Pies, Suns see off Port",
       "link": "https://www.abc.net.au/news/2026-05-15/afl-round-10-friday-live-blog-syd-coll-gc-pa/106686476",
       "snippet": "",
@@ -7801,13 +7808,6 @@
       "link": "https://www.smh.com.au/business/consumer-affairs/the-messy-task-of-calculating-the-harm-coles-caused-shoppers-20260515-p5zxd2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "A diabolical legal process is set to play out as huge teams of lawyers attempt to quantify damages that Coles may have to pay after its loss in court this week.",
       "pubDate": "Fri, 15 May 2026 17:59:26 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Invaded: The billionaire who bought Epstein Island is under siege from trespassers",
-      "link": "https://www.smh.com.au/business/banking-and-finance/invaded-the-billionaire-who-bought-epstein-island-is-under-siege-from-trespassers-20260514-p5zwmr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The latest reports from “Little St. Jeff’s,” the notorious Caribbean hideaway of Jeffrey Epstein, are startling.",
-      "pubDate": "Fri, 15 May 2026 17:35:00 +1000",
       "source": "SMH"
     }
   ]
