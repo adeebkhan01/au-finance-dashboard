@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-05-16T19:38:30.513Z",
+  "fetchedAt": "2026-05-17T04:38:21.156Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
       "changePercent": 0.34,
       "previousClose": 0.71,
-      "asOf": "2026-05-16",
+      "asOf": "2026-05-17",
       "history": [
         {
           "date": "2026-04-14",
@@ -101,7 +101,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "close": 0.72
         }
       ],
@@ -370,7 +370,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "close": 0.72
         }
       ],
@@ -484,7 +484,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "close": 0.72
         }
       ],
@@ -1118,7 +1118,7 @@
           "close": 0.72
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "close": 0.72
         }
       ]
@@ -1128,7 +1128,7 @@
       "change": 0.01,
       "changePercent": 1.77,
       "previousClose": 0.6,
-      "asOf": "2026-05-16",
+      "asOf": "2026-05-17",
       "history": [
         {
           "date": "2026-04-14",
@@ -2248,9 +2248,9 @@
     "audcny": {
       "value": 4.87,
       "change": 0.02,
-      "changePercent": 0.33,
+      "changePercent": 0.34,
       "previousClose": 4.86,
-      "asOf": "2026-05-16",
+      "asOf": "2026-05-17",
       "history": [
         {
           "date": "2026-04-14",
@@ -3372,7 +3372,7 @@
       "change": 0.31,
       "changePercent": 0.27,
       "previousClose": 113.2,
-      "asOf": "2026-05-16",
+      "asOf": "2026-05-17",
       "history": [
         {
           "date": "2026-04-14",
@@ -4495,7 +4495,7 @@
     "change": 0,
     "changePercent": 0.34,
     "previousClose": 0.71,
-    "asOf": "2026-05-16",
+    "asOf": "2026-05-17",
     "history": [
       {
         "date": "2026-04-14",
@@ -4590,7 +4590,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-16",
+        "date": "2026-05-17",
         "close": 0.72
       }
     ],
@@ -4859,7 +4859,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-16",
+        "date": "2026-05-17",
         "close": 0.72
       }
     ],
@@ -4973,7 +4973,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-16",
+        "date": "2026-05-17",
         "close": 0.72
       }
     ],
@@ -5607,7 +5607,7 @@
         "close": 0.72
       },
       {
-        "date": "2026-05-16",
+        "date": "2026-05-17",
         "close": 0.72
       }
     ]
@@ -5807,15 +5807,11 @@
   "energy": {
     "wti": {
       "value": 101.02,
-      "change": 9.73,
-      "changePercent": 10.66,
-      "previousClose": 91.29,
-      "asOf": "2026-05-16",
+      "change": 17.17,
+      "changePercent": 20.48,
+      "previousClose": 83.85,
+      "asOf": "2026-05-17",
       "history": [
-        {
-          "date": "2026-04-16",
-          "close": 94.69
-        },
         {
           "date": "2026-04-17",
           "close": 83.85
@@ -5898,7 +5894,7 @@
         },
         {
           "date": "2026-05-15",
-          "close": 105.42
+          "close": 101.02
         }
       ],
       "name": "WTI Crude",
@@ -5906,15 +5902,11 @@
     },
     "brent": {
       "value": 109.26,
-      "change": 14.33,
-      "changePercent": 15.1,
-      "previousClose": 94.93,
-      "asOf": "2026-05-16",
+      "change": 18.88,
+      "changePercent": 20.89,
+      "previousClose": 90.38,
+      "asOf": "2026-05-17",
       "history": [
-        {
-          "date": "2026-04-16",
-          "close": 99.39
-        },
         {
           "date": "2026-04-17",
           "close": 90.38
@@ -6005,15 +5997,11 @@
     },
     "gas": {
       "value": 2.96,
-      "change": 0.35,
-      "changePercent": 13.41,
-      "previousClose": 2.61,
-      "asOf": "2026-05-16",
+      "change": 0.29,
+      "changePercent": 10.7,
+      "previousClose": 2.67,
+      "asOf": "2026-05-17",
       "history": [
-        {
-          "date": "2026-04-16",
-          "close": 2.65
-        },
         {
           "date": "2026-04-17",
           "close": 2.67
@@ -6186,7 +6174,7 @@
     "change": -347.9,
     "changePercent": -3.87,
     "previousClose": 8978.7,
-    "asOf": "2026-05-16",
+    "asOf": "2026-05-17",
     "history": [
       {
         "date": "2026-04-15",
@@ -7410,20 +7398,20 @@
     {
       "name": "Gold",
       "price": 4561.9,
-      "change": -238.1,
-      "changePercent": -4.96
+      "change": -295.7,
+      "changePercent": -6.09
     },
     {
       "name": "Silver",
       "price": 77.55,
-      "change": -1.94,
-      "changePercent": -2.45
+      "change": -4.19,
+      "changePercent": -5.13
     },
     {
       "name": "Copper",
       "price": 6.3,
-      "change": 0.22,
-      "changePercent": 3.67
+      "change": 0.19,
+      "changePercent": 3.14
     }
   ],
   "housing": {
@@ -7759,13 +7747,6 @@
   ],
   "news": [
     {
-      "title": "ASX ends week lower as miners slump, banks gain ground",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-as-wall-street-climbs-again-20260515-p5zx6g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Financial stocks, which suffered sharp losses after changes to negative gearing and capital gains tax were announced in the budget, bounced higher.",
-      "pubDate": "Fri, 15 May 2026 16:59:29 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘Super cycle’: ASX down 2.8pc for the week",
       "link": "https://www.news.com.au/finance/markets/australian-markets/australian-shares-drop-012-per-cent-as-mining-giants-tumble-friday/news-story/663ed0902181e4d542f5e1cfd4582f31?from=rss-basic",
       "snippet": "The Australian share market has closed federal budget week with another loss, posting a 2.8 per cent dip since Monday.",
@@ -7783,6 +7764,13 @@
       "title": "‘Sacred cow’: Tax change divides experts",
       "link": "https://www.news.com.au/finance/real-estate/radical-housing-tax-overhaul-divides-experts-and-property-industry/news-story/3d5697eb994cfda907fe38ed6c60c131?from=rss-basic",
       "snippet": "Australia has “wasted billions” making housing unaffordable through investor tax breaks, but a radical budget shake-up changes everything.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "‘Talking in circles’: Albo’s answer on tax backfires",
+      "link": "https://www.news.com.au/finance/economy/federal-budget/talking-in-circles-albos-answer-on-tax-backfires-after-influencer-asks-him-why-major-discount-was-removed/news-story/e90ef3e84cf6847599e6cac16aba9f74?from=rss-basic",
+      "snippet": "Anthony Albanese sat down with a financial influencer to explain a major new tax to young Aussies. But his answers have left viewers more confused.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7808,39 +7796,39 @@
       "source": "News.com.au"
     },
     {
-      "title": "Premier, rocker, billionaires assemble for Murdoch institute gala",
-      "link": "https://www.smh.com.au/business/companies/premier-rocker-billionaires-assemble-for-murdoch-institute-gala-20260516-p5zxqb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The institute, co-founded by Rupert Murdoch’s mother, is celebrating its 40th year leading research into childhood diseases with a gala bash.",
-      "pubDate": "Sat, 16 May 2026 20:44:17 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Melbourne City claims ALW championship as Matildas stars shine against Phoenix",
-      "link": "https://www.abc.net.au/news/2026-05-16/melbourne-city-win-alw-championship/106688420",
+      "title": "Live: Titans and Knights begin Sunday's Magic Round triple-header in Brisbane",
+      "link": "https://www.abc.net.au/news/2026-05-17/nrl-magic-round-titans-knights-warriors-broncos-panthers-dragons/106669968",
       "snippet": "",
-      "pubDate": "Sat, 16 May 2026 09:27:33 +0000",
+      "pubDate": "Sun, 17 May 2026 03:19:48 +0000",
       "source": "ABC"
     },
     {
-      "title": "Origin hopefuls stand up as Cowboys coach hails 'gritty' win",
-      "link": "https://www.abc.net.au/news/2026-05-16/nrl-live-updates-tigers-sea-eagles-roosters-cowboys-eels-storm/106683340",
+      "title": "Live: Ex-Bomber taunts fans amid boos as Freo dominates first half",
+      "link": "https://www.abc.net.au/news/2026-05-17/afl-r10-bombers-dockers-saints-tigers-eagles-giants-live-blog/106689516",
       "snippet": "",
-      "pubDate": "Sat, 16 May 2026 04:27:38 +0000",
+      "pubDate": "Sun, 17 May 2026 02:24:43 +0000",
       "source": "ABC"
     },
     {
-      "title": "Scottish ref under police protection as Celtic penalty sparks threats",
-      "link": "https://www.abc.net.au/news/2026-05-16/scottish-fa-referee-police-protection-celtic-penalty-threats/106687974",
+      "title": "'Not even one beer' for Man City after FA Cup triumph over Chelsea",
+      "link": "https://www.abc.net.au/news/2026-05-17/manchester-city-fa-cup-final-victory-over-chelsea/106689266",
       "snippet": "",
-      "pubDate": "Sat, 16 May 2026 03:01:04 +0000",
+      "pubDate": "Sat, 16 May 2026 23:17:50 +0000",
       "source": "ABC"
     },
     {
-      "title": "First Qantas, now Coles: the star corporate lawyer beating her one-time clients",
-      "link": "https://www.smh.com.au/business/companies/first-qantas-now-coles-the-star-corporate-lawyer-beating-her-one-time-clients-20260515-p5zxav.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Kevin Rudd implied that Gina Cass-Gottlieb would be a patsy for the corporate world she had represented as a lawyer when she came to the ACCC. The accusation hasn’t held up.",
-      "pubDate": "Sat, 16 May 2026 05:45:00 +1000",
-      "source": "SMH"
+      "title": "Caldwell becomes second-fastest Aussie with Diamond League podium",
+      "link": "https://www.abc.net.au/news/2026-05-17/abbey-caldwell-1500m-diamond-league-bronze/106689168",
+      "snippet": "",
+      "pubDate": "Sat, 16 May 2026 22:34:43 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Woman killed in bus crash asked to be organ donor just days earlier",
+      "link": "https://www.abc.net.au/news/2026-05-17/womans-death-inspires-family-to-invest-in-youth-sports/106687784",
+      "snippet": "",
+      "pubDate": "Sat, 16 May 2026 22:33:40 +0000",
+      "source": "ABC"
     }
   ]
 }
