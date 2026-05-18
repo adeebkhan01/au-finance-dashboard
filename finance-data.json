@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-18T10:46:04.811Z",
+  "fetchedAt": "2026-05-18T16:01:40.125Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
-      "changePercent": -0.04,
+      "changePercent": 0.01,
       "previousClose": 0.72,
       "asOf": "2026-05-18",
       "history": [
@@ -1102,7 +1102,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.17,
+      "changePercent": 1.12,
       "previousClose": 0.61,
       "asOf": "2026-05-18",
       "history": [
@@ -2198,9 +2198,9 @@
       ]
     },
     "audcny": {
-      "value": 4.86,
+      "value": 4.87,
       "change": -0.02,
-      "changePercent": -0.41,
+      "changePercent": -0.34,
       "previousClose": 4.88,
       "asOf": "2026-05-18",
       "history": [
@@ -2286,7 +2286,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.86
+          "close": 4.87
         }
       ],
       "label": "AUD/CNY",
@@ -2547,7 +2547,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.86
+          "close": 4.87
         }
       ],
       "h6m": [
@@ -2657,7 +2657,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.86
+          "close": 4.87
         }
       ],
       "h3y": [
@@ -3291,12 +3291,12 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.86
+          "close": 4.87
         }
       ]
     },
     "audjpy": {
-      "value": 113.69,
+      "value": 113.68,
       "change": -0.28,
       "changePercent": -0.24,
       "previousClose": 113.96,
@@ -3384,7 +3384,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 113.69
+          "close": 113.68
         }
       ],
       "label": "AUD/JPY",
@@ -3755,7 +3755,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 113.68
+          "close": 113.69
         }
       ],
       "h3y": [
@@ -4397,7 +4397,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0,
-    "changePercent": -0.04,
+    "changePercent": 0.01,
     "previousClose": 0.72,
     "asOf": "2026-05-18",
     "history": [
@@ -5686,9 +5686,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.46,
-      "change": 18.61,
-      "changePercent": 22.19,
+      "value": 102.88,
+      "change": 19.03,
+      "changePercent": 22.7,
       "previousClose": 83.85,
       "asOf": "2026-05-18",
       "history": [
@@ -5774,16 +5774,16 @@
         },
         {
           "date": "2026-05-18",
-          "close": 102.46
+          "close": 102.88
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.5,
-      "change": 20.12,
-      "changePercent": 22.26,
+      "value": 111.04,
+      "change": 20.66,
+      "changePercent": 22.86,
       "previousClose": 90.38,
       "asOf": "2026-05-18",
       "history": [
@@ -5869,16 +5869,16 @@
         },
         {
           "date": "2026-05-18",
-          "close": 110.5
+          "close": 111.04
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.06,
-      "change": 0.39,
-      "changePercent": 14.44,
+      "value": 3.02,
+      "change": 0.34,
+      "changePercent": 12.86,
       "previousClose": 2.67,
       "asOf": "2026-05-18",
       "history": [
@@ -5964,7 +5964,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 3.06
+          "close": 3.02
         }
       ],
       "name": "Natural Gas",
@@ -6135,10 +6135,6 @@
       {
         "date": "2026-05-15",
         "close": 8630.8
-      },
-      {
-        "date": "2026-05-18",
-        "close": 8505.3
       }
     ]
   },
@@ -7205,21 +7201,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4539.8,
-      "change": -317.8,
-      "changePercent": -6.54
+      "price": 4545.7,
+      "change": -311.9,
+      "changePercent": -6.42
     },
     {
       "name": "Silver",
-      "price": 75.84,
-      "change": -5.9,
-      "changePercent": -7.22
+      "price": 77.08,
+      "change": -4.66,
+      "changePercent": -5.7
     },
     {
       "name": "Copper",
-      "price": 6.25,
-      "change": 0.14,
-      "changePercent": 2.33
+      "price": 6.3,
+      "change": 0.2,
+      "changePercent": 3.21
     }
   ],
   "housing": {
@@ -7597,15 +7593,15 @@
       "source": "News.com.au"
     },
     {
-      "title": "‘Taking the p***’: Aussies unleash on Albo",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/taking-the-p-australians-unleash-on-anthony-albanese-over-housing-comments/news-story/66205fab4120dd5b8efb8b01d2c7f393?from=rss-basic",
-      "snippet": "Prime Minister Anthony Albanese has taken to social media to make a housing update, but Australians have pointed out a huge problem.",
+      "title": "China losing trillions as new home sales crash, analysts say home ownership dream is slowly fading",
+      "link": "https://www.news.com.au/finance/economy/world-economy/china-losing-trillions-as-new-home-sales-crash-analysts-say-home-ownership-dream-is-slowly-fading/news-story/5608a99afa3b24a306924ec24122451c?from=rss-basic",
+      "snippet": "The world’s biggest economy is facing problems of unprecedented scale with trillions sinking into nothing.",
       "pubDate": "",
       "source": "News.com.au"
     },
     {
       "title": "How netball's 'super' veteran left retirement to break 12-year record",
-      "link": "https://www.abc.net.au/news/2026-05-18/2026-super-netball-round-up-round10-aiken-george-games-record-/106694016",
+      "link": "https://www.abc.net.au/news/2026-05-18/2026-super-netball-round-up-round10-aiken-george-games-record/106694016",
       "snippet": "",
       "pubDate": "Mon, 18 May 2026 09:31:54 +0000",
       "source": "ABC"
