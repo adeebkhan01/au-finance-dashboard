@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-18T16:01:40.125Z",
+  "fetchedAt": "2026-05-18T20:11:57.273Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
-      "changePercent": 0.01,
+      "changePercent": 0.2,
       "previousClose": 0.72,
       "asOf": "2026-05-18",
       "history": [
@@ -1100,9 +1100,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.12,
+      "changePercent": 1.22,
       "previousClose": 0.61,
       "asOf": "2026-05-18",
       "history": [
@@ -1188,7 +1188,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1449,7 +1449,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1559,7 +1559,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2193,14 +2193,14 @@
         },
         {
           "date": "2026-05-18",
-          "close": 0.61
+          "close": 0.62
         }
       ]
     },
     "audcny": {
-      "value": 4.87,
+      "value": 4.86,
       "change": -0.02,
-      "changePercent": -0.34,
+      "changePercent": -0.42,
       "previousClose": 4.88,
       "asOf": "2026-05-18",
       "history": [
@@ -2286,7 +2286,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "label": "AUD/CNY",
@@ -2547,7 +2547,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "h6m": [
@@ -2657,7 +2657,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "h3y": [
@@ -3291,14 +3291,14 @@
         },
         {
           "date": "2026-05-18",
-          "close": 4.87
+          "close": 4.86
         }
       ]
     },
     "audjpy": {
-      "value": 113.68,
-      "change": -0.28,
-      "changePercent": -0.24,
+      "value": 113.88,
+      "change": -0.08,
+      "changePercent": -0.07,
       "previousClose": 113.96,
       "asOf": "2026-05-18",
       "history": [
@@ -3384,7 +3384,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 113.68
+          "close": 113.88
         }
       ],
       "label": "AUD/JPY",
@@ -3645,7 +3645,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 113.68
+          "close": 113.89
         }
       ],
       "h6m": [
@@ -3755,7 +3755,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 113.69
+          "close": 113.89
         }
       ],
       "h3y": [
@@ -4389,7 +4389,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 113.69
+          "close": 113.89
         }
       ]
     }
@@ -4397,7 +4397,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0,
-    "changePercent": 0.01,
+    "changePercent": 0.2,
     "previousClose": 0.72,
     "asOf": "2026-05-18",
     "history": [
@@ -5686,9 +5686,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.88,
-      "change": 19.03,
-      "changePercent": 22.7,
+      "value": 101.83,
+      "change": 17.98,
+      "changePercent": 21.44,
       "previousClose": 83.85,
       "asOf": "2026-05-18",
       "history": [
@@ -5774,16 +5774,16 @@
         },
         {
           "date": "2026-05-18",
-          "close": 102.88
+          "close": 101.83
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 111.04,
-      "change": 20.66,
-      "changePercent": 22.86,
+      "value": 108.89,
+      "change": 18.51,
+      "changePercent": 20.48,
       "previousClose": 90.38,
       "asOf": "2026-05-18",
       "history": [
@@ -5869,16 +5869,16 @@
         },
         {
           "date": "2026-05-18",
-          "close": 111.04
+          "close": 108.89
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.02,
-      "change": 0.34,
-      "changePercent": 12.86,
+      "value": 3.03,
+      "change": 0.35,
+      "changePercent": 13.2,
       "previousClose": 2.67,
       "asOf": "2026-05-18",
       "history": [
@@ -5964,7 +5964,7 @@
         },
         {
           "date": "2026-05-18",
-          "close": 3.02
+          "close": 3.03
         }
       ],
       "name": "Natural Gas",
@@ -7201,21 +7201,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4545.7,
-      "change": -311.9,
-      "changePercent": -6.42
+      "price": 4563.1,
+      "change": -294.5,
+      "changePercent": -6.06
     },
     {
       "name": "Silver",
-      "price": 77.08,
-      "change": -4.66,
-      "changePercent": -5.7
+      "price": 77.79,
+      "change": -3.95,
+      "changePercent": -4.84
     },
     {
       "name": "Copper",
-      "price": 6.3,
-      "change": 0.2,
-      "changePercent": 3.21
+      "price": 6.33,
+      "change": 0.23,
+      "changePercent": 3.69
     }
   ],
   "housing": {
@@ -7551,10 +7551,10 @@
   ],
   "news": [
     {
-      "title": "ASX falls to seven-week low as oil prices rattle markets",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-retreat-as-tech-stocks-rising-oil-prices-weigh-on-wall-street-20260518-p5zxy4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket dropped after higher oil prices and growing inflation concerns sent a shiver through the bond market over the weekend.",
-      "pubDate": "Mon, 18 May 2026 18:03:00 +1000",
+      "title": "ASX set to rise, Wall Street mixed; Oil prices swing",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-mixed-oil-prices-swing-20260519-p5zyj3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Oil prices swung after a scare overnight where prices popped and then moderated, and the yo-yo moves kept stock markets worldwide unsettled.",
+      "pubDate": "Tue, 19 May 2026 05:17:51 +1000",
       "source": "SMH"
     },
     {
@@ -7570,13 +7570,6 @@
       "snippet": "The Aussie sharemarket falls to a seven-week low as oil rises and the industries relying on it tank.",
       "pubDate": "",
       "source": "News.com.au"
-    },
-    {
-      "title": "Ex-transport minister, directors allegedly kept market in the dark about airline’s dire straits",
-      "link": "https://www.smh.com.au/business/companies/ex-transport-minister-directors-allegedly-kept-market-in-the-dark-about-airline-s-dire-straits-20260518-p5zy4r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Rex told the market in early 2023 it expected to make a profit that financial year, then announced a major loss. By mid-2024, it had collapsed into administration.",
-      "pubDate": "Mon, 18 May 2026 17:24:38 +1000",
-      "source": "SMH"
     },
     {
       "title": "‘Transitional’: Foreign renewable energy investors to get 50 per cent CGT discount until 2030",
@@ -7600,18 +7593,25 @@
       "source": "News.com.au"
     },
     {
+      "title": "ABC, SBS reject federal government, special envoy’s definition of antisemitism",
+      "link": "https://www.smh.com.au/business/companies/abc-sbs-reject-federal-government-special-envoy-s-definition-of-antisemitism-20260518-p5zy2i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The ABC warned that examples associated with the definition could “risk conflating legitimate political and policy critique with antisemitism”.",
+      "pubDate": "Tue, 19 May 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Prepare for an AI jobs apocalypse",
+      "link": "https://www.smh.com.au/business/the-economy/prepare-for-an-ai-jobs-apocalypse-20260518-p5zyem.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Given how fast artificial intelligence is improving, it would be rash to dismiss fears of widespread job destruction. Governments should lay a safety net.",
+      "pubDate": "Tue, 19 May 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "How netball's 'super' veteran left retirement to break 12-year record",
       "link": "https://www.abc.net.au/news/2026-05-18/2026-super-netball-round-up-round10-aiken-george-games-record/106694016",
       "snippet": "",
       "pubDate": "Mon, 18 May 2026 09:31:54 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "King River targets forgotten WA goldfield riches",
-      "link": "https://www.smh.com.au/business/companies/king-river-targets-forgotten-wa-goldfield-riches-20260518-p5zygf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "King River Resources’ LiDAR survey has uncovered a massive gap between recorded mining and actual excavation at its WA Mindoolah gold project.",
-      "pubDate": "Mon, 18 May 2026 16:41:44 +1000",
-      "source": "SMH"
     },
     {
       "title": "How to save $456 off your phone bill",
@@ -7628,10 +7628,10 @@
       "source": "News.com.au"
     },
     {
-      "title": "PLC kicks off drilling at Murchison gold target",
-      "link": "https://www.smh.com.au/business/companies/plc-kicks-off-drilling-at-murchison-gold-target-20260518-p5zyi3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "PLC Resources has started drilling at its Rochefort gold prospect in WA’s Murchison. The maiden program will test a large soil anomaly with high-grade rock chips.",
-      "pubDate": "Mon, 18 May 2026 19:31:18 +1000",
+      "title": "Elon Musk loses lawsuit against OpenAI",
+      "link": "https://www.smh.com.au/business/companies/elon-musk-loses-lawsuit-against-openai-20260519-p5zyj1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Elon Musk has lost his landmark case over OpenAI, with a jury finding the world’s richest person filed his claim too late.",
+      "pubDate": "Tue, 19 May 2026 05:03:13 +1000",
       "source": "SMH"
     }
   ]
