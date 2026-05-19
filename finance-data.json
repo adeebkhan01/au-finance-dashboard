@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-19T10:12:59.092Z",
+  "fetchedAt": "2026-05-19T15:57:01.138Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": 0,
-      "changePercent": -0.56,
+      "change": -0.01,
+      "changePercent": -0.82,
       "previousClose": 0.72,
       "asOf": "2026-05-19",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.74,
+      "changePercent": 0.67,
       "previousClose": 0.61,
       "asOf": "2026-05-19",
       "history": [
@@ -2223,8 +2223,8 @@
     },
     "audcny": {
       "value": 4.84,
-      "change": -0.04,
-      "changePercent": -0.82,
+      "change": -0.05,
+      "changePercent": -0.97,
       "previousClose": 4.88,
       "asOf": "2026-05-19",
       "history": [
@@ -3332,9 +3332,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.21,
-      "change": -0.75,
-      "changePercent": -0.66,
+      "value": 112.95,
+      "change": -1.01,
+      "changePercent": -0.89,
       "previousClose": 113.96,
       "asOf": "2026-05-19",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-05-19",
-          "close": 113.21
+          "close": 112.95
         }
       ],
       "label": "AUD/JPY",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-05-19",
-          "close": 113.21
+          "close": 112.95
         }
       ],
       "h6m": [
@@ -3799,7 +3799,7 @@
         },
         {
           "date": "2026-05-19",
-          "close": 113.21
+          "close": 112.95
         }
       ],
       "h3y": [
@@ -4437,15 +4437,15 @@
         },
         {
           "date": "2026-05-19",
-          "close": 113.21
+          "close": 112.95
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": 0,
-    "changePercent": -0.56,
+    "change": -0.01,
+    "changePercent": -0.82,
     "previousClose": 0.72,
     "asOf": "2026-05-19",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.95,
-      "change": 13.34,
-      "changePercent": 14.89,
+      "value": 103.74,
+      "change": 14.13,
+      "changePercent": 15.77,
       "previousClose": 89.61,
       "asOf": "2026-05-19",
       "history": [
@@ -5838,16 +5838,16 @@
         },
         {
           "date": "2026-05-19",
-          "close": 102.95
+          "close": 103.74
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.03,
-      "change": 14.55,
-      "changePercent": 15.24,
+      "value": 110.87,
+      "change": 15.39,
+      "changePercent": 16.12,
       "previousClose": 95.48,
       "asOf": "2026-05-19",
       "history": [
@@ -5937,16 +5937,16 @@
         },
         {
           "date": "2026-05-19",
-          "close": 110.03
+          "close": 110.87
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.05,
-      "change": 0.36,
-      "changePercent": 13.28,
+      "value": 3.09,
+      "change": 0.4,
+      "changePercent": 14.84,
       "previousClose": 2.69,
       "asOf": "2026-05-19",
       "history": [
@@ -6036,7 +6036,7 @@
         },
         {
           "date": "2026-05-19",
-          "close": 3.05
+          "close": 3.09
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-05-18",
         "close": 8505.3
-      },
-      {
-        "date": "2026-05-19",
-        "close": 8604.7
       }
     ]
   },
@@ -7313,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4541.9,
-      "change": -264.7,
-      "changePercent": -5.51
+      "price": 4504.2,
+      "change": -302.4,
+      "changePercent": -6.29
     },
     {
       "name": "Silver",
-      "price": 76.21,
-      "change": -3.75,
-      "changePercent": -4.69
+      "price": 74.54,
+      "change": -5.42,
+      "changePercent": -6.77
     },
     {
       "name": "Copper",
-      "price": 6.24,
-      "change": 0.21,
-      "changePercent": 3.4
+      "price": 6.19,
+      "change": 0.15,
+      "changePercent": 2.5
     }
   ],
   "housing": {
@@ -7705,20 +7701,6 @@
       "source": "SMH"
     },
     {
-      "title": "Looming five-figure tax hit for young Aussies",
-      "link": "https://www.news.com.au/finance/chalmers-dismisses-budgets-nearterm-political-cost-as-peak-body-warns-of-longterm-tax-pain/news-story/9fc018e4a050e0767d9f94bd86b49708?from=rss-basic",
-      "snippet": "The Albanese government is facing backlash for proposed reforms it says the country needs to fix intergenerational inequity.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Space’ to sidestep fourth rate hike",
-      "link": "https://www.news.com.au/finance/economy/interest-rates/rba-sees-space-to-avoid-fourth-consecutive-rate-hike-at-june-meeting/news-story/46ed8bc4e7b114a3005d5ecdfdea6426?from=rss-basic",
-      "snippet": "There is ‘space’ for the RBA to avoid a fourth consecutive interest rate hike next month, minutes from its May meeting show.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "Fresh geophysics fuels growing True North Qld copper target",
       "link": "https://www.smh.com.au/business/companies/fresh-geophysics-fuels-growing-true-north-qld-copper-target-20260519-p5zypm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "IP geophysics has extended True North Copper’s Aquila discovery in Queensland a further 500m north, growing the copper-silver-cobalt target to more than 1.5km strike.",
@@ -7733,18 +7715,32 @@
       "source": "SMH"
     },
     {
-      "title": "‘Too bad’: Collapsed retailer’s blunt response",
-      "link": "https://www.news.com.au/finance/business/retail/aussie-budget-retailer-oz-goods-depot-collapses-into-liquidation-leaves-shoppers-in-refund-limbo/news-story/576b94370268769164b68695fc542a15?from=rss-basic",
-      "snippet": "Furious customers have unleashed on a budget retailer after it announced it was winding down operations - with one blunt response attracting particular outrage.",
+      "title": "Aussie state reeling from Iran war crisis",
+      "link": "https://www.news.com.au/national/nsw-act/projected-economic-growth-in-nsw-slashed-by-15-per-cent-as-treasurer-blames-inflation-war-in-iran/news-story/4579ecc19e46cb1d3b8b9ca808e460e4?from=rss-basic",
+      "snippet": "One of Australia’s busiest states has slashed its economic growth forecasts as the prospect of a resumption of the war in the Middle East looms.",
       "pubDate": "",
       "source": "News.com.au"
     },
     {
-      "title": "China losing trillions as new home sales crash, analysts say home ownership dream is slowly fading",
-      "link": "https://www.news.com.au/finance/economy/world-economy/china-losing-trillions-as-new-home-sales-crash-analysts-say-home-ownership-dream-is-slowly-fading/news-story/5608a99afa3b24a306924ec24122451c?from=rss-basic",
-      "snippet": "The world’s biggest economy is facing problems of unprecedented scale with trillions sinking into nothing.",
+      "title": "Outrage as NZ aggressively cuts jobs for AI",
+      "link": "https://www.news.com.au/finance/work/new-zealand-to-shrink-public-sector-jobs-by-14-per-cent-in-massive-ai-shakeup/news-story/d0bac41fa131fa8e44bd4033c7d40805?from=rss-basic",
+      "snippet": "New Zealand has launched one of the most aggressive public-sector shake-ups seen anywhere this year, but sentiments are deeply divided.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "State set for major nursing recruitment drive",
+      "link": "https://www.news.com.au/national/nsw-act/news/minns-government-pledges-to-make-major-nursing-recruitment-drive/news-story/8cc23c3e17eb94965e4a1326bf0cfec5?from=rss-basic",
+      "snippet": "One state government has accelerated nurse recruitment beyond its current 900 new hires a year to improve the treatment of patients in public hospitals.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Virgin Australia cuts corporate staff as costs spiral for airlines",
+      "link": "https://www.smh.com.au/business/workplace/virgin-australia-cuts-corporate-staff-as-costs-spiral-for-airlines-20260519-p5zyrn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The job cuts come as the aviation industry grapples with higher jet fuel costs caused by the Middle East conflict.",
+      "pubDate": "Tue, 19 May 2026 17:50:03 +1000",
+      "source": "SMH"
     }
   ]
 }
