@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-21T10:09:13.097Z",
+  "fetchedAt": "2026-05-21T15:55:22.423Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": -0.47,
+      "changePercent": -0.56,
       "previousClose": 0.72,
       "asOf": "2026-05-21",
       "history": [
@@ -1116,9 +1116,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.62,
       "change": 0.01,
-      "changePercent": 0.82,
+      "changePercent": 1.1,
       "previousClose": 0.61,
       "asOf": "2026-05-21",
       "history": [
@@ -1212,7 +1212,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1473,7 +1473,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1587,7 +1587,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2225,14 +2225,14 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.61
+          "close": 0.62
         }
       ]
     },
     "audcny": {
       "value": 4.85,
       "change": -0.04,
-      "changePercent": -0.81,
+      "changePercent": -0.86,
       "previousClose": 4.89,
       "asOf": "2026-05-21",
       "history": [
@@ -3344,9 +3344,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.49,
-      "change": -0.46,
-      "changePercent": -0.41,
+      "value": 113.54,
+      "change": -0.41,
+      "changePercent": -0.36,
       "previousClose": 113.95,
       "asOf": "2026-05-21",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.49
+          "close": 113.54
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.49
+          "close": 113.54
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.49
+          "close": 113.54
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.49
+          "close": 113.54
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": -0.47,
+    "changePercent": -0.56,
     "previousClose": 0.72,
     "asOf": "2026-05-21",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 97.73,
-      "change": 5.6,
-      "changePercent": 6.08,
+      "value": 101.24,
+      "change": 9.11,
+      "changePercent": 9.89,
       "previousClose": 92.13,
       "asOf": "2026-05-21",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-21",
-          "close": 97.73
+          "close": 101.24
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.37,
-      "change": 5.89,
-      "changePercent": 5.98,
+      "value": 107.61,
+      "change": 9.13,
+      "changePercent": 9.27,
       "previousClose": 98.48,
       "asOf": "2026-05-21",
       "history": [
@@ -5965,16 +5965,16 @@
         },
         {
           "date": "2026-05-21",
-          "close": 104.37
+          "close": 107.61
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.16,
-      "change": 0.46,
-      "changePercent": 17.13,
+      "value": 3.19,
+      "change": 0.49,
+      "changePercent": 18.32,
       "previousClose": 2.7,
       "asOf": "2026-05-21",
       "history": [
@@ -6068,7 +6068,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 3.16
+          "close": 3.19
         }
       ],
       "name": "Natural Gas",
@@ -6247,10 +6247,6 @@
       {
         "date": "2026-05-20",
         "close": 8496.6
-      },
-      {
-        "date": "2026-05-21",
-        "close": 8621.7
       }
     ]
   },
@@ -7381,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4532,
-      "change": -166.4,
-      "changePercent": -3.54
+      "price": 4510.4,
+      "change": -188,
+      "changePercent": -4
     },
     {
       "name": "Silver",
-      "price": 75.75,
-      "change": -0.67,
-      "changePercent": -0.87
+      "price": 75.78,
+      "change": -0.64,
+      "changePercent": -0.83
     },
     {
       "name": "Copper",
-      "price": 6.28,
-      "change": 0.28,
-      "changePercent": 4.67
+      "price": 6.29,
+      "change": 0.29,
+      "changePercent": 4.8
     }
   ],
   "housing": {
@@ -7801,14 +7797,14 @@
       "source": "News.com.au"
     },
     {
-      "title": "Live: Raiders forced into late change, with that replacement scoring opening try",
+      "title": "'I've never been so confused': Raiders slam officials, fall to Dolphins in thrilling Canberra clash",
       "link": "https://www.abc.net.au/news/2026-05-21/nrl-live-updates-canberra-raiders-vs-dolphins-thursday-football/106697156",
       "snippet": "",
       "pubDate": "Thu, 21 May 2026 08:42:55 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Crows off to hot start against Hawks after goal inside first 12 seconds",
+      "title": "'Emotional' Hawks kick off Tasmania farewell by claiming Crows thriller",
       "link": "https://www.abc.net.au/news/2026-05-21/afl-round-11-hawthorn-hawks-adelaide-crows-live-blog/106708636",
       "snippet": "",
       "pubDate": "Thu, 21 May 2026 08:37:15 +0000",
