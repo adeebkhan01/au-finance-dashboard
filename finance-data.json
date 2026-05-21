@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-21T15:55:22.423Z",
+  "fetchedAt": "2026-05-21T20:18:33.482Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
+      "value": 0.72,
       "change": 0,
-      "changePercent": -0.56,
+      "changePercent": -0.29,
       "previousClose": 0.72,
       "asOf": "2026-05-21",
       "history": [
@@ -98,7 +98,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "label": "AUD/USD",
@@ -359,7 +359,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h6m": [
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h3y": [
@@ -1111,14 +1111,14 @@
         },
         {
           "date": "2026-05-21",
-          "close": 0.71
+          "close": 0.72
         }
       ]
     },
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.1,
+      "changePercent": 1.08,
       "previousClose": 0.61,
       "asOf": "2026-05-21",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.85,
-      "change": -0.04,
-      "changePercent": -0.86,
+      "value": 4.86,
+      "change": -0.03,
+      "changePercent": -0.56,
       "previousClose": 4.89,
       "asOf": "2026-05-21",
       "history": [
@@ -2326,7 +2326,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 4.85
+          "close": 4.86
         }
       ],
       "label": "AUD/CNY",
@@ -2587,7 +2587,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 4.85
+          "close": 4.86
         }
       ],
       "h6m": [
@@ -2701,7 +2701,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 4.85
+          "close": 4.86
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-05-21",
-          "close": 4.85
+          "close": 4.86
         }
       ]
     },
     "audjpy": {
-      "value": 113.54,
-      "change": -0.41,
-      "changePercent": -0.36,
+      "value": 113.65,
+      "change": -0.3,
+      "changePercent": -0.26,
       "previousClose": 113.95,
       "asOf": "2026-05-21",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.54
+          "close": 113.65
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.54
+          "close": 113.65
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.54
+          "close": 113.65
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-05-21",
-          "close": 113.54
+          "close": 113.65
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
+    "value": 0.72,
     "change": 0,
-    "changePercent": -0.56,
+    "changePercent": -0.29,
     "previousClose": 0.72,
     "asOf": "2026-05-21",
     "history": [
@@ -4555,7 +4555,7 @@
       },
       {
         "date": "2026-05-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "label": "AUD/USD",
@@ -4816,7 +4816,7 @@
       },
       {
         "date": "2026-05-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h6m": [
@@ -4930,7 +4930,7 @@
       },
       {
         "date": "2026-05-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h3y": [
@@ -5568,7 +5568,7 @@
       },
       {
         "date": "2026-05-21",
-        "close": 0.71
+        "close": 0.72
       }
     ]
   },
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.24,
-      "change": 9.11,
-      "changePercent": 9.89,
+      "value": 97.57,
+      "change": 5.44,
+      "changePercent": 5.9,
       "previousClose": 92.13,
       "asOf": "2026-05-21",
       "history": [
@@ -5862,16 +5862,16 @@
         },
         {
           "date": "2026-05-21",
-          "close": 101.24
+          "close": 97.57
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 107.61,
-      "change": 9.13,
-      "changePercent": 9.27,
+      "value": 104.29,
+      "change": 5.81,
+      "changePercent": 5.9,
       "previousClose": 98.48,
       "asOf": "2026-05-21",
       "history": [
@@ -5965,16 +5965,16 @@
         },
         {
           "date": "2026-05-21",
-          "close": 107.61
+          "close": 104.29
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.19,
-      "change": 0.49,
-      "changePercent": 18.32,
+      "value": 3.12,
+      "change": 0.42,
+      "changePercent": 15.76,
       "previousClose": 2.7,
       "asOf": "2026-05-21",
       "history": [
@@ -6068,7 +6068,7 @@
         },
         {
           "date": "2026-05-21",
-          "close": 3.19
+          "close": 3.12
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4510.4,
-      "change": -188,
-      "changePercent": -4
+      "price": 4542.1,
+      "change": -156.3,
+      "changePercent": -3.33
     },
     {
       "name": "Silver",
-      "price": 75.78,
-      "change": -0.64,
-      "changePercent": -0.83
+      "price": 76.97,
+      "change": 0.56,
+      "changePercent": 0.73
     },
     {
       "name": "Copper",
-      "price": 6.29,
-      "change": 0.29,
-      "changePercent": 4.8
+      "price": 6.34,
+      "change": 0.34,
+      "changePercent": 5.71
     }
   ],
   "housing": {
@@ -7727,18 +7727,18 @@
   ],
   "news": [
     {
-      "title": "ASX surges after Wall Street rebounds; Unemployment increases, easing rate rise bets",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-as-wall-street-rebounds-nvidia-results-ahead-20260521-p5zz9g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket bounced back from its seven-week low, as pressure from the bond market eased and traders dialled back their expectations for further interest rate increases by the RBA.",
-      "pubDate": "Thu, 21 May 2026 17:51:41 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "ASX drops amid global volatility",
       "link": "https://www.news.com.au/finance/markets/australian-markets/aussie-sharemarket-tumbles-as-us-bond-yields-budget-uncertainty-hit-market/news-story/9421f80f8fd544e020e06d1589b728c7?from=rss-basic",
       "snippet": "Australian shares have plunged amid uncertainty surrounding the federal budget and fears surging global bond yields could trigger rate rises in the US.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "ASX set to advance, Wall Street seesaws as oil prices swing",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-advance-wall-street-seesaws-as-oil-prices-swing-20260522-p5zznl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Hour-to-hour swings for oil prices keep jerking financial markets around, and US stocks are drifting  following the latest reversal.",
+      "pubDate": "Fri, 22 May 2026 06:13:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Jobless rate lifts ASX to six-week high",
@@ -7748,13 +7748,6 @@
       "source": "News.com.au"
     },
     {
-      "title": "West Wits bags A$74.4M funding for South African gold push",
-      "link": "https://www.smh.com.au/business/companies/west-wits-bags-a-74-4m-funding-for-south-african-gold-push-20260521-p5zzkp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "West Wits has secured A$74.4 million in funding with top South African tier-one lenders to power the production ramp-up at its flagship Qala Shallows gold mine.",
-      "pubDate": "Thu, 21 May 2026 16:30:30 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘Ugly’: Jobless rate up, 18.5k jobs lost",
       "link": "https://www.news.com.au/finance/work/at-work/unemployment-rate-up-to-45-per-cent-in-april/news-story/13fc521c81bee469c64f6e433db41751?from=rss-basic",
       "snippet": "Australia’s latest unemployment rate has been revealed as inflation bites businesses and slashes margins.",
@@ -7762,25 +7755,18 @@
       "source": "News.com.au"
     },
     {
-      "title": "The Chinese electric vehicle giant that just toppled BYD",
-      "link": "https://www.smh.com.au/business/companies/the-chinese-electric-vehicle-giant-that-just-toppled-byd-20260518-p5zxzf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Electric car powerhouse BYD passed Tesla in global sales last year. But it is a different story at home.",
-      "pubDate": "Thu, 21 May 2026 18:35:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "No, the Iran War won’t ground your European holiday flight",
-      "link": "https://www.smh.com.au/business/consumer-affairs/no-the-iran-war-won-t-ground-your-european-holiday-flight-20260519-p5zyqs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Tickets will be more expensive. The odd disruption may occur, too. But barring a worst-case scenario, the invisible hand of the market is already doing enough to keep most planes flying.",
-      "pubDate": "Thu, 21 May 2026 17:00:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Aussie state missing $8bn after Iran war",
       "link": "https://www.news.com.au/national/nsw-act/projected-economic-growth-in-nsw-slashed-by-15-per-cent-as-treasurer-blames-inflation-war-in-iran/news-story/4579ecc19e46cb1d3b8b9ca808e460e4?from=rss-basic",
       "snippet": "Australia’s biggest state will likely receive $8bn less in a key tax as it grapples with inflation and fallout from the Iran war.",
       "pubDate": "",
       "source": "News.com.au"
+    },
+    {
+      "title": "Green Elephant commercial building looks for peak price of $30m",
+      "link": "https://www.smh.com.au/business/small-business/green-elephant-commercial-building-looks-for-peak-price-of-30m-20260521-p5zzip.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Peak Equities, led by Trevor O’Hoy, is looking to sell a fully leased property in Sydney’s Green Square precinct for more than $30 million.",
+      "pubDate": "Fri, 22 May 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Pauline’s Norway-style bet on ‘miracle’ gas",
@@ -7797,18 +7783,32 @@
       "source": "News.com.au"
     },
     {
-      "title": "'I've never been so confused': Raiders slam officials, fall to Dolphins in thrilling Canberra clash",
-      "link": "https://www.abc.net.au/news/2026-05-21/nrl-live-updates-canberra-raiders-vs-dolphins-thursday-football/106697156",
-      "snippet": "",
-      "pubDate": "Thu, 21 May 2026 08:42:55 +0000",
-      "source": "ABC"
+      "title": "Airbus, Air France found guilty of manslaughter over crash that killed 228 people",
+      "link": "https://www.smh.com.au/business/companies/airbus-air-france-found-guilty-of-manslaughter-over-crash-that-killed-228-people-20260522-p5zznn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Hundreds of people perished in 2009 when an Airbus A330 plunged in pitch darkness into the Atlantic Ocean during an equatorial storm.",
+      "pubDate": "Fri, 22 May 2026 06:15:19 +1000",
+      "source": "SMH"
     },
     {
-      "title": "'Emotional' Hawks kick off Tasmania farewell by claiming Crows thriller",
-      "link": "https://www.abc.net.au/news/2026-05-21/afl-round-11-hawthorn-hawks-adelaide-crows-live-blog/106708636",
-      "snippet": "",
-      "pubDate": "Thu, 21 May 2026 08:37:15 +0000",
-      "source": "ABC"
+      "title": "A colleague suddenly stopped coming to work. Do we deserve to know why?",
+      "link": "https://www.smh.com.au/business/workplace/a-colleague-suddenly-stopped-coming-to-work-do-we-deserve-to-know-why-20260521-p5zzid.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "To me, this sounds like a personal matter being sensitively handled by your organisation’s decision makers.",
+      "pubDate": "Fri, 22 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "The corporate ladder is dead, but your career doesn’t have to be",
+      "link": "https://www.smh.com.au/business/workplace/the-corporate-ladder-is-dead-but-your-career-doesn-t-have-to-be-20260521-p5zzii.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We’re living through the biggest shift in how people work since the industrial era, and that requires a radical new way of thinking.",
+      "pubDate": "Fri, 22 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Illegal Lara waste dump sells for $16m. It cost $71m to clean up",
+      "link": "https://www.smh.com.au/business/companies/illegal-lara-waste-dump-sells-for-16m-it-cost-71m-to-clean-up-20260520-p5zz1o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Builder Hickory has bought what was once a bogus recycling plant in Lara where a 20-metre-high pile of rubbish cost the state $71 million to clean up.",
+      "pubDate": "Fri, 22 May 2026 05:00:00 +1000",
+      "source": "SMH"
     }
   ]
 }
