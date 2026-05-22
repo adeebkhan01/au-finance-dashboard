@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-22T15:30:42.664Z",
+  "fetchedAt": "2026-05-22T20:18:39.989Z",
   "fx": {
     "audusd": {
       "value": 0.71,
@@ -95,6 +95,10 @@
         {
           "date": "2026-05-20",
           "close": 0.72
+        },
+        {
+          "date": "2026-05-21",
+          "close": 0.71
         },
         {
           "date": "2026-05-22",
@@ -362,6 +366,10 @@
           "close": 0.72
         },
         {
+          "date": "2026-05-21",
+          "close": 0.71
+        },
+        {
           "date": "2026-05-22",
           "close": 0.71
         }
@@ -473,7 +481,7 @@
         },
         {
           "date": "2026-05-17",
-          "close": 0.72
+          "close": 0.71
         },
         {
           "date": "2026-05-22",
@@ -1107,7 +1115,7 @@
         },
         {
           "date": "2026-05-17",
-          "close": 0.72
+          "close": 0.71
         },
         {
           "date": "2026-05-22",
@@ -1209,6 +1217,10 @@
         {
           "date": "2026-05-20",
           "close": 0.61
+        },
+        {
+          "date": "2026-05-21",
+          "close": 0.62
         },
         {
           "date": "2026-05-22",
@@ -1476,6 +1488,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-05-21",
+          "close": 0.62
+        },
+        {
           "date": "2026-05-22",
           "close": 0.61
         }
@@ -1587,7 +1603,7 @@
         },
         {
           "date": "2026-05-17",
-          "close": 0.61
+          "close": 0.62
         },
         {
           "date": "2026-05-22",
@@ -2221,7 +2237,7 @@
         },
         {
           "date": "2026-05-17",
-          "close": 0.61
+          "close": 0.62
         },
         {
           "date": "2026-05-22",
@@ -2232,7 +2248,7 @@
     "audcny": {
       "value": 4.84,
       "change": -0.04,
-      "changePercent": -0.78,
+      "changePercent": -0.75,
       "previousClose": 4.88,
       "asOf": "2026-05-22",
       "history": [
@@ -2322,6 +2338,10 @@
         },
         {
           "date": "2026-05-20",
+          "close": 4.86
+        },
+        {
+          "date": "2026-05-21",
           "close": 4.86
         },
         {
@@ -2587,6 +2607,10 @@
         },
         {
           "date": "2026-05-20",
+          "close": 4.86
+        },
+        {
+          "date": "2026-05-21",
           "close": 4.86
         },
         {
@@ -3344,9 +3368,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.45,
-      "change": -0.59,
-      "changePercent": -0.52,
+      "value": 113.49,
+      "change": -0.55,
+      "changePercent": -0.48,
       "previousClose": 114.04,
       "asOf": "2026-05-22",
       "history": [
@@ -3439,8 +3463,12 @@
           "close": 113.58
         },
         {
+          "date": "2026-05-21",
+          "close": 113.66
+        },
+        {
           "date": "2026-05-22",
-          "close": 113.45
+          "close": 113.49
         }
       ],
       "label": "AUD/JPY",
@@ -3704,8 +3732,12 @@
           "close": 113.58
         },
         {
+          "date": "2026-05-21",
+          "close": 113.66
+        },
+        {
           "date": "2026-05-22",
-          "close": 113.45
+          "close": 113.49
         }
       ],
       "h6m": [
@@ -3815,11 +3847,11 @@
         },
         {
           "date": "2026-05-17",
-          "close": 113.58
+          "close": 113.66
         },
         {
           "date": "2026-05-22",
-          "close": 113.45
+          "close": 113.49
         }
       ],
       "h3y": [
@@ -4449,11 +4481,11 @@
         },
         {
           "date": "2026-05-17",
-          "close": 113.58
+          "close": 113.66
         },
         {
           "date": "2026-05-22",
-          "close": 113.45
+          "close": 113.49
         }
       ]
     }
@@ -4552,6 +4584,10 @@
       {
         "date": "2026-05-20",
         "close": 0.72
+      },
+      {
+        "date": "2026-05-21",
+        "close": 0.71
       },
       {
         "date": "2026-05-22",
@@ -4819,6 +4855,10 @@
         "close": 0.72
       },
       {
+        "date": "2026-05-21",
+        "close": 0.71
+      },
+      {
         "date": "2026-05-22",
         "close": 0.71
       }
@@ -4930,7 +4970,7 @@
       },
       {
         "date": "2026-05-17",
-        "close": 0.72
+        "close": 0.71
       },
       {
         "date": "2026-05-22",
@@ -5564,7 +5604,7 @@
       },
       {
         "date": "2026-05-17",
-        "close": 0.72
+        "close": 0.71
       },
       {
         "date": "2026-05-22",
@@ -5766,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 97.65,
-      "change": 4.69,
-      "changePercent": 5.05,
+      "value": 96.38,
+      "change": 3.42,
+      "changePercent": 3.68,
       "previousClose": 92.96,
       "asOf": "2026-05-22",
       "history": [
@@ -5862,16 +5902,16 @@
         },
         {
           "date": "2026-05-22",
-          "close": 97.65
+          "close": 96.38
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.18,
-      "change": 2.27,
-      "changePercent": 2.23,
+      "value": 103.47,
+      "change": 1.56,
+      "changePercent": 1.53,
       "previousClose": 101.91,
       "asOf": "2026-05-22",
       "history": [
@@ -5965,16 +6005,16 @@
         },
         {
           "date": "2026-05-22",
-          "close": 104.18
+          "close": 103.47
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.04,
-      "change": 0.32,
-      "changePercent": 11.76,
+      "value": 3.02,
+      "change": 0.3,
+      "changePercent": 11.06,
       "previousClose": 2.72,
       "asOf": "2026-05-22",
       "history": [
@@ -6068,7 +6108,7 @@
         },
         {
           "date": "2026-05-22",
-          "close": 3.04
+          "close": 3.02
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4515,
-      "change": -217.5,
-      "changePercent": -4.6
+      "price": 4507.5,
+      "change": -225,
+      "changePercent": -4.75
     },
     {
       "name": "Silver",
-      "price": 76.11,
-      "change": -1.78,
-      "changePercent": -2.28
+      "price": 75.8,
+      "change": -2.1,
+      "changePercent": -2.69
     },
     {
       "name": "Copper",
-      "price": 6.36,
-      "change": 0.24,
-      "changePercent": 3.97
+      "price": 6.39,
+      "change": 0.27,
+      "changePercent": 4.41
     }
   ],
   "housing": {
@@ -7748,6 +7788,13 @@
       "source": "News.com.au"
     },
     {
+      "title": "Natalie’s redundancy was gut-wrenching. Her story is becoming more common",
+      "link": "https://www.smh.com.au/business/workplace/natalie-s-redundancy-was-gut-wrenching-her-story-is-becoming-more-common-20260521-p5zzig.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "No longer a last resort reserved for business restructures, redundancies are now a regular feature of the employment landscape.",
+      "pubDate": "Sat, 23 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX Runners of the Week: Hydrix, KTEK Aerosystems, AnteoTech &amp; Castle",
       "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-hydrix-ktek-aerosystems-anteotech-and-castle-20260522-p5zzvl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Hydrix Limited, which surged after unveiling a strategic pivot into counter-drone defence technology through a deal with NIOA Group.",
@@ -7776,10 +7823,10 @@
       "source": "News.com.au"
     },
     {
-      "title": "Dateline taps global project manager for California gold push",
-      "link": "https://www.smh.com.au/business/companies/dateline-taps-global-project-manager-for-california-gold-push-20260522-p5zztd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dateline Resources has secured global project powerhouse Alvarez &amp; Marsal to manage construction and accelerate development at its Colosseum gold mine.",
-      "pubDate": "Fri, 22 May 2026 12:53:09 +1000",
+      "title": "Striking gold is the dream for thousands of Australians. But there’s a ‘paradox’ holding them back",
+      "link": "https://www.smh.com.au/business/markets/striking-gold-is-the-dream-for-thousands-of-australians-but-there-s-a-paradox-holding-them-back-20260512-p5zvyz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Hundreds of thousands of Australians are prospecting, fossicking and mining as the price of the elusive precious metal soars.",
+      "pubDate": "Sat, 23 May 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7797,18 +7844,11 @@
       "source": "SMH"
     },
     {
-      "title": "Flagship bags A$2.75M for multi-million-ounce Chilean gold project",
-      "link": "https://www.smh.com.au/business/companies/flagship-bags-a-2-75m-for-multi-million-ounce-chilean-gold-project-20260522-p5zzv3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Flagship Minerals has secured A$2.75M in a strategic placement to accelerate development studies at its 2.1-million-ounce Isidora gold project in Chile.",
-      "pubDate": "Fri, 22 May 2026 15:39:22 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "What you might not know about Pendlebury's lauded basketball background",
-      "link": "https://www.abc.net.au/news/2026-05-22/scott-pendlebury-sale-basketball-phone-call-record-game/106692622",
-      "snippet": "",
-      "pubDate": "Thu, 21 May 2026 21:32:14 +0000",
-      "source": "ABC"
+      "title": "Huge CGT call amid small business backlash",
+      "link": "https://www.news.com.au/finance/economy/australian-economy/cgt-changes-do-not-interact-well-with-some-small-businesses-and-start-ups-charlton/news-story/e2dd212806b712d059aa0505c175aa70?from=rss-basic",
+      "snippet": "Labor cabinet secretary Andrew Charlton has made a big concession on the impact of the new CGT changes on some small businesses.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
