@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-05-22T20:18:39.989Z",
+  "fetchedAt": "2026-05-23T04:23:59.221Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": -0.32,
+      "changePercent": -0.36,
       "previousClose": 0.72,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
         {
           "date": "2026-04-21",
@@ -101,7 +101,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-05-22",
+          "date": "2026-05-23",
           "close": 0.71
         }
       ],
@@ -370,7 +370,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-05-22",
+          "date": "2026-05-23",
           "close": 0.71
         }
       ],
@@ -484,7 +484,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-05-22",
+          "date": "2026-05-23",
           "close": 0.71
         }
       ],
@@ -1118,17 +1118,17 @@
           "close": 0.71
         },
         {
-          "date": "2026-05-22",
+          "date": "2026-05-23",
           "close": 0.71
         }
       ]
     },
     "audeur": {
       "value": 0.61,
-      "change": 0.01,
-      "changePercent": 0.82,
+      "change": 0,
+      "changePercent": 0.79,
       "previousClose": 0.61,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
         {
           "date": "2026-04-21",
@@ -2248,9 +2248,9 @@
     "audcny": {
       "value": 4.84,
       "change": -0.04,
-      "changePercent": -0.75,
+      "changePercent": -0.76,
       "previousClose": 4.88,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
         {
           "date": "2026-04-21",
@@ -3368,11 +3368,11 @@
       ]
     },
     "audjpy": {
-      "value": 113.49,
-      "change": -0.55,
-      "changePercent": -0.48,
+      "value": 113.45,
+      "change": -0.59,
+      "changePercent": -0.51,
       "previousClose": 114.04,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
         {
           "date": "2026-04-21",
@@ -3468,7 +3468,7 @@
         },
         {
           "date": "2026-05-22",
-          "close": 113.49
+          "close": 113.45
         }
       ],
       "label": "AUD/JPY",
@@ -3737,7 +3737,7 @@
         },
         {
           "date": "2026-05-22",
-          "close": 113.49
+          "close": 113.45
         }
       ],
       "h6m": [
@@ -3851,7 +3851,7 @@
         },
         {
           "date": "2026-05-22",
-          "close": 113.49
+          "close": 113.45
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-05-22",
-          "close": 113.49
+          "close": 113.45
         }
       ]
     }
@@ -4493,9 +4493,9 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": -0.32,
+    "changePercent": -0.36,
     "previousClose": 0.72,
-    "asOf": "2026-05-22",
+    "asOf": "2026-05-23",
     "history": [
       {
         "date": "2026-04-21",
@@ -4590,7 +4590,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "close": 0.71
       }
     ],
@@ -4859,7 +4859,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "close": 0.71
       }
     ],
@@ -4973,7 +4973,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "close": 0.71
       }
     ],
@@ -5607,7 +5607,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-05-22",
+        "date": "2026-05-23",
         "close": 0.71
       }
     ]
@@ -5806,16 +5806,12 @@
   },
   "energy": {
     "wti": {
-      "value": 96.38,
-      "change": 3.42,
-      "changePercent": 3.68,
+      "value": 96.6,
+      "change": 3.64,
+      "changePercent": 3.92,
       "previousClose": 92.96,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
-        {
-          "date": "2026-04-22",
-          "close": 92.96
-        },
         {
           "date": "2026-04-23",
           "close": 95.85
@@ -5902,23 +5898,19 @@
         },
         {
           "date": "2026-05-22",
-          "close": 96.38
+          "close": 96.6
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 103.47,
-      "change": 1.56,
-      "changePercent": 1.53,
+      "value": 103.94,
+      "change": 2.03,
+      "changePercent": 1.99,
       "previousClose": 101.91,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
-        {
-          "date": "2026-04-22",
-          "close": 101.91
-        },
         {
           "date": "2026-04-23",
           "close": 105.07
@@ -6005,23 +5997,19 @@
         },
         {
           "date": "2026-05-22",
-          "close": 103.47
+          "close": 103.54
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.02,
-      "change": 0.3,
-      "changePercent": 11.06,
+      "value": 3.03,
+      "change": 0.31,
+      "changePercent": 11.46,
       "previousClose": 2.72,
-      "asOf": "2026-05-22",
+      "asOf": "2026-05-23",
       "history": [
-        {
-          "date": "2026-04-22",
-          "close": 2.72
-        },
         {
           "date": "2026-04-23",
           "close": 2.61
@@ -6108,7 +6096,7 @@
         },
         {
           "date": "2026-05-22",
-          "close": 3.02
+          "close": 2.91
         }
       ],
       "name": "Natural Gas",
@@ -6198,7 +6186,7 @@
     "change": -186.6,
     "changePercent": -2.11,
     "previousClose": 8843.6,
-    "asOf": "2026-05-22",
+    "asOf": "2026-05-23",
     "history": [
       {
         "date": "2026-04-22",
@@ -6287,6 +6275,10 @@
       {
         "date": "2026-05-21",
         "close": 8621.7
+      },
+      {
+        "date": "2026-05-22",
+        "close": 8657
       }
     ]
   },
@@ -7417,21 +7409,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4507.5,
-      "change": -225,
-      "changePercent": -4.75
+      "price": 4510.5,
+      "change": -222,
+      "changePercent": -4.69
     },
     {
       "name": "Silver",
-      "price": 75.8,
-      "change": -2.1,
-      "changePercent": -2.69
+      "price": 75.92,
+      "change": -1.98,
+      "changePercent": -2.54
     },
     {
       "name": "Copper",
-      "price": 6.39,
-      "change": 0.27,
-      "changePercent": 4.41
+      "price": 6.38,
+      "change": 0.26,
+      "changePercent": 4.25
     }
   ],
   "housing": {
@@ -7774,20 +7766,6 @@
       "source": "SMH"
     },
     {
-      "title": "Jobless rate lifts ASX to six-week high",
-      "link": "https://www.news.com.au/finance/markets/australian-markets/easing-rate-hike-fears-push-aussie-sharemarket-to-best-day-in-six-weeks/news-story/13e27d63d8a4054e82b50793ae4906fc?from=rss-basic",
-      "snippet": "The Australian sharemarket has recorded its best day in six weeks, as higher jobless figures spark investor relief that rate hikes may be off the table.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "‘Ugly’: Jobless rate up, 18.5k jobs lost",
-      "link": "https://www.news.com.au/finance/work/at-work/unemployment-rate-up-to-45-per-cent-in-april/news-story/13fc521c81bee469c64f6e433db41751?from=rss-basic",
-      "snippet": "Australia’s latest unemployment rate has been revealed as inflation bites businesses and slashes margins.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "Natalie’s redundancy was gut-wrenching. Her story is becoming more common",
       "link": "https://www.smh.com.au/business/workplace/natalie-s-redundancy-was-gut-wrenching-her-story-is-becoming-more-common-20260521-p5zzig.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "No longer a last resort reserved for business restructures, redundancies are now a regular feature of the employment landscape.",
@@ -7807,6 +7785,13 @@
       "snippet": "Private equity and investment bankers convinced Aussies they could sell burritos to the Yanks – and they swallowed it.",
       "pubDate": "Fri, 22 May 2026 15:58:14 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "CGT shake-up kills popular practice",
+      "link": "https://www.news.com.au/finance/money/wealth/property-tax-changes-likely-to-kill-the-house-flip/news-story/7e329f75cbab601188f9993f60bf9162?from=rss-basic",
+      "snippet": "The days of flipping houses could be dead, experts say, in the wake of major changes to investment property taxes.",
+      "pubDate": "",
+      "source": "News.com.au"
     },
     {
       "title": "Aussie sharemarket steadies for weekly gain",
@@ -7847,6 +7832,13 @@
       "title": "Huge CGT call amid small business backlash",
       "link": "https://www.news.com.au/finance/economy/australian-economy/cgt-changes-do-not-interact-well-with-some-small-businesses-and-start-ups-charlton/news-story/e2dd212806b712d059aa0505c175aa70?from=rss-basic",
       "snippet": "Labor cabinet secretary Andrew Charlton has made a big concession on the impact of the new CGT changes on some small businesses.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Shock polling reveals bad news for Albo",
+      "link": "https://www.news.com.au/national/politics/one-nation-inches-ahead-of-labor-in-postbudget-polling-as-voters-sour-on-tax-changes/news-story/bf5615fb129977aede51a6070db204db?from=rss-basic",
+      "snippet": "As the post-budget fallout continues, new polling shows one party taking a major hit and a major opponent stepping up to the plate.",
       "pubDate": "",
       "source": "News.com.au"
     }
