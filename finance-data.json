@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-26T10:33:16.993Z",
+  "fetchedAt": "2026-05-26T16:23:32.181Z",
   "fx": {
     "audusd": {
       "value": 0.72,
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 0.84,
+      "changePercent": 0.97,
       "previousClose": 0.61,
       "asOf": "2026-05-26",
       "history": [
@@ -3332,9 +3332,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.01,
-      "change": 0.14,
-      "changePercent": 0.12,
+      "value": 114.13,
+      "change": 0.27,
+      "changePercent": 0.23,
       "previousClose": 113.87,
       "asOf": "2026-05-26",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-05-26",
-          "close": 114
+          "close": 114.13
         }
       ],
       "label": "AUD/JPY",
@@ -3685,7 +3685,7 @@
         },
         {
           "date": "2026-05-26",
-          "close": 114
+          "close": 114.13
         }
       ],
       "h6m": [
@@ -3799,7 +3799,7 @@
         },
         {
           "date": "2026-05-26",
-          "close": 114
+          "close": 114.14
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-05-26",
-          "close": 114
+          "close": 114.13
         }
       ]
     }
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 92.31,
-      "change": -4.06,
-      "changePercent": -4.21,
+      "value": 94.3,
+      "change": -2.07,
+      "changePercent": -2.15,
       "previousClose": 96.37,
       "asOf": "2026-05-26",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-05-26",
-          "close": 92.31
+          "close": 94.3
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.9,
-      "change": -12.33,
-      "changePercent": -11.39,
+      "value": 97.36,
+      "change": -10.87,
+      "changePercent": -10.04,
       "previousClose": 108.23,
       "asOf": "2026-05-26",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-05-26",
-          "close": 95.9
+          "close": 97.36
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.09,
-      "change": 0.54,
-      "changePercent": 21.14,
+      "value": 3.05,
+      "change": 0.5,
+      "changePercent": 19.76,
       "previousClose": 2.55,
       "asOf": "2026-05-26",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-05-26",
-          "close": 3.09
+          "close": 3.05
         }
       ],
       "name": "Natural Gas",
@@ -6199,10 +6199,6 @@
       {
         "date": "2026-05-25",
         "close": 8692
-      },
-      {
-        "date": "2026-05-26",
-        "close": 8657.8
       }
     ]
   },
@@ -7301,21 +7297,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4532.4,
-      "change": -143,
-      "changePercent": -3.06
+      "price": 4502.4,
+      "change": -173,
+      "changePercent": -3.7
     },
     {
       "name": "Silver",
-      "price": 76.53,
-      "change": 1.53,
-      "changePercent": 2.04
+      "price": 76.31,
+      "change": 1.3,
+      "changePercent": 1.74
     },
     {
       "name": "Copper",
-      "price": 6.38,
-      "change": 0.37,
-      "changePercent": 6.08
+      "price": 6.39,
+      "change": 0.38,
+      "changePercent": 6.23
     }
   ],
   "housing": {
@@ -7651,13 +7647,6 @@
   ],
   "news": [
     {
-      "title": "Barefoot Investor shares surprise verdict on CGT and negative gearing changes",
-      "link": "https://www.news.com.au/finance/economy/federal-budget/barefoot-investor-scott-pape-delivers-surprise-verdict-on-cgt-and-negative-gearing-changes/news-story/8c518b85fca5ff951762cb4e5418e462?from=rss-basic",
-      "snippet": "Barefoot Investor Scott Pape has not held back in expressing his true feeling about tax changes announced in this year’s federal budget.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "ASX falls, oil rebounds after US strikes Iran; Kogan jumps, ASX Ltd tanks",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-oil-falls-as-optimism-on-iran-deal-grows-20260526-p600lf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket slipped after the US military said it carried out “self-defence” strikes in southern Iran, triggering doubts about an imminent end to the war.",
@@ -7712,6 +7701,13 @@
       "snippet": "ClearVue has entered India through a deal with Aria Glass to locally manufacture and sell its solar glazing products, backed by Aria’s US$240.5M investment in an Indian plant.",
       "pubDate": "Tue, 26 May 2026 14:57:46 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Liberal Joe Hockey backs negative gearing changes",
+      "link": "https://www.news.com.au/finance/money/tax/right-policy-liberal-joe-hockey-backs-negative-gearing-changes-predicts-death-taxes-are-coming/news-story/5130d88920203dee8d51d2fd903e0d70?from=rss-basic",
+      "snippet": "The boss of Australia’s largest bank has made his feelings known on the government's controversial changes to capital gains tax.",
+      "pubDate": "",
+      "source": "News.com.au"
     },
     {
       "title": "Aguia wins final approval to launch Brazil phosphate sales",
