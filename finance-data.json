@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-27T10:37:00.447Z",
+  "fetchedAt": "2026-05-27T16:22:52.100Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": -0.01,
+      "changePercent": -0.03,
       "previousClose": 0.71,
       "asOf": "2026-05-27",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.54,
+      "changePercent": 0.59,
       "previousClose": 0.61,
       "asOf": "2026-05-27",
       "history": [
@@ -2231,8 +2231,8 @@
     },
     "audcny": {
       "value": 4.84,
-      "change": -0.04,
-      "changePercent": -0.87,
+      "change": -0.05,
+      "changePercent": -0.98,
       "previousClose": 4.88,
       "asOf": "2026-05-27",
       "history": [
@@ -3344,9 +3344,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.79,
-      "change": -0.19,
-      "changePercent": -0.17,
+      "value": 113.87,
+      "change": -0.11,
+      "changePercent": -0.1,
       "previousClose": 113.98,
       "asOf": "2026-05-27",
       "history": [
@@ -3440,7 +3440,7 @@
         },
         {
           "date": "2026-05-27",
-          "close": 113.79
+          "close": 113.87
         }
       ],
       "label": "AUD/JPY",
@@ -3701,7 +3701,7 @@
         },
         {
           "date": "2026-05-27",
-          "close": 113.79
+          "close": 113.87
         }
       ],
       "h6m": [
@@ -3815,7 +3815,7 @@
         },
         {
           "date": "2026-05-27",
-          "close": 113.79
+          "close": 113.86
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-05-27",
-          "close": 113.79
+          "close": 113.86
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": -0.01,
+    "changePercent": -0.03,
     "previousClose": 0.71,
     "asOf": "2026-05-27",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.21,
-      "change": -6.16,
-      "changePercent": -6.39,
+      "value": 90.11,
+      "change": -6.26,
+      "changePercent": -6.5,
       "previousClose": 96.37,
       "asOf": "2026-05-27",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-05-27",
-          "close": 90.21
+          "close": 90.11
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.73,
-      "change": -14.5,
-      "changePercent": -13.4,
+      "value": 93.45,
+      "change": -14.78,
+      "changePercent": -13.66,
       "previousClose": 108.23,
       "asOf": "2026-05-27",
       "history": [
@@ -5957,16 +5957,16 @@
         },
         {
           "date": "2026-05-27",
-          "close": 93.73
+          "close": 93.45
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.01,
-      "change": 0.46,
-      "changePercent": 17.88,
+      "value": 3.12,
+      "change": 0.57,
+      "changePercent": 22.47,
       "previousClose": 2.55,
       "asOf": "2026-05-27",
       "history": [
@@ -6056,7 +6056,7 @@
         },
         {
           "date": "2026-05-27",
-          "close": 3.01
+          "close": 3.12
         }
       ],
       "name": "Natural Gas",
@@ -6235,10 +6235,6 @@
       {
         "date": "2026-05-26",
         "close": 8657.8
-      },
-      {
-        "date": "2026-05-27",
-        "close": 8717.7
       }
     ]
   },
@@ -7369,21 +7365,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4510.7,
-      "change": -164.7,
-      "changePercent": -3.52
+      "price": 4472.2,
+      "change": -203.2,
+      "changePercent": -4.35
     },
     {
       "name": "Silver",
-      "price": 75.6,
-      "change": 0.6,
-      "changePercent": 0.8
+      "price": 74.85,
+      "change": -0.16,
+      "changePercent": -0.21
     },
     {
       "name": "Copper",
-      "price": 6.39,
-      "change": 0.38,
-      "changePercent": 6.25
+      "price": 6.33,
+      "change": 0.32,
+      "changePercent": 5.23
     }
   ],
   "housing": {
@@ -7768,13 +7764,6 @@
       "source": "SMH"
     },
     {
-      "title": "Scott reveals he wanted to trade Merrett, confirms bumper Reid offer",
-      "link": "https://www.abc.net.au/news/2026-05-27/afl-brad-scott-zach-merrett-trade-harley-reid-essendon-offer/106725506",
-      "snippet": "",
-      "pubDate": "Tue, 26 May 2026 21:19:46 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "Millions of Aussies to save on power bills",
       "link": "https://www.news.com.au/finance/money/costs/power-bills-to-drop-on-australias-east-coast-after-final-default-market-offer/news-story/fa80298dc146a24b5fc60124161337f0?from=rss-basic",
       "snippet": "Many Australian households will have lower power bills this winter, but welfare groups says more needs to be done to help the most vulnerable.",
@@ -7782,7 +7771,21 @@
       "source": "News.com.au"
     },
     {
-      "title": "Live: Blues great labels NSW 'a disgrace' as Maroons start Origin red hot",
+      "title": "Kalyn Ponga's Origin send-off leaves Queensland legend 'in shock'",
+      "link": "https://www.abc.net.au/news/2026-05-27/kalyn-ponga-send-off-state-of-origin-i-reaction/106730106",
+      "snippet": "",
+      "pubDate": "Wed, 27 May 2026 13:47:58 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Blues' selection gamble pays off, bunker sparks controversy",
+      "link": "https://www.abc.net.au/news/2026-05-27/state-of-origin-i-nsw-blues-queensland-maroons-five-quick-hits/106729716",
+      "snippet": "",
+      "pubDate": "Wed, 27 May 2026 13:19:34 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Maroons let 20-0 lead slip in Origin I after Kalyn Ponga sent off late",
       "link": "https://www.abc.net.au/news/2026-05-27/state-of-origin-game-1-live-updates-blues-vs-maroons/106724102",
       "snippet": "",
       "pubDate": "Wed, 27 May 2026 07:55:28 +0000",
@@ -7793,13 +7796,6 @@
       "link": "https://www.smh.com.au/business/markets/we-daren-t-ask-but-what-if-the-strait-of-hormuz-doesn-t-reopen-20260526-p600ok.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Nearly 90 days since the US-Israeli war on Iran all but closed the sea route, it’s worth considering what seems unthinkable but has happened elsewhere. Call it historical science fiction.",
       "pubDate": "Wed, 27 May 2026 17:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Critica cracks WA rare earths upgrade code in pilot breakthrough",
-      "link": "https://www.smh.com.au/business/companies/critica-cracks-wa-rare-earths-upgrade-code-in-pilot-breakthrough-20260527-p6018t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critica Limited has upgraded its WA rare earths feed 14-fold to a 3% TREO concentrate in pilot beneficiation work in Vietnam, rejecting 95 per cent of the feed mass.",
-      "pubDate": "Wed, 27 May 2026 14:54:32 +1000",
       "source": "SMH"
     }
   ]
