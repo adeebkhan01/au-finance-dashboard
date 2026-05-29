@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-05-29T16:23:14.204Z",
+  "fetchedAt": "2026-05-29T20:41:55.992Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
-      "changePercent": 0.06,
+      "changePercent": -0.01,
       "previousClose": 0.72,
       "asOf": "2026-05-29",
       "history": [
@@ -95,6 +95,10 @@
         {
           "date": "2026-05-27",
           "close": 0.71
+        },
+        {
+          "date": "2026-05-28",
+          "close": 0.72
         },
         {
           "date": "2026-05-29",
@@ -362,6 +366,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-05-28",
+          "close": 0.72
+        },
+        {
           "date": "2026-05-29",
           "close": 0.72
         }
@@ -473,7 +481,7 @@
         },
         {
           "date": "2026-05-24",
-          "close": 0.71
+          "close": 0.72
         },
         {
           "date": "2026-05-29",
@@ -1107,7 +1115,7 @@
         },
         {
           "date": "2026-05-24",
-          "close": 0.71
+          "close": 0.72
         },
         {
           "date": "2026-05-29",
@@ -1208,6 +1216,10 @@
         },
         {
           "date": "2026-05-27",
+          "close": 0.61
+        },
+        {
+          "date": "2026-05-28",
           "close": 0.61
         },
         {
@@ -1473,6 +1485,10 @@
         },
         {
           "date": "2026-05-27",
+          "close": 0.61
+        },
+        {
+          "date": "2026-05-28",
           "close": 0.61
         },
         {
@@ -2230,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.87,
+      "value": 4.86,
       "change": -0.05,
-      "changePercent": -0.97,
+      "changePercent": -1.07,
       "previousClose": 4.91,
       "asOf": "2026-05-29",
       "history": [
@@ -2325,8 +2341,12 @@
           "close": 4.84
         },
         {
+          "date": "2026-05-28",
+          "close": 4.86
+        },
+        {
           "date": "2026-05-29",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "label": "AUD/CNY",
@@ -2590,8 +2610,12 @@
           "close": 4.84
         },
         {
+          "date": "2026-05-28",
+          "close": 4.86
+        },
+        {
           "date": "2026-05-29",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "h6m": [
@@ -2701,11 +2725,11 @@
         },
         {
           "date": "2026-05-24",
-          "close": 4.84
+          "close": 4.86
         },
         {
           "date": "2026-05-29",
-          "close": 4.87
+          "close": 4.86
         }
       ],
       "h3y": [
@@ -3335,18 +3359,18 @@
         },
         {
           "date": "2026-05-24",
-          "close": 4.84
+          "close": 4.86
         },
         {
           "date": "2026-05-29",
-          "close": 4.87
+          "close": 4.86
         }
       ]
     },
     "audjpy": {
-      "value": 114.46,
-      "change": -0.2,
-      "changePercent": -0.18,
+      "value": 114.42,
+      "change": -0.24,
+      "changePercent": -0.21,
       "previousClose": 114.66,
       "asOf": "2026-05-29",
       "history": [
@@ -3439,8 +3463,12 @@
           "close": 113.81
         },
         {
+          "date": "2026-05-28",
+          "close": 114.06
+        },
+        {
           "date": "2026-05-29",
-          "close": 114.46
+          "close": 114.42
         }
       ],
       "label": "AUD/JPY",
@@ -3704,8 +3732,12 @@
           "close": 113.81
         },
         {
+          "date": "2026-05-28",
+          "close": 114.06
+        },
+        {
           "date": "2026-05-29",
-          "close": 114.46
+          "close": 114.42
         }
       ],
       "h6m": [
@@ -3815,11 +3847,11 @@
         },
         {
           "date": "2026-05-24",
-          "close": 113.81
+          "close": 114.06
         },
         {
           "date": "2026-05-29",
-          "close": 114.46
+          "close": 114.42
         }
       ],
       "h3y": [
@@ -4449,11 +4481,11 @@
         },
         {
           "date": "2026-05-24",
-          "close": 113.81
+          "close": 114.06
         },
         {
           "date": "2026-05-29",
-          "close": 114.46
+          "close": 114.42
         }
       ]
     }
@@ -4461,7 +4493,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0,
-    "changePercent": 0.06,
+    "changePercent": -0.01,
     "previousClose": 0.72,
     "asOf": "2026-05-29",
     "history": [
@@ -4552,6 +4584,10 @@
       {
         "date": "2026-05-27",
         "close": 0.71
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.72
       },
       {
         "date": "2026-05-29",
@@ -4819,6 +4855,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-05-28",
+        "close": 0.72
+      },
+      {
         "date": "2026-05-29",
         "close": 0.72
       }
@@ -4930,7 +4970,7 @@
       },
       {
         "date": "2026-05-24",
-        "close": 0.71
+        "close": 0.72
       },
       {
         "date": "2026-05-29",
@@ -5564,7 +5604,7 @@
       },
       {
         "date": "2026-05-24",
-        "close": 0.71
+        "close": 0.72
       },
       {
         "date": "2026-05-29",
@@ -5865,9 +5905,9 @@
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.18,
-      "change": -26.85,
-      "changePercent": -22.75,
+      "value": 91.68,
+      "change": -26.35,
+      "changePercent": -22.32,
       "previousClose": 118.03,
       "asOf": "2026-05-29",
       "history": [
@@ -5957,16 +5997,16 @@
         },
         {
           "date": "2026-05-29",
-          "close": 91.18
+          "close": 91.68
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.34,
-      "change": 0.69,
-      "changePercent": 26.03,
+      "value": 3.28,
+      "change": 0.63,
+      "changePercent": 23.91,
       "previousClose": 2.65,
       "asOf": "2026-05-29",
       "history": [
@@ -6056,7 +6096,7 @@
         },
         {
           "date": "2026-05-29",
-          "close": 3.34
+          "close": 3.28
         }
       ],
       "name": "Natural Gas",
@@ -6267,7 +6307,7 @@
     },
     {
       "name": "Materials",
-      "changePercent": 2.57,
+      "changePercent": 1.67,
       "stocks": [
         {
           "name": "BHP",
@@ -6276,13 +6316,13 @@
         },
         {
           "name": "RIO",
-          "price": 185.63,
-          "changePercent": 1.18
+          "price": 0,
+          "changePercent": 0
         },
         {
           "name": "FMG",
-          "price": 22.31,
-          "changePercent": 2.43
+          "price": 0,
+          "changePercent": 0
         },
         {
           "name": "MIN",
@@ -6293,7 +6333,7 @@
     },
     {
       "name": "Health Care",
-      "changePercent": 1.29,
+      "changePercent": 0.5,
       "stocks": [
         {
           "name": "CSL",
@@ -6302,8 +6342,8 @@
         },
         {
           "name": "COH",
-          "price": 100.5,
-          "changePercent": 3.18
+          "price": 0,
+          "changePercent": 0
         },
         {
           "name": "RMD",
@@ -6319,7 +6359,7 @@
     },
     {
       "name": "Consumer Discretionary",
-      "changePercent": 1.52,
+      "changePercent": 1.23,
       "stocks": [
         {
           "name": "WES",
@@ -6333,8 +6373,8 @@
         },
         {
           "name": "JBH",
-          "price": 74.49,
-          "changePercent": 1.17
+          "price": 0,
+          "changePercent": 0
         },
         {
           "name": "ALL",
@@ -7365,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4593.5,
-      "change": 48.3,
-      "changePercent": 1.06
+      "price": 4573.4,
+      "change": 28.2,
+      "changePercent": 0.62
     },
     {
       "name": "Silver",
-      "price": 75.81,
-      "change": 4.24,
-      "changePercent": 5.93
+      "price": 75.8,
+      "change": 4.23,
+      "changePercent": 5.9
     },
     {
       "name": "Copper",
-      "price": 6.4,
-      "change": 0.52,
-      "changePercent": 8.81
+      "price": 6.39,
+      "change": 0.51,
+      "changePercent": 8.66
     }
   ],
   "housing": {
@@ -7771,6 +7811,20 @@
       "source": "News.com.au"
     },
     {
+      "title": "Bullying, racism, homophobia met with silence in grassroots footy",
+      "link": "https://www.abc.net.au/news/2026-05-30/auskick-parents-say-they-have-been-failed-by-afl/106700366",
+      "snippet": "",
+      "pubDate": "Fri, 29 May 2026 19:59:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "We’re working harder than ever. So why don’t the metrics show it?",
+      "link": "https://www.smh.com.au/business/workplace/we-re-working-harder-than-ever-so-why-don-t-the-metrics-show-it-20260528-p601ol.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "It feels like we’re all working hard for the salary we take home, so why do we keep hearing about a productivity slump?",
+      "pubDate": "Sat, 30 May 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Trump’s misfire: The electric car takeover is now unstoppable",
       "link": "https://www.smh.com.au/business/the-economy/trump-s-misfire-the-electric-car-takeover-is-now-unstoppable-20260528-p601ej.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The old car world order is facing demolition and the US president has helped accelerate the process.",
@@ -7782,20 +7836,6 @@
       "link": "https://www.smh.com.au/business/consumer-affairs/consumer-protections-would-undermine-jetstar-s-existence-ceo-20260529-p6020h.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Representatives from the airlines suggested the new legislation could worsen consumer outcomes on flights and drive up prices.",
       "pubDate": "Fri, 29 May 2026 16:00:13 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Trump’s worst nightmare is a threat to markets",
-      "link": "https://www.smh.com.au/business/markets/flashing-red-trump-could-crack-the-sharemarkets-20260528-p601er.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Judging by Wall Street’s performance, you’d expect the US and wider world economies to be booming. But beneath the surface, all is not as it should be.",
-      "pubDate": "Fri, 29 May 2026 11:55:08 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "There’s a sneaky way taxes are creeping up. But that might be OK",
-      "link": "https://www.smh.com.au/business/the-economy/there-s-a-sneaky-way-taxes-are-creeping-up-but-that-might-be-ok-20260528-p601mx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Opposition Leader Angus Taylor might be onto something when it comes to bracket creep. But it’s not as simple as we might think.",
-      "pubDate": "Fri, 29 May 2026 06:00:00 +1000",
       "source": "SMH"
     }
   ]
