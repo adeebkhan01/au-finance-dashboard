@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-01T12:16:26.008Z",
+  "fetchedAt": "2026-06-01T18:23:29.358Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
-      "changePercent": -0.37,
+      "changePercent": -0.47,
       "previousClose": 0.72,
       "asOf": "2026-06-01",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.28,
+      "changePercent": 0.29,
       "previousClose": 0.61,
       "asOf": "2026-06-01",
       "history": [
@@ -2223,8 +2223,8 @@
     },
     "audcny": {
       "value": 4.85,
-      "change": -0.06,
-      "changePercent": -1.28,
+      "change": -0.07,
+      "changePercent": -1.42,
       "previousClose": 4.92,
       "asOf": "2026-06-01",
       "history": [
@@ -3332,9 +3332,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.37,
+      "value": 114.36,
       "change": 1.34,
-      "changePercent": 1.19,
+      "changePercent": 1.18,
       "previousClose": 113.03,
       "asOf": "2026-06-01",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-06-01",
-          "close": 114.37
+          "close": 114.36
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-06-01",
-          "close": 114.38
+          "close": 114.36
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-06-01",
-          "close": 114.38
+          "close": 114.36
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-06-01",
-          "close": 114.38
+          "close": 114.36
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0,
-    "changePercent": -0.37,
+    "changePercent": -0.47,
     "previousClose": 0.72,
     "asOf": "2026-06-01",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.3,
-      "change": -11.64,
-      "changePercent": -11.42,
+      "value": 91.79,
+      "change": -10.15,
+      "changePercent": -9.96,
       "previousClose": 101.94,
       "asOf": "2026-06-01",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-06-01",
-          "close": 90.3
+          "close": 91.79
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.61,
-      "change": -14.56,
-      "changePercent": -13.46,
+      "value": 94.8,
+      "change": -13.37,
+      "changePercent": -12.36,
       "previousClose": 108.17,
       "asOf": "2026-06-01",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-06-01",
-          "close": 93.61
+          "close": 94.8
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.31,
-      "change": 0.53,
-      "changePercent": 18.96,
+      "value": 3.17,
+      "change": 0.39,
+      "changePercent": 14.06,
       "previousClose": 2.78,
       "asOf": "2026-06-01",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-06-01",
-          "close": 3.31
+          "close": 3.17
         }
       ],
       "name": "Natural Gas",
@@ -6199,10 +6199,6 @@
       {
         "date": "2026-05-29",
         "close": 8731.7
-      },
-      {
-        "date": "2026-06-01",
-        "close": 8729.4
       }
     ]
   },
@@ -7301,21 +7297,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4538.6,
-      "change": -91.3,
-      "changePercent": -1.97
+      "price": 4518.2,
+      "change": -111.7,
+      "changePercent": -2.41
     },
     {
       "name": "Silver",
-      "price": 76.01,
-      "change": 0.06,
-      "changePercent": 0.08
+      "price": 75.47,
+      "change": -0.48,
+      "changePercent": -0.63
     },
     {
       "name": "Copper",
-      "price": 6.57,
+      "price": 6.58,
       "change": 0.64,
-      "changePercent": 10.81
+      "changePercent": 10.86
     }
   ],
   "housing": {
@@ -7672,25 +7668,11 @@
       "source": "News.com.au"
     },
     {
-      "title": "‘Chronic liar’: Libs’ brutal tax jab",
-      "link": "https://www.news.com.au/national/politics/labors-broken-tax-promises-the-mother-of-all-lies-taylor/news-story/3f0919daf2bcdd74ee72723d5f20f2d7?from=rss-basic",
-      "snippet": "Liberal Leader Angus Taylor has used his first address to party stalwarts since the federal budget to take a swipe at the Prime Minister’s controversial tax reforms.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
       "title": "Raiz locks in fintech heavyweight as new boss",
       "link": "https://www.smh.com.au/business/companies/raiz-locks-in-fintech-heavyweight-as-new-boss-20260601-p602s8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Raiz Invest has appointed digital platform veteran Craig Keary as chief executive officer to drive its next major operational growth and investment phase.",
       "pubDate": "Mon, 01 Jun 2026 12:58:48 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "City defies tax doom, house prices surge",
-      "link": "https://www.news.com.au/finance/economy/australian-economy/western-australia-property-prices-continue-to-rise-despite-east-coast-slowdown/news-story/5f302e50d0254ca6a4230d6649ddfa59?from=rss-basic",
-      "snippet": "As compounding stressors weigh on markets across Australia, one capital city is blasting ahead with house prices continuing to surge.",
-      "pubDate": "",
-      "source": "News.com.au"
     },
     {
       "title": "Treasurer’s call on wage rise for millions",
@@ -7703,13 +7685,6 @@
       "title": "‘Consider leaving’: Advice to young Aussies",
       "link": "https://www.news.com.au/finance/economy/australian-economy/consider-leaving-business-directors-sad-advice-to-young-aussies/news-story/4a8e970c0f0adbf9c29328fd11199630?from=rss-basic",
       "snippet": "A prominent entrepreneur who moved from Sydney to the Bahamas has warned young Aussies should ‘consider leaving’ if the budget’s tax changes are passed.",
-      "pubDate": "",
-      "source": "News.com.au"
-    },
-    {
-      "title": "Labor’s key concession amid CGT furore",
-      "link": "https://www.news.com.au/finance/money/tax/cgt-carveout-consultation-should-wrap-up-speedily-clare-oneil-concedes/news-story/0a693113e9bed408ddb577cc665eebf4?from=rss-basic",
-      "snippet": "Housing Minister Clare O’Neil has been grilled on a key detail on small business carve-outs amid the backlash to the government’s CGT reform.",
       "pubDate": "",
       "source": "News.com.au"
     },
@@ -7733,6 +7708,27 @@
       "snippet": "The impact of the global energy shock sparked by the war is starting to hit economies. And there is more pain coming.",
       "pubDate": "Mon, 01 Jun 2026 12:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "‘Crisis’: Report exposes ugly truth about work",
+      "link": "https://www.news.com.au/finance/work/at-work/workers-facing-systemic-violations-of-rights-worldwide-report/news-story/43d7e44fb39ced130dc2740f1292184e?from=rss-basic",
+      "snippet": "A grim new report into millions of jobs worldwide has found even “stable” countries are sliding backwards at an alarming rate.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "If you own a home here, congratulations",
+      "link": "https://www.news.com.au/finance/economy/australian-economy/western-australia-property-prices-continue-to-rise-despite-east-coast-slowdown/news-story/5f302e50d0254ca6a4230d6649ddfa59?from=rss-basic",
+      "snippet": "As compounding stressors weigh on markets across Australia, one capital city is blasting ahead with house prices continuing to surge.",
+      "pubDate": "",
+      "source": "News.com.au"
+    },
+    {
+      "title": "Futuristic $8.8 trillion megacity in ruins",
+      "link": "https://www.news.com.au/finance/saudi-arabian-crown-princes-desert-city-dream-in-tatters-as-neom-megaproject-is-halted/news-story/eac9f723feb1cfe2840df646e2ad68d1?from=rss-basic",
+      "snippet": "It was supposed to the most groundbreaking structure the world had ever seen. But now, this multi-trillion-dollar “smart city” is collapsing.",
+      "pubDate": "",
+      "source": "News.com.au"
     }
   ]
 }
