@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-02T17:00:39.061Z",
+  "fetchedAt": "2026-06-02T21:31:18.769Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0,
-      "changePercent": -0.26,
+      "changePercent": -0.25,
       "previousClose": 0.72,
       "asOf": "2026-06-02",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-05-31",
+          "close": 0.72
+        },
+        {
+          "date": "2026-06-01",
           "close": 0.72
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-05-31",
+          "close": 0.72
+        },
+        {
+          "date": "2026-06-01",
           "close": 0.72
         },
         {
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.54,
+      "changePercent": 0.52,
       "previousClose": 0.61,
       "asOf": "2026-06-02",
       "history": [
@@ -1212,6 +1220,10 @@
         },
         {
           "date": "2026-05-31",
+          "close": 0.62
+        },
+        {
+          "date": "2026-06-01",
           "close": 0.62
         },
         {
@@ -1485,6 +1497,10 @@
         },
         {
           "date": "2026-05-31",
+          "close": 0.62
+        },
+        {
+          "date": "2026-06-01",
           "close": 0.62
         },
         {
@@ -2248,7 +2264,7 @@
     "audcny": {
       "value": 4.85,
       "change": -0.06,
-      "changePercent": -1.28,
+      "changePercent": -1.25,
       "previousClose": 4.92,
       "asOf": "2026-06-02",
       "history": [
@@ -2335,6 +2351,10 @@
         {
           "date": "2026-05-31",
           "close": 4.86
+        },
+        {
+          "date": "2026-06-01",
+          "close": 4.85
         },
         {
           "date": "2026-06-02",
@@ -2610,6 +2630,10 @@
           "close": 4.86
         },
         {
+          "date": "2026-06-01",
+          "close": 4.85
+        },
+        {
           "date": "2026-06-02",
           "close": 4.85
         }
@@ -2721,7 +2745,7 @@
         },
         {
           "date": "2026-05-31",
-          "close": 4.86
+          "close": 4.85
         },
         {
           "date": "2026-06-02",
@@ -3359,7 +3383,7 @@
         },
         {
           "date": "2026-05-31",
-          "close": 4.86
+          "close": 4.85
         },
         {
           "date": "2026-06-02",
@@ -3368,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.8,
-      "change": 1.77,
-      "changePercent": 1.56,
+      "value": 114.74,
+      "change": 1.71,
+      "changePercent": 1.51,
       "previousClose": 113.03,
       "asOf": "2026-06-02",
       "history": [
@@ -3459,8 +3483,12 @@
           "close": 114.42
         },
         {
+          "date": "2026-06-01",
+          "close": 114.37
+        },
+        {
           "date": "2026-06-02",
-          "close": 114.8
+          "close": 114.74
         }
       ],
       "label": "AUD/JPY",
@@ -3732,8 +3760,12 @@
           "close": 114.42
         },
         {
+          "date": "2026-06-01",
+          "close": 114.37
+        },
+        {
           "date": "2026-06-02",
-          "close": 114.79
+          "close": 114.74
         }
       ],
       "h6m": [
@@ -3843,11 +3875,11 @@
         },
         {
           "date": "2026-05-31",
-          "close": 114.42
+          "close": 114.37
         },
         {
           "date": "2026-06-02",
-          "close": 114.79
+          "close": 114.77
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-05-31",
-          "close": 114.42
+          "close": 114.37
         },
         {
           "date": "2026-06-02",
-          "close": 114.79
+          "close": 114.74
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0,
-    "changePercent": -0.26,
+    "changePercent": -0.25,
     "previousClose": 0.72,
     "asOf": "2026-06-02",
     "history": [
@@ -4579,6 +4611,10 @@
       },
       {
         "date": "2026-05-31",
+        "close": 0.72
+      },
+      {
+        "date": "2026-06-01",
         "close": 0.72
       },
       {
@@ -4852,6 +4888,10 @@
       },
       {
         "date": "2026-05-31",
+        "close": 0.72
+      },
+      {
+        "date": "2026-06-01",
         "close": 0.72
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 93.2,
-      "change": -8.74,
-      "changePercent": -8.57,
+      "value": 93.39,
+      "change": -8.55,
+      "changePercent": -8.39,
       "previousClose": 101.94,
       "asOf": "2026-06-02",
       "history": [
@@ -5894,16 +5934,16 @@
         },
         {
           "date": "2026-06-02",
-          "close": 93.2
+          "close": 93.39
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.8,
-      "change": -12.37,
-      "changePercent": -11.44,
+      "value": 95.78,
+      "change": -12.39,
+      "changePercent": -11.45,
       "previousClose": 108.17,
       "asOf": "2026-06-02",
       "history": [
@@ -5989,16 +6029,16 @@
         },
         {
           "date": "2026-06-02",
-          "close": 95.8
+          "close": 95.78
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.15,
-      "change": 0.37,
-      "changePercent": 13.31,
+      "value": 3.17,
+      "change": 0.39,
+      "changePercent": 14.03,
       "previousClose": 2.78,
       "asOf": "2026-06-02",
       "history": [
@@ -6084,7 +6124,7 @@
         },
         {
           "date": "2026-06-02",
-          "close": 3.15
+          "close": 3.17
         }
       ],
       "name": "Natural Gas",
@@ -7357,21 +7397,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4520.7,
-      "change": -109.2,
-      "changePercent": -2.36
+      "price": 4519.2,
+      "change": -110.7,
+      "changePercent": -2.39
     },
     {
       "name": "Silver",
-      "price": 75.88,
-      "change": -0.07,
-      "changePercent": -0.09
+      "price": 75.44,
+      "change": -0.51,
+      "changePercent": -0.67
     },
     {
       "name": "Copper",
       "price": 6.68,
       "change": 0.75,
-      "changePercent": 12.63
+      "changePercent": 12.57
     }
   ],
   "housing": {
@@ -7714,6 +7754,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to rise, Wall Street gets AI boost",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-gets-ai-boost-20260603-p603c1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is ticking toward more records as winners of the artificial-intelligence boom keep driving higher.",
+      "pubDate": "Wed, 03 Jun 2026 06:46:24 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Zenith targets major growth across six-kilometre WA gold belt",
       "link": "https://www.smh.com.au/business/companies/zenith-targets-major-growth-across-six-kilometre-wa-gold-belt-20260602-p6039c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Zenith Minerals has confirmed gold lode continuity beyond current resource limits at its newly consolidated six-kilometre-long Dulcie project in Western Australia.",
@@ -7735,6 +7782,13 @@
       "source": "SMH"
     },
     {
+      "title": "Stars and Renegades merger opens the door for Bushrangers in BBL",
+      "link": "https://www.abc.net.au/news/2026-06-02/cricket-merger/106752052",
+      "snippet": "",
+      "pubDate": "Tue, 02 Jun 2026 13:42:26 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Dalaroo unveils monster 4.3km gold anomaly in West Africa",
       "link": "https://www.smh.com.au/business/companies/dalaroo-unveils-monster-4-3km-gold-anomaly-in-west-africa-20260602-p6039u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Dalaroo has revealed a huge 4.3km gold anomaly in West Africa, with a peak of 2188ppb gold, fast-tracking auger drilling ahead of maiden RC drilling.",
@@ -7742,17 +7796,24 @@
       "source": "SMH"
     },
     {
-      "title": "Employers warn of price pressures as one in five workers get 4.75% pay rise",
-      "link": "https://www.smh.com.au/business/workplace/fair-work-commission-lifts-minimum-wage-by-4-75-per-cent-20260602-p602zn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Millions of Australians have been handed a pay rise, and the lowest-paid workers are getting the biggest bump in a move employer groups warn will fuel inflation.",
-      "pubDate": "Tue, 02 Jun 2026 12:12:28 +1000",
-      "source": "SMH"
+      "title": "Green top-scores and Ellis stands tall as Australia levels ODI series",
+      "link": "https://www.abc.net.au/news/2026-06-03/australia-levels-odi-series-with-pakistan/106752472",
+      "snippet": "",
+      "pubDate": "Tue, 02 Jun 2026 21:20:35 +0000",
+      "source": "ABC"
     },
     {
-      "title": "SpaceX, Anthropic, OpenAI: What if one of the mega AI IPOs fizzles?",
-      "link": "https://www.smh.com.au/business/markets/spacex-anthropic-openai-what-if-one-of-the-mega-ai-ipos-fizzles-20260602-p6030n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The companies driving artificial intelligence need access to ever-increasing amounts of capital at ever-increasing valuations. That makes them vulnerable.",
-      "pubDate": "Tue, 02 Jun 2026 12:09:12 +1000",
+      "title": "Emotional Ukrainian star not accepting silence from Russian players",
+      "link": "https://www.abc.net.au/news/2026-06-03/marta-kostyuk-french-open-semifinal-mirra-andreeva/106752392",
+      "snippet": "",
+      "pubDate": "Tue, 02 Jun 2026 20:48:05 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Stress fractures in emergency departments",
+      "link": "https://www.smh.com.au/business/workplace/stress-fractures-in-emergency-departments-20260602-p6034g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A new report on the well-being of A&amp;E physicians raises concerns about the future of emergency departments.",
+      "pubDate": "Wed, 03 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7767,27 +7828,6 @@
       "link": "https://www.abc.net.au/news/2026-06-02/nrl-kieran-foran-sea-eagles-head-coach-chiefs-connor-watson/106750464",
       "snippet": "",
       "pubDate": "Tue, 02 Jun 2026 04:47:29 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "French Open boss backs line judges after fan spots missed call",
-      "link": "https://www.abc.net.au/news/2026-06-02/amelie-mauresmo-backs-line-judges-at-french-open/106749268",
-      "snippet": "",
-      "pubDate": "Tue, 02 Jun 2026 02:09:05 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Meg Lanning gets AI slop treatment in team promo",
-      "link": "https://www.abc.net.au/news/2026-06-02/manchester-super-giants-ai-promo-meg-lanning/106748338",
-      "snippet": "",
-      "pubDate": "Mon, 01 Jun 2026 23:22:03 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "French Open Sabalenka's for the taking as draw opens up for number one",
-      "link": "https://www.abc.net.au/news/2026-06-02/aryna-sabalenka-beats-naomi-osaka-upsets-continue-french-open/106748226",
-      "snippet": "",
-      "pubDate": "Mon, 01 Jun 2026 21:47:00 +0000",
       "source": "ABC"
     }
   ]
