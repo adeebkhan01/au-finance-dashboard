@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-03T17:26:28.338Z",
+  "fetchedAt": "2026-06-03T21:34:49.423Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": -0.01,
-      "changePercent": -0.93,
+      "changePercent": -0.96,
       "previousClose": 0.72,
       "asOf": "2026-06-03",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-06-01",
+          "close": 0.72
+        },
+        {
+          "date": "2026-06-02",
           "close": 0.72
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-06-01",
+          "close": 0.72
+        },
+        {
+          "date": "2026-06-02",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.15,
+      "changePercent": 0.11,
       "previousClose": 0.61,
       "asOf": "2026-06-03",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-06-01",
+          "close": 0.62
+        },
+        {
+          "date": "2026-06-02",
           "close": 0.62
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-06-01",
+          "close": 0.62
+        },
+        {
+          "date": "2026-06-02",
           "close": 0.62
         },
         {
@@ -2256,7 +2272,7 @@
     "audcny": {
       "value": 4.83,
       "change": -0.09,
-      "changePercent": -1.78,
+      "changePercent": -1.85,
       "previousClose": 4.92,
       "asOf": "2026-06-03",
       "history": [
@@ -2346,6 +2362,10 @@
         },
         {
           "date": "2026-06-01",
+          "close": 4.85
+        },
+        {
+          "date": "2026-06-02",
           "close": 4.85
         },
         {
@@ -2619,6 +2639,10 @@
         },
         {
           "date": "2026-06-01",
+          "close": 4.85
+        },
+        {
+          "date": "2026-06-02",
           "close": 4.85
         },
         {
@@ -3382,7 +3406,7 @@
     "audjpy": {
       "value": 114.12,
       "change": 1.09,
-      "changePercent": 0.96,
+      "changePercent": 0.97,
       "previousClose": 113.03,
       "asOf": "2026-06-03",
       "history": [
@@ -3473,6 +3497,10 @@
         {
           "date": "2026-06-01",
           "close": 114.37
+        },
+        {
+          "date": "2026-06-02",
+          "close": 114.76
         },
         {
           "date": "2026-06-03",
@@ -3748,6 +3776,10 @@
           "close": 114.37
         },
         {
+          "date": "2026-06-02",
+          "close": 114.76
+        },
+        {
           "date": "2026-06-03",
           "close": 114.12
         }
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-05-31",
-          "close": 114.37
+          "close": 114.76
         },
         {
           "date": "2026-06-03",
-          "close": 114.11
+          "close": 114.12
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-05-31",
-          "close": 114.37
+          "close": 114.76
         },
         {
           "date": "2026-06-03",
-          "close": 114.11
+          "close": 114.12
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.71,
     "change": -0.01,
-    "changePercent": -0.93,
+    "changePercent": -0.96,
     "previousClose": 0.72,
     "asOf": "2026-06-03",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-06-01",
+        "close": 0.72
+      },
+      {
+        "date": "2026-06-02",
         "close": 0.72
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-06-01",
+        "close": 0.72
+      },
+      {
+        "date": "2026-06-02",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.22,
-      "change": -10.2,
-      "changePercent": -9.58,
+      "value": 96.2,
+      "change": -10.22,
+      "changePercent": -9.6,
       "previousClose": 106.42,
       "asOf": "2026-06-03",
       "history": [
@@ -5918,16 +5958,16 @@
         },
         {
           "date": "2026-06-03",
-          "close": 96.22
+          "close": 96.2
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 98.01,
-      "change": -16.43,
-      "changePercent": -14.36,
+      "value": 97.86,
+      "change": -16.58,
+      "changePercent": -14.49,
       "previousClose": 114.44,
       "asOf": "2026-06-03",
       "history": [
@@ -6017,16 +6057,16 @@
         },
         {
           "date": "2026-06-03",
-          "close": 98.01
+          "close": 97.86
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.24,
-      "change": 0.37,
-      "changePercent": 12.87,
+      "value": 3.26,
+      "change": 0.39,
+      "changePercent": 13.53,
       "previousClose": 2.87,
       "asOf": "2026-06-03",
       "history": [
@@ -6116,7 +6156,7 @@
         },
         {
           "date": "2026-06-03",
-          "close": 3.24
+          "close": 3.26
         }
       ],
       "name": "Natural Gas",
@@ -7425,21 +7465,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4471.3,
-      "change": -48.2,
-      "changePercent": -1.07
+      "price": 4462.7,
+      "change": -56.8,
+      "changePercent": -1.26
     },
     {
       "name": "Silver",
-      "price": 73.76,
-      "change": 0.69,
-      "changePercent": 0.94
+      "price": 72.98,
+      "change": -0.09,
+      "changePercent": -0.13
     },
     {
       "name": "Copper",
-      "price": 6.5,
-      "change": 0.71,
-      "changePercent": 12.21
+      "price": 6.48,
+      "change": 0.69,
+      "changePercent": 11.89
     }
   ],
   "housing": {
@@ -7782,17 +7822,31 @@
       "source": "SMH"
     },
     {
-      "title": "Pacgold to spin out QLD gold assets into Emerald Resources-backed IPO",
-      "link": "https://www.smh.com.au/business/companies/pacgold-to-spin-out-qld-gold-assets-into-emerald-resources-backed-ipo-20260603-p603le.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Pacgold Ltd will demerge its Qld gold assets into the IPO-bound vehicle Manda Resources, creating a new 1.33Moz gold exploration play, backed by the $4B giant Emerald Resources.",
-      "pubDate": "Wed, 03 Jun 2026 15:04:00 +1000",
+      "title": "ASX set to slip as oil prices drive markets lower; Musk eyes trillionaire status after SpaceX sets IPO price",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slip-as-oil-prices-drive-markets-lower-spacex-price-rumours-20260604-p603qg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Oil prices are rising following the latest flare-up in fighting to threaten the US-Iran ceasefire, sending Wall Street lower.",
+      "pubDate": "Thu, 04 Jun 2026 07:01:55 +1000",
       "source": "SMH"
     },
     {
-      "title": "Making sense of the latest BBL move that isn't 'a merger of the teams'",
-      "link": "https://www.abc.net.au/news/2026-06-03/cricket-victoria-bbl-sale-melbourne-stars-renegades-merger/106752872",
+      "title": "The NBA's new face is here and he is unlike anything we've ever seen",
+      "link": "https://www.abc.net.au/news/2026-06-04/nba-finals-analysis-preview-wembanyama-knicks-spurs/106745572",
       "snippet": "",
-      "pubDate": "Wed, 03 Jun 2026 04:07:18 +0000",
+      "pubDate": "Wed, 03 Jun 2026 20:05:17 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Australian drivers flock to staff-free servos as fuel prices bite",
+      "link": "https://www.smh.com.au/business/companies/drivers-flock-to-staff-free-servos-as-fuel-prices-bite-20260603-p603k6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A major fuel supplier will add more than 100 self-serve sites to its discount chain amid a rush of demand from motorists seeking relief from record prices.",
+      "pubDate": "Thu, 04 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Sportsbet owner expands from gambling into less-regulated 'rewards club'",
+      "link": "https://www.abc.net.au/news/2026-06-04/sportsbet-owner-flutter-expands-from-gambling-to-rewards-club/106752820",
+      "snippet": "",
+      "pubDate": "Wed, 03 Jun 2026 18:53:05 +0000",
       "source": "ABC"
     },
     {
@@ -7838,25 +7892,11 @@
       "source": "SMH"
     },
     {
-      "title": "Litchfield boosts NT base metals case with broad drill hits",
-      "link": "https://www.smh.com.au/business/companies/litchfield-boosts-nt-base-metals-case-with-broad-drill-hits-20260603-p603m5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Litchfield Minerals has landed broad base metal drill hits at its Oonagalabi project in the NT, with new assays refining drill targeting and improving understanding of the broader mineral system.",
-      "pubDate": "Wed, 03 Jun 2026 15:41:47 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "'We can scare them': Kiss confident he can stay Reds coach for another week",
       "link": "https://www.abc.net.au/news/2026-06-03/queensland-reds-super-rugby-finals/106753808",
       "snippet": "",
       "pubDate": "Wed, 03 Jun 2026 04:57:20 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Qantas’ Project Sunrise plane completes first test flight over France",
-      "link": "https://www.smh.com.au/business/companies/qantas-project-sunrise-plane-completes-first-test-flight-over-france-20260603-p603im.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The war in the Middle East may bolster the business case for the aircraft, which will be able to travel at least 1000 kilometres further than existing A350s.",
-      "pubDate": "Wed, 03 Jun 2026 14:49:36 +1000",
-      "source": "SMH"
     }
   ]
 }
