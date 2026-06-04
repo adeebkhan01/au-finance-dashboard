@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-04T10:24:23.708Z",
+  "fetchedAt": "2026-06-04T15:57:26.224Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": -0.01,
-      "changePercent": -1.05,
+      "changePercent": -0.96,
       "previousClose": 0.72,
       "asOf": "2026-06-04",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.23,
+      "changePercent": -0.15,
       "previousClose": 0.61,
       "asOf": "2026-06-04",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.83,
+      "value": 4.84,
       "change": -0.09,
-      "changePercent": -1.84,
+      "changePercent": -1.76,
       "previousClose": 4.92,
       "asOf": "2026-06-04",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 4.83
+          "close": 4.84
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 4.83
+          "close": 4.84
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 4.83
+          "close": 4.84
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-06-04",
-          "close": 4.83
+          "close": 4.84
         }
       ]
     },
     "audjpy": {
-      "value": 114.08,
-      "change": 0.99,
-      "changePercent": 0.88,
+      "value": 114.23,
+      "change": 1.14,
+      "changePercent": 1.01,
       "previousClose": 113.09,
       "asOf": "2026-06-04",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 114.08
+          "close": 114.23
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 114.08
+          "close": 114.23
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 114.07
+          "close": 114.22
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 114.07
+          "close": 114.23
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.71,
     "change": -0.01,
-    "changePercent": -1.05,
+    "changePercent": -0.96,
     "previousClose": 0.72,
     "asOf": "2026-06-04",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 94.93,
-      "change": -11.49,
-      "changePercent": -10.8,
+      "value": 92.84,
+      "change": -13.58,
+      "changePercent": -12.76,
       "previousClose": 106.42,
       "asOf": "2026-06-04",
       "history": [
@@ -5942,16 +5942,16 @@
         },
         {
           "date": "2026-06-04",
-          "close": 94.93
+          "close": 92.84
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.5,
-      "change": -17.94,
-      "changePercent": -15.68,
+      "value": 95.01,
+      "change": -19.43,
+      "changePercent": -16.98,
       "previousClose": 114.44,
       "asOf": "2026-06-04",
       "history": [
@@ -6045,16 +6045,16 @@
         },
         {
           "date": "2026-06-04",
-          "close": 96.5
+          "close": 95.01
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.25,
-      "change": 0.38,
-      "changePercent": 13.43,
+      "value": 3.36,
+      "change": 0.5,
+      "changePercent": 17.27,
       "previousClose": 2.87,
       "asOf": "2026-06-04",
       "history": [
@@ -6148,7 +6148,7 @@
         },
         {
           "date": "2026-06-04",
-          "close": 3.25
+          "close": 3.36
         }
       ],
       "name": "Natural Gas",
@@ -6331,10 +6331,6 @@
       {
         "date": "2026-06-03",
         "close": 8785.7
-      },
-      {
-        "date": "2026-06-04",
-        "close": 8686.1
       }
     ]
   },
@@ -7497,21 +7493,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4498.5,
-      "change": -21,
-      "changePercent": -0.46
+      "price": 4502.3,
+      "change": -17.2,
+      "changePercent": -0.38
     },
     {
       "name": "Silver",
-      "price": 73.74,
-      "change": 0.67,
-      "changePercent": 0.91
+      "price": 74.01,
+      "change": 0.94,
+      "changePercent": 1.28
     },
     {
       "name": "Copper",
-      "price": 6.52,
-      "change": 0.72,
-      "changePercent": 12.47
+      "price": 6.54,
+      "change": 0.74,
+      "changePercent": 12.79
     }
   ],
   "housing": {
@@ -7889,7 +7885,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Foran leads Manly as full-time coach against Souths",
+      "title": "Souths stung by 'sticky spray' ruling as Manly continue Foran resurgence",
       "link": "https://www.abc.net.au/news/2026-06-04/nrl-live-round-14-sea-eagles-vs-rabbitohs-pat-carrigan-surgery/106753136",
       "snippet": "",
       "pubDate": "Thu, 04 Jun 2026 08:12:24 +0000",
