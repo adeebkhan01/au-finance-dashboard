@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-05T10:30:45.810Z",
+  "fetchedAt": "2026-06-05T15:34:18.193Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": 0,
-      "changePercent": -0.32,
+      "change": -0.01,
+      "changePercent": -1.33,
       "previousClose": 0.72,
       "asOf": "2026-06-05",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.05,
+      "changePercent": -0.15,
       "previousClose": 0.61,
       "asOf": "2026-06-05",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.83,
-      "change": -0.07,
-      "changePercent": -1.33,
+      "value": 4.78,
+      "change": -0.11,
+      "changePercent": -2.31,
       "previousClose": 4.9,
       "asOf": "2026-06-05",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 4.83
+          "close": 4.78
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 4.83
+          "close": 4.78
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 4.83
+          "close": 4.78
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-06-05",
-          "close": 4.83
+          "close": 4.78
         }
       ]
     },
     "audjpy": {
-      "value": 114.21,
-      "change": 1.56,
-      "changePercent": 1.39,
+      "value": 113.26,
+      "change": 0.6,
+      "changePercent": 0.54,
       "previousClose": 112.65,
       "asOf": "2026-06-05",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 114.21
+          "close": 113.25
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 114.21
+          "close": 113.25
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 114.21
+          "close": 113.25
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-06-05",
-          "close": 114.21
+          "close": 113.25
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": 0,
-    "changePercent": -0.32,
+    "change": -0.01,
+    "changePercent": -1.33,
     "previousClose": 0.72,
     "asOf": "2026-06-05",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 92.7,
-      "change": -9.57,
-      "changePercent": -9.36,
+      "value": 91.18,
+      "change": -11.09,
+      "changePercent": -10.84,
       "previousClose": 102.27,
       "asOf": "2026-06-05",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-06-05",
-          "close": 92.7
+          "close": 91.18
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 94.88,
-      "change": -14.99,
-      "changePercent": -13.64,
+      "value": 93.8,
+      "change": -16.07,
+      "changePercent": -14.63,
       "previousClose": 109.87,
       "asOf": "2026-06-05",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-06-05",
-          "close": 94.88
+          "close": 93.8
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.33,
-      "change": 0.54,
-      "changePercent": 19.26,
+      "value": 3.25,
+      "change": 0.47,
+      "changePercent": 16.68,
       "previousClose": 2.79,
       "asOf": "2026-06-05",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 3.33
+          "close": 3.25
         }
       ],
       "name": "Natural Gas",
@@ -6311,10 +6311,6 @@
       {
         "date": "2026-06-04",
         "close": 8686.1
-      },
-      {
-        "date": "2026-06-05",
-        "close": 8625.1
       }
     ]
   },
@@ -7477,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4492.8,
-      "change": -63,
-      "changePercent": -1.38
+      "price": 4377.1,
+      "change": -178.7,
+      "changePercent": -3.92
     },
     {
       "name": "Silver",
-      "price": 72.92,
-      "change": -0.19,
-      "changePercent": -0.26
+      "price": 69.01,
+      "change": -4.1,
+      "changePercent": -5.61
     },
     {
       "name": "Copper",
-      "price": 6.44,
-      "change": 0.5,
-      "changePercent": 8.35
+      "price": 6.3,
+      "change": 0.36,
+      "changePercent": 6.04
     }
   ],
   "housing": {
@@ -7869,17 +7865,17 @@
       "source": "ABC"
     },
     {
+      "title": "Bulldogs erase 29-point deficit to claim spiteful thriller against Hawks",
+      "link": "https://www.abc.net.au/news/2026-06-05/afl-round-13-live-blog-hawthorn-hawks-western-bulldogs/106754292",
+      "snippet": "",
+      "pubDate": "Fri, 05 Jun 2026 08:29:10 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Moloney finds calm on long road to Japan title shot",
       "link": "https://www.abc.net.au/news/2026-06-05/andrew-moloney-vs-willibaldo-garcia-ibf-super-flyweight-title/106766154",
       "snippet": "",
       "pubDate": "Fri, 05 Jun 2026 07:56:55 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Live: Red-hot Roosters flyer crosses on return after Storm's thrilling win",
-      "link": "https://www.abc.net.au/news/2026-06-05/nrl-live-updates-storm-knights-raiders-roosters-blog/106766022",
-      "snippet": "",
-      "pubDate": "Fri, 05 Jun 2026 07:41:44 +0000",
       "source": "ABC"
     },
     {
