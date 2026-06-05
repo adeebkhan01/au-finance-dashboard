@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-05T15:34:18.193Z",
+  "fetchedAt": "2026-06-05T20:24:27.417Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
+      "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.33,
+      "changePercent": -1.73,
       "previousClose": 0.72,
       "asOf": "2026-06-05",
       "history": [
@@ -101,8 +101,12 @@
           "close": 0.71
         },
         {
-          "date": "2026-06-05",
+          "date": "2026-06-04",
           "close": 0.71
+        },
+        {
+          "date": "2026-06-05",
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
@@ -374,8 +378,12 @@
           "close": 0.71
         },
         {
-          "date": "2026-06-05",
+          "date": "2026-06-04",
           "close": 0.71
+        },
+        {
+          "date": "2026-06-05",
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -489,7 +497,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "h3y": [
@@ -1123,14 +1131,14 @@
         },
         {
           "date": "2026-06-05",
-          "close": 0.71
+          "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.15,
+      "changePercent": -0.34,
       "previousClose": 0.61,
       "asOf": "2026-06-05",
       "history": [
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-06-03",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-04",
           "close": 0.61
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-06-03",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-04",
           "close": 0.61
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.78,
-      "change": -0.11,
-      "changePercent": -2.31,
+      "value": 4.76,
+      "change": -0.13,
+      "changePercent": -2.72,
       "previousClose": 4.9,
       "asOf": "2026-06-05",
       "history": [
@@ -2353,8 +2369,12 @@
           "close": 4.83
         },
         {
+          "date": "2026-06-04",
+          "close": 4.83
+        },
+        {
           "date": "2026-06-05",
-          "close": 4.78
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.83
         },
         {
+          "date": "2026-06-04",
+          "close": 4.83
+        },
+        {
           "date": "2026-06-05",
-          "close": 4.78
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2741,7 +2765,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 4.78
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3375,14 +3399,14 @@
         },
         {
           "date": "2026-06-05",
-          "close": 4.78
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 113.26,
-      "change": 0.6,
-      "changePercent": 0.54,
+      "value": 112.79,
+      "change": 0.14,
+      "changePercent": 0.12,
       "previousClose": 112.65,
       "asOf": "2026-06-05",
       "history": [
@@ -3479,8 +3503,12 @@
           "close": 114.09
         },
         {
+          "date": "2026-06-04",
+          "close": 114.06
+        },
+        {
           "date": "2026-06-05",
-          "close": 113.25
+          "close": 112.79
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 114.09
         },
         {
+          "date": "2026-06-04",
+          "close": 114.06
+        },
+        {
           "date": "2026-06-05",
-          "close": 113.25
+          "close": 112.78
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-05-31",
-          "close": 114.09
+          "close": 114.06
         },
         {
           "date": "2026-06-05",
-          "close": 113.25
+          "close": 112.79
         }
       ],
       "h3y": [
@@ -4497,19 +4529,19 @@
         },
         {
           "date": "2026-05-31",
-          "close": 114.09
+          "close": 114.06
         },
         {
           "date": "2026-06-05",
-          "close": 113.25
+          "close": 112.79
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
+    "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.33,
+    "changePercent": -1.73,
     "previousClose": 0.72,
     "asOf": "2026-06-05",
     "history": [
@@ -4606,8 +4638,12 @@
         "close": 0.71
       },
       {
-        "date": "2026-06-05",
+        "date": "2026-06-04",
         "close": 0.71
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
@@ -4879,8 +4915,12 @@
         "close": 0.71
       },
       {
-        "date": "2026-06-05",
+        "date": "2026-06-04",
         "close": 0.71
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4994,7 +5034,7 @@
       },
       {
         "date": "2026-06-05",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "h3y": [
@@ -5628,7 +5668,7 @@
       },
       {
         "date": "2026-06-05",
-        "close": 0.71
+        "close": 0.7
       }
     ]
   },
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.18,
-      "change": -11.09,
-      "changePercent": -10.84,
+      "value": 90.33,
+      "change": -11.94,
+      "changePercent": -11.67,
       "previousClose": 102.27,
       "asOf": "2026-06-05",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-06-05",
-          "close": 91.18
+          "close": 90.33
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.8,
-      "change": -16.07,
-      "changePercent": -14.63,
+      "value": 93.08,
+      "change": -16.79,
+      "changePercent": -15.28,
       "previousClose": 109.87,
       "asOf": "2026-06-05",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-06-05",
-          "close": 93.8
+          "close": 93.08
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.25,
-      "change": 0.47,
-      "changePercent": 16.68,
+      "value": 3.21,
+      "change": 0.42,
+      "changePercent": 15.21,
       "previousClose": 2.79,
       "asOf": "2026-06-05",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-06-05",
-          "close": 3.25
+          "close": 3.21
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4377.1,
-      "change": -178.7,
-      "changePercent": -3.92
+      "price": 4340.8,
+      "change": -215,
+      "changePercent": -4.72
     },
     {
       "name": "Silver",
-      "price": 69.01,
-      "change": -4.1,
-      "changePercent": -5.61
+      "price": 67.79,
+      "change": -5.32,
+      "changePercent": -7.28
     },
     {
       "name": "Copper",
-      "price": 6.3,
-      "change": 0.36,
-      "changePercent": 6.04
+      "price": 6.25,
+      "change": 0.31,
+      "changePercent": 5.18
     }
   ],
   "housing": {
@@ -7823,13 +7863,6 @@
   ],
   "news": [
     {
-      "title": "ASX drops as metals prices weigh on mining giants",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-as-oil-prices-slide-ai-stocks-slump-20260605-p60457.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The sharemarket lost ground on Friday as softening commodity prices and stalled Persian Gulf peace talks dented investor sentiment.",
-      "pubDate": "Fri, 05 Jun 2026 11:09:24 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "ASX Runners of the Week: DXN, Energy World, Sheffield &amp; KTEK",
       "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-dxn-energy-world-sheffield-and-ktek-20260605-p604dd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Bulls N’ Bears ASX Runner of the Week is… DXN Limited, which exploded after signing an $8.8 million deal with a US Neo-Cloud operator to manufacture high-performance modular data centres.",
@@ -7851,6 +7884,13 @@
       "source": "SMH"
     },
     {
+      "title": "Legal threats, backend hacks: How real estate agents can block honest reviews",
+      "link": "https://www.smh.com.au/business/consumer-affairs/legal-threats-backend-hacks-how-real-estate-agents-can-block-honest-reviews-20260520-p5zz7r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Real estate agents who give the least accurate price guides also have near-perfect star ratings and scant negative reviews, sparking concerns buyers are being duped.",
+      "pubDate": "Sat, 06 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Aureka drone blitz unlocks prime targets in Stawell Corridor",
       "link": "https://www.smh.com.au/business/companies/aureka-drone-blitz-unlocks-prime-targets-in-stawell-corridor-20260605-p604cn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aureka Ltd has revealed a suite of high-priority structural gold targets at its flagship Irvine project in Victoria following a precision airborne drone survey.",
@@ -7858,17 +7898,17 @@
       "source": "SMH"
     },
     {
+      "title": "Zverev books French Open final berth as Cobolli advances via walkover",
+      "link": "https://www.abc.net.au/news/2026-06-06/french-open-final-alexander-zverev-flavio-coboli/106767272",
+      "snippet": "",
+      "pubDate": "Fri, 05 Jun 2026 19:53:20 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Brumbies set unwanted records as winless Aussie finals run continues",
       "link": "https://www.abc.net.au/news/2026-06-05/super-rugby-pacific-finals-act-brumbies-versus-hurricanes/106765904",
       "snippet": "",
       "pubDate": "Fri, 05 Jun 2026 09:10:14 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Bulldogs erase 29-point deficit to claim spiteful thriller against Hawks",
-      "link": "https://www.abc.net.au/news/2026-06-05/afl-round-13-live-blog-hawthorn-hawks-western-bulldogs/106754292",
-      "snippet": "",
-      "pubDate": "Fri, 05 Jun 2026 08:29:10 +0000",
       "source": "ABC"
     },
     {
