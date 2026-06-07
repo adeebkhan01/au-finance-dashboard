@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-07T14:27:31.453Z",
+  "fetchedAt": "2026-06-07T19:53:59.316Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
+      "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.63,
+      "changePercent": -1.95,
       "previousClose": 0.72,
       "asOf": "2026-06-07",
       "history": [
@@ -1138,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.23,
+      "changePercent": -0.47,
       "previousClose": 0.61,
       "asOf": "2026-06-07",
       "history": [
@@ -3404,9 +3404,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.97,
-      "change": 0.32,
-      "changePercent": 0.28,
+      "value": 112.56,
+      "change": -0.09,
+      "changePercent": -0.08,
       "previousClose": 112.65,
       "asOf": "2026-06-07",
       "history": [
@@ -3507,8 +3507,8 @@
           "close": 114.06
         },
         {
-          "date": "2026-06-05",
-          "close": 112.97
+          "date": "2026-06-07",
+          "close": 112.56
         }
       ],
       "label": "AUD/JPY",
@@ -3784,8 +3784,8 @@
           "close": 114.06
         },
         {
-          "date": "2026-06-05",
-          "close": 112.97
+          "date": "2026-06-07",
+          "close": 112.56
         }
       ],
       "h6m": [
@@ -3898,8 +3898,8 @@
           "close": 114.06
         },
         {
-          "date": "2026-06-05",
-          "close": 112.97
+          "date": "2026-06-07",
+          "close": 112.56
         }
       ],
       "h3y": [
@@ -4532,16 +4532,16 @@
           "close": 114.06
         },
         {
-          "date": "2026-06-05",
-          "close": 112.97
+          "date": "2026-06-07",
+          "close": 112.56
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
+    "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.63,
+    "changePercent": -1.95,
     "previousClose": 0.72,
     "asOf": "2026-06-07",
     "history": [
@@ -7505,7 +7505,7 @@
     },
     {
       "name": "Copper",
-      "price": 6.29,
+      "price": 6.28,
       "change": 0.16,
       "changePercent": 2.56
     }
@@ -7843,6 +7843,13 @@
   ],
   "news": [
     {
+      "title": "The AI craze will soon hold even more sway over the world’s biggest sharemarket",
+      "link": "https://www.smh.com.au/business/markets/the-ai-craze-will-soon-hold-even-more-sway-over-the-world-s-biggest-sharemarket-20260605-p604e5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "As investors prepare for the biggest float in history, Wall Street’s performance is being tied more closely to artificial intelligence profits.",
+      "pubDate": "Mon, 08 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX Runners of the Week: DXN, Energy World, Sheffield &amp; KTEK",
       "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-dxn-energy-world-sheffield-and-ktek-20260605-p604dd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Bulls N’ Bears ASX Runner of the Week is… DXN Limited, which exploded after signing an $8.8 million deal with a US Neo-Cloud operator to manufacture high-performance modular data centres.",
@@ -7878,14 +7885,21 @@
       "source": "SMH"
     },
     {
-      "title": "Aureka drone blitz unlocks prime targets in Stawell Corridor",
-      "link": "https://www.smh.com.au/business/companies/aureka-drone-blitz-unlocks-prime-targets-in-stawell-corridor-20260605-p604cn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka Ltd has revealed a suite of high-priority structural gold targets at its flagship Irvine project in Victoria following a precision airborne drone survey.",
-      "pubDate": "Fri, 05 Jun 2026 15:41:24 +1000",
-      "source": "SMH"
+      "title": "Zverev claims first major with French Open victory",
+      "link": "https://www.abc.net.au/news/2026-06-08/french-open-alexander-zverev-defeats-flavio-coboli-in-final/106770914",
+      "snippet": "",
+      "pubDate": "Sun, 07 Jun 2026 19:33:54 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Live: Monaco GP set for thrilling finish after late safety car",
+      "title": "Eriksen 'conscious' after collapsing on field in Danish friendly",
+      "link": "https://www.abc.net.au/news/2026-06-08/denmarks-christian-eriksen-collapses-during-international-match/106770910",
+      "snippet": "",
+      "pubDate": "Sun, 07 Jun 2026 19:15:53 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Piastri promoted after penalty as teen sensation wins wild Monaco GP",
       "link": "https://www.abc.net.au/news/2026-06-07/f1-live-monaco-grand-prix-oscar-piastri-mclaren/106766124",
       "snippet": "",
       "pubDate": "Sun, 07 Jun 2026 10:57:14 +0000",
@@ -7910,20 +7924,6 @@
       "link": "https://www.abc.net.au/news/2026-06-07/nrl-live-updates-wests-tigers-vs-penthers-sharks-vs-dragons/106756238",
       "snippet": "",
       "pubDate": "Sun, 07 Jun 2026 03:21:05 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Almost dying wasn't on my bingo card': Biles reveals 'scariest' health scare",
-      "link": "https://www.abc.net.au/news/2026-06-07/gymnast-simone-biles-almost-dying-health-scare/106769676",
-      "snippet": "",
-      "pubDate": "Sun, 07 Jun 2026 02:53:55 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Russian teen Andreeva wins French Open to claim first major title",
-      "link": "https://www.abc.net.au/news/2026-06-07/mirra-andreeva-maja-chwalinska-french-open-final/106769162",
-      "snippet": "",
-      "pubDate": "Sat, 06 Jun 2026 20:20:03 +0000",
       "source": "ABC"
     }
   ]
