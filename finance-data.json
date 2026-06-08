@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-08T05:11:56.941Z",
+  "fetchedAt": "2026-06-08T11:24:42.218Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": -0.02,
-      "changePercent": -2.21,
+      "change": -0.01,
+      "changePercent": -1.8,
       "previousClose": 0.72,
       "asOf": "2026-06-08",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.6,
+      "changePercent": -0.23,
       "previousClose": 0.61,
       "asOf": "2026-06-08",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.78,
-      "change": -0.12,
-      "changePercent": -2.5,
+      "value": 4.8,
+      "change": -0.1,
+      "changePercent": -2.13,
       "previousClose": 4.9,
       "asOf": "2026-06-08",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.78
+          "close": 4.8
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.78
+          "close": 4.8
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.78
+          "close": 4.8
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.78
+          "close": 4.8
         }
       ]
     },
     "audjpy": {
-      "value": 112.99,
-      "change": -0.06,
-      "changePercent": -0.05,
+      "value": 113.12,
+      "change": 0.07,
+      "changePercent": 0.06,
       "previousClose": 113.05,
       "asOf": "2026-06-08",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 112.99
+          "close": 113.12
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 112.99
+          "close": 113.12
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 112.99
+          "close": 113.12
         }
       ],
       "h3y": [
@@ -4437,15 +4437,15 @@
         },
         {
           "date": "2026-06-08",
-          "close": 112.99
+          "close": 113.11
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": -0.02,
-    "changePercent": -2.21,
+    "change": -0.01,
+    "changePercent": -1.8,
     "previousClose": 0.72,
     "asOf": "2026-06-08",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 94.32,
-      "change": -1.1,
-      "changePercent": -1.15,
+      "value": 92.91,
+      "change": -2.51,
+      "changePercent": -2.63,
       "previousClose": 95.42,
       "asOf": "2026-06-08",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-06-08",
-          "close": 94.32
+          "close": 92.91
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.07,
-      "change": -4.22,
-      "changePercent": -4.17,
+      "value": 95.24,
+      "change": -6.05,
+      "changePercent": -5.97,
       "previousClose": 101.29,
       "asOf": "2026-06-08",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-06-08",
-          "close": 97.07
+          "close": 95.24
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.17,
-      "change": 0.41,
-      "changePercent": 14.83,
+      "value": 3.13,
+      "change": 0.37,
+      "changePercent": 13.35,
       "previousClose": 2.76,
       "asOf": "2026-06-08",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 3.17
+          "close": 3.13
         }
       ],
       "name": "Natural Gas",
@@ -7373,21 +7373,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4337.2,
-      "change": -383.2,
-      "changePercent": -8.12
+      "price": 4344.5,
+      "change": -375.9,
+      "changePercent": -7.96
     },
     {
       "name": "Silver",
-      "price": 67.9,
-      "change": -12.5,
-      "changePercent": -15.55
+      "price": 68.01,
+      "change": -12.39,
+      "changePercent": -15.41
     },
     {
       "name": "Copper",
-      "price": 6.27,
-      "change": 0.02,
-      "changePercent": 0.34
+      "price": 6.37,
+      "change": 0.12,
+      "changePercent": 1.86
     }
   ],
   "housing": {
@@ -7737,17 +7737,10 @@
       "source": "SMH"
     },
     {
-      "title": "‘China Shock 2.0’ could destroy Europe as we know it",
-      "link": "https://www.smh.com.au/business/the-economy/china-shock-2-0-could-destroy-europe-as-we-know-it-20260604-p603qj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Europe’s leaders are waking up to a terrifying danger.",
-      "pubDate": "Fri, 05 Jun 2026 18:34:17 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "HyperTech Group Super Event 2020",
-      "link": "https://www.smh.com.au/business/hypertech-group-super-event-2020-20260605-p604du.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Investors flocked to HyperTech&#39;s 2020 gala in Hong Kong, where the group&#39;s executives performed a karoke rendition of Coldplay&#39;s Viva La Vida donned in superhero costumes.",
-      "pubDate": "Fri, 05 Jun 2026 16:44:45 +1000",
+      "title": "Why some Australian investors will risk punting on Musk’s $2.5 trillion space vision",
+      "link": "https://www.smh.com.au/business/companies/why-some-australian-investors-will-risk-punting-on-musk-s-2-5-trillion-space-vision-20260608-p604sr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "It’s off to the races for the Musk believers, who appreciate that no matter how many times his big promises have not been met, some of them have.",
+      "pubDate": "Mon, 08 Jun 2026 16:18:35 +1000",
       "source": "SMH"
     },
     {
@@ -7772,7 +7765,21 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Fans gather at MCG for Big Freeze ahead of Collingwood-Melbourne clash",
+      "title": "Kings and Queens of the Desert crowned as outback Finke race wraps up",
+      "link": "https://www.abc.net.au/news/2026-06-08/finke-desert-race-winners-results-alice-springs-king-of-desert/106772188",
+      "snippet": "",
+      "pubDate": "Mon, 08 Jun 2026 06:48:47 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Moses, Katoa named for NSW in State of Origin II squad",
+      "link": "https://www.abc.net.au/news/2026-06-08/nrl-live-updates-state-of-origin-new-south-wales-team/106773300",
+      "snippet": "",
+      "pubDate": "Mon, 08 Jun 2026 05:39:33 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Mihocek experienced 'lack of feeling' before hospital visit says coach",
       "link": "https://www.abc.net.au/news/2026-06-08/afl-collingwood-magpies-melbourne-demons-big-freeze-live-blog/106772362",
       "snippet": "",
       "pubDate": "Mon, 08 Jun 2026 03:31:43 +0000",
@@ -7793,18 +7800,11 @@
       "source": "ABC"
     },
     {
-      "title": "Zverev claims first major with French Open victory",
-      "link": "https://www.abc.net.au/news/2026-06-08/french-open-alexander-zverev-defeats-flavio-coboli-in-final/106770914",
-      "snippet": "",
-      "pubDate": "Sun, 07 Jun 2026 19:33:54 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Players left in tears as Danish star Eriksen collapses during friendly",
-      "link": "https://www.abc.net.au/news/2026-06-08/denmarks-christian-eriksen-collapses-during-international-match/106770910",
-      "snippet": "",
-      "pubDate": "Sun, 07 Jun 2026 19:15:53 +0000",
-      "source": "ABC"
+      "title": "Australia’s first music school empire collapses, owing $1.8 million",
+      "link": "https://www.smh.com.au/business/workplace/australia-s-first-music-school-empire-collapses-owing-1-8-million-20260601-p602pl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Amazon-inspired suburban music school celebrated its success with a lavish yacht party. Now it owes teachers and the Tax Office.",
+      "pubDate": "Sun, 07 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
     }
   ]
 }
