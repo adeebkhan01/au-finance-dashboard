@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-08T11:24:42.218Z",
+  "fetchedAt": "2026-06-08T16:34:27.889Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": -0.01,
-      "changePercent": -1.8,
+      "change": -0.02,
+      "changePercent": -2.15,
       "previousClose": 0.72,
       "asOf": "2026-06-08",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.23,
+      "changePercent": -0.6,
       "previousClose": 0.61,
       "asOf": "2026-06-08",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.8,
-      "change": -0.1,
-      "changePercent": -2.13,
+      "value": 4.78,
+      "change": -0.12,
+      "changePercent": -2.45,
       "previousClose": 4.9,
       "asOf": "2026-06-08",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.8
+          "close": 4.78
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.8
+          "close": 4.78
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.8
+          "close": 4.78
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-06-08",
-          "close": 4.8
+          "close": 4.78
         }
       ]
     },
     "audjpy": {
-      "value": 113.12,
-      "change": 0.07,
-      "changePercent": 0.06,
+      "value": 112.9,
+      "change": -0.15,
+      "changePercent": -0.13,
       "previousClose": 113.05,
       "asOf": "2026-06-08",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 113.12
+          "close": 112.9
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 113.12
+          "close": 112.89
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 113.12
+          "close": 112.89
         }
       ],
       "h3y": [
@@ -4437,15 +4437,15 @@
         },
         {
           "date": "2026-06-08",
-          "close": 113.11
+          "close": 112.89
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": -0.01,
-    "changePercent": -1.8,
+    "change": -0.02,
+    "changePercent": -2.15,
     "previousClose": 0.72,
     "asOf": "2026-06-08",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 92.91,
-      "change": -2.51,
-      "changePercent": -2.63,
+      "value": 91.59,
+      "change": -3.83,
+      "changePercent": -4.01,
       "previousClose": 95.42,
       "asOf": "2026-06-08",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-06-08",
-          "close": 92.91
+          "close": 91.59
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.24,
-      "change": -6.05,
-      "changePercent": -5.97,
+      "value": 94.68,
+      "change": -6.61,
+      "changePercent": -6.53,
       "previousClose": 101.29,
       "asOf": "2026-06-08",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-06-08",
-          "close": 95.24
+          "close": 94.68
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.13,
-      "change": 0.37,
-      "changePercent": 13.35,
+      "value": 3.12,
+      "change": 0.36,
+      "changePercent": 13.13,
       "previousClose": 2.76,
       "asOf": "2026-06-08",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-06-08",
-          "close": 3.13
+          "close": 3.12
         }
       ],
       "name": "Natural Gas",
@@ -7373,21 +7373,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4344.5,
-      "change": -375.9,
-      "changePercent": -7.96
+      "price": 4365.7,
+      "change": -354.7,
+      "changePercent": -7.51
     },
     {
       "name": "Silver",
-      "price": 68.01,
-      "change": -12.39,
-      "changePercent": -15.41
+      "price": 68.83,
+      "change": -11.56,
+      "changePercent": -14.38
     },
     {
       "name": "Copper",
       "price": 6.37,
       "change": 0.12,
-      "changePercent": 1.86
+      "changePercent": 1.87
     }
   ],
   "housing": {
@@ -7730,6 +7730,13 @@
       "source": "SMH"
     },
     {
+      "title": "Green energy is shielding Australia from a global power price shock",
+      "link": "https://www.smh.com.au/business/the-economy/green-energy-is-shielding-australia-from-a-global-power-price-shock-20260608-p604sc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The rollout of renewables and batteries is buffering Australian electricity bills from the Iran war energy crisis.",
+      "pubDate": "Tue, 09 Jun 2026 00:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "The whistle that blew away KPMG’s aura as the guardians of financial credibility",
       "link": "https://www.smh.com.au/business/companies/the-whistle-that-blew-away-kpmg-s-aura-as-the-guardians-of-financial-credibility-20260602-p60370.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The accounting and consulting giant became embroiled in scandal after whistleblower allegations of illicit sharing of data.",
@@ -7758,13 +7765,6 @@
       "source": "ABC"
     },
     {
-      "title": "Legal threats, backend hacks: How real estate agents can block honest reviews",
-      "link": "https://www.smh.com.au/business/consumer-affairs/legal-threats-backend-hacks-how-real-estate-agents-can-block-honest-reviews-20260520-p5zz7r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Real estate agents who give the least accurate price guides also have near-perfect star ratings and scant negative reviews, sparking concerns buyers are being duped.",
-      "pubDate": "Sat, 06 Jun 2026 05:00:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Kings and Queens of the Desert crowned as outback Finke race wraps up",
       "link": "https://www.abc.net.au/news/2026-06-08/finke-desert-race-winners-results-alice-springs-king-of-desert/106772188",
       "snippet": "",
@@ -7772,7 +7772,7 @@
       "source": "ABC"
     },
     {
-      "title": "Moses, Katoa named for NSW in State of Origin II squad",
+      "title": "Blues centre Stephen Crichton ruled out of State of Origin II",
       "link": "https://www.abc.net.au/news/2026-06-08/nrl-live-updates-state-of-origin-new-south-wales-team/106773300",
       "snippet": "",
       "pubDate": "Mon, 08 Jun 2026 05:39:33 +0000",
