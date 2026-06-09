@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-09T15:37:58.422Z",
+  "fetchedAt": "2026-06-09T20:26:20.576Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.54,
+      "changePercent": -2.47,
       "previousClose": 0.72,
       "asOf": "2026-06-09",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-06-07",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-08",
           "close": 0.7
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-06-07",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-08",
           "close": 0.7
         },
         {
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.04,
+      "changePercent": -0.94,
       "previousClose": 0.61,
       "asOf": "2026-06-09",
       "history": [
@@ -1212,6 +1220,10 @@
         },
         {
           "date": "2026-06-07",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-08",
           "close": 0.61
         },
         {
@@ -1485,6 +1497,10 @@
         },
         {
           "date": "2026-06-07",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-08",
           "close": 0.61
         },
         {
@@ -2248,7 +2264,7 @@
     "audcny": {
       "value": 4.76,
       "change": -0.14,
-      "changePercent": -2.91,
+      "changePercent": -2.9,
       "previousClose": 4.9,
       "asOf": "2026-06-09",
       "history": [
@@ -2334,6 +2350,10 @@
         },
         {
           "date": "2026-06-07",
+          "close": 4.76
+        },
+        {
+          "date": "2026-06-08",
           "close": 4.76
         },
         {
@@ -2607,6 +2627,10 @@
         },
         {
           "date": "2026-06-07",
+          "close": 4.76
+        },
+        {
+          "date": "2026-06-08",
           "close": 4.76
         },
         {
@@ -3368,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.57,
-      "change": -0.47,
-      "changePercent": -0.42,
+      "value": 112.71,
+      "change": -0.33,
+      "changePercent": -0.3,
       "previousClose": 113.05,
       "asOf": "2026-06-09",
       "history": [
@@ -3459,8 +3483,12 @@
           "close": 112.91
         },
         {
+          "date": "2026-06-08",
+          "close": 112.75
+        },
+        {
           "date": "2026-06-09",
-          "close": 112.57
+          "close": 112.71
         }
       ],
       "label": "AUD/JPY",
@@ -3732,8 +3760,12 @@
           "close": 112.91
         },
         {
+          "date": "2026-06-08",
+          "close": 112.75
+        },
+        {
           "date": "2026-06-09",
-          "close": 112.58
+          "close": 112.71
         }
       ],
       "h6m": [
@@ -3843,11 +3875,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 112.91
+          "close": 112.75
         },
         {
           "date": "2026-06-09",
-          "close": 112.58
+          "close": 112.71
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 112.91
+          "close": 112.75
         },
         {
           "date": "2026-06-09",
-          "close": 112.58
+          "close": 112.72
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.54,
+    "changePercent": -2.47,
     "previousClose": 0.72,
     "asOf": "2026-06-09",
     "history": [
@@ -4579,6 +4611,10 @@
       },
       {
         "date": "2026-06-07",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-08",
         "close": 0.7
       },
       {
@@ -4852,6 +4888,10 @@
       },
       {
         "date": "2026-06-07",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-08",
         "close": 0.7
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 87.84,
-      "change": -7.58,
-      "changePercent": -7.94,
+      "value": 88.47,
+      "change": -6.95,
+      "changePercent": -7.28,
       "previousClose": 95.42,
       "asOf": "2026-06-09",
       "history": [
@@ -5894,16 +5934,16 @@
         },
         {
           "date": "2026-06-09",
-          "close": 87.84
+          "close": 88.47
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.11,
-      "change": -10.18,
-      "changePercent": -10.05,
+      "value": 91.7,
+      "change": -9.59,
+      "changePercent": -9.47,
       "previousClose": 101.29,
       "asOf": "2026-06-09",
       "history": [
@@ -5989,16 +6029,16 @@
         },
         {
           "date": "2026-06-09",
-          "close": 91.11
+          "close": 91.7
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.15,
-      "change": 0.4,
-      "changePercent": 14.33,
+      "value": 3.14,
+      "change": 0.38,
+      "changePercent": 13.78,
       "previousClose": 2.76,
       "asOf": "2026-06-09",
       "history": [
@@ -6084,7 +6124,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 3.15
+          "close": 3.14
         }
       ],
       "name": "Natural Gas",
@@ -7321,21 +7361,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4307.3,
-      "change": -413.1,
-      "changePercent": -8.75
+      "price": 4283.5,
+      "change": -436.9,
+      "changePercent": -9.26
     },
     {
       "name": "Silver",
-      "price": 65.93,
-      "change": -14.46,
-      "changePercent": -17.99
+      "price": 65.43,
+      "change": -14.96,
+      "changePercent": -18.61
     },
     {
       "name": "Copper",
-      "price": 6.37,
-      "change": 0.12,
-      "changePercent": 1.94
+      "price": 6.35,
+      "change": 0.1,
+      "changePercent": 1.55
     }
   ],
   "housing": {
@@ -7671,13 +7711,6 @@
   ],
   "news": [
     {
-      "title": "ASX pares losses as banks recover, miners slide, oOh!media jumps on bid",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-ai-stocks-drive-wall-street-rebound-20260609-p604yo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket closed slightly lower, recovering from a sharp sell-off in early trade, amid easing tensions in the Middle East.",
-      "pubDate": "Tue, 09 Jun 2026 13:06:15 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Forrestania swoops on Zenith in $93M WA gold growth play",
       "link": "https://www.smh.com.au/business/companies/forrestania-swoops-on-zenith-in-93m-wa-gold-growth-play-20260609-p605b2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Zenith Minerals has agreed to a $93.5m off-market scrip takeover by Forrestania Resources to consolidate the gold-rich Forrestania Belt in WA.",
@@ -7692,6 +7725,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to advance, Wall Street lower in rollercoaster session",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-advances-wall-street-lower-in-rollercoaster-session-20260610-p605d1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Another sell-off for high-flying artificial-intelligence stocks whipsawed Wall Street.",
+      "pubDate": "Wed, 10 Jun 2026 05:18:41 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Kuniko locks in rig for multi-target NSW gold-silver drill blitz",
       "link": "https://www.smh.com.au/business/companies/kuniko-locks-in-rig-for-multi-target-nsw-gold-silver-drill-blitz-20260609-p605ap.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Kuniko has secured a specialist diamond rig for a high-impact July drilling blitz targeting major gold-silver extensions at its flagship NSW Commonwealth project.",
@@ -7703,6 +7743,13 @@
       "link": "https://www.smh.com.au/business/companies/olympio-chases-scale-after-bonanza-quebec-gold-hit-20260609-p60581.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Olympio Metals has started drilling again in Canada, chasing extensions to a bonanza 19.4m hit grading 17.29 grams per tonne gold at its Bousquet project in Quebec.",
       "pubDate": "Tue, 09 Jun 2026 14:23:38 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Australia needs more renewables. This 900-kilometre cable will help",
+      "link": "https://www.smh.com.au/business/the-economy/australia-needs-more-renewables-this-900-kilometre-cable-will-help-20260609-p6057v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A new high-voltage “superhighway” with a $4.1 billion price tag will soon make it easier to add wind and solar farms to the network.",
+      "pubDate": "Wed, 10 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7725,20 +7772,6 @@
       "snippet": "Viking Mines has confirmed grades up to 1.1 per cent tungsten trioxide at its Linka stockpile in Nevada, with ore sorting test work now underway.",
       "pubDate": "Tue, 09 Jun 2026 14:18:51 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Chariot reclaims highly prospective US lithium ground",
-      "link": "https://www.smh.com.au/business/companies/chariot-reclaims-highly-prospective-us-lithium-ground-20260609-p6057b.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Chariot Resources has expanded its US lithium footprint by staking 573 new claims at its Resurgent project within the premier McDermitt Caldera.",
-      "pubDate": "Tue, 09 Jun 2026 14:06:30 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Boom rookie set to make Opals debut against China",
-      "link": "https://www.abc.net.au/news/2026-06-09/australia-opals-sitaya-fagan-set-to-debut-against-china/106776110",
-      "snippet": "",
-      "pubDate": "Tue, 09 Jun 2026 02:50:48 +0000",
-      "source": "ABC"
     },
     {
       "title": "Foord scores in game 150 as Matildas beat Mexico",
