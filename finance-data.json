@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-09T10:08:07.278Z",
+  "fetchedAt": "2026-06-09T15:37:58.422Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
+      "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.18,
+      "changePercent": -2.54,
       "previousClose": 0.72,
       "asOf": "2026-06-09",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
@@ -367,7 +367,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -481,7 +481,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "h3y": [
@@ -1119,14 +1119,14 @@
         },
         {
           "date": "2026-06-09",
-          "close": 0.71
+          "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.61,
-      "change": 0,
-      "changePercent": -0.8,
+      "change": -0.01,
+      "changePercent": -1.04,
       "previousClose": 0.61,
       "asOf": "2026-06-09",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": -0.13,
-      "changePercent": -2.62,
+      "value": 4.76,
+      "change": -0.14,
+      "changePercent": -2.91,
       "previousClose": 4.9,
       "asOf": "2026-06-09",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-06-09",
-          "close": 4.77
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.93,
-      "change": -0.12,
-      "changePercent": -0.11,
+      "value": 112.57,
+      "change": -0.47,
+      "changePercent": -0.42,
       "previousClose": 113.05,
       "asOf": "2026-06-09",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 112.93
+          "close": 112.57
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 112.93
+          "close": 112.58
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 112.93
+          "close": 112.58
         }
       ],
       "h3y": [
@@ -4485,15 +4485,15 @@
         },
         {
           "date": "2026-06-09",
-          "close": 112.93
+          "close": 112.58
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
+    "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.18,
+    "changePercent": -2.54,
     "previousClose": 0.72,
     "asOf": "2026-06-09",
     "history": [
@@ -4583,7 +4583,7 @@
       },
       {
         "date": "2026-06-09",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
@@ -4856,7 +4856,7 @@
       },
       {
         "date": "2026-06-09",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4970,7 +4970,7 @@
       },
       {
         "date": "2026-06-09",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "h3y": [
@@ -5608,7 +5608,7 @@
       },
       {
         "date": "2026-06-09",
-        "close": 0.71
+        "close": 0.7
       }
     ]
   },
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.08,
-      "change": -6.34,
-      "changePercent": -6.64,
+      "value": 87.84,
+      "change": -7.58,
+      "changePercent": -7.94,
       "previousClose": 95.42,
       "asOf": "2026-06-09",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-06-09",
-          "close": 89.08
+          "close": 87.84
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 92.42,
-      "change": -8.87,
-      "changePercent": -8.76,
+      "value": 91.11,
+      "change": -10.18,
+      "changePercent": -10.05,
       "previousClose": 101.29,
       "asOf": "2026-06-09",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-06-09",
-          "close": 92.42
+          "close": 91.11
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.18,
-      "change": 0.42,
-      "changePercent": 15.31,
+      "value": 3.15,
+      "change": 0.4,
+      "changePercent": 14.33,
       "previousClose": 2.76,
       "asOf": "2026-06-09",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-06-09",
-          "close": 3.18
+          "close": 3.15
         }
       ],
       "name": "Natural Gas",
@@ -6255,10 +6255,6 @@
       {
         "date": "2026-06-05",
         "close": 8625.1
-      },
-      {
-        "date": "2026-06-09",
-        "close": 8604.2
       }
     ]
   },
@@ -7325,21 +7321,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4355,
-      "change": -365.4,
-      "changePercent": -7.74
+      "price": 4307.3,
+      "change": -413.1,
+      "changePercent": -8.75
     },
     {
       "name": "Silver",
-      "price": 68.51,
-      "change": -11.89,
-      "changePercent": -14.79
+      "price": 65.93,
+      "change": -14.46,
+      "changePercent": -17.99
     },
     {
       "name": "Copper",
-      "price": 6.41,
-      "change": 0.16,
-      "changePercent": 2.5
+      "price": 6.37,
+      "change": 0.12,
+      "changePercent": 1.94
     }
   ],
   "housing": {
@@ -7745,7 +7741,7 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Matildas re-take the lead in frenetic Mexico rematch",
+      "title": "Foord scores in game 150 as Matildas beat Mexico",
       "link": "https://www.abc.net.au/news/2026-06-09/live-updates-matildas-vs-mexico-sydney/106777476",
       "snippet": "",
       "pubDate": "Tue, 09 Jun 2026 08:03:02 +0000",
