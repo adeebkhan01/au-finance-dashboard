@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-10T10:40:11.521Z",
+  "fetchedAt": "2026-06-10T16:13:25.201Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.73,
+      "changePercent": -2.57,
       "previousClose": 0.72,
       "asOf": "2026-06-10",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.3,
+      "changePercent": -1.12,
       "previousClose": 0.61,
       "asOf": "2026-06-10",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
+      "value": 4.76,
       "change": -0.15,
-      "changePercent": -3.12,
+      "changePercent": -3.01,
       "previousClose": 4.9,
       "asOf": "2026-06-10",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-06-10",
-          "close": 4.75
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.45,
-      "change": -0.59,
-      "changePercent": -0.52,
+      "value": 112.67,
+      "change": -0.38,
+      "changePercent": -0.33,
       "previousClose": 113.05,
       "asOf": "2026-06-10",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 112.45
+          "close": 112.67
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 112.45
+          "close": 112.67
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 112.45
+          "close": 112.67
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 112.46
+          "close": 112.67
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.73,
+    "changePercent": -2.57,
     "previousClose": 0.72,
     "asOf": "2026-06-10",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 88.11,
-      "change": -9.96,
-      "changePercent": -10.16,
+      "value": 90.73,
+      "change": -7.34,
+      "changePercent": -7.48,
       "previousClose": 98.07,
       "asOf": "2026-06-10",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-06-10",
-          "close": 88.11
+          "close": 90.73
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.31,
-      "change": -12.9,
-      "changePercent": -12.38,
+      "value": 93.76,
+      "change": -10.45,
+      "changePercent": -10.03,
       "previousClose": 104.21,
       "asOf": "2026-06-10",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-06-10",
-          "close": 91.31
+          "close": 93.76
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.17,
-      "change": 0.26,
-      "changePercent": 8.97,
+      "value": 3.22,
+      "change": 0.3,
+      "changePercent": 10.48,
       "previousClose": 2.91,
       "asOf": "2026-06-10",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 3.17
+          "close": 3.21
         }
       ],
       "name": "Natural Gas",
@@ -6289,8 +6289,8 @@
         "close": 8625.1
       },
       {
-        "date": "2026-06-10",
-        "close": 8653.3
+        "date": "2026-06-09",
+        "close": 8604.2
       }
     ]
   },
@@ -7389,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4189.3,
-      "change": -529.4,
-      "changePercent": -11.22
+      "price": 4147.9,
+      "change": -570.8,
+      "changePercent": -12.1
     },
     {
       "name": "Silver",
-      "price": 64.31,
-      "change": -21.18,
-      "changePercent": -24.78
+      "price": 64.96,
+      "change": -20.53,
+      "changePercent": -24.02
     },
     {
       "name": "Copper",
-      "price": 6.26,
-      "change": -0.16,
-      "changePercent": -2.45
+      "price": 6.29,
+      "change": -0.13,
+      "changePercent": -1.98
     }
   ],
   "housing": {
@@ -7795,13 +7795,6 @@
       "source": "SMH"
     },
     {
-      "title": "The 35-year old Blues record Brian To'o can break in Origin II",
-      "link": "https://www.abc.net.au/news/2026-06-10/brian-too-nsw-state-of-origin-record-try-scoring/106780312",
-      "snippet": "",
-      "pubDate": "Wed, 10 Jun 2026 02:39:54 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "Kyrgios wins Stuttgart opener after five-month tour absence",
       "link": "https://www.abc.net.au/news/2026-06-10/nick-kyrgios-wins-in-stuttgart-atp-tour/106779122",
       "snippet": "",
@@ -7813,6 +7806,13 @@
       "link": "https://www.abc.net.au/news/2026-06-10/tennis-serena-williams-makes-winning-return-in-queens-doubles/106779032",
       "snippet": "",
       "pubDate": "Tue, 09 Jun 2026 20:46:14 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Aussies record first ODI loss to Bangladesh in 21 years",
+      "link": "https://www.abc.net.au/news/2026-06-10/cricket-odi-australia-bangladesh-86-run-win/106779006",
+      "snippet": "",
+      "pubDate": "Tue, 09 Jun 2026 20:37:53 +0000",
       "source": "ABC"
     }
   ]
