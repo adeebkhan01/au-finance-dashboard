@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-10T16:13:25.201Z",
+  "fetchedAt": "2026-06-10T21:06:25.415Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.57,
+      "changePercent": -2.9,
       "previousClose": 0.72,
       "asOf": "2026-06-10",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-06-08",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-09",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-06-08",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-09",
           "close": 0.7
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.12,
+      "changePercent": -1.32,
       "previousClose": 0.61,
       "asOf": "2026-06-10",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-06-08",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-09",
           "close": 0.61
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-06-08",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-09",
           "close": 0.61
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.76,
+      "value": 4.75,
       "change": -0.15,
-      "changePercent": -3.01,
+      "changePercent": -3.09,
       "previousClose": 4.9,
       "asOf": "2026-06-10",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.76
         },
         {
-          "date": "2026-06-10",
+          "date": "2026-06-09",
           "close": 4.76
+        },
+        {
+          "date": "2026-06-10",
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.76
         },
         {
-          "date": "2026-06-10",
+          "date": "2026-06-09",
           "close": 4.76
+        },
+        {
+          "date": "2026-06-10",
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2737,7 +2761,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3375,14 +3399,14 @@
         },
         {
           "date": "2026-06-10",
-          "close": 4.76
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 112.67,
-      "change": -0.38,
-      "changePercent": -0.33,
+      "value": 112.3,
+      "change": -0.75,
+      "changePercent": -0.66,
       "previousClose": 113.05,
       "asOf": "2026-06-10",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 112.75
         },
         {
+          "date": "2026-06-09",
+          "close": 112.63
+        },
+        {
           "date": "2026-06-10",
-          "close": 112.67
+          "close": 112.3
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 112.75
         },
         {
+          "date": "2026-06-09",
+          "close": 112.63
+        },
+        {
           "date": "2026-06-10",
-          "close": 112.67
+          "close": 112.3
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 112.75
+          "close": 112.63
         },
         {
           "date": "2026-06-10",
-          "close": 112.67
+          "close": 112.3
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 112.75
+          "close": 112.63
         },
         {
           "date": "2026-06-10",
-          "close": 112.67
+          "close": 112.3
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.57,
+    "changePercent": -2.9,
     "previousClose": 0.72,
     "asOf": "2026-06-10",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-06-08",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-09",
         "close": 0.7
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-06-08",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-09",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.73,
-      "change": -7.34,
-      "changePercent": -7.48,
+      "value": 91.81,
+      "change": -6.26,
+      "changePercent": -6.38,
       "previousClose": 98.07,
       "asOf": "2026-06-10",
       "history": [
@@ -5918,16 +5958,16 @@
         },
         {
           "date": "2026-06-10",
-          "close": 90.73
+          "close": 91.81
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.76,
-      "change": -10.45,
-      "changePercent": -10.03,
+      "value": 94.69,
+      "change": -9.52,
+      "changePercent": -9.14,
       "previousClose": 104.21,
       "asOf": "2026-06-10",
       "history": [
@@ -6017,16 +6057,16 @@
         },
         {
           "date": "2026-06-10",
-          "close": 93.76
+          "close": 94.69
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.22,
-      "change": 0.3,
-      "changePercent": 10.48,
+      "value": 3.19,
+      "change": 0.28,
+      "changePercent": 9.48,
       "previousClose": 2.91,
       "asOf": "2026-06-10",
       "history": [
@@ -6116,7 +6156,7 @@
         },
         {
           "date": "2026-06-10",
-          "close": 3.21
+          "close": 3.19
         }
       ],
       "name": "Natural Gas",
@@ -7389,21 +7429,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4147.9,
-      "change": -570.8,
-      "changePercent": -12.1
+      "price": 4092.3,
+      "change": -626.4,
+      "changePercent": -13.27
     },
     {
       "name": "Silver",
-      "price": 64.96,
-      "change": -20.53,
-      "changePercent": -24.02
+      "price": 63.43,
+      "change": -22.06,
+      "changePercent": -25.81
     },
     {
       "name": "Copper",
-      "price": 6.29,
-      "change": -0.13,
-      "changePercent": -1.98
+      "price": 6.2,
+      "change": -0.21,
+      "changePercent": -3.34
     }
   ],
   "housing": {
@@ -7739,6 +7779,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to fall as AI stocks, Middle East tensions weigh on Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-ai-stocks-middle-east-tensions-weigh-on-wall-street-20260611-p605p4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street is sharply lower in late trade with AI stocks again weighing on the market while escalating tensions in the Middle East are casting doubt on when United States and Iran can reach a deal to reopen the Strait of Hormuz to oil tankers.",
+      "pubDate": "Thu, 11 Jun 2026 05:22:17 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX finishes higher as retailers advance; Sigma slumps on Boots talks",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-advances-wall-street-lower-in-rollercoaster-session-20260610-p605d1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket rose today as investors shrugged off the latest escalation in the Middle East and another tech sell-off on Wall Street.",
@@ -7757,13 +7804,6 @@
       "link": "https://www.smh.com.au/business/companies/why-kmart-is-opening-up-a-furniture-showroom-and-taking-on-ikea-20260610-p605gy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The retail giant behind Kmart is pushing further into the furniture market with its first physical trial store, as it eyes a lucrative market.",
       "pubDate": "Wed, 10 Jun 2026 16:48:29 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Moonlight drill results build Qld gold system scale",
-      "link": "https://www.smh.com.au/business/companies/moonlight-drill-results-build-qld-gold-system-scale-20260610-p605kc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Drilling at Moonlight Resources’ Clermont project in Qld has intersected 20m at 1g/t gold, extending its Leo Grande Central system towards the Leo Grande South target.",
-      "pubDate": "Wed, 10 Jun 2026 13:31:42 +1000",
       "source": "SMH"
     },
     {
@@ -7788,31 +7828,31 @@
       "source": "SMH"
     },
     {
-      "title": "Critical hits multiple pegmatites in Canadian lithium blitz",
-      "link": "https://www.smh.com.au/business/companies/critical-hits-multiple-pegmatites-in-canadian-lithium-blitz-20260610-p605j1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critical Resources has uncovered a swarm of pegmatites, six of them new, at its Mavis Lake lithium project in Canada, expanding the footprint ahead of drilling.",
-      "pubDate": "Wed, 10 Jun 2026 12:27:02 +1000",
+      "title": "The controversial deal feeding the Trump family’s biggest money-maker",
+      "link": "https://www.smh.com.au/business/companies/the-controversial-deal-feeding-the-trump-family-s-biggest-money-maker-20260608-p604on.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Trump family’s foray into the world of crypto has been lucrative, but has attracted a lot of scrutiny. One agreement in particular stands out.",
+      "pubDate": "Thu, 11 Jun 2026 05:42:05 +1000",
       "source": "SMH"
     },
     {
-      "title": "Kyrgios wins Stuttgart opener after five-month tour absence",
-      "link": "https://www.abc.net.au/news/2026-06-10/nick-kyrgios-wins-in-stuttgart-atp-tour/106779122",
+      "title": "England captain Stokes dropped for second NZ Test over nightclub incident",
+      "link": "https://www.abc.net.au/news/2026-06-11/stokes-out-from-nz-second-test-ecb/106783768",
       "snippet": "",
-      "pubDate": "Tue, 09 Jun 2026 21:38:36 +0000",
+      "pubDate": "Wed, 10 Jun 2026 17:02:45 +0000",
       "source": "ABC"
     },
     {
-      "title": "Serena Williams makes winning return to court at Queen's",
-      "link": "https://www.abc.net.au/news/2026-06-10/tennis-serena-williams-makes-winning-return-in-queens-doubles/106779032",
+      "title": "O'Callaghan chasing Titmus and 'the impossible' as she misses world record",
+      "link": "https://www.abc.net.au/news/2026-06-10/australian-swimming-trials-ocallaghan-mcevoy-pallister/106782482",
       "snippet": "",
-      "pubDate": "Tue, 09 Jun 2026 20:46:14 +0000",
+      "pubDate": "Wed, 10 Jun 2026 12:40:42 +0000",
       "source": "ABC"
     },
     {
-      "title": "Aussies record first ODI loss to Bangladesh in 21 years",
-      "link": "https://www.abc.net.au/news/2026-06-10/cricket-odi-australia-bangladesh-86-run-win/106779006",
+      "title": "The 35-year old Blues record Brian To'o can break in Origin II",
+      "link": "https://www.abc.net.au/news/2026-06-10/brian-too-nsw-state-of-origin-record-try-scoring/106780312",
       "snippet": "",
-      "pubDate": "Tue, 09 Jun 2026 20:37:53 +0000",
+      "pubDate": "Wed, 10 Jun 2026 02:39:54 +0000",
       "source": "ABC"
     }
   ]
