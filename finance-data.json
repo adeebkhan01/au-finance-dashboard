@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-11T16:34:39.805Z",
+  "fetchedAt": "2026-06-11T20:42:32.188Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -3.36,
+      "changePercent": -2.61,
       "previousClose": 0.72,
       "asOf": "2026-06-11",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-06-09",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-10",
           "close": 0.7
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-06-09",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-10",
           "close": 0.7
         },
         {
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.2,
+      "changePercent": -1.04,
       "previousClose": 0.61,
       "asOf": "2026-06-11",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-06-09",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-10",
           "close": 0.61
         },
         {
@@ -1501,6 +1513,10 @@
         },
         {
           "date": "2026-06-09",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-10",
           "close": 0.61
         },
         {
@@ -2262,9 +2278,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": -0.18,
-      "changePercent": -3.68,
+      "value": 4.78,
+      "change": -0.14,
+      "changePercent": -2.91,
       "previousClose": 4.92,
       "asOf": "2026-06-11",
       "history": [
@@ -2361,8 +2377,12 @@
           "close": 4.76
         },
         {
-          "date": "2026-06-11",
+          "date": "2026-06-10",
           "close": 4.74
+        },
+        {
+          "date": "2026-06-11",
+          "close": 4.78
         }
       ],
       "label": "AUD/CNY",
@@ -2634,8 +2654,12 @@
           "close": 4.76
         },
         {
-          "date": "2026-06-11",
+          "date": "2026-06-10",
           "close": 4.74
+        },
+        {
+          "date": "2026-06-11",
+          "close": 4.78
         }
       ],
       "h6m": [
@@ -2745,11 +2769,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 4.76
+          "close": 4.74
         },
         {
           "date": "2026-06-11",
-          "close": 4.74
+          "close": 4.78
         }
       ],
       "h3y": [
@@ -3383,18 +3407,18 @@
         },
         {
           "date": "2026-06-07",
-          "close": 4.76
+          "close": 4.74
         },
         {
           "date": "2026-06-11",
-          "close": 4.74
+          "close": 4.78
         }
       ]
     },
     "audjpy": {
-      "value": 112.3,
-      "change": -1.17,
-      "changePercent": -1.03,
+      "value": 112.67,
+      "change": -0.81,
+      "changePercent": -0.71,
       "previousClose": 113.47,
       "asOf": "2026-06-11",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 112.63
         },
         {
+          "date": "2026-06-10",
+          "close": 112.27
+        },
+        {
           "date": "2026-06-11",
-          "close": 112.3
+          "close": 112.67
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 112.63
         },
         {
+          "date": "2026-06-10",
+          "close": 112.27
+        },
+        {
           "date": "2026-06-11",
-          "close": 112.3
+          "close": 112.67
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 112.63
+          "close": 112.27
         },
         {
           "date": "2026-06-11",
-          "close": 112.3
+          "close": 112.67
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-06-07",
-          "close": 112.63
+          "close": 112.27
         },
         {
           "date": "2026-06-11",
-          "close": 112.3
+          "close": 112.67
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -3.36,
+    "changePercent": -2.61,
     "previousClose": 0.72,
     "asOf": "2026-06-11",
     "history": [
@@ -4619,6 +4651,10 @@
       },
       {
         "date": "2026-06-09",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-10",
         "close": 0.7
       },
       {
@@ -4892,6 +4928,10 @@
       },
       {
         "date": "2026-06-09",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-10",
         "close": 0.7
       },
       {
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.21,
-      "change": -6.86,
-      "changePercent": -7,
+      "value": 86.08,
+      "change": -11.99,
+      "changePercent": -12.23,
       "previousClose": 98.07,
       "asOf": "2026-06-11",
       "history": [
@@ -5942,16 +5982,16 @@
         },
         {
           "date": "2026-06-11",
-          "close": 91.21
+          "close": 86.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.78,
-      "change": -10.43,
-      "changePercent": -10.01,
+      "value": 88.65,
+      "change": -15.56,
+      "changePercent": -14.93,
       "previousClose": 104.21,
       "asOf": "2026-06-11",
       "history": [
@@ -6045,16 +6085,16 @@
         },
         {
           "date": "2026-06-11",
-          "close": 93.78
+          "close": 88.65
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.09,
-      "change": 0.18,
-      "changePercent": 6.15,
+      "value": 3.07,
+      "change": 0.16,
+      "changePercent": 5.64,
       "previousClose": 2.91,
       "asOf": "2026-06-11",
       "history": [
@@ -6148,7 +6188,7 @@
         },
         {
           "date": "2026-06-11",
-          "close": 3.09
+          "close": 3.07
         }
       ],
       "name": "Natural Gas",
@@ -7457,21 +7497,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4109.7,
-      "change": -609,
-      "changePercent": -12.91
+      "price": 4235.8,
+      "change": -482.9,
+      "changePercent": -10.23
     },
     {
       "name": "Silver",
-      "price": 64.22,
-      "change": -21.27,
-      "changePercent": -24.88
+      "price": 67.47,
+      "change": -18.02,
+      "changePercent": -21.08
     },
     {
       "name": "Copper",
-      "price": 6.29,
-      "change": -0.12,
-      "changePercent": -1.95
+      "price": 6.39,
+      "change": -0.02,
+      "changePercent": -0.36
     }
   ],
   "housing": {
@@ -7814,24 +7854,31 @@
       "source": "SMH"
     },
     {
-      "title": "Exxon CEO Lee Raymond, the ‘Darth Vader of global warming’, dies at 87",
-      "link": "https://www.smh.com.au/business/companies/exxon-ceo-lee-raymond-the-darth-vader-of-global-warming-dies-at-87-20260611-p605tn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The former head of Exxon Mobil oversaw the oil industry’s biggest corporate merger and brandished hostility towards climate-change activism.",
-      "pubDate": "Thu, 11 Jun 2026 17:20:44 +1000",
+      "title": "ASX set to jump, Wall Street rebounds as Trump calls off Iran attacks",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-wall-street-rebounds-as-trump-calls-off-iran-attacks-20260612-p6065a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are climbing, and oil prices are falling after President Donald Trump called off his threat to bomb Iran.",
+      "pubDate": "Fri, 12 Jun 2026 05:15:36 +1000",
       "source": "SMH"
     },
     {
-      "title": "Norfolk bets US$55M in blockbuster Chilean copper reset",
-      "link": "https://www.smh.com.au/business/companies/norfolk-bets-us-55m-in-blockbuster-chilean-copper-reset-20260611-p6062p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Norfolk Metals is set to buy Chile’s permitted Ciclón copper project in a US$55M ($69M) deal, backed by a raising of up to $120M and planned resource-growth drilling.",
-      "pubDate": "Thu, 11 Jun 2026 17:06:48 +1000",
+      "title": "Far-reaching gag order means we will never know how bad security is at AMEX",
+      "link": "https://www.smh.com.au/business/banking-and-finance/far-reaching-gag-order-means-we-will-never-know-how-bad-security-is-at-amex-20260605-p604dm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The privacy commissioner formed a preliminary opinion that American Express was not protecting its customers from insider threats to their security. Then the credit card company’s lawyers got to work.",
+      "pubDate": "Fri, 12 Jun 2026 05:45:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Beetaloo fires up seismic as NT pilot gas production nears",
-      "link": "https://www.smh.com.au/business/companies/beetaloo-fires-up-seismic-as-nt-pilot-gas-production-nears-20260611-p60627.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Beetaloo Energy is revving up in the NT, with Carpentaria-5H flow testing due this month and a 230km seismic campaign aimed at unlocking a massive 20Tcf gas prize.",
-      "pubDate": "Thu, 11 Jun 2026 16:48:55 +1000",
+      "title": "State government offloads former Supreme Court building in $25m sale",
+      "link": "https://www.smh.com.au/business/companies/state-government-offloads-former-supreme-court-building-in-25m-sale-20260610-p605ii.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Allan government will be hoping for a better result than the last time the building was on the market in the early 1990s.",
+      "pubDate": "Fri, 12 Jun 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Well-known Woolloomooloo pub sold in $15m deal",
+      "link": "https://www.smh.com.au/business/companies/well-known-woolloomooloo-pub-sold-in-15m-deal-20260611-p605zh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A formerly ASX-listed company has bought the well-known harbourside-based Frisco Hotel in Woolloomooloo.",
+      "pubDate": "Fri, 12 Jun 2026 05:01:00 +1000",
       "source": "SMH"
     },
     {
@@ -7842,10 +7889,24 @@
       "source": "SMH"
     },
     {
-      "title": "Larvotto launches $54M Hammer bid for bolt-on Qld copper",
-      "link": "https://www.smh.com.au/business/companies/larvotto-launches-54m-hammer-bid-for-bolt-on-qld-copper-20260611-p6061y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto Resources has launched a $55M all-scrip bid for Hammer Metals, in a move to bolt on the huge Mt Isa copper portfolio, backed by a $15M placement from major Glencore.",
-      "pubDate": "Thu, 11 Jun 2026 16:34:48 +1000",
+      "title": "Australia cops three ducks in first two overs to lose Bangladesh series",
+      "link": "https://www.abc.net.au/news/2026-06-12/australia-loses-odi-series-to-bangladesh/106789094",
+      "snippet": "",
+      "pubDate": "Thu, 11 Jun 2026 19:10:05 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "I just got my dream job. Should I worry about this one unusual thing?",
+      "link": "https://www.smh.com.au/business/workplace/i-just-got-my-dream-job-should-i-worry-about-this-one-unusual-thing-20260611-p605zw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Any resignation, unless there’s a very particular reason for it, raises questions about an organisation – ones you deserve to have answered.",
+      "pubDate": "Fri, 12 Jun 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "The shock-jock whisperer managing One Nation’s talent",
+      "link": "https://www.smh.com.au/business/companies/the-shock-jock-whisperer-managing-one-nation-s-talent-20260610-p605lk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Rookie One Nation senator Sean Bell, who was embarrassed on 2GB last week, has a talk radio veteran running his media.",
+      "pubDate": "Fri, 12 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7853,41 +7914,6 @@
       "link": "https://www.abc.net.au/news/2026-06-11/australian-swimming-trials-chalmers-mckeown-pallister/106788356",
       "snippet": "",
       "pubDate": "Thu, 11 Jun 2026 10:57:01 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Trying not to cry': Rabbitohs rise after emotional Jai Arrow moment",
-      "link": "https://www.abc.net.au/news/2026-06-11/nrl-live-updates-south-sydney-rabbitohs-brisbane-broncos/106782324",
-      "snippet": "",
-      "pubDate": "Thu, 11 Jun 2026 08:32:35 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Inspirational' Dawson stars as Crows send premiership statement",
-      "link": "https://www.abc.net.au/news/2026-06-11/afl-rd-14-live-blog-western-bulldogs-adelaide-crows/106779658",
-      "snippet": "",
-      "pubDate": "Thu, 11 Jun 2026 08:31:20 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Augustus wraps up drilling at emerging WA gold discovery",
-      "link": "https://www.smh.com.au/business/companies/augustus-wraps-up-drilling-at-emerging-wa-gold-discovery-20260611-p6062i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Augustus Minerals has wrapped up a 1650m RC drill program at its Music Well gold project in WA. Assays are pending, with near-term sample re-split results also due from its maiden campaign.",
-      "pubDate": "Thu, 11 Jun 2026 16:58:07 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "We get distracted 275 times a day. Use three ways to stay focused",
-      "link": "https://www.smh.com.au/business/workplace/we-get-distracted-275-times-a-day-use-three-ways-to-stay-focused-20260611-p605v2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Even when there’s no one else around, we are bombarded with constant virtual pings from new messages and emails all day long.",
-      "pubDate": "Thu, 11 Jun 2026 15:50:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Casey McLean's Origin arrival is proof the future has come",
-      "link": "https://www.abc.net.au/news/2026-06-11/casey-mclean-state-of-origin-new-south-wales-origin/106785842",
-      "snippet": "",
-      "pubDate": "Thu, 11 Jun 2026 05:28:40 +0000",
       "source": "ABC"
     }
   ]
