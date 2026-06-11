@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-11T11:08:36.296Z",
+  "fetchedAt": "2026-06-11T16:34:39.805Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -3.3,
+      "changePercent": -3.36,
       "previousClose": 0.72,
       "asOf": "2026-06-11",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.4,
+      "changePercent": -1.2,
       "previousClose": 0.61,
       "asOf": "2026-06-11",
       "history": [
@@ -2264,7 +2264,7 @@
     "audcny": {
       "value": 4.74,
       "change": -0.18,
-      "changePercent": -3.63,
+      "changePercent": -3.68,
       "previousClose": 4.92,
       "asOf": "2026-06-11",
       "history": [
@@ -3392,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.27,
-      "change": -1.21,
-      "changePercent": -1.06,
+      "value": 112.3,
+      "change": -1.17,
+      "changePercent": -1.03,
       "previousClose": 113.47,
       "asOf": "2026-06-11",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-06-11",
-          "close": 112.27
+          "close": 112.3
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-06-11",
-          "close": 112.27
+          "close": 112.3
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-06-11",
-          "close": 112.27
+          "close": 112.3
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-06-11",
-          "close": 112.27
+          "close": 112.3
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -3.3,
+    "changePercent": -3.36,
     "previousClose": 0.72,
     "asOf": "2026-06-11",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.1,
-      "change": -8.97,
-      "changePercent": -9.15,
+      "value": 91.21,
+      "change": -6.86,
+      "changePercent": -7,
       "previousClose": 98.07,
       "asOf": "2026-06-11",
       "history": [
@@ -5942,16 +5942,16 @@
         },
         {
           "date": "2026-06-11",
-          "close": 89.1
+          "close": 91.21
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 92.02,
-      "change": -12.19,
-      "changePercent": -11.7,
+      "value": 93.78,
+      "change": -10.43,
+      "changePercent": -10.01,
       "previousClose": 104.21,
       "asOf": "2026-06-11",
       "history": [
@@ -6045,16 +6045,16 @@
         },
         {
           "date": "2026-06-11",
-          "close": 92.02
+          "close": 93.78
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.12,
-      "change": 0.21,
-      "changePercent": 7.25,
+      "value": 3.09,
+      "change": 0.18,
+      "changePercent": 6.15,
       "previousClose": 2.91,
       "asOf": "2026-06-11",
       "history": [
@@ -6148,7 +6148,7 @@
         },
         {
           "date": "2026-06-11",
-          "close": 3.12
+          "close": 3.09
         }
       ],
       "name": "Natural Gas",
@@ -6327,10 +6327,6 @@
       {
         "date": "2026-06-10",
         "close": 8653.3
-      },
-      {
-        "date": "2026-06-11",
-        "close": 8633.2
       }
     ]
   },
@@ -7461,21 +7457,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4110.3,
-      "change": -608.4,
-      "changePercent": -12.89
+      "price": 4109.7,
+      "change": -609,
+      "changePercent": -12.91
     },
     {
       "name": "Silver",
-      "price": 64.06,
-      "change": -21.42,
-      "changePercent": -25.06
+      "price": 64.22,
+      "change": -21.27,
+      "changePercent": -24.88
     },
     {
       "name": "Copper",
-      "price": 6.23,
-      "change": -0.19,
-      "changePercent": -2.9
+      "price": 6.29,
+      "change": -0.12,
+      "changePercent": -1.95
     }
   ],
   "housing": {
@@ -7860,10 +7856,17 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Jai Arrow given emotional guard of honour, Rabbitohs belting Broncos",
+      "title": "'Trying not to cry': Rabbitohs rise after emotional Jai Arrow moment",
       "link": "https://www.abc.net.au/news/2026-06-11/nrl-live-updates-south-sydney-rabbitohs-brisbane-broncos/106782324",
       "snippet": "",
       "pubDate": "Thu, 11 Jun 2026 08:32:35 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "'Inspirational' Dawson stars as Crows send premiership statement",
+      "link": "https://www.abc.net.au/news/2026-06-11/afl-rd-14-live-blog-western-bulldogs-adelaide-crows/106779658",
+      "snippet": "",
+      "pubDate": "Thu, 11 Jun 2026 08:31:20 +0000",
       "source": "ABC"
     },
     {
@@ -7885,13 +7888,6 @@
       "link": "https://www.abc.net.au/news/2026-06-11/casey-mclean-state-of-origin-new-south-wales-origin/106785842",
       "snippet": "",
       "pubDate": "Thu, 11 Jun 2026 05:28:40 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Knicks pull off Madison Square Garden miracle in NBA Finals",
-      "link": "https://www.abc.net.au/news/2026-06-11/knicks-pull-off-madison-square-garden-miracle-in-nba-finals/106786362",
-      "snippet": "",
-      "pubDate": "Thu, 11 Jun 2026 04:36:49 +0000",
       "source": "ABC"
     }
   ]
