@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-17T11:20:27.049Z",
+  "fetchedAt": "2026-06-17T16:10:53.012Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": -0.02,
-      "changePercent": -2.11,
+      "change": -0.01,
+      "changePercent": -1.97,
       "previousClose": 0.72,
       "asOf": "2026-06-17",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.58,
+      "changePercent": -1.44,
       "previousClose": 0.62,
       "asOf": "2026-06-17",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
+      "value": 4.78,
       "change": -0.12,
-      "changePercent": -2.55,
+      "changePercent": -2.41,
       "previousClose": 4.89,
       "asOf": "2026-06-17",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 4.77
+          "close": 4.78
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 4.77
+          "close": 4.78
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 4.77
+          "close": 4.78
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-06-17",
-          "close": 4.77
+          "close": 4.78
         }
       ]
     },
     "audjpy": {
-      "value": 113.15,
-      "change": -1.07,
-      "changePercent": -0.93,
+      "value": 113.25,
+      "change": -0.96,
+      "changePercent": -0.84,
       "previousClose": 114.21,
       "asOf": "2026-06-17",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 113.14
+          "close": 113.25
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 113.14
+          "close": 113.25
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 113.14
+          "close": 113.25
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-06-17",
-          "close": 113.14
+          "close": 113.25
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": -0.02,
-    "changePercent": -2.11,
+    "change": -0.01,
+    "changePercent": -1.97,
     "previousClose": 0.72,
     "asOf": "2026-06-17",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 75.72,
-      "change": -32.94,
-      "changePercent": -30.31,
+      "value": 75.91,
+      "change": -32.75,
+      "changePercent": -30.14,
       "previousClose": 108.66,
       "asOf": "2026-06-17",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-06-17",
-          "close": 75.72
+          "close": 75.91
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 79.35,
-      "change": -32.75,
-      "changePercent": -29.21,
+      "value": 79.61,
+      "change": -32.49,
+      "changePercent": -28.98,
       "previousClose": 112.1,
       "asOf": "2026-06-17",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-06-17",
-          "close": 79.35
+          "close": 79.61
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.29,
-      "change": 0.26,
-      "changePercent": 8.66,
+      "value": 3.17,
+      "change": 0.15,
+      "changePercent": 4.79,
       "previousClose": 3.02,
       "asOf": "2026-06-17",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-06-17",
-          "close": 3.29
+          "close": 3.17
         }
       ],
       "name": "Natural Gas",
@@ -6291,10 +6291,6 @@
       {
         "date": "2026-06-16",
         "close": 8917.7
-      },
-      {
-        "date": "2026-06-17",
-        "close": 8966.3
       }
     ]
   },
@@ -7393,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4348.4,
-      "change": -204.1,
-      "changePercent": -4.48
+      "price": 4384.3,
+      "change": -168.2,
+      "changePercent": -3.69
     },
     {
       "name": "Silver",
-      "price": 69.96,
-      "change": -7.12,
-      "changePercent": -9.24
+      "price": 70.88,
+      "change": -6.19,
+      "changePercent": -8.04
     },
     {
       "name": "Copper",
-      "price": 6.53,
-      "change": 0.25,
-      "changePercent": 4.05
+      "price": 6.5,
+      "change": 0.22,
+      "changePercent": 3.56
     }
   ],
   "housing": {
@@ -7778,11 +7774,18 @@
       "source": "SMH"
     },
     {
-      "title": "Qantas names London as first destination for Project Sunrise flights",
+      "title": "Vega: Qantas shows off its first ultra-long-haul plane",
       "link": "https://www.smh.com.au/business/companies/qantas-names-london-as-first-destination-for-project-sunrise-flights-20260612-p606bq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Nearly a decade after Project Sunrise was announced by Qantas, the specially built plane will allow Australians to travel non-stop to London.",
-      "pubDate": "Wed, 17 Jun 2026 21:17:48 +1000",
+      "pubDate": "Thu, 18 Jun 2026 01:43:47 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Quick hits: They did the Munster mash, so why no Walsh?",
+      "link": "https://www.abc.net.au/news/2026-06-17/state-of-origin-ii-blues-maroons-quick-hits-walsh-cobbo-staggs/106803222",
+      "snippet": "",
+      "pubDate": "Wed, 17 Jun 2026 13:46:06 +0000",
+      "source": "ABC"
     },
     {
       "title": "Brisbane's Lang Park to undergo largest upgrade in 23 years",
@@ -7792,7 +7795,7 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Munster passes concussion test as Maroons try to stage Origin comeback",
+      "title": "Maroons maul Blues in Melbourne to send Origin series to a decider",
       "link": "https://www.abc.net.au/news/2026-06-17/state-of-origin-game-ii-live-nsw-vs-queensland-mcg-blog/106802642",
       "snippet": "",
       "pubDate": "Wed, 17 Jun 2026 07:59:56 +0000",
