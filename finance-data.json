@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-18T10:53:04.179Z",
+  "fetchedAt": "2026-06-18T15:58:52.827Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.67,
+      "changePercent": -1.49,
       "previousClose": 0.71,
       "asOf": "2026-06-18",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.41,
+      "changePercent": -0.29,
       "previousClose": 0.61,
       "asOf": "2026-06-18",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": -0.11,
-      "changePercent": -2.28,
+      "value": 4.76,
+      "change": -0.09,
+      "changePercent": -1.92,
       "previousClose": 4.85,
       "asOf": "2026-06-18",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-06-18",
-          "close": 4.74
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.79,
-      "change": -0.46,
-      "changePercent": -0.41,
+      "value": 113.19,
+      "change": -0.06,
+      "changePercent": -0.05,
       "previousClose": 113.25,
       "asOf": "2026-06-18",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 112.79
+          "close": 113.19
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 112.78
+          "close": 113.19
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 112.78
+          "close": 113.19
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 112.78
+          "close": 113.19
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.67,
+    "changePercent": -1.49,
     "previousClose": 0.71,
     "asOf": "2026-06-18",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 74.71,
-      "change": -33.95,
-      "changePercent": -31.24,
+      "value": 73.81,
+      "change": -34.85,
+      "changePercent": -32.07,
       "previousClose": 108.66,
       "asOf": "2026-06-18",
       "history": [
@@ -5942,16 +5942,16 @@
         },
         {
           "date": "2026-06-18",
-          "close": 74.71
+          "close": 73.81
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 78.68,
-      "change": -33.42,
-      "changePercent": -29.81,
+      "value": 77.51,
+      "change": -34.59,
+      "changePercent": -30.86,
       "previousClose": 112.1,
       "asOf": "2026-06-18",
       "history": [
@@ -6045,16 +6045,16 @@
         },
         {
           "date": "2026-06-18",
-          "close": 78.68
+          "close": 77.51
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.15,
-      "change": 0.13,
-      "changePercent": 4.17,
+      "value": 3.21,
+      "change": 0.19,
+      "changePercent": 6.18,
       "previousClose": 3.02,
       "asOf": "2026-06-18",
       "history": [
@@ -6148,7 +6148,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 3.15
+          "close": 3.21
         }
       ],
       "name": "Natural Gas",
@@ -6327,10 +6327,6 @@
       {
         "date": "2026-06-17",
         "close": 8966.3
-      },
-      {
-        "date": "2026-06-18",
-        "close": 8911.1
       }
     ]
   },
@@ -7461,21 +7457,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4284.3,
-      "change": -268.2,
-      "changePercent": -5.89
+      "price": 4249.9,
+      "change": -302.6,
+      "changePercent": -6.65
     },
     {
       "name": "Silver",
-      "price": 68.2,
-      "change": -8.87,
-      "changePercent": -11.51
+      "price": 66.25,
+      "change": -10.82,
+      "changePercent": -14.04
     },
     {
       "name": "Copper",
-      "price": 6.41,
+      "price": 6.4,
       "change": 0.13,
-      "changePercent": 2.12
+      "changePercent": 2.06
     }
   ],
   "housing": {
@@ -7853,6 +7849,13 @@
       "source": "SMH"
     },
     {
+      "title": "Live: Czechia, South Africa desperate for wins, Ivory Coast forward denied visa",
+      "link": "https://www.abc.net.au/news/2026-06-19/world-cup-live-cze-south-africa-sui-bhi-can-qat-mex-kor/106812430",
+      "snippet": "",
+      "pubDate": "Thu, 18 Jun 2026 15:43:18 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "‘He’s a legend’: Sandilands reveals he has united with Hanson",
       "link": "https://www.smh.com.au/business/companies/he-s-a-legend-sandilands-reveals-he-has-united-with-hanson-20260618-p6086i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The former radio host says he has helped One Nation spread its message, but the party has denied he has any formal role in its organisation.",
@@ -7878,13 +7881,6 @@
       "link": "https://www.abc.net.au/news/2026-06-18/queensland-state-of-origin-max-plath-game-ii/106813208",
       "snippet": "",
       "pubDate": "Thu, 18 Jun 2026 02:37:30 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Cycling star to miss Tour de France in major blow to Vingegaard's hopes",
-      "link": "https://www.abc.net.au/news/2026-06-18/tour-de-france-wout-van-aert-confirmed-out-with-elbow-injury/106812318",
-      "snippet": "",
-      "pubDate": "Wed, 17 Jun 2026 23:32:49 +0000",
       "source": "ABC"
     }
   ]
