@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-18T15:58:52.827Z",
+  "fetchedAt": "2026-06-18T21:01:40.748Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.49,
+      "changePercent": -1.64,
       "previousClose": 0.71,
       "asOf": "2026-06-18",
       "history": [
@@ -99,6 +99,10 @@
         {
           "date": "2026-06-16",
           "close": 0.71
+        },
+        {
+          "date": "2026-06-17",
+          "close": 0.7
         },
         {
           "date": "2026-06-18",
@@ -374,6 +378,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-06-17",
+          "close": 0.7
+        },
+        {
           "date": "2026-06-18",
           "close": 0.7
         }
@@ -485,7 +493,7 @@
         },
         {
           "date": "2026-06-14",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-06-18",
@@ -1123,7 +1131,7 @@
         },
         {
           "date": "2026-06-14",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-06-18",
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.29,
+      "changePercent": -0.41,
       "previousClose": 0.61,
       "asOf": "2026-06-18",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-06-16",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-17",
           "close": 0.61
         },
         {
@@ -1501,6 +1513,10 @@
         },
         {
           "date": "2026-06-16",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-17",
           "close": 0.61
         },
         {
@@ -2262,9 +2278,9 @@
       ]
     },
     "audcny": {
-      "value": 4.76,
-      "change": -0.09,
-      "changePercent": -1.92,
+      "value": 4.75,
+      "change": -0.11,
+      "changePercent": -2.22,
       "previousClose": 4.85,
       "asOf": "2026-06-18",
       "history": [
@@ -2361,8 +2377,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-06-17",
+          "close": 4.74
+        },
+        {
           "date": "2026-06-18",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2634,8 +2654,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-06-17",
+          "close": 4.74
+        },
+        {
           "date": "2026-06-18",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2745,11 +2769,11 @@
         },
         {
           "date": "2026-06-14",
-          "close": 4.77
+          "close": 4.74
         },
         {
           "date": "2026-06-18",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3383,18 +3407,18 @@
         },
         {
           "date": "2026-06-14",
-          "close": 4.77
+          "close": 4.74
         },
         {
           "date": "2026-06-18",
-          "close": 4.76
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 113.19,
-      "change": -0.06,
-      "changePercent": -0.05,
+      "value": 113.06,
+      "change": -0.19,
+      "changePercent": -0.17,
       "previousClose": 113.25,
       "asOf": "2026-06-18",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 113.33
         },
         {
+          "date": "2026-06-17",
+          "close": 112.71
+        },
+        {
           "date": "2026-06-18",
-          "close": 113.19
+          "close": 113.06
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 113.33
         },
         {
+          "date": "2026-06-17",
+          "close": 112.71
+        },
+        {
           "date": "2026-06-18",
-          "close": 113.19
+          "close": 113.06
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-06-14",
-          "close": 113.33
+          "close": 112.71
         },
         {
           "date": "2026-06-18",
-          "close": 113.19
+          "close": 113.06
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-06-14",
-          "close": 113.33
+          "close": 112.71
         },
         {
           "date": "2026-06-18",
-          "close": 113.19
+          "close": 113.06
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.49,
+    "changePercent": -1.64,
     "previousClose": 0.71,
     "asOf": "2026-06-18",
     "history": [
@@ -4620,6 +4652,10 @@
       {
         "date": "2026-06-16",
         "close": 0.71
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.7
       },
       {
         "date": "2026-06-18",
@@ -4895,6 +4931,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-06-17",
+        "close": 0.7
+      },
+      {
         "date": "2026-06-18",
         "close": 0.7
       }
@@ -5006,7 +5046,7 @@
       },
       {
         "date": "2026-06-14",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-06-18",
@@ -5644,7 +5684,7 @@
       },
       {
         "date": "2026-06-14",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-06-18",
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 73.81,
-      "change": -34.85,
-      "changePercent": -32.07,
+      "value": 75.45,
+      "change": -33.21,
+      "changePercent": -30.56,
       "previousClose": 108.66,
       "asOf": "2026-06-18",
       "history": [
@@ -5942,16 +5982,16 @@
         },
         {
           "date": "2026-06-18",
-          "close": 73.81
+          "close": 75.45
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 77.51,
-      "change": -34.59,
-      "changePercent": -30.86,
+      "value": 79.36,
+      "change": -32.74,
+      "changePercent": -29.21,
       "previousClose": 112.1,
       "asOf": "2026-06-18",
       "history": [
@@ -6045,16 +6085,16 @@
         },
         {
           "date": "2026-06-18",
-          "close": 77.51
+          "close": 79.36
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.21,
+      "value": 3.22,
       "change": 0.19,
-      "changePercent": 6.18,
+      "changePercent": 6.35,
       "previousClose": 3.02,
       "asOf": "2026-06-18",
       "history": [
@@ -6148,7 +6188,7 @@
         },
         {
           "date": "2026-06-18",
-          "close": 3.21
+          "close": 3.22
         }
       ],
       "name": "Natural Gas",
@@ -7457,21 +7497,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4249.9,
-      "change": -302.6,
-      "changePercent": -6.65
+      "price": 4229.4,
+      "change": -323.1,
+      "changePercent": -7.1
     },
     {
       "name": "Silver",
-      "price": 66.25,
-      "change": -10.82,
-      "changePercent": -14.04
+      "price": 65.81,
+      "change": -11.27,
+      "changePercent": -14.62
     },
     {
       "name": "Copper",
-      "price": 6.4,
-      "change": 0.13,
-      "changePercent": 2.06
+      "price": 6.38,
+      "change": 0.11,
+      "changePercent": 1.68
     }
   ],
   "housing": {
@@ -7807,60 +7847,60 @@
   ],
   "news": [
     {
-      "title": "ASX falls after Fed spooks Wall Street; Miners and energy stocks decline",
-      "link": "https://www.smh.com.au/business/markets/asx-set-for-flat-start-wall-street-wobbles-as-fed-stays-on-hold-rate-rise-possible-this-year-20260618-p607tm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket finished lower after speculation that the US central bank would hike interest rates this year weighed on prices for base metals, sending down miners.",
-      "pubDate": "Thu, 18 Jun 2026 17:24:49 +1000",
+      "title": "ASX set to fall, Wall Street rebounds; Intel surges as Trump announces Apple deal",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-wall-street-rebounds-intel-surges-as-trump-announces-apple-deal-20260619-p6088p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks rose on Wall Street, taking back most of their losses from a day earlier, and are on track to notch weekly gains.",
+      "pubDate": "Fri, 19 Jun 2026 05:21:01 +1000",
       "source": "SMH"
     },
     {
-      "title": "Litchfield maps out new NT copper-nickel search zone",
-      "link": "https://www.smh.com.au/business/companies/litchfield-maps-out-new-nt-copper-nickel-search-zone-20260618-p60868.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Litchfield Minerals says its BHP Xplor-backed work has recast its Harts Range project in the NT as a broad copper-nickel system, with new geophysics refining drill targets.",
-      "pubDate": "Thu, 18 Jun 2026 16:50:08 +1000",
+      "title": "Kyle needed to settle. He had a new $2 million mortgage charging up to 30% interest",
+      "link": "https://www.smh.com.au/business/companies/kyle-needed-to-settle-he-had-a-new-2-million-mortgage-charging-up-to-30-percent-interest-20260617-p607h2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The shock jock projects a wealthy image, but a month after being sacked he signed up to a second mortgage on one Sydney property charging an eye-watering rate.",
+      "pubDate": "Fri, 19 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "True North bags neighbouring deposit to supercharge QLD copper play",
-      "link": "https://www.smh.com.au/business/companies/true-north-bags-neighbouring-deposit-to-supercharge-qld-copper-play-20260618-p6087n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "True North Copper has consolidated its Cloncurry copper project, by acquiring the adjacent Mongoose resource, combining the Taipan-Mongoose resources into a bigger system.",
-      "pubDate": "Thu, 18 Jun 2026 18:38:59 +1000",
+      "title": "Mall gets a makeover; Bourke Street buildings sell; Moon sets on North Fitzroy reception centre",
+      "link": "https://www.smh.com.au/business/companies/mall-gets-a-makeover-bourke-street-buildings-sell-moon-sets-on-north-fitzroy-reception-centre-20260618-p6083f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Hot on the heels of the Midtown Plaza’s $154 million sale comes another big Bourke Street Mall listing, next door to the wildly popular Mecca superstore.",
+      "pubDate": "Fri, 19 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Aureka swells Vic gold bounty above 450,000 ounces",
-      "link": "https://www.smh.com.au/business/companies/aureka-swells-vic-gold-bounty-above-450-000-ounces-20260618-p60878.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka has lifted its global inferred gold inventory 26 per cent to 454,800oz after a sharp upgrade at its Irvine project in Victoria’s richly endowed Stawell corridor.",
-      "pubDate": "Thu, 18 Jun 2026 18:02:30 +1000",
+      "title": "Qantas’ Project Sunrise is no sonic boom, but an incremental ‘moonshot’",
+      "link": "https://www.smh.com.au/business/companies/qantas-project-sunrise-is-no-sonic-boom-but-an-incremental-moonshot-20260612-p606bs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Qantas’ new 22-hour mega-long-haul plane represents something rare in the commercial aviation sector: engineering progress. Whether travellers buy it is another question.",
+      "pubDate": "Fri, 19 Jun 2026 05:50:35 +1000",
       "source": "SMH"
     },
     {
-      "title": "HSBC cops $35m penalty over scam call failings that left a toll on customers",
-      "link": "https://www.smh.com.au/business/banking-and-finance/hsbc-cops-35m-penalty-over-scam-call-failings-that-left-a-toll-on-customers-20260618-p607x9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "More than 1000 of HSBC’s Australian customers were targeted by the scheme where scammers used text messages and spoofed numbers to convince customers to transfer large sums of cash.",
-      "pubDate": "Thu, 18 Jun 2026 17:55:24 +1000",
+      "title": "I wrote a stinging letter to an employer who rejected me. Was that wise?",
+      "link": "https://www.smh.com.au/business/workplace/i-wrote-a-stinging-letter-to-an-employer-who-rejected-me-was-that-wise-20260618-p607xg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "After waiting weeks or months to hear back from a dream role, it’s understandable to want to vent your frustration when you hear nothing back.",
+      "pubDate": "Fri, 19 Jun 2026 05:01:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Forrestania stakes claim as next emerging gold force in WA",
-      "link": "https://www.smh.com.au/business/companies/forrestania-stakes-claim-as-next-emerging-gold-force-in-wa-20260618-p60860.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Forrestania Resources completes its rapid WA transformation, targeting a late-2026 gold pour backed by a massive 3.2Mtpa regional processing hub and 1.68Moz.",
-      "pubDate": "Thu, 18 Jun 2026 16:45:10 +1000",
+      "title": "Pauline Hanson is picking up support but won’t fix our one true problem",
+      "link": "https://www.smh.com.au/business/the-economy/pauline-hanson-is-picking-up-support-but-won-t-fix-our-one-true-problem-20260618-p6082q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "One Nation’s rise reflects some real worries Australians have. But backing their leader is a sign of short-sightedness.",
+      "pubDate": "Fri, 19 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Live: Czechia, South Africa desperate for wins, Ivory Coast forward denied visa",
-      "link": "https://www.abc.net.au/news/2026-06-19/world-cup-live-cze-south-africa-sui-bhi-can-qat-mex-kor/106812430",
+      "title": "24 hour party people to return to the Cross",
+      "link": "https://www.smh.com.au/business/small-business/24-hour-party-people-to-return-to-the-cross-20260618-p6083r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Redevelopment of a square block in Kings Cross that housed some of the suburb’s most famed late-night establishments – The Bourbon and Beefsteak, and Les Girls – is one step closer to completion.",
+      "pubDate": "Fri, 19 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Crows legend Tony Modra seriously injured in crash",
+      "link": "https://www.abc.net.au/news/2026-06-18/tony-modra-involved-in-serious-crash-sa/106731684",
       "snippet": "",
-      "pubDate": "Thu, 18 Jun 2026 15:43:18 +0000",
+      "pubDate": "Thu, 18 Jun 2026 13:01:18 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "‘He’s a legend’: Sandilands reveals he has united with Hanson",
-      "link": "https://www.smh.com.au/business/companies/he-s-a-legend-sandilands-reveals-he-has-united-with-hanson-20260618-p6086i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The former radio host says he has helped One Nation spread its message, but the party has denied he has any formal role in its organisation.",
-      "pubDate": "Thu, 18 Jun 2026 17:59:09 +1000",
-      "source": "SMH"
     },
     {
       "title": "Giants not sweating on Greene contract extension talks",
