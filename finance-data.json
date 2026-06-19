@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-19T15:47:46.061Z",
+  "fetchedAt": "2026-06-19T20:13:36.892Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.23,
+      "changePercent": -2.19,
       "previousClose": 0.72,
       "asOf": "2026-06-19",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-06-17",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-18",
           "close": 0.7
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-06-17",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-18",
           "close": 0.7
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.63,
+      "changePercent": -0.68,
       "previousClose": 0.62,
       "asOf": "2026-06-19",
       "history": [
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-06-17",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-18",
           "close": 0.61
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-06-17",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-18",
           "close": 0.61
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
+      "value": 4.75,
       "change": -0.13,
-      "changePercent": -2.7,
+      "changePercent": -2.67,
       "previousClose": 4.88,
       "asOf": "2026-06-19",
       "history": [
@@ -2353,8 +2369,12 @@
           "close": 4.74
         },
         {
+          "date": "2026-06-18",
+          "close": 4.75
+        },
+        {
           "date": "2026-06-19",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.74
         },
         {
+          "date": "2026-06-18",
+          "close": 4.75
+        },
+        {
           "date": "2026-06-19",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-06-14",
-          "close": 4.74
+          "close": 4.75
         },
         {
           "date": "2026-06-19",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-06-14",
-          "close": 4.74
+          "close": 4.75
         },
         {
           "date": "2026-06-19",
-          "close": 4.74
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 113.05,
-      "change": -0.85,
-      "changePercent": -0.75,
+      "value": 113.07,
+      "change": -0.83,
+      "changePercent": -0.73,
       "previousClose": 113.91,
       "asOf": "2026-06-19",
       "history": [
@@ -3479,8 +3503,12 @@
           "close": 112.71
         },
         {
+          "date": "2026-06-18",
+          "close": 113.1
+        },
+        {
           "date": "2026-06-19",
-          "close": 113.05
+          "close": 113.07
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 112.71
         },
         {
+          "date": "2026-06-18",
+          "close": 113.1
+        },
+        {
           "date": "2026-06-19",
-          "close": 113.05
+          "close": 113.07
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-06-14",
-          "close": 112.71
+          "close": 113.1
         },
         {
           "date": "2026-06-19",
-          "close": 113.05
+          "close": 113.07
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-06-14",
-          "close": 112.71
+          "close": 113.1
         },
         {
           "date": "2026-06-19",
-          "close": 113.06
+          "close": 113.07
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.23,
+    "changePercent": -2.19,
     "previousClose": 0.72,
     "asOf": "2026-06-19",
     "history": [
@@ -4603,6 +4635,10 @@
       },
       {
         "date": "2026-06-17",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-18",
         "close": 0.7
       },
       {
@@ -4876,6 +4912,10 @@
       },
       {
         "date": "2026-06-17",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-18",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 76.61,
-      "change": -32.05,
-      "changePercent": -29.5,
+      "value": 76.54,
+      "change": -32.12,
+      "changePercent": -29.56,
       "previousClose": 108.66,
       "asOf": "2026-06-19",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-06-19",
-          "close": 76.61
+          "close": 76.54
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 80.6,
-      "change": -31.5,
-      "changePercent": -28.1,
+      "value": 80.59,
+      "change": -31.51,
+      "changePercent": -28.11,
       "previousClose": 112.1,
       "asOf": "2026-06-19",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-06-19",
-          "close": 80.6
+          "close": 80.59
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.21,
-      "change": 0.19,
-      "changePercent": 6.28,
+      "value": 3.2,
+      "change": 0.17,
+      "changePercent": 5.75,
       "previousClose": 3.02,
       "asOf": "2026-06-19",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 3.21
+          "close": 3.2
         }
       ],
       "name": "Natural Gas",
@@ -7437,21 +7477,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4167,
-      "change": -385.5,
-      "changePercent": -8.47
+      "price": 4172.9,
+      "change": -379.6,
+      "changePercent": -8.34
     },
     {
       "name": "Silver",
-      "price": 64.68,
-      "change": -12.4,
-      "changePercent": -16.09
+      "price": 64.91,
+      "change": -12.16,
+      "changePercent": -15.78
     },
     {
       "name": "Copper",
-      "price": 6.33,
+      "price": 6.34,
       "change": 0.06,
-      "changePercent": 0.92
+      "changePercent": 1.04
     }
   ],
   "housing": {
@@ -7836,6 +7876,13 @@
       "source": "ABC"
     },
     {
+      "title": "The road to Australian citizenship for separated Afghan sisters",
+      "link": "https://www.abc.net.au/news/2026-06-20/afghan-sisters-reunited-and-obtain-citizenship/106804410",
+      "snippet": "",
+      "pubDate": "Fri, 19 Jun 2026 18:51:29 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Renshaw shines with bat and ball as Aussies seal Bangladesh T20 series",
       "link": "https://www.abc.net.au/news/2026-06-20/australia-wins-t20-series-with-six-run-win-over-bangladesh/106821852",
       "snippet": "",
@@ -7862,13 +7909,6 @@
       "snippet": "",
       "pubDate": "Fri, 19 Jun 2026 08:01:40 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "‘I resigned’: Former premier rues trust in KPMG at fiery hearing",
-      "link": "https://www.smh.com.au/business/companies/i-resigned-former-premier-rues-trust-in-kpmg-at-fiery-hearing-20260619-p608bb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Former KPMG director Mike Baird has savaged the consultancy’s use of legal professional privilege to shield key documents in a whistleblower scandal from public view.",
-      "pubDate": "Fri, 19 Jun 2026 16:09:38 +1000",
-      "source": "SMH"
     }
   ]
 }
