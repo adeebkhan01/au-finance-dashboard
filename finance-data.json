@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-19T11:03:37.544Z",
+  "fetchedAt": "2026-06-19T15:47:46.061Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.19,
+      "changePercent": -2.23,
       "previousClose": 0.72,
       "asOf": "2026-06-19",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.59,
+      "changePercent": -0.63,
       "previousClose": 0.62,
       "asOf": "2026-06-19",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
+      "value": 4.74,
       "change": -0.13,
-      "changePercent": -2.68,
+      "changePercent": -2.7,
       "previousClose": 4.88,
       "asOf": "2026-06-19",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 4.75
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 4.75
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 4.75
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-06-19",
-          "close": 4.75
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 113.1,
-      "change": -0.81,
-      "changePercent": -0.71,
+      "value": 113.05,
+      "change": -0.85,
+      "changePercent": -0.75,
       "previousClose": 113.91,
       "asOf": "2026-06-19",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 113.1
+          "close": 113.05
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 113.1
+          "close": 113.05
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 113.1
+          "close": 113.05
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 113.1
+          "close": 113.06
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.19,
+    "changePercent": -2.23,
     "previousClose": 0.72,
     "asOf": "2026-06-19",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 75.71,
-      "change": -32.95,
-      "changePercent": -30.32,
+      "value": 76.61,
+      "change": -32.05,
+      "changePercent": -29.5,
       "previousClose": 108.66,
       "asOf": "2026-06-19",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-06-19",
-          "close": 75.71
+          "close": 76.61
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 79.46,
-      "change": -32.64,
-      "changePercent": -29.12,
+      "value": 80.6,
+      "change": -31.5,
+      "changePercent": -28.1,
       "previousClose": 112.1,
       "asOf": "2026-06-19",
       "history": [
@@ -6025,7 +6025,7 @@
         },
         {
           "date": "2026-06-19",
-          "close": 79.46
+          "close": 80.6
         }
       ],
       "name": "Brent Crude",
@@ -6034,7 +6034,7 @@
     "gas": {
       "value": 3.21,
       "change": 0.19,
-      "changePercent": 6.12,
+      "changePercent": 6.28,
       "previousClose": 3.02,
       "asOf": "2026-06-19",
       "history": [
@@ -6305,8 +6305,8 @@
         "close": 8966.3
       },
       {
-        "date": "2026-06-19",
-        "close": 8828.7
+        "date": "2026-06-18",
+        "close": 8911.1
       }
     ]
   },
@@ -7437,21 +7437,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4171.4,
-      "change": -381.1,
-      "changePercent": -8.37
+      "price": 4167,
+      "change": -385.5,
+      "changePercent": -8.47
     },
     {
       "name": "Silver",
-      "price": 64.97,
-      "change": -12.11,
-      "changePercent": -15.71
+      "price": 64.68,
+      "change": -12.4,
+      "changePercent": -16.09
     },
     {
       "name": "Copper",
-      "price": 6.36,
-      "change": 0.08,
-      "changePercent": 1.32
+      "price": 6.33,
+      "change": 0.06,
+      "changePercent": 0.92
     }
   ],
   "housing": {
@@ -7836,14 +7836,28 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Hot Hawks surge into lead over Suns at Carrara",
+      "title": "Renshaw shines with bat and ball as Aussies seal Bangladesh T20 series",
+      "link": "https://www.abc.net.au/news/2026-06-20/australia-wins-t20-series-with-six-run-win-over-bangladesh/106821852",
+      "snippet": "",
+      "pubDate": "Fri, 19 Jun 2026 14:20:32 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "This renovation takes heritage protection to a whole new level",
+      "link": "https://www.smh.com.au/business/consumer-affairs/this-renovation-takes-heritage-protection-to-a-whole-new-level-20260618-p6080d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The renovation of this former pub celebrating its past as much as its present.",
+      "pubDate": "Fri, 19 Jun 2026 22:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Hawks break drought at Carrara, winning tough encounter against Suns",
       "link": "https://www.abc.net.au/news/2026-06-19/afl-rd-15-live-suns-hawks/106811508",
       "snippet": "",
       "pubDate": "Fri, 19 Jun 2026 09:09:12 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Dragons fight back after Ponga replacement scores first half double",
+      "title": "Crucial miss sinks Dragons as Knights survive massive scare at home",
       "link": "https://www.abc.net.au/news/2026-06-19/nrl-live-newcastle-knights-vs-st-george-illawarra-dragons/106803838",
       "snippet": "",
       "pubDate": "Fri, 19 Jun 2026 08:01:40 +0000",
@@ -7855,20 +7869,6 @@
       "snippet": "Former KPMG director Mike Baird has savaged the consultancy’s use of legal professional privilege to shield key documents in a whistleblower scandal from public view.",
       "pubDate": "Fri, 19 Jun 2026 16:09:38 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Australia's belief has been a long time coming. The United States are wary of it",
-      "link": "https://www.abc.net.au/news/2026-06-19/world-cup-socceroos-usa-match-believe-in-themselves/106818052",
-      "snippet": "",
-      "pubDate": "Fri, 19 Jun 2026 04:38:54 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Veteran comes out of retirement for Wallabies, uncapped trio named",
-      "link": "https://www.abc.net.au/news/2026-06-19/nations-championship-tests-james-slipper-rejoins-wallabies/106818768",
-      "snippet": "",
-      "pubDate": "Fri, 19 Jun 2026 03:39:35 +0000",
-      "source": "ABC"
     }
   ]
 }
