@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-21T14:40:34.761Z",
+  "fetchedAt": "2026-06-21T20:11:51.651Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.19,
+      "changePercent": -2.15,
       "previousClose": 0.72,
       "asOf": "2026-06-21",
       "history": [
@@ -1138,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.63,
+      "changePercent": -0.49,
       "previousClose": 0.62,
       "asOf": "2026-06-21",
       "history": [
@@ -1239,7 +1239,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-06-19",
+          "date": "2026-06-21",
           "close": 0.61
         }
       ],
@@ -1516,7 +1516,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-06-19",
+          "date": "2026-06-21",
           "close": 0.61
         }
       ],
@@ -1630,7 +1630,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-06-19",
+          "date": "2026-06-21",
           "close": 0.61
         }
       ],
@@ -2264,15 +2264,15 @@
           "close": 0.61
         },
         {
-          "date": "2026-06-19",
+          "date": "2026-06-21",
           "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": -0.14,
-      "changePercent": -2.9,
+      "value": 4.75,
+      "change": -0.13,
+      "changePercent": -2.68,
       "previousClose": 4.88,
       "asOf": "2026-06-21",
       "history": [
@@ -2374,7 +2374,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2651,7 +2651,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2765,7 +2765,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3399,14 +3399,14 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.74
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
       "value": 113.12,
-      "change": -0.78,
-      "changePercent": -0.69,
+      "change": -0.79,
+      "changePercent": -0.7,
       "previousClose": 113.91,
       "asOf": "2026-06-21",
       "history": [
@@ -3508,7 +3508,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 113.12
+          "close": 113.11
         }
       ],
       "label": "AUD/JPY",
@@ -3785,7 +3785,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 113.12
+          "close": 113.11
         }
       ],
       "h6m": [
@@ -3899,7 +3899,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 113.12
+          "close": 113.11
         }
       ],
       "h3y": [
@@ -4533,7 +4533,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 113.12
+          "close": 113.11
         }
       ]
     }
@@ -4541,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.19,
+    "changePercent": -2.15,
     "previousClose": 0.72,
     "asOf": "2026-06-21",
     "history": [
@@ -7807,13 +7807,6 @@
   ],
   "news": [
     {
-      "title": "ASX slumps amid mining rout; BHP tanks",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-wall-street-rebounds-intel-surges-as-trump-announces-apple-deal-20260619-p6088p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Australia’s sharemarket has wiped most of the week’s gains in two sessions, as a rising greenback and global growth concerns dragged metals prices lower.",
-      "pubDate": "Fri, 19 Jun 2026 18:07:49 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "These businesses made a buck from the war. Others are set to get a boost",
       "link": "https://www.smh.com.au/business/companies/these-businesses-made-a-buck-from-the-war-others-are-set-to-get-a-boost-20260616-p6077k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Many companies grappled with dampened consumer sentiment and rising costs, but oil refiners and supermarkets did well out of the conflict.",
@@ -7821,10 +7814,17 @@
       "source": "SMH"
     },
     {
-      "title": "ASX Runners of the Week: Norwood, Cauldron, 1414 Degrees &amp; Red Metal",
-      "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-norwood-cauldron-1414-degrees-and-red-metals-20260619-p608hz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Norwood Systems, which surged on securing a pilot deal with a major UK telco for its OpenSpan AI Services.",
-      "pubDate": "Fri, 19 Jun 2026 17:03:31 +1000",
+      "title": "ASX set for uncertain start as US-Iran tensions rise",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-shaky-start-amid-hormuz-uncertainty-20260622-p608tg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket is set for an unsteady start to the week as US President Donald Trump continued to threaten Iran even as talks began in Switzerland between his vice president and Iranian officials.",
+      "pubDate": "Mon, 22 Jun 2026 05:30:20 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Why falling house prices won’t be an economic disaster",
+      "link": "https://www.smh.com.au/business/the-economy/why-falling-house-prices-won-t-be-an-economic-disaster-20260619-p608ha.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The nation’s $12.6 trillion in housing wealth can take a bit of a hit without crashing the economy.",
+      "pubDate": "Mon, 22 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7835,10 +7835,10 @@
       "source": "SMH"
     },
     {
-      "title": "West Wits locks in A$96.7M to drive South African gold ramp-up",
-      "link": "https://www.smh.com.au/business/companies/west-wits-locks-in-a-96-7m-to-drive-south-african-gold-ramp-up-20260619-p608hs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "West Wits Mining has secured a $96.7 million funding package to fully fund its Qala Shallows gold mine, positioning it for a ramp-up to 70,000-ounce-per-annum production.",
-      "pubDate": "Fri, 19 Jun 2026 16:51:16 +1000",
+      "title": "Inside Qantas’ plan to turn Australia’s tyranny of distance into profit",
+      "link": "https://www.smh.com.au/business/companies/inside-qantas-plan-to-turn-australia-s-tyranny-of-distance-into-profit-20260612-p606bt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Qantas has built a business case for ultra-long direct flights from Sydney to London. Soon it will have the planes to fly them.",
+      "pubDate": "Mon, 22 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7847,6 +7847,20 @@
       "snippet": "The former radio host held a victory lunch with wealthy friends after bragging that deep-pocketed investors were interested in his plans for an online show.",
       "pubDate": "Fri, 19 Jun 2026 18:17:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Serena Williams to make Wimbledon singles comeback",
+      "link": "https://www.abc.net.au/news/2026-06-22/serena-williams-wimbledon-singles-wildcard-tennis/106825948",
+      "snippet": "",
+      "pubDate": "Sun, 21 Jun 2026 19:43:28 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Belgium frustrated as Iran sees clever goal ruled out, Spain claims win",
+      "link": "https://www.abc.net.au/news/2026-06-22/world-cup-live-spain-saudi-arabia-belgium-iran-uru-cpv-nzl-egy/106825118",
+      "snippet": "",
+      "pubDate": "Sun, 21 Jun 2026 15:31:48 +0000",
+      "source": "ABC"
     },
     {
       "title": "‘I would not do it again’: KPMG whistleblower reveals toll of going public",
@@ -7867,13 +7881,6 @@
       "link": "https://www.abc.net.au/news/2026-06-21/nrl-live-blog-warriors-cowboys-storm-raiders-roosters-sharks/106824882",
       "snippet": "",
       "pubDate": "Sun, 21 Jun 2026 03:54:24 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Clark survives 'worst shot' to hold commanding US Open lead",
-      "link": "https://www.abc.net.au/news/2026-06-21/us-open-golf-wyndham-clark-six-shot-lead-scottie-scheffler/106824532",
-      "snippet": "",
-      "pubDate": "Sun, 21 Jun 2026 01:27:24 +0000",
       "source": "ABC"
     },
     {
