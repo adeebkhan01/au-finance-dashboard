@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-22T12:32:20.710Z",
+  "fetchedAt": "2026-06-22T21:19:26.061Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.87,
+      "changePercent": -2,
       "previousClose": 0.71,
       "asOf": "2026-06-22",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-06-18",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-21",
           "close": 0.7
         },
         {
@@ -362,6 +366,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-06-21",
+          "close": 0.7
+        },
+        {
           "date": "2026-06-22",
           "close": 0.7
         }
@@ -469,6 +477,10 @@
         },
         {
           "date": "2026-06-14",
+          "close": 0.7
+        },
+        {
+          "date": "2026-06-21",
           "close": 0.7
         },
         {
@@ -1106,6 +1118,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-06-21",
+          "close": 0.7
+        },
+        {
           "date": "2026-06-22",
           "close": 0.7
         }
@@ -1114,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.55,
+      "changePercent": -0.41,
       "previousClose": 0.62,
       "asOf": "2026-06-22",
       "history": [
@@ -1200,6 +1216,10 @@
         },
         {
           "date": "2026-06-18",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-21",
           "close": 0.61
         },
         {
@@ -1472,6 +1492,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-06-21",
+          "close": 0.61
+        },
+        {
           "date": "2026-06-22",
           "close": 0.61
         }
@@ -1580,6 +1604,10 @@
         {
           "date": "2026-06-14",
           "close": 0.59
+        },
+        {
+          "date": "2026-06-21",
+          "close": 0.61
         },
         {
           "date": "2026-06-22",
@@ -2216,15 +2244,19 @@
           "close": 0.59
         },
         {
+          "date": "2026-06-21",
+          "close": 0.61
+        },
+        {
           "date": "2026-06-22",
           "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": -0.11,
-      "changePercent": -2.3,
+      "value": 4.74,
+      "change": -0.12,
+      "changePercent": -2.47,
       "previousClose": 4.86,
       "asOf": "2026-06-22",
       "history": [
@@ -2313,8 +2345,12 @@
           "close": 4.75
         },
         {
+          "date": "2026-06-21",
+          "close": 4.74
+        },
+        {
           "date": "2026-06-22",
-          "close": 4.75
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2582,8 +2618,12 @@
           "close": 4.75
         },
         {
+          "date": "2026-06-21",
+          "close": 4.74
+        },
+        {
           "date": "2026-06-22",
-          "close": 4.75
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2692,8 +2732,12 @@
           "close": 4.74
         },
         {
+          "date": "2026-06-21",
+          "close": 4.74
+        },
+        {
           "date": "2026-06-22",
-          "close": 4.75
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3326,15 +3370,19 @@
           "close": 4.74
         },
         {
+          "date": "2026-06-21",
+          "close": 4.74
+        },
+        {
           "date": "2026-06-22",
-          "close": 4.75
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 113.38,
-      "change": -0.28,
-      "changePercent": -0.25,
+      "value": 113.05,
+      "change": -0.62,
+      "changePercent": -0.54,
       "previousClose": 113.66,
       "asOf": "2026-06-22",
       "history": [
@@ -3423,8 +3471,12 @@
           "close": 113.1
         },
         {
+          "date": "2026-06-21",
+          "close": 113.04
+        },
+        {
           "date": "2026-06-22",
-          "close": 113.38
+          "close": 113.05
         }
       ],
       "label": "AUD/JPY",
@@ -3692,8 +3744,12 @@
           "close": 113.1
         },
         {
+          "date": "2026-06-21",
+          "close": 113.04
+        },
+        {
           "date": "2026-06-22",
-          "close": 113.38
+          "close": 113.05
         }
       ],
       "h6m": [
@@ -3802,8 +3858,12 @@
           "close": 113.3
         },
         {
+          "date": "2026-06-21",
+          "close": 113.04
+        },
+        {
           "date": "2026-06-22",
-          "close": 113.38
+          "close": 113.05
         }
       ],
       "h3y": [
@@ -4436,8 +4496,12 @@
           "close": 113.3
         },
         {
+          "date": "2026-06-21",
+          "close": 113.04
+        },
+        {
           "date": "2026-06-22",
-          "close": 113.38
+          "close": 113.05
         }
       ]
     }
@@ -4445,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.87,
+    "changePercent": -2,
     "previousClose": 0.71,
     "asOf": "2026-06-22",
     "history": [
@@ -4531,6 +4595,10 @@
       },
       {
         "date": "2026-06-18",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-21",
         "close": 0.7
       },
       {
@@ -4803,6 +4871,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-06-21",
+        "close": 0.7
+      },
+      {
         "date": "2026-06-22",
         "close": 0.7
       }
@@ -4910,6 +4982,10 @@
       },
       {
         "date": "2026-06-14",
+        "close": 0.7
+      },
+      {
+        "date": "2026-06-21",
         "close": 0.7
       },
       {
@@ -5547,6 +5623,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-06-21",
+        "close": 0.7
+      },
+      {
         "date": "2026-06-22",
         "close": 0.7
       }
@@ -5746,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 74.67,
-      "change": -21.93,
-      "changePercent": -22.7,
+      "value": 74.08,
+      "change": -22.52,
+      "changePercent": -23.31,
       "previousClose": 96.6,
       "asOf": "2026-06-22",
       "history": [
@@ -5830,16 +5910,16 @@
         },
         {
           "date": "2026-06-22",
-          "close": 74.67
+          "close": 74.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 78.59,
-      "change": -24.95,
-      "changePercent": -24.1,
+      "value": 80.59,
+      "change": -22.95,
+      "changePercent": -22.17,
       "previousClose": 103.54,
       "asOf": "2026-06-22",
       "history": [
@@ -5921,16 +6001,16 @@
         },
         {
           "date": "2026-06-22",
-          "close": 78.59
+          "close": 80.59
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.29,
-      "change": 0.38,
-      "changePercent": 13.07,
+      "value": 3.25,
+      "change": 0.34,
+      "changePercent": 11.7,
       "previousClose": 2.91,
       "asOf": "2026-06-22",
       "history": [
@@ -6012,7 +6092,7 @@
         },
         {
           "date": "2026-06-22",
-          "close": 3.29
+          "close": 3.25
         }
       ],
       "name": "Natural Gas",
@@ -6183,10 +6263,6 @@
       {
         "date": "2026-06-19",
         "close": 8828.7
-      },
-      {
-        "date": "2026-06-22",
-        "close": 8816.1
       }
     ]
   },
@@ -7253,21 +7329,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4227.4,
-      "change": -293.6,
-      "changePercent": -6.49
+      "price": 4209.7,
+      "change": -311.3,
+      "changePercent": -6.89
     },
     {
       "name": "Silver",
-      "price": 66.61,
-      "change": -9.29,
-      "changePercent": -12.24
+      "price": 65.19,
+      "change": -10.71,
+      "changePercent": -14.11
     },
     {
       "name": "Copper",
-      "price": 6.38,
-      "change": 0.04,
-      "changePercent": 0.58
+      "price": 6.37,
+      "change": 0.03,
+      "changePercent": 0.39
     }
   ],
   "housing": {
@@ -7603,6 +7679,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to rise, SpaceX slumps; Former Fed chair Greenspan dies at 100",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-spacex-weighs-on-wall-street-former-fed-chair-greenspan-dies-at-100-20260623-p6095g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks drifted through a mixed day of trading after resuming following a three-day weekend, with SpaceX falling again.",
+      "pubDate": "Tue, 23 Jun 2026 06:20:01 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "While the world scrambles for oil, China sits on full tanks",
       "link": "https://www.smh.com.au/business/markets/while-the-world-scrambles-for-oil-china-sits-on-full-tanks-20260622-p608u6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "China finds itself in a very different position from much of the world, which is emerging from the war in Iran with depleted oil supplies.",
@@ -7631,11 +7714,25 @@
       "source": "SMH"
     },
     {
+      "title": "The 31-year-old billionaire Ray-Ban heir fighting to control the family’s fortune",
+      "link": "https://www.smh.com.au/business/companies/the-31-year-old-billionaire-ray-ban-heir-fighting-to-control-the-family-s-fortune-20260622-p608t9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Leonardo Maria Del Vecchio has escalated a battle over one of Europe’s biggest business empires.",
+      "pubDate": "Tue, 23 Jun 2026 06:24:29 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Lindian readies first blast at Malawian rare earths mine",
       "link": "https://www.smh.com.au/business/companies/lindian-lines-up-first-blast-at-malawian-rare-earths-mine-20260622-p6092u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Lindian Resources has shifted its giant Kangankunde rare earths project in Malawi into mining mode, with ore stockpiled and first production targeted for Q4 2026 as the first blast nears.",
       "pubDate": "Mon, 22 Jun 2026 16:12:27 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Ex-Wimbledon champ handed four-year suspension for refusing doping test",
+      "link": "https://www.abc.net.au/news/2026-06-23/tennis-wimbledon-champion-marketa-vondrousova-doping-ban/106830194",
+      "snippet": "",
+      "pubDate": "Mon, 22 Jun 2026 21:14:43 +0000",
+      "source": "ABC"
     },
     {
       "title": "Where’s the tap? Why public bathrooms give me a sinking feeling",
@@ -7656,20 +7753,6 @@
       "link": "https://www.abc.net.au/news/2026-06-22/newcastle-knight-alleged-homophobic-slur-nsw-cup/106828628",
       "snippet": "",
       "pubDate": "Mon, 22 Jun 2026 06:33:02 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "The new David Jones boss needs a turnaround miracle",
-      "link": "https://www.smh.com.au/business/companies/the-new-david-jones-boss-needs-a-turnaround-miracle-20260622-p608yh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The crucial news at Australia’s oldest department store isn’t the sudden change in chief executive, it’s that the chain lives to fight another day.",
-      "pubDate": "Mon, 22 Jun 2026 14:58:39 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "From sleeping in his car and no 'plan B', Paro now has shot at history",
-      "link": "https://www.abc.net.au/news/2026-06-22/liam-paro-lewis-crocker-ibf-welterweight-title-fight/106827286",
-      "snippet": "",
-      "pubDate": "Mon, 22 Jun 2026 02:50:18 +0000",
       "source": "ABC"
     }
   ]
