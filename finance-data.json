@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-23T15:33:14.792Z",
+  "fetchedAt": "2026-06-23T20:32:02.372Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -3.06,
+      "changePercent": -3.23,
       "previousClose": 0.71,
       "asOf": "2026-06-23",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.11,
+      "changePercent": -1.24,
       "previousClose": 0.62,
       "asOf": "2026-06-23",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": -0.16,
-      "changePercent": -3.29,
+      "value": 4.69,
+      "change": -0.17,
+      "changePercent": -3.47,
       "previousClose": 4.86,
       "asOf": "2026-06-23",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 4.7
+          "close": 4.69
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 4.7
+          "close": 4.69
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 4.7
+          "close": 4.69
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-06-23",
-          "close": 4.7
+          "close": 4.69
         }
       ]
     },
     "audjpy": {
-      "value": 111.89,
-      "change": -1.77,
-      "changePercent": -1.56,
+      "value": 111.71,
+      "change": -1.95,
+      "changePercent": -1.72,
       "previousClose": 113.66,
       "asOf": "2026-06-23",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 111.89
+          "close": 111.71
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 111.89
+          "close": 111.71
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 111.89
+          "close": 111.71
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 111.89
+          "close": 111.71
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -3.06,
+    "changePercent": -3.23,
     "previousClose": 0.71,
     "asOf": "2026-06-23",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 73.15,
-      "change": -23.45,
-      "changePercent": -24.28,
+      "value": 73.39,
+      "change": -23.21,
+      "changePercent": -24.03,
       "previousClose": 96.6,
       "asOf": "2026-06-23",
       "history": [
@@ -5890,16 +5890,16 @@
         },
         {
           "date": "2026-06-23",
-          "close": 73.15
+          "close": 73.39
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 76.86,
-      "change": -26.68,
-      "changePercent": -25.77,
+      "value": 77.16,
+      "change": -26.38,
+      "changePercent": -25.48,
       "previousClose": 103.54,
       "asOf": "2026-06-23",
       "history": [
@@ -5981,16 +5981,16 @@
         },
         {
           "date": "2026-06-23",
-          "close": 76.86
+          "close": 77.16
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.23,
-      "change": 0.32,
-      "changePercent": 11.04,
+      "value": 3.2,
+      "change": 0.29,
+      "changePercent": 10.08,
       "previousClose": 2.91,
       "asOf": "2026-06-23",
       "history": [
@@ -6072,7 +6072,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 3.23
+          "close": 3.2
         }
       ],
       "name": "Natural Gas",
@@ -7309,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4141.5,
-      "change": -379.5,
-      "changePercent": -8.39
+      "price": 4126.1,
+      "change": -394.9,
+      "changePercent": -8.73
     },
     {
       "name": "Silver",
-      "price": 61.92,
-      "change": -13.98,
-      "changePercent": -18.42
+      "price": 61.57,
+      "change": -14.33,
+      "changePercent": -18.88
     },
     {
       "name": "Copper",
-      "price": 6.15,
-      "change": -0.19,
-      "changePercent": -3.04
+      "price": 6.13,
+      "change": -0.21,
+      "changePercent": -3.34
     }
   ],
   "housing": {
@@ -7666,6 +7666,20 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set for gains, tech giants weigh on Wall Street; SpaceX swings higher; Alibaba sues US",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-gains-tech-giants-weigh-on-wall-street-spacex-swings-higher-20260624-p609hh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks fell on Wall Street  as a sell-off in big technology companies spread from Asia back to the US over worries about potentially higher interest rates by the end of the year.",
+      "pubDate": "Wed, 24 Jun 2026 05:18:28 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Virgin set to pocket up to $93m as customers run out of time to cash in COVID credits",
+      "link": "https://www.smh.com.au/business/companies/virgin-set-to-pocket-up-to-93m-as-customers-run-out-of-time-to-cash-in-covid-credits-20260623-p6097m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Unlike Qantas which, under pressure, removed all expiration dates from credits, Virgin is giving passengers only until the end of this month to book flights.",
+      "pubDate": "Wed, 24 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ClearVue powers up with $6.25M and key EU solar glass approval",
       "link": "https://www.smh.com.au/business/companies/clearvue-powers-up-with-6-25m-and-key-eu-solar-glass-approval-20260623-p609fk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "ClearVue has passed European certification for its Gen 3 solar glass and boosted its recent capital raise to $6.25M, helping fund product testing and global growth.",
@@ -7687,11 +7701,18 @@
       "source": "SMH"
     },
     {
-      "title": "Uber driver accused of harassing teen to be paid $300 a week while banned",
-      "link": "https://www.smh.com.au/business/workplace/uber-driver-accused-of-harassing-teen-to-be-paid-300-a-week-while-banned-20260623-p60976.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "An Uber driver accused of harassing a 15-year-old girl will be paid hundreds of dollars a week until the workplace umpire decides whether he should be allowed back on the road.",
-      "pubDate": "Tue, 23 Jun 2026 16:03:39 +1000",
-      "source": "SMH"
+      "title": "Ronaldo roars back to life, with his moments off the ball the most telling",
+      "link": "https://www.abc.net.au/news/2026-06-24/world-cup-cristiano-ronaldo-portugal-uzbekistan-houston/106824686",
+      "snippet": "",
+      "pubDate": "Tue, 23 Jun 2026 20:18:00 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Ronaldo makes a statement, England takes on Ghana",
+      "link": "https://www.abc.net.au/news/2026-06-24/fifa-world-cup-live-portugal-cristiano-ronaldo-england-ghana/106833962",
+      "snippet": "",
+      "pubDate": "Tue, 23 Jun 2026 16:13:39 +0000",
+      "source": "ABC"
     },
     {
       "title": "Qantas flight forced to make remote landing after running into headwinds",
@@ -7719,20 +7740,6 @@
       "link": "https://www.abc.net.au/news/2026-06-23/state-of-origin-nsw-blues-latrell-mitchell-ruled-out/106830282",
       "snippet": "",
       "pubDate": "Mon, 22 Jun 2026 21:39:28 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Ex-Wimbledon champ handed four-year suspension for refusing doping test",
-      "link": "https://www.abc.net.au/news/2026-06-23/tennis-wimbledon-champion-marketa-vondrousova-doping-ban/106830194",
-      "snippet": "",
-      "pubDate": "Mon, 22 Jun 2026 21:14:43 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Tony Modra's family 'extremely grateful' for support after crash",
-      "link": "https://www.abc.net.au/news/2026-06-22/tony-modra-family-release-statement-thanking-community/106829240",
-      "snippet": "",
-      "pubDate": "Mon, 22 Jun 2026 09:24:25 +0000",
       "source": "ABC"
     }
   ]
