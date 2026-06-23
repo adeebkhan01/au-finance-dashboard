@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-23T10:09:07.867Z",
+  "fetchedAt": "2026-06-23T15:33:14.792Z",
   "fx": {
     "audusd": {
-      "value": 0.7,
+      "value": 0.69,
       "change": -0.02,
-      "changePercent": -2.64,
+      "changePercent": -3.06,
       "previousClose": 0.71,
       "asOf": "2026-06-23",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 0.7
+          "close": 0.69
         }
       ],
       "label": "AUD/USD",
@@ -367,7 +367,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 0.7
+          "close": 0.69
         }
       ],
       "h6m": [
@@ -481,7 +481,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 0.7
+          "close": 0.69
         }
       ],
       "h3y": [
@@ -1119,14 +1119,14 @@
         },
         {
           "date": "2026-06-23",
-          "close": 0.7
+          "close": 0.69
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -0.91,
+      "changePercent": -1.11,
       "previousClose": 0.62,
       "asOf": "2026-06-23",
       "history": [
@@ -2248,7 +2248,7 @@
     "audcny": {
       "value": 4.7,
       "change": -0.16,
-      "changePercent": -3.28,
+      "changePercent": -3.29,
       "previousClose": 4.86,
       "asOf": "2026-06-23",
       "history": [
@@ -3368,9 +3368,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.27,
-      "change": -1.39,
-      "changePercent": -1.22,
+      "value": 111.89,
+      "change": -1.77,
+      "changePercent": -1.56,
       "previousClose": 113.66,
       "asOf": "2026-06-23",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 112.27
+          "close": 111.89
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 112.27
+          "close": 111.89
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 112.27
+          "close": 111.89
         }
       ],
       "h3y": [
@@ -4485,15 +4485,15 @@
         },
         {
           "date": "2026-06-23",
-          "close": 112.27
+          "close": 111.89
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.7,
+    "value": 0.69,
     "change": -0.02,
-    "changePercent": -2.64,
+    "changePercent": -3.06,
     "previousClose": 0.71,
     "asOf": "2026-06-23",
     "history": [
@@ -4583,7 +4583,7 @@
       },
       {
         "date": "2026-06-23",
-        "close": 0.7
+        "close": 0.69
       }
     ],
     "label": "AUD/USD",
@@ -4856,7 +4856,7 @@
       },
       {
         "date": "2026-06-23",
-        "close": 0.7
+        "close": 0.69
       }
     ],
     "h6m": [
@@ -4970,7 +4970,7 @@
       },
       {
         "date": "2026-06-23",
-        "close": 0.7
+        "close": 0.69
       }
     ],
     "h3y": [
@@ -5608,7 +5608,7 @@
       },
       {
         "date": "2026-06-23",
-        "close": 0.7
+        "close": 0.69
       }
     ]
   },
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 73.58,
-      "change": -23.02,
-      "changePercent": -23.83,
+      "value": 73.15,
+      "change": -23.45,
+      "changePercent": -24.28,
       "previousClose": 96.6,
       "asOf": "2026-06-23",
       "history": [
@@ -5890,16 +5890,16 @@
         },
         {
           "date": "2026-06-23",
-          "close": 73.58
+          "close": 73.15
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 77.53,
-      "change": -26.01,
-      "changePercent": -25.12,
+      "value": 76.86,
+      "change": -26.68,
+      "changePercent": -25.77,
       "previousClose": 103.54,
       "asOf": "2026-06-23",
       "history": [
@@ -5981,16 +5981,16 @@
         },
         {
           "date": "2026-06-23",
-          "close": 77.53
+          "close": 76.86
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.25,
-      "change": 0.35,
-      "changePercent": 11.94,
+      "value": 3.23,
+      "change": 0.32,
+      "changePercent": 11.04,
       "previousClose": 2.91,
       "asOf": "2026-06-23",
       "history": [
@@ -6072,7 +6072,7 @@
         },
         {
           "date": "2026-06-23",
-          "close": 3.25
+          "close": 3.23
         }
       ],
       "name": "Natural Gas",
@@ -6243,10 +6243,6 @@
       {
         "date": "2026-06-22",
         "close": 8816.1
-      },
-      {
-        "date": "2026-06-23",
-        "close": 8787
       }
     ]
   },
@@ -7313,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4137.9,
-      "change": -383.1,
-      "changePercent": -8.47
+      "price": 4141.5,
+      "change": -379.5,
+      "changePercent": -8.39
     },
     {
       "name": "Silver",
-      "price": 62.54,
-      "change": -13.35,
-      "changePercent": -17.59
+      "price": 61.92,
+      "change": -13.98,
+      "changePercent": -18.42
     },
     {
       "name": "Copper",
-      "price": 6.18,
-      "change": -0.16,
-      "changePercent": -2.55
+      "price": 6.15,
+      "change": -0.19,
+      "changePercent": -3.04
     }
   ],
   "housing": {
@@ -7677,10 +7673,10 @@
       "source": "SMH"
     },
     {
-      "title": "Qantas A380 grounded amid emergency inspections for wing spar cracks",
+      "title": "Some A380s grounded amid emergency inspections for wing spar cracks",
       "link": "https://www.smh.com.au/business/companies/qantas-a380-grounded-amid-emergency-inspections-for-wing-spar-cracks-20260623-p609df.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The air safety directive to Qantas and other airlines for some of their A380s comes amid reports that the Australian carrier is eyeing a replacement plane for the superjumbo.",
-      "pubDate": "Tue, 23 Jun 2026 18:26:08 +1000",
+      "pubDate": "Tue, 23 Jun 2026 20:14:27 +1000",
       "source": "SMH"
     },
     {
