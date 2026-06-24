@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-24T09:56:44.040Z",
+  "fetchedAt": "2026-06-24T15:17:59.179Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.6,
+      "changePercent": -3.51,
       "previousClose": 0.71,
       "asOf": "2026-06-24",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.33,
+      "changePercent": -1.28,
       "previousClose": 0.62,
       "asOf": "2026-06-24",
       "history": [
@@ -2256,7 +2256,7 @@
     "audcny": {
       "value": 4.68,
       "change": -0.18,
-      "changePercent": -3.8,
+      "changePercent": -3.74,
       "previousClose": 4.86,
       "asOf": "2026-06-24",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 111.43,
-      "change": -2.23,
-      "changePercent": -1.97,
+      "value": 111.55,
+      "change": -2.11,
+      "changePercent": -1.86,
       "previousClose": 113.66,
       "asOf": "2026-06-24",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 111.43
+          "close": 111.55
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 111.43
+          "close": 111.55
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 111.43
+          "close": 111.55
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 111.43
+          "close": 111.55
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.6,
+    "changePercent": -3.51,
     "previousClose": 0.71,
     "asOf": "2026-06-24",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 71.81,
-      "change": -22.08,
-      "changePercent": -23.52,
+      "value": 69.73,
+      "change": -24.16,
+      "changePercent": -25.73,
       "previousClose": 93.89,
       "asOf": "2026-06-24",
       "history": [
@@ -5914,16 +5914,16 @@
         },
         {
           "date": "2026-06-24",
-          "close": 71.81
+          "close": 69.73
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 75.66,
-      "change": -23.92,
-      "changePercent": -24.02,
+      "value": 73.37,
+      "change": -26.21,
+      "changePercent": -26.32,
       "previousClose": 99.58,
       "asOf": "2026-06-24",
       "history": [
@@ -6009,16 +6009,16 @@
         },
         {
           "date": "2026-06-24",
-          "close": 75.66
+          "close": 73.37
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.21,
-      "change": 0.31,
-      "changePercent": 10.82,
+      "value": 3.24,
+      "change": 0.34,
+      "changePercent": 11.85,
       "previousClose": 2.89,
       "asOf": "2026-06-24",
       "history": [
@@ -6104,7 +6104,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 3.21
+          "close": 3.24
         }
       ],
       "name": "Natural Gas",
@@ -6279,10 +6279,6 @@
       {
         "date": "2026-06-23",
         "close": 8787
-      },
-      {
-        "date": "2026-06-24",
-        "close": 8808.4
       }
     ]
   },
@@ -7381,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4084.1,
-      "change": -416.3,
-      "changePercent": -9.25
+      "price": 4016.5,
+      "change": -483.9,
+      "changePercent": -10.75
     },
     {
       "name": "Silver",
-      "price": 61.2,
-      "change": -15.11,
-      "changePercent": -19.8
+      "price": 58.84,
+      "change": -17.47,
+      "changePercent": -22.89
     },
     {
       "name": "Copper",
-      "price": 6.11,
-      "change": -0.25,
-      "changePercent": -3.96
+      "price": 5.96,
+      "change": -0.4,
+      "changePercent": -6.24
     }
   ],
   "housing": {
@@ -7749,13 +7745,6 @@
       "link": "https://www.smh.com.au/business/companies/true-north-eyes-bigger-qld-cloncurry-copper-comeback-prize-20260624-p609t9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "True North Copper has folded Mongoose into its Qld Cloncurry project, while chasing Wallace North growth and targeting a Q4 PFS as its copper production comeback gathers momentum.",
       "pubDate": "Wed, 24 Jun 2026 17:02:06 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Great Southern fires up rig for WA gold drilling blitz",
-      "link": "https://www.smh.com.au/business/companies/great-southern-fires-up-rig-for-wa-gold-drilling-blitz-20260624-p609rl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Great Southern Mining has begun RC drilling at its Mon Ami gold project near Laverton in WA as part of a fully funded 20,000m drilling blitz.",
-      "pubDate": "Wed, 24 Jun 2026 15:51:24 +1000",
       "source": "SMH"
     },
     {
