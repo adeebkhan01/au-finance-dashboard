@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-24T15:17:59.179Z",
+  "fetchedAt": "2026-06-24T20:16:59.799Z",
   "fx": {
     "audusd": {
       "value": 0.69,
-      "change": -0.03,
-      "changePercent": -3.51,
+      "change": -0.02,
+      "changePercent": -3.48,
       "previousClose": 0.71,
       "asOf": "2026-06-24",
       "history": [
@@ -95,6 +95,10 @@
         {
           "date": "2026-06-22",
           "close": 0.7
+        },
+        {
+          "date": "2026-06-23",
+          "close": 0.69
         },
         {
           "date": "2026-06-24",
@@ -370,6 +374,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-06-23",
+          "close": 0.69
+        },
+        {
           "date": "2026-06-24",
           "close": 0.69
         }
@@ -481,7 +489,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 0.7
+          "close": 0.69
         },
         {
           "date": "2026-06-24",
@@ -1119,7 +1127,7 @@
         },
         {
           "date": "2026-06-21",
-          "close": 0.7
+          "close": 0.69
         },
         {
           "date": "2026-06-24",
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.28,
+      "changePercent": -1.27,
       "previousClose": 0.62,
       "asOf": "2026-06-24",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-06-22",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-23",
           "close": 0.61
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-06-22",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-23",
           "close": 0.61
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.68,
-      "change": -0.18,
-      "changePercent": -3.74,
+      "value": 4.69,
+      "change": -0.17,
+      "changePercent": -3.51,
       "previousClose": 4.86,
       "asOf": "2026-06-24",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.74
         },
         {
+          "date": "2026-06-23",
+          "close": 4.7
+        },
+        {
           "date": "2026-06-24",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.74
         },
         {
+          "date": "2026-06-23",
+          "close": 4.7
+        },
+        {
           "date": "2026-06-24",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.74
+          "close": 4.7
         },
         {
           "date": "2026-06-24",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.74
+          "close": 4.7
         },
         {
           "date": "2026-06-24",
-          "close": 4.68
+          "close": 4.69
         }
       ]
     },
     "audjpy": {
-      "value": 111.55,
-      "change": -2.11,
-      "changePercent": -1.86,
+      "value": 111.6,
+      "change": -2.07,
+      "changePercent": -1.82,
       "previousClose": 113.66,
       "asOf": "2026-06-24",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 113
         },
         {
+          "date": "2026-06-23",
+          "close": 111.7
+        },
+        {
           "date": "2026-06-24",
-          "close": 111.55
+          "close": 111.6
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 113
         },
         {
+          "date": "2026-06-23",
+          "close": 111.7
+        },
+        {
           "date": "2026-06-24",
-          "close": 111.55
+          "close": 111.6
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 113
+          "close": 111.7
         },
         {
           "date": "2026-06-24",
-          "close": 111.55
+          "close": 111.6
         }
       ],
       "h3y": [
@@ -4497,19 +4529,19 @@
         },
         {
           "date": "2026-06-21",
-          "close": 113
+          "close": 111.7
         },
         {
           "date": "2026-06-24",
-          "close": 111.55
+          "close": 111.6
         }
       ]
     }
   },
   "audusd": {
     "value": 0.69,
-    "change": -0.03,
-    "changePercent": -3.51,
+    "change": -0.02,
+    "changePercent": -3.48,
     "previousClose": 0.71,
     "asOf": "2026-06-24",
     "history": [
@@ -4600,6 +4632,10 @@
       {
         "date": "2026-06-22",
         "close": 0.7
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.69
       },
       {
         "date": "2026-06-24",
@@ -4875,6 +4911,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-06-23",
+        "close": 0.69
+      },
+      {
         "date": "2026-06-24",
         "close": 0.69
       }
@@ -4986,7 +5026,7 @@
       },
       {
         "date": "2026-06-21",
-        "close": 0.7
+        "close": 0.69
       },
       {
         "date": "2026-06-24",
@@ -5624,7 +5664,7 @@
       },
       {
         "date": "2026-06-21",
-        "close": 0.7
+        "close": 0.69
       },
       {
         "date": "2026-06-24",
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 69.73,
-      "change": -24.16,
-      "changePercent": -25.73,
+      "value": 69.94,
+      "change": -23.95,
+      "changePercent": -25.51,
       "previousClose": 93.89,
       "asOf": "2026-06-24",
       "history": [
@@ -5914,16 +5954,16 @@
         },
         {
           "date": "2026-06-24",
-          "close": 69.73
+          "close": 69.94
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 73.37,
-      "change": -26.21,
-      "changePercent": -26.32,
+      "value": 73.28,
+      "change": -26.3,
+      "changePercent": -26.41,
       "previousClose": 99.58,
       "asOf": "2026-06-24",
       "history": [
@@ -6009,16 +6049,16 @@
         },
         {
           "date": "2026-06-24",
-          "close": 73.37
+          "close": 73.28
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.24,
-      "change": 0.34,
-      "changePercent": 11.85,
+      "value": 3.26,
+      "change": 0.37,
+      "changePercent": 12.72,
       "previousClose": 2.89,
       "asOf": "2026-06-24",
       "history": [
@@ -6104,7 +6144,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 3.24
+          "close": 3.26
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4016.5,
-      "change": -483.9,
-      "changePercent": -10.75
+      "price": 4016.2,
+      "change": -484.2,
+      "changePercent": -10.76
     },
     {
       "name": "Silver",
-      "price": 58.84,
-      "change": -17.47,
-      "changePercent": -22.89
+      "price": 57.59,
+      "change": -18.72,
+      "changePercent": -24.53
     },
     {
       "name": "Copper",
-      "price": 5.96,
-      "change": -0.4,
-      "changePercent": -6.24
+      "price": 5.98,
+      "change": -0.38,
+      "changePercent": -6.02
     }
   ],
   "housing": {
@@ -7734,6 +7774,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to decline as Wall Street scuffles; Oil prices fall",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-decline-as-wall-street-scuffles-oil-prices-fall-20260625-p609vf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks wavered in afternoon trading on Wall Street as big technology stocks slipped and weighed on the broader market.",
+      "pubDate": "Thu, 25 Jun 2026 05:17:50 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Fixed power fees jump up to 70 per cent after regulator curbs usage charges",
       "link": "https://www.smh.com.au/business/consumer-affairs/bowen-demands-answers-as-power-giants-hike-fixed-charges-on-bills-20260624-p609o4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "While power bills are set to fall from July 1, sudden increases in energy retailers’ grid-connection charges threaten to dilute some of these savings.",
@@ -7748,10 +7795,17 @@
       "source": "SMH"
     },
     {
-      "title": "Activewear brand Stax, worn by Jennifer Lopez and Lizzo, goes under",
-      "link": "https://www.smh.com.au/business/companies/activewear-brand-stax-worn-by-lizzo-and-jennifer-lopez-goes-under-20260624-p609sb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian brand famous for its black tights and fleeces announced on Wednesday that it had gone into receivership.",
-      "pubDate": "Wed, 24 Jun 2026 16:17:46 +1000",
+      "title": "Knights player Kepaoa banned for six weeks for homophobic slur",
+      "link": "https://www.abc.net.au/news/2026-06-25/asu-kepaoa-banned-for-six-weeks-over-homophobic-slur/106839020",
+      "snippet": "",
+      "pubDate": "Wed, 24 Jun 2026 19:49:15 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "WFH is linked to worse mental health – but it’s a big boost for some",
+      "link": "https://www.smh.com.au/business/workplace/wfh-is-linked-to-worse-mental-health-but-it-s-a-big-boost-for-some-20260623-p609bq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Some remote workers go days without human contact and many have worse mental health, according to one study. But experts say that link is tenuous, with strong benefits for some groups.",
+      "pubDate": "Thu, 25 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7769,31 +7823,10 @@
       "source": "ABC"
     },
     {
-      "title": "From Kyle to Karl: Media companies nurture personalities they ultimately can’t control",
-      "link": "https://www.smh.com.au/business/companies/from-kyle-to-karl-media-companies-nurture-personalities-they-ultimately-can-t-control-20260624-p609kp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "How far Nine pushes back to distance itself from Karl Stefanovic’s new identity is now up to the network.",
-      "pubDate": "Wed, 24 Jun 2026 16:04:44 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Squash star ignores critics after joining Australia",
       "link": "https://www.abc.net.au/news/2026-06-24/greg-lobban-squash-move-scotland-australia/106820908",
       "snippet": "",
       "pubDate": "Wed, 24 Jun 2026 02:48:15 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Trump's special job and commentator banned for outburst",
-      "link": "https://www.abc.net.au/news/2026-06-24/world-cup-quick-hits-june-24-ronaldo-infantino-trump/106835104",
-      "snippet": "",
-      "pubDate": "Wed, 24 Jun 2026 02:19:57 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "England's hunt for attacking spark fruitless, as 'positivity' takes over",
-      "link": "https://www.abc.net.au/news/2026-06-24/world-cup-england-positive-world-cup-ghana-draw/106834940",
-      "snippet": "",
-      "pubDate": "Wed, 24 Jun 2026 00:14:48 +0000",
       "source": "ABC"
     }
   ]
