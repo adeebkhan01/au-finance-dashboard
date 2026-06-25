@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-25T15:22:34.896Z",
+  "fetchedAt": "2026-06-25T20:30:35.804Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -3.33,
+      "changePercent": -3.41,
       "previousClose": 0.72,
       "asOf": "2026-06-25",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-06-23",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-24",
           "close": 0.69
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-06-23",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-24",
           "close": 0.69
         },
         {
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.16,
+      "changePercent": -1.17,
       "previousClose": 0.61,
       "asOf": "2026-06-25",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-06-23",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-24",
           "close": 0.61
         },
         {
@@ -1501,6 +1513,10 @@
         },
         {
           "date": "2026-06-23",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-24",
           "close": 0.61
         },
         {
@@ -2262,9 +2278,9 @@
       ]
     },
     "audcny": {
-      "value": 4.68,
-      "change": -0.18,
-      "changePercent": -3.67,
+      "value": 4.7,
+      "change": -0.16,
+      "changePercent": -3.27,
       "previousClose": 4.86,
       "asOf": "2026-06-25",
       "history": [
@@ -2361,8 +2377,12 @@
           "close": 4.7
         },
         {
-          "date": "2026-06-25",
+          "date": "2026-06-24",
           "close": 4.68
+        },
+        {
+          "date": "2026-06-25",
+          "close": 4.7
         }
       ],
       "label": "AUD/CNY",
@@ -2634,8 +2654,12 @@
           "close": 4.7
         },
         {
-          "date": "2026-06-25",
+          "date": "2026-06-24",
           "close": 4.68
+        },
+        {
+          "date": "2026-06-25",
+          "close": 4.7
         }
       ],
       "h6m": [
@@ -2745,11 +2769,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.7
+          "close": 4.68
         },
         {
           "date": "2026-06-25",
-          "close": 4.68
+          "close": 4.7
         }
       ],
       "h3y": [
@@ -3383,18 +3407,18 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.7
+          "close": 4.68
         },
         {
           "date": "2026-06-25",
-          "close": 4.68
+          "close": 4.7
         }
       ]
     },
     "audjpy": {
-      "value": 111.83,
-      "change": -1.93,
-      "changePercent": -1.69,
+      "value": 111.81,
+      "change": -1.94,
+      "changePercent": -1.71,
       "previousClose": 113.76,
       "asOf": "2026-06-25",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 111.7
         },
         {
+          "date": "2026-06-24",
+          "close": 111.59
+        },
+        {
           "date": "2026-06-25",
-          "close": 111.83
+          "close": 111.81
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 111.7
         },
         {
+          "date": "2026-06-24",
+          "close": 111.59
+        },
+        {
           "date": "2026-06-25",
-          "close": 111.83
+          "close": 111.81
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 111.7
+          "close": 111.59
         },
         {
           "date": "2026-06-25",
-          "close": 111.83
+          "close": 111.81
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 111.7
+          "close": 111.59
         },
         {
           "date": "2026-06-25",
-          "close": 111.83
+          "close": 111.81
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -3.33,
+    "changePercent": -3.41,
     "previousClose": 0.72,
     "asOf": "2026-06-25",
     "history": [
@@ -4619,6 +4651,10 @@
       },
       {
         "date": "2026-06-23",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-24",
         "close": 0.69
       },
       {
@@ -4892,6 +4928,10 @@
       },
       {
         "date": "2026-06-23",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-24",
         "close": 0.69
       },
       {
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 71.57,
-      "change": -22.32,
-      "changePercent": -23.77,
+      "value": 71.91,
+      "change": -21.98,
+      "changePercent": -23.41,
       "previousClose": 93.89,
       "asOf": "2026-06-25",
       "history": [
@@ -5938,16 +5978,16 @@
         },
         {
           "date": "2026-06-25",
-          "close": 71.57
+          "close": 71.91
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 74.95,
-      "change": -24.63,
-      "changePercent": -24.73,
+      "value": 75.52,
+      "change": -24.06,
+      "changePercent": -24.16,
       "previousClose": 99.58,
       "asOf": "2026-06-25",
       "history": [
@@ -6037,16 +6077,16 @@
         },
         {
           "date": "2026-06-25",
-          "close": 74.95
+          "close": 75.52
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.27,
+      "value": 3.26,
       "change": 0.37,
-      "changePercent": 12.85,
+      "changePercent": 12.79,
       "previousClose": 2.89,
       "asOf": "2026-06-25",
       "history": [
@@ -6136,7 +6176,7 @@
         },
         {
           "date": "2026-06-25",
-          "close": 3.27
+          "close": 3.26
         }
       ],
       "name": "Natural Gas",
@@ -7445,21 +7485,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4020.4,
-      "change": -480,
-      "changePercent": -10.67
+      "price": 4043.6,
+      "change": -456.8,
+      "changePercent": -10.15
     },
     {
       "name": "Silver",
-      "price": 57.64,
-      "change": -18.67,
-      "changePercent": -24.47
+      "price": 57.93,
+      "change": -18.38,
+      "changePercent": -24.09
     },
     {
       "name": "Copper",
-      "price": 6.11,
-      "change": -0.25,
-      "changePercent": -3.88
+      "price": 6.14,
+      "change": -0.22,
+      "changePercent": -3.48
     }
   ],
   "housing": {
@@ -7795,38 +7835,59 @@
   ],
   "news": [
     {
-      "title": "ASX slips as banks and miners fall; Judo Bank plummets",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-decline-as-wall-street-scuffles-oil-prices-fall-20260625-p609vf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket closed in the red as weaker commodity prices dragged down miners, while the banking sector also lost ground.",
-      "pubDate": "Thu, 25 Jun 2026 17:54:00 +1000",
+      "title": "Why the RBA has been so chill about putting jobs on the line",
+      "link": "https://www.smh.com.au/business/the-economy/why-the-rba-has-been-so-chill-about-putting-jobs-on-the-line-20260625-p60a5m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "If the Reserve Bank has seemed more intent on hammering down inflation than preserving jobs, that’s because it is. The reason? It comes down, partly, to shapes.",
+      "pubDate": "Fri, 26 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Larvotto drill hits add shine to NSW Hillgrove gold-antimony target",
-      "link": "https://www.smh.com.au/business/companies/larvotto-drill-hits-add-shine-to-nsw-hillgrove-gold-antimony-target-20260625-p60a47.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto has unveiled 8m at 16.11g/t AuEq from its Midas prospect at Hillgrove in NSW, backing a 656,000-ounce exploration target as China-Japan tungsten supply tensions add extra bite.",
-      "pubDate": "Thu, 25 Jun 2026 14:45:33 +1000",
+      "title": "ASX set to edge up, Wall Street drifts higher; Apple dives after hiking prices",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-drifts-higher-apple-dives-after-hiking-prices-20260626-p60a8l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The stock market is drifting in mixed trading after several artificial-intelligence stocks veered back up their roller-coaster ride, while Apple dropped after hiking prices on many of its products.",
+      "pubDate": "Fri, 26 Jun 2026 05:18:07 +1000",
       "source": "SMH"
     },
     {
-      "title": "How Stefanovic went from Nine’s ‘heart and soul’ to persona non grata",
-      "link": "https://www.smh.com.au/business/companies/how-stefanovic-went-from-nine-s-heart-and-soul-to-persona-non-grata-20260625-p609xl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Karl Stefanovic was Nine’s golden boy. But his bold play to become Australia’s Joe Rogan has led to his ouster from the network.",
-      "pubDate": "Thu, 25 Jun 2026 19:30:00 +1000",
+      "title": "Coles and Woolies are being banned from price-gouging. No one knows what exactly that means",
+      "link": "https://www.smh.com.au/business/companies/coles-and-woolies-are-being-banned-from-price-gouging-no-one-knows-what-exactly-that-means-20260625-p609xv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "From July 1, Australia’s dominant supermarkets will have their prices monitored for “significantly excessive” pricing – whatever that entails.",
+      "pubDate": "Fri, 26 Jun 2026 05:25:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Barkly cranks up 10,000m rare earths drilling in NT Gulf",
-      "link": "https://www.smh.com.au/business/companies/barkly-cranks-up-10-000m-rare-earths-drilling-in-nt-gulf-20260625-p60a68.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Barkly Rare Earths is mobilising for a 10,000m drilling push in the NT, chasing growth beyond its 40Mt inferred rare earths resource.",
-      "pubDate": "Thu, 25 Jun 2026 17:07:58 +1000",
+      "title": "‘The CBD is back’: Sizzling auction sees two bidders push Wazi Dumpling House to $6m",
+      "link": "https://www.smh.com.au/business/companies/the-cbd-is-back-sizzling-auction-sees-two-bidders-push-wazi-dumpling-house-to-6m-20260625-p60a05.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Chinatown abuzz as 200 spectators watched two bidders in a heated 40-minute contest.",
+      "pubDate": "Fri, 26 Jun 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "How Stefanovic’s epic miscalculation crossed a line for Nine",
-      "link": "https://www.smh.com.au/business/companies/how-stefanovic-s-epic-miscalculation-crossed-a-line-for-nine-20260625-p60a0t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Karl Stefanovic’s decision to interview a far-right activist on his podcast fundamentally clashed with his persona on breakfast TV.",
-      "pubDate": "Thu, 25 Jun 2026 15:57:15 +1000",
+      "title": "Karl Stefanovic to leave Nine ‘immediately’ after network axes multimillion-dollar contract",
+      "link": "https://www.smh.com.au/business/companies/karl-stefanovic-to-leave-nine-immediately-after-network-axes-multimillion-dollar-contract-20260626-p60a8i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Nine and the presenter have agreed it was no longer possible for him to continue hosting Today while also fronting his independent podcast.",
+      "pubDate": "Fri, 26 Jun 2026 05:58:59 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Justin Hemmes turns up, bids big, and buys himself a $19m club",
+      "link": "https://www.smh.com.au/business/companies/justin-hemmes-turns-up-bids-big-and-barracks-himself-a-19m-club-20260625-p60a4g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Hospitality tzar successfully outbids three other buyers in a spirited auction and snatches a former RSL club, The Barracks.",
+      "pubDate": "Fri, 26 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Paraguay's Australian-made commune nervous for crucial Cup clash",
+      "link": "https://www.abc.net.au/news/2026-06-26/socceroos-paraguay-neuva-australia-world-cup/106840492",
+      "snippet": "",
+      "pubDate": "Thu, 25 Jun 2026 19:19:03 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "My colleague called another worker ‘toxic’. What did they mean?",
+      "link": "https://www.smh.com.au/business/workplace/my-colleague-called-another-worker-toxic-what-did-they-mean-20260625-p60a2t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Like many words we use at work today, “toxic” in the broader, non-scientific sense, began its move into the vernacular when it was employed by psychologists.",
+      "pubDate": "Fri, 26 Jun 2026 05:04:00 +1000",
       "source": "SMH"
     },
     {
@@ -7835,13 +7896,6 @@
       "snippet": "",
       "pubDate": "Thu, 25 Jun 2026 14:04:48 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "‘I didn’t think it was that bad’: Billionaire James Packer defends Karl Stefanovic",
-      "link": "https://www.smh.com.au/business/companies/karl-stefanovic-pulls-out-of-radio-show-tomorrow-amid-robinson-controversy-20260625-p60a37.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Nine executives have spent much of Thursday finalising the terms of the Today host’s departure from the network.",
-      "pubDate": "Thu, 25 Jun 2026 19:33:19 +1000",
-      "source": "SMH"
     },
     {
       "title": "Lions roar back in form with big win over Swans",
@@ -7862,13 +7916,6 @@
       "link": "https://www.abc.net.au/news/2026-06-25/tony-popovic-has-a-selection-headache/106839150",
       "snippet": "",
       "pubDate": "Thu, 25 Jun 2026 05:59:41 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Kane's curse lifted, historic goals for Haiti, 40yo keeper's big moment",
-      "link": "https://www.abc.net.au/news/2026-06-25/world-cup-quick-hits-harry-kane-haiti-guillermo-ochoa/106839132",
-      "snippet": "",
-      "pubDate": "Thu, 25 Jun 2026 05:00:09 +0000",
       "source": "ABC"
     }
   ]
