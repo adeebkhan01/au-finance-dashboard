@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-26T15:09:28.081Z",
+  "fetchedAt": "2026-06-26T20:16:53.660Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.72,
+      "changePercent": -3.77,
       "previousClose": 0.72,
       "asOf": "2026-06-26",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.75,
+      "changePercent": -1.7,
       "previousClose": 0.62,
       "asOf": "2026-06-26",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.68,
-      "change": -0.19,
-      "changePercent": -3.96,
+      "value": 4.69,
+      "change": -0.18,
+      "changePercent": -3.74,
       "previousClose": 4.87,
       "asOf": "2026-06-26",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "h3y": [
@@ -3375,13 +3375,13 @@
         },
         {
           "date": "2026-06-26",
-          "close": 4.68
+          "close": 4.69
         }
       ]
     },
     "audjpy": {
-      "value": 111.59,
-      "change": -2.32,
+      "value": 111.58,
+      "change": -2.33,
       "changePercent": -2.04,
       "previousClose": 113.91,
       "asOf": "2026-06-26",
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 111.59
+          "close": 111.58
         }
       ],
       "label": "AUD/JPY",
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 111.6
+          "close": 111.59
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.72,
+    "changePercent": -3.77,
     "previousClose": 0.72,
     "asOf": "2026-06-26",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 69.18,
-      "change": -24.71,
-      "changePercent": -26.32,
+      "value": 69.42,
+      "change": -24.47,
+      "changePercent": -26.06,
       "previousClose": 93.89,
       "asOf": "2026-06-26",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-06-26",
-          "close": 69.18
+          "close": 69.42
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 72.65,
-      "change": -26.93,
-      "changePercent": -27.04,
+      "value": 72.78,
+      "change": -26.8,
+      "changePercent": -26.91,
       "previousClose": 99.58,
       "asOf": "2026-06-26",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-06-26",
-          "close": 72.65
+          "close": 72.78
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.34,
-      "change": 0.44,
-      "changePercent": 15.38,
+      "value": 3.29,
+      "change": 0.4,
+      "changePercent": 13.79,
       "previousClose": 2.89,
       "asOf": "2026-06-26",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 3.34
+          "close": 3.29
         }
       ],
       "name": "Natural Gas",
@@ -7437,21 +7437,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4096.9,
-      "change": -403.5,
-      "changePercent": -8.97
+      "price": 4082.1,
+      "change": -418.3,
+      "changePercent": -9.29
     },
     {
       "name": "Silver",
-      "price": 59.64,
-      "change": -16.67,
-      "changePercent": -21.85
+      "price": 59.19,
+      "change": -17.12,
+      "changePercent": -22.43
     },
     {
       "name": "Copper",
-      "price": 6.21,
-      "change": -0.15,
-      "changePercent": -2.3
+      "price": 6.18,
+      "change": -0.18,
+      "changePercent": -2.81
     }
   ],
   "housing": {
@@ -7813,6 +7813,20 @@
       "snippet": "Dateline Resources’ chairman has injected $1.95M into the company, to boost his stake to 15.3%, signalling serious confidence in its suite of US gold and critical minerals assets.",
       "pubDate": "Fri, 26 Jun 2026 12:38:40 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Partner blew the whistle on KPMG five years ago. He knows why history has repeated",
+      "link": "https://www.smh.com.au/business/workplace/partner-blew-the-whistle-on-kpmg-five-years-ago-he-knows-why-history-has-repeated-20260624-p609jw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The all-powerful, and secretive, consulting sector is in crisis again as a whistleblower scandal tears an industry giant apart.",
+      "pubDate": "Sat, 27 Jun 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Live: France superstar bags first-half hat-trick against Norway",
+      "link": "https://www.abc.net.au/news/2026-06-27/world-cup-live-mbappe-france-norway-sen-irq-cpv-ksa-uru-esp/106848646",
+      "snippet": "",
+      "pubDate": "Fri, 26 Jun 2026 18:29:58 +0000",
+      "source": "ABC"
     },
     {
       "title": "Tone-deaf Stefanovic has the hide to bag the network that made him a star and paid him millions",
