@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-26T09:57:34.602Z",
+  "fetchedAt": "2026-06-26T15:09:28.081Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.68,
+      "changePercent": -3.72,
       "previousClose": 0.72,
       "asOf": "2026-06-26",
       "history": [
@@ -1128,9 +1128,9 @@
       ]
     },
     "audeur": {
-      "value": 0.6,
+      "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.8,
+      "changePercent": -1.75,
       "previousClose": 0.62,
       "asOf": "2026-06-26",
       "history": [
@@ -1228,7 +1228,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "label": "AUD/EUR",
@@ -1501,7 +1501,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "h6m": [
@@ -1615,7 +1615,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "h3y": [
@@ -2249,14 +2249,14 @@
         },
         {
           "date": "2026-06-26",
-          "close": 0.6
+          "close": 0.61
         }
       ]
     },
     "audcny": {
       "value": 4.68,
       "change": -0.19,
-      "changePercent": -3.92,
+      "changePercent": -3.96,
       "previousClose": 4.87,
       "asOf": "2026-06-26",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 111.53,
-      "change": -2.38,
-      "changePercent": -2.09,
+      "value": 111.59,
+      "change": -2.32,
+      "changePercent": -2.04,
       "previousClose": 113.91,
       "asOf": "2026-06-26",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 111.53
+          "close": 111.59
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 111.53
+          "close": 111.59
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 111.53
+          "close": 111.59
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 111.53
+          "close": 111.6
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.68,
+    "changePercent": -3.72,
     "previousClose": 0.72,
     "asOf": "2026-06-26",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 69.3,
-      "change": -24.59,
-      "changePercent": -26.19,
+      "value": 69.18,
+      "change": -24.71,
+      "changePercent": -26.32,
       "previousClose": 93.89,
       "asOf": "2026-06-26",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-06-26",
-          "close": 69.3
+          "close": 69.18
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 72.83,
-      "change": -26.75,
-      "changePercent": -26.86,
+      "value": 72.65,
+      "change": -26.93,
+      "changePercent": -27.04,
       "previousClose": 99.58,
       "asOf": "2026-06-26",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-06-26",
-          "close": 72.83
+          "close": 72.65
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.33,
+      "value": 3.34,
       "change": 0.44,
-      "changePercent": 15.2,
+      "changePercent": 15.38,
       "previousClose": 2.89,
       "asOf": "2026-06-26",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 3.33
+          "close": 3.34
         }
       ],
       "name": "Natural Gas",
@@ -6307,10 +6307,6 @@
       {
         "date": "2026-06-25",
         "close": 8748.7
-      },
-      {
-        "date": "2026-06-26",
-        "close": 8764.2
       }
     ]
   },
@@ -7441,21 +7437,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4062.1,
-      "change": -438.3,
-      "changePercent": -9.74
+      "price": 4096.9,
+      "change": -403.5,
+      "changePercent": -8.97
     },
     {
       "name": "Silver",
-      "price": 58.67,
-      "change": -17.64,
-      "changePercent": -23.11
+      "price": 59.64,
+      "change": -16.67,
+      "changePercent": -21.85
     },
     {
       "name": "Copper",
-      "price": 6.13,
-      "change": -0.23,
-      "changePercent": -3.61
+      "price": 6.21,
+      "change": -0.15,
+      "changePercent": -2.3
     }
   ],
   "housing": {
@@ -7826,7 +7822,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Hawks try to hold top four spot against Giants at the 'G",
+      "title": "Giants 'obliterated' at stoppage as Hawks win at MCG on night of injuries",
       "link": "https://www.abc.net.au/news/2026-06-26/afl-rd-16-live-hawks-giants/106838740",
       "snippet": "",
       "pubDate": "Fri, 26 Jun 2026 08:58:52 +0000",
@@ -7840,7 +7836,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Payne Haas to captain desperate Broncos against Roosters",
+      "title": "Broncos coach rejects claim season is done despite seventh straight loss",
       "link": "https://www.abc.net.au/news/2026-06-26/nrl-live-titans-bulldogs-broncos-roosters/106848662",
       "snippet": "",
       "pubDate": "Fri, 26 Jun 2026 07:06:39 +0000",
