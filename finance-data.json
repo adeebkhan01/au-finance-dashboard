@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-26T20:16:53.660Z",
+  "fetchedAt": "2026-06-27T04:33:56.909Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.77,
+      "changePercent": -3.75,
       "previousClose": 0.72,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
         {
           "date": "2026-05-25",
@@ -101,7 +101,11 @@
           "close": 0.69
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-25",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-27",
           "close": 0.69
         }
       ],
@@ -374,7 +378,11 @@
           "close": 0.69
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-25",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-27",
           "close": 0.69
         }
       ],
@@ -488,7 +496,7 @@
           "close": 0.69
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-27",
           "close": 0.69
         }
       ],
@@ -1122,7 +1130,7 @@
           "close": 0.69
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-27",
           "close": 0.69
         }
       ]
@@ -1130,9 +1138,9 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.7,
+      "changePercent": -1.66,
       "previousClose": 0.62,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
         {
           "date": "2026-05-25",
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-06-24",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-25",
           "close": 0.61
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-06-24",
+          "close": 0.61
+        },
+        {
+          "date": "2026-06-25",
           "close": 0.61
         },
         {
@@ -2254,11 +2270,11 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.18,
-      "changePercent": -3.74,
+      "value": 4.67,
+      "change": -0.2,
+      "changePercent": -4.03,
       "previousClose": 4.87,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
         {
           "date": "2026-05-25",
@@ -2353,8 +2369,12 @@
           "close": 4.68
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-25",
           "close": 4.69
+        },
+        {
+          "date": "2026-06-27",
+          "close": 4.67
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.68
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-25",
           "close": 4.69
+        },
+        {
+          "date": "2026-06-27",
+          "close": 4.67
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.68
+          "close": 4.69
         },
         {
-          "date": "2026-06-26",
-          "close": 4.69
+          "date": "2026-06-27",
+          "close": 4.67
         }
       ],
       "h3y": [
@@ -3371,20 +3395,20 @@
         },
         {
           "date": "2026-06-21",
-          "close": 4.68
+          "close": 4.69
         },
         {
-          "date": "2026-06-26",
-          "close": 4.69
+          "date": "2026-06-27",
+          "close": 4.67
         }
       ]
     },
     "audjpy": {
       "value": 111.58,
       "change": -2.33,
-      "changePercent": -2.04,
+      "changePercent": -2.05,
       "previousClose": 113.91,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
         {
           "date": "2026-05-25",
@@ -3479,7 +3503,11 @@
           "close": 111.59
         },
         {
-          "date": "2026-06-26",
+          "date": "2026-06-25",
+          "close": 111.63
+        },
+        {
+          "date": "2026-06-27",
           "close": 111.58
         }
       ],
@@ -3752,8 +3780,12 @@
           "close": 111.59
         },
         {
-          "date": "2026-06-26",
-          "close": 111.59
+          "date": "2026-06-25",
+          "close": 111.63
+        },
+        {
+          "date": "2026-06-27",
+          "close": 111.58
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 111.59
+          "close": 111.63
         },
         {
-          "date": "2026-06-26",
-          "close": 111.59
+          "date": "2026-06-27",
+          "close": 111.58
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-06-21",
-          "close": 111.59
+          "close": 111.63
         },
         {
-          "date": "2026-06-26",
-          "close": 111.59
+          "date": "2026-06-27",
+          "close": 111.58
         }
       ]
     }
@@ -4509,9 +4541,9 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.77,
+    "changePercent": -3.75,
     "previousClose": 0.72,
-    "asOf": "2026-06-26",
+    "asOf": "2026-06-27",
     "history": [
       {
         "date": "2026-05-25",
@@ -4606,7 +4638,11 @@
         "close": 0.69
       },
       {
-        "date": "2026-06-26",
+        "date": "2026-06-25",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-27",
         "close": 0.69
       }
     ],
@@ -4879,7 +4915,11 @@
         "close": 0.69
       },
       {
-        "date": "2026-06-26",
+        "date": "2026-06-25",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-27",
         "close": 0.69
       }
     ],
@@ -4993,7 +5033,7 @@
         "close": 0.69
       },
       {
-        "date": "2026-06-26",
+        "date": "2026-06-27",
         "close": 0.69
       }
     ],
@@ -5627,7 +5667,7 @@
         "close": 0.69
       },
       {
-        "date": "2026-06-26",
+        "date": "2026-06-27",
         "close": 0.69
       }
     ]
@@ -5826,16 +5866,12 @@
   },
   "energy": {
     "wti": {
-      "value": 69.42,
-      "change": -24.47,
-      "changePercent": -26.06,
+      "value": 69.23,
+      "change": -24.66,
+      "changePercent": -26.26,
       "previousClose": 93.89,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 93.89
-        },
         {
           "date": "2026-05-27",
           "close": 88.68
@@ -5922,23 +5958,19 @@
         },
         {
           "date": "2026-06-26",
-          "close": 69.42
+          "close": 69.23
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 72.78,
-      "change": -26.8,
-      "changePercent": -26.91,
+      "value": 73.57,
+      "change": -26.01,
+      "changePercent": -26.12,
       "previousClose": 99.58,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 99.58
-        },
         {
           "date": "2026-05-27",
           "close": 94.29
@@ -6025,7 +6057,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 72.78
+          "close": 71.99
         }
       ],
       "name": "Brent Crude",
@@ -6033,15 +6065,11 @@
     },
     "gas": {
       "value": 3.29,
-      "change": 0.4,
-      "changePercent": 13.79,
+      "change": 0.39,
+      "changePercent": 13.58,
       "previousClose": 2.89,
-      "asOf": "2026-06-26",
+      "asOf": "2026-06-27",
       "history": [
-        {
-          "date": "2026-05-26",
-          "close": 2.89
-        },
         {
           "date": "2026-05-27",
           "close": 3.04
@@ -6128,7 +6156,7 @@
         },
         {
           "date": "2026-06-26",
-          "close": 3.29
+          "close": 3.23
         }
       ],
       "name": "Natural Gas",
@@ -6218,7 +6246,7 @@
     "change": 106.4,
     "changePercent": 1.23,
     "previousClose": 8657.8,
-    "asOf": "2026-06-26",
+    "asOf": "2026-06-27",
     "history": [
       {
         "date": "2026-05-26",
@@ -6307,6 +6335,10 @@
       {
         "date": "2026-06-25",
         "close": 8748.7
+      },
+      {
+        "date": "2026-06-26",
+        "close": 8764.2
       }
     ]
   },
@@ -7437,21 +7469,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4082.1,
-      "change": -418.3,
-      "changePercent": -9.29
+      "price": 4096.3,
+      "change": -404.1,
+      "changePercent": -8.98
     },
     {
       "name": "Silver",
-      "price": 59.19,
-      "change": -17.12,
-      "changePercent": -22.43
+      "price": 59.67,
+      "change": -16.63,
+      "changePercent": -21.8
     },
     {
       "name": "Copper",
-      "price": 6.18,
-      "change": -0.18,
-      "changePercent": -2.81
+      "price": 6.21,
+      "change": -0.15,
+      "changePercent": -2.42
     }
   ],
   "housing": {
@@ -7815,18 +7847,18 @@
       "source": "SMH"
     },
     {
+      "title": "Quick hits: Bedlam in Group H, Dua Lipa surprise and superstars warm the bench",
+      "link": "https://www.abc.net.au/news/2026-06-27/world-cup-quick-hits-june-28-messi-haaland-dua-lipa/106850510",
+      "snippet": "",
+      "pubDate": "Sat, 27 Jun 2026 02:57:45 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Partner blew the whistle on KPMG five years ago. He knows why history has repeated",
       "link": "https://www.smh.com.au/business/workplace/partner-blew-the-whistle-on-kpmg-five-years-ago-he-knows-why-history-has-repeated-20260624-p609jw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The all-powerful, and secretive, consulting sector is in crisis again as a whistleblower scandal tears an industry giant apart.",
       "pubDate": "Sat, 27 Jun 2026 05:00:00 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Live: France superstar bags first-half hat-trick against Norway",
-      "link": "https://www.abc.net.au/news/2026-06-27/world-cup-live-mbappe-france-norway-sen-irq-cpv-ksa-uru-esp/106848646",
-      "snippet": "",
-      "pubDate": "Fri, 26 Jun 2026 18:29:58 +0000",
-      "source": "ABC"
     },
     {
       "title": "Tone-deaf Stefanovic has the hide to bag the network that made him a star and paid him millions",
@@ -7836,10 +7868,31 @@
       "source": "SMH"
     },
     {
-      "title": "Giants 'obliterated' at stoppage as Hawks win at MCG on night of injuries",
-      "link": "https://www.abc.net.au/news/2026-06-26/afl-rd-16-live-hawks-giants/106838740",
+      "title": "Live: Queensland trio avoid suspension to be cleared for Origin decider",
+      "link": "https://www.abc.net.au/news/2026-06-27/nrl-live-dolphins-warriors-cowboys-panthers-sea-eagles-storm/106828922",
       "snippet": "",
-      "pubDate": "Fri, 26 Jun 2026 08:58:52 +0000",
+      "pubDate": "Sat, 27 Jun 2026 04:19:19 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Brilliant Talor Byrne goal sends Carlton well clear ahead of Showdown 60",
+      "link": "https://www.abc.net.au/news/2026-06-27/afl-rd-16-live-carl-wc-coll-rich-ptad-adel/106838790",
+      "snippet": "",
+      "pubDate": "Sat, 27 Jun 2026 02:59:31 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Egypt and Iran push back against 'Pride Match' as rainbow flags wave",
+      "link": "https://www.abc.net.au/news/2026-06-27/world-cup-2026-iran-and-egypt-push-back-against-pride-match/106850698",
+      "snippet": "",
+      "pubDate": "Sat, 27 Jun 2026 01:41:49 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Dembélé suspends time as France's favouritism heightens",
+      "link": "https://www.abc.net.au/news/2026-06-27/world-cup-ousmane-dembele-france-norway-boston/106850332",
+      "snippet": "",
+      "pubDate": "Sat, 27 Jun 2026 00:19:36 +0000",
       "source": "ABC"
     },
     {
@@ -7848,13 +7901,6 @@
       "snippet": "The executive chairman told staff that “losing your job is the beginning of the consequences, not the end”.",
       "pubDate": "Fri, 26 Jun 2026 18:38:17 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Broncos coach rejects claim season is done despite seventh straight loss",
-      "link": "https://www.abc.net.au/news/2026-06-26/nrl-live-titans-bulldogs-broncos-roosters/106848662",
-      "snippet": "",
-      "pubDate": "Fri, 26 Jun 2026 07:06:39 +0000",
-      "source": "ABC"
     }
   ]
 }
