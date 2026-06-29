@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-29T11:31:25.298Z",
+  "fetchedAt": "2026-06-29T16:22:58.758Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.69,
+      "changePercent": -3.84,
       "previousClose": 0.72,
       "asOf": "2026-06-29",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.6,
       "change": -0.01,
-      "changePercent": -1.59,
+      "changePercent": -1.95,
       "previousClose": 0.61,
       "asOf": "2026-06-29",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
+      "value": 4.68,
       "change": -0.18,
-      "changePercent": -3.77,
+      "changePercent": -3.6,
       "previousClose": 4.86,
       "asOf": "2026-06-29",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-06-29",
-          "close": 4.67
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 111.65,
-      "change": -2.41,
-      "changePercent": -2.11,
+      "value": 111.51,
+      "change": -2.55,
+      "changePercent": -2.24,
       "previousClose": 114.06,
       "asOf": "2026-06-29",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 111.65
+          "close": 111.51
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 111.65
+          "close": 111.51
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 111.65
+          "close": 111.51
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 111.65
+          "close": 111.51
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.69,
+    "changePercent": -3.84,
     "previousClose": 0.72,
     "asOf": "2026-06-29",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 69.99,
-      "change": -17.37,
-      "changePercent": -19.88,
+      "value": 70.76,
+      "change": -16.6,
+      "changePercent": -19,
       "previousClose": 87.36,
       "asOf": "2026-06-29",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-06-29",
-          "close": 69.99
+          "close": 70.76
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 73.13,
-      "change": -18.92,
-      "changePercent": -20.55,
+      "value": 73.95,
+      "change": -18.1,
+      "changePercent": -19.66,
       "previousClose": 92.05,
       "asOf": "2026-06-29",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-06-29",
-          "close": 73.13
+          "close": 73.95
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.29,
-      "change": 0,
-      "changePercent": -0.09,
+      "value": 3.19,
+      "change": -0.1,
+      "changePercent": -3.1,
       "previousClose": 3.29,
       "asOf": "2026-06-29",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-06-29",
-          "close": 3.29
+          "close": 3.19
         }
       ],
       "name": "Natural Gas",
@@ -6195,10 +6195,6 @@
       {
         "date": "2026-06-26",
         "close": 8764.2
-      },
-      {
-        "date": "2026-06-29",
-        "close": 8823.4
       }
     ]
   },
@@ -7265,21 +7261,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4047.3,
-      "change": -513.2,
-      "changePercent": -11.25
+      "price": 4041,
+      "change": -519.5,
+      "changePercent": -11.39
     },
     {
       "name": "Silver",
-      "price": 58.14,
-      "change": -17.48,
-      "changePercent": -23.12
+      "price": 58.59,
+      "change": -17.03,
+      "changePercent": -22.52
     },
     {
       "name": "Copper",
-      "price": 6.19,
-      "change": -0.17,
-      "changePercent": -2.69
+      "price": 6.17,
+      "change": -0.19,
+      "changePercent": -3.02
     }
   ],
   "housing": {
@@ -7671,6 +7667,13 @@
       "source": "ABC"
     },
     {
+      "title": "Sam Kerr returns to the United States after Chelsea exit",
+      "link": "https://www.abc.net.au/news/2026-06-30/sam-kerr-s-future-confirmed-/106858822",
+      "snippet": "",
+      "pubDate": "Mon, 29 Jun 2026 16:05:54 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "How a handshake may decide Slater's Maroons coaching future",
       "link": "https://www.abc.net.au/news/2026-06-29/billy-slater-queensland-maroons-coach-state-of-origin-nsw-blues/106857654",
       "snippet": "",
@@ -7689,13 +7692,6 @@
       "link": "https://www.abc.net.au/news/2026-06-29/les-mills-gym-founder-and-nz-olympian-dies/106856020",
       "snippet": "",
       "pubDate": "Mon, 29 Jun 2026 03:31:08 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Williams takes aim at anti-doping measures ahead of Wimbledon return",
-      "link": "https://www.abc.net.au/news/2026-06-29/serena-williams-wimbledon-tennis-anti-doping-protocol/106855738",
-      "snippet": "",
-      "pubDate": "Mon, 29 Jun 2026 02:59:20 +0000",
       "source": "ABC"
     }
   ]
