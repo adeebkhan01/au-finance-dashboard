@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-06-30T15:10:13.476Z",
+  "fetchedAt": "2026-06-30T20:29:03.367Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -3.34,
+      "changePercent": -3.35,
       "previousClose": 0.72,
       "asOf": "2026-06-30",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-06-28",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-29",
           "close": 0.69
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-06-28",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-29",
           "close": 0.69
         },
         {
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.48,
+      "changePercent": -1.46,
       "previousClose": 0.61,
       "asOf": "2026-06-30",
       "history": [
@@ -1213,6 +1221,10 @@
         {
           "date": "2026-06-28",
           "close": 0.61
+        },
+        {
+          "date": "2026-06-29",
+          "close": 0.6
         },
         {
           "date": "2026-06-30",
@@ -1488,6 +1500,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-06-29",
+          "close": 0.6
+        },
+        {
           "date": "2026-06-30",
           "close": 0.61
         }
@@ -1599,7 +1615,7 @@
         },
         {
           "date": "2026-06-28",
-          "close": 0.61
+          "close": 0.6
         },
         {
           "date": "2026-06-30",
@@ -2237,7 +2253,7 @@
         },
         {
           "date": "2026-06-28",
-          "close": 0.61
+          "close": 0.6
         },
         {
           "date": "2026-06-30",
@@ -2248,7 +2264,7 @@
     "audcny": {
       "value": 4.7,
       "change": -0.16,
-      "changePercent": -3.24,
+      "changePercent": -3.31,
       "previousClose": 4.86,
       "asOf": "2026-06-30",
       "history": [
@@ -2335,6 +2351,10 @@
         {
           "date": "2026-06-28",
           "close": 4.69
+        },
+        {
+          "date": "2026-06-29",
+          "close": 4.68
         },
         {
           "date": "2026-06-30",
@@ -2610,6 +2630,10 @@
           "close": 4.69
         },
         {
+          "date": "2026-06-29",
+          "close": 4.68
+        },
+        {
           "date": "2026-06-30",
           "close": 4.7
         }
@@ -2721,7 +2745,7 @@
         },
         {
           "date": "2026-06-28",
-          "close": 4.69
+          "close": 4.68
         },
         {
           "date": "2026-06-30",
@@ -3359,7 +3383,7 @@
         },
         {
           "date": "2026-06-28",
-          "close": 4.69
+          "close": 4.68
         },
         {
           "date": "2026-06-30",
@@ -3368,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.45,
-      "change": -1.61,
-      "changePercent": -1.41,
+      "value": 112.52,
+      "change": -1.54,
+      "changePercent": -1.35,
       "previousClose": 114.06,
       "asOf": "2026-06-30",
       "history": [
@@ -3459,8 +3483,12 @@
           "close": 111.57
         },
         {
+          "date": "2026-06-29",
+          "close": 111.43
+        },
+        {
           "date": "2026-06-30",
-          "close": 112.45
+          "close": 112.52
         }
       ],
       "label": "AUD/JPY",
@@ -3732,8 +3760,12 @@
           "close": 111.57
         },
         {
+          "date": "2026-06-29",
+          "close": 111.43
+        },
+        {
           "date": "2026-06-30",
-          "close": 112.45
+          "close": 112.52
         }
       ],
       "h6m": [
@@ -3843,11 +3875,11 @@
         },
         {
           "date": "2026-06-28",
-          "close": 111.57
+          "close": 111.43
         },
         {
           "date": "2026-06-30",
-          "close": 112.46
+          "close": 112.52
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-06-28",
-          "close": 111.57
+          "close": 111.43
         },
         {
           "date": "2026-06-30",
-          "close": 112.45
+          "close": 112.51
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -3.34,
+    "changePercent": -3.35,
     "previousClose": 0.72,
     "asOf": "2026-06-30",
     "history": [
@@ -4579,6 +4611,10 @@
       },
       {
         "date": "2026-06-28",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-29",
         "close": 0.69
       },
       {
@@ -4852,6 +4888,10 @@
       },
       {
         "date": "2026-06-28",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-29",
         "close": 0.69
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 70.37,
-      "change": -16.99,
-      "changePercent": -19.45,
+      "value": 70.08,
+      "change": -17.28,
+      "changePercent": -19.78,
       "previousClose": 87.36,
       "asOf": "2026-06-30",
       "history": [
@@ -5894,16 +5934,16 @@
         },
         {
           "date": "2026-06-30",
-          "close": 70.37
+          "close": 70.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 73.89,
-      "change": -18.16,
-      "changePercent": -19.73,
+      "value": 73.43,
+      "change": -18.62,
+      "changePercent": -20.23,
       "previousClose": 92.05,
       "asOf": "2026-06-30",
       "history": [
@@ -5989,16 +6029,16 @@
         },
         {
           "date": "2026-06-30",
-          "close": 73.89
+          "close": 73.43
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.3,
-      "change": 0.01,
-      "changePercent": 0.36,
+      "value": 3.26,
+      "change": -0.03,
+      "changePercent": -1.03,
       "previousClose": 3.29,
       "asOf": "2026-06-30",
       "history": [
@@ -6084,7 +6124,7 @@
         },
         {
           "date": "2026-06-30",
-          "close": 3.3
+          "close": 3.26
         }
       ],
       "name": "Natural Gas",
@@ -7321,21 +7361,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4052.1,
-      "change": -508.4,
-      "changePercent": -11.15
+      "price": 4033.8,
+      "change": -526.7,
+      "changePercent": -11.55
     },
     {
       "name": "Silver",
-      "price": 60.34,
-      "change": -15.28,
-      "changePercent": -20.2
+      "price": 59.67,
+      "change": -15.95,
+      "changePercent": -21.09
     },
     {
       "name": "Copper",
-      "price": 6.27,
-      "change": -0.09,
-      "changePercent": -1.41
+      "price": 6.25,
+      "change": -0.11,
+      "changePercent": -1.66
     }
   ],
   "housing": {
@@ -7671,6 +7711,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to edge up as Wall Street advances",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-as-wall-street-advances-20260701-p60bhx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The ASX is set to inch higher at the open while US stocks are trimming their losses from a rocky June.",
+      "pubDate": "Wed, 01 Jul 2026 06:10:18 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Ex-transport minister John Sharp, directors cleared of breaching duties at Rex",
       "link": "https://www.smh.com.au/business/companies/ex-transport-minister-john-sharp-cleared-of-breaching-duties-at-rex-20260630-p60bfd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Rex Airlines has been found to have misled the sharemarket, but the corporate cop did not prove its case against some former non-executive directors.",
@@ -7678,17 +7725,17 @@
       "source": "SMH"
     },
     {
-      "title": "Litchfield eyes fresh NT targets after BHP Xplor model review",
-      "link": "https://www.smh.com.au/business/companies/litchfield-eyes-fresh-nt-targets-after-bhp-xplor-model-review-20260630-p60bcw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Litchfield Minerals is set to launch three geophysical surveys in July across two key NT projects to test target models refined through its recent BHP Xplor studies.",
-      "pubDate": "Tue, 30 Jun 2026 14:00:02 +1000",
+      "title": "Consulting giants face break-up threat to restore trust after scandals",
+      "link": "https://www.smh.com.au/business/companies/consulting-giants-face-break-up-threat-to-restore-trust-after-scandals-20260629-p60aws.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The federal government is proposing harsh new measures to address the misbehaviour of Australia’s global consulting giants.",
+      "pubDate": "Wed, 01 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Trump unleashes as his Fed plan dealt a major blow",
-      "link": "https://www.smh.com.au/business/banking-and-finance/trump-furious-as-his-fed-plan-dealt-a-blow-20260630-p60b6l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump’s push to stack the board of the US central bank with loyalists has hit a roadblock after a Supreme Court decision. But the slim majority ruling suggests the Fed may still be vulnerable.",
-      "pubDate": "Tue, 30 Jun 2026 11:59:16 +1000",
+      "title": "Grill’d flips on racy SuperBuns burger ad, pulls image",
+      "link": "https://www.smh.com.au/business/companies/grill-d-flips-on-racy-superbuns-burger-ad-pulls-image-20260630-p60b94.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The burger chain has U-turned on its ad featuring a burger resting on the hip of a woman in active wear that had outraged staff.",
+      "pubDate": "Wed, 01 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7699,18 +7746,39 @@
       "source": "SMH"
     },
     {
-      "title": "‘Better than smelling like fear’: How a perfumed private equity boss faced the judge",
-      "link": "https://www.smh.com.au/business/companies/high-profile-private-equity-boss-faces-court-following-car-crash-20260630-p60b75.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Joel Thickins, the local boss of one of the world’s largest private equity firms, TPG Capital, this morning fronted court after crashing his car and refusing a breathalyser.",
-      "pubDate": "Tue, 30 Jun 2026 16:01:27 +1000",
+      "title": "Australia to play Poland in Davis Cup tie in Brisbane",
+      "link": "https://www.abc.net.au/news/2026-07-01/qld-australia-plays-poland-in-brisbane-davis-cup/106861250",
+      "snippet": "",
+      "pubDate": "Tue, 30 Jun 2026 20:07:53 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Why we should think twice before anointing Brisbane Olympians",
+      "link": "https://www.abc.net.au/news/2026-07-01/brisbane-olympics-athlete-pressure-already-arrived/106832970",
+      "snippet": "",
+      "pubDate": "Tue, 30 Jun 2026 19:05:50 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "I’m in two minds about climate change. But not like Hanson",
+      "link": "https://www.smh.com.au/business/the-economy/i-m-in-two-minds-about-climate-change-but-not-like-hanson-20260630-p60bcm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "When I decided to check on our progress in limiting climate change, I discovered the news wasn’t good. But then I realised we’re not dead yet.",
+      "pubDate": "Wed, 01 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Amplia reshapes board for next phase of cancer drug push",
-      "link": "https://www.smh.com.au/business/companies/amplia-reshapes-board-for-next-phase-of-cancer-drug-push-20260630-p60bf1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Amplia Therapeutics has handed the chairman’s role to Jane Bell AM as pancreatic cancer trial results and US regulatory progress prepare it for the next phase of drug development.",
-      "pubDate": "Tue, 30 Jun 2026 15:56:03 +1000",
-      "source": "SMH"
+      "title": "How to encourage your child to play sport and protect their head from knocks",
+      "link": "https://www.abc.net.au/news/2026-07-01/protect-your-child-from-brain-trauma-while-playing-sport/106856790",
+      "snippet": "",
+      "pubDate": "Tue, 30 Jun 2026 18:30:00 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Haaland Norway's hero again with late winner against Côte d'Ivoire",
+      "link": "https://www.abc.net.au/news/2026-07-01/world-cup-live-cote-divoire-norway-france-sweden-mexico-ecuador/106861886",
+      "snippet": "",
+      "pubDate": "Tue, 30 Jun 2026 16:33:00 +0000",
+      "source": "ABC"
     },
     {
       "title": "North-west Victorian sporting league adopts new concussion app",
@@ -7724,34 +7792,6 @@
       "link": "https://www.abc.net.au/news/2026-06-30/bradman-best-state-of-origin-new-south-wales/106861384",
       "snippet": "",
       "pubDate": "Tue, 30 Jun 2026 04:22:57 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Shootout drama, VAR controversy make for German nightmare",
-      "link": "https://www.abc.net.au/news/2026-06-30/world-cup-quick-hits-paraguay-germany-shootout-var/106859918",
-      "snippet": "",
-      "pubDate": "Tue, 30 Jun 2026 03:06:11 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Smart Succession",
-      "link": "https://www.smh.com.au/business/banking-and-finance/smart-succession-20260612-p606c9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "With billions in assets set to pass between generations, our six-part series simplifies the daunting world of inheritance planning.",
-      "pubDate": "Tue, 30 Jun 2026 10:46:40 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Former England captain says Brook can't lead Test side under McCullum",
-      "link": "https://www.abc.net.au/news/2026-06-30/ben-stokes-backs-harry-brook-as-england-captain/106859254",
-      "snippet": "",
-      "pubDate": "Mon, 29 Jun 2026 22:04:41 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Osaka channels Kill Bill as Sinner and Sabalenka reverse French misery",
-      "link": "https://www.abc.net.au/news/2026-06-30/sinner-djokovic-sabalenka-osaka-wimbledon-first-round/106859168",
-      "snippet": "",
-      "pubDate": "Mon, 29 Jun 2026 21:44:30 +0000",
       "source": "ABC"
     }
   ]
