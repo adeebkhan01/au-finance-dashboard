@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-01T10:29:11.844Z",
+  "fetchedAt": "2026-07-01T15:18:01.272Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.96,
+      "changePercent": -3.87,
       "previousClose": 0.72,
       "asOf": "2026-07-01",
       "history": [
@@ -1120,9 +1120,9 @@
       ]
     },
     "audeur": {
-      "value": 0.6,
+      "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.87,
+      "changePercent": -1.72,
       "previousClose": 0.62,
       "asOf": "2026-07-01",
       "history": [
@@ -1216,7 +1216,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "label": "AUD/EUR",
@@ -1485,7 +1485,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "h6m": [
@@ -1595,7 +1595,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 0.6
+          "close": 0.61
         }
       ],
       "h3y": [
@@ -2233,14 +2233,14 @@
         },
         {
           "date": "2026-07-01",
-          "close": 0.6
+          "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.68,
+      "value": 4.69,
       "change": -0.17,
-      "changePercent": -3.6,
+      "changePercent": -3.55,
       "previousClose": 4.86,
       "asOf": "2026-07-01",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "label": "AUD/CNY",
@@ -2603,7 +2603,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "h6m": [
@@ -2713,7 +2713,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 4.68
+          "close": 4.69
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-07-01",
-          "close": 4.68
+          "close": 4.69
         }
       ]
     },
     "audjpy": {
-      "value": 112.13,
-      "change": -2.29,
-      "changePercent": -2,
+      "value": 112.05,
+      "change": -2.37,
+      "changePercent": -2.07,
       "previousClose": 114.42,
       "asOf": "2026-07-01",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 112.13
+          "close": 112.05
         }
       ],
       "label": "AUD/JPY",
@@ -3721,7 +3721,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 112.13
+          "close": 112.05
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 112.13
+          "close": 112.05
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 112.13
+          "close": 112.05
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.96,
+    "changePercent": -3.87,
     "previousClose": 0.72,
     "asOf": "2026-07-01",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 68.79,
-      "change": -23.37,
-      "changePercent": -25.36,
+      "value": 68.33,
+      "change": -23.83,
+      "changePercent": -25.86,
       "previousClose": 92.16,
       "asOf": "2026-07-01",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-07-01",
-          "close": 68.79
+          "close": 68.33
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 72.23,
-      "change": -22.75,
-      "changePercent": -23.95,
+      "value": 71.43,
+      "change": -23.55,
+      "changePercent": -24.79,
       "previousClose": 94.98,
       "asOf": "2026-07-01",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-07-01",
-          "close": 72.23
+          "close": 71.43
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.24,
-      "change": 0.06,
-      "changePercent": 2.01,
+      "value": 3.21,
+      "change": 0.03,
+      "changePercent": 0.91,
       "previousClose": 3.18,
       "asOf": "2026-07-01",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 3.24
+          "close": 3.21
         }
       ],
       "name": "Natural Gas",
@@ -6251,10 +6251,6 @@
       {
         "date": "2026-06-30",
         "close": 8778.7
-      },
-      {
-        "date": "2026-07-01",
-        "close": 8722.9
       }
     ]
   },
@@ -7353,21 +7349,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3995.3,
-      "change": -479.9,
-      "changePercent": -10.72
+      "price": 4101.2,
+      "change": -374,
+      "changePercent": -8.36
     },
     {
       "name": "Silver",
-      "price": 58.37,
-      "change": -16.64,
-      "changePercent": -22.18
+      "price": 60.64,
+      "change": -14.37,
+      "changePercent": -19.15
     },
     {
       "name": "Copper",
-      "price": 6.11,
-      "change": -0.42,
-      "changePercent": -6.38
+      "price": 6.18,
+      "change": -0.34,
+      "changePercent": -5.24
     }
   ],
   "housing": {
