@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-01T15:18:01.272Z",
+  "fetchedAt": "2026-07-01T20:24:07.116Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.03,
-      "changePercent": -3.87,
+      "changePercent": -3.98,
       "previousClose": 0.72,
       "asOf": "2026-07-01",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-06-29",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-30",
           "close": 0.69
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-06-29",
+          "close": 0.69
+        },
+        {
+          "date": "2026-06-30",
           "close": 0.69
         },
         {
@@ -1122,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.72,
+      "changePercent": -1.75,
       "previousClose": 0.62,
       "asOf": "2026-07-01",
       "history": [
@@ -1213,6 +1221,10 @@
         {
           "date": "2026-06-29",
           "close": 0.6
+        },
+        {
+          "date": "2026-06-30",
+          "close": 0.61
         },
         {
           "date": "2026-07-01",
@@ -1484,6 +1496,10 @@
           "close": 0.6
         },
         {
+          "date": "2026-06-30",
+          "close": 0.61
+        },
+        {
           "date": "2026-07-01",
           "close": 0.61
         }
@@ -1591,7 +1607,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 0.6
+          "close": 0.61
         },
         {
           "date": "2026-07-01",
@@ -2229,7 +2245,7 @@
         },
         {
           "date": "2026-06-28",
-          "close": 0.6
+          "close": 0.61
         },
         {
           "date": "2026-07-01",
@@ -2238,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.17,
-      "changePercent": -3.55,
+      "value": 4.68,
+      "change": -0.18,
+      "changePercent": -3.64,
       "previousClose": 4.86,
       "asOf": "2026-07-01",
       "history": [
@@ -2333,8 +2349,12 @@
           "close": 4.68
         },
         {
+          "date": "2026-06-30",
+          "close": 4.7
+        },
+        {
           "date": "2026-07-01",
-          "close": 4.69
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2602,8 +2622,12 @@
           "close": 4.68
         },
         {
+          "date": "2026-06-30",
+          "close": 4.7
+        },
+        {
           "date": "2026-07-01",
-          "close": 4.69
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2709,11 +2733,11 @@
         },
         {
           "date": "2026-06-24",
-          "close": 4.68
+          "close": 4.7
         },
         {
           "date": "2026-07-01",
-          "close": 4.69
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3347,11 +3371,11 @@
         },
         {
           "date": "2026-06-28",
-          "close": 4.68
+          "close": 4.7
         },
         {
           "date": "2026-07-01",
-          "close": 4.69
+          "close": 4.68
         }
       ]
     },
@@ -3449,6 +3473,10 @@
         {
           "date": "2026-06-29",
           "close": 111.43
+        },
+        {
+          "date": "2026-06-30",
+          "close": 112.38
         },
         {
           "date": "2026-07-01",
@@ -3720,6 +3748,10 @@
           "close": 111.43
         },
         {
+          "date": "2026-06-30",
+          "close": 112.38
+        },
+        {
           "date": "2026-07-01",
           "close": 112.05
         }
@@ -3827,7 +3859,7 @@
         },
         {
           "date": "2026-06-24",
-          "close": 111.43
+          "close": 112.38
         },
         {
           "date": "2026-07-01",
@@ -4465,7 +4497,7 @@
         },
         {
           "date": "2026-06-28",
-          "close": 111.43
+          "close": 112.38
         },
         {
           "date": "2026-07-01",
@@ -4477,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.03,
-    "changePercent": -3.87,
+    "changePercent": -3.98,
     "previousClose": 0.72,
     "asOf": "2026-07-01",
     "history": [
@@ -4567,6 +4599,10 @@
       },
       {
         "date": "2026-06-29",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-30",
         "close": 0.69
       },
       {
@@ -4836,6 +4872,10 @@
       },
       {
         "date": "2026-06-29",
+        "close": 0.69
+      },
+      {
+        "date": "2026-06-30",
         "close": 0.69
       },
       {
@@ -5786,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 68.33,
-      "change": -23.83,
-      "changePercent": -25.86,
+      "value": 68.07,
+      "change": -24.09,
+      "changePercent": -26.14,
       "previousClose": 92.16,
       "asOf": "2026-07-01",
       "history": [
@@ -5878,16 +5918,16 @@
         },
         {
           "date": "2026-07-01",
-          "close": 68.33
+          "close": 68.07
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 71.43,
-      "change": -23.55,
-      "changePercent": -24.79,
+      "value": 71.2,
+      "change": -23.78,
+      "changePercent": -25.04,
       "previousClose": 94.98,
       "asOf": "2026-07-01",
       "history": [
@@ -5977,16 +6017,16 @@
         },
         {
           "date": "2026-07-01",
-          "close": 71.43
+          "close": 71.2
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.21,
-      "change": 0.03,
-      "changePercent": 0.91,
+      "value": 3.2,
+      "change": 0.02,
+      "changePercent": 0.75,
       "previousClose": 3.18,
       "asOf": "2026-07-01",
       "history": [
@@ -6076,7 +6116,7 @@
         },
         {
           "date": "2026-07-01",
-          "close": 3.21
+          "close": 3.2
         }
       ],
       "name": "Natural Gas",
@@ -7349,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4101.2,
-      "change": -374,
-      "changePercent": -8.36
+      "price": 4049.9,
+      "change": -425.3,
+      "changePercent": -9.5
     },
     {
       "name": "Silver",
-      "price": 60.64,
-      "change": -14.37,
-      "changePercent": -19.15
+      "price": 59.74,
+      "change": -15.27,
+      "changePercent": -20.35
     },
     {
       "name": "Copper",
-      "price": 6.18,
-      "change": -0.34,
-      "changePercent": -5.24
+      "price": 6.16,
+      "change": -0.37,
+      "changePercent": -5.64
     }
   ],
   "housing": {
@@ -7713,17 +7753,17 @@
       "source": "SMH"
     },
     {
-      "title": "Advance bolsters Mexican silver play with high-grade copper-gold",
-      "link": "https://www.smh.com.au/business/companies/advance-bolsters-mexican-silver-play-with-high-grade-copper-gold-20260701-p60brw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Advance Metals has hit a broad copper-gold zone beneath high-grade silver at its Mexican Gavilanes project, with a remarkable 54.6-metre hit extending the system.",
-      "pubDate": "Wed, 01 Jul 2026 16:26:54 +1000",
+      "title": "ASX set to slide, tech stocks weigh down Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-tech-stocks-weigh-down-wall-street-20260702-p60but.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Most of Wall Street is rising, but drops for some influential technology stocks are keeping the market in check.",
+      "pubDate": "Thu, 02 Jul 2026 05:23:33 +1000",
       "source": "SMH"
     },
     {
-      "title": "Biscoff maker surges as viral biscuit takes over the world",
-      "link": "https://www.smh.com.au/business/companies/biscoff-maker-surges-as-viral-biscuit-takes-over-the-world-20260701-p60bhu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Soaring global sales of Biscoff cookies are helping a Belgian food company extend a remarkable decade of stock market outperformance.",
-      "pubDate": "Wed, 01 Jul 2026 19:30:00 +1000",
+      "title": "Under-fire private equity giant paid Australian staff more than $2m on average",
+      "link": "https://www.smh.com.au/business/companies/under-fire-private-equity-giant-paid-australian-staff-more-than-2m-on-average-20260701-p60bo3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Buyout giant TPG is facing intense scrutiny over the conduct of its local boss Joel Thickins and wider corporate culture, but staff have good reason to stay.",
+      "pubDate": "Thu, 02 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7732,6 +7772,20 @@
       "snippet": "A board member at big four bank Westpac has stepped down over his links to the scandalised firm.",
       "pubDate": "Wed, 01 Jul 2026 18:51:05 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Biscoff maker now a $15.5 billion giant as viral biscuit takes over the world",
+      "link": "https://www.smh.com.au/business/companies/biscoff-maker-surges-as-viral-biscuit-takes-over-the-world-20260701-p60bhu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Soaring global sales of the caramelised cookies have sent the shares of a 94-year-old Belgian food company through the roof.",
+      "pubDate": "Thu, 02 Jul 2026 05:44:10 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Live: Kane saves England after DR Congo scare, Belgium faces Senegal",
+      "link": "https://www.abc.net.au/news/2026-07-02/world-cup-live-england-drc-belgium-senegal-usa-bosnia/106867650",
+      "snippet": "",
+      "pubDate": "Wed, 01 Jul 2026 15:33:17 +0000",
+      "source": "ABC"
     },
     {
       "title": "Stefanovic takes aim at TV’s ‘beige’ hosts after Nine departure",
@@ -7755,13 +7809,6 @@
       "source": "SMH"
     },
     {
-      "title": "Wharfie who showed bikini photo of co-workers to colleagues reinstated",
-      "link": "https://www.smh.com.au/business/companies/wharfie-who-showed-bikini-photo-of-coworkers-to-colleagues-reinstated-20260701-p60bjy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A Melbourne port employee alleged to have used crude language and zoomed into a bikini photo of co-workers has kept his job after the Fair Work umpire maintained his dismissal was unfair.",
-      "pubDate": "Wed, 01 Jul 2026 16:02:18 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "A decade ago Swans' CEO played in the little-known first Pride game",
       "link": "https://www.abc.net.au/news/2026-07-01/sydney-swans-first-pride-game-matthew-pavlich/106863378",
       "snippet": "",
@@ -7773,13 +7820,6 @@
       "link": "https://www.abc.net.au/news/2026-07-01/boxing-australia-ceo-resigns-ahead-of-commonwealth-games/106866056",
       "snippet": "",
       "pubDate": "Wed, 01 Jul 2026 05:10:10 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Mexico madness at the Azteca, big Salah injury update",
-      "link": "https://www.abc.net.au/news/2026-07-01/world-cup-quick-hits-mexico-mo-salah-ronald-koeman/106864552",
-      "snippet": "",
-      "pubDate": "Wed, 01 Jul 2026 04:38:39 +0000",
       "source": "ABC"
     }
   ]
