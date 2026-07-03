@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-03T09:41:40.805Z",
+  "fetchedAt": "2026-07-03T14:40:20.393Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -3.22,
+      "changePercent": -3.26,
       "previousClose": 0.72,
       "asOf": "2026-07-03",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.16,
-      "changePercent": -3.29,
+      "value": 4.71,
+      "change": -0.15,
+      "changePercent": -3,
       "previousClose": 4.85,
       "asOf": "2026-07-03",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 4.69
+          "close": 4.71
         }
       ],
       "label": "AUD/CNY",
@@ -2603,7 +2603,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 4.69
+          "close": 4.71
         }
       ],
       "h6m": [
@@ -2717,7 +2717,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 4.69
+          "close": 4.71
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-07-03",
-          "close": 4.69
+          "close": 4.71
         }
       ]
     },
     "audjpy": {
-      "value": 111.75,
-      "change": -3.01,
-      "changePercent": -2.62,
+      "value": 111.85,
+      "change": -2.91,
+      "changePercent": -2.53,
       "previousClose": 114.76,
       "asOf": "2026-07-03",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 111.75
+          "close": 111.85
         }
       ],
       "label": "AUD/JPY",
@@ -3721,7 +3721,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 111.75
+          "close": 111.85
         }
       ],
       "h6m": [
@@ -3835,7 +3835,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 111.75
+          "close": 111.85
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 111.76
+          "close": 111.85
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -3.22,
+    "changePercent": -3.26,
     "previousClose": 0.72,
     "asOf": "2026-07-03",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 68.72,
-      "change": -25.04,
-      "changePercent": -26.71,
+      "value": 68.66,
+      "change": -25.1,
+      "changePercent": -26.77,
       "previousClose": 93.76,
       "asOf": "2026-07-03",
       "history": [
@@ -5878,7 +5878,7 @@
         },
         {
           "date": "2026-07-03",
-          "close": 68.72
+          "close": 68.66
         }
       ],
       "name": "WTI Crude",
@@ -5985,8 +5985,8 @@
     },
     "gas": {
       "value": 3.25,
-      "change": 0.08,
-      "changePercent": 2.56,
+      "change": 0.09,
+      "changePercent": 2.75,
       "previousClose": 3.17,
       "asOf": "2026-07-03",
       "history": [
@@ -6251,10 +6251,6 @@
       {
         "date": "2026-07-02",
         "close": 8724.5
-      },
-      {
-        "date": "2026-07-03",
-        "close": 8844.4
       }
     ]
   },
@@ -7353,21 +7349,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4183.7,
-      "change": -305.4,
-      "changePercent": -6.8
+      "price": 4179,
+      "change": -310.1,
+      "changePercent": -6.91
     },
     {
       "name": "Silver",
-      "price": 63.06,
-      "change": -12.26,
-      "changePercent": -16.27
+      "price": 62.75,
+      "change": -12.57,
+      "changePercent": -16.69
     },
     {
       "name": "Copper",
-      "price": 6.23,
-      "change": -0.42,
-      "changePercent": -6.35
+      "price": 6.22,
+      "change": -0.43,
+      "changePercent": -6.45
     }
   ],
   "housing": {
@@ -7733,7 +7729,7 @@
     {
       "title": "The world’s financial system has been upended",
       "link": "https://www.smh.com.au/business/the-economy/the-world-s-financial-system-has-been-upended-20260702-p60buz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "We are discovering how just how much it costs to deal with the climate change mess that we have already created. And the consequences are alarming.",
+      "snippet": "We are discovering just how much it costs to deal with the climate change mess we have created and the consequences are alarming.",
       "pubDate": "Fri, 03 Jul 2026 12:50:18 +1000",
       "source": "SMH"
     },
@@ -7745,7 +7741,14 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Blues bring in Burton on stand-by with Game I hero under injury cloud",
+      "title": "Curnow hits front in Coleman Medal race as Swans and Crows record wins",
+      "link": "https://www.abc.net.au/news/2026-07-03/afl-r17-swans-bulldogs-eagles-crows-live-blog/106869754",
+      "snippet": "",
+      "pubDate": "Fri, 03 Jul 2026 08:40:09 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Souths captain Cody Walker apologises after kicking opponent",
       "link": "https://www.abc.net.au/news/2026-07-03/nrl-live-updates-penrith-panthers-south-sydney-rabbitohs/106866354",
       "snippet": "",
       "pubDate": "Fri, 03 Jul 2026 07:56:57 +0000",
