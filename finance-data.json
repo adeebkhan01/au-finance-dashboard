@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-05T14:15:16.305Z",
+  "fetchedAt": "2026-07-05T19:49:31.073Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -3.22,
+      "changePercent": -3.16,
       "previousClose": 0.72,
       "asOf": "2026-07-05",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.16,
-      "changePercent": -3.34,
+      "value": 4.7,
+      "change": -0.15,
+      "changePercent": -3.02,
       "previousClose": 4.85,
       "asOf": "2026-07-05",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.69
+          "close": 4.7
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.69
+          "close": 4.7
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.69
+          "close": 4.7
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.69
+          "close": 4.7
         }
       ]
     },
     "audjpy": {
-      "value": 112,
-      "change": -2.76,
-      "changePercent": -2.41,
+      "value": 112.04,
+      "change": -2.72,
+      "changePercent": -2.37,
       "previousClose": 114.76,
       "asOf": "2026-07-05",
       "history": [
@@ -3479,8 +3479,8 @@
           "close": 111.65
         },
         {
-          "date": "2026-07-03",
-          "close": 112
+          "date": "2026-07-05",
+          "close": 112.04
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3752,8 @@
           "close": 111.65
         },
         {
-          "date": "2026-07-03",
-          "close": 112
+          "date": "2026-07-05",
+          "close": 112.04
         }
       ],
       "h6m": [
@@ -3866,8 +3866,8 @@
           "close": 111.65
         },
         {
-          "date": "2026-07-03",
-          "close": 112
+          "date": "2026-07-05",
+          "close": 112.04
         }
       ],
       "h3y": [
@@ -4500,8 +4500,8 @@
           "close": 111.65
         },
         {
-          "date": "2026-07-03",
-          "close": 112
+          "date": "2026-07-05",
+          "close": 112.04
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -3.22,
+    "changePercent": -3.16,
     "previousClose": 0.72,
     "asOf": "2026-07-05",
     "history": [
@@ -7719,6 +7719,13 @@
   ],
   "news": [
     {
+      "title": "‘Could be a risk’: AI craze fuels double-digit return for super funds",
+      "link": "https://www.smh.com.au/business/banking-and-finance/could-be-a-risk-ai-craze-fuels-double-digit-return-for-super-funds-20260703-p60cb3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Superannuation funds say the AI boom has not created a sharemarket bubble, but they acknowledge the risks posed by surging valuations and market euphoria.",
+      "pubDate": "Mon, 06 Jul 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX Runners of the Week: Baumart, NuEnergy &amp; Wide Open Agriculture",
       "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-baumart-nuenergy-and-wide-open-agriculture-20260703-p60cg4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Baumart Holdings, after it kicked off work on its inaugural BuildMart modular housing project, with delivery of its first-ever units.",
@@ -7726,10 +7733,10 @@
       "source": "SMH"
     },
     {
-      "title": "Big Hits: FireFly Metals, Azzuro Resources and Kingston Resources",
-      "link": "https://www.smh.com.au/business/companies/big-hits-firefly-metals-azzuro-resources-and-kingston-resources-20260703-p60cfr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Bulls N’ Bears Big Hits looks at notable drill hits recently reported to the ASX, led by FireFly Metals in Canada, Azzuro Resources in Mongolia and Kingston Resources in NSW.",
-      "pubDate": "Fri, 03 Jul 2026 15:16:22 +1000",
+      "title": "Surcharge shake-up could clip the wings of frequent flyer points",
+      "link": "https://www.smh.com.au/business/banking-and-finance/surcharge-shake-up-could-clip-the-wings-of-frequent-flyer-points-20260703-p60cap.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We’re likely to see a flurry of changes to banks’ reward schemes in coming months, as the industry prepares for an RBA-driven overhaul.",
+      "pubDate": "Mon, 06 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7761,14 +7768,21 @@
       "source": "SMH"
     },
     {
-      "title": "The world’s financial system has been upended",
-      "link": "https://www.smh.com.au/business/the-economy/the-world-s-financial-system-has-been-upended-20260702-p60buz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "We are discovering just how much it costs to deal with the climate change mess we have created and the consequences are alarming.",
-      "pubDate": "Fri, 03 Jul 2026 12:50:18 +1000",
-      "source": "SMH"
+      "title": "'Software error' blamed for F1 confusion as former driver calls for change",
+      "link": "https://www.abc.net.au/news/2026-07-06/why-the-f1-british-grand-prix-finished-behind-the-safety-car/106882504",
+      "snippet": "",
+      "pubDate": "Sun, 05 Jul 2026 18:57:59 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Live: Piastri suffers damaged car on first lap of British GP",
+      "title": "Live: Brazil takes on Norway in tantalising heavyweight clash",
+      "link": "https://www.abc.net.au/news/2026-07-06/world-cup-live-brazil-vs-norway-mexico-vs-england/106881396",
+      "snippet": "",
+      "pubDate": "Sun, 05 Jul 2026 18:56:13 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Leclerc wins amid safety car confusion, Piastri suffers lap one smash",
       "link": "https://www.abc.net.au/news/2026-07-05/f1-live-british-grand-prix-oscar-piastri-mclaren/106880380",
       "snippet": "",
       "pubDate": "Sun, 05 Jul 2026 11:59:28 +0000",
@@ -7779,20 +7793,6 @@
       "link": "https://www.abc.net.au/news/2026-07-05/cameron-myers-blitzes-the-mile-at-eugene-diamond-meet/106881848",
       "snippet": "",
       "pubDate": "Sun, 05 Jul 2026 03:39:07 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "‘Not about race’: Winmar statue removed two days after assault conviction",
-      "link": "https://www.abc.net.au/news/2026-07-05/nicky-winmar-removed-from-perth-stadium-after-assault/106881758",
-      "snippet": "",
-      "pubDate": "Sun, 05 Jul 2026 03:03:44 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Salah's class towards Aussies, Paraguay labelled a 'disgrace'",
-      "link": "https://www.abc.net.au/news/2026-07-05/world-cup-quick-hits-mo-salah-class-paraguay-disgrace/106881366",
-      "snippet": "",
-      "pubDate": "Sun, 05 Jul 2026 00:58:11 +0000",
       "source": "ABC"
     },
     {
