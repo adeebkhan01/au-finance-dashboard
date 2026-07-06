@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-06T11:11:13.799Z",
+  "fetchedAt": "2026-07-06T15:58:56.853Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -2.75,
+      "changePercent": -2.61,
       "previousClose": 0.71,
       "asOf": "2026-07-06",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.12,
+      "changePercent": -1.04,
       "previousClose": 0.61,
       "asOf": "2026-07-06",
       "history": [
@@ -2214,9 +2214,9 @@
       ]
     },
     "audcny": {
-      "value": 4.71,
-      "change": -0.12,
-      "changePercent": -2.44,
+      "value": 4.7,
+      "change": -0.13,
+      "changePercent": -2.62,
       "previousClose": 4.83,
       "asOf": "2026-07-06",
       "history": [
@@ -2302,7 +2302,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 4.71
+          "close": 4.7
         }
       ],
       "label": "AUD/CNY",
@@ -2571,7 +2571,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 4.71
+          "close": 4.7
         }
       ],
       "h6m": [
@@ -2681,7 +2681,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 4.71
+          "close": 4.7
         }
       ],
       "h3y": [
@@ -3315,14 +3315,14 @@
         },
         {
           "date": "2026-07-06",
-          "close": 4.71
+          "close": 4.7
         }
       ]
     },
     "audjpy": {
-      "value": 112.52,
-      "change": -1.54,
-      "changePercent": -1.35,
+      "value": 112.67,
+      "change": -1.39,
+      "changePercent": -1.21,
       "previousClose": 114.06,
       "asOf": "2026-07-06",
       "history": [
@@ -3408,7 +3408,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 112.52
+          "close": 112.67
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 112.51
+          "close": 112.67
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 112.51
+          "close": 112.68
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 112.52
+          "close": 112.68
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -2.75,
+    "changePercent": -2.61,
     "previousClose": 0.71,
     "asOf": "2026-07-06",
     "history": [
@@ -5726,9 +5726,9 @@
   },
   "energy": {
     "wti": {
-      "value": 68.7,
-      "change": -21.84,
-      "changePercent": -24.12,
+      "value": 68.77,
+      "change": -21.77,
+      "changePercent": -24.04,
       "previousClose": 90.54,
       "asOf": "2026-07-06",
       "history": [
@@ -5806,16 +5806,16 @@
         },
         {
           "date": "2026-07-06",
-          "close": 68.7
+          "close": 68.77
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 72.1,
-      "change": -20.99,
-      "changePercent": -22.55,
+      "value": 72.14,
+      "change": -20.95,
+      "changePercent": -22.51,
       "previousClose": 93.09,
       "asOf": "2026-07-06",
       "history": [
@@ -5893,16 +5893,16 @@
         },
         {
           "date": "2026-07-06",
-          "close": 72.1
+          "close": 72.14
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.19,
-      "change": -0.04,
-      "changePercent": -1.21,
+      "value": 3.24,
+      "change": 0.01,
+      "changePercent": 0.43,
       "previousClose": 3.23,
       "asOf": "2026-07-06",
       "history": [
@@ -5980,7 +5980,7 @@
         },
         {
           "date": "2026-07-06",
-          "close": 3.19
+          "close": 3.24
         }
       ],
       "name": "Natural Gas",
@@ -6147,10 +6147,6 @@
       {
         "date": "2026-07-03",
         "close": 8844.4
-      },
-      {
-        "date": "2026-07-06",
-        "close": 8831
       }
     ]
   },
@@ -7185,21 +7181,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4166.1,
-      "change": -171,
-      "changePercent": -3.94
+      "price": 4159.1,
+      "change": -178,
+      "changePercent": -4.1
     },
     {
       "name": "Silver",
-      "price": 62.51,
-      "change": -6.44,
-      "changePercent": -9.34
+      "price": 62.26,
+      "change": -6.69,
+      "changePercent": -9.7
     },
     {
       "name": "Copper",
       "price": 6.23,
-      "change": -0.04,
-      "changePercent": -0.62
+      "change": -0.03,
+      "changePercent": -0.48
     }
   ],
   "housing": {
@@ -7570,13 +7566,6 @@
       "source": "SMH"
     },
     {
-      "title": "Djokovic overcomes 'meltdowns' to topple Federer's Wimbledon record",
-      "link": "https://www.abc.net.au/news/2026-07-06/tennis-wimbledon-djokovic-breaks-federer-record-meltdown-/106883286",
-      "snippet": "",
-      "pubDate": "Sun, 05 Jul 2026 23:15:48 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "The biggest myth about EVs is dying and sales are surging",
       "link": "https://www.smh.com.au/business/companies/the-biggest-myth-about-evs-is-dying-and-sales-are-surging-20260706-p60cvk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Record numbers of Australians are making the switch to electric cars as new data proves modern batteries last far longer than early adopters were warned.",
@@ -7616,6 +7605,13 @@
       "link": "https://www.abc.net.au/news/2026-07-06/state-of-origin-nrl-queensland-maroons-cameron-munster/106884392",
       "snippet": "",
       "pubDate": "Mon, 06 Jul 2026 02:54:50 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Pogačar hits back at rival as teammate wins stage two of Tour de France",
+      "link": "https://www.abc.net.au/news/2026-07-06/tadej-pogacar-tour-de-france-stage-two-isaac-del-torro/106883552",
+      "snippet": "",
+      "pubDate": "Mon, 06 Jul 2026 00:48:06 +0000",
       "source": "ABC"
     }
   ]
