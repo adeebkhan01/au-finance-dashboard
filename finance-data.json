@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-07T10:05:17.788Z",
+  "fetchedAt": "2026-07-07T15:24:32.505Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -2.62,
+      "changePercent": -2.72,
       "previousClose": 0.71,
       "asOf": "2026-07-07",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.06,
+      "changePercent": -1.17,
       "previousClose": 0.61,
       "asOf": "2026-07-07",
       "history": [
@@ -2240,7 +2240,7 @@
     "audcny": {
       "value": 4.7,
       "change": -0.13,
-      "changePercent": -2.65,
+      "changePercent": -2.73,
       "previousClose": 4.83,
       "asOf": "2026-07-07",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.43,
-      "change": -1.63,
-      "changePercent": -1.43,
+      "value": 112.28,
+      "change": -1.78,
+      "changePercent": -1.56,
       "previousClose": 114.06,
       "asOf": "2026-07-07",
       "history": [
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-07",
-          "close": 112.43
+          "close": 112.28
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-07",
-          "close": 112.43
+          "close": 112.28
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-07",
-          "close": 112.43
+          "close": 112.28
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-07",
-          "close": 112.43
+          "close": 112.28
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -2.62,
+    "changePercent": -2.72,
     "previousClose": 0.71,
     "asOf": "2026-07-07",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 69.27,
-      "change": -22.03,
-      "changePercent": -24.13,
+      "value": 70.34,
+      "change": -20.96,
+      "changePercent": -22.96,
       "previousClose": 91.3,
       "asOf": "2026-07-07",
       "history": [
@@ -5870,16 +5870,16 @@
         },
         {
           "date": "2026-07-07",
-          "close": 69.27
+          "close": 70.34
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 72.88,
-      "change": -21.37,
-      "changePercent": -22.67,
+      "value": 73.87,
+      "change": -20.38,
+      "changePercent": -21.62,
       "previousClose": 94.25,
       "asOf": "2026-07-07",
       "history": [
@@ -5961,16 +5961,16 @@
         },
         {
           "date": "2026-07-07",
-          "close": 72.88
+          "close": 73.87
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.27,
+      "value": 3.28,
       "change": 0.13,
-      "changePercent": 3.97,
+      "changePercent": 4.1,
       "previousClose": 3.15,
       "asOf": "2026-07-07",
       "history": [
@@ -6052,7 +6052,7 @@
         },
         {
           "date": "2026-07-07",
-          "close": 3.27
+          "close": 3.28
         }
       ],
       "name": "Natural Gas",
@@ -6223,10 +6223,6 @@
       {
         "date": "2026-07-06",
         "close": 8831
-      },
-      {
-        "date": "2026-07-07",
-        "close": 8803.9
       }
     ]
   },
@@ -7293,21 +7289,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4140.9,
-      "change": -195,
-      "changePercent": -4.5
+      "price": 4159.6,
+      "change": -176.3,
+      "changePercent": -4.07
     },
     {
       "name": "Silver",
-      "price": 61.28,
-      "change": -7.14,
-      "changePercent": -10.44
+      "price": 61.2,
+      "change": -7.22,
+      "changePercent": -10.56
     },
     {
       "name": "Copper",
-      "price": 6.24,
-      "change": -0.09,
-      "changePercent": -1.36
+      "price": 6.23,
+      "change": -0.1,
+      "changePercent": -1.56
     }
   ],
   "housing": {
@@ -7650,17 +7646,24 @@
       "source": "SMH"
     },
     {
-      "title": "US inflation is running hot, so why not change the way it is measured?",
-      "link": "https://www.smh.com.au/business/the-economy/us-inflation-is-running-hot-so-why-not-change-the-way-it-is-measured-20260707-p60d6m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "If Kevin Warsh can adopt the trimmed mean as the Fed’s key inflation metric, Trump’s inflation problem will almost disappear.",
-      "pubDate": "Tue, 07 Jul 2026 12:01:47 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Manhattan sampling and terrain mapping sharpen Canadian gold play",
       "link": "https://www.smh.com.au/business/companies/manhattan-sampling-and-terrain-mapping-sharpen-canadian-gold-play-20260707-p60dar.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Manhattan Gold has completed a LiDAR survey and channel sampling at its Hook Lake project in Canada, adding new data as maiden drill program continues.",
       "pubDate": "Tue, 07 Jul 2026 12:31:17 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Live: Lionel Messi's Argentina takes on Mo Salah's Egypt",
+      "link": "https://www.abc.net.au/news/2026-07-08/world-cup-live-blog-argentina-vs-egypt-switzerland-vs-colombia/106889234",
+      "snippet": "",
+      "pubDate": "Tue, 07 Jul 2026 15:17:30 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘Proof, not promises’: Indian steel giant makes final pitch for Whyalla",
+      "link": "https://www.smh.com.au/business/companies/proof-not-promises-indian-steel-giant-makes-final-pitch-for-whyalla-20260707-p60d8e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "India’s third-largest steelmaker has placed its decarbonisation credentials and global record at the centre of its final-stage pitch for the Whyalla steelworks.",
+      "pubDate": "Wed, 08 Jul 2026 00:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7710,13 +7713,6 @@
       "link": "https://www.abc.net.au/news/2026-07-07/state-of-origin-iii-new-south-wales-queensland-lang-park/106884440",
       "snippet": "",
       "pubDate": "Tue, 07 Jul 2026 02:20:29 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "After his visa woes, Bryce Cotton is loving life in Boomers camp",
-      "link": "https://www.abc.net.au/news/2026-07-07/bryce-cotton-boomers-fiba-world-cup-qualifiers/106887558",
-      "snippet": "",
-      "pubDate": "Tue, 07 Jul 2026 00:06:09 +0000",
       "source": "ABC"
     }
   ]
