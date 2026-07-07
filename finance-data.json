@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-07T15:24:32.505Z",
+  "fetchedAt": "2026-07-07T20:24:15.248Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -2.72,
+      "changePercent": -2.8,
       "previousClose": 0.71,
       "asOf": "2026-07-07",
       "history": [
@@ -91,6 +91,10 @@
         {
           "date": "2026-07-05",
           "close": 0.69
+        },
+        {
+          "date": "2026-07-06",
+          "close": 0.7
         },
         {
           "date": "2026-07-07",
@@ -362,6 +366,10 @@
           "close": 0.69
         },
         {
+          "date": "2026-07-06",
+          "close": 0.7
+        },
+        {
           "date": "2026-07-07",
           "close": 0.69
         }
@@ -473,7 +481,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 0.69
+          "close": 0.7
         },
         {
           "date": "2026-07-07",
@@ -1111,7 +1119,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 0.69
+          "close": 0.7
         },
         {
           "date": "2026-07-07",
@@ -1122,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.17,
+      "changePercent": -1.14,
       "previousClose": 0.61,
       "asOf": "2026-07-07",
       "history": [
@@ -1208,6 +1216,10 @@
         },
         {
           "date": "2026-07-05",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-06",
           "close": 0.61
         },
         {
@@ -1477,6 +1489,10 @@
         },
         {
           "date": "2026-07-05",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-06",
           "close": 0.61
         },
         {
@@ -2238,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": -0.13,
-      "changePercent": -2.73,
+      "value": 4.71,
+      "change": -0.12,
+      "changePercent": -2.55,
       "previousClose": 4.83,
       "asOf": "2026-07-07",
       "history": [
@@ -2329,8 +2345,12 @@
           "close": 4.71
         },
         {
+          "date": "2026-07-06",
+          "close": 4.73
+        },
+        {
           "date": "2026-07-07",
-          "close": 4.7
+          "close": 4.71
         }
       ],
       "label": "AUD/CNY",
@@ -2598,8 +2618,12 @@
           "close": 4.71
         },
         {
+          "date": "2026-07-06",
+          "close": 4.73
+        },
+        {
           "date": "2026-07-07",
-          "close": 4.7
+          "close": 4.71
         }
       ],
       "h6m": [
@@ -2709,11 +2733,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.71
+          "close": 4.73
         },
         {
           "date": "2026-07-07",
-          "close": 4.7
+          "close": 4.71
         }
       ],
       "h3y": [
@@ -3347,18 +3371,18 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.71
+          "close": 4.73
         },
         {
           "date": "2026-07-07",
-          "close": 4.7
+          "close": 4.71
         }
       ]
     },
     "audjpy": {
-      "value": 112.28,
-      "change": -1.78,
-      "changePercent": -1.56,
+      "value": 112.33,
+      "change": -1.73,
+      "changePercent": -1.51,
       "previousClose": 114.06,
       "asOf": "2026-07-07",
       "history": [
@@ -3447,8 +3471,12 @@
           "close": 111.99
         },
         {
+          "date": "2026-07-06",
+          "close": 112.73
+        },
+        {
           "date": "2026-07-07",
-          "close": 112.28
+          "close": 112.33
         }
       ],
       "label": "AUD/JPY",
@@ -3716,8 +3744,12 @@
           "close": 111.99
         },
         {
+          "date": "2026-07-06",
+          "close": 112.73
+        },
+        {
           "date": "2026-07-07",
-          "close": 112.28
+          "close": 112.33
         }
       ],
       "h6m": [
@@ -3827,11 +3859,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 111.99
+          "close": 112.73
         },
         {
           "date": "2026-07-07",
-          "close": 112.28
+          "close": 112.33
         }
       ],
       "h3y": [
@@ -4465,11 +4497,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 111.99
+          "close": 112.73
         },
         {
           "date": "2026-07-07",
-          "close": 112.28
+          "close": 112.33
         }
       ]
     }
@@ -4477,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -2.72,
+    "changePercent": -2.8,
     "previousClose": 0.71,
     "asOf": "2026-07-07",
     "history": [
@@ -4564,6 +4596,10 @@
       {
         "date": "2026-07-05",
         "close": 0.69
+      },
+      {
+        "date": "2026-07-06",
+        "close": 0.7
       },
       {
         "date": "2026-07-07",
@@ -4835,6 +4871,10 @@
         "close": 0.69
       },
       {
+        "date": "2026-07-06",
+        "close": 0.7
+      },
+      {
         "date": "2026-07-07",
         "close": 0.69
       }
@@ -4946,7 +4986,7 @@
       },
       {
         "date": "2026-07-05",
-        "close": 0.69
+        "close": 0.7
       },
       {
         "date": "2026-07-07",
@@ -5584,7 +5624,7 @@
       },
       {
         "date": "2026-07-05",
-        "close": 0.69
+        "close": 0.7
       },
       {
         "date": "2026-07-07",
@@ -5786,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 70.34,
-      "change": -20.96,
-      "changePercent": -22.96,
+      "value": 72,
+      "change": -19.3,
+      "changePercent": -21.14,
       "previousClose": 91.3,
       "asOf": "2026-07-07",
       "history": [
@@ -5870,16 +5910,16 @@
         },
         {
           "date": "2026-07-07",
-          "close": 70.34
+          "close": 72
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 73.87,
-      "change": -20.38,
-      "changePercent": -21.62,
+      "value": 75.73,
+      "change": -18.52,
+      "changePercent": -19.65,
       "previousClose": 94.25,
       "asOf": "2026-07-07",
       "history": [
@@ -5961,16 +6001,16 @@
         },
         {
           "date": "2026-07-07",
-          "close": 73.87
+          "close": 75.73
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.28,
-      "change": 0.13,
-      "changePercent": 4.1,
+      "value": 3.27,
+      "change": 0.12,
+      "changePercent": 3.75,
       "previousClose": 3.15,
       "asOf": "2026-07-07",
       "history": [
@@ -6052,7 +6092,7 @@
         },
         {
           "date": "2026-07-07",
-          "close": 3.28
+          "close": 3.27
         }
       ],
       "name": "Natural Gas",
@@ -7289,21 +7329,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4159.6,
-      "change": -176.3,
-      "changePercent": -4.07
+      "price": 4123.3,
+      "change": -212.6,
+      "changePercent": -4.9
     },
     {
       "name": "Silver",
-      "price": 61.2,
-      "change": -7.22,
-      "changePercent": -10.56
+      "price": 60.62,
+      "change": -7.8,
+      "changePercent": -11.41
     },
     {
       "name": "Copper",
-      "price": 6.23,
-      "change": -0.1,
-      "changePercent": -1.56
+      "price": 6.19,
+      "change": -0.14,
+      "changePercent": -2.26
     }
   ],
   "housing": {
@@ -7646,14 +7686,28 @@
       "source": "SMH"
     },
     {
-      "title": "Manhattan sampling and terrain mapping sharpen Canadian gold play",
-      "link": "https://www.smh.com.au/business/companies/manhattan-sampling-and-terrain-mapping-sharpen-canadian-gold-play-20260707-p60dar.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Manhattan Gold has completed a LiDAR survey and channel sampling at its Hook Lake project in Canada, adding new data as maiden drill program continues.",
-      "pubDate": "Tue, 07 Jul 2026 12:31:17 +1000",
+      "title": "Cancer survivor Torstein Træen claims yellow jersey",
+      "link": "https://www.abc.net.au/news/2026-07-08/tour-de-france-torstein-tr%C3%A6en-yellow-jersey-cancer/106889324",
+      "snippet": "",
+      "pubDate": "Tue, 07 Jul 2026 19:07:24 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "If productivity can’t be measured (and it can’t, not really), how can we improve it?",
+      "link": "https://www.smh.com.au/business/the-economy/if-productivity-can-t-be-measured-and-it-can-t-not-really-how-can-we-improve-it-20260707-p60dd8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "When politicians and economists bang on about the need to increase productivity, they’re arguing about a concept that is nothing more than a puff of smoke.",
+      "pubDate": "Wed, 08 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Live: Lionel Messi's Argentina takes on Mo Salah's Egypt",
+      "title": "What time is the State of Origin Game III decider tonight?",
+      "link": "https://www.abc.net.au/news/2026-07-08/what-time-is-state-of-origin-game-iii-tonight-how-to-watch/106866884",
+      "snippet": "",
+      "pubDate": "Tue, 07 Jul 2026 18:51:41 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Messi leads incredible Argentina comeback against Egypt, Switzerland faces Colombia",
       "link": "https://www.abc.net.au/news/2026-07-08/world-cup-live-blog-argentina-vs-egypt-switzerland-vs-colombia/106889234",
       "snippet": "",
       "pubDate": "Tue, 07 Jul 2026 15:17:30 +0000",
@@ -7688,13 +7742,6 @@
       "source": "ABC"
     },
     {
-      "title": "Fifty-five-year-old council worker’s age-based WFH claim denied",
-      "link": "https://www.smh.com.au/business/workplace/55-year-old-council-worker-s-age-based-wfh-claim-denied-20260707-p60d73.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The industrial umpire ruled that the council had good reason for refusing the employee’s request to go from working three days a week at home to four.",
-      "pubDate": "Tue, 07 Jul 2026 13:40:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Quick hits: American dream comes crashing down, Mbappé hits back at abuse",
       "link": "https://www.abc.net.au/news/2026-07-07/world-cup-quick-hits-usa-mbappe-england-ronaldo/106887222",
       "snippet": "",
@@ -7706,13 +7753,6 @@
       "link": "https://www.abc.net.au/news/2026-07-07/folarin-balogun-usa-red-card-suspension-donald-trump-world-cup/106887146",
       "snippet": "",
       "pubDate": "Tue, 07 Jul 2026 02:52:32 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Origin legacies and futures on the line for NSW in decider",
-      "link": "https://www.abc.net.au/news/2026-07-07/state-of-origin-iii-new-south-wales-queensland-lang-park/106884440",
-      "snippet": "",
-      "pubDate": "Tue, 07 Jul 2026 02:20:29 +0000",
       "source": "ABC"
     }
   ]
