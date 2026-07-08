@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-08T14:55:15.639Z",
+  "fetchedAt": "2026-07-08T20:02:41.887Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.75,
+      "changePercent": -1.48,
       "previousClose": 0.7,
       "asOf": "2026-07-08",
       "history": [
@@ -95,6 +95,10 @@
         {
           "date": "2026-07-06",
           "close": 0.7
+        },
+        {
+          "date": "2026-07-07",
+          "close": 0.69
         },
         {
           "date": "2026-07-08",
@@ -366,6 +370,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-07-07",
+          "close": 0.69
+        },
+        {
           "date": "2026-07-08",
           "close": 0.69
         }
@@ -477,7 +485,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 0.7
+          "close": 0.69
         },
         {
           "date": "2026-07-08",
@@ -1115,7 +1123,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 0.7
+          "close": 0.69
         },
         {
           "date": "2026-07-08",
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.8,
+      "changePercent": -0.7,
       "previousClose": 0.61,
       "asOf": "2026-07-08",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-07-06",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-07",
           "close": 0.61
         },
         {
@@ -1485,6 +1497,10 @@
         },
         {
           "date": "2026-07-06",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-07",
           "close": 0.61
         },
         {
@@ -2246,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.07,
-      "changePercent": -1.52,
+      "value": 4.72,
+      "change": -0.05,
+      "changePercent": -0.98,
       "previousClose": 4.76,
       "asOf": "2026-07-08",
       "history": [
@@ -2341,8 +2357,12 @@
           "close": 4.73
         },
         {
+          "date": "2026-07-07",
+          "close": 4.7
+        },
+        {
           "date": "2026-07-08",
-          "close": 4.69
+          "close": 4.72
         }
       ],
       "label": "AUD/CNY",
@@ -2610,8 +2630,12 @@
           "close": 4.73
         },
         {
+          "date": "2026-07-07",
+          "close": 4.7
+        },
+        {
           "date": "2026-07-08",
-          "close": 4.69
+          "close": 4.72
         }
       ],
       "h6m": [
@@ -2721,11 +2745,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.73
+          "close": 4.7
         },
         {
           "date": "2026-07-08",
-          "close": 4.69
+          "close": 4.72
         }
       ],
       "h3y": [
@@ -3359,18 +3383,18 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.73
+          "close": 4.7
         },
         {
           "date": "2026-07-08",
-          "close": 4.69
+          "close": 4.72
         }
       ]
     },
     "audjpy": {
-      "value": 112.48,
-      "change": -0.43,
-      "changePercent": -0.38,
+      "value": 112.72,
+      "change": -0.19,
+      "changePercent": -0.17,
       "previousClose": 112.91,
       "asOf": "2026-07-08",
       "history": [
@@ -3463,8 +3487,12 @@
           "close": 112.73
         },
         {
+          "date": "2026-07-07",
+          "close": 112.38
+        },
+        {
           "date": "2026-07-08",
-          "close": 112.48
+          "close": 112.72
         }
       ],
       "label": "AUD/JPY",
@@ -3732,8 +3760,12 @@
           "close": 112.73
         },
         {
+          "date": "2026-07-07",
+          "close": 112.38
+        },
+        {
           "date": "2026-07-08",
-          "close": 112.48
+          "close": 112.72
         }
       ],
       "h6m": [
@@ -3843,11 +3875,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 112.73
+          "close": 112.38
         },
         {
           "date": "2026-07-08",
-          "close": 112.48
+          "close": 112.72
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 112.73
+          "close": 112.38
         },
         {
           "date": "2026-07-08",
-          "close": 112.49
+          "close": 112.72
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.75,
+    "changePercent": -1.48,
     "previousClose": 0.7,
     "asOf": "2026-07-08",
     "history": [
@@ -4584,6 +4616,10 @@
       {
         "date": "2026-07-06",
         "close": 0.7
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.69
       },
       {
         "date": "2026-07-08",
@@ -4855,6 +4891,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-07-07",
+        "close": 0.69
+      },
+      {
         "date": "2026-07-08",
         "close": 0.69
       }
@@ -4966,7 +5006,7 @@
       },
       {
         "date": "2026-07-05",
-        "close": 0.7
+        "close": 0.69
       },
       {
         "date": "2026-07-08",
@@ -5604,7 +5644,7 @@
       },
       {
         "date": "2026-07-05",
-        "close": 0.7
+        "close": 0.69
       },
       {
         "date": "2026-07-08",
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 75.31,
-      "change": -15.99,
-      "changePercent": -17.51,
+      "value": 74.01,
+      "change": -17.29,
+      "changePercent": -18.94,
       "previousClose": 91.3,
       "asOf": "2026-07-08",
       "history": [
@@ -5894,16 +5934,16 @@
         },
         {
           "date": "2026-07-08",
-          "close": 75.31
+          "close": 74.01
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 79.48,
-      "change": -14.77,
-      "changePercent": -15.67,
+      "value": 78.46,
+      "change": -15.79,
+      "changePercent": -16.75,
       "previousClose": 94.25,
       "asOf": "2026-07-08",
       "history": [
@@ -5989,16 +6029,16 @@
         },
         {
           "date": "2026-07-08",
-          "close": 79.48
+          "close": 78.46
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.27,
-      "change": 0.12,
-      "changePercent": 3.94,
+      "value": 3.22,
+      "change": 0.07,
+      "changePercent": 2.32,
       "previousClose": 3.15,
       "asOf": "2026-07-08",
       "history": [
@@ -6084,7 +6124,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 3.27
+          "close": 3.22
         }
       ],
       "name": "Natural Gas",
@@ -7357,21 +7397,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4047.4,
-      "change": -288.5,
-      "changePercent": -6.65
+      "price": 4091.5,
+      "change": -244.4,
+      "changePercent": -5.64
     },
     {
       "name": "Silver",
-      "price": 58.09,
-      "change": -10.33,
-      "changePercent": -15.1
+      "price": 58.81,
+      "change": -9.61,
+      "changePercent": -14.05
     },
     {
       "name": "Copper",
-      "price": 6.09,
-      "change": -0.24,
-      "changePercent": -3.82
+      "price": 6.13,
+      "change": -0.2,
+      "changePercent": -3.21
     }
   ],
   "housing": {
@@ -7707,17 +7747,17 @@
   ],
   "news": [
     {
+      "title": "Green energy giants see $155b data centre boom as win for net zero",
+      "link": "https://www.smh.com.au/business/the-economy/green-energy-giants-see-155b-data-centre-boom-as-win-for-net-zero-20260708-p60dmz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Major renewable investors have thrown support behind Australia’s data centre boom, colliding with critics who fear it will derail the shift to cleaner power.",
+      "pubDate": "Thu, 09 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Kuniko chases bonanza silver repeats in NSW with new drilling",
       "link": "https://www.smh.com.au/business/companies/kuniko-chases-bonanza-silver-repeats-in-nsw-with-new-drilling-20260708-p60dqx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Kuniko is set to drill again at its Commonwealth gold-silver project in NSW, chasing extensions to a bonanza discovery and other high-grade hits from its first campaign.",
       "pubDate": "Wed, 08 Jul 2026 16:45:29 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Elon Musk’s SpaceX blockbuster gets a market reality check",
-      "link": "https://www.smh.com.au/business/markets/elon-musk-s-spacex-blockbuster-gets-a-market-reality-check-20260708-p60die.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "SpaceX shares have tumbled amid growing concern that the AI boom won’t deliver the returns investors had priced into the sector.",
-      "pubDate": "Wed, 08 Jul 2026 12:13:02 +1000",
       "source": "SMH"
     },
     {
@@ -7742,18 +7782,18 @@
       "source": "SMH"
     },
     {
-      "title": "Patriot nails high-grade copper-silver find beside Zambian giant",
-      "link": "https://www.smh.com.au/business/companies/patriot-nails-high-grade-copper-silver-find-beside-zambian-giant-20260708-p60dnd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Patriot Resources has hit high-grade copper from surface in maiden drilling at its Tonic prospect in Zambia, including 2.56 per cent copper and 62.3g/t silver.",
-      "pubDate": "Wed, 08 Jul 2026 13:49:05 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Telstra has broken a critical rule of corporate crisis management",
       "link": "https://www.smh.com.au/business/companies/telstra-has-broken-a-critical-rule-of-corporate-crisis-management-20260708-p60dly.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The telco giant has let itself down in how transparent it was about the full impact of Wednesday’s outage.",
       "pubDate": "Wed, 08 Jul 2026 16:00:59 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "The other edge cuts back on the Maroons in shock Origin loss",
+      "link": "https://www.abc.net.au/news/2026-07-09/state-of-origin-queensland-maroons-reece-walsh-billy-slater/106831910",
+      "snippet": "",
+      "pubDate": "Wed, 08 Jul 2026 19:43:24 +0000",
+      "source": "ABC"
     },
     {
       "title": "New South Wales writes a new fate in blood after epic decider",
