@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-08T09:05:36.799Z",
+  "fetchedAt": "2026-07-08T14:55:15.639Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.8,
+      "changePercent": -1.75,
       "previousClose": 0.7,
       "asOf": "2026-07-08",
       "history": [
@@ -1125,8 +1125,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": -0.01,
-      "changePercent": -0.88,
+      "change": 0,
+      "changePercent": -0.8,
       "previousClose": 0.61,
       "asOf": "2026-07-08",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": -0.06,
-      "changePercent": -1.36,
+      "value": 4.69,
+      "change": -0.07,
+      "changePercent": -1.52,
       "previousClose": 4.76,
       "asOf": "2026-07-08",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 4.7
+          "close": 4.69
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 4.7
+          "close": 4.69
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 4.7
+          "close": 4.69
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-07-08",
-          "close": 4.7
+          "close": 4.69
         }
       ]
     },
     "audjpy": {
-      "value": 112.31,
-      "change": -0.6,
-      "changePercent": -0.53,
+      "value": 112.48,
+      "change": -0.43,
+      "changePercent": -0.38,
       "previousClose": 112.91,
       "asOf": "2026-07-08",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 112.31
+          "close": 112.48
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 112.31
+          "close": 112.48
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 112.31
+          "close": 112.48
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 112.31
+          "close": 112.49
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.8,
+    "changePercent": -1.75,
     "previousClose": 0.7,
     "asOf": "2026-07-08",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 74.65,
-      "change": -16.65,
-      "changePercent": -18.24,
+      "value": 75.31,
+      "change": -15.99,
+      "changePercent": -17.51,
       "previousClose": 91.3,
       "asOf": "2026-07-08",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-07-08",
-          "close": 74.65
+          "close": 75.31
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 78.45,
-      "change": -15.8,
-      "changePercent": -16.76,
+      "value": 79.48,
+      "change": -14.77,
+      "changePercent": -15.67,
       "previousClose": 94.25,
       "asOf": "2026-07-08",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-07-08",
-          "close": 78.45
+          "close": 79.48
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.33,
-      "change": 0.18,
-      "changePercent": 5.82,
+      "value": 3.27,
+      "change": 0.12,
+      "changePercent": 3.94,
       "previousClose": 3.15,
       "asOf": "2026-07-08",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-07-08",
-          "close": 3.33
+          "close": 3.27
         }
       ],
       "name": "Natural Gas",
@@ -6259,10 +6259,6 @@
       {
         "date": "2026-07-07",
         "close": 8803.9
-      },
-      {
-        "date": "2026-07-08",
-        "close": 8785.1
       }
     ]
   },
@@ -7361,21 +7357,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4073.3,
-      "change": -262.6,
-      "changePercent": -6.06
+      "price": 4047.4,
+      "change": -288.5,
+      "changePercent": -6.65
     },
     {
       "name": "Silver",
-      "price": 58.88,
-      "change": -9.54,
-      "changePercent": -13.95
+      "price": 58.09,
+      "change": -10.33,
+      "changePercent": -15.1
     },
     {
       "name": "Copper",
-      "price": 6.1,
-      "change": -0.23,
-      "changePercent": -3.63
+      "price": 6.09,
+      "change": -0.24,
+      "changePercent": -3.82
     }
   ],
   "housing": {
@@ -7760,31 +7756,24 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Maroons host Blues in State of Origin decider",
+      "title": "New South Wales writes a new fate in blood after epic decider",
+      "link": "https://www.abc.net.au/news/2026-07-08/new-south-wales-state-of-origin-blues-cleary/106894772",
+      "snippet": "",
+      "pubDate": "Wed, 08 Jul 2026 13:24:34 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Arrow's standing 'O' and Queensland 'ripped off'",
+      "link": "https://www.abc.net.au/news/2026-07-08/state-of-origin-decider-quick-hits-qld-maroons-nsw-blues/106894792",
+      "snippet": "",
+      "pubDate": "Wed, 08 Jul 2026 13:16:35 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Cleary 'silences the critics' as NSW make Origin history with decider win",
       "link": "https://www.abc.net.au/news/2026-07-08/state-of-origin-iii-decider-maroons-blues-lang-park/106866366",
       "snippet": "",
       "pubDate": "Wed, 08 Jul 2026 07:59:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Aussie doubles fly the flag at Wimbledon as mixed pair makes final",
-      "link": "https://www.abc.net.au/news/2026-07-08/wimbledon-2026-australian-pairing-make-mixed-doubles-finals/106891738",
-      "snippet": "",
-      "pubDate": "Wed, 08 Jul 2026 00:28:18 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Perversion of justice': Politicians launch bid to investigate FIFA boss",
-      "link": "https://www.abc.net.au/news/2026-07-08/world-cup-2026-eu-politicans-launch-infantino-investigation/106891368",
-      "snippet": "",
-      "pubDate": "Tue, 07 Jul 2026 22:19:21 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Djokovic wins five-hour Wimbledon epic to set up Sinner blockbuster",
-      "link": "https://www.abc.net.au/news/2026-07-08/wimbledon-2026-novak-djokovic-wins-epic-over-canadian/106891408",
-      "snippet": "",
-      "pubDate": "Tue, 07 Jul 2026 22:14:56 +0000",
       "source": "ABC"
     }
   ]
