@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-09T15:40:00.702Z",
+  "fetchedAt": "2026-07-09T20:18:00.946Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.35,
+      "changePercent": -1.38,
       "previousClose": 0.7,
       "asOf": "2026-07-09",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-07-07",
+          "close": 0.69
+        },
+        {
+          "date": "2026-07-08",
           "close": 0.69
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-07-07",
+          "close": 0.69
+        },
+        {
+          "date": "2026-07-08",
           "close": 0.69
         },
         {
@@ -1219,6 +1227,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-07-08",
+          "close": 0.61
+        },
+        {
           "date": "2026-07-09",
           "close": 0.61
         }
@@ -1485,6 +1497,10 @@
         },
         {
           "date": "2026-07-07",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-08",
           "close": 0.61
         },
         {
@@ -2246,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": -0.06,
-      "changePercent": -1.29,
+      "value": 4.72,
+      "change": -0.04,
+      "changePercent": -0.92,
       "previousClose": 4.76,
       "asOf": "2026-07-09",
       "history": [
@@ -2341,8 +2357,12 @@
           "close": 4.7
         },
         {
+          "date": "2026-07-08",
+          "close": 4.72
+        },
+        {
           "date": "2026-07-09",
-          "close": 4.7
+          "close": 4.72
         }
       ],
       "label": "AUD/CNY",
@@ -2610,8 +2630,12 @@
           "close": 4.7
         },
         {
+          "date": "2026-07-08",
+          "close": 4.72
+        },
+        {
           "date": "2026-07-09",
-          "close": 4.7
+          "close": 4.72
         }
       ],
       "h6m": [
@@ -2721,11 +2745,11 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.7
+          "close": 4.72
         },
         {
           "date": "2026-07-09",
-          "close": 4.7
+          "close": 4.72
         }
       ],
       "h3y": [
@@ -3359,17 +3383,17 @@
         },
         {
           "date": "2026-07-05",
-          "close": 4.7
+          "close": 4.72
         },
         {
           "date": "2026-07-09",
-          "close": 4.7
+          "close": 4.72
         }
       ]
     },
     "audjpy": {
       "value": 112.71,
-      "change": -0.03,
+      "change": -0.04,
       "changePercent": -0.03,
       "previousClose": 112.75,
       "asOf": "2026-07-09",
@@ -3461,6 +3485,10 @@
         {
           "date": "2026-07-07",
           "close": 112.38
+        },
+        {
+          "date": "2026-07-08",
+          "close": 112.73
         },
         {
           "date": "2026-07-09",
@@ -3732,6 +3760,10 @@
           "close": 112.38
         },
         {
+          "date": "2026-07-08",
+          "close": 112.73
+        },
+        {
           "date": "2026-07-09",
           "close": 112.71
         }
@@ -3843,7 +3875,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 112.38
+          "close": 112.73
         },
         {
           "date": "2026-07-09",
@@ -4481,7 +4513,7 @@
         },
         {
           "date": "2026-07-05",
-          "close": 112.38
+          "close": 112.73
         },
         {
           "date": "2026-07-09",
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.35,
+    "changePercent": -1.38,
     "previousClose": 0.7,
     "asOf": "2026-07-09",
     "history": [
@@ -4583,6 +4615,10 @@
       },
       {
         "date": "2026-07-07",
+        "close": 0.69
+      },
+      {
+        "date": "2026-07-08",
         "close": 0.69
       },
       {
@@ -4852,6 +4888,10 @@
       },
       {
         "date": "2026-07-07",
+        "close": 0.69
+      },
+      {
+        "date": "2026-07-08",
         "close": 0.69
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 72.21,
-      "change": -15.99,
-      "changePercent": -18.13,
+      "value": 71.77,
+      "change": -16.43,
+      "changePercent": -18.63,
       "previousClose": 88.2,
       "asOf": "2026-07-09",
       "history": [
@@ -5894,16 +5934,16 @@
         },
         {
           "date": "2026-07-09",
-          "close": 72.21
+          "close": 71.77
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 76.86,
-      "change": -14.59,
-      "changePercent": -15.95,
+      "value": 76.01,
+      "change": -15.44,
+      "changePercent": -16.88,
       "previousClose": 91.45,
       "asOf": "2026-07-09",
       "history": [
@@ -5989,16 +6029,16 @@
         },
         {
           "date": "2026-07-09",
-          "close": 76.86
+          "close": 76.01
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.03,
-      "change": -0.11,
-      "changePercent": -3.41,
+      "value": 3.01,
+      "change": -0.13,
+      "changePercent": -4.2,
       "previousClose": 3.14,
       "asOf": "2026-07-09",
       "history": [
@@ -6084,7 +6124,7 @@
         },
         {
           "date": "2026-07-09",
-          "close": 3.03
+          "close": 3.01
         }
       ],
       "name": "Natural Gas",
@@ -7393,21 +7433,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4138.1,
-      "change": -121.9,
-      "changePercent": -2.86
+      "price": 4131.9,
+      "change": -128.1,
+      "changePercent": -3.01
     },
     {
       "name": "Silver",
-      "price": 60.75,
-      "change": -4.35,
-      "changePercent": -6.68
+      "price": 60.36,
+      "change": -4.73,
+      "changePercent": -7.27
     },
     {
       "name": "Copper",
-      "price": 6.27,
-      "change": -0.04,
-      "changePercent": -0.56
+      "price": 6.25,
+      "change": -0.06,
+      "changePercent": -0.89
     }
   ],
   "housing": {
@@ -7743,10 +7783,24 @@
   ],
   "news": [
     {
-      "title": "The Fed is divided. But its ‘hawks’ are likely to prevail and face Trump’s wrath",
-      "link": "https://www.smh.com.au/business/the-economy/the-fed-is-divided-but-its-hawks-are-likely-to-prevail-and-face-trump-s-wrath-20260709-p60duj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "If the AI boom, the war in the Middle East and Donald Trump’s tariffs continue to fuel inflation, “almost all” members of the Federal Reserve Board’s rate-setting committee believe US interest rates will have to rise.",
-      "pubDate": "Thu, 09 Jul 2026 12:08:55 +1000",
+      "title": "Should older workers still be expected to do night shifts?",
+      "link": "https://www.smh.com.au/business/workplace/should-older-workers-still-be-expected-to-do-night-shifts-20260709-p60e19.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "It’s important organisations don’t assume that all older workers are less capable of taking night shifts than their younger colleagues.",
+      "pubDate": "Fri, 10 Jul 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Karl Stefanovic’s love affair with the British far right blooms",
+      "link": "https://www.smh.com.au/business/companies/karl-stefanovic-s-love-affair-with-the-british-far-right-blooms-20260709-p60dve.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Former Today host Stefanovic is doing better than his old show weeks after leaving Nine, at least on a superficial measure. But that success might not last forever.",
+      "pubDate": "Fri, 10 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Why skyscrapers in my hometown don’t bother me",
+      "link": "https://www.smh.com.au/business/the-economy/why-skyscrapers-in-my-hometown-don-t-bother-me-20260709-p60dxb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Higher housing density gets a bad rap from many sensible Australians. But here’s why the alternative is worse for us all.",
+      "pubDate": "Fri, 10 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7797,27 +7851,6 @@
       "snippet": "",
       "pubDate": "Thu, 09 Jul 2026 02:58:47 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "'Going to make it double': Boxer's jokes about domestic violence condemned",
-      "link": "https://www.abc.net.au/news/2026-07-09/australian-boxer-benjamin-hussain-dv-joke-state-of-origin/106896236",
-      "snippet": "",
-      "pubDate": "Thu, 09 Jul 2026 02:49:51 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Locksley cracks cleaner path to US antimony processing",
-      "link": "https://www.smh.com.au/business/companies/locksley-cracks-cleaner-path-to-us-antimony-processing-20260709-p60dyh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Locksley Resources and Rice University have cracked the antimony code, upgrading low-grade ore to 93% purity to produce a near-pure metal, a major processing breakthrough.",
-      "pubDate": "Thu, 09 Jul 2026 12:37:28 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "One Telstra outage is unlucky, but two in 24 hours? That looks like a pattern",
-      "link": "https://www.smh.com.au/business/companies/once-telstra-outage-is-unlucky-but-two-in-24-hours-that-looks-like-a-pattern-20260709-p60dw9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "No longer will Telstra be able to comfortably estimate that those affected numbered into the thousands. This second issue will have a long tail.",
-      "pubDate": "Thu, 09 Jul 2026 11:58:07 +1000",
-      "source": "SMH"
     }
   ]
 }
