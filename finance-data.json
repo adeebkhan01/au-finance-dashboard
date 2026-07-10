@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-10T09:59:27.737Z",
+  "fetchedAt": "2026-07-10T15:10:53.674Z",
   "fx": {
     "audusd": {
-      "value": 0.69,
+      "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.05,
+      "changePercent": -1.03,
       "previousClose": 0.7,
       "asOf": "2026-07-10",
       "history": [
@@ -98,7 +98,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
@@ -367,7 +367,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -481,7 +481,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "h3y": [
@@ -1115,14 +1115,14 @@
         },
         {
           "date": "2026-07-10",
-          "close": 0.69
+          "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.18,
+      "changePercent": -0.15,
       "previousClose": 0.61,
       "asOf": "2026-07-10",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.06,
-      "changePercent": -1.35,
+      "value": 4.71,
+      "change": -0.05,
+      "changePercent": -0.98,
       "previousClose": 4.76,
       "asOf": "2026-07-10",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 4.69
+          "close": 4.71
         }
       ],
       "label": "AUD/CNY",
@@ -2603,7 +2603,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 4.69
+          "close": 4.71
         }
       ],
       "h6m": [
@@ -2717,7 +2717,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 4.69
+          "close": 4.71
         }
       ],
       "h3y": [
@@ -3351,12 +3351,12 @@
         },
         {
           "date": "2026-07-10",
-          "close": 4.69
+          "close": 4.71
         }
       ]
     },
     "audjpy": {
-      "value": 112.4,
+      "value": 112.41,
       "change": -0.22,
       "changePercent": -0.2,
       "previousClose": 112.63,
@@ -4475,9 +4475,9 @@
     }
   },
   "audusd": {
-    "value": 0.69,
+    "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.05,
+    "changePercent": -1.03,
     "previousClose": 0.7,
     "asOf": "2026-07-10",
     "history": [
@@ -4571,7 +4571,7 @@
       },
       {
         "date": "2026-07-10",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
@@ -4840,7 +4840,7 @@
       },
       {
         "date": "2026-07-10",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4954,7 +4954,7 @@
       },
       {
         "date": "2026-07-10",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "h3y": [
@@ -5588,7 +5588,7 @@
       },
       {
         "date": "2026-07-10",
-        "close": 0.69
+        "close": 0.7
       }
     ]
   },
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 71.91,
-      "change": -18.12,
-      "changePercent": -20.13,
+      "value": 71.83,
+      "change": -18.2,
+      "changePercent": -20.22,
       "previousClose": 90.03,
       "asOf": "2026-07-10",
       "history": [
@@ -5874,16 +5874,16 @@
         },
         {
           "date": "2026-07-10",
-          "close": 71.91
+          "close": 71.83
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 76.15,
-      "change": -16.95,
-      "changePercent": -18.21,
+      "value": 76.3,
+      "change": -16.8,
+      "changePercent": -18.05,
       "previousClose": 93.1,
       "asOf": "2026-07-10",
       "history": [
@@ -5969,16 +5969,16 @@
         },
         {
           "date": "2026-07-10",
-          "close": 76.15
+          "close": 76.3
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.98,
-      "change": -0.21,
-      "changePercent": -6.44,
+      "value": 2.9,
+      "change": -0.29,
+      "changePercent": -9.01,
       "previousClose": 3.19,
       "asOf": "2026-07-10",
       "history": [
@@ -6064,7 +6064,7 @@
         },
         {
           "date": "2026-07-10",
-          "close": 2.98
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -6243,10 +6243,6 @@
       {
         "date": "2026-07-09",
         "close": 8762.5
-      },
-      {
-        "date": "2026-07-10",
-        "close": 8806
       }
     ]
   },
@@ -7377,21 +7373,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4112.6,
-      "change": 4.4,
-      "changePercent": 0.11
+      "price": 4105.7,
+      "change": -2.5,
+      "changePercent": -0.06
     },
     {
       "name": "Silver",
-      "price": 59.9,
-      "change": -4.7,
+      "price": 59.91,
+      "change": -4.69,
       "changePercent": -7.27
     },
     {
       "name": "Copper",
-      "price": 6.26,
-      "change": 0.01,
-      "changePercent": 0.18
+      "price": 6.27,
+      "change": 0.02,
+      "changePercent": 0.3
     }
   ],
   "housing": {
@@ -7762,14 +7758,14 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Jarome Luai returns as rumours swirl about Tigers future",
+      "title": "'Not gonna talk about that': Luai dodges press conference after another Tigers loss",
       "link": "https://www.abc.net.au/news/2026-07-10/nrl-live-wests-tigers-warriors-jarome-luai/106903582",
       "snippet": "",
       "pubDate": "Fri, 10 Jul 2026 08:56:35 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Pies clash with Roos as Crows confirm player involved in car crash",
+      "title": "Pies win a thriller against Kangaroos as veteran faces MRO scrutiny",
       "link": "https://www.abc.net.au/news/2026-07-10/afl-rd-18-live-magpies-kangaroos/106892258",
       "snippet": "",
       "pubDate": "Fri, 10 Jul 2026 08:42:38 +0000",
