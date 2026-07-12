@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-11T19:40:46.944Z",
+  "fetchedAt": "2026-07-12T04:05:56.857Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
       "changePercent": -0.97,
       "previousClose": 0.7,
-      "asOf": "2026-07-11",
+      "asOf": "2026-07-12",
       "history": [
         {
           "date": "2026-06-09",
@@ -1132,7 +1132,7 @@
       "change": 0,
       "changePercent": 0.03,
       "previousClose": 0.61,
-      "asOf": "2026-07-11",
+      "asOf": "2026-07-12",
       "history": [
         {
           "date": "2026-06-09",
@@ -2256,9 +2256,9 @@
     "audcny": {
       "value": 4.7,
       "change": -0.06,
-      "changePercent": -1.25,
+      "changePercent": -1.24,
       "previousClose": 4.76,
-      "asOf": "2026-07-11",
+      "asOf": "2026-07-12",
       "history": [
         {
           "date": "2026-06-09",
@@ -2353,7 +2353,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-12",
           "close": 4.7
         }
       ],
@@ -2626,7 +2626,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-12",
           "close": 4.7
         }
       ],
@@ -2740,7 +2740,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-12",
           "close": 4.7
         }
       ],
@@ -3374,7 +3374,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-12",
           "close": 4.7
         }
       ]
@@ -3384,7 +3384,7 @@
       "change": -0.21,
       "changePercent": -0.19,
       "previousClose": 112.63,
-      "asOf": "2026-07-11",
+      "asOf": "2026-07-12",
       "history": [
         {
           "date": "2026-06-09",
@@ -4511,7 +4511,7 @@
     "change": -0.01,
     "changePercent": -0.97,
     "previousClose": 0.7,
-    "asOf": "2026-07-11",
+    "asOf": "2026-07-12",
     "history": [
       {
         "date": "2026-06-09",
@@ -5827,15 +5827,11 @@
   "energy": {
     "wti": {
       "value": 71.41,
-      "change": -18.62,
-      "changePercent": -20.68,
-      "previousClose": 90.03,
-      "asOf": "2026-07-11",
+      "change": -13.47,
+      "changePercent": -15.87,
+      "previousClose": 84.88,
+      "asOf": "2026-07-12",
       "history": [
-        {
-          "date": "2026-06-11",
-          "close": 87.71
-        },
         {
           "date": "2026-06-12",
           "close": 84.88
@@ -5918,15 +5914,11 @@
     },
     "brent": {
       "value": 76.01,
-      "change": -17.09,
-      "changePercent": -18.36,
-      "previousClose": 93.1,
-      "asOf": "2026-07-11",
+      "change": -11.32,
+      "changePercent": -12.96,
+      "previousClose": 87.33,
+      "asOf": "2026-07-12",
       "history": [
-        {
-          "date": "2026-06-11",
-          "close": 90.38
-        },
         {
           "date": "2026-06-12",
           "close": 87.33
@@ -6009,15 +6001,11 @@
     },
     "gas": {
       "value": 2.94,
-      "change": -0.25,
-      "changePercent": -7.69,
-      "previousClose": 3.19,
-      "asOf": "2026-07-11",
+      "change": -0.18,
+      "changePercent": -5.77,
+      "previousClose": 3.12,
+      "asOf": "2026-07-12",
       "history": [
-        {
-          "date": "2026-06-11",
-          "close": 3.09
-        },
         {
           "date": "2026-06-12",
           "close": 3.12
@@ -6182,7 +6170,7 @@
     "change": 152.7,
     "changePercent": 1.76,
     "previousClose": 8653.3,
-    "asOf": "2026-07-11",
+    "asOf": "2026-07-12",
     "history": [
       {
         "date": "2026-06-10",
@@ -7406,20 +7394,20 @@
     {
       "name": "Gold",
       "price": 4113.7,
-      "change": 5.5,
-      "changePercent": 0.13
+      "change": -101.3,
+      "changePercent": -2.4
     },
     {
       "name": "Silver",
       "price": 60.17,
-      "change": -4.43,
-      "changePercent": -6.86
+      "change": -7.69,
+      "changePercent": -11.34
     },
     {
       "name": "Copper",
       "price": 6.28,
-      "change": 0.03,
-      "changePercent": 0.53
+      "change": -0.15,
+      "changePercent": -2.31
     }
   ],
   "housing": {
@@ -7776,6 +7764,13 @@
       "source": "SMH"
     },
     {
+      "title": "Power companies need more homes to share control of their batteries",
+      "link": "https://www.smh.com.au/business/consumer-affairs/power-companies-need-more-homes-to-share-control-of-their-batteries-20260710-p60eei.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The ACCC is warning of major cost blowouts in the shift from coal unless millions of households share control of their batteries via “virtual power plants”.",
+      "pubDate": "Sun, 12 Jul 2026 11:30:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Pub portfolio sells in $500m deal to MA Financial",
       "link": "https://www.smh.com.au/business/small-business/pub-portfolio-sells-in-500m-deal-to-ma-financial-20260709-p60e0y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Investment house MA Financial has swooped on four pubs in NSW’s Hunter Valley and two in Sydney.",
@@ -7790,24 +7785,24 @@
       "source": "SMH"
     },
     {
-      "title": "France dominates Wallabies to post historic Test win",
-      "link": "https://www.abc.net.au/news/2026-07-11/rugby-union-wallabies-france-nations-championship-blog-updates/106905422",
+      "title": "Bellingham goes big time again, as England continues down hard road",
+      "link": "https://www.abc.net.au/news/2026-07-12/world-cup-england-norway-quarter-final-miami-analysis/106906194",
       "snippet": "",
-      "pubDate": "Sat, 11 Jul 2026 06:41:28 +0000",
+      "pubDate": "Sun, 12 Jul 2026 02:50:15 +0000",
       "source": "ABC"
     },
     {
-      "title": "Jarome Luai to leave Wests Tigers with year left on contract",
-      "link": "https://www.abc.net.au/news/2026-07-11/jarome-luai-to-leave-wests-tigers-at-end-of-season/106905182",
+      "title": "Why Norway feels 'bitter' after contest of controversy against England",
+      "link": "https://www.abc.net.au/news/2026-07-12/world-cup-norway-spider-cam-goal-jude-bellingham-england/106906712",
       "snippet": "",
-      "pubDate": "Sat, 11 Jul 2026 03:09:46 +0000",
+      "pubDate": "Sun, 12 Jul 2026 02:06:41 +0000",
       "source": "ABC"
     },
     {
-      "title": "'A lot of fiction': Piastri's manager dismisses Verstappen swap rumours",
-      "link": "https://www.abc.net.au/news/2026-07-11/mark-webber-says-oscar-piastri-is-committed-to-mclaren-f1/106905014",
+      "title": "Skier training for 2030 Winter Paralympics only a year after discovering sport",
+      "link": "https://www.abc.net.au/news/2026-07-12/athlete-moves-to-snow-for-paralympics/106802090",
       "snippet": "",
-      "pubDate": "Sat, 11 Jul 2026 02:54:32 +0000",
+      "pubDate": "Sun, 12 Jul 2026 00:27:20 +0000",
       "source": "ABC"
     },
     {
@@ -7815,13 +7810,6 @@
       "link": "https://www.smh.com.au/business/companies/telstra-planned-to-avoid-this-meltdown-now-they-want-you-to-trust-their-plan-to-fix-it-20260710-p60e79.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "A head of Telstra’s operations team couldn’t alert Vicki Brady to the outage because his own phone wasn’t connecting. He finally contacted via a message through Microsoft Teams.",
       "pubDate": "Fri, 10 Jul 2026 17:21:26 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "This may be Melbourne’s luckiest address: 888 Doncaster Road sells for $8.8m",
-      "link": "https://www.smh.com.au/business/companies/this-may-be-melbourne-s-luckiest-address-888-doncaster-road-sells-for-8-8m-20260708-p60dqq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Number 8 stands for luck in Chinese culture, and the building’s sale price may be no coincidence.",
-      "pubDate": "Fri, 10 Jul 2026 09:30:02 +1000",
       "source": "SMH"
     }
   ]
