@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-14T08:35:24.076Z",
+  "fetchedAt": "2026-07-14T14:23:54.042Z",
   "fx": {
     "audusd": {
-      "value": 0.69,
+      "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.5,
+      "changePercent": -0.79,
       "previousClose": 0.7,
       "asOf": "2026-07-14",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
@@ -363,7 +363,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -477,7 +477,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 0.69
+          "close": 0.7
         }
       ],
       "h3y": [
@@ -1115,14 +1115,14 @@
         },
         {
           "date": "2026-07-14",
-          "close": 0.69
+          "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.02,
+      "changePercent": 0.21,
       "previousClose": 0.61,
       "asOf": "2026-07-14",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": -0.07,
-      "changePercent": -1.52,
+      "value": 4.73,
+      "change": -0.04,
+      "changePercent": -0.93,
       "previousClose": 4.77,
       "asOf": "2026-07-14",
       "history": [
@@ -2330,7 +2330,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.7
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2599,7 +2599,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.7
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2713,7 +2713,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.7
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.7
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 112.64,
-      "change": -0.2,
-      "changePercent": -0.18,
+      "value": 113.12,
+      "change": 0.28,
+      "changePercent": 0.24,
       "previousClose": 112.84,
       "asOf": "2026-07-14",
       "history": [
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 112.64
+          "close": 113.12
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 112.64
+          "close": 113.13
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 112.64
+          "close": 113.13
         }
       ],
       "h3y": [
@@ -4469,15 +4469,15 @@
         },
         {
           "date": "2026-07-14",
-          "close": 112.64
+          "close": 113.13
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.69,
+    "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.5,
+    "changePercent": -0.79,
     "previousClose": 0.7,
     "asOf": "2026-07-14",
     "history": [
@@ -4567,7 +4567,7 @@
       },
       {
         "date": "2026-07-14",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
@@ -4836,7 +4836,7 @@
       },
       {
         "date": "2026-07-14",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4950,7 +4950,7 @@
       },
       {
         "date": "2026-07-14",
-        "close": 0.69
+        "close": 0.7
       }
     ],
     "h3y": [
@@ -5588,7 +5588,7 @@
       },
       {
         "date": "2026-07-14",
-        "close": 0.69
+        "close": 0.7
       }
     ]
   },
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.12,
-      "change": -0.63,
-      "changePercent": -0.78,
+      "value": 79.85,
+      "change": -0.9,
+      "changePercent": -1.11,
       "previousClose": 80.75,
       "asOf": "2026-07-14",
       "history": [
@@ -5870,16 +5870,16 @@
         },
         {
           "date": "2026-07-14",
-          "close": 80.12
+          "close": 79.85
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.92,
-      "change": 2.75,
-      "changePercent": 3.31,
+      "value": 85.45,
+      "change": 2.28,
+      "changePercent": 2.74,
       "previousClose": 83.17,
       "asOf": "2026-07-14",
       "history": [
@@ -5961,16 +5961,16 @@
         },
         {
           "date": "2026-07-14",
-          "close": 85.92
+          "close": 85.45
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": -0.26,
-      "changePercent": -8.39,
+      "value": 2.87,
+      "change": -0.27,
+      "changePercent": -8.71,
       "previousClose": 3.15,
       "asOf": "2026-07-14",
       "history": [
@@ -6052,7 +6052,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 2.88
+          "close": 2.87
         }
       ],
       "name": "Natural Gas",
@@ -6226,10 +6226,6 @@
       },
       {
         "date": "2026-07-13",
-        "close": 8808.5
-      },
-      {
-        "date": "2026-07-14",
         "close": 8808.5
       }
     ]
@@ -7329,21 +7325,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4026.1,
-      "change": -301.9,
-      "changePercent": -6.98
+      "price": 4089.3,
+      "change": -238.7,
+      "changePercent": -5.52
     },
     {
       "name": "Silver",
-      "price": 58.32,
-      "change": -11.75,
-      "changePercent": -16.76
+      "price": 59.44,
+      "change": -10.63,
+      "changePercent": -15.17
     },
     {
       "name": "Copper",
-      "price": 6.37,
-      "change": -0.11,
-      "changePercent": -1.71
+      "price": 6.43,
+      "change": -0.06,
+      "changePercent": -0.89
     }
   ],
   "housing": {
@@ -7679,20 +7675,6 @@
   ],
   "news": [
     {
-      "title": "Advance strikes stacked silver-copper and gold sweet spot in Mexico",
-      "link": "https://www.smh.com.au/business/companies/advance-strikes-stacked-silver-copper-and-gold-sweet-spot-in-mexico-20260714-p60f8e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Advance Metals has hit a 37.5m polymetallic zone at its Mexican silver project, hinting at a large, stacked mineral system with shallow silver over deeper copper and gold.",
-      "pubDate": "Tue, 14 Jul 2026 14:16:36 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Olympio bags high-grade US silver and antimony plays",
-      "link": "https://www.smh.com.au/business/companies/olympio-bags-high-grade-us-silver-and-antimony-plays-20260714-p60f61.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Olympio Metals has completed the acquisition of two US critical minerals projects, picking up historic silver-copper and antimony projects that have seen no modern exploration.",
-      "pubDate": "Tue, 14 Jul 2026 13:07:02 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Aureka seals mill deal to fast-track Victorian gold production",
       "link": "https://www.smh.com.au/business/companies/aureka-seals-mill-deal-to-fast-track-victorian-gold-production-20260714-p60f9o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aureka Ltd has inked a toll milling deal, de-risking the path to production at its Comstock gold project and providing long-term processing optionality for its larger Irvine asset.",
@@ -7711,6 +7693,20 @@
       "link": "https://www.smh.com.au/business/companies/australia-freezes-chinese-investor-rights-over-key-rare-earth-project-20260714-p60fa3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Australia has frozen the rights of a group of Chinese-linked investors it fears are seeking to illegally gain control over a key Australian rare earth mine.",
       "pubDate": "Tue, 14 Jul 2026 17:42:40 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Truck driver who melted $70,000 of ice-cream fails to win back job",
+      "link": "https://www.smh.com.au/business/workplace/truck-driver-who-melted-70-000-of-ice-cream-fails-to-win-back-job-20260714-p60f21.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A truck driver who accidentally melted a truck load of ice-cream has failed to have his dismissal overturned.",
+      "pubDate": "Tue, 14 Jul 2026 19:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Pilot writes ‘I’m bored’ in the sky during test flight",
+      "link": "https://www.smh.com.au/business/companies/pilot-writes-im-bored-in-the-sky-during-test-flight-20260714-p60f6q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The single-engined Piper Tomahawk was seen on the popular flight-tracking website FlightRadar24 tracing out the words.",
+      "pubDate": "Tue, 14 Jul 2026 19:00:00 +1000",
       "source": "SMH"
     },
     {
