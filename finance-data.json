@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-14T14:23:54.042Z",
+  "fetchedAt": "2026-07-14T19:50:40.045Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -0.79,
+      "changePercent": -1.02,
       "previousClose": 0.7,
       "asOf": "2026-07-14",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.21,
+      "changePercent": 0.26,
       "previousClose": 0.61,
       "asOf": "2026-07-14",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.73,
-      "change": -0.04,
-      "changePercent": -0.93,
+      "value": 4.72,
+      "change": -0.05,
+      "changePercent": -1.05,
       "previousClose": 4.77,
       "asOf": "2026-07-14",
       "history": [
@@ -2330,7 +2330,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.73
+          "close": 4.72
         }
       ],
       "label": "AUD/CNY",
@@ -2599,7 +2599,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.73
+          "close": 4.72
         }
       ],
       "h6m": [
@@ -2713,7 +2713,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.73
+          "close": 4.72
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-07-14",
-          "close": 4.73
+          "close": 4.72
         }
       ]
     },
     "audjpy": {
-      "value": 113.12,
-      "change": 0.28,
-      "changePercent": 0.24,
+      "value": 113.09,
+      "change": 0.25,
+      "changePercent": 0.22,
       "previousClose": 112.84,
       "asOf": "2026-07-14",
       "history": [
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 113.12
+          "close": 113.09
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 113.13
+          "close": 113.09
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 113.13
+          "close": 113.09
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 113.13
+          "close": 113.09
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -0.79,
+    "changePercent": -1.02,
     "previousClose": 0.7,
     "asOf": "2026-07-14",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 79.85,
-      "change": -0.9,
-      "changePercent": -1.11,
+      "value": 79.78,
+      "change": -0.97,
+      "changePercent": -1.2,
       "previousClose": 80.75,
       "asOf": "2026-07-14",
       "history": [
@@ -5870,16 +5870,16 @@
         },
         {
           "date": "2026-07-14",
-          "close": 79.85
+          "close": 79.78
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.45,
-      "change": 2.28,
-      "changePercent": 2.74,
+      "value": 85.33,
+      "change": 2.16,
+      "changePercent": 2.6,
       "previousClose": 83.17,
       "asOf": "2026-07-14",
       "history": [
@@ -5961,16 +5961,16 @@
         },
         {
           "date": "2026-07-14",
-          "close": 85.45
+          "close": 85.33
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.87,
-      "change": -0.27,
-      "changePercent": -8.71,
+      "value": 2.93,
+      "change": -0.22,
+      "changePercent": -7.05,
       "previousClose": 3.15,
       "asOf": "2026-07-14",
       "history": [
@@ -6052,7 +6052,7 @@
         },
         {
           "date": "2026-07-14",
-          "close": 2.87
+          "close": 2.92
         }
       ],
       "name": "Natural Gas",
@@ -7325,21 +7325,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4089.3,
-      "change": -238.7,
-      "changePercent": -5.52
+      "price": 4057.8,
+      "change": -270.2,
+      "changePercent": -6.24
     },
     {
       "name": "Silver",
-      "price": 59.44,
-      "change": -10.63,
-      "changePercent": -15.17
+      "price": 59.08,
+      "change": -10.99,
+      "changePercent": -15.68
     },
     {
       "name": "Copper",
-      "price": 6.43,
-      "change": -0.06,
-      "changePercent": -0.89
+      "price": 6.37,
+      "change": -0.12,
+      "changePercent": -1.82
     }
   ],
   "housing": {
@@ -7675,6 +7675,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to rise, Wall Street advances after inflation data; IBM plunges",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-steady-after-inflation-data-ibm-plunges-20260715-p60fcn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks are holding steadier after a report showed US inflation was not as bad last month as economists expected.",
+      "pubDate": "Wed, 15 Jul 2026 05:15:16 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Aureka seals mill deal to fast-track Victorian gold production",
       "link": "https://www.smh.com.au/business/companies/aureka-seals-mill-deal-to-fast-track-victorian-gold-production-20260714-p60f9o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aureka Ltd has inked a toll milling deal, de-risking the path to production at its Comstock gold project and providing long-term processing optionality for its larger Irvine asset.",
@@ -7682,10 +7689,10 @@
       "source": "SMH"
     },
     {
-      "title": "Treat Sky News like a ‘drunk raving at the moon’: Turnbull",
-      "link": "https://www.smh.com.au/business/companies/treat-sky-news-like-a-drunk-raving-at-the-moon-turnbull-20260713-p60eyp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The former prime minister has told Labor and the ABC to stop paying attention to the Murdoch media empire.",
-      "pubDate": "Tue, 14 Jul 2026 15:58:40 +1000",
+      "title": "Half of the ASX’s highest-paid CEOs lead US-based companies",
+      "link": "https://www.smh.com.au/business/companies/half-of-the-asx-s-highest-paid-ceos-lead-us-based-companies-20260714-p60f6v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A new report shows that companies based in the United States are paying the biggest salaries on the ASX.",
+      "pubDate": "Wed, 15 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7721,20 +7728,6 @@
       "link": "https://www.abc.net.au/news/2026-07-14/australia-stingers-home-water-polo-world-cup/106914616",
       "snippet": "",
       "pubDate": "Tue, 14 Jul 2026 05:59:55 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "ABC Melbourne’s ratings jump despite Pickering’s Grace Tame controversy",
-      "link": "https://www.smh.com.au/business/companies/abc-melbourne-s-ratings-jump-despite-pickering-s-grace-tame-controversy-20260714-p60f2j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ABC Radio Melbourne has lifted itself off the mat, aided by a boost from Charlie Pickering in his first survey period as new host of its Drive program.",
-      "pubDate": "Tue, 14 Jul 2026 15:41:49 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Former Spanish PM slammed over 'intolerable whiffs of racism' towards France team",
-      "link": "https://www.abc.net.au/news/2026-07-14/mariano-rajoy-racism-row-over-france-at-world-cup/106911934",
-      "snippet": "",
-      "pubDate": "Mon, 13 Jul 2026 23:15:29 +0000",
       "source": "ABC"
     }
   ]
