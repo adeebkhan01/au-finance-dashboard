@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-15T14:18:44.539Z",
+  "fetchedAt": "2026-07-15T19:45:00.333Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.09,
+      "changePercent": -0.93,
       "previousClose": 0.71,
       "asOf": "2026-07-15",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.33,
+      "changePercent": 0.21,
       "previousClose": 0.61,
       "asOf": "2026-07-15",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": -0.05,
-      "changePercent": -1.07,
+      "value": 4.75,
+      "change": -0.04,
+      "changePercent": -0.86,
       "previousClose": 4.79,
       "asOf": "2026-07-15",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.74
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.74
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 113.45,
-      "change": 0.28,
-      "changePercent": 0.25,
+      "value": 113.67,
+      "change": 0.51,
+      "changePercent": 0.45,
       "previousClose": 113.16,
       "asOf": "2026-07-15",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.45
+          "close": 113.67
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.45
+          "close": 113.67
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.45
+          "close": 113.67
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.45
+          "close": 113.68
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.09,
+    "changePercent": -0.93,
     "previousClose": 0.71,
     "asOf": "2026-07-15",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 79.75,
-      "change": -1,
-      "changePercent": -1.24,
+      "value": 80.55,
+      "change": -0.2,
+      "changePercent": -0.25,
       "previousClose": 80.75,
       "asOf": "2026-07-15",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-07-15",
-          "close": 79.75
+          "close": 80.55
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 84.69,
-      "change": 1.52,
-      "changePercent": 1.83,
+      "value": 85.92,
+      "change": 2.75,
+      "changePercent": 3.31,
       "previousClose": 83.17,
       "asOf": "2026-07-15",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-07-15",
-          "close": 84.69
+          "close": 85.92
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": -0.26,
-      "changePercent": -8.42,
+      "value": 2.93,
+      "change": -0.22,
+      "changePercent": -6.86,
       "previousClose": 3.15,
       "asOf": "2026-07-15",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 2.88
+          "close": 2.93
         }
       ],
       "name": "Natural Gas",
@@ -6258,6 +6258,10 @@
       },
       {
         "date": "2026-07-13",
+        "close": 8808.5
+      },
+      {
+        "date": "2026-07-14",
         "close": 8808.5
       }
     ]
@@ -7389,21 +7393,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4069.7,
-      "change": -258.3,
-      "changePercent": -5.97
+      "price": 4056.8,
+      "change": -271.2,
+      "changePercent": -6.27
     },
     {
       "name": "Silver",
-      "price": 58.69,
-      "change": -11.38,
-      "changePercent": -16.24
+      "price": 57.98,
+      "change": -12.09,
+      "changePercent": -17.26
     },
     {
       "name": "Copper",
-      "price": 6.41,
-      "change": -0.07,
-      "changePercent": -1.08
+      "price": 6.38,
+      "change": -0.1,
+      "changePercent": -1.57
     }
   ],
   "housing": {
@@ -7746,17 +7750,24 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to edge up, Wall Street rises as oil prices swing",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-rises-as-oil-prices-swing-20260716-p60fow.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are gaining ground following strong profit reports from BlackRock and other big companies and an update on the path of inflation.",
+      "pubDate": "Thu, 16 Jul 2026 05:18:17 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Labor threatens oil giants with emergency offshore clean-up levy",
+      "link": "https://www.smh.com.au/business/companies/labor-threatens-oil-giants-with-emergency-offshore-clean-up-levy-20260715-p60fgf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The oil and gas sector is on notice that Labor will have ‘no hesitation’ extending an emergency levy to fund a $200 million offshore clean-up bill if required.",
+      "pubDate": "Thu, 16 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Sydney firm faces liquidation over missing $17 million, fake bonds",
       "link": "https://www.smh.com.au/business/companies/sydney-firm-faces-liquidation-over-missing-17-million-fake-bonds-20260715-p60fh3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The corporate regulator is seeking to wind up Sydney investment firm Capital Guard, raising concerns about the company’s handling of investor funds.",
       "pubDate": "Wed, 15 Jul 2026 13:57:06 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Aguia banks $2.3M in phosphate sales as Brazilian demand builds",
-      "link": "https://www.smh.com.au/business/companies/aguia-banks-2-3m-in-phosphate-sales-as-brazilian-demand-builds-20260715-p60fjb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aguia Resources has booked $2.3m in early sales from its new Brazilian phosphate operation, marking a swift transition from launch to revenue generation.",
-      "pubDate": "Wed, 15 Jul 2026 13:00:03 +1000",
       "source": "SMH"
     },
     {
@@ -7799,13 +7810,6 @@
       "link": "https://www.abc.net.au/news/2026-07-15/world-cup-england-argentina-semifinal-atlanta-preview/106916064",
       "snippet": "",
       "pubDate": "Wed, 15 Jul 2026 05:12:12 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Crows defender Josh Worrell to face court over crash",
-      "link": "https://www.abc.net.au/news/2026-07-15/crows-defender-josh-worrell-to-face-court-over-crash/106917162",
-      "snippet": "",
-      "pubDate": "Wed, 15 Jul 2026 00:33:55 +0000",
       "source": "ABC"
     }
   ]
