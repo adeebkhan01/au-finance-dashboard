@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-15T08:41:09.816Z",
+  "fetchedAt": "2026-07-15T14:18:44.539Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.2,
+      "changePercent": -1.09,
       "previousClose": 0.71,
       "asOf": "2026-07-15",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.28,
+      "changePercent": 0.33,
       "previousClose": 0.61,
       "asOf": "2026-07-15",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.72,
-      "change": -0.07,
-      "changePercent": -1.5,
+      "value": 4.74,
+      "change": -0.05,
+      "changePercent": -1.07,
       "previousClose": 4.79,
       "asOf": "2026-07-15",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.72
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.72
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.72
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-07-15",
-          "close": 4.72
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 113.4,
-      "change": 0.23,
-      "changePercent": 0.21,
+      "value": 113.45,
+      "change": 0.28,
+      "changePercent": 0.25,
       "previousClose": 113.16,
       "asOf": "2026-07-15",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.4
+          "close": 113.45
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.4
+          "close": 113.45
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.4
+          "close": 113.45
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 113.41
+          "close": 113.45
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.2,
+    "changePercent": -1.09,
     "previousClose": 0.71,
     "asOf": "2026-07-15",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 79.79,
-      "change": -0.96,
-      "changePercent": -1.19,
+      "value": 79.75,
+      "change": -1,
+      "changePercent": -1.24,
       "previousClose": 80.75,
       "asOf": "2026-07-15",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-07-15",
-          "close": 79.79
+          "close": 79.75
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.34,
-      "change": 2.17,
-      "changePercent": 2.61,
+      "value": 84.69,
+      "change": 1.52,
+      "changePercent": 1.83,
       "previousClose": 83.17,
       "asOf": "2026-07-15",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-07-15",
-          "close": 85.34
+          "close": 84.69
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.9,
-      "change": -0.24,
-      "changePercent": -7.79,
+      "value": 2.88,
+      "change": -0.26,
+      "changePercent": -8.42,
       "previousClose": 3.15,
       "asOf": "2026-07-15",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-07-15",
-          "close": 2.9
+          "close": 2.88
         }
       ],
       "name": "Natural Gas",
@@ -6259,10 +6259,6 @@
       {
         "date": "2026-07-13",
         "close": 8808.5
-      },
-      {
-        "date": "2026-07-15",
-        "close": 8841.1
       }
     ]
   },
@@ -7393,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4032.4,
-      "change": -295.6,
-      "changePercent": -6.83
+      "price": 4069.7,
+      "change": -258.3,
+      "changePercent": -5.97
     },
     {
       "name": "Silver",
-      "price": 58.56,
-      "change": -11.51,
-      "changePercent": -16.42
+      "price": 58.69,
+      "change": -11.38,
+      "changePercent": -16.24
     },
     {
       "name": "Copper",
-      "price": 6.38,
-      "change": -0.1,
-      "changePercent": -1.62
+      "price": 6.41,
+      "change": -0.07,
+      "changePercent": -1.08
     }
   ],
   "housing": {
@@ -7764,6 +7760,13 @@
       "source": "SMH"
     },
     {
+      "title": "How China’s EV boom spun dangerously out of control",
+      "link": "https://www.smh.com.au/business/companies/how-china-s-ev-boom-spun-dangerously-out-of-control-20260714-p60f1g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "China never intended to create so many carmakers. Now the electric vehicle explosion could backfire on Beijing.",
+      "pubDate": "Wed, 15 Jul 2026 19:50:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Rio2 breathes new life into Canadian critical minerals project",
       "link": "https://www.smh.com.au/business/companies/rio2-breathes-new-life-into-canadian-critical-minerals-project-20260715-p60flh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Rio2 Limited has dusted off its dormant Canadian tungsten project, with strong historical results and soaring demand for critical minerals driving a fresh exploration push.",
@@ -7783,13 +7786,6 @@
       "snippet": "",
       "pubDate": "Wed, 15 Jul 2026 02:12:45 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "‘I don’t see it that way’: Why Trump’s man just rained on the president’s parade",
-      "link": "https://www.smh.com.au/business/the-economy/i-don-t-see-it-that-way-why-trump-s-man-just-rained-on-the-president-s-parade-20260715-p60fdb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump was quick to celebrate some surprising economic news, but his own actions mean his joy will probably be short-lived.",
-      "pubDate": "Wed, 15 Jul 2026 11:50:00 +1000",
-      "source": "SMH"
     },
     {
       "title": "Broncos losing streak makes finals hopes virtually an impossible task",
