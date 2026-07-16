@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-16T14:31:49.544Z",
+  "fetchedAt": "2026-07-16T19:40:30.721Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -0.85,
+      "changePercent": -1.1,
       "previousClose": 0.71,
       "asOf": "2026-07-16",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.33,
+      "changePercent": 0.18,
       "previousClose": 0.61,
       "asOf": "2026-07-16",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.73,
-      "change": -0.05,
-      "changePercent": -0.97,
+      "value": 4.74,
+      "change": -0.04,
+      "changePercent": -0.82,
       "previousClose": 4.78,
       "asOf": "2026-07-16",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 4.73
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 4.73
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 4.73
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-07-16",
-          "close": 4.73
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 113.84,
-      "change": 0.52,
-      "changePercent": 0.46,
+      "value": 113.56,
+      "change": 0.24,
+      "changePercent": 0.21,
       "previousClose": 113.32,
       "asOf": "2026-07-16",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 113.84
+          "close": 113.56
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 113.84
+          "close": 113.56
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 113.84
+          "close": 113.56
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 113.84
+          "close": 113.56
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -0.85,
+    "changePercent": -1.1,
     "previousClose": 0.71,
     "asOf": "2026-07-16",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.03,
-      "change": 3.98,
-      "changePercent": 5.23,
+      "value": 78.35,
+      "change": 2.3,
+      "changePercent": 3.02,
       "previousClose": 76.05,
       "asOf": "2026-07-16",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-07-16",
-          "close": 80.03
+          "close": 78.35
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.4,
-      "change": 6.44,
-      "changePercent": 8.16,
+      "value": 84.26,
+      "change": 5.3,
+      "changePercent": 6.71,
       "previousClose": 78.96,
       "asOf": "2026-07-16",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-07-16",
-          "close": 85.4
+          "close": 84.26
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.95,
-      "change": -0.29,
-      "changePercent": -8.95,
+      "value": 2.89,
+      "change": -0.35,
+      "changePercent": -10.77,
       "previousClose": 3.24,
       "asOf": "2026-07-16",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-07-16",
-          "close": 2.95
+          "close": 2.89
         }
       ],
       "name": "Natural Gas",
@@ -6477,7 +6477,7 @@
     },
     {
       "name": "Info Technology",
-      "changePercent": 0.28,
+      "changePercent": 0.8,
       "stocks": [
         {
           "name": "XRO",
@@ -6486,8 +6486,8 @@
         },
         {
           "name": "WTC",
-          "price": 0,
-          "changePercent": 0
+          "price": 34.98,
+          "changePercent": 2.07
         },
         {
           "name": "CPU",
@@ -7393,21 +7393,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3999.7,
-      "change": -331.2,
-      "changePercent": -7.65
+      "price": 3983.3,
+      "change": -347.6,
+      "changePercent": -8.03
     },
     {
       "name": "Silver",
-      "price": 56.04,
-      "change": -13.86,
-      "changePercent": -19.83
+      "price": 55.81,
+      "change": -14.09,
+      "changePercent": -20.16
     },
     {
       "name": "Copper",
-      "price": 6.36,
-      "change": -0.13,
-      "changePercent": -2
+      "price": 6.29,
+      "change": -0.2,
+      "changePercent": -3.05
     }
   ],
   "housing": {
@@ -7743,13 +7743,6 @@
   ],
   "news": [
     {
-      "title": "ASX closes flat; BHP falls on copper warning, AMP shares rally",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-rises-as-oil-prices-swing-20260716-p60fow.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket treaded water as losses by world’s biggest miner BHP and energy stocks offset gains by the big four banks and a rally by wealth giant AMP.",
-      "pubDate": "Thu, 16 Jul 2026 17:23:19 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Credit card rewards points slashed up to 50% ahead of surcharge ban",
       "link": "https://www.smh.com.au/business/consumer-affairs/credit-card-rewards-points-slashed-up-to-50-percent-ahead-of-surcharge-ban-20260716-p60fvs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Banks have begun reining in generous credit card points earning and associated perks ahead of Reserve Bank changes that cut their revenue from the schemes.",
@@ -7757,24 +7750,17 @@
       "source": "SMH"
     },
     {
-      "title": "Is SpaceX a meme stock? Elon Musk loses trillionaire status",
-      "link": "https://www.smh.com.au/business/companies/is-spacex-a-meme-stock-elon-musk-loses-trillionaire-status-20260716-p60frd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A month after the biggest IPO in human history, SpaceX has been trading below its float price. Is the market finally waking up?",
-      "pubDate": "Thu, 16 Jul 2026 16:02:36 +1000",
+      "title": "ASX set to slide, AI stock slump hurts Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-ai-stock-slump-hurts-wall-street-20260717-p60g1s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Computer chipmakers and other winners of the artificial-intelligence boom are slumping again and weighing on stock markets worldwide.",
+      "pubDate": "Fri, 17 Jul 2026 05:19:12 +1000",
       "source": "SMH"
     },
     {
-      "title": "No hiring if an AI can do the job, staff at mining giant told",
-      "link": "https://www.smh.com.au/business/workplace/no-hiring-if-an-ai-can-do-the-job-staff-at-mining-giant-told-20260713-p60eth.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "An Australian company has become the latest in a line to curb its workforce as powerful tech tools come to do work once reserved for humans.",
-      "pubDate": "Thu, 16 Jul 2026 15:58:23 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "ClearVue recruits world-leading solar glass expert",
-      "link": "https://www.smh.com.au/business/companies/clearvue-recruits-world-leading-solar-glass-expert-20260716-p60fvh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ClearVue Technologies has appointed globally recognised building-integrated photovoltaics specialist Professor Rebecca Yang to its board as it pushes its solar glass into world markets.",
-      "pubDate": "Thu, 16 Jul 2026 12:44:54 +1000",
+      "title": "Brutal plunge: Lendlease fund sells B-grade city office for half the price, four years on",
+      "link": "https://www.smh.com.au/business/companies/brutal-plunge-lendlease-fund-sells-b-grade-city-office-for-half-the-price-four-years-on-20260716-p60ftc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A tower in Little Collins Street has sold for less than half of its $83 million post-pandemic purchase price.",
+      "pubDate": "Fri, 17 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7783,6 +7769,34 @@
       "snippet": "",
       "pubDate": "Thu, 16 Jul 2026 01:29:19 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "My colleague is constantly negative. How can I make them cheer up?",
+      "link": "https://www.smh.com.au/business/workplace/my-colleague-is-constantly-negative-how-can-i-make-them-cheer-up-20260716-p60fvn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "When a colleague is always down, it can make your workplace experience negative too. But there are some things you can try.",
+      "pubDate": "Fri, 17 Jul 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Overwork is slowly burning us out. So why do we normalise it?",
+      "link": "https://www.smh.com.au/business/workplace/overwork-is-slowly-burning-us-out-so-why-do-we-normalise-it-20260716-p60fvq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "These hidden, psychosocial hazards in the workplace can quickly wear us down and bring us to breaking point.",
+      "pubDate": "Fri, 17 Jul 2026 05:01:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Rinehart’s media monitoring tests her commitment to freedom of speech",
+      "link": "https://www.smh.com.au/business/companies/rinehart-s-media-monitoring-tests-her-commitment-to-freedom-of-speech-20260716-p60frb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The billionaire has some of the outward hallmarks of a free speech champion, but that hasn’t stopped even niche journalists getting terse complaints.",
+      "pubDate": "Fri, 17 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Fast-track for Sunito’s Five Dock dream project",
+      "link": "https://www.smh.com.au/business/companies/fast-track-for-sunito-s-five-dock-dream-project-20260716-p60fwz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Developer Iwan Sunito’s $1.9 billion project is a step closer to reality.",
+      "pubDate": "Fri, 17 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "ABC chair Kim Williams enters the lion’s den at Sky News",
@@ -7810,20 +7824,6 @@
       "link": "https://www.abc.net.au/news/2026-07-16/wallabies-italy-rugby-test-joe-schmidt-fraser-mcreight/106924296",
       "snippet": "",
       "pubDate": "Thu, 16 Jul 2026 06:23:12 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Why chucking a sickie is something we should all be proud of",
-      "link": "https://www.smh.com.au/business/workplace/why-chucking-a-sickie-is-something-we-should-all-be-proud-of-20260716-p60fv7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Our propensity to call in sick more than other countries has a broad range of benefits for individuals, the community and the workplace.",
-      "pubDate": "Thu, 16 Jul 2026 13:20:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "England's hopes fade again, but it won't stop them dreaming",
-      "link": "https://www.abc.net.au/news/2026-07-16/england-three-lions-world-cup-semifinal-heartbreak/106921182",
-      "snippet": "",
-      "pubDate": "Thu, 16 Jul 2026 01:29:50 +0000",
       "source": "ABC"
     }
   ]
