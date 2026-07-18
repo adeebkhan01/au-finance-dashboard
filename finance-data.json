@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-18T03:40:53.549Z",
+  "fetchedAt": "2026-07-18T08:18:45.999Z",
   "fx": {
     "audusd": {
       "value": 0.7,
@@ -101,7 +101,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.7
         }
       ],
@@ -374,7 +374,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.7
         }
       ],
@@ -488,7 +488,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.7
         }
       ],
@@ -1122,7 +1122,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.7
         }
       ]
@@ -1227,7 +1227,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.61
         }
       ],
@@ -1500,7 +1500,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.61
         }
       ],
@@ -1614,7 +1614,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.61
         }
       ],
@@ -2248,7 +2248,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "close": 0.61
         }
       ]
@@ -4606,7 +4606,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "close": 0.7
       }
     ],
@@ -4879,7 +4879,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "close": 0.7
       }
     ],
@@ -4993,7 +4993,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "close": 0.7
       }
     ],
@@ -5627,7 +5627,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "close": 0.7
       }
     ]
@@ -5826,16 +5826,12 @@
   },
   "energy": {
     "wti": {
-      "value": 81.77,
-      "change": 4.98,
-      "changePercent": 6.49,
+      "value": 81.78,
+      "change": 4.99,
+      "changePercent": 6.5,
       "previousClose": 76.79,
       "asOf": "2026-07-18",
       "history": [
-        {
-          "date": "2026-06-17",
-          "close": 76.79
-        },
         {
           "date": "2026-06-18",
           "close": 76.6
@@ -5914,23 +5910,19 @@
         },
         {
           "date": "2026-07-17",
-          "close": 81.77
+          "close": 82.49
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.09,
-      "change": 8.54,
-      "changePercent": 10.74,
+      "value": 88.1,
+      "change": 8.55,
+      "changePercent": 10.75,
       "previousClose": 79.55,
       "asOf": "2026-07-18",
       "history": [
-        {
-          "date": "2026-06-17",
-          "close": 79.55
-        },
         {
           "date": "2026-06-18",
           "close": 79.85
@@ -6009,23 +6001,19 @@
         },
         {
           "date": "2026-07-17",
-          "close": 88.09
+          "close": 88.1
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.92,
+      "value": 2.91,
       "change": -0.23,
-      "changePercent": -7.28,
+      "changePercent": -7.44,
       "previousClose": 3.15,
       "asOf": "2026-07-18",
       "history": [
-        {
-          "date": "2026-06-17",
-          "close": 3.14
-        },
         {
           "date": "2026-06-18",
           "close": 3.23
@@ -6104,7 +6092,7 @@
         },
         {
           "date": "2026-07-17",
-          "close": 2.92
+          "close": 2.91
         }
       ],
       "name": "Natural Gas",
@@ -7417,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4023,
-      "change": -335.9,
-      "changePercent": -7.71
+      "price": 4018.8,
+      "change": -340.1,
+      "changePercent": -7.8
     },
     {
       "name": "Silver",
-      "price": 56.22,
-      "change": -14.48,
-      "changePercent": -20.48
+      "price": 56.33,
+      "change": -14.37,
+      "changePercent": -20.33
     },
     {
       "name": "Copper",
       "price": 6.27,
-      "change": -0.21,
-      "changePercent": -3.26
+      "change": -0.22,
+      "changePercent": -3.35
     }
   ],
   "housing": {
@@ -7781,7 +7769,14 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Port forced into last-minute line-up switch ahead of Dockers clash",
+      "title": "Live: Raiders star suffers suspected Achilles rupture, Warriors host Dragons",
+      "link": "https://www.abc.net.au/news/2026-07-18/nrl-live-blog-raiders-rabbitohs-warriors-dragons-bulldogs-tigers/106928426",
+      "snippet": "",
+      "pubDate": "Sat, 18 Jul 2026 04:32:18 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Roos and Dees locked in thriller as stray boot leaves star bloodied",
       "link": "https://www.abc.net.au/news/2026-07-18/afl-rd-19-live-ptad-frem-kang-melb-coll-carl-wc-bris/106918214",
       "snippet": "",
       "pubDate": "Sat, 18 Jul 2026 03:00:21 +0000",
@@ -7799,13 +7794,6 @@
       "link": "https://www.abc.net.au/news/2026-07-18/tour-de-france-stage-13-mauro-schmid-wins/106930986",
       "snippet": "",
       "pubDate": "Fri, 17 Jul 2026 22:03:46 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "The quote that shows the divide within Australia's Comm Games team",
-      "link": "https://www.abc.net.au/news/2026-07-18/glasgow-commonwealth-games-future-relevance-swimming-athletics/106772774",
-      "snippet": "",
-      "pubDate": "Fri, 17 Jul 2026 19:19:39 +0000",
       "source": "ABC"
     },
     {
