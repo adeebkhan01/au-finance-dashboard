@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-19T14:01:55.367Z",
+  "fetchedAt": "2026-07-19T19:39:59.221Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.15,
+      "changePercent": -1.37,
       "previousClose": 0.71,
       "asOf": "2026-07-19",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.31,
+      "changePercent": 0.16,
       "previousClose": 0.61,
       "asOf": "2026-07-19",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.72,
-      "change": -0.06,
-      "changePercent": -1.18,
+      "value": 4.73,
+      "change": -0.04,
+      "changePercent": -0.83,
       "previousClose": 4.77,
       "asOf": "2026-07-19",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-07-19",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-07-19",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-07-19",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-07-19",
-          "close": 4.72
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 113.38,
-      "change": 0.05,
-      "changePercent": 0.04,
+      "value": 113.14,
+      "change": -0.2,
+      "changePercent": -0.18,
       "previousClose": 113.34,
       "asOf": "2026-07-19",
       "history": [
@@ -3479,8 +3479,8 @@
           "close": 113.62
         },
         {
-          "date": "2026-07-17",
-          "close": 113.38
+          "date": "2026-07-19",
+          "close": 113.14
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3752,8 @@
           "close": 113.62
         },
         {
-          "date": "2026-07-17",
-          "close": 113.38
+          "date": "2026-07-19",
+          "close": 113.14
         }
       ],
       "h6m": [
@@ -3866,8 +3866,8 @@
           "close": 113.62
         },
         {
-          "date": "2026-07-17",
-          "close": 113.38
+          "date": "2026-07-19",
+          "close": 113.14
         }
       ],
       "h3y": [
@@ -4500,8 +4500,8 @@
           "close": 113.62
         },
         {
-          "date": "2026-07-17",
-          "close": 113.38
+          "date": "2026-07-19",
+          "close": 113.14
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.15,
+    "changePercent": -1.37,
     "previousClose": 0.71,
     "asOf": "2026-07-19",
     "history": [
@@ -7743,6 +7743,20 @@
   ],
   "news": [
     {
+      "title": "ASX eyes uncertain start, Wall Street hit by AI slump",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-uncertain-start-wall-street-hit-by-ai-slump-20260720-p60gof.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The sell-off for winners of the artificial-intelligence boom deepened and yanked stock markets lower worldwide while tensions escalated in the Middle East as the US launched more airstrikes at Iran in response to the killing of American troops.",
+      "pubDate": "Mon, 20 Jul 2026 05:22:43 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Real harm’: Record $830m in fines against banks, financial firms",
+      "link": "https://www.smh.com.au/business/companies/real-harm-record-830m-in-fines-against-banks-financial-firms-20260719-p60gjs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Regulator heralds year of record fines and lengthy jail terms despite landmark legal defeat in case against casino operator.",
+      "pubDate": "Mon, 20 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Can Australia dodge the next Iran oil shock?",
       "link": "https://www.smh.com.au/business/the-economy/can-australia-dodge-the-next-iran-oil-shock-20260717-p60g4x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Energy companies and governments are racing to find new oil supply routes. Others argue the real solution is to reduce the need for oil in the first place.",
@@ -7764,8 +7778,8 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Russell crashes out, Piastri's car damaged in frenetic Belgian GP",
-      "link": "https://www.abc.net.au/news/2026-07-19/f1-belgian-grand-prix-live-blog-antonelli-piastri/106932990",
+      "title": "Antonelli extends F1 championship lead, heartbroken Russell crashes out in Belgium",
+      "link": "https://www.abc.net.au/news/2026-07-19/f1-belgian-gp-antonelli-wins-russell-crashes-piastri-fifth/106932990",
       "snippet": "",
       "pubDate": "Sun, 19 Jul 2026 12:04:24 +0000",
       "source": "ABC"
@@ -7799,24 +7813,10 @@
       "source": "ABC"
     },
     {
-      "title": "Teen star claims pole again, Piastri to start 6th in Belgian GP",
-      "link": "https://www.abc.net.au/news/2026-07-19/f1-2026-belgian-grand-prix-kimi-antonelli-pole-oscar-piastri/106932726",
-      "snippet": "",
-      "pubDate": "Sun, 19 Jul 2026 00:16:16 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "Iran’s supreme leader warns of ‘unforgettable lessons’ if US continues attacks",
       "link": "https://www.smh.com.au/business/iran-s-supreme-leader-warns-of-unforgettable-lessons-if-us-continues-attacks-20260719-p60gio.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Iran’s supreme leader warns of ‘unforgettable lessons’ if US continues attacks",
       "pubDate": "Sun, 19 Jul 2026 04:21:08 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Billionaires on the beach: Inside Jeff Bezos and Lauren Sanchez’s surprise Coogee lunch",
-      "link": "https://www.smh.com.au/business/companies/did-the-world-s-fourth-richest-man-just-touch-down-in-sydney-20260717-p60gbk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Amazon founder Jeff Bezos, or his doppelganger, enjoyed the views and fine food in Coogee alongside his wife Lauren Sanchez Bezos.",
-      "pubDate": "Fri, 17 Jul 2026 19:56:34 +1000",
       "source": "SMH"
     }
   ]
