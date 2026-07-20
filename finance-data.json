@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-20T14:37:48.357Z",
+  "fetchedAt": "2026-07-20T20:05:39.195Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0,
+      "changePercent": -0.16,
       "previousClose": 0.7,
       "asOf": "2026-07-20",
       "history": [
@@ -86,6 +86,10 @@
         },
         {
           "date": "2026-07-16",
+          "close": 0.7
+        },
+        {
+          "date": "2026-07-19",
           "close": 0.7
         },
         {
@@ -358,6 +362,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-07-19",
+          "close": 0.7
+        },
+        {
           "date": "2026-07-20",
           "close": 0.7
         }
@@ -465,6 +473,10 @@
         },
         {
           "date": "2026-07-12",
+          "close": 0.7
+        },
+        {
+          "date": "2026-07-19",
           "close": 0.7
         },
         {
@@ -1102,6 +1114,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-07-19",
+          "close": 0.7
+        },
+        {
           "date": "2026-07-20",
           "close": 0.7
         }
@@ -1110,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.36,
+      "changePercent": 0.16,
       "previousClose": 0.61,
       "asOf": "2026-07-20",
       "history": [
@@ -1192,6 +1208,10 @@
         },
         {
           "date": "2026-07-16",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-19",
           "close": 0.61
         },
         {
@@ -1464,6 +1484,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-07-19",
+          "close": 0.61
+        },
+        {
           "date": "2026-07-20",
           "close": 0.61
         }
@@ -1572,6 +1596,10 @@
         {
           "date": "2026-07-12",
           "close": 0.59
+        },
+        {
+          "date": "2026-07-19",
+          "close": 0.61
         },
         {
           "date": "2026-07-20",
@@ -2208,15 +2236,19 @@
           "close": 0.59
         },
         {
+          "date": "2026-07-19",
+          "close": 0.61
+        },
+        {
           "date": "2026-07-20",
           "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.73,
-      "change": -0.02,
-      "changePercent": -0.37,
+      "value": 4.74,
+      "change": -0.01,
+      "changePercent": -0.23,
       "previousClose": 4.75,
       "asOf": "2026-07-20",
       "history": [
@@ -2301,8 +2333,12 @@
           "close": 4.74
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-07-19",
           "close": 4.73
+        },
+        {
+          "date": "2026-07-20",
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2570,8 +2606,12 @@
           "close": 4.74
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-07-19",
           "close": 4.73
+        },
+        {
+          "date": "2026-07-20",
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2680,8 +2720,12 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-07-19",
           "close": 4.73
+        },
+        {
+          "date": "2026-07-20",
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3314,15 +3358,19 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-07-19",
           "close": 4.73
+        },
+        {
+          "date": "2026-07-20",
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 113.94,
-      "change": 0.84,
-      "changePercent": 0.74,
+      "value": 113.74,
+      "change": 0.64,
+      "changePercent": 0.56,
       "previousClose": 113.1,
       "asOf": "2026-07-20",
       "history": [
@@ -3407,8 +3455,12 @@
           "close": 113.62
         },
         {
+          "date": "2026-07-19",
+          "close": 113.41
+        },
+        {
           "date": "2026-07-20",
-          "close": 113.94
+          "close": 113.74
         }
       ],
       "label": "AUD/JPY",
@@ -3676,8 +3728,12 @@
           "close": 113.62
         },
         {
+          "date": "2026-07-19",
+          "close": 113.41
+        },
+        {
           "date": "2026-07-20",
-          "close": 113.95
+          "close": 113.74
         }
       ],
       "h6m": [
@@ -3786,8 +3842,12 @@
           "close": 113.39
         },
         {
+          "date": "2026-07-19",
+          "close": 113.41
+        },
+        {
           "date": "2026-07-20",
-          "close": 113.95
+          "close": 113.74
         }
       ],
       "h3y": [
@@ -4420,8 +4480,12 @@
           "close": 113.39
         },
         {
+          "date": "2026-07-19",
+          "close": 113.41
+        },
+        {
           "date": "2026-07-20",
-          "close": 113.94
+          "close": 113.74
         }
       ]
     }
@@ -4429,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0,
+    "changePercent": -0.16,
     "previousClose": 0.7,
     "asOf": "2026-07-20",
     "history": [
@@ -4511,6 +4575,10 @@
       },
       {
         "date": "2026-07-16",
+        "close": 0.7
+      },
+      {
+        "date": "2026-07-19",
         "close": 0.7
       },
       {
@@ -4783,6 +4851,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-07-19",
+        "close": 0.7
+      },
+      {
         "date": "2026-07-20",
         "close": 0.7
       }
@@ -4890,6 +4962,10 @@
       },
       {
         "date": "2026-07-12",
+        "close": 0.7
+      },
+      {
+        "date": "2026-07-19",
         "close": 0.7
       },
       {
@@ -5527,6 +5603,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-07-19",
+        "close": 0.7
+      },
+      {
         "date": "2026-07-20",
         "close": 0.7
       }
@@ -5726,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.56,
-      "change": 4.96,
-      "changePercent": 6.48,
+      "value": 82.46,
+      "change": 5.86,
+      "changePercent": 7.65,
       "previousClose": 76.6,
       "asOf": "2026-07-20",
       "history": [
@@ -5810,16 +5890,16 @@
         },
         {
           "date": "2026-07-20",
-          "close": 81.56
+          "close": 82.46
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.84,
-      "change": 7.99,
-      "changePercent": 10.01,
+      "value": 88.94,
+      "change": 9.09,
+      "changePercent": 11.38,
       "previousClose": 79.85,
       "asOf": "2026-07-20",
       "history": [
@@ -5901,16 +5981,16 @@
         },
         {
           "date": "2026-07-20",
-          "close": 87.84
+          "close": 88.94
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.86,
-      "change": -0.37,
-      "changePercent": -11.51,
+      "value": 2.84,
+      "change": -0.39,
+      "changePercent": -12.03,
       "previousClose": 3.23,
       "asOf": "2026-07-20",
       "history": [
@@ -5992,7 +6072,7 @@
         },
         {
           "date": "2026-07-20",
-          "close": 2.86
+          "close": 2.84
         }
       ],
       "name": "Natural Gas",
@@ -7229,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4009.2,
-      "change": -214.9,
-      "changePercent": -5.09
+      "price": 4011.1,
+      "change": -213,
+      "changePercent": -5.04
     },
     {
       "name": "Silver",
-      "price": 56.95,
-      "change": -9.31,
-      "changePercent": -14.05
+      "price": 56.64,
+      "change": -9.62,
+      "changePercent": -14.52
     },
     {
       "name": "Copper",
-      "price": 6.35,
+      "price": 6.34,
       "change": -0.03,
-      "changePercent": -0.44
+      "changePercent": -0.47
     }
   ],
   "housing": {
@@ -7586,6 +7666,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to slide, Wall Street steadies; Judge pauses $157b Paramount-Warner Bros deal",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-steadies-paramount-warner-bros-deal-paused-by-judge-20260721-p60h0v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street is holding steadier, as stocks of chipmakers and other winners of the artificial-intelligence boom trim some of their recent losses.",
+      "pubDate": "Tue, 21 Jul 2026 05:19:21 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Gateway fires up three-rig gold hunt at WA Yandal project",
       "link": "https://www.smh.com.au/business/companies/gateway-fires-up-three-rig-gold-hunt-at-wa-yandal-project-20260720-p60gya.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Gateway Mining has launched a major RC drilling campaign across multiple discoveries at its WA Yandal project to convert a burgeoning discovery pipeline into future resource growth.",
@@ -7593,10 +7680,10 @@
       "source": "SMH"
     },
     {
-      "title": "Coles’ backdown on $4 billion pet deal was a smart move. Private equity can’t have been pleased",
-      "link": "https://www.smh.com.au/business/companies/investors-bark-coles-backpedals-on-peak-pooch-price-for-pet-business-20260720-p60gux.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Leah Weckert isn’t the first boss of the supermarket chain to believe that pets could be a boon to the chain, but investors corrected her.",
-      "pubDate": "Mon, 20 Jul 2026 15:49:52 +1000",
+      "title": "AI is reshaping the economy, but good luck measuring how",
+      "link": "https://www.smh.com.au/business/the-economy/ai-is-reshaping-the-economy-but-good-luck-measuring-how-20260708-p60div.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "No one is sure what effect the technology is having right now.",
+      "pubDate": "Tue, 21 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
