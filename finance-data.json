@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-21T09:08:15.938Z",
+  "fetchedAt": "2026-07-21T14:33:26.607Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.17,
+      "changePercent": -0.01,
       "previousClose": 0.7,
       "asOf": "2026-07-21",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.44,
+      "changePercent": 0.38,
       "previousClose": 0.61,
       "asOf": "2026-07-21",
       "history": [
@@ -2239,8 +2239,8 @@
     },
     "audcny": {
       "value": 4.74,
-      "change": -0.01,
-      "changePercent": -0.23,
+      "change": 0,
+      "changePercent": -0.04,
       "previousClose": 4.75,
       "asOf": "2026-07-21",
       "history": [
@@ -3356,8 +3356,8 @@
       ]
     },
     "audjpy": {
-      "value": 114.23,
-      "change": 1.12,
+      "value": 114.22,
+      "change": 1.11,
       "changePercent": 0.99,
       "previousClose": 113.1,
       "asOf": "2026-07-21",
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.23
+          "close": 114.22
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.23
+          "close": 114.22
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.23
+          "close": 114.22
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.23
+          "close": 114.22
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.17,
+    "changePercent": -0.01,
     "previousClose": 0.7,
     "asOf": "2026-07-21",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.1,
-      "change": 7.28,
-      "changePercent": 9.73,
+      "value": 84.21,
+      "change": 9.39,
+      "changePercent": 12.55,
       "previousClose": 74.82,
       "asOf": "2026-07-21",
       "history": [
@@ -5874,16 +5874,16 @@
         },
         {
           "date": "2026-07-21",
-          "close": 82.1
+          "close": 84.21
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.62,
-      "change": 10.72,
-      "changePercent": 13.76,
+      "value": 91.17,
+      "change": 13.27,
+      "changePercent": 17.03,
       "previousClose": 77.9,
       "asOf": "2026-07-21",
       "history": [
@@ -5969,7 +5969,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 88.62
+          "close": 91.17
         }
       ],
       "name": "Brent Crude",
@@ -5977,8 +5977,8 @@
     },
     "gas": {
       "value": 2.87,
-      "change": -0.39,
-      "changePercent": -11.93,
+      "change": -0.38,
+      "changePercent": -11.68,
       "previousClose": 3.25,
       "asOf": "2026-07-21",
       "history": [
@@ -6239,10 +6239,6 @@
       {
         "date": "2026-07-20",
         "close": 8791.3
-      },
-      {
-        "date": "2026-07-21",
-        "close": 8793.3
       }
     ]
   },
@@ -6327,12 +6323,12 @@
     },
     {
       "name": "Consumer Discretionary",
-      "changePercent": 0.04,
+      "changePercent": -0.26,
       "stocks": [
         {
           "name": "WES",
-          "price": 0,
-          "changePercent": 0
+          "price": 91.84,
+          "changePercent": -1.2
         },
         {
           "name": "HVN",
@@ -7341,21 +7337,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4066.8,
-      "change": -115.1,
-      "changePercent": -2.75
+      "price": 4068.5,
+      "change": -113.4,
+      "changePercent": -2.71
     },
     {
       "name": "Silver",
-      "price": 59.24,
-      "change": -6.29,
-      "changePercent": -9.59
+      "price": 59.23,
+      "change": -6.3,
+      "changePercent": -9.61
     },
     {
       "name": "Copper",
       "price": 6.52,
-      "change": 0.17,
-      "changePercent": 2.61
+      "change": 0.16,
+      "changePercent": 2.58
     }
   ],
   "housing": {
@@ -7705,10 +7701,10 @@
       "source": "SMH"
     },
     {
-      "title": "Golden Dragon maps 3km WA gold corridor ripe for drilling",
-      "link": "https://www.smh.com.au/business/companies/golden-dragon-maps-3km-wa-gold-corridor-ripe-for-drilling-20260721-p60h8p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Golden Dragon has hit paydirt with a 3km-long gold anomaly at its WA Cue project. The soil results link four prospects, suggesting a much larger system is at play.",
-      "pubDate": "Tue, 21 Jul 2026 14:36:29 +1000",
+      "title": "Fiat and Citroen’s Australian pullback could be just the start as Chinese EV surge",
+      "link": "https://www.smh.com.au/business/companies/fiat-and-citroen-s-australian-pullback-could-be-just-the-start-as-chinese-ev-surge-20260721-p60h2s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "More European, American and Japanese carmakers are coming under pressure as our vehicle preferences turn quickly toward Chinese EVs.",
+      "pubDate": "Tue, 21 Jul 2026 19:30:00 +1000",
       "source": "SMH"
     },
     {
@@ -7726,9 +7722,9 @@
       "source": "SMH"
     },
     {
-      "title": "Questions raised about new KPMG CEO’s role in ‘strategic denial’ of whistleblower claims",
+      "title": "One day into the job and KPMG’s CEO is already facing questions over whistleblower saga",
       "link": "https://www.smh.com.au/business/companies/kpmg-appoints-new-ceo-as-massive-job-cuts-loom-20260721-p60h49.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Incoming boss John Sams faces question about his role in KPMG’s handling of whistleblower claims that it initially denied and later admitted largely had merit.",
+      "snippet": "John Sams is a lifelong veteran of the embattled consulting giant that is trying to show it can reform itself after leading a host of senior executives.",
       "pubDate": "Tue, 21 Jul 2026 18:42:38 +1000",
       "source": "SMH"
     },
