@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-21T14:33:26.607Z",
+  "fetchedAt": "2026-07-21T19:59:30.927Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": -0.01,
+      "changePercent": -0.11,
       "previousClose": 0.7,
       "asOf": "2026-07-21",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.38,
+      "changePercent": 0.33,
       "previousClose": 0.61,
       "asOf": "2026-07-21",
       "history": [
@@ -2239,8 +2239,8 @@
     },
     "audcny": {
       "value": 4.74,
-      "change": 0,
-      "changePercent": -0.04,
+      "change": -0.01,
+      "changePercent": -0.21,
       "previousClose": 4.75,
       "asOf": "2026-07-21",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.22,
-      "change": 1.11,
-      "changePercent": 0.99,
+      "value": 114.29,
+      "change": 1.19,
+      "changePercent": 1.05,
       "previousClose": 113.1,
       "asOf": "2026-07-21",
       "history": [
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.22
+          "close": 114.29
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.22
+          "close": 114.29
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.22
+          "close": 114.29
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 114.22
+          "close": 114.29
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": -0.01,
+    "changePercent": -0.11,
     "previousClose": 0.7,
     "asOf": "2026-07-21",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 84.21,
-      "change": 9.39,
-      "changePercent": 12.55,
+      "value": 84.69,
+      "change": 9.87,
+      "changePercent": 13.19,
       "previousClose": 74.82,
       "asOf": "2026-07-21",
       "history": [
@@ -5874,16 +5874,16 @@
         },
         {
           "date": "2026-07-21",
-          "close": 84.21
+          "close": 84.69
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.17,
-      "change": 13.27,
-      "changePercent": 17.03,
+      "value": 91.51,
+      "change": 13.61,
+      "changePercent": 17.47,
       "previousClose": 77.9,
       "asOf": "2026-07-21",
       "history": [
@@ -5969,16 +5969,16 @@
         },
         {
           "date": "2026-07-21",
-          "close": 91.17
+          "close": 91.51
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.87,
-      "change": -0.38,
-      "changePercent": -11.68,
+      "value": 2.89,
+      "change": -0.37,
+      "changePercent": -11.25,
       "previousClose": 3.25,
       "asOf": "2026-07-21",
       "history": [
@@ -6064,7 +6064,7 @@
         },
         {
           "date": "2026-07-21",
-          "close": 2.87
+          "close": 2.89
         }
       ],
       "name": "Natural Gas",
@@ -7337,21 +7337,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4068.5,
-      "change": -113.4,
-      "changePercent": -2.71
+      "price": 4088.6,
+      "change": -93.3,
+      "changePercent": -2.23
     },
     {
       "name": "Silver",
-      "price": 59.23,
-      "change": -6.3,
-      "changePercent": -9.61
+      "price": 59.06,
+      "change": -6.47,
+      "changePercent": -9.88
     },
     {
       "name": "Copper",
-      "price": 6.52,
-      "change": 0.16,
-      "changePercent": 2.58
+      "price": 6.53,
+      "change": 0.17,
+      "changePercent": 2.71
     }
   ],
   "housing": {
@@ -7694,10 +7694,17 @@
       "source": "SMH"
     },
     {
-      "title": "Flagship banks $5.8M lithium sale as gold, copper focus gathers pace",
-      "link": "https://www.smh.com.au/business/companies/flagship-banks-5-8m-lithium-sale-as-gold-copper-focus-gathers-pace-20260721-p60ha3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Flagship Minerals has received US$4M ($5.7M) from the sale of its RK lithium project in Thailand, boosting funds to focus on gold and copper growth projects.",
-      "pubDate": "Tue, 21 Jul 2026 15:48:02 +1000",
+      "title": "ASX set to advance, tech stocks push Wall Street higher; Google’s new AI offerings",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-advance-tech-stocks-push-wall-street-higher-google-s-new-ai-offerings-20260722-p60hd2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "More gains for makers of computer chips and other winners of the artificial-intelligence boom are carrying Wall Street higher.",
+      "pubDate": "Wed, 22 Jul 2026 05:13:25 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "If you want to understand why houses are so expensive, go to the airport",
+      "link": "https://www.smh.com.au/business/the-economy/if-you-want-to-understand-why-houses-are-so-expensive-go-to-the-airport-20260721-p60h27.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We’re paying too much for our housing, just like we’re paying too much for food at the airport. Stick with me here, there is a connection.",
+      "pubDate": "Wed, 22 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7715,10 +7722,10 @@
       "source": "SMH"
     },
     {
-      "title": "Google is building an AI fence around the internet it once championed",
-      "link": "https://www.smh.com.au/business/companies/google-is-building-an-ai-fence-around-the-internet-it-once-championed-20260721-p60h7b.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "As the web giant incorporates more artificial intelligence into search, people are spending more time on Google. Some website operators are crying foul.",
-      "pubDate": "Tue, 21 Jul 2026 15:48:00 +1000",
+      "title": "Sydney influencer battles FIFA and Instagram as his business evaporates",
+      "link": "https://www.smh.com.au/business/companies/sydney-influencer-battles-fifa-and-instagram-as-his-business-evaporates-20260721-p60h2u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Will Atkinson claims Meta, Instagram’s owner, has failed to restore his social media account even as FIFA didn’t proceed with a copyright infringement lawsuit.",
+      "pubDate": "Wed, 22 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7743,20 +7750,6 @@
       "source": "ABC"
     },
     {
-      "title": "$900 million fines look like the cost of doing business for giant shopping apps",
-      "link": "https://www.smh.com.au/business/consumer-affairs/regulators-are-playing-whack-a-mole-with-dangerous-goods-on-huge-shopping-apps-20260721-p60h6h.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Booming Chinese ecommerce giants sell almost anything at cut down prices, including some that are unsafe or banned for good reason.",
-      "pubDate": "Tue, 21 Jul 2026 15:51:02 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "‘Baked bean cans’: Emirates boss to reject Boeing planes",
-      "link": "https://www.smh.com.au/business/companies/baked-bean-cans-emirates-boss-to-reject-boeing-jets-20260721-p60h1q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Boeing has been dealt a fresh blow after Emirates said it would refuse to take delivery of 10 aircraft, claiming that the much-delayed $629 million 777x jets would be better off being sent to Heinz.",
-      "pubDate": "Tue, 21 Jul 2026 15:07:47 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Vaughters says night tests would have saved cycling '25 years of drama'",
       "link": "https://www.abc.net.au/news/2026-07-21/vaughters-night-tests-could-have-stop-cycling-blood-doping-era/106939774",
       "snippet": "",
@@ -7768,6 +7761,13 @@
       "link": "https://www.abc.net.au/news/2026-07-21/cricket-weatherald-retailed-australia-test-squad-bangladesh/106939390",
       "snippet": "",
       "pubDate": "Tue, 21 Jul 2026 01:37:44 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Buckley opts out of Dons, Blues coaching races after Tasmania snub",
+      "link": "https://www.abc.net.au/news/2026-07-21/afl-nathan-buckley-reaction-tasmania-rejection-hinkley/106939164",
+      "snippet": "",
+      "pubDate": "Tue, 21 Jul 2026 00:52:13 +0000",
       "source": "ABC"
     }
   ]
