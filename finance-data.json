@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-23T14:39:50.825Z",
+  "fetchedAt": "2026-07-23T19:54:57.662Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": -0.21,
+      "changePercent": -0.4,
       "previousClose": 0.7,
       "asOf": "2026-07-23",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.23,
+      "changePercent": 0,
       "previousClose": 0.61,
       "asOf": "2026-07-23",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.73,
-      "change": -0.01,
-      "changePercent": -0.19,
+      "value": 4.71,
+      "change": -0.02,
+      "changePercent": -0.51,
       "previousClose": 4.74,
       "asOf": "2026-07-23",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 4.73
+          "close": 4.71
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 4.73
+          "close": 4.71
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 4.73
+          "close": 4.71
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-07-23",
-          "close": 4.73
+          "close": 4.71
         }
       ]
     },
     "audjpy": {
-      "value": 114.37,
-      "change": 1.37,
-      "changePercent": 1.21,
+      "value": 114.11,
+      "change": 1.11,
+      "changePercent": 0.98,
       "previousClose": 113.01,
       "asOf": "2026-07-23",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.37
+          "close": 114.11
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.37
+          "close": 114.11
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.37
+          "close": 114.11
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.37
+          "close": 114.11
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": -0.21,
+    "changePercent": -0.4,
     "previousClose": 0.7,
     "asOf": "2026-07-23",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.71,
-      "change": 18.5,
-      "changePercent": 25.27,
+      "value": 91.72,
+      "change": 18.51,
+      "changePercent": 25.28,
       "previousClose": 73.21,
       "asOf": "2026-07-23",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-07-23",
-          "close": 91.71
+          "close": 91.72
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.04,
-      "change": 9.96,
-      "changePercent": 12.92,
+      "value": 100.09,
+      "change": 23.01,
+      "changePercent": 29.85,
       "previousClose": 77.08,
       "asOf": "2026-07-23",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-07-23",
-          "close": 87.04
+          "close": 100.09
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.93,
-      "change": -0.21,
-      "changePercent": -6.83,
+      "value": 2.92,
+      "change": -0.22,
+      "changePercent": -7.15,
       "previousClose": 3.15,
       "asOf": "2026-07-23",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 2.93
+          "close": 2.92
         }
       ],
       "name": "Natural Gas",
@@ -7405,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4059.3,
-      "change": -70.6,
-      "changePercent": -1.71
+      "price": 4048,
+      "change": -81.9,
+      "changePercent": -1.98
     },
     {
       "name": "Silver",
-      "price": 58.23,
-      "change": -3.79,
-      "changePercent": -6.11
+      "price": 57.76,
+      "change": -4.26,
+      "changePercent": -6.87
     },
     {
       "name": "Copper",
-      "price": 6.38,
-      "change": 0.24,
-      "changePercent": 3.89
+      "price": 6.32,
+      "change": 0.17,
+      "changePercent": 2.85
     }
   ],
   "housing": {
@@ -7755,17 +7755,24 @@
   ],
   "news": [
     {
-      "title": "ASX trims gains as jobs data stokes rate hike bets; miners, James Hardie rise",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-mixed-oil-continues-to-climb-20260723-p60hqg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket pared most of its early gains after the nation’s latest job market figures came in stronger than expected, keeping the chances of another interest rate rise next month on the table.",
-      "pubDate": "Thu, 23 Jul 2026 17:44:36 +1000",
+      "title": "ASX set to slump as oil surges over $US100, Tesla and Alphabet tumble",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slump-as-oil-surges-over-us100-tesla-and-alphabet-tumble-20260724-p60i4o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Rising oil prices and sharp drops for two of Wall Street’s most influential companies, Alphabet and Tesla, yanked the US stock market lower.",
+      "pubDate": "Fri, 24 Jul 2026 05:24:13 +1000",
       "source": "SMH"
     },
     {
-      "title": "Origin Energy confirms data breach has exposed customer information",
-      "link": "https://www.smh.com.au/business/consumer-affairs/origin-energy-confirms-data-breach-has-exposed-customer-information-20260723-p60i0c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The nation’s largest power and gas company has confirmed that a hacker has gained unauthorised access to some customers’ private information, including names, addresses and some financial details.",
-      "pubDate": "Thu, 23 Jul 2026 16:14:31 +1000",
+      "title": "What Macca’s reveals about our living standards – and how to get a free lunch",
+      "link": "https://www.smh.com.au/business/the-economy/what-macca-s-reveals-about-our-living-standards-and-how-to-get-a-free-lunch-20260722-p60hk8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "One economist has gone on McDonald’s runs across the world in pursuit of data on wages. Here’s how you could help (and get a free burger).",
+      "pubDate": "Fri, 24 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Two 170-year-old shops in Chapel Street to be sold for the first time, ever",
+      "link": "https://www.smh.com.au/business/companies/two-170-year-old-shops-in-chapel-street-to-be-sold-for-the-first-time-ever-20260723-p60hwk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The historic Prahran Mechanics’ Institute is offering the adjoining Prahran shops it has owned since 1856 at auction next month.",
+      "pubDate": "Fri, 24 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7780,6 +7787,27 @@
       "link": "https://www.smh.com.au/business/companies/macquarie-boss-s-shareholding-stands-out-from-the-crowd-20260723-p60hxa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Shemara Wikramanayake is set to leave Macquarie with a shareholding built up over almost four decades worth hundreds of millions.",
       "pubDate": "Thu, 23 Jul 2026 19:30:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "This footy club wants better for its women's team but is in a pinch",
+      "link": "https://www.abc.net.au/news/2026-07-24/macedon-football-netball-club-facilities-women-and-girls-teams/106854456",
+      "snippet": "",
+      "pubDate": "Thu, 23 Jul 2026 19:51:02 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Pauline Hanson’s own words come back to bite her on Tommy Robinson",
+      "link": "https://www.smh.com.au/business/companies/pauline-hanson-s-own-words-come-back-to-bite-her-on-tommy-robinson-20260723-p60hsh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "“I will say and do what I want,” the One Nation leader told Seven, only for her party to then suggest meeting the British radical was a “stitch-up” from the TV station.",
+      "pubDate": "Fri, 24 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Will it be third try lucky for controversial car park in exclusive Double Bay?",
+      "link": "https://www.smh.com.au/business/small-business/will-it-be-third-try-lucky-for-controversial-car-park-in-exclusive-double-bay-20260723-p60hxk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Woollahra’s local burghers are having another crack at trying to flog their huge – but run-down – car park on Cross Street.",
+      "pubDate": "Fri, 24 Jul 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7804,38 +7832,10 @@
       "source": "ABC"
     },
     {
-      "title": "Pies make statement with impressive win over listless Crows",
+      "title": "'Fascinating world': McRae questions booing directed at Quaynor",
       "link": "https://www.abc.net.au/news/2026-07-23/afl-round-20-live-adelaide-collingwood-crows-magpies/106940334",
       "snippet": "",
       "pubDate": "Thu, 23 Jul 2026 08:37:01 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Bomber Caddy to face Hawks after heart scare",
-      "link": "https://www.abc.net.au/news/2026-07-23/afl-bombers-nate-caddy-hawks-heart-scare/106949662",
-      "snippet": "",
-      "pubDate": "Thu, 23 Jul 2026 03:45:28 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Aussie captain relishes 'special' chance 'to take time to be a dad'",
-      "link": "https://www.abc.net.au/news/2026-07-23/australia-sharks-water-polo-world-cup-sydney-nathan-power/106941226",
-      "snippet": "",
-      "pubDate": "Thu, 23 Jul 2026 02:01:14 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Nina Kennedy knows now is the time to soak it all in — if she remembers to",
-      "link": "https://www.abc.net.au/news/2026-07-23/commonwealth-games-glasgow-2026-athletics/106947352",
-      "snippet": "",
-      "pubDate": "Thu, 23 Jul 2026 01:23:32 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Why netball is growing into a sport of choice for men and boys",
-      "link": "https://www.abc.net.au/news/2026-07-23/mens-netball-growing-in-popularity-but-barriers-remain/106943644",
-      "snippet": "",
-      "pubDate": "Thu, 23 Jul 2026 01:01:34 +0000",
       "source": "ABC"
     }
   ]
