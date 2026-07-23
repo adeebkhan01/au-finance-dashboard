@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-23T09:06:20.313Z",
+  "fetchedAt": "2026-07-23T14:39:50.825Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.17,
+      "changePercent": -0.21,
       "previousClose": 0.7,
       "asOf": "2026-07-23",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.25,
+      "changePercent": 0.23,
       "previousClose": 0.61,
       "asOf": "2026-07-23",
       "history": [
@@ -2248,7 +2248,7 @@
     "audcny": {
       "value": 4.73,
       "change": -0.01,
-      "changePercent": -0.27,
+      "changePercent": -0.19,
       "previousClose": 4.74,
       "asOf": "2026-07-23",
       "history": [
@@ -3368,9 +3368,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.4,
-      "change": 1.39,
-      "changePercent": 1.23,
+      "value": 114.37,
+      "change": 1.37,
+      "changePercent": 1.21,
       "previousClose": 113.01,
       "asOf": "2026-07-23",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.4
+          "close": 114.37
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.4
+          "close": 114.37
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.4
+          "close": 114.37
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 114.39
+          "close": 114.37
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.17,
+    "changePercent": -0.21,
     "previousClose": 0.7,
     "asOf": "2026-07-23",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.44,
-      "change": 16.23,
-      "changePercent": 22.17,
+      "value": 91.71,
+      "change": 18.5,
+      "changePercent": 25.27,
       "previousClose": 73.21,
       "asOf": "2026-07-23",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-07-23",
-          "close": 89.44
+          "close": 91.71
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 86.3,
-      "change": 9.22,
-      "changePercent": 11.96,
+      "value": 87.04,
+      "change": 9.96,
+      "changePercent": 12.92,
       "previousClose": 77.08,
       "asOf": "2026-07-23",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-07-23",
-          "close": 86.3
+          "close": 87.04
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.92,
-      "change": -0.22,
-      "changePercent": -7.12,
+      "value": 2.93,
+      "change": -0.21,
+      "changePercent": -6.83,
       "previousClose": 3.15,
       "asOf": "2026-07-23",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-07-23",
-          "close": 2.92
+          "close": 2.93
         }
       ],
       "name": "Natural Gas",
@@ -6275,10 +6275,6 @@
       {
         "date": "2026-07-22",
         "close": 8823
-      },
-      {
-        "date": "2026-07-23",
-        "close": 8839
       }
     ]
   },
@@ -7409,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4095.8,
-      "change": -34.1,
-      "changePercent": -0.83
+      "price": 4059.3,
+      "change": -70.6,
+      "changePercent": -1.71
     },
     {
       "name": "Silver",
-      "price": 59.14,
-      "change": -2.89,
-      "changePercent": -4.65
+      "price": 58.23,
+      "change": -3.79,
+      "changePercent": -6.11
     },
     {
       "name": "Copper",
-      "price": 6.46,
-      "change": 0.31,
-      "changePercent": 5.11
+      "price": 6.38,
+      "change": 0.24,
+      "changePercent": 3.89
     }
   ],
   "housing": {
@@ -7773,18 +7769,46 @@
       "source": "SMH"
     },
     {
-      "title": "Great Southern, Gold Fields drill monster QLD copper-gold target",
-      "link": "https://www.smh.com.au/business/companies/great-southern-gold-fields-drill-monster-qld-copper-gold-target-20260723-p60hy0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Great Southern Mining has begun drilling its big Mt Dillon copper-gold porphyry target in Queensland, with global major Gold Fields funding the campaign.",
-      "pubDate": "Thu, 23 Jul 2026 13:56:47 +1000",
+      "title": "Google hit with $1.5 billion fine over app store, search breaches",
+      "link": "https://www.smh.com.au/business/companies/google-hit-with-890-million-eu-fine-over-app-store-search-breaches-20260723-p60i3j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The tech giant has been slapped with two fines from the EU for favouring its own services in search results and restricting app developers from steering users to cheaper offers.",
+      "pubDate": "Thu, 23 Jul 2026 21:04:16 +1000",
       "source": "SMH"
     },
     {
-      "title": "Pacgold hits copper-gold jackpot under existing SA gold system",
-      "link": "https://www.smh.com.au/business/companies/pacgold-hits-copper-gold-jackpot-under-existing-sa-gold-system-20260723-p60hyo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Pacgold has unearthed a significant high-grade gold and copper discovery at its White Dam North project in SA, with drilling hitting a 20m zone of sulphide mineralisation.",
-      "pubDate": "Thu, 23 Jul 2026 14:24:41 +1000",
+      "title": "Macquarie boss’s shareholding stands out from the crowd",
+      "link": "https://www.smh.com.au/business/companies/macquarie-boss-s-shareholding-stands-out-from-the-crowd-20260723-p60hxa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Shemara Wikramanayake is set to leave Macquarie with a shareholding built up over almost four decades worth hundreds of millions.",
+      "pubDate": "Thu, 23 Jul 2026 19:30:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Netball agents frustrated as pay talks roll into Glasgow 2026",
+      "link": "https://www.abc.net.au/news/2026-07-23/super-netball-player-agents-express-concern-as-pay-talks-roll-on/106951692",
+      "snippet": "",
+      "pubDate": "Thu, 23 Jul 2026 11:48:33 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Australia gets first win with Glasgow asleep and the Games yet to open",
+      "link": "https://www.abc.net.au/news/2026-07-23/bowls-kicks-off-2026-glasgow-commonwealth-games/106951118",
+      "snippet": "",
+      "pubDate": "Thu, 23 Jul 2026 11:17:47 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Penrith flyer breaks record in comeback Panthers win",
+      "link": "https://www.abc.net.au/news/2026-07-23/nrl-live-updates-eels-panthers-nathan-cleary-mitchell-moses/106951712",
+      "snippet": "",
+      "pubDate": "Thu, 23 Jul 2026 09:10:45 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Pies make statement with impressive win over listless Crows",
+      "link": "https://www.abc.net.au/news/2026-07-23/afl-round-20-live-adelaide-collingwood-crows-magpies/106940334",
+      "snippet": "",
+      "pubDate": "Thu, 23 Jul 2026 08:37:01 +0000",
+      "source": "ABC"
     },
     {
       "title": "Bomber Caddy to face Hawks after heart scare",
@@ -7812,13 +7836,6 @@
       "link": "https://www.abc.net.au/news/2026-07-23/mens-netball-growing-in-popularity-but-barriers-remain/106943644",
       "snippet": "",
       "pubDate": "Thu, 23 Jul 2026 01:01:34 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Kiana started weightlifting after an injury. Now, she's a Comm Games athlete",
-      "link": "https://www.abc.net.au/news/2026-07-23/sa-weightlifter-kiana-elliott-glasgow-commonwealth-games/106941030",
-      "snippet": "",
-      "pubDate": "Wed, 22 Jul 2026 21:57:36 +0000",
       "source": "ABC"
     }
   ]
