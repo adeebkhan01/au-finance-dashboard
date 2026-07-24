@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-24T14:20:00.178Z",
+  "fetchedAt": "2026-07-24T19:54:29.987Z",
   "fx": {
     "audusd": {
       "value": 0.7,
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 0.95,
+      "changePercent": 0.99,
       "previousClose": 0.61,
       "asOf": "2026-07-24",
       "history": [
@@ -2240,7 +2240,7 @@
     "audcny": {
       "value": 4.73,
       "change": 0.03,
-      "changePercent": 0.7,
+      "changePercent": 0.65,
       "previousClose": 4.7,
       "asOf": "2026-07-24",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.33,
-      "change": 2.63,
-      "changePercent": 2.35,
+      "value": 114.36,
+      "change": 2.65,
+      "changePercent": 2.38,
       "previousClose": 111.7,
       "asOf": "2026-07-24",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.33
+          "close": 114.36
         }
       ],
       "label": "AUD/JPY",
@@ -3721,7 +3721,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.32
+          "close": 114.36
         }
       ],
       "h6m": [
@@ -3835,7 +3835,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.32
+          "close": 114.36
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.32
+          "close": 114.36
         }
       ]
     }
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.73,
-      "change": 19.39,
-      "changePercent": 27.57,
+      "value": 89.33,
+      "change": 18.99,
+      "changePercent": 27,
       "previousClose": 70.34,
       "asOf": "2026-07-24",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-07-24",
-          "close": 89.73
+          "close": 89.33
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.25,
-      "change": 23.51,
-      "changePercent": 31.88,
+      "value": 96.66,
+      "change": 22.92,
+      "changePercent": 31.08,
       "previousClose": 73.74,
       "asOf": "2026-07-24",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-07-24",
-          "close": 97.25
+          "close": 96.66
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.95,
-      "change": -0.27,
-      "changePercent": -8.41,
+      "value": 2.89,
+      "change": -0.33,
+      "changePercent": -10.28,
       "previousClose": 3.22,
       "asOf": "2026-07-24",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 2.95
+          "close": 2.89
         }
       ],
       "name": "Natural Gas",
@@ -7385,21 +7385,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4065.8,
-      "change": 75.5,
-      "changePercent": 1.89
+      "price": 4059,
+      "change": 68.7,
+      "changePercent": 1.72
     },
     {
       "name": "Silver",
-      "price": 58.6,
-      "change": 0.55,
-      "changePercent": 0.94
+      "price": 58.57,
+      "change": 0.52,
+      "changePercent": 0.89
     },
     {
       "name": "Copper",
       "price": 6.34,
-      "change": 0.4,
-      "changePercent": 6.75
+      "change": 0.39,
+      "changePercent": 6.61
     }
   ],
   "housing": {
@@ -7742,13 +7742,6 @@
       "source": "SMH"
     },
     {
-      "title": "ASX Runners of the Week: Ceretas, Pacgold &amp; Hamelin Gold",
-      "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-ceretas-pacgold-and-hamelin-gold-20260724-p60ibz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Ceretas, after it debuted on the ASX to develop its portable, therapeutic ultrasound technology targeting Alzheimer’s disease and dementia.",
-      "pubDate": "Fri, 24 Jul 2026 14:32:05 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Aurum extends West African gold resource potential",
       "link": "https://www.smh.com.au/business/companies/aurum-extends-west-african-gold-resource-potential-20260724-p60icz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aurum Resources has extended gold mineralisation at its BDT2 deposit outside the current estimated resource envelope at its 3.22M ounce Boundiali project in West Africa.",
@@ -7763,11 +7756,25 @@
       "source": "SMH"
     },
     {
+      "title": "Electric cars are taking off in Australia. Charging stations are the next challenge",
+      "link": "https://www.smh.com.au/business/consumer-affairs/electric-cars-are-taking-off-in-australia-charging-stations-are-the-next-challenge-20260724-p60i89.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The trouble is no longer getting drivers into electric vehicles, but building enough places to power them.",
+      "pubDate": "Sat, 25 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Sidelined for seven years by lack of funds, Aussie BMX rider now No. 1",
       "link": "https://www.abc.net.au/news/2026-07-24/grafton-bmx-world-champion-tahlia-marsh/106955034",
       "snippet": "",
       "pubDate": "Fri, 24 Jul 2026 06:57:12 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "‘Wear puffer jackets inside’: Heritage house gets tweak to make it feel less like a museum",
+      "link": "https://www.smh.com.au/business/consumer-affairs/wear-puffer-jackets-inside-heritage-house-gets-tweak-to-make-it-feel-less-like-a-museum-20260416-p5zogi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Its architects were conscious from the start that this home shouldn’t feel like a museum or be a parody of the original design.",
+      "pubDate": "Sat, 25 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Uber blasts laws as it’s forced to reinstate banned driver",
@@ -7781,13 +7788,6 @@
       "link": "https://www.smh.com.au/business/companies/furious-kpmg-boss-expels-senior-partner-over-confidential-documents-in-locker-20260724-p60idi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "KPMG has fired one of its most senior executives with immediate effect, after a core whistleblower allegation concerning confidential customer data was confirmed to be true.",
       "pubDate": "Fri, 24 Jul 2026 18:19:43 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Kyle Sandilands’ former employer wins right to use documents in Jackie O court fight",
-      "link": "https://www.smh.com.au/business/companies/kyle-sandilands-former-employer-has-court-win-20260724-p60ic4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "KIIS FM owner ARN has won permission to use evidence filed by Sandilands in the company’s ongoing dispute with former co-star Jackie O Henderson.",
-      "pubDate": "Fri, 24 Jul 2026 15:20:14 +1000",
       "source": "SMH"
     },
     {
