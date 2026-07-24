@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-24T09:02:54.411Z",
+  "fetchedAt": "2026-07-24T14:20:00.178Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.08,
+      "changePercent": 0.95,
       "previousClose": 0.69,
       "asOf": "2026-07-24",
       "history": [
@@ -1122,7 +1122,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 0.99,
+      "changePercent": 0.95,
       "previousClose": 0.61,
       "asOf": "2026-07-24",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.72,
-      "change": 0.02,
-      "changePercent": 0.5,
+      "value": 4.73,
+      "change": 0.03,
+      "changePercent": 0.7,
       "previousClose": 4.7,
       "asOf": "2026-07-24",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2603,7 +2603,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2717,7 +2717,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-07-24",
-          "close": 4.72
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 114.45,
-      "change": 2.74,
-      "changePercent": 2.45,
+      "value": 114.33,
+      "change": 2.63,
+      "changePercent": 2.35,
       "previousClose": 111.7,
       "asOf": "2026-07-24",
       "history": [
@@ -3452,7 +3452,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.44
+          "close": 114.33
         }
       ],
       "label": "AUD/JPY",
@@ -3721,7 +3721,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.44
+          "close": 114.32
         }
       ],
       "h6m": [
@@ -3835,7 +3835,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.44
+          "close": 114.32
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 114.44
+          "close": 114.32
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.08,
+    "changePercent": 0.95,
     "previousClose": 0.69,
     "asOf": "2026-07-24",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.59,
-      "change": 19.25,
-      "changePercent": 27.37,
+      "value": 89.73,
+      "change": 19.39,
+      "changePercent": 27.57,
       "previousClose": 70.34,
       "asOf": "2026-07-24",
       "history": [
@@ -5878,16 +5878,16 @@
         },
         {
           "date": "2026-07-24",
-          "close": 89.59
+          "close": 89.73
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.71,
-      "change": 17.97,
-      "changePercent": 24.37,
+      "value": 97.25,
+      "change": 23.51,
+      "changePercent": 31.88,
       "previousClose": 73.74,
       "asOf": "2026-07-24",
       "history": [
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-07-24",
-          "close": 91.71
+          "close": 97.25
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.91,
-      "change": -0.32,
-      "changePercent": -9.81,
+      "value": 2.95,
+      "change": -0.27,
+      "changePercent": -8.41,
       "previousClose": 3.22,
       "asOf": "2026-07-24",
       "history": [
@@ -6076,7 +6076,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 2.9
+          "close": 2.95
         }
       ],
       "name": "Natural Gas",
@@ -6255,10 +6255,6 @@
       {
         "date": "2026-07-23",
         "close": 8839
-      },
-      {
-        "date": "2026-07-24",
-        "close": 8772.3
       }
     ]
   },
@@ -7389,21 +7385,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4059.8,
-      "change": 69.5,
-      "changePercent": 1.74
+      "price": 4065.8,
+      "change": 75.5,
+      "changePercent": 1.89
     },
     {
       "name": "Silver",
-      "price": 58.58,
-      "change": 0.52,
-      "changePercent": 0.9
+      "price": 58.6,
+      "change": 0.55,
+      "changePercent": 0.94
     },
     {
       "name": "Copper",
       "price": 6.34,
       "change": 0.4,
-      "changePercent": 6.7
+      "changePercent": 6.75
     }
   ],
   "housing": {
@@ -7753,13 +7749,6 @@
       "source": "SMH"
     },
     {
-      "title": "US gas expert takes helm at TMK Energy’s Mongolian project",
-      "link": "https://www.smh.com.au/business/companies/us-gas-expert-takes-helm-at-tmk-energy-s-mongolian-project-20260724-p60ibj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "TMK Energy has appointed US gas expert Steve Skinner COO. Skinner, also a fresh investor, will lead the charge to commercialise its giant Mongolian gas project.",
-      "pubDate": "Fri, 24 Jul 2026 14:05:15 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Aurum extends West African gold resource potential",
       "link": "https://www.smh.com.au/business/companies/aurum-extends-west-african-gold-resource-potential-20260724-p60icz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aurum Resources has extended gold mineralisation at its BDT2 deposit outside the current estimated resource envelope at its 3.22M ounce Boundiali project in West Africa.",
@@ -7781,18 +7770,18 @@
       "source": "ABC"
     },
     {
+      "title": "Uber blasts laws as it’s forced to reinstate banned driver",
+      "link": "https://www.smh.com.au/business/companies/uber-blasts-laws-as-it-s-forced-to-reinstate-banned-driver-20260724-p60i7l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Twelve complaints against the driver alleged spitting, swearing, inappropriate touching and speeding, but the Fair Work Commission found Uber failed to prove the behaviour.",
+      "pubDate": "Fri, 24 Jul 2026 19:30:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Furious KPMG boss expels senior partner over confidential documents in locker",
       "link": "https://www.smh.com.au/business/companies/furious-kpmg-boss-expels-senior-partner-over-confidential-documents-in-locker-20260724-p60idi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "KPMG has fired one of its most senior executives with immediate effect, after a core whistleblower allegation concerning confidential customer data was confirmed to be true.",
       "pubDate": "Fri, 24 Jul 2026 18:19:43 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Live: Knights lose young gun to serious injury",
-      "link": "https://www.abc.net.au/news/2026-07-24/nrl-live-updates-knights-roosters-rabbitohs-storm/106956510",
-      "snippet": "",
-      "pubDate": "Fri, 24 Jul 2026 07:46:39 +0000",
-      "source": "ABC"
     },
     {
       "title": "Kyle Sandilands’ former employer wins right to use documents in Jackie O court fight",
@@ -7806,13 +7795,6 @@
       "link": "https://www.abc.net.au/news/2026-07-24/isaac-quaynor-booing-mitch-brown-crows-matthew-nicks/106954668",
       "snippet": "",
       "pubDate": "Fri, 24 Jul 2026 05:03:22 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Swimmer praises Rinehart for bonuses amid warning to not thank billionaire",
-      "link": "https://www.abc.net.au/news/2026-07-24/commonwealth-games-2026-kyle-chalmers-praise-for-gina-rinehart/106953876",
-      "snippet": "",
-      "pubDate": "Fri, 24 Jul 2026 01:59:16 +0000",
       "source": "ABC"
     }
   ]
