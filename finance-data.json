@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-25T03:47:58.738Z",
+  "fetchedAt": "2026-07-25T08:29:28.607Z",
   "fx": {
     "audusd": {
       "value": 0.7,
@@ -101,7 +101,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.7
         }
       ],
@@ -374,7 +374,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.7
         }
       ],
@@ -488,7 +488,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.7
         }
       ],
@@ -1122,7 +1122,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.7
         }
       ]
@@ -1227,7 +1227,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.61
         }
       ],
@@ -1500,7 +1500,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.61
         }
       ],
@@ -1614,7 +1614,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.61
         }
       ],
@@ -2248,7 +2248,7 @@
           "close": 0.61
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-07-25",
           "close": 0.61
         }
       ]
@@ -4606,7 +4606,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-24",
+        "date": "2026-07-25",
         "close": 0.7
       }
     ],
@@ -4879,7 +4879,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-24",
+        "date": "2026-07-25",
         "close": 0.7
       }
     ],
@@ -4993,7 +4993,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-24",
+        "date": "2026-07-25",
         "close": 0.7
       }
     ],
@@ -5627,7 +5627,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-07-24",
+        "date": "2026-07-25",
         "close": 0.7
       }
     ]
@@ -5826,16 +5826,12 @@
   },
   "energy": {
     "wti": {
-      "value": 90.47,
-      "change": 20.13,
-      "changePercent": 28.62,
+      "value": 89.31,
+      "change": 18.97,
+      "changePercent": 26.97,
       "previousClose": 70.34,
       "asOf": "2026-07-25",
       "history": [
-        {
-          "date": "2026-06-24",
-          "close": 70.34
-        },
         {
           "date": "2026-06-25",
           "close": 71.92
@@ -5918,23 +5914,19 @@
         },
         {
           "date": "2026-07-24",
-          "close": 90.47
+          "close": 89.31
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 98.38,
-      "change": 24.64,
-      "changePercent": 33.41,
+      "value": 96.78,
+      "change": 23.04,
+      "changePercent": 31.24,
       "previousClose": 73.74,
       "asOf": "2026-07-25",
       "history": [
-        {
-          "date": "2026-06-24",
-          "close": 73.74
-        },
         {
           "date": "2026-06-25",
           "close": 75.26
@@ -6017,23 +6009,19 @@
         },
         {
           "date": "2026-07-24",
-          "close": 98.38
+          "close": 96.78
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.91,
-      "change": -0.31,
-      "changePercent": -9.72,
+      "value": 2.89,
+      "change": -0.33,
+      "changePercent": -10.34,
       "previousClose": 3.22,
       "asOf": "2026-07-25",
       "history": [
-        {
-          "date": "2026-06-24",
-          "close": 3.22
-        },
         {
           "date": "2026-06-25",
           "close": 3.34
@@ -6116,7 +6104,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 2.91
+          "close": 2.87
         }
       ],
       "name": "Natural Gas",
@@ -7429,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4055.7,
-      "change": 65.4,
-      "changePercent": 1.64
+      "price": 4070.8,
+      "change": 80.5,
+      "changePercent": 2.02
     },
     {
       "name": "Silver",
-      "price": 58.49,
-      "change": 0.44,
-      "changePercent": 0.75
+      "price": 58.91,
+      "change": 0.85,
+      "changePercent": 1.47
     },
     {
       "name": "Copper",
-      "price": 6.34,
-      "change": 0.4,
-      "changePercent": 6.67
+      "price": 6.36,
+      "change": 0.41,
+      "changePercent": 6.97
     }
   ],
   "housing": {
@@ -7800,13 +7788,6 @@
       "source": "SMH"
     },
     {
-      "title": "Fifteen minutes after celebrating bronze, Forrester stuns with gold",
-      "link": "https://www.abc.net.au/news/2026-07-25/jenna-forrester-surprise-200m-backstroke-gold-medal/106957656",
-      "snippet": "",
-      "pubDate": "Fri, 24 Jul 2026 22:10:39 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "Electric cars are taking off in Australia. Charging stations are the next challenge",
       "link": "https://www.smh.com.au/business/consumer-affairs/electric-cars-are-taking-off-in-australia-charging-stations-are-the-next-challenge-20260724-p60i89.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The trouble is no longer getting drivers into electric vehicles, but building enough places to power them.",
@@ -7814,7 +7795,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Blues bite back after horror start in must-win clash against Suns",
+      "title": "Live: Hawks avalanche overwhelms Dons as Swans dominate listless Giants",
       "link": "https://www.abc.net.au/news/2026-07-25/afl-r20-blues-suns-hawks-dons-giants-swans-wb-tigers-live-blog/106957878",
       "snippet": "",
       "pubDate": "Sat, 25 Jul 2026 03:01:44 +0000",
@@ -7860,6 +7841,13 @@
       "link": "https://www.smh.com.au/business/companies/uber-blasts-laws-as-it-s-forced-to-reinstate-banned-driver-20260724-p60i7l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Twelve complaints against the driver alleged spitting, swearing, inappropriate touching and speeding, but the Fair Work Commission found Uber failed to prove the behaviour.",
       "pubDate": "Fri, 24 Jul 2026 19:30:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Furious KPMG boss expels senior partner over confidential documents in locker",
+      "link": "https://www.smh.com.au/business/companies/furious-kpmg-boss-expels-senior-partner-over-confidential-documents-in-locker-20260724-p60idi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "KPMG has fired one of its most senior executives with immediate effect, after a core whistleblower allegation concerning confidential customer data was confirmed to be true.",
+      "pubDate": "Fri, 24 Jul 2026 18:19:43 +1000",
       "source": "SMH"
     }
   ]
