@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-25T19:42:05.209Z",
+  "fetchedAt": "2026-07-26T04:05:06.215Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
       "changePercent": 0.97,
       "previousClose": 0.69,
-      "asOf": "2026-07-25",
+      "asOf": "2026-07-26",
       "history": [
         {
           "date": "2026-06-23",
@@ -1132,7 +1132,7 @@
       "change": 0.01,
       "changePercent": 1.04,
       "previousClose": 0.61,
-      "asOf": "2026-07-25",
+      "asOf": "2026-07-26",
       "history": [
         {
           "date": "2026-06-23",
@@ -2258,7 +2258,7 @@
       "change": 0.02,
       "changePercent": 0.37,
       "previousClose": 4.7,
-      "asOf": "2026-07-25",
+      "asOf": "2026-07-26",
       "history": [
         {
           "date": "2026-06-23",
@@ -2353,7 +2353,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-25",
+          "date": "2026-07-26",
           "close": 4.71
         }
       ],
@@ -2626,7 +2626,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-25",
+          "date": "2026-07-26",
           "close": 4.71
         }
       ],
@@ -2740,7 +2740,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-25",
+          "date": "2026-07-26",
           "close": 4.71
         }
       ],
@@ -3374,7 +3374,7 @@
           "close": 4.72
         },
         {
-          "date": "2026-07-25",
+          "date": "2026-07-26",
           "close": 4.71
         }
       ]
@@ -3384,7 +3384,7 @@
       "change": 2.67,
       "changePercent": 2.39,
       "previousClose": 111.7,
-      "asOf": "2026-07-25",
+      "asOf": "2026-07-26",
       "history": [
         {
           "date": "2026-06-23",
@@ -4511,7 +4511,7 @@
     "change": 0.01,
     "changePercent": 0.97,
     "previousClose": 0.69,
-    "asOf": "2026-07-25",
+    "asOf": "2026-07-26",
     "history": [
       {
         "date": "2026-06-23",
@@ -5827,15 +5827,11 @@
   "energy": {
     "wti": {
       "value": 89.31,
-      "change": 18.97,
-      "changePercent": 26.97,
-      "previousClose": 70.34,
-      "asOf": "2026-07-25",
+      "change": 20.08,
+      "changePercent": 29,
+      "previousClose": 69.23,
+      "asOf": "2026-07-26",
       "history": [
-        {
-          "date": "2026-06-25",
-          "close": 71.92
-        },
         {
           "date": "2026-06-26",
           "close": 69.23
@@ -5922,15 +5918,11 @@
     },
     "brent": {
       "value": 96.78,
-      "change": 23.04,
-      "changePercent": 31.24,
-      "previousClose": 73.74,
-      "asOf": "2026-07-25",
+      "change": 24.79,
+      "changePercent": 34.44,
+      "previousClose": 71.99,
+      "asOf": "2026-07-26",
       "history": [
-        {
-          "date": "2026-06-25",
-          "close": 75.26
-        },
         {
           "date": "2026-06-26",
           "close": 71.99
@@ -6017,15 +6009,11 @@
     },
     "gas": {
       "value": 2.89,
-      "change": -0.33,
-      "changePercent": -10.34,
-      "previousClose": 3.22,
-      "asOf": "2026-07-25",
+      "change": -0.34,
+      "changePercent": -10.62,
+      "previousClose": 3.23,
+      "asOf": "2026-07-26",
       "history": [
-        {
-          "date": "2026-06-25",
-          "close": 3.34
-        },
         {
           "date": "2026-06-26",
           "close": 3.23
@@ -6104,7 +6092,7 @@
         },
         {
           "date": "2026-07-24",
-          "close": 2.87
+          "close": 2.89
         }
       ],
       "name": "Natural Gas",
@@ -6194,7 +6182,7 @@
     "change": -36.1,
     "changePercent": -0.41,
     "previousClose": 8808.4,
-    "asOf": "2026-07-25",
+    "asOf": "2026-07-26",
     "history": [
       {
         "date": "2026-06-24",
@@ -6283,10 +6271,6 @@
       {
         "date": "2026-07-23",
         "close": 8839
-      },
-      {
-        "date": "2026-07-24",
-        "close": 8772.3
       }
     ]
   },
@@ -7418,20 +7402,20 @@
     {
       "name": "Gold",
       "price": 4070.8,
-      "change": 80.5,
-      "changePercent": 2.02
+      "change": -7.9,
+      "changePercent": -0.19
     },
     {
       "name": "Silver",
       "price": 58.91,
-      "change": 0.85,
-      "changePercent": 1.47
+      "change": -0.31,
+      "changePercent": -0.53
     },
     {
       "name": "Copper",
       "price": 6.36,
-      "change": 0.41,
-      "changePercent": 6.97
+      "change": 0.22,
+      "changePercent": 3.52
     }
   ],
   "housing": {
@@ -7767,11 +7751,18 @@
   ],
   "news": [
     {
-      "title": "Sharemarket endures worst session in five weeks as oil surges",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-slump-as-oil-surges-over-us100-tesla-and-alphabet-tumble-20260724-p60i4o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Miners, industrials and consumer cyclicals weighed on the exchange after Brent crude prices topped $US100 a barrel for the first time since May.",
-      "pubDate": "Fri, 24 Jul 2026 17:32:18 +1000",
+      "title": "Surcharge ban could end popular free travel insurance perk",
+      "link": "https://www.smh.com.au/business/consumer-affairs/surcharge-ban-could-end-popular-free-travel-insurance-perk-20260724-p60iao.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Two in five travellers rely on free travel insurance offered by their credit cards, but travel agents say the surcharge ban threatens their ability to accept such payments.",
+      "pubDate": "Sun, 26 Jul 2026 11:55:07 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Quick hits: Photographer watches partner win gold, tiny nation makes history",
+      "link": "https://www.abc.net.au/news/2026-07-26/commonwealth-games-glasgow-day-two-quick-hits/106957754",
+      "snippet": "",
+      "pubDate": "Sat, 25 Jul 2026 22:36:22 +0000",
+      "source": "ABC"
     },
     {
       "title": "Alan Joyce has been writing his book. Here’s how five people illegally sacked by his airline have fared",
@@ -7788,38 +7779,52 @@
       "source": "SMH"
     },
     {
-      "title": "Even Diamonds were cheering for Tonga in the Comm Games netball opener",
-      "link": "https://www.abc.net.au/news/2026-07-26/australia-diamonds-tonga-commonwealth-games-netball-uneeq-palavi/106958488",
+      "title": "Live: Dragons and Titans fight out wooden spoon battle",
+      "link": "https://www.abc.net.au/news/2026-07-26/nrl-live-updates/106958596",
       "snippet": "",
-      "pubDate": "Sat, 25 Jul 2026 14:02:19 +0000",
+      "pubDate": "Sun, 26 Jul 2026 03:37:14 +0000",
       "source": "ABC"
     },
     {
-      "title": "Brisbane's premiership defence all but over after Cowboys crash-out",
-      "link": "https://www.abc.net.au/news/2026-07-25/nrl-live-updates-raiders-tigers-bulldogs-warriors-broncos/106958244",
+      "title": "Live: Brisbane locked in early arm-wrestle with Port as star gets crunched",
+      "link": "https://www.abc.net.au/news/2026-07-26/afl-r20-lions-power-kangaroos-saints-live-blog/106959530",
       "snippet": "",
-      "pubDate": "Sat, 25 Jul 2026 04:42:44 +0000",
+      "pubDate": "Sun, 26 Jul 2026 02:37:34 +0000",
       "source": "ABC"
     },
     {
-      "title": "'Blight on the sport': Fight cancelled on Tszyu card after weigh-in",
-      "link": "https://www.abc.net.au/news/2026-07-25/tim-tszyu-fight-liam-wilson-bout-cancelled-after-weigh-in-drama/106957992",
+      "title": "Live: Olympians claim wins as build up to Tim Tszyu vs Errol Spence Jr continues",
+      "link": "https://www.abc.net.au/news/2026-07-26/live-updates-boxing-tim-tszyu-vs-errol-spence-jnr/106951948",
       "snippet": "",
-      "pubDate": "Sat, 25 Jul 2026 02:25:35 +0000",
+      "pubDate": "Sun, 26 Jul 2026 01:00:12 +0000",
       "source": "ABC"
     },
     {
-      "title": "'We can all feel it': Bronze medal lifts Aussie gymnasts' outlook",
-      "link": "https://www.abc.net.au/news/2026-07-25/commonwealth-games-2026-australian-gymnasts-claim-bronze/106957948",
+      "title": "No more tears left to cry as Godwin goes from hell to the mountaintop",
+      "link": "https://www.abc.net.au/news/2026-07-26/commonwealth-games-georgia-godwin-gymnastics-team-final/106959212",
       "snippet": "",
-      "pubDate": "Sat, 25 Jul 2026 01:55:45 +0000",
+      "pubDate": "Sat, 25 Jul 2026 23:01:18 +0000",
       "source": "ABC"
     },
     {
-      "title": "LeBron's new teammates go wild as NBA star announces move",
-      "link": "https://www.abc.net.au/news/2026-07-25/lebron-james-announces-philadelphia-76ers-next-nba-team/106957848",
+      "title": "Sobers could only do everything — including for SA's Sheffield Shield side",
+      "link": "https://www.abc.net.au/news/2026-07-26/sir-garfield-sobers-sa-and-the-sheffield-shield/106956008",
       "snippet": "",
-      "pubDate": "Sat, 25 Jul 2026 00:30:06 +0000",
+      "pubDate": "Sat, 25 Jul 2026 21:35:46 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Pogačar on the cusp of Tour history after dramatic penultimate stage",
+      "link": "https://www.abc.net.au/news/2026-07-26/tour-de-france-stage-20-tadej-pogacar-on-the-cusp-of-history/106959298",
+      "snippet": "",
+      "pubDate": "Sat, 25 Jul 2026 21:14:45 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Aussies won't allow anticipated clash with English defector to distract them",
+      "link": "https://www.abc.net.au/news/2026-07-26/commonwealth-games-leigh-hoffman-matthew-richardson-team-sprint/106958932",
+      "snippet": "",
+      "pubDate": "Sat, 25 Jul 2026 19:36:52 +0000",
       "source": "ABC"
     },
     {
@@ -7827,20 +7832,6 @@
       "link": "https://www.smh.com.au/business/consumer-affairs/wear-puffer-jackets-inside-heritage-house-gets-tweak-to-make-it-feel-less-like-a-museum-20260416-p5zogi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Its architects were conscious from the start that this home shouldn’t feel like a museum or be a parody of the original design.",
       "pubDate": "Sat, 25 Jul 2026 05:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Uber blasts laws as it’s forced to reinstate banned driver",
-      "link": "https://www.smh.com.au/business/companies/uber-blasts-laws-as-it-s-forced-to-reinstate-banned-driver-20260724-p60i7l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Twelve complaints against the driver alleged spitting, swearing, inappropriate touching and speeding, but the Fair Work Commission found Uber failed to prove the behaviour.",
-      "pubDate": "Fri, 24 Jul 2026 19:30:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Furious KPMG boss expels senior partner over confidential documents in locker",
-      "link": "https://www.smh.com.au/business/companies/furious-kpmg-boss-expels-senior-partner-over-confidential-documents-in-locker-20260724-p60idi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "KPMG has fired one of its most senior executives with immediate effect, after a core whistleblower allegation concerning confidential customer data was confirmed to be true.",
-      "pubDate": "Fri, 24 Jul 2026 18:19:43 +1000",
       "source": "SMH"
     }
   ]
