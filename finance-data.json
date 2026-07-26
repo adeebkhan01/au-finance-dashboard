@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-26T14:07:53.118Z",
+  "fetchedAt": "2026-07-26T19:43:02.239Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 0.97,
+      "changePercent": 1.26,
       "previousClose": 0.69,
       "asOf": "2026-07-26",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.04,
+      "changePercent": 1.05,
       "previousClose": 0.61,
       "asOf": "2026-07-26",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.71,
-      "change": 0.02,
-      "changePercent": 0.37,
+      "value": 4.73,
+      "change": 0.03,
+      "changePercent": 0.73,
       "previousClose": 4.7,
       "asOf": "2026-07-26",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-07-26",
-          "close": 4.71
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-07-26",
-          "close": 4.71
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-07-26",
-          "close": 4.71
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-07-26",
-          "close": 4.71
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 114.37,
-      "change": 2.67,
-      "changePercent": 2.39,
+      "value": 114.57,
+      "change": 2.86,
+      "changePercent": 2.56,
       "previousClose": 111.7,
       "asOf": "2026-07-26",
       "history": [
@@ -3479,8 +3479,8 @@
           "close": 114.14
         },
         {
-          "date": "2026-07-24",
-          "close": 114.37
+          "date": "2026-07-26",
+          "close": 114.57
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3752,8 @@
           "close": 114.14
         },
         {
-          "date": "2026-07-24",
-          "close": 114.37
+          "date": "2026-07-26",
+          "close": 114.57
         }
       ],
       "h6m": [
@@ -3866,8 +3866,8 @@
           "close": 114.14
         },
         {
-          "date": "2026-07-24",
-          "close": 114.37
+          "date": "2026-07-26",
+          "close": 114.57
         }
       ],
       "h3y": [
@@ -4500,8 +4500,8 @@
           "close": 114.14
         },
         {
-          "date": "2026-07-24",
-          "close": 114.37
+          "date": "2026-07-26",
+          "close": 114.57
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 0.97,
+    "changePercent": 1.26,
     "previousClose": 0.69,
     "asOf": "2026-07-26",
     "history": [
@@ -6271,6 +6271,10 @@
       {
         "date": "2026-07-23",
         "close": 8839
+      },
+      {
+        "date": "2026-07-24",
+        "close": 8772.3
       }
     ]
   },
@@ -7751,6 +7755,20 @@
   ],
   "news": [
     {
+      "title": "ASX set to rise, oil drops as Middle East tensions ease",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-oil-drops-as-middle-east-tensions-ease-20260727-p60ipw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket is set to rise as the US paused an almost two-week run of strikes against Iran.",
+      "pubDate": "Mon, 27 Jul 2026 05:25:12 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "The RBA faces a dilemma, but more rate hikes aren’t the solution",
+      "link": "https://www.smh.com.au/business/the-economy/the-rba-faces-a-dilemma-but-more-rate-hikes-aren-t-the-solution-20260724-p60iam.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Markets think another rate rise this year is close to a sure thing. But given the economy’s already slowing, the RBA should sit on its hands for a while.",
+      "pubDate": "Mon, 27 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Surcharge ban could end popular free travel insurance perk",
       "link": "https://www.smh.com.au/business/consumer-affairs/surcharge-ban-could-end-popular-free-travel-insurance-perk-20260724-p60iao.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Two in five travellers rely on free travel insurance offered by their credit cards, but travel agents say the surcharge ban threatens their ability to accept such payments.",
@@ -7772,13 +7790,6 @@
       "source": "SMH"
     },
     {
-      "title": "Electric cars are taking off in Australia. Charging stations are the next challenge",
-      "link": "https://www.smh.com.au/business/consumer-affairs/electric-cars-are-taking-off-in-australia-charging-stations-are-the-next-challenge-20260724-p60i89.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The trouble is no longer getting drivers into electric vehicles, but building enough places to power them.",
-      "pubDate": "Sat, 25 Jul 2026 05:00:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘I’m sorry ... but’: Apologetic Alan Joyce tells his side of the Qantas story",
       "link": "https://www.smh.com.au/business/companies/i-m-sorry-but-apologetic-alan-joyce-tells-his-side-of-the-qantas-story-20260726-p60ilt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Three years after stepping down as the airline’s chief executive, Alan Joyce has expressed regrets about its management during COVID – with some caveats.",
@@ -7786,7 +7797,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: 'Is he **** stupid or what?' Piastri fumes after backmarker blow",
+      "title": "Piastri blasts '**** stupid' backmarker, Norris wins Hungarian GP",
       "link": "https://www.abc.net.au/news/2026-07-26/live-updates-formula-1-hungarian-grand-prix/106960176",
       "snippet": "",
       "pubDate": "Sun, 26 Jul 2026 12:04:21 +0000",
@@ -7800,7 +7811,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Diamonds too strong for England, Aussie weightlifter out",
+      "title": "Live: Aussie 'best friends' lead another medal rush in the pool",
       "link": "https://www.abc.net.au/news/2026-07-26/commonwealth-games-day-three-live-blog/106959386",
       "snippet": "",
       "pubDate": "Sun, 26 Jul 2026 08:24:52 +0000",
@@ -7825,13 +7836,6 @@
       "link": "https://www.abc.net.au/news/2026-07-26/live-updates-boxing-tim-tszyu-vs-errol-spence-jnr/106951948",
       "snippet": "",
       "pubDate": "Sun, 26 Jul 2026 01:00:12 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "No more tears left to cry as Godwin goes from hell to the mountaintop",
-      "link": "https://www.abc.net.au/news/2026-07-26/commonwealth-games-georgia-godwin-gymnastics-team-final/106959212",
-      "snippet": "",
-      "pubDate": "Sat, 25 Jul 2026 23:01:18 +0000",
       "source": "ABC"
     }
   ]
