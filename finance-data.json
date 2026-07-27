@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-27T10:25:37.313Z",
+  "fetchedAt": "2026-07-27T15:23:09.217Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.51,
+      "changePercent": 1.39,
       "previousClose": 0.69,
       "asOf": "2026-07-27",
       "history": [
@@ -1110,7 +1110,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.14,
+      "changePercent": 1.23,
       "previousClose": 0.61,
       "asOf": "2026-07-27",
       "history": [
@@ -2214,9 +2214,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": 0.05,
-      "changePercent": 1.15,
+      "value": 4.72,
+      "change": 0.03,
+      "changePercent": 0.64,
       "previousClose": 4.69,
       "asOf": "2026-07-27",
       "history": [
@@ -2302,7 +2302,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 4.74
+          "close": 4.72
         }
       ],
       "label": "AUD/CNY",
@@ -2571,7 +2571,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 4.74
+          "close": 4.72
         }
       ],
       "h6m": [
@@ -2681,7 +2681,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 4.74
+          "close": 4.72
         }
       ],
       "h3y": [
@@ -3315,14 +3315,14 @@
         },
         {
           "date": "2026-07-27",
-          "close": 4.74
+          "close": 4.72
         }
       ]
     },
     "audjpy": {
-      "value": 114.51,
-      "change": 2.89,
-      "changePercent": 2.59,
+      "value": 114.49,
+      "change": 2.86,
+      "changePercent": 2.56,
       "previousClose": 111.63,
       "asOf": "2026-07-27",
       "history": [
@@ -3408,7 +3408,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 114.51
+          "close": 114.49
         }
       ],
       "label": "AUD/JPY",
@@ -3677,7 +3677,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 114.51
+          "close": 114.49
         }
       ],
       "h6m": [
@@ -3787,7 +3787,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 114.51
+          "close": 114.49
         }
       ],
       "h3y": [
@@ -4421,7 +4421,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 114.51
+          "close": 114.49
         }
       ]
     }
@@ -4429,7 +4429,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.51,
+    "changePercent": 1.39,
     "previousClose": 0.69,
     "asOf": "2026-07-27",
     "history": [
@@ -5817,9 +5817,9 @@
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.8,
-      "change": 16.81,
-      "changePercent": 23.35,
+      "value": 89.56,
+      "change": 17.57,
+      "changePercent": 24.41,
       "previousClose": 71.99,
       "asOf": "2026-07-27",
       "history": [
@@ -5901,16 +5901,16 @@
         },
         {
           "date": "2026-07-27",
-          "close": 88.8
+          "close": 89.56
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.78,
-      "change": -0.45,
-      "changePercent": -13.87,
+      "value": 2.79,
+      "change": -0.44,
+      "changePercent": -13.71,
       "previousClose": 3.23,
       "asOf": "2026-07-27",
       "history": [
@@ -5992,7 +5992,7 @@
         },
         {
           "date": "2026-07-27",
-          "close": 2.78
+          "close": 2.79
         }
       ],
       "name": "Natural Gas",
@@ -6161,8 +6161,8 @@
         "close": 8839
       },
       {
-        "date": "2026-07-27",
-        "close": 8894
+        "date": "2026-07-24",
+        "close": 8772.3
       }
     ]
   },
@@ -7229,21 +7229,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4091.6,
-      "change": 12.9,
-      "changePercent": 0.32
+      "price": 4076.5,
+      "change": -2.2,
+      "changePercent": -0.05
     },
     {
       "name": "Silver",
-      "price": 59.43,
-      "change": 0.21,
-      "changePercent": 0.36
+      "price": 58.88,
+      "change": -0.34,
+      "changePercent": -0.57
     },
     {
       "name": "Copper",
       "price": 6.39,
       "change": 0.25,
-      "changePercent": 4.04
+      "changePercent": 4.07
     }
   ],
   "housing": {
@@ -7593,6 +7593,13 @@
       "source": "SMH"
     },
     {
+      "title": "Same source, different names: The allegations rocking Four Corners",
+      "link": "https://www.smh.com.au/business/companies/same-source-different-names-the-allegations-rocking-four-corners-20260727-p60iy2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The ABC is investigating allegations that reporter Mahmood Fazal had used the same source in different guises one year apart.",
+      "pubDate": "Mon, 27 Jul 2026 20:54:48 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Moonlight seeking revival of high-grade Qld gold targets",
       "link": "https://www.smh.com.au/business/companies/moonlight-seeking-revival-of-high-grade-qld-gold-targets-20260727-p60ize.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Moonlight Resources has begun maiden drilling at Queensland’s Goldfinger prospect to verify and extend high-grade gold mineralisation, including 4m at 13.87g/t and 8m at 8.35g/t.",
@@ -7600,10 +7607,10 @@
       "source": "SMH"
     },
     {
-      "title": "Scottish-blooded Anderson thrilled to win gold in Glasgow instead of Victoria",
-      "link": "https://www.abc.net.au/news/2026-07-27/commonwealth-games-iona-anderson-scottish-glasgow-gold/106961028",
+      "title": "Aussie Rohan Browning clips 'unfair' 100m surprise sprung on sprinters",
+      "link": "https://www.abc.net.au/news/2026-07-27/commonwealth-games-rohan-browning-eddie-nketia-glasgow-heats/106964158",
       "snippet": "",
-      "pubDate": "Sun, 26 Jul 2026 23:15:15 +0000",
+      "pubDate": "Mon, 27 Jul 2026 11:04:32 +0000",
       "source": "ABC"
     },
     {
@@ -7621,7 +7628,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: O'Callaghan drops out of 50 back, Australia's sprint stars hit the track",
+      "title": "Live: Bronze for Hardy on floor, Browning slams 'weird' qualifying rules",
       "link": "https://www.abc.net.au/news/2026-07-27/commonwealth-games-glasgow-day-four-live-blog/106961304",
       "snippet": "",
       "pubDate": "Mon, 27 Jul 2026 08:35:05 +0000",
@@ -7639,13 +7646,6 @@
       "link": "https://www.smh.com.au/business/companies/critica-builds-wa-rare-earth-district-case-with-juno-hits-20260727-p60iz4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Critica Limited’s shallow high-grade rare earth hits at Juno strengthen the case for a district-scale rare earth project centred on its giant Jupiter deposit in WA.",
       "pubDate": "Mon, 27 Jul 2026 15:58:37 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Unlawfully sacked Qantas workers to wait almost six years for compensation",
-      "link": "https://www.smh.com.au/business/companies/unlawfully-sacked-qantas-workers-to-wait-almost-six-years-for-compensation-20260727-p60is6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The 1820 workers, who won a High Court fight on their way to $160 million worth of payouts, are still waiting for the money to hit their accounts.",
-      "pubDate": "Mon, 27 Jul 2026 15:45:00 +1000",
       "source": "SMH"
     },
     {
