@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-28T14:57:49.461Z",
+  "fetchedAt": "2026-07-28T19:59:46.663Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1,
+      "changePercent": 1.1,
       "previousClose": 0.69,
       "asOf": "2026-07-28",
       "history": [
@@ -1121,8 +1121,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0,
-      "changePercent": 0.76,
+      "change": 0.01,
+      "changePercent": 0.82,
       "previousClose": 0.61,
       "asOf": "2026-07-28",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": 0.02,
-      "changePercent": 0.39,
+      "value": 4.72,
+      "change": 0.04,
+      "changePercent": 0.8,
       "previousClose": 4.69,
       "asOf": "2026-07-28",
       "history": [
@@ -2330,7 +2330,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 4.7
+          "close": 4.72
         }
       ],
       "label": "AUD/CNY",
@@ -2599,7 +2599,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 4.7
+          "close": 4.72
         }
       ],
       "h6m": [
@@ -2713,7 +2713,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 4.7
+          "close": 4.72
         }
       ],
       "h3y": [
@@ -3351,14 +3351,14 @@
         },
         {
           "date": "2026-07-28",
-          "close": 4.7
+          "close": 4.72
         }
       ]
     },
     "audjpy": {
-      "value": 114.17,
-      "change": 2.54,
-      "changePercent": 2.28,
+      "value": 114.28,
+      "change": 2.65,
+      "changePercent": 2.38,
       "previousClose": 111.63,
       "asOf": "2026-07-28",
       "history": [
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.17
+          "close": 114.28
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.17
+          "close": 114.28
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.17
+          "close": 114.28
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.17
+          "close": 114.28
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1,
+    "changePercent": 1.1,
     "previousClose": 0.69,
     "asOf": "2026-07-28",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.34,
-      "change": 10.59,
-      "changePercent": 14.97,
+      "value": 78.93,
+      "change": 8.18,
+      "changePercent": 11.56,
       "previousClose": 70.75,
       "asOf": "2026-07-28",
       "history": [
@@ -5874,16 +5874,16 @@
         },
         {
           "date": "2026-07-28",
-          "close": 81.34
+          "close": 78.93
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 86.81,
-      "change": 13.66,
-      "changePercent": 18.67,
+      "value": 83.65,
+      "change": 10.5,
+      "changePercent": 14.35,
       "previousClose": 73.15,
       "asOf": "2026-07-28",
       "history": [
@@ -5969,16 +5969,16 @@
         },
         {
           "date": "2026-07-28",
-          "close": 86.81
+          "close": 83.65
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.7,
-      "change": -0.48,
-      "changePercent": -15,
+      "value": 2.69,
+      "change": -0.49,
+      "changePercent": -15.4,
       "previousClose": 3.18,
       "asOf": "2026-07-28",
       "history": [
@@ -6064,7 +6064,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 2.7
+          "close": 2.69
         }
       ],
       "name": "Natural Gas",
@@ -7337,21 +7337,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4023.9,
-      "change": 1.6,
-      "changePercent": 0.04
+      "price": 4025.6,
+      "change": 3.3,
+      "changePercent": 0.08
     },
     {
       "name": "Silver",
-      "price": 57.26,
-      "change": -0.91,
-      "changePercent": -1.57
+      "price": 57.44,
+      "change": -0.74,
+      "changePercent": -1.27
     },
     {
       "name": "Copper",
-      "price": 6.33,
-      "change": 0.23,
-      "changePercent": 3.82
+      "price": 6.34,
+      "change": 0.24,
+      "changePercent": 4
     }
   ],
   "housing": {
@@ -7701,32 +7701,32 @@
       "source": "SMH"
     },
     {
-      "title": "True North drill results hint at major Qld copper camp potential",
-      "link": "https://www.smh.com.au/business/companies/true-north-drill-results-hint-at-major-qld-copper-camp-potential-20260728-p60jbf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "True North Copper says assays from its first three diamond drill holes this year have confirmed copper-cobalt-silver mineralisation at its Aquila discovery in northwest Queensland.",
-      "pubDate": "Tue, 28 Jul 2026 15:12:17 +1000",
+      "title": "ASX set to rise, oil prices extend slide; Apple becomes a $US5tr company",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-oil-prices-extend-slide-apple-becomes-a-us5tr-company-20260729-p60jg3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Most of Wall Street is rising even as stocks of computer chipmakers continue to tumble worldwide. Oil prices, meanwhile, are easing further from the two-month high they hit last week.",
+      "pubDate": "Wed, 29 Jul 2026 05:25:59 +1000",
       "source": "SMH"
     },
     {
-      "title": "Real estate agent’s viral posts show our property market angst",
-      "link": "https://www.smh.com.au/business/the-economy/real-estate-agent-s-viral-posts-show-our-property-market-angst-20260728-p60j7u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "An inner west Sydney auctioneer has become an overnight celebrity after his weekend social media post captured the property market zeitgeist.",
-      "pubDate": "Tue, 28 Jul 2026 15:24:05 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Fresh WA drill program poised for Auric Munda mine expansion",
-      "link": "https://www.smh.com.au/business/companies/fresh-wa-drill-program-poised-for-auric-munda-mine-expansion-20260728-p60jab.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Auric Mining has kicked off a drilling blitz at its Munda gold project to expand its upgraded resource, support an ore reserve and advance a planned 2027 mining restart.",
-      "pubDate": "Tue, 28 Jul 2026 13:58:29 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Live: Double gymnastics gold on beam and bars, boxers guaranteed medals",
+      "title": "Live: More Dolphins gold, Aussie sprinters fly despite torrential rain",
       "link": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170",
       "snippet": "",
       "pubDate": "Tue, 28 Jul 2026 08:38:33 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "Home owners warned about banks’ $55 million offset account overcharging issue",
+      "link": "https://www.smh.com.au/business/banking-and-finance/home-owners-warned-about-banks-55-million-offset-account-overcharging-issue-20260728-p60j4g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Some banks made manual errors that meant customers with offset accounts were overcharged, leading to more than $55 million in compensation.",
+      "pubDate": "Wed, 29 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Your boss will hate this economic fix … but you’ll love it",
+      "link": "https://www.smh.com.au/business/the-economy/your-boss-will-hate-this-economic-fix-but-you-ll-love-it-20260728-p60j9b.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The government should order businesses to give workers a big pay rise as a way of forcing them to improve productivity.",
+      "pubDate": "Wed, 29 Jul 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Europe’s richest man hits back at claims his office won’t hire ‘fat’ people",
