@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-28T09:16:31.220Z",
+  "fetchedAt": "2026-07-28T14:57:49.461Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.07,
+      "changePercent": 1,
       "previousClose": 0.69,
       "asOf": "2026-07-28",
       "history": [
@@ -1121,8 +1121,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0.01,
-      "changePercent": 0.97,
+      "change": 0,
+      "changePercent": 0.76,
       "previousClose": 0.61,
       "asOf": "2026-07-28",
       "history": [
@@ -3356,9 +3356,9 @@
       ]
     },
     "audjpy": {
-      "value": 114.22,
-      "change": 2.59,
-      "changePercent": 2.32,
+      "value": 114.17,
+      "change": 2.54,
+      "changePercent": 2.28,
       "previousClose": 111.63,
       "asOf": "2026-07-28",
       "history": [
@@ -3448,7 +3448,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.22
+          "close": 114.17
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3717,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.22
+          "close": 114.17
         }
       ],
       "h6m": [
@@ -3831,7 +3831,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.22
+          "close": 114.17
         }
       ],
       "h3y": [
@@ -4469,7 +4469,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 114.22
+          "close": 114.17
         }
       ]
     }
@@ -4477,7 +4477,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.07,
+    "changePercent": 1,
     "previousClose": 0.69,
     "asOf": "2026-07-28",
     "history": [
@@ -5786,9 +5786,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.52,
-      "change": 9.77,
-      "changePercent": 13.81,
+      "value": 81.34,
+      "change": 10.59,
+      "changePercent": 14.97,
       "previousClose": 70.75,
       "asOf": "2026-07-28",
       "history": [
@@ -5874,16 +5874,16 @@
         },
         {
           "date": "2026-07-28",
-          "close": 80.52
+          "close": 81.34
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.7,
-      "change": 12.55,
-      "changePercent": 17.16,
+      "value": 86.81,
+      "change": 13.66,
+      "changePercent": 18.67,
       "previousClose": 73.15,
       "asOf": "2026-07-28",
       "history": [
@@ -5969,16 +5969,16 @@
         },
         {
           "date": "2026-07-28",
-          "close": 85.7
+          "close": 86.81
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.75,
-      "change": -0.43,
-      "changePercent": -13.52,
+      "value": 2.7,
+      "change": -0.48,
+      "changePercent": -15,
       "previousClose": 3.18,
       "asOf": "2026-07-28",
       "history": [
@@ -6064,7 +6064,7 @@
         },
         {
           "date": "2026-07-28",
-          "close": 2.75
+          "close": 2.7
         }
       ],
       "name": "Natural Gas",
@@ -6239,10 +6239,6 @@
       {
         "date": "2026-07-27",
         "close": 8894
-      },
-      {
-        "date": "2026-07-28",
-        "close": 8947.8
       }
     ]
   },
@@ -7341,21 +7337,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4042.6,
-      "change": 20.3,
-      "changePercent": 0.5
+      "price": 4023.9,
+      "change": 1.6,
+      "changePercent": 0.04
     },
     {
       "name": "Silver",
-      "price": 57.72,
-      "change": -0.45,
-      "changePercent": -0.78
+      "price": 57.26,
+      "change": -0.91,
+      "changePercent": -1.57
     },
     {
       "name": "Copper",
-      "price": 6.35,
-      "change": 0.25,
-      "changePercent": 4.07
+      "price": 6.33,
+      "change": 0.23,
+      "changePercent": 3.82
     }
   ],
   "housing": {
@@ -7726,6 +7722,13 @@
       "source": "SMH"
     },
     {
+      "title": "Live: Double gymnastics gold on beam and bars, boxers guaranteed medals",
+      "link": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170",
+      "snippet": "",
+      "pubDate": "Tue, 28 Jul 2026 08:38:33 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Europe’s richest man hits back at claims his office won’t hire ‘fat’ people",
       "link": "https://www.smh.com.au/business/companies/europe-s-richest-man-hits-back-at-claims-his-office-won-t-hire-fat-people-20260728-p60j3c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Luxury king Bernard Arnault has ridiculed a newspaper investigation into his business empire.",
@@ -7744,13 +7747,6 @@
       "link": "https://www.abc.net.au/news/2026-07-28/kane-perris-luke-zaccaria-trust-behind-commonwealth-games-tilt/106947018",
       "snippet": "",
       "pubDate": "Mon, 27 Jul 2026 21:32:35 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Live: Fastest men in water and on land to be crowned in 100m events",
-      "link": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170",
-      "snippet": "",
-      "pubDate": "Tue, 28 Jul 2026 08:38:33 +0000",
       "source": "ABC"
     },
     {
