@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-29T09:20:34.141Z",
+  "fetchedAt": "2026-07-29T14:40:13.124Z",
   "fx": {
     "audusd": {
       "value": 0.69,
-      "change": 0,
-      "changePercent": 0.71,
+      "change": 0.01,
+      "changePercent": 0.74,
       "previousClose": 0.69,
       "asOf": "2026-07-29",
       "history": [
@@ -2248,7 +2248,7 @@
     "audcny": {
       "value": 4.7,
       "change": 0.01,
-      "changePercent": 0.18,
+      "changePercent": 0.28,
       "previousClose": 4.69,
       "asOf": "2026-07-29",
       "history": [
@@ -3368,9 +3368,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.53,
-      "change": 1.97,
-      "changePercent": 1.76,
+      "value": 113.73,
+      "change": 2.16,
+      "changePercent": 1.93,
       "previousClose": 111.57,
       "asOf": "2026-07-29",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-29",
-          "close": 113.53
+          "close": 113.72
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-29",
-          "close": 113.54
+          "close": 113.72
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-29",
-          "close": 113.54
+          "close": 113.72
         }
       ],
       "h3y": [
@@ -4485,15 +4485,15 @@
         },
         {
           "date": "2026-07-29",
-          "close": 113.54
+          "close": 113.72
         }
       ]
     }
   },
   "audusd": {
     "value": 0.69,
-    "change": 0,
-    "changePercent": 0.71,
+    "change": 0.01,
+    "changePercent": 0.74,
     "previousClose": 0.69,
     "asOf": "2026-07-29",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.98,
-      "change": 11.23,
-      "changePercent": 15.87,
+      "value": 85.03,
+      "change": 14.28,
+      "changePercent": 20.18,
       "previousClose": 70.75,
       "asOf": "2026-07-29",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-07-29",
-          "close": 81.98
+          "close": 85.03
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.26,
-      "change": 14.11,
-      "changePercent": 19.29,
+      "value": 90.23,
+      "change": 17.08,
+      "changePercent": 23.35,
       "previousClose": 73.15,
       "asOf": "2026-07-29",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-07-29",
-          "close": 87.26
+          "close": 90.23
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.69,
-      "change": -0.5,
-      "changePercent": -15.59,
+      "value": 2.72,
+      "change": -0.46,
+      "changePercent": -14.4,
       "previousClose": 3.18,
       "asOf": "2026-07-29",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-07-29",
-          "close": 2.68
+          "close": 2.72
         }
       ],
       "name": "Natural Gas",
@@ -6265,12 +6265,16 @@
         "close": 8839
       },
       {
+        "date": "2026-07-24",
+        "close": 8772.3
+      },
+      {
         "date": "2026-07-27",
         "close": 8894
       },
       {
-        "date": "2026-07-29",
-        "close": 9038.6
+        "date": "2026-07-28",
+        "close": 8947.8
       }
     ]
   },
@@ -7401,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4096.2,
-      "change": 73.9,
-      "changePercent": 1.84
+      "price": 4064.9,
+      "change": 42.6,
+      "changePercent": 1.06
     },
     {
       "name": "Silver",
-      "price": 58.14,
-      "change": -0.04,
-      "changePercent": -0.07
+      "price": 57.29,
+      "change": -0.89,
+      "changePercent": -1.53
     },
     {
       "name": "Copper",
-      "price": 6.32,
-      "change": 0.22,
-      "changePercent": 3.67
+      "price": 6.31,
+      "change": 0.21,
+      "changePercent": 3.42
     }
   ],
   "housing": {
@@ -7793,7 +7797,14 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Last medals in the pool to be won, Diamonds face tough match-up",
+      "title": "Nasty crash denies Aussies chance to hit back at defector Richardson",
+      "link": "https://www.abc.net.au/news/2026-07-29/matt-richardson-out-of-commonwealth-games/106974084",
+      "snippet": "",
+      "pubDate": "Wed, 29 Jul 2026 13:23:31 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Ollie Hoare falls in mile heats, Australian team appeals",
       "link": "https://www.abc.net.au/news/2026-07-29/commonwealth-games-glasgow-day-six-live-blog/106969928",
       "snippet": "",
       "pubDate": "Wed, 29 Jul 2026 08:26:21 +0000",
@@ -7825,13 +7836,6 @@
       "link": "https://www.abc.net.au/news/2026-07-29/commonwealth-games-glasgow-day-five-quick-hits/106965336",
       "snippet": "",
       "pubDate": "Wed, 29 Jul 2026 00:16:57 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'The Aussies are on fire' on a night where that should've been impossible",
-      "link": "https://www.abc.net.au/news/2026-07-29/lachie-kennedy-torrie-lewis-commonwealth-games-glasgow-2026/106837530",
-      "snippet": "",
-      "pubDate": "Tue, 28 Jul 2026 22:37:32 +0000",
       "source": "ABC"
     }
   ]
