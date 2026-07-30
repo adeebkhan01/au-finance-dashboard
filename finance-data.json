@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-30T09:12:35.685Z",
+  "fetchedAt": "2026-07-30T14:41:10.455Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.28,
+      "changePercent": 1.98,
       "previousClose": 0.69,
       "asOf": "2026-07-30",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 0.88,
+      "changePercent": 1.08,
       "previousClose": 0.6,
       "asOf": "2026-07-30",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": 0.02,
-      "changePercent": 0.36,
+      "value": 4.74,
+      "change": 0.06,
+      "changePercent": 1.37,
       "previousClose": 4.68,
       "asOf": "2026-07-30",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 4.69
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 4.69
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 4.69
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-07-30",
-          "close": 4.69
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 113.92,
-      "change": 2.48,
-      "changePercent": 2.23,
+      "value": 111.79,
+      "change": 0.36,
+      "changePercent": 0.32,
       "previousClose": 111.43,
       "asOf": "2026-07-30",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 113.92
+          "close": 111.79
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 113.92
+          "close": 111.79
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 113.92
+          "close": 111.79
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 113.92
+          "close": 111.79
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.28,
+    "changePercent": 1.98,
     "previousClose": 0.69,
     "asOf": "2026-07-30",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 84.68,
-      "change": 15.18,
-      "changePercent": 21.84,
+      "value": 84.19,
+      "change": 14.69,
+      "changePercent": 21.14,
       "previousClose": 69.5,
       "asOf": "2026-07-30",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-07-30",
-          "close": 84.68
+          "close": 84.19
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.4,
-      "change": 18.48,
-      "changePercent": 25.34,
+      "value": 90.05,
+      "change": 17.13,
+      "changePercent": 23.49,
       "previousClose": 72.92,
       "asOf": "2026-07-30",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-07-30",
-          "close": 91.4
+          "close": 90.05
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.73,
-      "change": -0.54,
-      "changePercent": -16.55,
+      "value": 2.75,
+      "change": -0.52,
+      "changePercent": -16,
       "previousClose": 3.28,
       "asOf": "2026-07-30",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-07-30",
-          "close": 2.73
+          "close": 2.75
         }
       ],
       "name": "Natural Gas",
@@ -6275,10 +6275,6 @@
       {
         "date": "2026-07-29",
         "close": 9038.6
-      },
-      {
-        "date": "2026-07-30",
-        "close": 8967.7
       }
     ]
   },
@@ -7409,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4123.5,
-      "change": 100.6,
-      "changePercent": 2.5
+      "price": 4156.1,
+      "change": 133.2,
+      "changePercent": 3.31
     },
     {
       "name": "Silver",
-      "price": 57.97,
-      "change": -1.51,
-      "changePercent": -2.54
+      "price": 58.33,
+      "change": -1.15,
+      "changePercent": -1.93
     },
     {
       "name": "Copper",
-      "price": 6.43,
-      "change": 0.24,
-      "changePercent": 3.84
+      "price": 6.46,
+      "change": 0.27,
+      "changePercent": 4.3
     }
   ],
   "housing": {
@@ -7801,6 +7797,27 @@
       "source": "SMH"
     },
     {
+      "title": "'Try not to die': Why Glasgow's gales hit different for hurdlers",
+      "link": "https://www.abc.net.au/news/2026-07-30/michelle-jenneke-glasgow-commonwealth-games-cam-mcentyre-wind/106979514",
+      "snippet": "",
+      "pubDate": "Thu, 30 Jul 2026 13:12:55 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Ex-MAFS star Ridge Barredo sticking to weightlifting despite ugly injury",
+      "link": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516",
+      "snippet": "",
+      "pubDate": "Thu, 30 Jul 2026 14:25:39 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Aussie cyclist breaks world record, re-race ordered after wheelchair crash",
+      "link": "https://www.abc.net.au/news/2026-07-30/commonwealth-games-glasgow-day-seven-live-blog/106974778",
+      "snippet": "",
+      "pubDate": "Thu, 30 Jul 2026 08:14:48 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Tomic continues resurgence, de Minaur sets up clash with Hewitt",
       "link": "https://www.abc.net.au/news/2026-07-30/bernard-tomic-into-mexico-atp-quarterfinal/106978534",
       "snippet": "",
@@ -7819,27 +7836,6 @@
       "link": "https://www.smh.com.au/business/companies/viking-maps-out-us-tungsten-processing-pathway-20260730-p60k42.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Viking Mines has firmed up a processing plan for its Linka tungsten project in the US, with a new study defining a modular plant design ahead of maiden drilling.",
       "pubDate": "Thu, 30 Jul 2026 16:37:12 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Final frontiers drive Hazlewood in twilight years",
-      "link": "https://www.abc.net.au/news/2026-07-30/josh-hazlewood-driven-by-achieving-series-wins-england-india/106977508",
-      "snippet": "",
-      "pubDate": "Thu, 30 Jul 2026 05:12:42 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Storm coach responds to Munster's PNG ultimatum",
-      "link": "https://www.abc.net.au/news/2026-07-30/storm-coach-responds-to-munster-png-ultimatum/106976728",
-      "snippet": "",
-      "pubDate": "Thu, 30 Jul 2026 03:55:30 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "McLaren hits thick titanium-rich sands from surface in WA Eucla project",
-      "link": "https://www.smh.com.au/business/companies/mclaren-hits-thick-titanium-rich-sands-from-surface-in-wa-eucla-project-20260730-p60k12.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "McLaren Minerals has returned a further 68 near-surface titanium hits at its Eucla Basin project in WA, with all holes averaging at least 2 per cent heavy minerals.",
-      "pubDate": "Thu, 30 Jul 2026 13:26:56 +1000",
       "source": "SMH"
     }
   ]
