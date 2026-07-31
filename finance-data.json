@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-31T09:23:07.179Z",
+  "fetchedAt": "2026-07-31T14:57:45.814Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": 0.02,
-      "changePercent": 2.31,
+      "change": 0.01,
+      "changePercent": 2.05,
       "previousClose": 0.69,
       "asOf": "2026-07-31",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.38,
+      "changePercent": 1.26,
       "previousClose": 0.6,
       "asOf": "2026-07-31",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": 0.06,
-      "changePercent": 1.29,
+      "value": 4.73,
+      "change": 0.05,
+      "changePercent": 1.09,
       "previousClose": 4.68,
       "asOf": "2026-07-31",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 4.74
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 4.74
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 4.74
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-07-31",
-          "close": 4.74
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 112.35,
-      "change": 0.92,
-      "changePercent": 0.82,
+      "value": 111.83,
+      "change": 0.4,
+      "changePercent": 0.36,
       "previousClose": 111.43,
       "asOf": "2026-07-31",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 112.35
+          "close": 111.83
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 112.35
+          "close": 111.83
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 112.35
+          "close": 111.82
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-07-31",
-          "close": 112.35
+          "close": 111.83
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": 0.02,
-    "changePercent": 2.31,
+    "change": 0.01,
+    "changePercent": 2.05,
     "previousClose": 0.69,
     "asOf": "2026-07-31",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.94,
-      "change": 13.44,
-      "changePercent": 19.34,
+      "value": 85.72,
+      "change": 16.22,
+      "changePercent": 23.34,
       "previousClose": 69.5,
       "asOf": "2026-07-31",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-07-31",
-          "close": 82.94
+          "close": 85.72
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.19,
-      "change": 15.27,
-      "changePercent": 20.94,
+      "value": 90.04,
+      "change": 17.12,
+      "changePercent": 23.48,
       "previousClose": 72.92,
       "asOf": "2026-07-31",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-07-31",
-          "close": 88.19
+          "close": 90.04
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.77,
-      "change": -0.51,
-      "changePercent": -15.57,
+      "value": 2.73,
+      "change": -0.54,
+      "changePercent": -16.55,
       "previousClose": 3.28,
       "asOf": "2026-07-31",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 2.77
+          "close": 2.73
         }
       ],
       "name": "Natural Gas",
@@ -6311,10 +6311,6 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
-      },
-      {
-        "date": "2026-07-31",
-        "close": 8976.8
       }
     ]
   },
@@ -7477,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4114,
-      "change": 91.1,
-      "changePercent": 2.26
+      "price": 4098.3,
+      "change": 75.4,
+      "changePercent": 1.87
     },
     {
       "name": "Silver",
-      "price": 58.33,
-      "change": -1.15,
-      "changePercent": -1.93
+      "price": 57.72,
+      "change": -1.76,
+      "changePercent": -2.96
     },
     {
       "name": "Copper",
-      "price": 6.51,
-      "change": 0.32,
-      "changePercent": 5.19
+      "price": 6.48,
+      "change": 0.28,
+      "changePercent": 4.59
     }
   ],
   "housing": {
@@ -7848,17 +7844,17 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Aussies set to go for gold, again, in 1,500 T54 race is re-run",
-      "link": "https://www.abc.net.au/news/2026-07-31/live-blog-commonwealth-games-day-eight/106980504",
-      "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 08:21:48 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "It's easy to see why Australia brought a psychiatrist to Glasgow",
       "link": "https://www.abc.net.au/news/2026-07-31/australian-team-psychiatrist-glasgow-commonwealth-games/106974328",
       "snippet": "",
       "pubDate": "Fri, 31 Jul 2026 09:10:49 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: 'Extremely disappointed': Aussie cyclists disqualified from individual pursuit",
+      "link": "https://www.abc.net.au/news/2026-07-31/live-blog-commonwealth-games-day-eight/106980504",
+      "snippet": "",
+      "pubDate": "Fri, 31 Jul 2026 08:21:48 +0000",
       "source": "ABC"
     },
     {
@@ -7867,6 +7863,13 @@
       "snippet": "It’s been more than a decade since “Pharma Bro” Martin Shkreli became infamous for jacking up prices of a life-saving drug by 5000 per cent.",
       "pubDate": "Fri, 31 Jul 2026 18:15:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "'We're not going to the finals': Storm set for 16-year first after loss",
+      "link": "https://www.abc.net.au/news/2026-07-31/nrl-live-updates-dragons-dolphins-storm-bulldogs/106977948",
+      "snippet": "",
+      "pubDate": "Fri, 31 Jul 2026 06:59:22 +0000",
+      "source": "ABC"
     },
     {
       "title": "Kyle Sandilands quits Australian Idol as activists target advertisers",
@@ -7901,13 +7904,6 @@
       "link": "https://www.abc.net.au/news/2026-07-31/alex-de-minaur-beats-cruz-hewitt-in-aussie-tussle-at-dc-open/106980658",
       "snippet": "",
       "pubDate": "Fri, 31 Jul 2026 00:33:41 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "England hires NZ's Fleming to coach men's Test side, Root as captain",
-      "link": "https://www.abc.net.au/news/2026-07-31/england-hires-nzs-fleming-to-coach-test-side-root-to-captain/106980488",
-      "snippet": "",
-      "pubDate": "Thu, 30 Jul 2026 23:35:27 +0000",
       "source": "ABC"
     }
   ]
