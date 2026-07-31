@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-31T14:57:45.814Z",
+  "fetchedAt": "2026-07-31T20:02:25.220Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": 0.01,
-      "changePercent": 2.05,
+      "change": 0.02,
+      "changePercent": 2.27,
       "previousClose": 0.69,
       "asOf": "2026-07-31",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.26,
+      "changePercent": 1.21,
       "previousClose": 0.6,
       "asOf": "2026-07-31",
       "history": [
@@ -1224,6 +1224,10 @@
         },
         {
           "date": "2026-07-29",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-30",
           "close": 0.61
         },
         {
@@ -1497,6 +1501,10 @@
         },
         {
           "date": "2026-07-29",
+          "close": 0.61
+        },
+        {
+          "date": "2026-07-30",
           "close": 0.61
         },
         {
@@ -2254,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.73,
-      "change": 0.05,
-      "changePercent": 1.09,
+      "value": 4.76,
+      "change": 0.08,
+      "changePercent": 1.73,
       "previousClose": 4.68,
       "asOf": "2026-07-31",
       "history": [
@@ -2353,8 +2361,12 @@
           "close": 4.71
         },
         {
+          "date": "2026-07-30",
+          "close": 4.75
+        },
+        {
           "date": "2026-07-31",
-          "close": 4.73
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2638,12 @@
           "close": 4.71
         },
         {
+          "date": "2026-07-30",
+          "close": 4.75
+        },
+        {
           "date": "2026-07-31",
-          "close": 4.73
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2737,11 +2753,11 @@
         },
         {
           "date": "2026-07-26",
-          "close": 4.71
+          "close": 4.75
         },
         {
           "date": "2026-07-31",
-          "close": 4.73
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3371,18 +3387,18 @@
         },
         {
           "date": "2026-07-26",
-          "close": 4.71
+          "close": 4.75
         },
         {
           "date": "2026-07-31",
-          "close": 4.73
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 111.83,
-      "change": 0.4,
-      "changePercent": 0.36,
+      "value": 111.94,
+      "change": 0.51,
+      "changePercent": 0.46,
       "previousClose": 111.43,
       "asOf": "2026-07-31",
       "history": [
@@ -3479,8 +3495,12 @@
           "close": 113.63
         },
         {
+          "date": "2026-07-30",
+          "close": 112.51
+        },
+        {
           "date": "2026-07-31",
-          "close": 111.83
+          "close": 111.94
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3772,12 @@
           "close": 113.63
         },
         {
+          "date": "2026-07-30",
+          "close": 112.51
+        },
+        {
           "date": "2026-07-31",
-          "close": 111.83
+          "close": 111.95
         }
       ],
       "h6m": [
@@ -3863,11 +3887,11 @@
         },
         {
           "date": "2026-07-26",
-          "close": 113.63
+          "close": 112.51
         },
         {
           "date": "2026-07-31",
-          "close": 111.82
+          "close": 111.95
         }
       ],
       "h3y": [
@@ -4497,19 +4521,19 @@
         },
         {
           "date": "2026-07-26",
-          "close": 113.63
+          "close": 112.51
         },
         {
           "date": "2026-07-31",
-          "close": 111.83
+          "close": 111.95
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": 0.01,
-    "changePercent": 2.05,
+    "change": 0.02,
+    "changePercent": 2.27,
     "previousClose": 0.69,
     "asOf": "2026-07-31",
     "history": [
@@ -5826,9 +5850,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.72,
-      "change": 16.22,
-      "changePercent": 23.34,
+      "value": 84.79,
+      "change": 15.29,
+      "changePercent": 22,
       "previousClose": 69.5,
       "asOf": "2026-07-31",
       "history": [
@@ -5922,16 +5946,16 @@
         },
         {
           "date": "2026-07-31",
-          "close": 85.72
+          "close": 84.79
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 90.04,
-      "change": 17.12,
-      "changePercent": 23.48,
+      "value": 90.12,
+      "change": 17.2,
+      "changePercent": 23.59,
       "previousClose": 72.92,
       "asOf": "2026-07-31",
       "history": [
@@ -6025,16 +6049,16 @@
         },
         {
           "date": "2026-07-31",
-          "close": 90.04
+          "close": 90.12
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.73,
-      "change": -0.54,
-      "changePercent": -16.55,
+      "value": 2.76,
+      "change": -0.51,
+      "changePercent": -15.66,
       "previousClose": 3.28,
       "asOf": "2026-07-31",
       "history": [
@@ -6128,7 +6152,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 2.73
+          "close": 2.76
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7497,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4098.3,
-      "change": 75.4,
-      "changePercent": 1.87
+      "price": 4107.5,
+      "change": 84.6,
+      "changePercent": 2.1
     },
     {
       "name": "Silver",
-      "price": 57.72,
-      "change": -1.76,
-      "changePercent": -2.96
+      "price": 58.12,
+      "change": -1.36,
+      "changePercent": -2.29
     },
     {
       "name": "Copper",
-      "price": 6.48,
-      "change": 0.28,
-      "changePercent": 4.59
+      "price": 6.54,
+      "change": 0.35,
+      "changePercent": 5.59
     }
   ],
   "housing": {
@@ -7837,10 +7861,17 @@
       "source": "SMH"
     },
     {
-      "title": "Miners push ASX into the green; Microsoft’s $US450b record day",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-microsoft-leads-wall-street-rally-apple-results-ahead-20260731-p60k79.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket closed slightly higher on Friday, helped by a rally in the mining sector, as shares also climbed across Asia.",
-      "pubDate": "Fri, 31 Jul 2026 11:06:46 +1000",
+      "title": "Live: Kennedy in the mix for pole vault glory, Aussie teen claims race walk gold",
+      "link": "https://www.abc.net.au/news/2026-07-31/live-blog-commonwealth-games-day-eight/106980504",
+      "snippet": "",
+      "pubDate": "Fri, 31 Jul 2026 08:21:48 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "The artist, the ex-bikie and a scandal at the ABC that won’t end",
+      "link": "https://www.smh.com.au/business/companies/the-artist-the-ex-bikie-and-a-scandal-at-the-abc-that-won-t-end-20260730-p60jw8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Months ago, an explosive email circulated among ABC staff about one of their colleagues. It has reignited debates about race, integrity and bureaucracy at the broadcaster.",
+      "pubDate": "Sat, 01 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7848,13 +7879,6 @@
       "link": "https://www.abc.net.au/news/2026-07-31/australian-team-psychiatrist-glasgow-commonwealth-games/106974328",
       "snippet": "",
       "pubDate": "Fri, 31 Jul 2026 09:10:49 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Live: 'Extremely disappointed': Aussie cyclists disqualified from individual pursuit",
-      "link": "https://www.abc.net.au/news/2026-07-31/live-blog-commonwealth-games-day-eight/106980504",
-      "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 08:21:48 +0000",
       "source": "ABC"
     },
     {
@@ -7883,13 +7907,6 @@
       "link": "https://www.smh.com.au/business/companies/not-my-signature-anytime-fitness-probes-false-signatures-on-contracts-20260730-p60k4s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The gym giant has apologised over a string of incidents alleging contract misconduct, including a customer told to sign a largely blank contract.",
       "pubDate": "Fri, 31 Jul 2026 15:02:21 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Fresh data backs Amplia push against pancreatic, ovarian cancer",
-      "link": "https://www.smh.com.au/business/companies/fresh-data-backs-amplia-push-against-pancreatic-ovarian-cancer-20260731-p60kcs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Amplia Therapeutics has pointed to new preclinical data showing its pancreatic cancer drug candidate narmafotinib can hit several drivers of the intractable disease.",
-      "pubDate": "Fri, 31 Jul 2026 13:15:08 +1000",
       "source": "SMH"
     },
     {
