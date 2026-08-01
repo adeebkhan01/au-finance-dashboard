@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-31T20:02:25.220Z",
+  "fetchedAt": "2026-08-01T04:02:15.438Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": 0.02,
-      "changePercent": 2.27,
+      "change": 0.01,
+      "changePercent": 2.08,
       "previousClose": 0.69,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
         {
           "date": "2026-06-29",
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-07-29",
+          "close": 0.7
+        },
+        {
+          "date": "2026-07-30",
           "close": 0.7
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-07-29",
+          "close": 0.7
+        },
+        {
+          "date": "2026-07-30",
           "close": 0.7
         },
         {
@@ -1130,9 +1138,9 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 1.21,
+      "changePercent": 1.06,
       "previousClose": 0.6,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
         {
           "date": "2026-06-29",
@@ -2262,11 +2270,11 @@
       ]
     },
     "audcny": {
-      "value": 4.76,
-      "change": 0.08,
-      "changePercent": 1.73,
+      "value": 4.73,
+      "change": 0.06,
+      "changePercent": 1.25,
       "previousClose": 4.68,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
         {
           "date": "2026-06-29",
@@ -2365,8 +2373,8 @@
           "close": 4.75
         },
         {
-          "date": "2026-07-31",
-          "close": 4.76
+          "date": "2026-08-01",
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2642,8 +2650,8 @@
           "close": 4.75
         },
         {
-          "date": "2026-07-31",
-          "close": 4.76
+          "date": "2026-08-01",
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2756,8 +2764,8 @@
           "close": 4.75
         },
         {
-          "date": "2026-07-31",
-          "close": 4.76
+          "date": "2026-08-01",
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3390,17 +3398,17 @@
           "close": 4.75
         },
         {
-          "date": "2026-07-31",
-          "close": 4.76
+          "date": "2026-08-01",
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 111.94,
-      "change": 0.51,
-      "changePercent": 0.46,
+      "value": 110.56,
+      "change": -0.87,
+      "changePercent": -0.78,
       "previousClose": 111.43,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
         {
           "date": "2026-06-29",
@@ -3500,7 +3508,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 111.94
+          "close": 110.56
         }
       ],
       "label": "AUD/JPY",
@@ -3777,7 +3785,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 111.95
+          "close": 110.56
         }
       ],
       "h6m": [
@@ -3891,7 +3899,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 111.95
+          "close": 110.56
         }
       ],
       "h3y": [
@@ -4525,17 +4533,17 @@
         },
         {
           "date": "2026-07-31",
-          "close": 111.95
+          "close": 110.56
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": 0.02,
-    "changePercent": 2.27,
+    "change": 0.01,
+    "changePercent": 2.08,
     "previousClose": 0.69,
-    "asOf": "2026-07-31",
+    "asOf": "2026-08-01",
     "history": [
       {
         "date": "2026-06-29",
@@ -4627,6 +4635,10 @@
       },
       {
         "date": "2026-07-29",
+        "close": 0.7
+      },
+      {
+        "date": "2026-07-30",
         "close": 0.7
       },
       {
@@ -4900,6 +4912,10 @@
       },
       {
         "date": "2026-07-29",
+        "close": 0.7
+      },
+      {
+        "date": "2026-07-30",
         "close": 0.7
       },
       {
@@ -5850,16 +5866,12 @@
   },
   "energy": {
     "wti": {
-      "value": 84.79,
-      "change": 15.29,
-      "changePercent": 22,
+      "value": 86.8,
+      "change": 17.3,
+      "changePercent": 24.89,
       "previousClose": 69.5,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
-        {
-          "date": "2026-06-30",
-          "close": 69.5
-        },
         {
           "date": "2026-07-01",
           "close": 68.58
@@ -5946,7 +5958,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 84.79
+          "close": 84.67
         }
       ],
       "name": "WTI Crude",
@@ -5957,12 +5969,8 @@
       "change": 17.2,
       "changePercent": 23.59,
       "previousClose": 72.92,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
-        {
-          "date": "2026-06-30",
-          "close": 72.92
-        },
         {
           "date": "2026-07-01",
           "close": 71.57
@@ -6056,16 +6064,12 @@
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.76,
-      "change": -0.51,
-      "changePercent": -15.66,
+      "value": 2.79,
+      "change": -0.48,
+      "changePercent": -14.75,
       "previousClose": 3.28,
-      "asOf": "2026-07-31",
+      "asOf": "2026-08-01",
       "history": [
-        {
-          "date": "2026-06-30",
-          "close": 3.28
-        },
         {
           "date": "2026-07-01",
           "close": 3.22
@@ -6152,7 +6156,7 @@
         },
         {
           "date": "2026-07-31",
-          "close": 2.76
+          "close": 2.75
         }
       ],
       "name": "Natural Gas",
@@ -6242,7 +6246,7 @@
     "change": 198.1,
     "changePercent": 2.26,
     "previousClose": 8778.7,
-    "asOf": "2026-07-31",
+    "asOf": "2026-08-01",
     "history": [
       {
         "date": "2026-06-30",
@@ -6335,6 +6339,10 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
+      },
+      {
+        "date": "2026-07-31",
+        "close": 8976.8
       }
     ]
   },
@@ -7497,21 +7505,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4107.5,
-      "change": 84.6,
-      "changePercent": 2.1
+      "price": 4098.6,
+      "change": 75.7,
+      "changePercent": 1.88
     },
     {
       "name": "Silver",
-      "price": 58.12,
-      "change": -1.36,
-      "changePercent": -2.29
+      "price": 57.78,
+      "change": -1.7,
+      "changePercent": -2.86
     },
     {
       "name": "Copper",
-      "price": 6.54,
-      "change": 0.35,
-      "changePercent": 5.59
+      "price": 6.51,
+      "change": 0.32,
+      "changePercent": 5.09
     }
   ],
   "housing": {
@@ -7861,10 +7869,52 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Kennedy in the mix for pole vault glory, Aussie teen claims race walk gold",
-      "link": "https://www.abc.net.au/news/2026-07-31/live-blog-commonwealth-games-day-eight/106980504",
+      "title": "Nina Kennedy is often superhuman, but in Glasgow she was a super human",
+      "link": "https://www.abc.net.au/news/2026-08-01/nina-kennedy-pole-vault-commonwealth-games-glasgow/106985198",
       "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 08:21:48 +0000",
+      "pubDate": "Fri, 31 Jul 2026 23:51:33 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Aussie walker's 'in your dreams champ' taunt before gold",
+      "link": "https://www.abc.net.au/news/2026-08-01/commonwealth-games-glasgow-day-eight-quick-hits/106980690",
+      "snippet": "",
+      "pubDate": "Fri, 31 Jul 2026 23:14:09 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Wanganeen-Milera on fire for Saints against Sydney",
+      "link": "https://www.abc.net.au/news/2026-08-01/afl-r21-saints-swans-hawks-roos-port-gws-blues-lions-live-blog/106972530",
+      "snippet": "",
+      "pubDate": "Sat, 01 Aug 2026 02:56:13 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Boxer earns Tuvalu's first ever Comm Games medal without winning fight",
+      "link": "https://www.abc.net.au/news/2026-08-01/commonwealth-games-boxer-tarona-taafaki-wins-tuvalu-first-medal/106985724",
+      "snippet": "",
+      "pubDate": "Sat, 01 Aug 2026 02:24:35 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "One young Aussie hopes to silence Glasgow on the last night at Scotstoun",
+      "link": "https://www.abc.net.au/news/2026-08-01/cameron-myers-s-mile-clash-with-josh-kerr-to-light-up-games/106942226",
+      "snippet": "",
+      "pubDate": "Sat, 01 Aug 2026 02:16:52 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "FIFA executive lashes Infantino over sell-off plan",
+      "link": "https://www.abc.net.au/news/2026-08-01/fifa-kevin-lamour-lashes-gianni-infantino-over-sell-off-plan/106985308",
+      "snippet": "",
+      "pubDate": "Fri, 31 Jul 2026 22:10:19 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Why no other runner embraced Adaejah Hodge after her 200m win",
+      "link": "https://www.abc.net.au/news/2026-08-01/torrie-lewis-adaejah-hodge-200m-final-glasgow-commonwealth-games/106984908",
+      "snippet": "",
+      "pubDate": "Fri, 31 Jul 2026 22:06:26 +0000",
       "source": "ABC"
     },
     {
@@ -7875,13 +7925,6 @@
       "source": "SMH"
     },
     {
-      "title": "It's easy to see why Australia brought a psychiatrist to Glasgow",
-      "link": "https://www.abc.net.au/news/2026-07-31/australian-team-psychiatrist-glasgow-commonwealth-games/106974328",
-      "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 09:10:49 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "‘The most hated man in America’ is back and ready to fight everyone",
       "link": "https://www.smh.com.au/business/markets/the-most-hated-man-in-america-is-back-and-ready-to-fight-everyone-20260720-p60goc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "It’s been more than a decade since “Pharma Bro” Martin Shkreli became infamous for jacking up prices of a life-saving drug by 5000 per cent.",
@@ -7889,39 +7932,11 @@
       "source": "SMH"
     },
     {
-      "title": "'We're not going to the finals': Storm set for 16-year first after loss",
-      "link": "https://www.abc.net.au/news/2026-07-31/nrl-live-updates-dragons-dolphins-storm-bulldogs/106977948",
-      "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 06:59:22 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "Kyle Sandilands quits Australian Idol as activists target advertisers",
       "link": "https://www.smh.com.au/business/companies/kyle-sandilands-quits-australian-idol-as-activists-target-advertisers-20260731-p60kdr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The controversial radio host told Seven Network on Friday he would stand down “for the good of the brand.”",
       "pubDate": "Fri, 31 Jul 2026 15:46:07 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "‘Not my signature’: Anytime Fitness probes false signatures on contracts",
-      "link": "https://www.smh.com.au/business/companies/not-my-signature-anytime-fitness-probes-false-signatures-on-contracts-20260730-p60k4s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The gym giant has apologised over a string of incidents alleging contract misconduct, including a customer told to sign a largely blank contract.",
-      "pubDate": "Fri, 31 Jul 2026 15:02:21 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Magpies coach throws support behind Bobby Hill as star exits",
-      "link": "https://www.abc.net.au/news/2026-07-31/magpies-coach-throws-support-behind-hill-as-star-exits/106981454",
-      "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 02:24:51 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'It was weird': De Minaur beats Hewitt in Aussie tussle",
-      "link": "https://www.abc.net.au/news/2026-07-31/alex-de-minaur-beats-cruz-hewitt-in-aussie-tussle-at-dc-open/106980658",
-      "snippet": "",
-      "pubDate": "Fri, 31 Jul 2026 00:33:41 +0000",
-      "source": "ABC"
     }
   ]
 }
