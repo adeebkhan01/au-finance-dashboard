@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-03T15:24:26.705Z",
+  "fetchedAt": "2026-08-03T20:10:15.947Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.21,
+      "changePercent": 1.24,
       "previousClose": 0.69,
       "asOf": "2026-08-03",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.45,
+      "changePercent": 0.43,
       "previousClose": 0.61,
       "asOf": "2026-08-03",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.71,
-      "change": 0.02,
-      "changePercent": 0.37,
+      "value": 4.73,
+      "change": 0.03,
+      "changePercent": 0.65,
       "previousClose": 4.69,
       "asOf": "2026-08-03",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 4.71
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 4.71
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 4.71
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-08-03",
-          "close": 4.71
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 109.74,
-      "change": -1.91,
-      "changePercent": -1.71,
+      "value": 109.89,
+      "change": -1.76,
+      "changePercent": -1.58,
       "previousClose": 111.65,
       "asOf": "2026-08-03",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 109.74
+          "close": 109.89
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 109.74
+          "close": 109.89
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 109.74
+          "close": 109.89
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 109.73
+          "close": 109.89
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.21,
+    "changePercent": 1.24,
     "previousClose": 0.69,
     "asOf": "2026-08-03",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 79.46,
-      "change": 10.77,
-      "changePercent": 15.68,
+      "value": 80.11,
+      "change": 11.42,
+      "changePercent": 16.63,
       "previousClose": 68.69,
       "asOf": "2026-08-03",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-08-03",
-          "close": 79.46
+          "close": 80.11
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 83.7,
-      "change": 11.9,
-      "changePercent": 16.57,
+      "value": 83.65,
+      "change": 11.85,
+      "changePercent": 16.5,
       "previousClose": 71.8,
       "asOf": "2026-08-03",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-08-03",
-          "close": 83.7
+          "close": 83.65
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.76,
-      "change": -0.43,
-      "changePercent": -13.55,
+      "value": 2.77,
+      "change": -0.42,
+      "changePercent": -13.2,
       "previousClose": 3.2,
       "asOf": "2026-08-03",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-08-03",
-          "close": 2.76
+          "close": 2.77
         }
       ],
       "name": "Natural Gas",
@@ -7297,21 +7297,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4088.5,
-      "change": -24.2,
-      "changePercent": -0.59
+      "price": 4106.5,
+      "change": -6.2,
+      "changePercent": -0.15
     },
     {
       "name": "Silver",
-      "price": 57.56,
-      "change": -3.09,
-      "changePercent": -5.09
+      "price": 58.2,
+      "change": -2.44,
+      "changePercent": -4.03
     },
     {
       "name": "Copper",
-      "price": 6.51,
-      "change": 0.39,
-      "changePercent": 6.43
+      "price": 6.55,
+      "change": 0.43,
+      "changePercent": 7.04
     }
   ],
   "housing": {
@@ -7654,6 +7654,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to dip, Wall Street rallies on falling oil prices; Amazon hits $US3tr valuation",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-dip-wall-street-rallies-on-falling-oil-prices-amazon-hits-us3tr-valuation-20260804-p60l4o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are rallying to the edge of their all-time high after easing oil prices helped calm Wall Street’s worries that inflation could get even worse.",
+      "pubDate": "Tue, 04 Aug 2026 05:19:54 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Olympio builds Quebec gold system with more solid drill hits",
       "link": "https://www.smh.com.au/business/companies/olympio-builds-quebec-gold-system-with-more-solid-drill-hits-20260803-p60l29.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Olympio Metals has strengthened confidence in its Bousquet gold project in Quebec after first Phase 3 assays returned 5m at 4.54g/t gold.",
@@ -7668,24 +7675,10 @@
       "source": "SMH"
     },
     {
-      "title": "Horizon bags high grade gold outside WA mine plan",
-      "link": "https://www.smh.com.au/business/companies/horizon-bags-high-grade-gold-outside-wa-mine-plan-20260803-p60l17.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Horizon Gold has hit a superb 23m at 5.26g/t gold from drilling outside its recently defined mine plan at its Gum Creek project in WA, including 15m at 7.65g/t.",
-      "pubDate": "Mon, 03 Aug 2026 15:31:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "‘We let you down’: The child prodigy at the centre of a $28 billion Wall Street fire sale",
       "link": "https://www.smh.com.au/business/markets/we-let-you-down-the-child-prodigy-at-the-centre-of-a-28-billion-wall-street-fire-sale-20260803-p60ks2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Leopold Aschenbrenner, who graduated from Columbia University at 19 and has a fondness for Rubik’s Cubes, was flying high as his hedge fund soared. But last week it all came crashing down.",
       "pubDate": "Mon, 03 Aug 2026 18:10:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "The path to first home ownership might be under a flight path",
-      "link": "https://www.smh.com.au/business/the-economy/the-path-to-first-home-ownership-might-be-under-a-flight-path-20260803-p60kwr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A new report shows the lengths to which some would-be home owners are prepared to go to reach stage one of the property ownership dream.",
-      "pubDate": "Mon, 03 Aug 2026 15:22:29 +1000",
       "source": "SMH"
     },
     {
@@ -7729,6 +7722,13 @@
       "snippet": "",
       "pubDate": "Mon, 03 Aug 2026 06:50:33 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "News Corp says plan to make tech giants pay for news has been ‘gutted’",
+      "link": "https://www.smh.com.au/business/companies/news-corp-attacks-gutted-plan-to-make-tech-giants-pay-for-news-20260803-p60kzd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The publishing giant has slammed last-minute changes to the government’s plan, saying they risk letting Google and Meta avoid paying for local journalism.",
+      "pubDate": "Mon, 03 Aug 2026 16:00:21 +1000",
+      "source": "SMH"
     }
   ]
 }
