@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-04T09:19:38.087Z",
+  "fetchedAt": "2026-08-04T14:59:47.082Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.56,
+      "changePercent": 1.81,
       "previousClose": 0.69,
       "asOf": "2026-08-04",
       "history": [
@@ -1125,8 +1125,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0,
-      "changePercent": 0.76,
+      "change": 0.01,
+      "changePercent": 0.88,
       "previousClose": 0.61,
       "asOf": "2026-08-04",
       "history": [
@@ -2247,8 +2247,8 @@
     },
     "audcny": {
       "value": 4.73,
-      "change": 0.03,
-      "changePercent": 0.7,
+      "change": 0.04,
+      "changePercent": 0.83,
       "previousClose": 4.69,
       "asOf": "2026-08-04",
       "history": [
@@ -3368,9 +3368,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.84,
-      "change": -0.81,
-      "changePercent": -0.73,
+      "value": 110.9,
+      "change": -0.75,
+      "changePercent": -0.67,
       "previousClose": 111.65,
       "asOf": "2026-08-04",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-08-04",
-          "close": 110.84
+          "close": 110.9
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-08-04",
-          "close": 110.84
+          "close": 110.9
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-08-04",
-          "close": 110.84
+          "close": 110.9
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-08-04",
-          "close": 110.84
+          "close": 110.9
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.56,
+    "changePercent": 1.81,
     "previousClose": 0.69,
     "asOf": "2026-08-04",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.18,
-      "change": 13.49,
-      "changePercent": 19.64,
+      "value": 76.67,
+      "change": 7.98,
+      "changePercent": 11.62,
       "previousClose": 68.69,
       "asOf": "2026-08-04",
       "history": [
@@ -5893,17 +5893,21 @@
           "close": 84.67
         },
         {
+          "date": "2026-08-03",
+          "close": 80.34
+        },
+        {
           "date": "2026-08-04",
-          "close": 82.18
+          "close": 76.67
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 86.07,
-      "change": 14.27,
-      "changePercent": 19.87,
+      "value": 80.48,
+      "change": 8.68,
+      "changePercent": 12.09,
       "previousClose": 71.8,
       "asOf": "2026-08-04",
       "history": [
@@ -5988,17 +5992,21 @@
           "close": 90.12
         },
         {
+          "date": "2026-08-03",
+          "close": 83.77
+        },
+        {
           "date": "2026-08-04",
-          "close": 86.07
+          "close": 80.48
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.75,
-      "change": -0.44,
-      "changePercent": -13.86,
+      "value": 2.67,
+      "change": -0.53,
+      "changePercent": -16.61,
       "previousClose": 3.2,
       "asOf": "2026-08-04",
       "history": [
@@ -6083,8 +6091,12 @@
           "close": 2.75
         },
         {
+          "date": "2026-08-03",
+          "close": 2.78
+        },
+        {
           "date": "2026-08-04",
-          "close": 2.75
+          "close": 2.66
         }
       ],
       "name": "Natural Gas",
@@ -6257,8 +6269,8 @@
         "close": 8976.8
       },
       {
-        "date": "2026-08-04",
-        "close": 9145.8
+        "date": "2026-08-03",
+        "close": 9019.3
       }
     ]
   },
@@ -6644,10 +6656,6 @@
         {
           "date": "2026-08-03",
           "close": 177.9
-        },
-        {
-          "date": "2026-08-04",
-          "close": 180.72
         }
       ]
     },
@@ -6744,10 +6752,6 @@
         {
           "date": "2026-08-03",
           "close": 41.6
-        },
-        {
-          "date": "2026-08-04",
-          "close": 42.85
         }
       ]
     },
@@ -6844,10 +6848,6 @@
         {
           "date": "2026-08-03",
           "close": 37.29
-        },
-        {
-          "date": "2026-08-04",
-          "close": 38.17
         }
       ]
     },
@@ -6944,10 +6944,6 @@
         {
           "date": "2026-08-03",
           "close": 38.17
-        },
-        {
-          "date": "2026-08-04",
-          "close": 38.82
         }
       ]
     }
@@ -7046,10 +7042,6 @@
         {
           "date": "2026-08-03",
           "close": 60.72
-        },
-        {
-          "date": "2026-08-04",
-          "close": 60.52
         }
       ]
     },
@@ -7146,10 +7138,6 @@
         {
           "date": "2026-08-03",
           "close": 169.5
-        },
-        {
-          "date": "2026-08-04",
-          "close": 172.39
         }
       ]
     },
@@ -7246,10 +7234,6 @@
         {
           "date": "2026-08-03",
           "close": 17.8
-        },
-        {
-          "date": "2026-08-04",
-          "close": 18.08
         }
       ]
     },
@@ -7346,10 +7330,6 @@
         {
           "date": "2026-08-03",
           "close": 32.5
-        },
-        {
-          "date": "2026-08-04",
-          "close": 32.95
         }
       ]
     }
@@ -7357,21 +7337,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4107,
-      "change": -5.7,
-      "changePercent": -0.14
+      "price": 4137.7,
+      "change": 25,
+      "changePercent": 0.61
     },
     {
       "name": "Silver",
-      "price": 58.88,
-      "change": -1.76,
-      "changePercent": -2.91
+      "price": 59.7,
+      "change": -0.94,
+      "changePercent": -1.56
     },
     {
       "name": "Copper",
-      "price": 6.62,
-      "change": 0.5,
-      "changePercent": 8.23
+      "price": 6.65,
+      "change": 0.54,
+      "changePercent": 8.78
     }
   ],
   "housing": {
@@ -7714,13 +7694,6 @@
       "source": "SMH"
     },
     {
-      "title": "Qantas mulls offshoring up to 1000 jobs to India in AI deal",
-      "link": "https://www.smh.com.au/business/companies/qantas-mulls-offshoring-up-to-1000-jobs-to-india-report-20260804-p60l5e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The airline is considering shifting jobs in marketing, finance, human resources and other back-office positions as part of a deal with consulting giant Accenture.",
-      "pubDate": "Tue, 04 Aug 2026 09:42:40 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "He lied about an affair and cost his company nearly $30 million. Now he has a new job",
       "link": "https://www.smh.com.au/business/companies/he-lied-about-an-affair-and-cost-his-company-nearly-30-million-now-he-has-a-new-job-20260804-p60lbc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The disgraced former chief executive of Rebel Sport owner Super Retail has been hired to lead luxury appliances seller Winning Group.",
@@ -7746,6 +7719,13 @@
       "link": "https://www.smh.com.au/business/markets/the-real-reason-trump-just-rushed-to-help-japan-20260804-p60l5s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Tactless as ever, Donald Trump invoked the attack on Pearl Harbour as the US jumped in to help boost Japan’s currency. What’s more compelling is why America made the move.",
       "pubDate": "Tue, 04 Aug 2026 11:57:08 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Jetstar halves number of carry-on items customers are allowed",
+      "link": "https://www.smh.com.au/business/companies/jetstar-halves-number-of-carry-on-items-customers-are-allowed-20260804-p60lbg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The airline will also begin charging a fee for guaranteed access to overhead bins, but is increasing its in-cabin weight allowance.",
+      "pubDate": "Wed, 05 Aug 2026 00:01:00 +1000",
       "source": "SMH"
     },
     {
