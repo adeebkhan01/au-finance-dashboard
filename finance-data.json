@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-05T14:54:02.518Z",
+  "fetchedAt": "2026-08-05T20:07:12.411Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 2.02,
+      "changePercent": 2.08,
       "previousClose": 0.69,
       "asOf": "2026-08-05",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-08-03",
+          "close": 0.7
+        },
+        {
+          "date": "2026-08-04",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-08-03",
+          "close": 0.7
+        },
+        {
+          "date": "2026-08-04",
           "close": 0.7
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 0.89,
+      "changePercent": 0.88,
       "previousClose": 0.61,
       "asOf": "2026-08-05",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-08-03",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-04",
           "close": 0.61
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-08-03",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-04",
           "close": 0.61
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": 0.05,
-      "changePercent": 1.16,
+      "value": 4.76,
+      "change": 0.07,
+      "changePercent": 1.44,
       "previousClose": 4.69,
       "asOf": "2026-08-05",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.72
         },
         {
+          "date": "2026-08-04",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-05",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.72
         },
         {
+          "date": "2026-08-04",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-05",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-08-02",
-          "close": 4.72
+          "close": 4.76
         },
         {
           "date": "2026-08-05",
-          "close": 4.75
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-08-02",
-          "close": 4.72
+          "close": 4.76
         },
         {
           "date": "2026-08-05",
-          "close": 4.75
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 111.16,
-      "change": -0.49,
-      "changePercent": -0.44,
+      "value": 111.28,
+      "change": -0.37,
+      "changePercent": -0.33,
       "previousClose": 111.65,
       "asOf": "2026-08-05",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 110.23
         },
         {
+          "date": "2026-08-04",
+          "close": 111.12
+        },
+        {
           "date": "2026-08-05",
-          "close": 111.16
+          "close": 111.28
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 110.23
         },
         {
+          "date": "2026-08-04",
+          "close": 111.12
+        },
+        {
           "date": "2026-08-05",
-          "close": 111.16
+          "close": 111.28
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-08-02",
-          "close": 110.23
+          "close": 111.12
         },
         {
           "date": "2026-08-05",
-          "close": 111.16
+          "close": 111.28
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-08-02",
-          "close": 110.23
+          "close": 111.12
         },
         {
           "date": "2026-08-05",
-          "close": 111.16
+          "close": 111.28
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 2.02,
+    "changePercent": 2.08,
     "previousClose": 0.69,
     "asOf": "2026-08-05",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-08-03",
+        "close": 0.7
+      },
+      {
+        "date": "2026-08-04",
         "close": 0.7
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-08-03",
+        "close": 0.7
+      },
+      {
+        "date": "2026-08-04",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 75.02,
-      "change": 6.47,
-      "changePercent": 9.44,
+      "value": 75.07,
+      "change": 6.52,
+      "changePercent": 9.51,
       "previousClose": 68.55,
       "asOf": "2026-08-05",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-08-05",
-          "close": 75.02
+          "close": 75.07
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 78.9,
-      "change": 6.91,
-      "changePercent": 9.6,
+      "value": 79.35,
+      "change": 7.36,
+      "changePercent": 10.22,
       "previousClose": 71.99,
       "asOf": "2026-08-05",
       "history": [
@@ -6025,7 +6065,7 @@
         },
         {
           "date": "2026-08-05",
-          "close": 78.9
+          "close": 79.35
         }
       ],
       "name": "Brent Crude",
@@ -6033,8 +6073,8 @@
     },
     "gas": {
       "value": 2.67,
-      "change": -0.57,
-      "changePercent": -17.69,
+      "change": -0.58,
+      "changePercent": -17.72,
       "previousClose": 3.25,
       "asOf": "2026-08-05",
       "history": [
@@ -7437,21 +7477,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4302.2,
-      "change": 147.1,
-      "changePercent": 3.54
+      "price": 4308.6,
+      "change": 153.5,
+      "changePercent": 3.69
     },
     {
       "name": "Silver",
-      "price": 62.73,
-      "change": 0.8,
-      "changePercent": 1.3
+      "price": 62.29,
+      "change": 0.37,
+      "changePercent": 0.6
     },
     {
       "name": "Copper",
-      "price": 6.69,
-      "change": 0.51,
-      "changePercent": 8.26
+      "price": 6.74,
+      "change": 0.56,
+      "changePercent": 9.14
     }
   ],
   "housing": {
@@ -7794,10 +7834,10 @@
       "source": "SMH"
     },
     {
-      "title": "Burning billions: SpaceX’s sales are soaring, but its spending even more so",
-      "link": "https://www.smh.com.au/business/companies/burning-billions-spacex-s-sales-are-soaring-but-its-spending-even-more-so-20260805-p60lj5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "SpaceX’s shares plunged after Elon Musk’s mega company said a near-doubling of its revenues was dwarfed by its skyrocketing investments, particularly in AI.",
-      "pubDate": "Wed, 05 Aug 2026 12:05:59 +1000",
+      "title": "ASX set to dip, Wall Street drifts as oil prices steady; SpaceX tumbles",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-dip-wall-street-drifts-as-oil-prices-steady-spacex-tumbles-20260806-p60ltv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks wavered in afternoon trading on Wall Street and hovered around their records set a day earlier, while oil prices held steady.",
+      "pubDate": "Thu, 06 Aug 2026 05:16:53 +1000",
       "source": "SMH"
     },
     {
@@ -7819,6 +7859,20 @@
       "link": "https://www.smh.com.au/business/companies/patriot-mapping-hints-at-giant-zambian-copper-potential-20260805-p60lpe.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Patriot Resources says initial mapping at its new Zambian copper ground has uncovered geology similar to nearby copper giants, boosting its prospects in the world-class region.",
       "pubDate": "Wed, 05 Aug 2026 14:19:47 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Rogue AI fakes identities, switches languages to trick humans",
+      "link": "https://www.smh.com.au/business/companies/rogue-ai-fakes-identities-switches-languages-to-trick-humans-20260805-p60lsh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "OpenAI’s ChatGPT and Anthropic’s Mythos went on a hacking spree including concocting fake online profiles to trick human engineers.",
+      "pubDate": "Thu, 06 Aug 2026 05:20:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Empty offices fill up as remote-work momentum shows signs of slowing",
+      "link": "https://www.smh.com.au/business/the-economy/empty-offices-fill-up-as-remote-work-momentum-shows-signs-of-slowing-20260804-p60lda.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There’s growing demand for office space in the CBDs of Australia’s big cities.",
+      "pubDate": "Thu, 06 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7855,20 +7909,6 @@
       "snippet": "",
       "pubDate": "Wed, 05 Aug 2026 05:00:58 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "How Australia can harness home support in lead up to Brisbane 2032",
-      "link": "https://www.abc.net.au/news/2026-08-05/water-polo-australia-world-cup-success-brisbane-2032-national/106998168",
-      "snippet": "",
-      "pubDate": "Wed, 05 Aug 2026 02:47:53 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Jetstar really wants to charge you for everything but the seat",
-      "link": "https://www.smh.com.au/business/companies/jetstar-really-wants-to-charge-you-for-everything-but-the-seat-20260805-p60llp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "It is the cheapest airline, so travellers are used to corners being cut. But Jetstar’s latest move is a new low.",
-      "pubDate": "Wed, 05 Aug 2026 12:44:38 +1000",
-      "source": "SMH"
     }
   ]
 }
