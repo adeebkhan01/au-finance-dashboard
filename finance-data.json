@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-07T19:28:29.730Z",
+  "fetchedAt": "2026-08-08T02:27:25.707Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.74,
+      "changePercent": 1.67,
       "previousClose": 0.7,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-06",
@@ -99,6 +99,10 @@
         {
           "date": "2026-08-05",
           "close": 0.71
+        },
+        {
+          "date": "2026-08-06",
+          "close": 0.7
         },
         {
           "date": "2026-08-07",
@@ -374,6 +378,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-08-06",
+          "close": 0.7
+        },
+        {
           "date": "2026-08-07",
           "close": 0.71
         }
@@ -485,7 +493,7 @@
         },
         {
           "date": "2026-08-02",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-08-07",
@@ -1119,7 +1127,7 @@
         },
         {
           "date": "2026-08-02",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-08-07",
@@ -1132,7 +1140,7 @@
       "change": 0,
       "changePercent": 0.56,
       "previousClose": 0.61,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-06",
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-08-05",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-06",
           "close": 0.61
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-08-05",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-06",
           "close": 0.61
         },
         {
@@ -2254,11 +2270,11 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": 0.05,
-      "changePercent": 0.99,
+      "value": 4.75,
+      "change": 0.03,
+      "changePercent": 0.55,
       "previousClose": 4.73,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-06",
@@ -2353,8 +2369,12 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-06",
+          "close": 4.75
+        },
+        {
           "date": "2026-08-07",
-          "close": 4.77
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-06",
+          "close": 4.75
+        },
+        {
           "date": "2026-08-07",
-          "close": 4.77
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-08-02",
-          "close": 4.76
+          "close": 4.75
         },
         {
           "date": "2026-08-07",
-          "close": 4.77
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3371,20 +3395,20 @@
         },
         {
           "date": "2026-08-02",
-          "close": 4.76
+          "close": 4.75
         },
         {
           "date": "2026-08-07",
-          "close": 4.77
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 111.42,
-      "change": -1.3,
-      "changePercent": -1.16,
+      "value": 111.52,
+      "change": -1.21,
+      "changePercent": -1.07,
       "previousClose": 112.73,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-06",
@@ -3479,8 +3503,12 @@
           "close": 111.22
         },
         {
+          "date": "2026-08-06",
+          "close": 111.41
+        },
+        {
           "date": "2026-08-07",
-          "close": 111.42
+          "close": 111.52
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 111.22
         },
         {
+          "date": "2026-08-06",
+          "close": 111.41
+        },
+        {
           "date": "2026-08-07",
-          "close": 111.42
+          "close": 111.52
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-08-02",
-          "close": 111.22
+          "close": 111.41
         },
         {
           "date": "2026-08-07",
-          "close": 111.42
+          "close": 111.52
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-08-02",
-          "close": 111.22
+          "close": 111.41
         },
         {
           "date": "2026-08-07",
-          "close": 111.42
+          "close": 111.52
         }
       ]
     }
@@ -4509,9 +4541,9 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.74,
+    "changePercent": 1.67,
     "previousClose": 0.7,
-    "asOf": "2026-08-07",
+    "asOf": "2026-08-08",
     "history": [
       {
         "date": "2026-07-06",
@@ -4604,6 +4636,10 @@
       {
         "date": "2026-08-05",
         "close": 0.71
+      },
+      {
+        "date": "2026-08-06",
+        "close": 0.7
       },
       {
         "date": "2026-08-07",
@@ -4879,6 +4915,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-08-06",
+        "close": 0.7
+      },
+      {
         "date": "2026-08-07",
         "close": 0.71
       }
@@ -4990,7 +5030,7 @@
       },
       {
         "date": "2026-08-02",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-08-07",
@@ -5624,7 +5664,7 @@
       },
       {
         "date": "2026-08-02",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-08-07",
@@ -5826,11 +5866,11 @@
   },
   "energy": {
     "wti": {
-      "value": 77.28,
-      "change": 6.84,
-      "changePercent": 9.71,
+      "value": 77.08,
+      "change": 6.64,
+      "changePercent": 9.43,
       "previousClose": 70.44,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-07",
@@ -5926,18 +5966,18 @@
         },
         {
           "date": "2026-08-07",
-          "close": 77.28
+          "close": 77.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 82.55,
-      "change": 8.39,
-      "changePercent": 11.31,
+      "value": 82.27,
+      "change": 8.11,
+      "changePercent": 10.94,
       "previousClose": 74.16,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-07",
@@ -6033,18 +6073,18 @@
         },
         {
           "date": "2026-08-07",
-          "close": 82.55
+          "close": 82.27
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.66,
-      "change": -0.6,
-      "changePercent": -18.53,
+      "value": 2.67,
+      "change": -0.59,
+      "changePercent": -18.19,
       "previousClose": 3.27,
-      "asOf": "2026-08-07",
+      "asOf": "2026-08-08",
       "history": [
         {
           "date": "2026-07-07",
@@ -6140,7 +6180,7 @@
         },
         {
           "date": "2026-08-07",
-          "close": 2.66
+          "close": 2.67
         }
       ],
       "name": "Natural Gas",
@@ -6230,7 +6270,7 @@
     "change": 459.7,
     "changePercent": 5.22,
     "previousClose": 8803.9,
-    "asOf": "2026-08-07",
+    "asOf": "2026-08-08",
     "history": [
       {
         "date": "2026-07-07",
@@ -6323,6 +6363,10 @@
       {
         "date": "2026-08-06",
         "close": 9271.6
+      },
+      {
+        "date": "2026-08-07",
+        "close": 9263.6
       }
     ]
   },
@@ -6716,6 +6760,10 @@
         {
           "date": "2026-08-06",
           "close": 179.87
+        },
+        {
+          "date": "2026-08-07",
+          "close": 178.01
         }
       ]
     },
@@ -6820,6 +6868,10 @@
         {
           "date": "2026-08-06",
           "close": 42.7
+        },
+        {
+          "date": "2026-08-07",
+          "close": 42.23
         }
       ]
     },
@@ -6924,6 +6976,10 @@
         {
           "date": "2026-08-06",
           "close": 38.11
+        },
+        {
+          "date": "2026-08-07",
+          "close": 37.73
         }
       ]
     },
@@ -7028,6 +7084,10 @@
         {
           "date": "2026-08-06",
           "close": 38.53
+        },
+        {
+          "date": "2026-08-07",
+          "close": 37.93
         }
       ]
     }
@@ -7134,6 +7194,10 @@
         {
           "date": "2026-08-06",
           "close": 62.82
+        },
+        {
+          "date": "2026-08-07",
+          "close": 62.97
         }
       ]
     },
@@ -7238,6 +7302,10 @@
         {
           "date": "2026-08-06",
           "close": 176.3
+        },
+        {
+          "date": "2026-08-07",
+          "close": 177.69
         }
       ]
     },
@@ -7342,6 +7410,10 @@
         {
           "date": "2026-08-06",
           "close": 18.45
+        },
+        {
+          "date": "2026-08-07",
+          "close": 18.02
         }
       ]
     },
@@ -7446,6 +7518,10 @@
         {
           "date": "2026-08-06",
           "close": 31.72
+        },
+        {
+          "date": "2026-08-07",
+          "close": 31.88
         }
       ]
     }
@@ -7453,21 +7529,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4407.3,
-      "change": 262,
-      "changePercent": 6.32
+      "price": 4401.3,
+      "change": 256,
+      "changePercent": 6.18
     },
     {
       "name": "Silver",
-      "price": 63.85,
-      "change": 2.92,
-      "changePercent": 4.79
+      "price": 63.8,
+      "change": 2.87,
+      "changePercent": 4.71
     },
     {
       "name": "Copper",
-      "price": 6.62,
-      "change": 0.44,
-      "changePercent": 7.18
+      "price": 6.59,
+      "change": 0.41,
+      "changePercent": 6.69
     }
   ],
   "housing": {
@@ -7845,6 +7921,13 @@
       "source": "SMH"
     },
     {
+      "title": "Surprise parents' visit inspires new leader in Tour de France Femmes",
+      "link": "https://www.abc.net.au/news/2026-08-08/tour-de-france-femmes-new-leader-after-stage-seven/107012414",
+      "snippet": "",
+      "pubDate": "Fri, 07 Aug 2026 22:42:16 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Travis Head pips star duo to win second-straight Allan Border Medal",
       "link": "https://www.abc.net.au/news/2026-08-07/travis-head-wins-second-consecutive-allan-border-medal/107010836",
       "snippet": "",
@@ -7856,13 +7939,6 @@
       "link": "https://www.abc.net.au/news/2026-08-07/nrl-grants-perth-bears-salary-concessions/107009790",
       "snippet": "",
       "pubDate": "Fri, 07 Aug 2026 07:20:21 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "De Minaur haunted by Montreal Masters double-fault drama",
-      "link": "https://www.abc.net.au/news/2026-08-07/de-minaur-haunted-by-montreal-masters-double-fault-drama/107010090",
-      "snippet": "",
-      "pubDate": "Fri, 07 Aug 2026 05:40:56 +0000",
       "source": "ABC"
     },
     {
