@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-10T08:12:49.073Z",
+  "fetchedAt": "2026-08-10T13:54:32.758Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.89,
+      "changePercent": 1.63,
       "previousClose": 0.69,
       "asOf": "2026-08-10",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.71,
+      "changePercent": 0.61,
       "previousClose": 0.61,
       "asOf": "2026-08-10",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": 0.05,
-      "changePercent": 1.14,
+      "value": 4.74,
+      "change": 0.03,
+      "changePercent": 0.59,
       "previousClose": 4.72,
       "asOf": "2026-08-10",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.77
+          "close": 4.74
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.77
+          "close": 4.74
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.77
+          "close": 4.74
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.77
+          "close": 4.74
         }
       ]
     },
     "audjpy": {
-      "value": 112.08,
-      "change": -0.64,
-      "changePercent": -0.57,
+      "value": 112.2,
+      "change": -0.53,
+      "changePercent": -0.47,
       "previousClose": 112.72,
       "asOf": "2026-08-10",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.08
+          "close": 112.19
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.08
+          "close": 112.19
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.08
+          "close": 112.19
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.08
+          "close": 112.19
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.89,
+    "changePercent": 1.63,
     "previousClose": 0.69,
     "asOf": "2026-08-10",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 78.19,
-      "change": 6.78,
-      "changePercent": 9.49,
+      "value": 80.13,
+      "change": 8.72,
+      "changePercent": 12.21,
       "previousClose": 71.41,
       "asOf": "2026-08-10",
       "history": [
@@ -5838,16 +5838,16 @@
         },
         {
           "date": "2026-08-10",
-          "close": 78.19
+          "close": 80.13
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 83.73,
-      "change": 7.72,
-      "changePercent": 10.16,
+      "value": 85.65,
+      "change": 9.64,
+      "changePercent": 12.68,
       "previousClose": 76.01,
       "asOf": "2026-08-10",
       "history": [
@@ -5937,16 +5937,16 @@
         },
         {
           "date": "2026-08-10",
-          "close": 83.73
+          "close": 85.65
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.75,
-      "change": -0.19,
-      "changePercent": -6.39,
+      "value": 2.79,
+      "change": -0.15,
+      "changePercent": -4.97,
       "previousClose": 2.94,
       "asOf": "2026-08-10",
       "history": [
@@ -6036,7 +6036,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 2.75
+          "close": 2.79
         }
       ],
       "name": "Natural Gas",
@@ -7313,21 +7313,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4415,
-      "change": 310.9,
-      "changePercent": 7.58
+      "price": 4388.5,
+      "change": 284.4,
+      "changePercent": 6.93
     },
     {
       "name": "Silver",
-      "price": 64.5,
-      "change": 4.69,
-      "changePercent": 7.83
+      "price": 64.16,
+      "change": 4.35,
+      "changePercent": 7.27
     },
     {
       "name": "Copper",
-      "price": 6.65,
-      "change": 0.42,
-      "changePercent": 6.67
+      "price": 6.6,
+      "change": 0.37,
+      "changePercent": 5.94
     }
   ],
   "housing": {
@@ -7677,6 +7677,13 @@
       "source": "SMH"
     },
     {
+      "title": "Donald Trump, ‘Toxic Bob’ and the $3.1b patch of dirt near Dubbo",
+      "link": "https://www.smh.com.au/business/companies/donald-trump-toxic-bob-and-the-3-1b-patch-of-dirt-near-dubbo-20260810-p60mwq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A billionaire American mining financier and company chair who was handed a $560 million loan by the US government has a colourful, and successful, record.",
+      "pubDate": "Mon, 10 Aug 2026 19:30:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Kaiser digs deep at historic Victorian Maldon goldfield",
       "link": "https://www.smh.com.au/business/companies/kaiser-digs-deep-at-historic-victorian-maldon-goldfield-in-victoria-20260810-p60n11.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Gold producer Kaiser Reef has begun underground development at its historic Maldon project in Victoria, breaking new ground for the first time in nearly a decade.",
@@ -7684,17 +7691,24 @@
       "source": "SMH"
     },
     {
-      "title": "Why fears of a Japanese implosion have the world on edge",
-      "link": "https://www.smh.com.au/business/markets/trump-bought-japan-some-time-but-the-alarm-bells-are-ringing-20260810-p60mtw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The impact of last week’s historic intervention to prop up the yen is already fading. That signals risks for Japan, the US and the rest of the world.",
-      "pubDate": "Mon, 10 Aug 2026 11:59:51 +1000",
+      "title": "The 44-year-old working mother soon to lead the union movement",
+      "link": "https://www.smh.com.au/business/workplace/the-44-year-old-working-mother-soon-to-lead-the-union-movement-20260807-p60mg4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Melissa Donnelly, who has led the Community and Public Sector Union for seven years, will replace ACTU secretary Sally McManus at the end of August.",
+      "pubDate": "Mon, 10 Aug 2026 20:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Former championship winning team cut from A-Leagues",
+      "link": "https://www.abc.net.au/news/2026-08-10/western-united-cut-from-a-leagues/107021526",
+      "snippet": "",
+      "pubDate": "Mon, 10 Aug 2026 08:44:16 +0000",
+      "source": "ABC"
     },
     {
       "title": "KPMG chair-elect admits to sending ‘naive, embarrassing and wrong’ email",
       "link": "https://www.smh.com.au/business/companies/kpmg-chair-elect-admits-to-sending-naive-embarrassing-and-wrong-email-20260731-p60k9j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Former SBS chief Michael Ebeid has apologised for undermining allegations from a whistleblower at KPMG.",
-      "pubDate": "Mon, 10 Aug 2026 16:38:16 +1000",
+      "pubDate": "Mon, 10 Aug 2026 18:30:40 +1000",
       "source": "SMH"
     },
     {
@@ -7705,7 +7719,7 @@
       "source": "SMH"
     },
     {
-      "title": "‘Unacceptable’: Air traffic agency warned over Sydney airport chaos",
+      "title": "‘Unacceptable’: Air traffic agency warned over Sydney Airport chaos",
       "link": "https://www.smh.com.au/business/companies/air-traffic-control-chief-hauled-in-by-minister-after-days-of-airport-chaos-20260810-p60mux.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "There have been days of delays at the airport and two near misses within a fortnight after planes were given contradictory instructions by air traffic controllers.",
       "pubDate": "Mon, 10 Aug 2026 15:50:38 +1000",
@@ -7730,13 +7744,6 @@
       "link": "https://www.abc.net.au/news/2026-08-10/brian-to-o-to-leave-penrith-panthers-for-png-chiefs/107016412",
       "snippet": "",
       "pubDate": "Mon, 10 Aug 2026 01:30:22 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Yeo learns fate on pec in seismic moment for Panthers",
-      "link": "https://www.abc.net.au/news/2026-08-10/penrith-panthers-captain-isaah-yeo-avoids-serious-injury/107016236",
-      "snippet": "",
-      "pubDate": "Mon, 10 Aug 2026 01:04:52 +0000",
       "source": "ABC"
     }
   ]
