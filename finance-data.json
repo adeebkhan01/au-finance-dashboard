@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-10T13:54:32.758Z",
+  "fetchedAt": "2026-08-10T19:29:30.888Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.63,
+      "changePercent": 1.66,
       "previousClose": 0.69,
       "asOf": "2026-08-10",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.61,
+      "changePercent": 0.66,
       "previousClose": 0.61,
       "asOf": "2026-08-10",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": 0.03,
-      "changePercent": 0.59,
+      "value": 4.76,
+      "change": 0.05,
+      "changePercent": 1.01,
       "previousClose": 4.72,
       "asOf": "2026-08-10",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-08-10",
-          "close": 4.74
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.2,
-      "change": -0.53,
-      "changePercent": -0.47,
+      "value": 112.38,
+      "change": -0.34,
+      "changePercent": -0.3,
       "previousClose": 112.72,
       "asOf": "2026-08-10",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.19
+          "close": 112.38
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.19
+          "close": 112.38
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.19
+          "close": 112.38
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 112.19
+          "close": 112.38
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.63,
+    "changePercent": 1.66,
     "previousClose": 0.69,
     "asOf": "2026-08-10",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.13,
-      "change": 8.72,
-      "changePercent": 12.21,
+      "value": 81.86,
+      "change": 10.45,
+      "changePercent": 14.63,
       "previousClose": 71.41,
       "asOf": "2026-08-10",
       "history": [
@@ -5838,16 +5838,16 @@
         },
         {
           "date": "2026-08-10",
-          "close": 80.13
+          "close": 81.86
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.65,
-      "change": 9.64,
-      "changePercent": 12.68,
+      "value": 87.33,
+      "change": 11.32,
+      "changePercent": 14.89,
       "previousClose": 76.01,
       "asOf": "2026-08-10",
       "history": [
@@ -5937,7 +5937,7 @@
         },
         {
           "date": "2026-08-10",
-          "close": 85.65
+          "close": 87.33
         }
       ],
       "name": "Brent Crude",
@@ -5946,7 +5946,7 @@
     "gas": {
       "value": 2.79,
       "change": -0.15,
-      "changePercent": -4.97,
+      "changePercent": -5.24,
       "previousClose": 2.94,
       "asOf": "2026-08-10",
       "history": [
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-08-07",
         "close": 9263.6
-      },
-      {
-        "date": "2026-08-10",
-        "close": 9232.6
       }
     ]
   },
@@ -7313,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4388.5,
-      "change": 284.4,
-      "changePercent": 6.93
+      "price": 4442.1,
+      "change": 338,
+      "changePercent": 8.24
     },
     {
       "name": "Silver",
-      "price": 64.16,
-      "change": 4.35,
-      "changePercent": 7.27
+      "price": 66.05,
+      "change": 6.24,
+      "changePercent": 10.43
     },
     {
       "name": "Copper",
-      "price": 6.6,
-      "change": 0.37,
-      "changePercent": 5.94
+      "price": 6.63,
+      "change": 0.4,
+      "changePercent": 6.42
     }
   ],
   "housing": {
@@ -7663,6 +7659,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to dip on RBA day, Wall Street drifts; Oil rises on Hormuz uncertainty",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-dip-on-rba-day-wall-street-drifts-oil-rises-on-hormuz-uncertainty-20260811-p60n4f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is drifting near its all-time high, while oil prices rise on uncertainty about when the Strait of Hormuz could reopen and get the global flow of crude going again. The RBA announces its rates decision this afternoon.",
+      "pubDate": "Tue, 11 Aug 2026 05:18:17 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "How one David Jones supplier got paid when the others didn’t",
       "link": "https://www.smh.com.au/business/companies/how-one-david-jones-supplier-got-paid-when-the-others-didn-t-20260810-p60myn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Since David Jones declared that its business had turned the corner, consumer sentiment has fallen off a cliff, and suppliers still await payments.",
@@ -7670,10 +7673,10 @@
       "source": "SMH"
     },
     {
-      "title": "Dalaroo set for first drilling of three key Côte d’Ivoire gold targets",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-set-for-first-drilling-of-three-key-c-te-d-ivoire-gold-targets-20260810-p60n1b.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals is set to kick off a 12,000m maiden reverse circulation drilling campaign at its Bondoukou gold project in the West African gold hotspot of Côte d’Ivoire.",
-      "pubDate": "Mon, 10 Aug 2026 15:03:40 +1000",
+      "title": "Car insurance surged 50% in six years. Insurers don’t tell customers why",
+      "link": "https://www.smh.com.au/business/consumer-affairs/car-insurance-surged-50-percent-in-six-years-insurers-don-t-tell-customers-why-20260810-p60myu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Drivers are effectively being taxed for their loyalty to their insurers, the corporate regulator has found in an analysis of the sector.",
+      "pubDate": "Tue, 11 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7684,10 +7687,17 @@
       "source": "SMH"
     },
     {
-      "title": "Kaiser digs deep at historic Victorian Maldon goldfield",
-      "link": "https://www.smh.com.au/business/companies/kaiser-digs-deep-at-historic-victorian-maldon-goldfield-in-victoria-20260810-p60n11.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gold producer Kaiser Reef has begun underground development at its historic Maldon project in Victoria, breaking new ground for the first time in nearly a decade.",
-      "pubDate": "Mon, 10 Aug 2026 14:48:48 +1000",
+      "title": "Greyhound badly injured in race supporting Tasmanian industry",
+      "link": "https://www.abc.net.au/news/2026-08-11/tas-greyhound-injured-in-nsw-we-stand-with-tasmania-race/107016384",
+      "snippet": "",
+      "pubDate": "Mon, 10 Aug 2026 19:24:39 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘Breaking point’: Insiders say Australia’s air traffic control system is still a ‘boys’ club’",
+      "link": "https://www.smh.com.au/business/companies/breaking-point-insiders-say-australia-s-air-traffic-control-system-is-still-a-boys-club-20260810-p60mzn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Former employees and insiders say there is a deeper reason for the delays and dysfunction at Australia’s airports.",
+      "pubDate": "Tue, 11 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7719,13 +7729,6 @@
       "source": "SMH"
     },
     {
-      "title": "‘Unacceptable’: Air traffic agency warned over Sydney Airport chaos",
-      "link": "https://www.smh.com.au/business/companies/air-traffic-control-chief-hauled-in-by-minister-after-days-of-airport-chaos-20260810-p60mux.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "There have been days of delays at the airport and two near misses within a fortnight after planes were given contradictory instructions by air traffic controllers.",
-      "pubDate": "Mon, 10 Aug 2026 15:50:38 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Head aims to maintain opening spot ahead of busy 12 months",
       "link": "https://www.abc.net.au/news/2026-08-10/travis-head-opening-batsman-australia-bangladesh-cricket/107017076",
       "snippet": "",
@@ -7737,13 +7740,6 @@
       "link": "https://www.abc.net.au/news/2026-08-10/wnba-player-posts-white-privilege-after-being-ejected/107016658",
       "snippet": "",
       "pubDate": "Mon, 10 Aug 2026 02:30:35 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Chiefs sign premiership winger To'o away from Panthers",
-      "link": "https://www.abc.net.au/news/2026-08-10/brian-to-o-to-leave-penrith-panthers-for-png-chiefs/107016412",
-      "snippet": "",
-      "pubDate": "Mon, 10 Aug 2026 01:30:22 +0000",
       "source": "ABC"
     }
   ]
