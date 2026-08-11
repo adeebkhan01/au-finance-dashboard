@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-11T13:52:45.793Z",
+  "fetchedAt": "2026-08-11T19:34:05.017Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.81,
+      "changePercent": 1.73,
       "previousClose": 0.69,
       "asOf": "2026-08-11",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.77,
+      "changePercent": 0.72,
       "previousClose": 0.61,
       "asOf": "2026-08-11",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
+      "value": 4.76,
       "change": 0.05,
-      "changePercent": 1.05,
+      "changePercent": 0.98,
       "previousClose": 4.72,
       "asOf": "2026-08-11",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 4.77
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-08-11",
-          "close": 4.77
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.53,
-      "change": -0.19,
-      "changePercent": -0.17,
+      "value": 112.46,
+      "change": -0.26,
+      "changePercent": -0.23,
       "previousClose": 112.72,
       "asOf": "2026-08-11",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 112.53
+          "close": 112.46
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 112.53
+          "close": 112.46
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 112.53
+          "close": 112.46
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 112.53
+          "close": 112.46
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.81,
+    "changePercent": 1.73,
     "previousClose": 0.69,
     "asOf": "2026-08-11",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.61,
-      "change": 10.2,
-      "changePercent": 14.28,
+      "value": 83.4,
+      "change": 11.99,
+      "changePercent": 16.79,
       "previousClose": 71.41,
       "asOf": "2026-08-11",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-08-11",
-          "close": 81.61
+          "close": 83.4
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.09,
-      "change": 11.08,
-      "changePercent": 14.58,
+      "value": 89.07,
+      "change": 13.06,
+      "changePercent": 17.18,
       "previousClose": 76.01,
       "asOf": "2026-08-11",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-08-11",
-          "close": 87.09
+          "close": 89.07
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.8,
-      "change": -0.14,
-      "changePercent": -4.76,
+      "value": 2.77,
+      "change": -0.17,
+      "changePercent": -5.82,
       "previousClose": 2.94,
       "asOf": "2026-08-11",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-08-11",
-          "close": 2.8
+          "close": 2.77
         }
       ],
       "name": "Natural Gas",
@@ -6271,10 +6271,6 @@
       {
         "date": "2026-08-10",
         "close": 9232.6
-      },
-      {
-        "date": "2026-08-11",
-        "close": 9250.6
       }
     ]
   },
@@ -7373,21 +7369,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4459.5,
-      "change": 355.4,
-      "changePercent": 8.66
+      "price": 4425.8,
+      "change": 321.7,
+      "changePercent": 7.84
     },
     {
       "name": "Silver",
-      "price": 65.37,
-      "change": 5.56,
-      "changePercent": 9.3
+      "price": 64.82,
+      "change": 5.01,
+      "changePercent": 8.37
     },
     {
       "name": "Copper",
-      "price": 6.66,
-      "change": 0.42,
-      "changePercent": 6.82
+      "price": 6.63,
+      "change": 0.39,
+      "changePercent": 6.34
     }
   ],
   "housing": {
@@ -7730,6 +7726,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to slide, Wall Street retreats as oil rises on Hormuz uncertainty; CBA results ahead",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-retreats-as-oil-rises-on-hormuz-uncertainty-cba-results-ahead-20260812-p60nha.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are slipping below their records, while oil prices keep swinging on uncertainty about when the war with Iran will allow crude to flow freely again.",
+      "pubDate": "Wed, 12 Aug 2026 05:19:45 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Kuniko grabs NSW gold-silver project steering wheel",
       "link": "https://www.smh.com.au/business/companies/kuniko-grabs-nsw-gold-silver-project-steering-wheel-20260811-p60nf4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Kuniko Limited has secured a controlling 51 per cent interest in its NSW Commonwealth project after completing its A$1.5 million exploration earn-in more than a year ahead of schedule.",
@@ -7737,17 +7740,10 @@
       "source": "SMH"
     },
     {
-      "title": "Critical zeros in on NZ gold targets",
-      "link": "https://www.smh.com.au/business/companies/critical-zeros-in-on-nz-gold-targets-20260811-p60new.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critical Resources has narrowed the search for a potential New Zealand gold discovery after identifying multiple soil anomalies at Lammerlaw, including a peak 238ppm arsenic result.",
-      "pubDate": "Tue, 11 Aug 2026 16:35:01 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Aureka hits visible gold in new Vic zone",
-      "link": "https://www.smh.com.au/business/companies/aureka-hits-visible-gold-in-new-vic-zone-20260811-p60nel.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka has hit visible gold from just 18m deep at its Comstock project in Victoria, opening up a new target zone as it pushes towards near-term production with assays for the find expected in weeks.",
-      "pubDate": "Tue, 11 Aug 2026 16:13:10 +1000",
+      "title": "Shut down by algorithm: Small businesses suffer online nightmare",
+      "link": "https://www.smh.com.au/business/companies/shut-down-by-algorithm-small-businesses-suffer-online-nightmare-20260810-p60n1e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Small businesses are being switched off by online algorithms with no apparent human oversight, the small business ombudsman’s office says.",
+      "pubDate": "Wed, 12 Aug 2026 05:30:00 +1000",
       "source": "SMH"
     },
     {
@@ -7765,10 +7761,10 @@
       "source": "SMH"
     },
     {
-      "title": "It’s not just Gina Rinehart who failed to make a killing on SpaceX",
-      "link": "https://www.smh.com.au/business/companies/it-s-not-just-gina-rinehart-who-failed-to-make-a-killing-on-spacex-20260811-p60n8h.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "For the 28,000-plus Australian mum and dad punters, there hasn’t been much joy or excitement in the return on their investment.",
-      "pubDate": "Tue, 11 Aug 2026 15:32:46 +1000",
+      "title": "The humiliation of KPMG’s lawyers is almost complete",
+      "link": "https://www.smh.com.au/business/companies/the-humiliation-of-kpmg-s-lawyers-is-almost-complete-20260811-p60n94.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "If Allens and Ashurst end up going down with the consulting firm’s ship, they will have only themselves to blame.",
+      "pubDate": "Wed, 12 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
