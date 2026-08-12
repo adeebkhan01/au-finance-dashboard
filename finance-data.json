@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-12T13:56:00.702Z",
+  "fetchedAt": "2026-08-12T19:35:49.359Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 2.07,
+      "changePercent": 1.73,
       "previousClose": 0.69,
       "asOf": "2026-08-12",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0.01,
-      "changePercent": 0.99,
+      "changePercent": 0.92,
       "previousClose": 0.61,
       "asOf": "2026-08-12",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.78,
-      "change": 0.06,
-      "changePercent": 1.27,
+      "value": 4.76,
+      "change": 0.05,
+      "changePercent": 0.96,
       "previousClose": 4.72,
       "asOf": "2026-08-12",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.78
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.78
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.78
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.78
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.63,
-      "change": -0.09,
-      "changePercent": -0.08,
+      "value": 112.62,
+      "change": -0.1,
+      "changePercent": -0.09,
       "previousClose": 112.72,
       "asOf": "2026-08-12",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.63
+          "close": 112.62
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.63
+          "close": 112.62
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.63
+          "close": 112.62
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.63
+          "close": 112.62
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 2.07,
+    "changePercent": 1.73,
     "previousClose": 0.69,
     "asOf": "2026-08-12",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.78,
-      "change": 4.64,
-      "changePercent": 5.94,
+      "value": 83.08,
+      "change": 4.94,
+      "changePercent": 6.32,
       "previousClose": 78.14,
       "asOf": "2026-08-12",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-08-12",
-          "close": 82.78
+          "close": 83.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.47,
-      "change": 5.17,
-      "changePercent": 6.21,
+      "value": 88.81,
+      "change": 5.51,
+      "changePercent": 6.61,
       "previousClose": 83.3,
       "asOf": "2026-08-12",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-08-12",
-          "close": 88.47
+          "close": 88.81
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.8,
+      "value": 2.79,
       "change": -0.1,
-      "changePercent": -3.38,
+      "changePercent": -3.59,
       "previousClose": 2.9,
       "asOf": "2026-08-12",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 2.8
+          "close": 2.79
         }
       ],
       "name": "Natural Gas",
@@ -6307,10 +6307,6 @@
       {
         "date": "2026-08-11",
         "close": 9250.6
-      },
-      {
-        "date": "2026-08-12",
-        "close": 9209.4
       }
     ]
   },
@@ -7441,21 +7437,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4479.5,
-      "change": 482.5,
-      "changePercent": 12.07
+      "price": 4476.8,
+      "change": 479.8,
+      "changePercent": 12
     },
     {
       "name": "Silver",
-      "price": 66.02,
-      "change": 8.38,
-      "changePercent": 14.54
+      "price": 65.72,
+      "change": 8.09,
+      "changePercent": 14.04
     },
     {
       "name": "Copper",
-      "price": 6.66,
-      "change": 0.42,
-      "changePercent": 6.77
+      "price": 6.62,
+      "change": 0.38,
+      "changePercent": 6.13
     }
   ],
   "housing": {
@@ -7798,6 +7794,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to slide, Wall Street boosted by AI stocks, inflation report",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-boosted-by-ai-stocks-inflation-report-20260813-p60nvc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street is flirting with a record after several AI stocks reported better growth for the spring than analysts expected, while a report showed inflation across the United States was slightly less bad last month.",
+      "pubDate": "Thu, 13 Aug 2026 05:15:13 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "New mortgage applications slumped 15% at CBA, but the numbers are worse for one group",
       "link": "https://www.smh.com.au/business/banking-and-finance/cba-profits-hit-11-billion-dividend-raised-20260811-p60nbn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Australia’s largest bank has reported a sharp drop in applications from housing investors, as the housing slump puts the brakes on the $2.5 trillion mortgage market.",
@@ -7805,17 +7808,10 @@
       "source": "SMH"
     },
     {
-      "title": "Is it time to buy a house? Here is what the CBA chief would tell his kids",
-      "link": "https://www.smh.com.au/business/the-economy/is-it-time-to-buy-a-house-here-is-what-the-cba-chief-would-tell-his-kids-20260812-p60nn6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "First home buyers are approaching the sweet spot where prices are falling, rates are no longer rising, and a new batch of spring property listings is about to hit the market.",
-      "pubDate": "Wed, 12 Aug 2026 15:39:05 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Great Southern drills new WA gold discovery",
-      "link": "https://www.smh.com.au/business/companies/great-southern-drills-new-wa-gold-discovery-20260812-p60ns1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Great Southern Mining has kicked off a maiden RC drill program at its 4.7km-long Amy Clarke discovery in WA. The news comes as gold major Gold Fields drills the company’s QLD copper-gold project.",
-      "pubDate": "Wed, 12 Aug 2026 16:17:08 +1000",
+      "title": "How much is a job worth? At Tomago, it’s $2.5 million in taxpayer cash",
+      "link": "https://www.smh.com.au/business/markets/how-much-is-a-job-worth-at-tomago-it-s-2-5-million-in-taxpayer-cash-20260812-p60nt3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Albanese government has scarcely met an ageing industrial facility that it doesn’t think deserves vast sums of federal support.",
+      "pubDate": "Thu, 13 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
