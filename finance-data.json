@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-12T07:58:39.159Z",
+  "fetchedAt": "2026-08-12T13:56:00.702Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.67,
+      "changePercent": 2.07,
       "previousClose": 0.69,
       "asOf": "2026-08-12",
       "history": [
@@ -1129,8 +1129,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0,
-      "changePercent": 0.72,
+      "change": 0.01,
+      "changePercent": 0.99,
       "previousClose": 0.61,
       "asOf": "2026-08-12",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": 0.03,
-      "changePercent": 0.65,
+      "value": 4.78,
+      "change": 0.06,
+      "changePercent": 1.27,
       "previousClose": 4.72,
       "asOf": "2026-08-12",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.75
+          "close": 4.78
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.75
+          "close": 4.78
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.75
+          "close": 4.78
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.75
+          "close": 4.78
         }
       ]
     },
     "audjpy": {
-      "value": 112.49,
-      "change": -0.24,
-      "changePercent": -0.21,
+      "value": 112.63,
+      "change": -0.09,
+      "changePercent": -0.08,
       "previousClose": 112.72,
       "asOf": "2026-08-12",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.49
+          "close": 112.63
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.48
+          "close": 112.63
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.49
+          "close": 112.63
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 112.48
+          "close": 112.63
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.67,
+    "changePercent": 2.07,
     "previousClose": 0.69,
     "asOf": "2026-08-12",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 83.87,
-      "change": 5.73,
-      "changePercent": 7.33,
+      "value": 82.78,
+      "change": 4.64,
+      "changePercent": 5.94,
       "previousClose": 78.14,
       "asOf": "2026-08-12",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-08-12",
-          "close": 83.87
+          "close": 82.78
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 89.49,
-      "change": 6.19,
-      "changePercent": 7.43,
+      "value": 88.47,
+      "change": 5.17,
+      "changePercent": 6.21,
       "previousClose": 83.3,
       "asOf": "2026-08-12",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-08-12",
-          "close": 89.49
+          "close": 88.47
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.79,
-      "change": -0.11,
-      "changePercent": -3.87,
+      "value": 2.8,
+      "change": -0.1,
+      "changePercent": -3.38,
       "previousClose": 2.9,
       "asOf": "2026-08-12",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-08-12",
-          "close": 2.79
+          "close": 2.8
         }
       ],
       "name": "Natural Gas",
@@ -7441,21 +7441,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4468.5,
-      "change": 471.5,
-      "changePercent": 11.8
+      "price": 4479.5,
+      "change": 482.5,
+      "changePercent": 12.07
     },
     {
       "name": "Silver",
-      "price": 66.25,
-      "change": 8.62,
-      "changePercent": 14.95
+      "price": 66.02,
+      "change": 8.38,
+      "changePercent": 14.54
     },
     {
       "name": "Copper",
-      "price": 6.67,
-      "change": 0.44,
-      "changePercent": 7
+      "price": 6.66,
+      "change": 0.42,
+      "changePercent": 6.77
     }
   ],
   "housing": {
@@ -7819,25 +7819,25 @@
       "source": "SMH"
     },
     {
-      "title": "Moonlight pushes QLD gold system length past 1km",
-      "link": "https://www.smh.com.au/business/companies/moonlight-pushes-qld-gold-system-length-past-1km-20260812-p60nr9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Moonlight Resources’ Leo Grande gold system now extends over 1km of strike after its latest drilling returned broad gold hits including 19m at 1.95 grams per tonne gold.",
-      "pubDate": "Wed, 12 Aug 2026 15:37:55 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "'Rude to say no': All Blacks icon performs solo haka against current team",
-      "link": "https://www.abc.net.au/news/2026-08-12/rugby-union-maa-nonu-performs-solo-haka-against-all-blacks/107026912",
-      "snippet": "",
-      "pubDate": "Tue, 11 Aug 2026 23:08:06 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Former SBS boss named KPMG chairman after humiliating week",
+      "title": "Former RBA governor dragged into KPMG scandal",
       "link": "https://www.smh.com.au/business/companies/former-sbs-boss-named-kpmg-chairman-after-humiliating-week-20260812-p60nnq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Michael Ebeid has become the firm’s first independent chairman, but faces another stormy hearing in Canberra over the whistleblower scandal.",
-      "pubDate": "Wed, 12 Aug 2026 17:55:04 +1000",
+      "snippet": "The former RBA governor and Macquarie chairman has been called before a parliamentary committee over a massive KPMG contract win.",
+      "pubDate": "Wed, 12 Aug 2026 19:25:39 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "‘Defining moment’: Food delivery drivers secure minimum hourly wage",
+      "link": "https://www.smh.com.au/business/workplace/defining-moment-food-delivery-drivers-secure-minimum-hourly-wage-20260812-p60njt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "After years of negotiations, workers delivering for platforms such as Uber Eats and DoorDash will now have a legally enforced minimum wage of $31.30 per hour.",
+      "pubDate": "Wed, 12 Aug 2026 18:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Ex-Wallabies, league star Brian Smith dies of cancer",
+      "link": "https://www.abc.net.au/news/2026-08-12/ex-wallabies-league-star-brian-smith-dies-of-cancer/107030326",
+      "snippet": "",
+      "pubDate": "Wed, 12 Aug 2026 08:31:38 +0000",
+      "source": "ABC"
     },
     {
       "title": "‘One disaster after another’: Failed pub baron’s former accountant turns on him",
