@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-13T08:00:12.645Z",
+  "fetchedAt": "2026-08-13T13:56:33.006Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.57,
+      "changePercent": 1.71,
       "previousClose": 0.69,
       "asOf": "2026-08-13",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.44,
+      "changePercent": 0.51,
       "previousClose": 0.61,
       "asOf": "2026-08-13",
       "history": [
@@ -2264,7 +2264,7 @@
     "audcny": {
       "value": 4.74,
       "change": 0.04,
-      "changePercent": 0.77,
+      "changePercent": 0.87,
       "previousClose": 4.7,
       "asOf": "2026-08-13",
       "history": [
@@ -3392,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.33,
-      "change": -0.04,
-      "changePercent": -0.03,
+      "value": 112.42,
+      "change": 0.05,
+      "changePercent": 0.04,
       "previousClose": 112.37,
       "asOf": "2026-08-13",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.33
+          "close": 112.42
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.33
+          "close": 112.42
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.33
+          "close": 112.42
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.33
+          "close": 112.42
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.57,
+    "changePercent": 1.71,
     "previousClose": 0.69,
     "asOf": "2026-08-13",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.14,
-      "change": 4,
-      "changePercent": 5.12,
+      "value": 81.16,
+      "change": 3.02,
+      "changePercent": 3.86,
       "previousClose": 78.14,
       "asOf": "2026-08-13",
       "history": [
@@ -5946,16 +5946,16 @@
         },
         {
           "date": "2026-08-13",
-          "close": 82.14
+          "close": 81.16
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.79,
-      "change": 4.49,
-      "changePercent": 5.39,
+      "value": 86.95,
+      "change": 3.65,
+      "changePercent": 4.38,
       "previousClose": 83.3,
       "asOf": "2026-08-13",
       "history": [
@@ -6053,16 +6053,16 @@
         },
         {
           "date": "2026-08-13",
-          "close": 87.79
+          "close": 86.95
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.8,
-      "change": -0.1,
-      "changePercent": -3.49,
+      "value": 2.74,
+      "change": -0.15,
+      "changePercent": -5.28,
       "previousClose": 2.9,
       "asOf": "2026-08-13",
       "history": [
@@ -6160,7 +6160,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 2.8
+          "close": 2.74
         }
       ],
       "name": "Natural Gas",
@@ -6277,6 +6277,14 @@
         "close": 8791.3
       },
       {
+        "date": "2026-07-21",
+        "close": 8793.3
+      },
+      {
+        "date": "2026-07-22",
+        "close": 8823
+      },
+      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6299,6 +6307,10 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
+      },
+      {
+        "date": "2026-07-31",
+        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -7497,21 +7509,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4428,
-      "change": 431,
-      "changePercent": 10.78
+      "price": 4433.1,
+      "change": 436.1,
+      "changePercent": 10.91
     },
     {
       "name": "Silver",
-      "price": 64.66,
-      "change": 7.02,
-      "changePercent": 12.18
+      "price": 65.1,
+      "change": 7.46,
+      "changePercent": 12.95
     },
     {
       "name": "Copper",
-      "price": 6.51,
-      "change": 0.28,
-      "changePercent": 4.48
+      "price": 6.63,
+      "change": 0.39,
+      "changePercent": 6.29
     }
   ],
   "housing": {
@@ -7875,10 +7887,31 @@
       "source": "SMH"
     },
     {
-      "title": "How a 1mm error had Supercars champ driving a slower car all season",
-      "link": "https://www.abc.net.au/news/2026-08-13/red-bull-supercars-will-brown-engine-fault/107031324",
+      "title": "Gardner breaks silence on affair with teammate, retains vice-captaincy",
+      "link": "https://www.abc.net.au/news/2026-08-13/cricket-gardner-breaks-silence-marriage-breakdown-affair-voll/107035306",
       "snippet": "",
-      "pubDate": "Wed, 12 Aug 2026 22:53:04 +0000",
+      "pubDate": "Thu, 13 Aug 2026 09:12:12 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Virgin plane aborts take-off as Qantas plane crosses Sydney runway",
+      "link": "https://www.smh.com.au/business/companies/virgin-plane-aborts-take-off-as-qantas-plane-crosses-sydney-runway-20260813-p60o6u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The incident, also involving a Qantas 737, is the third such occurrence in Sydney airport in under three weeks, with links to air traffic control.",
+      "pubDate": "Thu, 13 Aug 2026 18:55:47 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘No information, nothing’: Nick Scali scrambles after cyberattack",
+      "link": "https://www.smh.com.au/business/companies/no-information-nothing-nick-scali-scrambles-after-cyberattack-20260813-p60o6v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Frustrated customers have been left in the dark about deliveries that never arrived after the furniture seller took its systems down following a cyberattack last week.",
+      "pubDate": "Thu, 13 Aug 2026 18:41:39 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Quick hits: A 'peanut' jibe, a Starc record and a brain explosion",
+      "link": "https://www.abc.net.au/news/2026-08-13/australia-vs-bangladesh-quick-hits-day-one/107029612",
+      "snippet": "",
+      "pubDate": "Thu, 13 Aug 2026 08:23:18 +0000",
       "source": "ABC"
     },
     {
@@ -7896,13 +7929,6 @@
       "source": "ABC"
     },
     {
-      "title": "‘Alarm bells ringing’: You can soon pay for a coffee with your face. Should you?",
-      "link": "https://www.smh.com.au/business/consumer-affairs/alarm-bells-ringing-you-can-soon-pay-for-a-coffee-with-your-face-should-you-20260811-p60ngx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Eftpos operator Verifone is rolling out new payment terminals that can identify you through your face or hands.",
-      "pubDate": "Thu, 13 Aug 2026 12:57:20 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Hulking prop set to be 1,000th Wallaby as Kiss reshuffles deck",
       "link": "https://www.abc.net.au/news/2026-08-13/wallabies-team-japan-second-test-1000-cap/107027200",
       "snippet": "",
@@ -7910,24 +7936,10 @@
       "source": "ABC"
     },
     {
-      "title": "It might terrify Gen Z, but the humble phone call is a wonderful thing",
-      "link": "https://www.smh.com.au/business/workplace/it-might-terrify-gen-z-but-the-humble-phone-call-is-a-wonderful-thing-20260813-p60o1p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Many people now use their phones for everything except speaking to each other, and baulk at the idea of it ever ringing.",
-      "pubDate": "Thu, 13 Aug 2026 12:42:58 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Cunningham's trans stance opens WNBA up to its latest hijacking atempt",
       "link": "https://www.abc.net.au/news/2026-08-13/sophie-cunningham-trans-comments-wnba-attack-analysis/107023100",
       "snippet": "",
       "pubDate": "Thu, 13 Aug 2026 02:03:03 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Live: Bangladesh batters putting Australia to the sword in humbling day",
-      "link": "https://www.abc.net.au/news/2026-08-13/live-updates-australia-vs-bangladesh-first-test-day-one/107021750",
-      "snippet": "",
-      "pubDate": "Wed, 12 Aug 2026 23:58:11 +0000",
       "source": "ABC"
     }
   ]
