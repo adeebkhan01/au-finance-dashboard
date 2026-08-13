@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-13T13:56:33.006Z",
+  "fetchedAt": "2026-08-13T19:33:36.673Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.71,
+      "changePercent": 1.73,
       "previousClose": 0.69,
       "asOf": "2026-08-13",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.51,
+      "changePercent": 0.56,
       "previousClose": 0.61,
       "asOf": "2026-08-13",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": 0.04,
-      "changePercent": 0.87,
+      "value": 4.76,
+      "change": 0.06,
+      "changePercent": 1.29,
       "previousClose": 4.7,
       "asOf": "2026-08-13",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 4.74
+          "close": 4.76
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-08-13",
-          "close": 4.74
+          "close": 4.76
         }
       ]
     },
     "audjpy": {
-      "value": 112.42,
-      "change": 0.05,
-      "changePercent": 0.04,
+      "value": 112.59,
+      "change": 0.22,
+      "changePercent": 0.2,
       "previousClose": 112.37,
       "asOf": "2026-08-13",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.42
+          "close": 112.59
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.42
+          "close": 112.59
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.42
+          "close": 112.59
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 112.42
+          "close": 112.59
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.71,
+    "changePercent": 1.73,
     "previousClose": 0.69,
     "asOf": "2026-08-13",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.16,
-      "change": 3.02,
-      "changePercent": 3.86,
+      "value": 81.23,
+      "change": 3.09,
+      "changePercent": 3.95,
       "previousClose": 78.14,
       "asOf": "2026-08-13",
       "history": [
@@ -5946,16 +5946,16 @@
         },
         {
           "date": "2026-08-13",
-          "close": 81.16
+          "close": 81.23
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 86.95,
-      "change": 3.65,
-      "changePercent": 4.38,
+      "value": 87.14,
+      "change": 3.84,
+      "changePercent": 4.61,
       "previousClose": 83.3,
       "asOf": "2026-08-13",
       "history": [
@@ -6053,16 +6053,16 @@
         },
         {
           "date": "2026-08-13",
-          "close": 86.95
+          "close": 87.14
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.74,
-      "change": -0.15,
-      "changePercent": -5.28,
+      "value": 2.73,
+      "change": -0.17,
+      "changePercent": -5.83,
       "previousClose": 2.9,
       "asOf": "2026-08-13",
       "history": [
@@ -6160,7 +6160,7 @@
         },
         {
           "date": "2026-08-13",
-          "close": 2.74
+          "close": 2.73
         }
       ],
       "name": "Natural Gas",
@@ -6277,14 +6277,6 @@
         "close": 8791.3
       },
       {
-        "date": "2026-07-21",
-        "close": 8793.3
-      },
-      {
-        "date": "2026-07-22",
-        "close": 8823
-      },
-      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6307,10 +6299,6 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
-      },
-      {
-        "date": "2026-07-31",
-        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -6343,10 +6331,6 @@
       {
         "date": "2026-08-12",
         "close": 9209.4
-      },
-      {
-        "date": "2026-08-13",
-        "close": 9188.5
       }
     ]
   },
@@ -7509,21 +7493,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4433.1,
-      "change": 436.1,
-      "changePercent": 10.91
+      "price": 4405.8,
+      "change": 408.8,
+      "changePercent": 10.23
     },
     {
       "name": "Silver",
-      "price": 65.1,
-      "change": 7.46,
-      "changePercent": 12.95
+      "price": 64.49,
+      "change": 6.86,
+      "changePercent": 11.9
     },
     {
       "name": "Copper",
-      "price": 6.63,
-      "change": 0.39,
-      "changePercent": 6.29
+      "price": 6.58,
+      "change": 0.35,
+      "changePercent": 5.61
     }
   ],
   "housing": {
@@ -7859,10 +7843,17 @@
   ],
   "news": [
     {
-      "title": "AI boom a copper boon, not a bust",
-      "link": "https://www.smh.com.au/business/companies/ai-boom-a-copper-boon-not-a-bust-20260813-p60o58.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The rise of AI is driving a huge new demand for copper to power its energy-hungry data centres, despite the increasing use of fibre optics to carry data.",
-      "pubDate": "Thu, 13 Aug 2026 16:05:17 +1000",
+      "title": "ASX set to retreat; Wall Street climbs as oil prices drop, inflation eases",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-retreat-wall-street-climbs-as-oil-prices-drop-inflation-eases-20260814-p60o8n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is ticking toward an all-time high following the latest sign that inflation is getting less bad. Stocks also got a lift from easing oil prices in their latest yo-yo move.",
+      "pubDate": "Fri, 14 Aug 2026 05:12:19 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "This pub last changed hands during a gold-rush card game. Now it’s for sale for the first time in 165 years",
+      "link": "https://www.smh.com.au/business/small-business/this-pub-last-changed-hands-during-a-gold-rush-card-game-now-it-s-for-sale-for-the-first-time-in-165-years-20260813-p60o2r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Gold fossickers and a publican were playing cards. At the end of the game, the pub owner lost the hand, and his pub.",
+      "pubDate": "Fri, 14 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7873,17 +7864,17 @@
       "source": "ABC"
     },
     {
-      "title": "From petri dish to patient:biotech’s formidable obstacle course",
-      "link": "https://www.smh.com.au/business/companies/from-petri-dish-to-patient-biotech-s-formidable-obstacle-course-20260813-p60o69.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Bulls N’ Bears follows a biotech breakthrough from the laboratory to the patient and examines how Australian companies are negotiating the hurdles along the way.",
-      "pubDate": "Thu, 13 Aug 2026 17:04:16 +1000",
+      "title": "My boss said I was ‘emotional’ when I asked for a pay rise. Is that fair?",
+      "link": "https://www.smh.com.au/business/workplace/my-boss-said-i-was-emotional-when-i-asked-for-a-pay-rise-is-that-fair-20260813-p60o1w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Apart from being disastrously unprofessional, it strikes me as the ad hominem attack of a person who has nothing to support their main contention.",
+      "pubDate": "Fri, 14 Aug 2026 05:15:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Vic inquiry supports building-integrated solar power for apartments",
-      "link": "https://www.smh.com.au/business/companies/vic-inquiry-supports-building-integrated-solar-power-for-apartments-20260813-p60o3k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A recent Victorian parliamentary inquiry has given the nod to the use of solar photovoltaics in apartment buildings, citing evidence provided by ClearVue Technologies",
-      "pubDate": "Thu, 13 Aug 2026 14:40:05 +1000",
+      "title": "Tomago’s $2.5 billion rescue reignites debate over taxpayer bailouts",
+      "link": "https://www.smh.com.au/business/the-economy/tomago-s-2-5-billion-rescue-reignites-debate-over-taxpayer-bailouts-20260813-p60o2i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The $2.5 billion taxpayer rescue of Australia’s largest aluminium smelter has raised questions over whether public funds are backing uncompetitive manufacturers.",
+      "pubDate": "Fri, 14 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7913,13 +7904,6 @@
       "snippet": "",
       "pubDate": "Thu, 13 Aug 2026 08:23:18 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Proteomics secures Australian patent for endometriosis test",
-      "link": "https://www.smh.com.au/business/companies/proteomics-secures-australian-patent-for-endometriosis-test-20260813-p60o4d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Proteomics International has locked in a key Australian patent for its PromarkerEndo test, a significant step in its global commercialisation strategy for the endometriosis diagnostic.",
-      "pubDate": "Thu, 13 Aug 2026 15:04:51 +1000",
-      "source": "SMH"
     },
     {
       "title": "Solomon rubbishes rumours of rifts with Essendon coaching candidates",
