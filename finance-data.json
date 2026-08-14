@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-14T13:51:59.561Z",
+  "fetchedAt": "2026-08-14T19:28:14.233Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.02,
-      "changePercent": 2.54,
+      "changePercent": 2.43,
       "previousClose": 0.69,
       "asOf": "2026-08-14",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.71,
+      "changePercent": 0.74,
       "previousClose": 0.61,
       "asOf": "2026-08-14",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.78,
-      "change": 0.09,
-      "changePercent": 1.94,
+      "value": 4.77,
+      "change": 0.08,
+      "changePercent": 1.79,
       "previousClose": 4.69,
       "asOf": "2026-08-14",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.78
+          "close": 4.77
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.78
+          "close": 4.77
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.78
+          "close": 4.77
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.78
+          "close": 4.77
         }
       ]
     },
     "audjpy": {
-      "value": 112.67,
-      "change": 0.31,
-      "changePercent": 0.27,
+      "value": 112.89,
+      "change": 0.53,
+      "changePercent": 0.47,
       "previousClose": 112.36,
       "asOf": "2026-08-14",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.67
+          "close": 112.89
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.67
+          "close": 112.89
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.67
+          "close": 112.89
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.66
+          "close": 112.89
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.02,
-    "changePercent": 2.54,
+    "changePercent": 2.43,
     "previousClose": 0.69,
     "asOf": "2026-08-14",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.9,
-      "change": 1.56,
-      "changePercent": 1.97,
+      "value": 82.3,
+      "change": 2.96,
+      "changePercent": 3.73,
       "previousClose": 79.34,
       "asOf": "2026-08-14",
       "history": [
@@ -5926,16 +5926,16 @@
         },
         {
           "date": "2026-08-14",
-          "close": 80.9
+          "close": 82.3
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 86.68,
-      "change": 1.95,
-      "changePercent": 2.3,
+      "value": 88.51,
+      "change": 3.78,
+      "changePercent": 4.46,
       "previousClose": 84.73,
       "asOf": "2026-08-14",
       "history": [
@@ -6033,16 +6033,16 @@
         },
         {
           "date": "2026-08-14",
-          "close": 86.68
+          "close": 88.51
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.76,
-      "change": -0.14,
-      "changePercent": -4.89,
+      "value": 2.72,
+      "change": -0.18,
+      "changePercent": -6.3,
       "previousClose": 2.9,
       "asOf": "2026-08-14",
       "history": [
@@ -6140,7 +6140,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 2.76
+          "close": 2.72
         }
       ],
       "name": "Natural Gas",
@@ -6323,10 +6323,6 @@
       {
         "date": "2026-08-13",
         "close": 9188.5
-      },
-      {
-        "date": "2026-08-14",
-        "close": 9115.2
       }
     ]
   },
@@ -7489,21 +7485,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4449.3,
-      "change": 388.2,
-      "changePercent": 9.56
+      "price": 4432,
+      "change": 370.9,
+      "changePercent": 9.13
     },
     {
       "name": "Silver",
-      "price": 65.5,
-      "change": 6.73,
-      "changePercent": 11.45
+      "price": 64.89,
+      "change": 6.12,
+      "changePercent": 10.41
     },
     {
       "name": "Copper",
-      "price": 6.61,
-      "change": 0.28,
-      "changePercent": 4.38
+      "price": 6.6,
+      "change": 0.27,
+      "changePercent": 4.31
     }
   ],
   "housing": {
@@ -7853,13 +7849,6 @@
       "source": "SMH"
     },
     {
-      "title": "Kuniko drilling flags NSW resource growth",
-      "link": "https://www.smh.com.au/business/companies/kuniko-drilling-flags-nsw-resource-growth-20260814-p60oel.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Kuniko’s drilling has extended its Silica Hill silver-gold system in NSW by 100m. The new holes hit visible sulphides up-dip and down-dip of a previous bonanza hit, flagging potential for resource growth.",
-      "pubDate": "Fri, 14 Aug 2026 13:05:06 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Trump is steering America towards a financial crisis",
       "link": "https://www.smh.com.au/business/the-economy/trump-is-steering-america-towards-a-financial-crisis-20260812-p60nhk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Donald Trump could trigger a disaster as markets lose faith in Washington’s economic management.",
@@ -7874,18 +7863,25 @@
       "source": "SMH"
     },
     {
-      "title": "Accelerate Resources opens second front with rich WA manganese play",
-      "link": "https://www.smh.com.au/business/companies/accelerate-resources-opens-second-front-with-rich-wa-manganese-play-20260814-p60oew.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Accelerate Resources is turning heads with a dual-commodity strategy, pairing its Kalgoorlie gold assets with a high-grade manganese discovery in the Pilbara.",
-      "pubDate": "Fri, 14 Aug 2026 13:10:23 +1000",
+      "title": "AI is the opposite of a painkiller … at least for now",
+      "link": "https://www.smh.com.au/business/the-economy/ai-is-the-opposite-of-a-painkiller-at-least-for-now-20260810-p60n32.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We like to think AI will solve some of our biggest problems. Here’s how it’ll probably make things worse before making things better.",
+      "pubDate": "Sat, 15 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "This pub last changed hands during a gold-rush card game. Now it’s for sale for the first time in 165 years",
-      "link": "https://www.smh.com.au/business/small-business/this-pub-last-changed-hands-during-a-gold-rush-card-game-now-it-s-for-sale-for-the-first-time-in-165-years-20260813-p60o2r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gold fossickers and a publican were playing cards. At the end of the game, the pub owner lost the hand, and his pub.",
-      "pubDate": "Fri, 14 Aug 2026 14:41:09 +1000",
+      "title": "Sydney Airport has had three close calls in as many weeks. The first big problem is clear",
+      "link": "https://www.smh.com.au/business/companies/sydney-airport-has-had-three-close-calls-in-as-many-weeks-the-first-big-problem-is-clear-20260811-p60nc8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Ground delays have become a feature in recent years, even as the number of hold-ups that can be blamed on staffing have fallen.",
+      "pubDate": "Sat, 15 Aug 2026 05:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "What went wrong for the Suns this year and how 2027 can be much better",
+      "link": "https://www.abc.net.au/news/2026-08-15/afl-what-went-wrong-for-the-suns-in-2026/107037598",
+      "snippet": "",
+      "pubDate": "Fri, 14 Aug 2026 18:44:06 +0000",
+      "source": "ABC"
     },
     {
       "title": "Freo locks up minor premiership after downing Crows in thriller",
