@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-14T07:56:55.014Z",
+  "fetchedAt": "2026-08-14T13:51:59.561Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.02,
-      "changePercent": 2.27,
+      "changePercent": 2.54,
       "previousClose": 0.69,
       "asOf": "2026-08-14",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.74,
+      "changePercent": 0.71,
       "previousClose": 0.61,
       "asOf": "2026-08-14",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": 0.08,
-      "changePercent": 1.64,
+      "value": 4.78,
+      "change": 0.09,
+      "changePercent": 1.94,
       "previousClose": 4.69,
       "asOf": "2026-08-14",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.77
+          "close": 4.78
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.77
+          "close": 4.78
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.77
+          "close": 4.78
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-08-14",
-          "close": 4.77
+          "close": 4.78
         }
       ]
     },
     "audjpy": {
-      "value": 112.6,
-      "change": 0.24,
-      "changePercent": 0.21,
+      "value": 112.67,
+      "change": 0.31,
+      "changePercent": 0.27,
       "previousClose": 112.36,
       "asOf": "2026-08-14",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.6
+          "close": 112.67
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.6
+          "close": 112.67
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.6
+          "close": 112.67
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 112.6
+          "close": 112.66
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.02,
-    "changePercent": 2.27,
+    "changePercent": 2.54,
     "previousClose": 0.69,
     "asOf": "2026-08-14",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.76,
-      "change": 3.42,
-      "changePercent": 4.31,
+      "value": 80.9,
+      "change": 1.56,
+      "changePercent": 1.97,
       "previousClose": 79.34,
       "asOf": "2026-08-14",
       "history": [
@@ -5926,16 +5926,16 @@
         },
         {
           "date": "2026-08-14",
-          "close": 82.76
+          "close": 80.9
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.41,
-      "change": 3.68,
-      "changePercent": 4.34,
+      "value": 86.68,
+      "change": 1.95,
+      "changePercent": 2.3,
       "previousClose": 84.73,
       "asOf": "2026-08-14",
       "history": [
@@ -6033,16 +6033,16 @@
         },
         {
           "date": "2026-08-14",
-          "close": 88.41
+          "close": 86.68
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.75,
-      "change": -0.15,
-      "changePercent": -5.27,
+      "value": 2.76,
+      "change": -0.14,
+      "changePercent": -4.89,
       "previousClose": 2.9,
       "asOf": "2026-08-14",
       "history": [
@@ -6140,7 +6140,7 @@
         },
         {
           "date": "2026-08-14",
-          "close": 2.75
+          "close": 2.76
         }
       ],
       "name": "Natural Gas",
@@ -6253,6 +6253,14 @@
         "close": 8791.3
       },
       {
+        "date": "2026-07-21",
+        "close": 8793.3
+      },
+      {
+        "date": "2026-07-22",
+        "close": 8823
+      },
+      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6275,6 +6283,10 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
+      },
+      {
+        "date": "2026-07-31",
+        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -7477,21 +7489,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4396.1,
-      "change": 335,
-      "changePercent": 8.25
+      "price": 4449.3,
+      "change": 388.2,
+      "changePercent": 9.56
     },
     {
       "name": "Silver",
-      "price": 64.73,
-      "change": 5.96,
-      "changePercent": 10.14
+      "price": 65.5,
+      "change": 6.73,
+      "changePercent": 11.45
     },
     {
       "name": "Copper",
-      "price": 6.59,
-      "change": 0.26,
-      "changePercent": 4.12
+      "price": 6.61,
+      "change": 0.28,
+      "changePercent": 4.38
     }
   ],
   "housing": {
@@ -7876,9 +7888,23 @@
       "source": "SMH"
     },
     {
+      "title": "Freo locks up minor premiership after downing Crows in thriller",
+      "link": "https://www.abc.net.au/news/2026-08-14/afl-round-23-fremantle-dockers-adelaide-crows-live-blog/107040456",
+      "snippet": "",
+      "pubDate": "Fri, 14 Aug 2026 09:26:18 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Tempers flare as Aussies wilt, Starc's heart-in-mouth moment",
+      "link": "https://www.abc.net.au/news/2026-08-14/aus-ban-day-two-quick-hits-smith-tanzid-starc-darwin-turf/107036904",
+      "snippet": "",
+      "pubDate": "Fri, 14 Aug 2026 08:39:26 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "An email, a smiling emoji and the expulsion of a KPMG high-flyer",
       "link": "https://www.smh.com.au/business/companies/westpac-director-says-bank-s-board-was-kept-in-dark-over-kpmg-allegations-20260813-p60o3v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Sacked executive Eileen Hoggett has been confronted with evidence that she emailed a colleague about confidential client information stored in her locker.",
+      "snippet": "Sacked executive Eileen Hoggett has been confronted with evidence that she had emailed a colleague about confidential client information stored in her locker.",
       "pubDate": "Fri, 14 Aug 2026 17:21:31 +1000",
       "source": "SMH"
     },
@@ -7894,20 +7920,6 @@
       "link": "https://www.abc.net.au/news/2026-08-14/australia-s-grace-kim-makes-fast-start-at-lpga-event/107038756",
       "snippet": "",
       "pubDate": "Fri, 14 Aug 2026 05:03:25 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Fraser officially enters Carlton coaching race after mid-year turnaround",
-      "link": "https://www.abc.net.au/news/2026-08-14/josh-fraser-officially-enters-carlton-blues-coaching-race/107037442",
-      "snippet": "",
-      "pubDate": "Fri, 14 Aug 2026 01:48:55 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Live: 'Get off the wicket': Tempers flare as Aussies wilt in Darwin heat",
-      "link": "https://www.abc.net.au/news/2026-08-14/australia-vs-bangladesh-day-two-live-updates/107034980",
-      "snippet": "",
-      "pubDate": "Fri, 14 Aug 2026 00:01:38 +0000",
       "source": "ABC"
     }
   ]
