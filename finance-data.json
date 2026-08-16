@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-16T02:05:27.330Z",
+  "fetchedAt": "2026-08-16T07:08:23.082Z",
   "fx": {
     "audusd": {
       "value": 0.71,
@@ -105,7 +105,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 0.71
         }
       ],
@@ -382,7 +382,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 0.71
         }
       ],
@@ -496,7 +496,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 0.71
         }
       ],
@@ -1130,7 +1130,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 0.71
         }
       ]
@@ -1232,6 +1232,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -2365,7 +2369,7 @@
           "close": 4.76
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 4.76
         }
       ],
@@ -2642,7 +2646,7 @@
           "close": 4.76
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 4.76
         }
       ],
@@ -2756,7 +2760,7 @@
           "close": 4.76
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 4.76
         }
       ],
@@ -3390,7 +3394,7 @@
           "close": 4.76
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 4.76
         }
       ]
@@ -3499,7 +3503,7 @@
           "close": 112.61
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 112.88
         }
       ],
@@ -3776,7 +3780,7 @@
           "close": 112.61
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 112.88
         }
       ],
@@ -3887,10 +3891,10 @@
         },
         {
           "date": "2026-08-09",
-          "close": 112.61
+          "close": 112.51
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 112.88
         }
       ],
@@ -4521,10 +4525,10 @@
         },
         {
           "date": "2026-08-09",
-          "close": 112.61
+          "close": 112.51
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "close": 112.88
         }
       ]
@@ -4634,7 +4638,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-15",
+        "date": "2026-08-16",
         "close": 0.71
       }
     ],
@@ -4911,7 +4915,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-15",
+        "date": "2026-08-16",
         "close": 0.71
       }
     ],
@@ -5025,7 +5029,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-15",
+        "date": "2026-08-16",
         "close": 0.71
       }
     ],
@@ -5659,7 +5663,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-15",
+        "date": "2026-08-16",
         "close": 0.71
       }
     ]
@@ -5859,15 +5863,11 @@
   "energy": {
     "wti": {
       "value": 82.4,
-      "change": 3.06,
-      "changePercent": 3.86,
-      "previousClose": 79.34,
+      "change": 3.45,
+      "changePercent": 4.37,
+      "previousClose": 78.95,
       "asOf": "2026-08-16",
       "history": [
-        {
-          "date": "2026-07-15",
-          "close": 79.6
-        },
         {
           "date": "2026-07-16",
           "close": 78.95
@@ -5962,15 +5962,11 @@
     },
     "brent": {
       "value": 88.52,
-      "change": 3.79,
-      "changePercent": 4.47,
-      "previousClose": 84.73,
+      "change": 4.29,
+      "changePercent": 5.09,
+      "previousClose": 84.23,
       "asOf": "2026-08-16",
       "history": [
-        {
-          "date": "2026-07-15",
-          "close": 84.95
-        },
         {
           "date": "2026-07-16",
           "close": 84.23
@@ -6065,15 +6061,11 @@
     },
     "gas": {
       "value": 2.73,
-      "change": -0.17,
-      "changePercent": -5.89,
-      "previousClose": 2.9,
+      "change": -0.12,
+      "changePercent": -4.37,
+      "previousClose": 2.86,
       "asOf": "2026-08-16",
       "history": [
-        {
-          "date": "2026-07-15",
-          "close": 2.92
-        },
         {
           "date": "2026-07-16",
           "close": 2.86
@@ -6273,14 +6265,6 @@
         "close": 8791.3
       },
       {
-        "date": "2026-07-21",
-        "close": 8793.3
-      },
-      {
-        "date": "2026-07-22",
-        "close": 8823
-      },
-      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6303,10 +6287,6 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
-      },
-      {
-        "date": "2026-07-31",
-        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -7510,20 +7490,20 @@
     {
       "name": "Gold",
       "price": 4437.3,
-      "change": 376.2,
-      "changePercent": 9.26
+      "change": 451.7,
+      "changePercent": 11.33
     },
     {
       "name": "Silver",
       "price": 65.11,
-      "change": 6.34,
-      "changePercent": 10.78
+      "change": 9.21,
+      "changePercent": 16.48
     },
     {
       "name": "Copper",
       "price": 6.61,
-      "change": 0.28,
-      "changePercent": 4.47
+      "change": 0.32,
+      "changePercent": 5.03
     }
   ],
   "housing": {
@@ -7866,17 +7846,10 @@
       "source": "SMH"
     },
     {
-      "title": "ASX Runners of the Week: Accent, Liberty, King River &amp; Aus Mines",
-      "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-accent-liberty-king-river-and-aus-mines-20260814-p60ohw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Bulls N’ Bears ASX Runner of the Week is Accent Resources, which rocketed 5233 per cent in a curious case of trading madness, with its market cap ballooning to over $300 million on just hot air.",
-      "pubDate": "Fri, 14 Aug 2026 16:49:55 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Trump is steering America towards a financial crisis",
-      "link": "https://www.smh.com.au/business/the-economy/trump-is-steering-america-towards-a-financial-crisis-20260812-p60nhk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump could trigger a disaster as markets lose faith in Washington’s economic management.",
-      "pubDate": "Fri, 14 Aug 2026 17:15:00 +1000",
+      "title": "Renewables are slashing power prices, but energy chiefs fear it may not last",
+      "link": "https://www.smh.com.au/business/companies/renewables-are-slashing-power-prices-but-energy-chiefs-fear-it-may-not-last-20260814-p60of7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s rollout of renewables and batteries has delivered a year of lower power prices, but energy executives warn the grid remains on a knife’s edge.",
+      "pubDate": "Sun, 16 Aug 2026 15:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7885,6 +7858,41 @@
       "snippet": "The aspiring pub baron cruised around in a black Maserati and entertained on a luxury Italian vintage yacht before the good times crashed to a halt.",
       "pubDate": "Sat, 15 Aug 2026 06:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Shock Bangladesh defeat reveals bigger picture hiding in plain sight",
+      "link": "https://www.abc.net.au/news/2026-08-16/australia-bangladesh-darwin-defeat-problems/107037438",
+      "snippet": "",
+      "pubDate": "Sun, 16 Aug 2026 07:04:27 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Facebook is advertising illegal gambling, and the watchdog is powerless to stop it",
+      "link": "https://www.smh.com.au/business/companies/facebook-is-advertising-illegal-gambling-and-the-watchdog-is-powerless-to-stop-it-20260814-p60of1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Ads spruiking illegal online casinos to Australians boost social media giant Meta’s billions in ad revenue, but a loophole stops the regulator taking action.",
+      "pubDate": "Sun, 16 Aug 2026 16:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Quick hits: Das's redemption and Mehid's Messi attempt",
+      "link": "https://www.abc.net.au/news/2026-08-16/quick-hits-australia-vs-bangladesh-day-four/107043378",
+      "snippet": "",
+      "pubDate": "Sun, 16 Aug 2026 05:56:06 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Dragons on top against woeful Tigers",
+      "link": "https://www.abc.net.au/news/2026-08-16/nrl-live-updates-knights-titans-dragons-tigers/107043632",
+      "snippet": "",
+      "pubDate": "Sun, 16 Aug 2026 03:51:02 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Blues in a battle at Docklands as Giants keep hopes alive",
+      "link": "https://www.abc.net.au/news/2026-08-16/afl-rd-23-live-gws-wce-wb-carl-ess-syd/107037342",
+      "snippet": "",
+      "pubDate": "Sun, 16 Aug 2026 03:17:03 +0000",
+      "source": "ABC"
     },
     {
       "title": "Aussies continue winning form, Djokovic suffers early exit in Cincinnati",
@@ -7901,17 +7909,10 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Australia's tail exposed with Bangladesh closing in on famous win",
+      "title": "Cummins stands by 'spot on' preparation despite historic loss to Bangladesh",
       "link": "https://www.abc.net.au/news/2026-08-16/australia-bangladesh-live-updates-day-four-darwin/107043280",
       "snippet": "",
       "pubDate": "Sun, 16 Aug 2026 00:09:13 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Blind surfer stuns locals at Queensland beach",
-      "link": "https://www.abc.net.au/news/2026-08-16/blind-surfer-steve-fox-stuns-at-agnes-water/107032884",
-      "snippet": "",
-      "pubDate": "Sat, 15 Aug 2026 23:00:41 +0000",
       "source": "ABC"
     },
     {
@@ -7919,20 +7920,6 @@
       "link": "https://www.smh.com.au/business/the-economy/ai-is-the-opposite-of-a-painkiller-at-least-for-now-20260810-p60n32.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "We like to think AI will solve some of our biggest problems. Here’s how it’ll probably make things worse before making things better.",
       "pubDate": "Sat, 15 Aug 2026 05:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Sydney Airport has had three close calls in as many weeks. The first big problem is clear",
-      "link": "https://www.smh.com.au/business/companies/sydney-airport-has-had-three-close-calls-in-as-many-weeks-the-first-big-problem-is-clear-20260811-p60nc8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Ground delays have become a feature in recent years, even as the number of hold-ups that can be blamed on staffing have fallen.",
-      "pubDate": "Sat, 15 Aug 2026 05:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "An email, a smiling emoji and the expulsion of a KPMG high-flyer",
-      "link": "https://www.smh.com.au/business/companies/westpac-director-says-bank-s-board-was-kept-in-dark-over-kpmg-allegations-20260813-p60o3v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Sacked executive Eileen Hoggett has been confronted with evidence that she had emailed a colleague about confidential client information stored in her locker.",
-      "pubDate": "Fri, 14 Aug 2026 17:21:31 +1000",
       "source": "SMH"
     }
   ]
