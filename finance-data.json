@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-17T13:20:10.296Z",
+  "fetchedAt": "2026-08-17T19:06:56.024Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.74,
+      "changePercent": 1.5,
       "previousClose": 0.7,
       "asOf": "2026-08-17",
       "history": [
@@ -86,6 +86,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.71
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -351,6 +355,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.71
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -1106,7 +1114,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.36,
+      "changePercent": 0.33,
       "previousClose": 0.61,
       "asOf": "2026-08-17",
       "history": [
@@ -1188,6 +1196,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -1453,6 +1465,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -2206,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.8,
-      "change": 0.06,
-      "changePercent": 1.21,
+      "value": 4.79,
+      "change": 0.05,
+      "changePercent": 1.04,
       "previousClose": 4.74,
       "asOf": "2026-08-17",
       "history": [
@@ -2293,8 +2309,12 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-13",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-17",
-          "close": 4.8
+          "close": 4.79
         }
       ],
       "label": "AUD/CNY",
@@ -2558,8 +2578,12 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-13",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-17",
-          "close": 4.8
+          "close": 4.79
         }
       ],
       "h6m": [
@@ -2669,7 +2693,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 4.8
+          "close": 4.79
         }
       ],
       "h3y": [
@@ -3303,14 +3327,14 @@
         },
         {
           "date": "2026-08-17",
-          "close": 4.8
+          "close": 4.79
         }
       ]
     },
     "audjpy": {
-      "value": 113.37,
-      "change": -0.25,
-      "changePercent": -0.22,
+      "value": 113.31,
+      "change": -0.31,
+      "changePercent": -0.27,
       "previousClose": 113.62,
       "asOf": "2026-08-17",
       "history": [
@@ -3395,8 +3419,12 @@
           "close": 112.51
         },
         {
+          "date": "2026-08-13",
+          "close": 112.61
+        },
+        {
           "date": "2026-08-17",
-          "close": 113.37
+          "close": 113.31
         }
       ],
       "label": "AUD/JPY",
@@ -3660,8 +3688,12 @@
           "close": 112.51
         },
         {
+          "date": "2026-08-13",
+          "close": 112.61
+        },
+        {
           "date": "2026-08-17",
-          "close": 113.37
+          "close": 113.31
         }
       ],
       "h6m": [
@@ -3771,7 +3803,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 113.37
+          "close": 113.31
         }
       ],
       "h3y": [
@@ -4405,7 +4437,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 113.37
+          "close": 113.31
         }
       ]
     }
@@ -4413,7 +4445,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.74,
+    "changePercent": 1.5,
     "previousClose": 0.7,
     "asOf": "2026-08-17",
     "history": [
@@ -4495,6 +4527,10 @@
       },
       {
         "date": "2026-08-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -4760,6 +4796,10 @@
       },
       {
         "date": "2026-08-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -5706,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.71,
-      "change": 0.22,
-      "changePercent": 0.27,
+      "value": 84.31,
+      "change": 1.82,
+      "changePercent": 2.21,
       "previousClose": 82.49,
       "asOf": "2026-08-17",
       "history": [
@@ -5798,16 +5838,16 @@
         },
         {
           "date": "2026-08-17",
-          "close": 82.71
+          "close": 84.31
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 89.04,
-      "change": 0.94,
-      "changePercent": 1.07,
+      "value": 90.58,
+      "change": 2.48,
+      "changePercent": 2.81,
       "previousClose": 88.1,
       "asOf": "2026-08-17",
       "history": [
@@ -5897,16 +5937,16 @@
         },
         {
           "date": "2026-08-17",
-          "close": 89.04
+          "close": 90.58
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.67,
-      "change": -0.24,
-      "changePercent": -8.21,
+      "value": 2.69,
+      "change": -0.22,
+      "changePercent": -7.66,
       "previousClose": 2.91,
       "asOf": "2026-08-17",
       "history": [
@@ -5996,7 +6036,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 2.67
+          "close": 2.69
         }
       ],
       "name": "Natural Gas",
@@ -6097,6 +6137,14 @@
         "close": 8791.3
       },
       {
+        "date": "2026-07-21",
+        "close": 8793.3
+      },
+      {
+        "date": "2026-07-22",
+        "close": 8823
+      },
+      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6119,6 +6167,10 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
+      },
+      {
+        "date": "2026-07-31",
+        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -6159,10 +6211,6 @@
       {
         "date": "2026-08-14",
         "close": 9115.2
-      },
-      {
-        "date": "2026-08-17",
-        "close": 9073.2
       }
     ]
   },
@@ -7261,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4444.1,
-      "change": 431.4,
-      "changePercent": 10.75
+      "price": 4462.9,
+      "change": 450.2,
+      "changePercent": 11.22
     },
     {
       "name": "Silver",
-      "price": 65.5,
-      "change": 9.46,
-      "changePercent": 16.88
+      "price": 65.94,
+      "change": 9.91,
+      "changePercent": 17.68
     },
     {
       "name": "Copper",
-      "price": 6.63,
-      "change": 0.41,
-      "changePercent": 6.59
+      "price": 6.6,
+      "change": 0.38,
+      "changePercent": 6.14
     }
   ],
   "housing": {
@@ -7646,6 +7694,13 @@
       "source": "SMH"
     },
     {
+      "title": "Why this future star has 'goosebumps' over triathlon's future",
+      "link": "https://www.abc.net.au/news/2026-08-18/austriathlon-high-performance-hub-gold-coast/107046056",
+      "snippet": "",
+      "pubDate": "Mon, 17 Aug 2026 18:56:30 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Sydney Swans CEO confirms police investigating alleged incident 'involving several players'",
       "link": "https://www.abc.net.au/news/2026-08-17/sydney-swans-afl-footballers-involved-in-incident-in-melbourne/107046058",
       "snippet": "",
@@ -7678,20 +7733,6 @@
       "link": "https://www.abc.net.au/news/2026-08-17/formula-1-returns-for-dutch-grand-prix-after-mid-year-break/107000532",
       "snippet": "",
       "pubDate": "Sun, 16 Aug 2026 19:11:14 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Shock defeat to Bangladesh reveals bigger picture hiding in plain sight",
-      "link": "https://www.abc.net.au/news/2026-08-16/australia-bangladesh-darwin-defeat-problems/107037438",
-      "snippet": "",
-      "pubDate": "Sun, 16 Aug 2026 07:04:27 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Das's redemption and Mehid's Messi attempt",
-      "link": "https://www.abc.net.au/news/2026-08-16/quick-hits-australia-vs-bangladesh-day-four/107043378",
-      "snippet": "",
-      "pubDate": "Sun, 16 Aug 2026 05:56:06 +0000",
       "source": "ABC"
     }
   ]
