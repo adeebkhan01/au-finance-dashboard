@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-17T07:31:43.148Z",
+  "fetchedAt": "2026-08-17T13:20:10.296Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.81,
+      "changePercent": 1.74,
       "previousClose": 0.7,
       "asOf": "2026-08-17",
       "history": [
@@ -86,10 +86,6 @@
         },
         {
           "date": "2026-08-12",
-          "close": 0.71
-        },
-        {
-          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -355,10 +351,6 @@
         },
         {
           "date": "2026-08-12",
-          "close": 0.71
-        },
-        {
-          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -1114,7 +1106,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.34,
+      "changePercent": 0.36,
       "previousClose": 0.61,
       "asOf": "2026-08-17",
       "history": [
@@ -1196,10 +1188,6 @@
         },
         {
           "date": "2026-08-12",
-          "close": 0.61
-        },
-        {
-          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -1465,10 +1453,6 @@
         },
         {
           "date": "2026-08-12",
-          "close": 0.61
-        },
-        {
-          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -2224,7 +2208,7 @@
     "audcny": {
       "value": 4.8,
       "change": 0.06,
-      "changePercent": 1.25,
+      "changePercent": 1.21,
       "previousClose": 4.74,
       "asOf": "2026-08-17",
       "history": [
@@ -2306,10 +2290,6 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.76
-        },
-        {
-          "date": "2026-08-13",
           "close": 4.76
         },
         {
@@ -2575,10 +2555,6 @@
         },
         {
           "date": "2026-08-12",
-          "close": 4.76
-        },
-        {
-          "date": "2026-08-13",
           "close": 4.76
         },
         {
@@ -3332,9 +3308,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.19,
-      "change": -0.43,
-      "changePercent": -0.38,
+      "value": 113.37,
+      "change": -0.25,
+      "changePercent": -0.22,
       "previousClose": 113.62,
       "asOf": "2026-08-17",
       "history": [
@@ -3419,12 +3395,8 @@
           "close": 112.51
         },
         {
-          "date": "2026-08-13",
-          "close": 112.61
-        },
-        {
           "date": "2026-08-17",
-          "close": 113.19
+          "close": 113.37
         }
       ],
       "label": "AUD/JPY",
@@ -3688,12 +3660,8 @@
           "close": 112.51
         },
         {
-          "date": "2026-08-13",
-          "close": 112.61
-        },
-        {
           "date": "2026-08-17",
-          "close": 113.19
+          "close": 113.37
         }
       ],
       "h6m": [
@@ -3803,7 +3771,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 113.19
+          "close": 113.37
         }
       ],
       "h3y": [
@@ -4437,7 +4405,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 113.18
+          "close": 113.37
         }
       ]
     }
@@ -4445,7 +4413,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.81,
+    "changePercent": 1.74,
     "previousClose": 0.7,
     "asOf": "2026-08-17",
     "history": [
@@ -4527,10 +4495,6 @@
       },
       {
         "date": "2026-08-12",
-        "close": 0.71
-      },
-      {
-        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -4796,10 +4760,6 @@
       },
       {
         "date": "2026-08-12",
-        "close": 0.71
-      },
-      {
-        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -5746,9 +5706,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81.62,
-      "change": -0.87,
-      "changePercent": -1.05,
+      "value": 82.71,
+      "change": 0.22,
+      "changePercent": 0.27,
       "previousClose": 82.49,
       "asOf": "2026-08-17",
       "history": [
@@ -5838,16 +5798,16 @@
         },
         {
           "date": "2026-08-17",
-          "close": 81.62
+          "close": 82.71
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.26,
-      "change": 0.16,
-      "changePercent": 0.18,
+      "value": 89.04,
+      "change": 0.94,
+      "changePercent": 1.07,
       "previousClose": 88.1,
       "asOf": "2026-08-17",
       "history": [
@@ -5937,16 +5897,16 @@
         },
         {
           "date": "2026-08-17",
-          "close": 88.26
+          "close": 89.04
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.65,
-      "change": -0.27,
-      "changePercent": -9.1,
+      "value": 2.67,
+      "change": -0.24,
+      "changePercent": -8.21,
       "previousClose": 2.91,
       "asOf": "2026-08-17",
       "history": [
@@ -6036,7 +5996,7 @@
         },
         {
           "date": "2026-08-17",
-          "close": 2.65
+          "close": 2.67
         }
       ],
       "name": "Natural Gas",
@@ -6137,14 +6097,6 @@
         "close": 8791.3
       },
       {
-        "date": "2026-07-21",
-        "close": 8793.3
-      },
-      {
-        "date": "2026-07-22",
-        "close": 8823
-      },
-      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6167,10 +6119,6 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
-      },
-      {
-        "date": "2026-07-31",
-        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -7313,21 +7261,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4453.3,
-      "change": 440.6,
-      "changePercent": 10.98
+      "price": 4444.1,
+      "change": 431.4,
+      "changePercent": 10.75
     },
     {
       "name": "Silver",
-      "price": 65.81,
-      "change": 9.77,
-      "changePercent": 17.44
+      "price": 65.5,
+      "change": 9.46,
+      "changePercent": 16.88
     },
     {
       "name": "Copper",
-      "price": 6.7,
-      "change": 0.48,
-      "changePercent": 7.64
+      "price": 6.63,
+      "change": 0.41,
+      "changePercent": 6.59
     }
   ],
   "housing": {
@@ -7663,6 +7611,20 @@
   ],
   "news": [
     {
+      "title": "ASX dips as banks and retail stocks drag",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-slips-after-weak-update-on-the-us-economy-20260817-p60ouq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket closed in the red as investor concerns about the economic outlook weighed on banks and consumer discretionary stocks.",
+      "pubDate": "Mon, 17 Aug 2026 17:42:04 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "James Packer’s bets on AI pay off after sell-down in gaming shares",
+      "link": "https://www.smh.com.au/business/companies/james-packer-s-bets-on-ai-pay-off-after-sell-down-in-gaming-shares-20260817-p60p1g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The billionaire former Crown Resorts owner has shifted his American investment strategy away from gaming companies back towards profitable big tech stocks.",
+      "pubDate": "Mon, 17 Aug 2026 18:25:11 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Rio2 quarterly shows dual-mine production muscle in South America",
       "link": "https://www.smh.com.au/business/companies/rio2-quarterly-shows-dual-mine-production-muscle-in-south-america-20260817-p60p4f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Rio2 Ltd has posted a strong Q2, producing 13,539 ounces of gold and 9.3Mlbs copper from its Chilean and Peruvian mines, generating US$76.2 million in EBITDA.",
@@ -7677,31 +7639,10 @@
       "source": "SMH"
     },
     {
-      "title": "Godolphin rebrand fires up focused NSW metals strategy",
-      "link": "https://www.smh.com.au/business/companies/godolphin-rebrand-fires-up-focused-nsw-metals-strategy-20260817-p60p3d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Godolphin has rebranded as Orbit Resources with a focus on NSW polymetallics, led by its Lewis Ponds project, the Cousin Jack discovery and a deep gold-copper exploration pipeline.",
-      "pubDate": "Mon, 17 Aug 2026 15:02:07 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Aurum extends gold resource potential with 80g/t hit in West Africa",
       "link": "https://www.smh.com.au/business/companies/aurum-extends-gold-resource-potential-with-80g-t-hit-in-west-africa-20260817-p60p4w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aurum Resources has hit high-grade gold outside its 3.22 million-ounce Boundiali resource in West Africa, with a stunning 3m intercept grading 80.09g/t gold at its BST1 deposit.",
       "pubDate": "Mon, 17 Aug 2026 17:14:33 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Forrestania inks $27M mining deal for Tycho gold mine in WA goldfields",
-      "link": "https://www.smh.com.au/business/companies/forrestania-inks-27m-mining-deal-for-tycho-gold-mine-in-wa-goldfields-20260817-p60p31.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Forrestania has awarded a $27M mining contract for its Tycho gold project, moving closer to its goal of becoming a significant WA gold producer.",
-      "pubDate": "Mon, 17 Aug 2026 14:36:33 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "ABC removes third Four Corners episode led by Mahmood Fazal",
-      "link": "https://www.smh.com.au/business/companies/abc-removes-third-four-corners-episode-led-by-mahmood-fazal-20260817-p60p0s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The national broadcaster also pulled part of another TV program and a show from its flagship investigative radio program, Background Briefing.",
-      "pubDate": "Mon, 17 Aug 2026 15:47:54 +1000",
       "source": "SMH"
     },
     {
@@ -7744,6 +7685,13 @@
       "link": "https://www.abc.net.au/news/2026-08-16/australia-bangladesh-darwin-defeat-problems/107037438",
       "snippet": "",
       "pubDate": "Sun, 16 Aug 2026 07:04:27 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Das's redemption and Mehid's Messi attempt",
+      "link": "https://www.abc.net.au/news/2026-08-16/quick-hits-australia-vs-bangladesh-day-four/107043378",
+      "snippet": "",
+      "pubDate": "Sun, 16 Aug 2026 05:56:06 +0000",
       "source": "ABC"
     }
   ]
