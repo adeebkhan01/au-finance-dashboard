@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-18T07:13:56.205Z",
+  "fetchedAt": "2026-08-18T13:22:42.664Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.47,
+      "changePercent": 1.67,
       "previousClose": 0.7,
       "asOf": "2026-08-18",
       "history": [
@@ -82,6 +82,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.71
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -351,6 +355,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.71
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -1118,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.33,
+      "changePercent": 0.46,
       "previousClose": 0.61,
       "asOf": "2026-08-18",
       "history": [
@@ -1196,6 +1204,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -1465,6 +1477,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -2230,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": 0.03,
-      "changePercent": 0.69,
+      "value": 4.8,
+      "change": 0.06,
+      "changePercent": 1.2,
       "previousClose": 4.74,
       "asOf": "2026-08-18",
       "history": [
@@ -2313,12 +2329,16 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-13",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-16",
           "close": 4.78
         },
         {
           "date": "2026-08-18",
-          "close": 4.77
+          "close": 4.8
         }
       ],
       "label": "AUD/CNY",
@@ -2582,12 +2602,16 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-13",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-16",
           "close": 4.78
         },
         {
           "date": "2026-08-18",
-          "close": 4.77
+          "close": 4.8
         }
       ],
       "h6m": [
@@ -2701,7 +2725,7 @@
         },
         {
           "date": "2026-08-18",
-          "close": 4.77
+          "close": 4.8
         }
       ],
       "h3y": [
@@ -3339,14 +3363,14 @@
         },
         {
           "date": "2026-08-18",
-          "close": 4.77
+          "close": 4.8
         }
       ]
     },
     "audjpy": {
-      "value": 113.42,
-      "change": -0.2,
-      "changePercent": -0.18,
+      "value": 113.56,
+      "change": -0.06,
+      "changePercent": -0.05,
       "previousClose": 113.62,
       "asOf": "2026-08-18",
       "history": [
@@ -3427,12 +3451,16 @@
           "close": 112.51
         },
         {
+          "date": "2026-08-13",
+          "close": 112.61
+        },
+        {
           "date": "2026-08-16",
           "close": 112.81
         },
         {
           "date": "2026-08-18",
-          "close": 113.42
+          "close": 113.56
         }
       ],
       "label": "AUD/JPY",
@@ -3696,12 +3724,16 @@
           "close": 112.51
         },
         {
+          "date": "2026-08-13",
+          "close": 112.61
+        },
+        {
           "date": "2026-08-16",
           "close": 112.81
         },
         {
           "date": "2026-08-18",
-          "close": 113.41
+          "close": 113.56
         }
       ],
       "h6m": [
@@ -3815,7 +3847,7 @@
         },
         {
           "date": "2026-08-18",
-          "close": 113.41
+          "close": 113.56
         }
       ],
       "h3y": [
@@ -4453,7 +4485,7 @@
         },
         {
           "date": "2026-08-18",
-          "close": 113.41
+          "close": 113.56
         }
       ]
     }
@@ -4461,7 +4493,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.47,
+    "changePercent": 1.67,
     "previousClose": 0.7,
     "asOf": "2026-08-18",
     "history": [
@@ -4539,6 +4571,10 @@
       },
       {
         "date": "2026-08-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -4808,6 +4844,10 @@
       },
       {
         "date": "2026-08-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -5766,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.2,
-      "change": 2.71,
-      "changePercent": 3.29,
+      "value": 84.4,
+      "change": 1.91,
+      "changePercent": 2.32,
       "previousClose": 82.49,
       "asOf": "2026-08-18",
       "history": [
@@ -5858,16 +5898,16 @@
         },
         {
           "date": "2026-08-18",
-          "close": 85.2
+          "close": 84.4
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.38,
-      "change": 3.28,
-      "changePercent": 3.72,
+      "value": 91.14,
+      "change": 3.04,
+      "changePercent": 3.45,
       "previousClose": 88.1,
       "asOf": "2026-08-18",
       "history": [
@@ -5957,16 +5997,16 @@
         },
         {
           "date": "2026-08-18",
-          "close": 91.38
+          "close": 91.14
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.71,
-      "change": -0.2,
-      "changePercent": -6.8,
+      "value": 2.72,
+      "change": -0.19,
+      "changePercent": -6.7,
       "previousClose": 2.91,
       "asOf": "2026-08-18",
       "history": [
@@ -6056,7 +6096,7 @@
         },
         {
           "date": "2026-08-18",
-          "close": 2.71
+          "close": 2.72
         }
       ],
       "name": "Natural Gas",
@@ -6153,6 +6193,14 @@
         "close": 8791.3
       },
       {
+        "date": "2026-07-21",
+        "close": 8793.3
+      },
+      {
+        "date": "2026-07-22",
+        "close": 8823
+      },
+      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6175,6 +6223,10 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
+      },
+      {
+        "date": "2026-07-31",
+        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -7317,21 +7369,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4455.1,
-      "change": 442.4,
-      "changePercent": 11.02
+      "price": 4450.2,
+      "change": 437.5,
+      "changePercent": 10.9
     },
     {
       "name": "Silver",
-      "price": 65.39,
-      "change": 9.35,
-      "changePercent": 16.68
+      "price": 65.18,
+      "change": 9.14,
+      "changePercent": 16.31
     },
     {
       "name": "Copper",
-      "price": 6.58,
-      "change": 0.36,
-      "changePercent": 5.84
+      "price": 6.55,
+      "change": 0.33,
+      "changePercent": 5.29
     }
   ],
   "housing": {
@@ -7674,13 +7726,6 @@
       "source": "SMH"
     },
     {
-      "title": "‘Copper is the engine’: Red metal bonanza fuels BHP’s dividends",
-      "link": "https://www.smh.com.au/business/companies/copper-is-the-engine-red-metal-bonanza-fuels-bhp-s-14b-profit-20260817-p60p44.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The world’s biggest miner will shower its shareholders with a $12 billion dividend payout as copper prices hit records amid soaring global demand for electric cars and data centres.",
-      "pubDate": "Tue, 18 Aug 2026 12:15:31 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "CBA punishes Qantas customers in reward points overhaul",
       "link": "https://www.smh.com.au/business/companies/cba-punishes-qantas-customers-in-reward-points-overhaul-20260818-p60pdb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The bank has struck a new partnership with Virgin ahead of a move by the RBA to cut the fees that can be charged for credit card transactions.",
@@ -7695,7 +7740,21 @@
       "source": "SMH"
     },
     {
-      "title": "Changing fortunes: Is Biotech giant CSL’s $10 billion write-down a comeback story?",
+      "title": "BHP reports 113 sexual harassment cases in 12 months",
+      "link": "https://www.smh.com.au/business/companies/copper-is-the-engine-red-metal-bonanza-fuels-bhp-s-14b-profit-20260817-p60p44.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The harassment included indecent touching and stalking, while more than two dozen staff were racially abused across BHP’s global operations.",
+      "pubDate": "Tue, 18 Aug 2026 17:39:39 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Sick of AI slop? So are the tech giants",
+      "link": "https://www.smh.com.au/business/companies/sick-of-ai-slop-so-are-the-tech-giants-20260818-p60pd2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Silicon Valley wants to take out the trash: Swamped by low-quality content first made possible by their own AI tools, Google, Spotify, LinkedIn and others are trying to dig themselves out of their digital sewage pile.",
+      "pubDate": "Tue, 18 Aug 2026 19:29:11 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Changing fortunes: Is biotech giant CSL’s $10b write-down a comeback story?",
       "link": "https://www.smh.com.au/business/companies/changing-fortunes-is-biotech-giant-csl-s-10-billion-write-down-a-comeback-story-20260818-p60pcd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Make no mistake: the home-grown biotechnology company, which for decades allowed Australia serious boasting rights, is still a long way from redemption.",
       "pubDate": "Tue, 18 Aug 2026 15:51:19 +1000",
@@ -7709,11 +7768,11 @@
       "source": "SMH"
     },
     {
-      "title": "Geologist flags huge Victorian gold potential for Aureka",
-      "link": "https://www.smh.com.au/business/companies/geologist-flags-huge-victorian-gold-potential-for-aureka-20260818-p60pc6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka has flagged a huge gold exploration target of up to 545,000 ounces at its Irvine project, next door to the giant Stawell mine in Victoria, on top of its existing 398,000oz resource.",
-      "pubDate": "Tue, 18 Aug 2026 11:52:33 +1000",
-      "source": "SMH"
+      "title": "Sydney Swans say players 'in serious breach' of club standards",
+      "link": "https://www.abc.net.au/news/2026-08-18/sydney-swans-players-in-serious-breach-of-club-standards/107051708",
+      "snippet": "",
+      "pubDate": "Tue, 18 Aug 2026 10:18:43 +0000",
+      "source": "ABC"
     },
     {
       "title": "Critica plots underground future for Tasmanian tungsten giant",
