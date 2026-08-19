@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-19T07:19:34.983Z",
+  "fetchedAt": "2026-08-19T13:24:15.224Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.06,
+      "changePercent": 1.74,
       "previousClose": 0.7,
       "asOf": "2026-08-19",
       "history": [
@@ -351,6 +351,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.71
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -1122,7 +1126,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.29,
+      "changePercent": -0.1,
       "previousClose": 0.61,
       "asOf": "2026-08-19",
       "history": [
@@ -1469,6 +1473,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -2238,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": 0.01,
-      "changePercent": 0.23,
+      "value": 4.77,
+      "change": 0.03,
+      "changePercent": 0.73,
       "previousClose": 4.74,
       "asOf": "2026-08-19",
       "history": [
@@ -2330,7 +2338,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "label": "AUD/CNY",
@@ -2590,6 +2598,10 @@
           "close": 4.76
         },
         {
+          "date": "2026-08-13",
+          "close": 4.76
+        },
+        {
           "date": "2026-08-16",
           "close": 4.78
         },
@@ -2599,7 +2611,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "h6m": [
@@ -2713,7 +2725,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "h3y": [
@@ -3351,14 +3363,14 @@
         },
         {
           "date": "2026-08-19",
-          "close": 4.75
+          "close": 4.77
         }
       ]
     },
     "audjpy": {
-      "value": 112.58,
-      "change": -1.04,
-      "changePercent": -0.92,
+      "value": 112.76,
+      "change": -0.86,
+      "changePercent": -0.76,
       "previousClose": 113.62,
       "asOf": "2026-08-19",
       "history": [
@@ -3448,7 +3460,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 112.58
+          "close": 112.76
         }
       ],
       "label": "AUD/JPY",
@@ -3717,7 +3729,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 112.58
+          "close": 112.76
         }
       ],
       "h6m": [
@@ -3831,7 +3843,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 112.58
+          "close": 112.76
         }
       ],
       "h3y": [
@@ -4469,7 +4481,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 112.58
+          "close": 112.76
         }
       ]
     }
@@ -4477,7 +4489,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.06,
+    "changePercent": 1.74,
     "previousClose": 0.7,
     "asOf": "2026-08-19",
     "history": [
@@ -4824,6 +4836,10 @@
       },
       {
         "date": "2026-08-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -5786,9 +5802,9 @@
   },
   "energy": {
     "wti": {
-      "value": 84.78,
-      "change": 1.55,
-      "changePercent": 1.86,
+      "value": 84.17,
+      "change": 0.94,
+      "changePercent": 1.13,
       "previousClose": 83.23,
       "asOf": "2026-08-19",
       "history": [
@@ -5882,16 +5898,16 @@
         },
         {
           "date": "2026-08-19",
-          "close": 84.78
+          "close": 84.17
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.78,
-      "change": 2.56,
-      "changePercent": 2.87,
+      "value": 91.11,
+      "change": 1.89,
+      "changePercent": 2.12,
       "previousClose": 89.22,
       "asOf": "2026-08-19",
       "history": [
@@ -5985,16 +6001,16 @@
         },
         {
           "date": "2026-08-19",
-          "close": 91.78
+          "close": 91.11
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.79,
-      "change": -0.07,
-      "changePercent": -2.59,
+      "value": 2.86,
+      "change": 0,
+      "changePercent": -0.14,
       "previousClose": 2.86,
       "asOf": "2026-08-19",
       "history": [
@@ -6088,7 +6104,7 @@
         },
         {
           "date": "2026-08-19",
-          "close": 2.79
+          "close": 2.86
         }
       ],
       "name": "Natural Gas",
@@ -6251,6 +6267,10 @@
       {
         "date": "2026-08-17",
         "close": 9073.2
+      },
+      {
+        "date": "2026-08-18",
+        "close": 9070
       },
       {
         "date": "2026-08-19",
@@ -7385,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4405.9,
-      "change": 395.6,
-      "changePercent": 9.86
+      "price": 4517.5,
+      "change": 507.2,
+      "changePercent": 12.65
     },
     {
       "name": "Silver",
-      "price": 63.25,
-      "change": 6.44,
-      "changePercent": 11.34
+      "price": 65.15,
+      "change": 8.34,
+      "changePercent": 14.69
     },
     {
       "name": "Copper",
-      "price": 6.46,
-      "change": 0.16,
-      "changePercent": 2.55
+      "price": 6.47,
+      "change": 0.17,
+      "changePercent": 2.75
     }
   ],
   "housing": {
@@ -7756,16 +7776,9 @@
       "source": "SMH"
     },
     {
-      "title": "China’s breakneck plan to safeguard its future",
-      "link": "https://www.smh.com.au/business/the-economy/china-s-breakneck-plan-to-safeguard-its-future-20260819-p60piv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "China has radically reshaped the world of transport and energy. Now it is using the same playbook to try to take control of the world’s food supply.",
-      "pubDate": "Wed, 19 Aug 2026 11:35:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "The billionaire brat pack can’t stop whinging. They’re only embarrassing themselves",
+      "title": "The billionaire brat pack can’t stop whingeing. They’re only embarrassing themselves",
       "link": "https://www.smh.com.au/business/the-economy/the-billionaire-brat-pack-can-t-stop-whinging-they-re-only-embarrassing-themselves-20260819-p60plf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "From Gina Rinehart to Lauren Bezos, Elon Musk to Mark Zuckerberg, the super wealthy appear to have everything but the one thing they truly want.",
+      "snippet": "From Gina Rinehart to Lauren Bezos, Elon Musk to Mark Zuckerberg, the super-wealthy appear to have everything but the one thing they truly want.",
       "pubDate": "Wed, 19 Aug 2026 15:30:00 +1000",
       "source": "SMH"
     },
@@ -7784,11 +7797,32 @@
       "source": "SMH"
     },
     {
-      "title": "Telstra suspends Swans players from brand ambassador program",
-      "link": "https://www.smh.com.au/business/companies/telstra-suspends-swans-players-from-brand-ambassador-program-20260819-p60pqk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The telco said it was “deeply concerned” by the allegations and would make final decisions on its sponsorships once the police investigation was complete.",
-      "pubDate": "Wed, 19 Aug 2026 14:25:33 +1000",
+      "title": "Sacked worker forced to pay for using ‘plain wrong’ AI in landmark case",
+      "link": "https://www.smh.com.au/business/workplace/sacked-worker-forced-to-pay-for-using-plain-wrong-ai-in-landmark-case-20260819-p60puw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "For the first time, the Fair Work Commission has forced a worker to pay for wasting its time, fining a sacked Aldi store assistant more than $1200.",
+      "pubDate": "Wed, 19 Aug 2026 20:01:01 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Swans players could face up to $600,000 sponsorship hit",
+      "link": "https://www.smh.com.au/business/companies/telstra-suspends-swans-players-from-brand-ambassador-program-20260819-p60pqk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Telstra led a raft of sponsors expressing concern at the players’ actions as it stood down Isaac Heeney and Chad Warner from its ambassador program.",
+      "pubDate": "Wed, 19 Aug 2026 19:17:22 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Kyrgios provisionally suspended after positive cocaine test in Spain",
+      "link": "https://www.abc.net.au/news/2026-08-19/nick-kyrgios-reveals-positive-overseas-test-for-cocaine/107056018",
+      "snippet": "",
+      "pubDate": "Wed, 19 Aug 2026 08:57:10 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "'We are deeply sorry': Swans players break silence over alleged incident",
+      "link": "https://www.abc.net.au/news/2026-08-19/we-are-deeply-sorry-swans-players-break-silence-alleged-incident/107055864",
+      "snippet": "",
+      "pubDate": "Wed, 19 Aug 2026 08:23:09 +0000",
+      "source": "ABC"
     },
     {
       "title": "Viking lights up visual tungsten in drilling at historic Nevada mine",
@@ -7802,20 +7836,6 @@
       "link": "https://www.abc.net.au/news/2026-08-19/ikitau-in-wallabies-squad-for-argentina-tour/107054022",
       "snippet": "",
       "pubDate": "Wed, 19 Aug 2026 03:00:48 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Embarassed and ashamed': Swans CEO explains decision to ban players",
-      "link": "https://www.abc.net.au/news/2026-08-19/afl-sydney-swans-ban-five-players-amid-police-investigation/107053398",
-      "snippet": "",
-      "pubDate": "Wed, 19 Aug 2026 00:11:59 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "FIFA accused of 'management by fear' after key executive's sudden exit",
-      "link": "https://www.abc.net.au/news/2026-08-19/fifa-fear-tactics-accusations-klaveness-lamour-infantino/107053144",
-      "snippet": "",
-      "pubDate": "Tue, 18 Aug 2026 23:57:52 +0000",
       "source": "ABC"
     }
   ]
