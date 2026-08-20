@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-20T07:22:11.683Z",
+  "fetchedAt": "2026-08-20T13:26:27.897Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 2.08,
+      "changePercent": 2.05,
       "previousClose": 0.7,
       "asOf": "2026-08-20",
       "history": [
@@ -82,6 +82,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.71
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.71
         },
         {
@@ -1130,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.2,
+      "changePercent": -0.26,
       "previousClose": 0.61,
       "asOf": "2026-08-20",
       "history": [
@@ -1208,6 +1212,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-13",
           "close": 0.61
         },
         {
@@ -2256,7 +2264,7 @@
     "audcny": {
       "value": 4.79,
       "change": 0.06,
-      "changePercent": 1.28,
+      "changePercent": 1.31,
       "previousClose": 4.73,
       "asOf": "2026-08-20",
       "history": [
@@ -2334,6 +2342,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 4.76
+        },
+        {
+          "date": "2026-08-13",
           "close": 4.76
         },
         {
@@ -2603,6 +2615,10 @@
         },
         {
           "date": "2026-08-12",
+          "close": 4.76
+        },
+        {
+          "date": "2026-08-13",
           "close": 4.76
         },
         {
@@ -3376,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 112.83,
-      "change": -0.58,
-      "changePercent": -0.51,
+      "value": 112.95,
+      "change": -0.46,
+      "changePercent": -0.41,
       "previousClose": 113.41,
       "asOf": "2026-08-20",
       "history": [
@@ -3459,6 +3475,10 @@
           "close": 112.51
         },
         {
+          "date": "2026-08-13",
+          "close": 112.61
+        },
+        {
           "date": "2026-08-16",
           "close": 112.81
         },
@@ -3472,7 +3492,7 @@
         },
         {
           "date": "2026-08-20",
-          "close": 112.83
+          "close": 112.95
         }
       ],
       "label": "AUD/JPY",
@@ -3728,6 +3748,10 @@
           "close": 112.51
         },
         {
+          "date": "2026-08-13",
+          "close": 112.61
+        },
+        {
           "date": "2026-08-16",
           "close": 112.81
         },
@@ -3741,7 +3765,7 @@
         },
         {
           "date": "2026-08-20",
-          "close": 112.83
+          "close": 112.95
         }
       ],
       "h6m": [
@@ -3855,7 +3879,7 @@
         },
         {
           "date": "2026-08-20",
-          "close": 112.83
+          "close": 112.95
         }
       ],
       "h3y": [
@@ -4493,7 +4517,7 @@
         },
         {
           "date": "2026-08-20",
-          "close": 112.83
+          "close": 112.95
         }
       ]
     }
@@ -4501,7 +4525,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 2.08,
+    "changePercent": 2.05,
     "previousClose": 0.7,
     "asOf": "2026-08-20",
     "history": [
@@ -4579,6 +4603,10 @@
       },
       {
         "date": "2026-08-12",
+        "close": 0.71
+      },
+      {
+        "date": "2026-08-13",
         "close": 0.71
       },
       {
@@ -5818,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.14,
-      "change": 1.91,
-      "changePercent": 2.29,
+      "value": 86.55,
+      "change": 3.32,
+      "changePercent": 3.99,
       "previousClose": 83.23,
       "asOf": "2026-08-20",
       "history": [
@@ -5918,16 +5946,16 @@
         },
         {
           "date": "2026-08-20",
-          "close": 85.14
+          "close": 86.55
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 92.47,
-      "change": 3.25,
-      "changePercent": 3.64,
+      "value": 93.68,
+      "change": 4.46,
+      "changePercent": 5,
       "previousClose": 89.22,
       "asOf": "2026-08-20",
       "history": [
@@ -6025,16 +6053,16 @@
         },
         {
           "date": "2026-08-20",
-          "close": 92.47
+          "close": 93.68
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.78,
-      "change": -0.08,
-      "changePercent": -2.94,
+      "value": 2.76,
+      "change": -0.1,
+      "changePercent": -3.67,
       "previousClose": 2.86,
       "asOf": "2026-08-20",
       "history": [
@@ -6132,7 +6160,7 @@
         },
         {
           "date": "2026-08-20",
-          "close": 2.78
+          "close": 2.76
         }
       ],
       "name": "Natural Gas",
@@ -6229,6 +6257,14 @@
         "close": 8791.3
       },
       {
+        "date": "2026-07-21",
+        "close": 8793.3
+      },
+      {
+        "date": "2026-07-22",
+        "close": 8823
+      },
+      {
         "date": "2026-07-23",
         "close": 8839
       },
@@ -6251,6 +6287,10 @@
       {
         "date": "2026-07-30",
         "close": 8967.7
+      },
+      {
+        "date": "2026-07-31",
+        "close": 8976.8
       },
       {
         "date": "2026-08-03",
@@ -7469,21 +7509,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4546.9,
-      "change": 536.6,
-      "changePercent": 13.38
+      "price": 4526.6,
+      "change": 516.3,
+      "changePercent": 12.87
     },
     {
       "name": "Silver",
-      "price": 66.97,
-      "change": 10.17,
-      "changePercent": 17.9
+      "price": 66.81,
+      "change": 10.01,
+      "changePercent": 17.62
     },
     {
       "name": "Copper",
-      "price": 6.47,
-      "change": 0.17,
-      "changePercent": 2.68
+      "price": 6.42,
+      "change": 0.12,
+      "changePercent": 1.94
     }
   ],
   "housing": {
@@ -7828,7 +7868,7 @@
     {
       "title": "Broken Hill Gold blows White Dam hunt wide open in SA",
       "link": "https://www.smh.com.au/business/companies/broken-hill-gold-blows-white-dam-hunt-wide-open-in-sa-20260820-p60q6y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Broken Hill Gold, formerly PacGold, has blown its White Dam hunt wide open in SA after its Icebreaker target sparked a gold-copper push targeting more than 50 prospects.",
+      "snippet": "Broken Hill Gold, formerly Pacgold, has blown its White Dam hunt wide open in SA after its Icebreaker target sparked a gold-copper push targeting more than 50 prospects.",
       "pubDate": "Thu, 20 Aug 2026 17:18:25 +1000",
       "source": "SMH"
     },
@@ -7838,6 +7878,13 @@
       "snippet": "Viking Mines’ ore sorting tests on its US tungsten project have yielded up to 4.1 times the feed grade, with assays confirming grades as high as 1.91 per cent tungsten trioxide.",
       "pubDate": "Thu, 20 Aug 2026 14:42:47 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Max Verstappen signs to stay with Red Bull F1",
+      "link": "https://www.abc.net.au/news/2026-08-20/max-verstappen-extends-formula-1-contract-to-2030/107060388",
+      "snippet": "",
+      "pubDate": "Thu, 20 Aug 2026 08:16:39 +0000",
+      "source": "ABC"
     },
     {
       "title": "Did CBA boss Matt Comyn’s marriage breakdown meet the public interest test?",
@@ -7854,10 +7901,17 @@
       "source": "SMH"
     },
     {
-      "title": "De Minaur suffers US Open seeding blow after Cincinnati boilover",
-      "link": "https://www.abc.net.au/news/2026-08-20/tennis-de-minaur-stunned-cincinatti-misses-us-open-chance/107056986",
+      "title": "Storm's finals dream over as Penrith holds on despite triple sin-binning",
+      "link": "https://www.abc.net.au/news/2026-08-20/nrl-live-melbourne-storm-penrith-panthers/107060788",
       "snippet": "",
-      "pubDate": "Thu, 20 Aug 2026 00:06:23 +0000",
+      "pubDate": "Thu, 20 Aug 2026 09:03:54 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Holman stars on farewell as Suns out-muscle Saints to begin Round 24",
+      "link": "https://www.abc.net.au/news/2026-08-20/afl-rd-24-live-saints-suns/107055120",
+      "snippet": "",
+      "pubDate": "Thu, 20 Aug 2026 08:52:34 +0000",
       "source": "ABC"
     },
     {
@@ -7875,24 +7929,17 @@
       "source": "ABC"
     },
     {
+      "title": "Bookstores pull Heeney’s children’s book from sale",
+      "link": "https://www.smh.com.au/business/companies/bookstores-pull-heeney-s-children-s-book-from-sale-20260820-p60q3s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Swans star has published two children’s books in his Little Isaac Footy Fever series, and a third was due to come out in November.",
+      "pubDate": "Thu, 20 Aug 2026 15:03:45 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Raiders and Broncos are still reckoning with the legacy of a classic",
       "link": "https://www.abc.net.au/news/2026-08-20/canberra-raiders-brisbane-broncos-nrl-finals-josh-papalii/107057192",
       "snippet": "",
       "pubDate": "Thu, 20 Aug 2026 02:10:52 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Storm enforcer Kamikamica forced into medical retirement after stroke",
-      "link": "https://www.abc.net.au/news/2026-08-20/nrl-melbourne-storm-tui-kamikamica-retirement-after-stroke/107057532",
-      "snippet": "",
-      "pubDate": "Thu, 20 Aug 2026 01:47:58 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "FIFA vice-president withdraws support for Infantino after 'final straw'",
-      "link": "https://www.abc.net.au/news/2026-08-20/football-fifa-vice-president-withdraws-gianni-infantino-support/107056582",
-      "snippet": "",
-      "pubDate": "Wed, 19 Aug 2026 21:48:17 +0000",
       "source": "ABC"
     }
   ]
