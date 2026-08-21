@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-21T13:25:42.823Z",
+  "fetchedAt": "2026-08-21T19:06:02.270Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 2.34,
+      "changePercent": 2.54,
       "previousClose": 0.7,
       "asOf": "2026-08-21",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.03,
+      "changePercent": 0.18,
       "previousClose": 0.61,
       "asOf": "2026-08-21",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.8,
-      "change": 0.06,
-      "changePercent": 1.26,
+      "value": 4.83,
+      "change": 0.09,
+      "changePercent": 1.82,
       "previousClose": 4.74,
       "asOf": "2026-08-21",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 4.8
+          "close": 4.83
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 4.8
+          "close": 4.83
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 4.8
+          "close": 4.83
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-08-21",
-          "close": 4.8
+          "close": 4.83
         }
       ]
     },
     "audjpy": {
-      "value": 113.8,
-      "change": 0.07,
-      "changePercent": 0.06,
+      "value": 114.12,
+      "change": 0.39,
+      "changePercent": 0.34,
       "previousClose": 113.73,
       "asOf": "2026-08-21",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.8
+          "close": 114.12
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.8
+          "close": 114.12
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.8
+          "close": 114.12
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.8
+          "close": 114.12
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 2.34,
+    "changePercent": 2.54,
     "previousClose": 0.7,
     "asOf": "2026-08-21",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 86.71,
-      "change": 1.8,
-      "changePercent": 2.12,
+      "value": 87.05,
+      "change": 2.14,
+      "changePercent": 2.52,
       "previousClose": 84.91,
       "asOf": "2026-08-21",
       "history": [
@@ -5926,16 +5926,16 @@
         },
         {
           "date": "2026-08-21",
-          "close": 86.71
+          "close": 87.05
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.91,
-      "change": 2.9,
-      "changePercent": 3.19,
+      "value": 94.28,
+      "change": 3.27,
+      "changePercent": 3.59,
       "previousClose": 91.01,
       "asOf": "2026-08-21",
       "history": [
@@ -6033,7 +6033,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 93.91
+          "close": 94.28
         }
       ],
       "name": "Brent Crude",
@@ -6042,7 +6042,7 @@
     "gas": {
       "value": 2.8,
       "change": -0.06,
-      "changePercent": -2.16,
+      "changePercent": -2.23,
       "previousClose": 2.87,
       "asOf": "2026-08-21",
       "history": [
@@ -6323,10 +6323,6 @@
       {
         "date": "2026-08-20",
         "close": 9083.8
-      },
-      {
-        "date": "2026-08-21",
-        "close": 9058.9
       }
     ]
   },
@@ -7489,21 +7485,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4643.3,
-      "change": 572.2,
-      "changePercent": 14.06
+      "price": 4681.2,
+      "change": 610.1,
+      "changePercent": 14.99
     },
     {
       "name": "Silver",
-      "price": 69.68,
-      "change": 10.84,
-      "changePercent": 18.42
+      "price": 69.63,
+      "change": 10.79,
+      "changePercent": 18.35
     },
     {
       "name": "Copper",
-      "price": 6.59,
-      "change": 0.08,
-      "changePercent": 1.23
+      "price": 6.58,
+      "change": 0.07,
+      "changePercent": 1.11
     }
   ],
   "housing": {
@@ -7881,7 +7877,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: McKenna, Morris magic lifts Lions to vital big win over Pies",
+      "title": "McKenna, Morris magic lifts Lions to vital big win over Pies",
       "link": "https://www.abc.net.au/news/2026-08-21/afl-rd-24-live-magpies-lions/107063430",
       "snippet": "",
       "pubDate": "Fri, 21 Aug 2026 08:59:26 +0000",
