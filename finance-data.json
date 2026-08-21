@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-21T07:23:07.404Z",
+  "fetchedAt": "2026-08-21T13:25:42.823Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
-      "change": 0.01,
-      "changePercent": 2.1,
+      "value": 0.72,
+      "change": 0.02,
+      "changePercent": 2.34,
       "previousClose": 0.7,
       "asOf": "2026-08-21",
       "history": [
@@ -102,7 +102,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "label": "AUD/USD",
@@ -375,7 +375,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h6m": [
@@ -489,7 +489,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 0.71
+          "close": 0.72
         }
       ],
       "h3y": [
@@ -1123,14 +1123,14 @@
         },
         {
           "date": "2026-08-21",
-          "close": 0.71
+          "close": 0.72
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.38,
+      "changePercent": -0.03,
       "previousClose": 0.61,
       "asOf": "2026-08-21",
       "history": [
@@ -2256,7 +2256,7 @@
     "audcny": {
       "value": 4.8,
       "change": 0.06,
-      "changePercent": 1.3,
+      "changePercent": 1.26,
       "previousClose": 4.74,
       "asOf": "2026-08-21",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 113.55,
-      "change": -0.18,
-      "changePercent": -0.16,
+      "value": 113.8,
+      "change": 0.07,
+      "changePercent": 0.06,
       "previousClose": 113.73,
       "asOf": "2026-08-21",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.55
+          "close": 113.8
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.55
+          "close": 113.8
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.55
+          "close": 113.8
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-08-21",
-          "close": 113.55
+          "close": 113.8
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
-    "change": 0.01,
-    "changePercent": 2.1,
+    "value": 0.72,
+    "change": 0.02,
+    "changePercent": 2.34,
     "previousClose": 0.7,
     "asOf": "2026-08-21",
     "history": [
@@ -4607,7 +4607,7 @@
       },
       {
         "date": "2026-08-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "label": "AUD/USD",
@@ -4880,7 +4880,7 @@
       },
       {
         "date": "2026-08-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h6m": [
@@ -4994,7 +4994,7 @@
       },
       {
         "date": "2026-08-21",
-        "close": 0.71
+        "close": 0.72
       }
     ],
     "h3y": [
@@ -5628,7 +5628,7 @@
       },
       {
         "date": "2026-08-21",
-        "close": 0.71
+        "close": 0.72
       }
     ]
   },
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 86.29,
-      "change": 1.38,
-      "changePercent": 1.63,
+      "value": 86.71,
+      "change": 1.8,
+      "changePercent": 2.12,
       "previousClose": 84.91,
       "asOf": "2026-08-21",
       "history": [
@@ -5926,16 +5926,16 @@
         },
         {
           "date": "2026-08-21",
-          "close": 86.29
+          "close": 86.71
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.41,
-      "change": 2.4,
-      "changePercent": 2.64,
+      "value": 93.91,
+      "change": 2.9,
+      "changePercent": 3.19,
       "previousClose": 91.01,
       "asOf": "2026-08-21",
       "history": [
@@ -6033,16 +6033,16 @@
         },
         {
           "date": "2026-08-21",
-          "close": 93.41
+          "close": 93.91
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.77,
-      "change": -0.1,
-      "changePercent": -3.35,
+      "value": 2.8,
+      "change": -0.06,
+      "changePercent": -2.16,
       "previousClose": 2.87,
       "asOf": "2026-08-21",
       "history": [
@@ -6140,7 +6140,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 2.77
+          "close": 2.8
         }
       ],
       "name": "Natural Gas",
@@ -7489,21 +7489,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4617,
-      "change": 545.9,
-      "changePercent": 13.41
+      "price": 4643.3,
+      "change": 572.2,
+      "changePercent": 14.06
     },
     {
       "name": "Silver",
-      "price": 69.01,
-      "change": 10.17,
-      "changePercent": 17.29
+      "price": 69.68,
+      "change": 10.84,
+      "changePercent": 18.42
     },
     {
       "name": "Copper",
-      "price": 6.57,
-      "change": 0.06,
-      "changePercent": 0.89
+      "price": 6.59,
+      "change": 0.08,
+      "changePercent": 1.23
     }
   ],
   "housing": {
@@ -7839,10 +7839,10 @@
   ],
   "news": [
     {
-      "title": "ASX slides lower on oil, inflation worries; Guzman y Gomez jumps",
+      "title": "ASX slides for second week amid sell-off in local banks",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-as-wall-street-declines-20260821-p60q8o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Rising oil prices, high bond yields and inflation fears prompted a retreat on the Australian sharemarket after it opened.",
-      "pubDate": "Fri, 21 Aug 2026 11:08:55 +1000",
+      "snippet": "High oil prices, US bond market concerns and a sell-off in local banks drove the index lower.",
+      "pubDate": "Fri, 21 Aug 2026 17:28:36 +1000",
       "source": "SMH"
     },
     {
@@ -7874,13 +7874,6 @@
       "source": "SMH"
     },
     {
-      "title": "Hotel giant swoops on two popular Sydney pubs in $90m deal",
-      "link": "https://www.smh.com.au/business/small-business/hotel-giant-swoops-on-two-popular-sydney-pubs-in-90m-deal-20260820-p60q4k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Clock in Surry Hills and The Bank in Newtown are now owned by hotel group Australian Venue Co.",
-      "pubDate": "Fri, 21 Aug 2026 09:12:55 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Meta has been accused of buttering up influencers at its &#34;safety camp&#34; events",
       "link": "https://www.smh.com.au/business/meta-has-been-accused-of-buttering-up-influencers-at-its-safety-camp-events-20260821-p60qdh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The company invited dozens of parenting influencers to an “Instagram Safety Camp” at a Sydney Harbour venue in July 2025",
@@ -7888,7 +7881,14 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Raiders great farewells Canberra against battling Broncos",
+      "title": "Live: McKenna, Morris magic lifts Lions to vital big win over Pies",
+      "link": "https://www.abc.net.au/news/2026-08-21/afl-rd-24-live-magpies-lions/107063430",
+      "snippet": "",
+      "pubDate": "Fri, 21 Aug 2026 08:59:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Brisbane boys go back to back with stunning come-from-behind wins",
       "link": "https://www.abc.net.au/news/2026-08-21/nrl-live-raiders-broncos-dolphins-eels/107065550",
       "snippet": "",
       "pubDate": "Fri, 21 Aug 2026 07:18:32 +0000",
