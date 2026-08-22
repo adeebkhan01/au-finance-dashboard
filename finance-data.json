@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-22T01:56:49.510Z",
+  "fetchedAt": "2026-08-22T07:08:57.038Z",
   "fx": {
     "audusd": {
       "value": 0.72,
@@ -105,7 +105,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 0.72
         }
       ],
@@ -382,7 +382,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 0.72
         }
       ],
@@ -496,7 +496,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 0.72
         }
       ],
@@ -1130,7 +1130,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 0.72
         }
       ]
@@ -2373,7 +2373,7 @@
           "close": 4.79
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 4.81
         }
       ],
@@ -2650,7 +2650,7 @@
           "close": 4.79
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 4.81
         }
       ],
@@ -2764,7 +2764,7 @@
           "close": 4.79
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 4.81
         }
       ],
@@ -3398,7 +3398,7 @@
           "close": 4.79
         },
         {
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "close": 4.81
         }
       ]
@@ -4642,7 +4642,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-21",
+        "date": "2026-08-22",
         "close": 0.72
       }
     ],
@@ -4919,7 +4919,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-21",
+        "date": "2026-08-22",
         "close": 0.72
       }
     ],
@@ -5033,7 +5033,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-21",
+        "date": "2026-08-22",
         "close": 0.72
       }
     ],
@@ -5667,7 +5667,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-21",
+        "date": "2026-08-22",
         "close": 0.72
       }
     ]
@@ -5866,16 +5866,12 @@
   },
   "energy": {
     "wti": {
-      "value": 86.64,
-      "change": 1.73,
-      "changePercent": 2.04,
+      "value": 87.06,
+      "change": 2.15,
+      "changePercent": 2.53,
       "previousClose": 84.91,
       "asOf": "2026-08-22",
       "history": [
-        {
-          "date": "2026-07-21",
-          "close": 84.91
-        },
         {
           "date": "2026-07-22",
           "close": 86.83
@@ -5966,23 +5962,19 @@
         },
         {
           "date": "2026-08-21",
-          "close": 86.64
+          "close": 87.06
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.87,
-      "change": 2.86,
-      "changePercent": 3.14,
+      "value": 94.39,
+      "change": 3.38,
+      "changePercent": 3.71,
       "previousClose": 91.01,
       "asOf": "2026-08-22",
       "history": [
-        {
-          "date": "2026-07-21",
-          "close": 91.01
-        },
         {
           "date": "2026-07-22",
           "close": 94.07
@@ -6073,23 +6065,19 @@
         },
         {
           "date": "2026-08-21",
-          "close": 93.87
+          "close": 94.39
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.8,
-      "change": -0.07,
-      "changePercent": -2.34,
+      "value": 2.81,
+      "change": -0.05,
+      "changePercent": -1.88,
       "previousClose": 2.87,
       "asOf": "2026-08-22",
       "history": [
-        {
-          "date": "2026-07-21",
-          "close": 2.87
-        },
         {
           "date": "2026-07-22",
           "close": 2.92
@@ -6180,7 +6168,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 2.8
+          "close": 2.77
         }
       ],
       "name": "Natural Gas",
@@ -7529,21 +7517,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4661.6,
-      "change": 590.5,
-      "changePercent": 14.5
+      "price": 4680.6,
+      "change": 609.5,
+      "changePercent": 14.97
     },
     {
       "name": "Silver",
-      "price": 69.01,
-      "change": 10.18,
-      "changePercent": 17.29
+      "price": 69.53,
+      "change": 10.7,
+      "changePercent": 18.18
     },
     {
       "name": "Copper",
-      "price": 6.58,
-      "change": 0.07,
-      "changePercent": 1.06
+      "price": 6.59,
+      "change": 0.08,
+      "changePercent": 1.17
     }
   ],
   "housing": {
@@ -7921,6 +7909,27 @@
       "source": "SMH"
     },
     {
+      "title": "Pendlebury could miss rest of season with his playing future undecided",
+      "link": "https://www.abc.net.au/news/2026-08-22/collingwood-scott-pendlebury-hamstring-injury/107067306",
+      "snippet": "",
+      "pubDate": "Sat, 22 Aug 2026 06:59:36 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Manly run riot to hand Newcastle shock loss",
+      "link": "https://www.abc.net.au/news/2026-08-22/nrl-live-updates-knights-sea-eagles-souths-warriors/107067124",
+      "snippet": "",
+      "pubDate": "Sat, 22 Aug 2026 04:56:02 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Wallaroos hammered in historic 100th Test by ruthless Black Ferns",
+      "link": "https://www.abc.net.au/news/2026-08-22/australia-wallaroos-new-zealand-black-ferns-test/107066896",
+      "snippet": "",
+      "pubDate": "Sat, 22 Aug 2026 02:56:00 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Third woman engages lawyer over 'incredibly traumatic' Sydney Swans scandal",
       "link": "https://www.abc.net.au/news/2026-08-22/third-woman-legal-representation-civil-sydney-swans-scandal/107066742",
       "snippet": "",
@@ -7928,7 +7937,7 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Australia into the tail after Starc's five-wicket new ball spell",
+      "title": "Live: Shoriful takes six to leave Autralia reeling late on day two",
       "link": "https://www.abc.net.au/news/2026-08-22/australia-vs-bangladesh-live-updates-second-test-day-one/107063906",
       "snippet": "",
       "pubDate": "Fri, 21 Aug 2026 23:08:34 +0000",
@@ -7939,27 +7948,6 @@
       "link": "https://www.abc.net.au/news/2026-08-22/afl-brisbane-lions-coach-chris-fagan-feels-sorry-sydney-swans/107066662",
       "snippet": "",
       "pubDate": "Fri, 21 Aug 2026 23:00:51 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Wildcard woes: Why the Crows are walking a tightrope",
-      "link": "https://www.abc.net.au/news/2026-08-22/adelaide-crows-walk-wildcard-tightrope-on-eve-of-afl-finals/107058378",
-      "snippet": "",
-      "pubDate": "Fri, 21 Aug 2026 21:48:08 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Sad and disappointed' Sinner to miss first Grand Slam in seven years",
-      "link": "https://www.abc.net.au/news/2026-08-22/us-open-tennis-jannik-sinner-pulls-out-due-to-knee-injury/107066610",
-      "snippet": "",
-      "pubDate": "Fri, 21 Aug 2026 21:33:23 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Russell claims pole for Dutch F1 sprint as Piastri set to start fourth",
-      "link": "https://www.abc.net.au/news/2026-08-22/f1-dutch-grand-prix-sprint-qualifying/106998462",
-      "snippet": "",
-      "pubDate": "Fri, 21 Aug 2026 20:58:14 +0000",
       "source": "ABC"
     }
   ]
