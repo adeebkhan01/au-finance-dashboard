@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-23T02:08:37.324Z",
+  "fetchedAt": "2026-08-23T07:09:47.158Z",
   "fx": {
     "audusd": {
       "value": 0.72,
@@ -105,7 +105,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-23",
           "close": 0.72
         }
       ],
@@ -382,7 +382,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-23",
           "close": 0.72
         }
       ],
@@ -496,7 +496,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-23",
           "close": 0.72
         }
       ],
@@ -1130,7 +1130,7 @@
           "close": 0.71
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-23",
           "close": 0.72
         }
       ]
@@ -4642,7 +4642,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "close": 0.72
       }
     ],
@@ -4919,7 +4919,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "close": 0.72
       }
     ],
@@ -5033,7 +5033,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "close": 0.72
       }
     ],
@@ -5667,7 +5667,7 @@
         "close": 0.71
       },
       {
-        "date": "2026-08-22",
+        "date": "2026-08-23",
         "close": 0.72
       }
     ]
@@ -5867,15 +5867,11 @@
   "energy": {
     "wti": {
       "value": 87.06,
-      "change": 2.15,
-      "changePercent": 2.53,
-      "previousClose": 84.91,
+      "change": -5.13,
+      "changePercent": -5.56,
+      "previousClose": 92.19,
       "asOf": "2026-08-23",
       "history": [
-        {
-          "date": "2026-07-22",
-          "close": 86.83
-        },
         {
           "date": "2026-07-23",
           "close": 92.19
@@ -5970,15 +5966,11 @@
     },
     "brent": {
       "value": 94.39,
-      "change": 3.38,
-      "changePercent": 3.71,
-      "previousClose": 91.01,
+      "change": -6.3,
+      "changePercent": -6.26,
+      "previousClose": 100.69,
       "asOf": "2026-08-23",
       "history": [
-        {
-          "date": "2026-07-22",
-          "close": 94.07
-        },
         {
           "date": "2026-07-23",
           "close": 100.69
@@ -6073,15 +6065,11 @@
     },
     "gas": {
       "value": 2.81,
-      "change": -0.05,
-      "changePercent": -1.88,
-      "previousClose": 2.87,
+      "change": -0.1,
+      "changePercent": -3.6,
+      "previousClose": 2.92,
       "asOf": "2026-08-23",
       "history": [
-        {
-          "date": "2026-07-22",
-          "close": 2.92
-        },
         {
           "date": "2026-07-23",
           "close": 2.92
@@ -6168,7 +6156,7 @@
         },
         {
           "date": "2026-08-21",
-          "close": 2.77
+          "close": 2.81
         }
       ],
       "name": "Natural Gas",
@@ -7518,20 +7506,20 @@
     {
       "name": "Gold",
       "price": 4680.6,
-      "change": 609.5,
-      "changePercent": 14.97
+      "change": 634,
+      "changePercent": 15.67
     },
     {
       "name": "Silver",
       "price": 69.53,
-      "change": 10.7,
-      "changePercent": 18.18
+      "change": 11.73,
+      "changePercent": 20.3
     },
     {
       "name": "Copper",
       "price": 6.59,
-      "change": 0.08,
-      "changePercent": 1.17
+      "change": 0.28,
+      "changePercent": 4.47
     }
   ],
   "housing": {
@@ -7881,10 +7869,10 @@
       "source": "SMH"
     },
     {
-      "title": "Full cost of Kyle and Jackie O’s legal battle revealed",
-      "link": "https://www.smh.com.au/business/companies/revealed-full-cost-of-kyle-and-jackie-o-s-legal-battle-20260821-p60qaw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Radio company ARN’s legal bill from its fight with the duo compounds plummeting revenue and profits, and shareholder dissatisfaction.",
-      "pubDate": "Fri, 21 Aug 2026 15:34:52 +1000",
+      "title": "Trump’s desperate move to mess with markets is destined to fail",
+      "link": "https://www.smh.com.au/business/the-economy/trump-s-desperate-move-to-mess-with-markets-is-destined-to-fail-20260820-p60pwb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Trump administration shouldn’t be in the business of using taxpayer money to muck around with markets. Its latest move is the longest of long-shot bets.",
+      "pubDate": "Sun, 23 Aug 2026 14:44:19 +1000",
       "source": "SMH"
     },
     {
@@ -7895,45 +7883,52 @@
       "source": "ABC"
     },
     {
-      "title": "Meta has been accused of buttering up influencers at its &#34;safety camp&#34; events",
-      "link": "https://www.smh.com.au/business/meta-has-been-accused-of-buttering-up-influencers-at-its-safety-camp-events-20260821-p60qdh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The company invited dozens of parenting influencers to an “Instagram Safety Camp” at a Sydney Harbour venue in July 2025",
-      "pubDate": "Fri, 21 Aug 2026 14:54:21 +1000",
+      "title": "I bet my wife I could do our grocery shop in five minutes with AI. I was wrong",
+      "link": "https://www.smh.com.au/business/consumer-affairs/i-bet-my-wife-i-could-do-our-grocery-shop-in-five-minutes-with-ai-i-was-wrong-20260819-p60psl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There is a lot more human input in this errand than I had thought.",
+      "pubDate": "Sun, 23 Aug 2026 16:30:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Live: Threats of SCG walkouts as Swans men's and women's teams take the field",
+      "title": "Quick hits: A Shoriful stunner amid more left-arm carnage in the 29th two-day Test",
+      "link": "https://www.abc.net.au/news/2026-08-23/australia-vs-bangladesh-quick-hits-day-two-starc-shoriful/107065248",
+      "snippet": "",
+      "pubDate": "Sun, 23 Aug 2026 06:08:39 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Alan Joyce’s Musk monopoly warning over in-flight Wi-Fi",
+      "link": "https://www.smh.com.au/business/companies/alan-joyce-s-musk-monopoly-warning-over-in-flight-wi-fi-20260806-p60m15.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "While Amazon is building up Leo, its rival to Elon Musk’s Starlink, Joyce suggests Chinese satellite network providers might also eventually enter the industry.",
+      "pubDate": "Sun, 23 Aug 2026 14:04:11 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Live: Tigers ambushing sloppy Roosters",
+      "link": "https://www.abc.net.au/news/2026-08-23/nrl-live-updates-titans-sharks-roosters-tigers/107068718",
+      "snippet": "",
+      "pubDate": "Sun, 23 Aug 2026 03:52:53 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Bristol City striker's stunning backheel goal in England goes viral",
+      "link": "https://www.abc.net.au/news/2026-08-23/dom-ballard-goal-stuns-for-bristol-city/107068532",
+      "snippet": "",
+      "pubDate": "Sun, 23 Aug 2026 02:24:49 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Swans inclusions play starring roles as legends come out to support team",
       "link": "https://www.abc.net.au/news/2026-08-23/afl-live-sydney-swans-play-after-pullman-hotel-scandal/107067396",
       "snippet": "",
       "pubDate": "Sun, 23 Aug 2026 01:32:57 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Starc with more new-ball magic after Australia bowled out for 210",
+      "title": "Australia completes innings victory over Bangladesh inside two days in Mackay",
       "link": "https://www.abc.net.au/news/2026-08-23/australia-vs-bangladesh-live-updates-second-test-day-two/107065186",
       "snippet": "",
       "pubDate": "Sat, 22 Aug 2026 23:35:46 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "The archer who shoots a target he cannot see",
-      "link": "https://www.abc.net.au/news/2026-08-23/story-vision-impaired-gippsland-archer-world-championships/106922438",
-      "snippet": "",
-      "pubDate": "Sat, 22 Aug 2026 21:27:04 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Norris to start on pole for Dutch GP as Russell claims sprint",
-      "link": "https://www.abc.net.au/news/2026-08-23/oscar-piastri-qualifies-fourth-f1-dutch-grand-prix/106998476",
-      "snippet": "",
-      "pubDate": "Sat, 22 Aug 2026 21:06:05 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'We're all gonna make it': What gymbros are getting wrong about Zyzz",
-      "link": "https://www.abc.net.au/news/2026-08-23/zyzz-poster-boy-documentary-manosphere-looksmaxxing/107052896",
-      "snippet": "",
-      "pubDate": "Sat, 22 Aug 2026 19:06:07 +0000",
       "source": "ABC"
     },
     {
@@ -7942,13 +7937,6 @@
       "snippet": "The pilots say the bottleneck is slowing international flights from getting to gates during peak morning hours.",
       "pubDate": "Sun, 23 Aug 2026 05:00:00 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Chinese robot beats Usain Bolt's 100m world record",
-      "link": "https://www.abc.net.au/news/2026-08-22/the-robot-that-can-beat-usain-bolt/107067592",
-      "snippet": "",
-      "pubDate": "Sat, 22 Aug 2026 13:38:16 +0000",
-      "source": "ABC"
     }
   ]
 }
