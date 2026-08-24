@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-24T13:29:23.369Z",
+  "fetchedAt": "2026-08-24T19:09:11.753Z",
   "fx": {
     "audusd": {
-      "value": 0.72,
+      "value": 0.71,
       "change": 0.02,
-      "changePercent": 2.9,
+      "changePercent": 2.61,
       "previousClose": 0.7,
       "asOf": "2026-08-24",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 0.72
+          "close": 0.71
         }
       ],
       "label": "AUD/USD",
@@ -363,7 +363,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 0.72
+          "close": 0.71
         }
       ],
       "h6m": [
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 0.72
+          "close": 0.71
         }
       ],
       "h3y": [
@@ -1107,14 +1107,14 @@
         },
         {
           "date": "2026-08-24",
-          "close": 0.72
+          "close": 0.71
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": 0.24,
+      "changePercent": 0.05,
       "previousClose": 0.61,
       "asOf": "2026-08-24",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.8,
-      "change": 0.08,
-      "changePercent": 1.78,
+      "value": 4.81,
+      "change": 0.09,
+      "changePercent": 1.85,
       "previousClose": 4.72,
       "asOf": "2026-08-24",
       "history": [
@@ -2314,7 +2314,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 4.8
+          "close": 4.81
         }
       ],
       "label": "AUD/CNY",
@@ -2583,7 +2583,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 4.8
+          "close": 4.81
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 4.8
+          "close": 4.81
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-08-24",
-          "close": 4.8
+          "close": 4.81
         }
       ]
     },
     "audjpy": {
-      "value": 114.04,
-      "change": -0.1,
-      "changePercent": -0.09,
+      "value": 113.77,
+      "change": -0.37,
+      "changePercent": -0.33,
       "previousClose": 114.14,
       "asOf": "2026-08-24",
       "history": [
@@ -3424,7 +3424,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 114.04
+          "close": 113.77
         }
       ],
       "label": "AUD/JPY",
@@ -3693,7 +3693,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 114.04
+          "close": 113.77
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 114.04
+          "close": 113.77
         }
       ],
       "h3y": [
@@ -4437,15 +4437,15 @@
         },
         {
           "date": "2026-08-24",
-          "close": 114.04
+          "close": 113.77
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.72,
+    "value": 0.71,
     "change": 0.02,
-    "changePercent": 2.9,
+    "changePercent": 2.61,
     "previousClose": 0.7,
     "asOf": "2026-08-24",
     "history": [
@@ -4535,7 +4535,7 @@
       },
       {
         "date": "2026-08-24",
-        "close": 0.72
+        "close": 0.71
       }
     ],
     "label": "AUD/USD",
@@ -4804,7 +4804,7 @@
       },
       {
         "date": "2026-08-24",
-        "close": 0.72
+        "close": 0.71
       }
     ],
     "h6m": [
@@ -4914,7 +4914,7 @@
       },
       {
         "date": "2026-08-24",
-        "close": 0.72
+        "close": 0.71
       }
     ],
     "h3y": [
@@ -5548,7 +5548,7 @@
       },
       {
         "date": "2026-08-24",
-        "close": 0.72
+        "close": 0.71
       }
     ]
   },
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.61,
-      "change": -3.7,
-      "changePercent": -4.14,
+      "value": 85.18,
+      "change": -4.13,
+      "changePercent": -4.62,
       "previousClose": 89.31,
       "asOf": "2026-08-24",
       "history": [
@@ -5838,16 +5838,16 @@
         },
         {
           "date": "2026-08-24",
-          "close": 85.61
+          "close": 85.18
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.31,
-      "change": -3.47,
-      "changePercent": -3.59,
+      "value": 92.25,
+      "change": -4.53,
+      "changePercent": -4.68,
       "previousClose": 96.78,
       "asOf": "2026-08-24",
       "history": [
@@ -5937,16 +5937,16 @@
         },
         {
           "date": "2026-08-24",
-          "close": 93.31
+          "close": 92.25
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": 0.01,
-      "changePercent": 0.31,
+      "value": 2.84,
+      "change": -0.03,
+      "changePercent": -1.15,
       "previousClose": 2.87,
       "asOf": "2026-08-24",
       "history": [
@@ -6036,7 +6036,7 @@
         },
         {
           "date": "2026-08-24",
-          "close": 2.88
+          "close": 2.84
         }
       ],
       "name": "Natural Gas",
@@ -6211,10 +6211,6 @@
       {
         "date": "2026-08-21",
         "close": 9058.9
-      },
-      {
-        "date": "2026-08-24",
-        "close": 9103.1
       }
     ]
   },
@@ -7313,21 +7309,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4730.6,
-      "change": 663,
-      "changePercent": 16.3
+      "price": 4693.4,
+      "change": 625.8,
+      "changePercent": 15.38
     },
     {
       "name": "Silver",
-      "price": 69.69,
-      "change": 11.04,
-      "changePercent": 18.82
+      "price": 68.52,
+      "change": 9.86,
+      "changePercent": 16.81
     },
     {
       "name": "Copper",
-      "price": 6.63,
-      "change": 0.31,
-      "changePercent": 4.95
+      "price": 6.6,
+      "change": 0.28,
+      "changePercent": 4.38
     }
   ],
   "housing": {
@@ -7684,10 +7680,10 @@
       "source": "SMH"
     },
     {
-      "title": "King River gears up for fresh assault on historic WA gold targets",
-      "link": "https://www.smh.com.au/business/companies/king-river-gears-up-for-fresh-assault-on-historic-wa-gold-targets-20260824-p60r36.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "King River Resources has launched a Murchison exploration blitz at Mindoolah in WA, with magnetics and soil sampling ahead of a major drilling campaign locked in for October.",
-      "pubDate": "Mon, 24 Aug 2026 15:17:31 +1000",
+      "title": "Big pharma’s next $10 billion gamble: Ozempic for your brain",
+      "link": "https://www.smh.com.au/business/companies/big-pharma-s-next-10-billion-gamble-ozempic-for-your-brain-20260824-p60r1a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Could a new class of drugs being used to treat rare neurological disorders allow people to function without sleep?",
+      "pubDate": "Tue, 25 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
