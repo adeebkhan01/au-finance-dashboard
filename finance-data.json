@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-26T07:24:37.408Z",
+  "fetchedAt": "2026-08-26T13:32:57.751Z",
   "fx": {
     "audusd": {
       "value": 0.72,
@@ -1128,9 +1128,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.62,
       "change": 0,
-      "changePercent": 0.39,
+      "changePercent": 0.51,
       "previousClose": 0.61,
       "asOf": "2026-08-26",
       "history": [
@@ -1224,7 +1224,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1497,7 +1497,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1611,7 +1611,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2249,14 +2249,14 @@
         },
         {
           "date": "2026-08-26",
-          "close": 0.61
+          "close": 0.62
         }
       ]
     },
     "audcny": {
-      "value": 4.82,
-      "change": 0.1,
-      "changePercent": 2.2,
+      "value": 4.81,
+      "change": 0.09,
+      "changePercent": 1.91,
       "previousClose": 4.72,
       "asOf": "2026-08-26",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 4.82
+          "close": 4.81
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 4.82
+          "close": 4.81
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 4.82
+          "close": 4.81
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-08-26",
-          "close": 4.82
+          "close": 4.81
         }
       ]
     },
     "audjpy": {
-      "value": 114.13,
-      "change": -0.01,
-      "changePercent": -0.01,
+      "value": 114.32,
+      "change": 0.17,
+      "changePercent": 0.15,
       "previousClose": 114.14,
       "asOf": "2026-08-26",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 114.13
+          "close": 114.32
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 114.13
+          "close": 114.32
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 114.13
+          "close": 114.32
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 114.13
+          "close": 114.32
         }
       ]
     }
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.26,
-      "change": -2.35,
-      "changePercent": -2.84,
+      "value": 80.7,
+      "change": -1.91,
+      "changePercent": -2.31,
       "previousClose": 82.61,
       "asOf": "2026-08-26",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-08-26",
-          "close": 80.26
+          "close": 80.7
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.4,
-      "change": -2.96,
-      "changePercent": -3.35,
+      "value": 85.66,
+      "change": -2.7,
+      "changePercent": -3.06,
       "previousClose": 88.36,
       "asOf": "2026-08-26",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-08-26",
-          "close": 85.4
+          "close": 85.66
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.86,
-      "change": 0.09,
-      "changePercent": 3.29,
+      "value": 2.88,
+      "change": 0.11,
+      "changePercent": 4.08,
       "previousClose": 2.77,
       "asOf": "2026-08-26",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 2.86
+          "close": 2.88
         }
       ],
       "name": "Natural Gas",
@@ -7441,21 +7441,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4693,
-      "change": 618.5,
-      "changePercent": 15.18
+      "price": 4666.2,
+      "change": 591.7,
+      "changePercent": 14.52
     },
     {
       "name": "Silver",
-      "price": 68.89,
-      "change": 10.42,
-      "changePercent": 17.82
+      "price": 68.09,
+      "change": 9.62,
+      "changePercent": 16.45
     },
     {
       "name": "Copper",
-      "price": 6.73,
-      "change": 0.39,
-      "changePercent": 6.12
+      "price": 6.76,
+      "change": 0.42,
+      "changePercent": 6.63
     }
   ],
   "housing": {
@@ -7791,6 +7791,20 @@
   ],
   "news": [
     {
+      "title": "ASX falls as shock inflation fuels rate concerns; Woolies, Nine gain",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-boosted-by-falling-oil-prices-canada-hits-back-at-us-with-tariffs-20260826-p60rjt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket pared early gains after the release of the latest inflation figures, while investors digested another flurry of local corporate results.",
+      "pubDate": "Wed, 26 Aug 2026 16:59:10 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "The financial trend raising the alarm from Wall Street to western Sydney",
+      "link": "https://www.smh.com.au/business/banking-and-finance/the-financial-trend-raising-the-alarm-from-wall-street-to-western-sydney-20260826-p60rm4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The $3 billion collapse of western Sydney property developer Bathla Group is the latest cautionary tale involving the private credit sector.",
+      "pubDate": "Wed, 26 Aug 2026 18:01:26 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Rio2 gets green light for Peruvian copper expansion",
       "link": "https://www.smh.com.au/business/companies/rio2-gets-green-light-for-peru-copper-expansion-20260826-p60rtm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Rio2 Ltd has received the green light for a major expansion of its Condestable copper mine in Peru, allowing for increased production and a 10-year life extension.",
@@ -7805,6 +7819,20 @@
       "source": "SMH"
     },
     {
+      "title": "Macquarie dumps KPMG from the nation’s biggest audit contract",
+      "link": "https://www.smh.com.au/business/companies/macquarie-dumps-kpmg-from-the-nation-s-biggest-audit-contract-20260826-p60rv4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "KPMG faces another round of job cuts after Macquarie dumped the firm from the most lucrative audit contract in Australia.",
+      "pubDate": "Wed, 26 Aug 2026 17:46:28 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Shock job cuts at Austrac despite expanding role battling financial crime",
+      "link": "https://www.smh.com.au/business/companies/shock-job-cuts-at-austrac-despite-expanding-role-battling-financial-crime-20260826-p60rra.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s highest-profile money-laundering regulator is preparing for significant cuts to its workforce.",
+      "pubDate": "Wed, 26 Aug 2026 17:27:39 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Price wars in perpetuity: Discounts (and Ooshies) usher in Woolies’ resurgence",
       "link": "https://www.smh.com.au/business/companies/price-wars-in-perpetuity-discounts-and-ooshies-usher-in-woolies-resurgence-20260826-p60rp8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "After years of being beaten up by politicians and targeted by the consumer regulator, the supermarket giants won’t be winning any popularity contests. But engaging in discounting one-upmanship is a good start.",
@@ -7812,31 +7840,17 @@
       "source": "SMH"
     },
     {
-      "title": "Gateway stretches WA gold discovery to whopping 4.5km",
-      "link": "https://www.smh.com.au/business/companies/gateway-stretches-wa-gold-discovery-to-whopping-4-5km-20260826-p60rqr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gateway Mining has extended its new Cowza gold discovery near Wiluna in WA to 4.5km of strike and hit a high-grade 4m intercept grading 9.7g/t gold at its nearby Celia South prospect.",
-      "pubDate": "Wed, 26 Aug 2026 12:42:57 +1000",
-      "source": "SMH"
+      "title": "Live: Nikita Tszyu and Ben Mahoney in thrilling draw",
+      "link": "https://www.abc.net.au/news/2026-08-26/live-updates-nikita-tszyu-vs-ben-mahoney/107079594",
+      "snippet": "",
+      "pubDate": "Wed, 26 Aug 2026 08:08:17 +0000",
+      "source": "ABC"
     },
     {
       "title": "Woolworths doesn’t need Ooshies effect to beat Coles, says CEO",
       "link": "https://www.smh.com.au/business/companies/woolworths-sales-growth-beats-coles-20260826-p60rli.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Chief executive Amanda Bardwell celebrated the success of the chain’s collectables campaign, but said it wasn’t the sole sales driver.",
       "pubDate": "Wed, 26 Aug 2026 17:20:07 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Investigators probe two more close calls at Sydney Airport",
-      "link": "https://www.smh.com.au/business/companies/investigators-probe-fresh-runway-incidents-at-sydney-airport-20260826-p60rrf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Investigators have opened probes into two fresh incidents at Sydney Airport, following a run of recent problems at the major hub.",
-      "pubDate": "Wed, 26 Aug 2026 15:00:36 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Critica bolsters ranks for dual critical minerals push",
-      "link": "https://www.smh.com.au/business/companies/critica-bolsters-ranks-for-dual-critical-minerals-push-20260826-p60rsb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critica has appointed an interim manager to progress dual scoping studies for its Mt Lindsay tin-tungsten and Jupiter rare earths projects, with both studies due in Q3 2026.",
-      "pubDate": "Wed, 26 Aug 2026 14:51:09 +1000",
       "source": "SMH"
     },
     {
@@ -7858,20 +7872,6 @@
       "link": "https://www.abc.net.au/news/2026-08-26/basketball-enes-kanter-freedom-banned-wnba-chicago-sky/107078932",
       "snippet": "",
       "pubDate": "Wed, 26 Aug 2026 00:12:48 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "CTE study finds 70pc of head impacts happening in sports practice",
-      "link": "https://www.abc.net.au/news/2026-08-26/cte-study-finds-one-in-four-nfl-players-had-brain-disease/107078502",
-      "snippet": "",
-      "pubDate": "Tue, 25 Aug 2026 22:58:13 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Tomic's main draw drought continues as Australians struggle at US Open",
-      "link": "https://www.abc.net.au/news/2026-08-26/tennis-tomic-jones-beaten-us-open-qualifiers/107078538",
-      "snippet": "",
-      "pubDate": "Tue, 25 Aug 2026 22:05:38 +0000",
       "source": "ABC"
     }
   ]
