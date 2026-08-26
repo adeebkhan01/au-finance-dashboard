@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-26T13:32:57.751Z",
+  "fetchedAt": "2026-08-26T20:33:20.668Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 3.04,
+      "changePercent": 3.01,
       "previousClose": 0.7,
       "asOf": "2026-08-26",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-08-24",
+          "close": 0.72
+        },
+        {
+          "date": "2026-08-25",
           "close": 0.72
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-08-24",
+          "close": 0.72
+        },
+        {
+          "date": "2026-08-25",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.51,
+      "changePercent": 0.49,
       "previousClose": 0.61,
       "asOf": "2026-08-26",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-08-24",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-25",
           "close": 0.61
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-08-24",
+          "close": 0.61
+        },
+        {
+          "date": "2026-08-25",
           "close": 0.61
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.81,
-      "change": 0.09,
-      "changePercent": 1.91,
+      "value": 4.82,
+      "change": 0.1,
+      "changePercent": 2.18,
       "previousClose": 4.72,
       "asOf": "2026-08-26",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.81
         },
         {
+          "date": "2026-08-25",
+          "close": 4.82
+        },
+        {
           "date": "2026-08-26",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.81
         },
         {
+          "date": "2026-08-25",
+          "close": 4.82
+        },
+        {
           "date": "2026-08-26",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.81
+          "close": 4.82
         },
         {
           "date": "2026-08-26",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.81
+          "close": 4.82
         },
         {
           "date": "2026-08-26",
-          "close": 4.81
+          "close": 4.82
         }
       ]
     },
     "audjpy": {
-      "value": 114.32,
-      "change": 0.17,
-      "changePercent": 0.15,
+      "value": 114.29,
+      "change": 0.14,
+      "changePercent": 0.12,
       "previousClose": 114.14,
       "asOf": "2026-08-26",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 113.85
         },
         {
+          "date": "2026-08-25",
+          "close": 114.06
+        },
+        {
           "date": "2026-08-26",
-          "close": 114.32
+          "close": 114.29
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 113.85
         },
         {
+          "date": "2026-08-25",
+          "close": 114.06
+        },
+        {
           "date": "2026-08-26",
-          "close": 114.32
+          "close": 114.29
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 113.85
+          "close": 114.06
         },
         {
           "date": "2026-08-26",
-          "close": 114.32
+          "close": 114.29
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 113.85
+          "close": 114.06
         },
         {
           "date": "2026-08-26",
-          "close": 114.32
+          "close": 114.29
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 3.04,
+    "changePercent": 3.01,
     "previousClose": 0.7,
     "asOf": "2026-08-26",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-08-24",
+        "close": 0.72
+      },
+      {
+        "date": "2026-08-25",
         "close": 0.72
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-08-24",
+        "close": 0.72
+      },
+      {
+        "date": "2026-08-25",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.7,
-      "change": -1.91,
-      "changePercent": -2.31,
+      "value": 81.89,
+      "change": -0.72,
+      "changePercent": -0.87,
       "previousClose": 82.61,
       "asOf": "2026-08-26",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-08-26",
-          "close": 80.7
+          "close": 81.89
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 85.66,
-      "change": -2.7,
-      "changePercent": -3.06,
+      "value": 86.48,
+      "change": -1.88,
+      "changePercent": -2.13,
       "previousClose": 88.36,
       "asOf": "2026-08-26",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-08-26",
-          "close": 85.66
+          "close": 86.48
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": 0.11,
-      "changePercent": 4.08,
+      "value": 2.9,
+      "change": 0.13,
+      "changePercent": 4.81,
       "previousClose": 2.77,
       "asOf": "2026-08-26",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-08-26",
-          "close": 2.88
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -6307,10 +6347,6 @@
       {
         "date": "2026-08-25",
         "close": 9164.6
-      },
-      {
-        "date": "2026-08-26",
-        "close": 9127.8
       }
     ]
   },
@@ -7441,21 +7477,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4666.2,
-      "change": 591.7,
-      "changePercent": 14.52
+      "price": 4642.6,
+      "change": 568.1,
+      "changePercent": 13.94
     },
     {
       "name": "Silver",
-      "price": 68.09,
-      "change": 9.62,
-      "changePercent": 16.45
+      "price": 67.92,
+      "change": 9.45,
+      "changePercent": 16.16
     },
     {
       "name": "Copper",
-      "price": 6.76,
-      "change": 0.42,
-      "changePercent": 6.63
+      "price": 6.7,
+      "change": 0.36,
+      "changePercent": 5.63
     }
   ],
   "housing": {
@@ -7798,10 +7834,24 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set for flat start as Wall Street dips; Nvidia, Qantas results ahead",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-flat-start-as-wall-street-dips-nvidia-qantas-results-ahead-20260827-p60rx8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is drifting after a report said inflation was a touch worse last month than economists expected.",
+      "pubDate": "Thu, 27 Aug 2026 05:26:39 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "The financial trend raising the alarm from Wall Street to western Sydney",
       "link": "https://www.smh.com.au/business/banking-and-finance/the-financial-trend-raising-the-alarm-from-wall-street-to-western-sydney-20260826-p60rm4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The $3 billion collapse of western Sydney property developer Bathla Group is the latest cautionary tale involving the private credit sector.",
       "pubDate": "Wed, 26 Aug 2026 18:01:26 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Desperate agents vent online as real estate downturn bites",
+      "link": "https://www.smh.com.au/business/companies/desperate-agents-vent-online-as-real-estate-downturn-bites-20260825-p60r93.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "From deploying stunts about false robberies to sharing tactics to avoid buyers seeking discounts, real estate agents are talking themselves through the downturn.",
+      "pubDate": "Thu, 27 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7812,11 +7862,11 @@
       "source": "SMH"
     },
     {
-      "title": "TMK Energy secures driller for fresh Mongolian gas pilot well",
-      "link": "https://www.smh.com.au/business/companies/tmk-energy-secures-driller-for-fresh-mongolian-gas-pilot-well-20260826-p60rsm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "TMK Energy has signed up Major Drilling for a new pilot well and to rework three existing ones as it chases a major lift in gas flows from its Mongolian gas project.",
-      "pubDate": "Wed, 26 Aug 2026 15:19:44 +1000",
-      "source": "SMH"
+      "title": "Nikita Tszyu says Ben Mahoney 'edged' thrilling Gold Coast draw",
+      "link": "https://www.abc.net.au/news/2026-08-26/live-updates-nikita-tszyu-vs-ben-mahoney/107079594",
+      "snippet": "",
+      "pubDate": "Wed, 26 Aug 2026 08:08:17 +0000",
+      "source": "ABC"
     },
     {
       "title": "Macquarie dumps KPMG from the nation’s biggest audit contract",
@@ -7833,17 +7883,17 @@
       "source": "SMH"
     },
     {
-      "title": "Price wars in perpetuity: Discounts (and Ooshies) usher in Woolies’ resurgence",
-      "link": "https://www.smh.com.au/business/companies/price-wars-in-perpetuity-discounts-and-ooshies-usher-in-woolies-resurgence-20260826-p60rp8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "After years of being beaten up by politicians and targeted by the consumer regulator, the supermarket giants won’t be winning any popularity contests. But engaging in discounting one-upmanship is a good start.",
-      "pubDate": "Wed, 26 Aug 2026 16:00:22 +1000",
-      "source": "SMH"
+      "title": "De Minaur to head home for Davis Cup tie against Poland",
+      "link": "https://www.abc.net.au/news/2026-08-27/de-minaur-to-lead-davis-cup-team-against-poland/107082442",
+      "snippet": "",
+      "pubDate": "Wed, 26 Aug 2026 19:00:16 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Live: Nikita Tszyu and Ben Mahoney in thrilling draw",
-      "link": "https://www.abc.net.au/news/2026-08-26/live-updates-nikita-tszyu-vs-ben-mahoney/107079594",
+      "title": "How Rosie Fordham leads the way in a race 'everybody comes out for'",
+      "link": "https://www.abc.net.au/news/2026-08-27/kangaroo-hoppet-cross-country-ski-marathon-rosie-fordham/107071678",
       "snippet": "",
-      "pubDate": "Wed, 26 Aug 2026 08:08:17 +0000",
+      "pubDate": "Wed, 26 Aug 2026 18:54:37 +0000",
       "source": "ABC"
     },
     {
@@ -7858,20 +7908,6 @@
       "link": "https://www.abc.net.au/news/2026-08-26/afl-essendon-mark-mcveigh-james-hird-analysis/107078808",
       "snippet": "",
       "pubDate": "Wed, 26 Aug 2026 03:10:54 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Pogačar's sensational solo attack squeezes Vuelta rivals dry",
-      "link": "https://www.abc.net.au/news/2026-08-26/tadej-pogacar-destroys-vuelta-a-espana-field-to-win-stage-4/107079158",
-      "snippet": "",
-      "pubDate": "Wed, 26 Aug 2026 01:40:30 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Ex-NBA player who claims to be a woman banned by WNBA team after joust",
-      "link": "https://www.abc.net.au/news/2026-08-26/basketball-enes-kanter-freedom-banned-wnba-chicago-sky/107078932",
-      "snippet": "",
-      "pubDate": "Wed, 26 Aug 2026 00:12:48 +0000",
       "source": "ABC"
     }
   ]
