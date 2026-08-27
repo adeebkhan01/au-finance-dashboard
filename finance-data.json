@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-27T10:07:00.163Z",
+  "fetchedAt": "2026-08-27T22:28:29.913Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 2.63,
+      "changePercent": 2.9,
       "previousClose": 0.7,
       "asOf": "2026-08-27",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-08-25",
+          "close": 0.72
+        },
+        {
+          "date": "2026-08-26",
           "close": 0.72
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-08-25",
+          "close": 0.72
+        },
+        {
+          "date": "2026-08-26",
           "close": 0.72
         },
         {
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.42,
+      "changePercent": 0.57,
       "previousClose": 0.61,
       "asOf": "2026-08-27",
       "history": [
@@ -1229,6 +1237,10 @@
         {
           "date": "2026-08-25",
           "close": 0.61
+        },
+        {
+          "date": "2026-08-26",
+          "close": 0.62
         },
         {
           "date": "2026-08-27",
@@ -1504,6 +1516,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-08-26",
+          "close": 0.62
+        },
+        {
           "date": "2026-08-27",
           "close": 0.62
         }
@@ -1615,7 +1631,7 @@
         },
         {
           "date": "2026-08-23",
-          "close": 0.61
+          "close": 0.62
         },
         {
           "date": "2026-08-27",
@@ -2253,7 +2269,7 @@
         },
         {
           "date": "2026-08-23",
-          "close": 0.61
+          "close": 0.62
         },
         {
           "date": "2026-08-27",
@@ -2262,9 +2278,9 @@
       ]
     },
     "audcny": {
-      "value": 4.82,
-      "change": 0.08,
-      "changePercent": 1.79,
+      "value": 4.84,
+      "change": 0.1,
+      "changePercent": 2.11,
       "previousClose": 4.74,
       "asOf": "2026-08-27",
       "history": [
@@ -2361,8 +2377,12 @@
           "close": 4.82
         },
         {
+          "date": "2026-08-26",
+          "close": 4.83
+        },
+        {
           "date": "2026-08-27",
-          "close": 4.82
+          "close": 4.84
         }
       ],
       "label": "AUD/CNY",
@@ -2634,8 +2654,12 @@
           "close": 4.82
         },
         {
+          "date": "2026-08-26",
+          "close": 4.83
+        },
+        {
           "date": "2026-08-27",
-          "close": 4.82
+          "close": 4.84
         }
       ],
       "h6m": [
@@ -2745,11 +2769,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.82
+          "close": 4.83
         },
         {
           "date": "2026-08-27",
-          "close": 4.82
+          "close": 4.84
         }
       ],
       "h3y": [
@@ -3383,18 +3407,18 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.82
+          "close": 4.83
         },
         {
           "date": "2026-08-27",
-          "close": 4.82
+          "close": 4.84
         }
       ]
     },
     "audjpy": {
-      "value": 114.45,
-      "change": 0.02,
-      "changePercent": 0.02,
+      "value": 114.68,
+      "change": 0.24,
+      "changePercent": 0.21,
       "previousClose": 114.43,
       "asOf": "2026-08-27",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 114.06
         },
         {
+          "date": "2026-08-26",
+          "close": 114.36
+        },
+        {
           "date": "2026-08-27",
-          "close": 114.45
+          "close": 114.68
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 114.06
         },
         {
+          "date": "2026-08-26",
+          "close": 114.36
+        },
+        {
           "date": "2026-08-27",
-          "close": 114.45
+          "close": 114.68
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.06
+          "close": 114.36
         },
         {
           "date": "2026-08-27",
-          "close": 114.45
+          "close": 114.68
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.06
+          "close": 114.36
         },
         {
           "date": "2026-08-27",
-          "close": 114.45
+          "close": 114.67
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 2.63,
+    "changePercent": 2.9,
     "previousClose": 0.7,
     "asOf": "2026-08-27",
     "history": [
@@ -4619,6 +4651,10 @@
       },
       {
         "date": "2026-08-25",
+        "close": 0.72
+      },
+      {
+        "date": "2026-08-26",
         "close": 0.72
       },
       {
@@ -4892,6 +4928,10 @@
       },
       {
         "date": "2026-08-25",
+        "close": 0.72
+      },
+      {
+        "date": "2026-08-26",
         "close": 0.72
       },
       {
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.13,
-      "change": -0.48,
-      "changePercent": -0.58,
+      "value": 83.53,
+      "change": 0.92,
+      "changePercent": 1.11,
       "previousClose": 82.61,
       "asOf": "2026-08-27",
       "history": [
@@ -5946,16 +5986,16 @@
         },
         {
           "date": "2026-08-27",
-          "close": 82.13
+          "close": 83.53
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.04,
-      "change": -1.32,
-      "changePercent": -1.49,
+      "value": 88.62,
+      "change": 0.26,
+      "changePercent": 0.29,
       "previousClose": 88.36,
       "asOf": "2026-08-27",
       "history": [
@@ -6053,16 +6093,16 @@
         },
         {
           "date": "2026-08-27",
-          "close": 87.04
+          "close": 88.62
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.91,
-      "change": 0.14,
-      "changePercent": 5.1,
+      "value": 2.9,
+      "change": 0.13,
+      "changePercent": 4.63,
       "previousClose": 2.77,
       "asOf": "2026-08-27",
       "history": [
@@ -6160,7 +6200,7 @@
         },
         {
           "date": "2026-08-27",
-          "close": 2.91
+          "close": 2.89
         }
       ],
       "name": "Natural Gas",
@@ -6343,10 +6383,6 @@
       {
         "date": "2026-08-26",
         "close": 9127.8
-      },
-      {
-        "date": "2026-08-27",
-        "close": 9038.2
       }
     ]
   },
@@ -7509,21 +7545,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4634.7,
-      "change": 560.2,
-      "changePercent": 13.75
+      "price": 4658.6,
+      "change": 584.1,
+      "changePercent": 14.34
     },
     {
       "name": "Silver",
-      "price": 68.99,
-      "change": 10.52,
-      "changePercent": 17.99
+      "price": 70.11,
+      "change": 11.64,
+      "changePercent": 19.9
     },
     {
       "name": "Copper",
-      "price": 6.64,
-      "change": 0.3,
-      "changePercent": 4.74
+      "price": 6.69,
+      "change": 0.35,
+      "changePercent": 5.54
     }
   ],
   "housing": {
@@ -7866,81 +7902,81 @@
       "source": "SMH"
     },
     {
-      "title": "Hedge fund boss Phil King to step down",
-      "link": "https://www.smh.com.au/business/hedge-fund-boss-phil-king-to-step-down-20260827-p60s6q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Regal Partners chief investment officer Phil King reflects on shorting CBA shares, artificial intellgence risks and what&#39;s wrong with our tax system.",
-      "pubDate": "Thu, 27 Aug 2026 16:03:39 +1000",
+      "title": "ASX set to edge up, Wall Street gets AI boost; Virgin, Harvey Norman results ahead",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-gets-ai-boost-virgin-harvey-norman-results-ahead-20260828-p60sae.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Technology stocks are leading Wall Street after Nvidia, Salesforce and others reported even fatter profits for the spring than analysts expected.",
+      "pubDate": "Fri, 28 Aug 2026 06:26:59 +1000",
       "source": "SMH"
     },
     {
-      "title": "Broken Hill Gold opens door on major SA copper-gold system",
-      "link": "https://www.smh.com.au/business/companies/broken-hill-gold-opens-door-on-major-sa-copper-gold-system-20260827-p60s6o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Broken Hill Gold has hit more wide, shallow gold-copper at Icebreaker in SA, with a standout 28m at 2.4g/t gold and 0.7 per cent copper, strengthening its major discovery.",
-      "pubDate": "Thu, 27 Aug 2026 16:07:01 +1000",
+      "title": "I shopped at Costco to save money. Here’s what I learnt",
+      "link": "https://www.smh.com.au/business/the-economy/i-shopped-at-costco-to-save-money-here-s-what-i-learnt-20260826-p60rsy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A kilogram of blueberries is reasonable, but a kilogram of spinach? Maybe not ... and knowing your prices is the key to snagging a bargain.",
+      "pubDate": "Fri, 28 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "From zero to $21 billion: Kingmaker’s exit is the end of an era for markets",
-      "link": "https://www.smh.com.au/business/markets/from-zero-to-21-billion-kingmaker-s-exit-is-the-end-of-an-era-for-markets-20260827-p60s1z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "When Phil King founded fund management firm Regal 20 years ago he wasn’t looking to invest for others. But people soon came knocking at his door.",
-      "pubDate": "Thu, 27 Aug 2026 15:52:47 +1000",
+      "title": "Billionaire brings former Gold Walkley winner back from the cold",
+      "link": "https://www.smh.com.au/business/companies/billionaire-brings-former-gold-walkley-winner-back-from-the-cold-20260827-p60s05.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Judith Neilson promised $100 million to journalism in 2018, but her institute lain dormant for a while. Now it’s back.",
+      "pubDate": "Fri, 28 Aug 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Barkly drills for scale at NT rare earths play",
-      "link": "https://www.smh.com.au/business/companies/barkly-drills-for-scale-at-nt-rare-earths-play-20260827-p60s7d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Barkly Rare Earths has so far drilled 1000m across 45 holes in its NT rare earths campaign as it chases resource growth beyond its existing 40Mt base, with assays looming.",
-      "pubDate": "Thu, 27 Aug 2026 16:37:59 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Forrestania inks $145m mining contract for WA gold hub",
-      "link": "https://www.smh.com.au/business/companies/forrestania-inks-145m-mining-contract-for-wa-gold-hub-20260827-p60s5x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Forrestania has inked a $145m mining deal as the company’s Lake Johnston processing hub continues to take shape, fast-tracking its WA gold production ambitions.",
-      "pubDate": "Thu, 27 Aug 2026 15:05:06 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Tszyu and Mahoney camps exchange verbal barbs after controversial draw",
-      "link": "https://www.abc.net.au/news/2026-08-27/boxing-nikita-tszyu-ben-mahoney-draw-reaction-rose-brothers/107083854",
+      "title": "New captain and changes in scrum as Wallabies name side to face Argentina",
+      "link": "https://www.abc.net.au/news/2026-08-28/wallabies-team-announcement-first-test-argentina/107027072",
       "snippet": "",
-      "pubDate": "Thu, 27 Aug 2026 02:14:57 +0000",
+      "pubDate": "Thu, 27 Aug 2026 21:33:05 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Adam Reynolds sidelined for Lang Park farewell against Storm",
-      "link": "https://www.abc.net.au/news/2026-08-27/nrl-live-brisbane-broncos-vs-melbourne-storm/107086076",
+      "title": "'I'm only human': Fremantle star Jackson dreaming of Dockers' maiden flag",
+      "link": "https://www.abc.net.au/news/2026-08-28/luke-jackson-dreaming-of-winning-afl-premiership-with-fremantle/107082160",
       "snippet": "",
-      "pubDate": "Thu, 27 Aug 2026 08:36:46 +0000",
+      "pubDate": "Thu, 27 Aug 2026 21:27:52 +0000",
       "source": "ABC"
     },
     {
-      "title": "Qantas boss says air traffic delays at Sydney Airport ‘not OK’",
-      "link": "https://www.smh.com.au/business/companies/qantas-profit-tumbles-as-fuel-coasts-soar-20260826-p60rvf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The company said its fuel bill jumped by more than $600 million while chief Vanessa Hudson defended Jetstar’s decision to begin charging for priority access to overhead bins.",
-      "pubDate": "Thu, 27 Aug 2026 17:04:25 +1000",
+      "title": "Two world records broken within an hour, Aussie soars to high jump win",
+      "link": "https://www.abc.net.au/news/2026-08-28/two-world-records-broken-zurich-diamond-league-meet/107087966",
+      "snippet": "",
+      "pubDate": "Thu, 27 Aug 2026 20:55:25 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "De Minaur gets qualifier in first round as US Open draw announced",
+      "link": "https://www.abc.net.au/news/2026-08-28/us-open-grand-slam-draw-announced/107087948",
+      "snippet": "",
+      "pubDate": "Thu, 27 Aug 2026 20:35:20 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "How the 'world champion persona' didn't come overnight for Matt Hauser",
+      "link": "https://www.abc.net.au/news/2026-08-28/matt-hauser-triathlon-success/107047972",
+      "snippet": "",
+      "pubDate": "Thu, 27 Aug 2026 19:56:12 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Breaking down the brilliance of Nick Daicos, and how to stop it",
+      "link": "https://www.abc.net.au/news/2026-08-28/breaking-down-the-brilliance-of-nick-daicos/107083730",
+      "snippet": "",
+      "pubDate": "Thu, 27 Aug 2026 19:26:28 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Should I have pushed back against my boss’s terrible idea?",
+      "link": "https://www.smh.com.au/business/workplace/should-i-have-pushed-back-against-my-boss-s-terrible-idea-20260827-p60s48.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The reason everyone except one brave soul stayed quiet in the meeting seems to me a problem of the culture of your workplace.",
+      "pubDate": "Fri, 28 Aug 2026 05:01:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Critical Resources taps CSIRO for battery tech scale-up",
-      "link": "https://www.smh.com.au/business/companies/critical-resources-taps-csiro-for-battery-tech-scale-up-20260827-p60s7k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critical Resources has teamed up with CSIRO to optimise its unique dry deposition battery manufacturing process, aiming to de-risk the technology for upscaling.",
-      "pubDate": "Thu, 27 Aug 2026 16:58:47 +1000",
+      "title": "Student digs changes hands for $440,000 a bed",
+      "link": "https://www.smh.com.au/business/small-business/student-digs-changes-hands-for-440-000-a-bed-20260827-p60s49.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Each bed in an eight-storey student accommodation building in the inner-city university precinct of Chippendale cost its buyer $440,000.",
+      "pubDate": "Fri, 28 Aug 2026 05:00:00 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Aussie James Duckworth through to Winston-Salem quarterfinals",
-      "link": "https://www.abc.net.au/news/2026-08-27/james-duckworth-through-to-winston-salem-quarter-finals/107084328",
-      "snippet": "",
-      "pubDate": "Thu, 27 Aug 2026 03:32:47 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "AIS pays more than $3m in restoration to abused athletes",
-      "link": "https://www.abc.net.au/news/2026-08-27/australian-institution-of-sport-3m-payment-abused-athletes/107083220",
-      "snippet": "",
-      "pubDate": "Wed, 26 Aug 2026 23:09:26 +0000",
-      "source": "ABC"
     }
   ]
 }
