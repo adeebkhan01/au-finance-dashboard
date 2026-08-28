@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-28T11:38:00.611Z",
+  "fetchedAt": "2026-08-28T22:31:17.563Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 3.03,
+      "changePercent": 2.53,
       "previousClose": 0.7,
       "asOf": "2026-08-28",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-08-26",
+          "close": 0.72
+        },
+        {
+          "date": "2026-08-27",
           "close": 0.72
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-08-26",
+          "close": 0.72
+        },
+        {
+          "date": "2026-08-27",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.52,
+      "changePercent": 0.59,
       "previousClose": 0.61,
       "asOf": "2026-08-28",
       "history": [
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-08-26",
+          "close": 0.62
+        },
+        {
+          "date": "2026-08-27",
           "close": 0.62
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-08-26",
+          "close": 0.62
+        },
+        {
+          "date": "2026-08-27",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.82,
-      "change": 0.09,
-      "changePercent": 1.97,
+      "value": 4.81,
+      "change": 0.08,
+      "changePercent": 1.67,
       "previousClose": 4.73,
       "asOf": "2026-08-28",
       "history": [
@@ -2353,8 +2369,12 @@
           "close": 4.83
         },
         {
+          "date": "2026-08-27",
+          "close": 4.84
+        },
+        {
           "date": "2026-08-28",
-          "close": 4.82
+          "close": 4.81
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.83
         },
         {
+          "date": "2026-08-27",
+          "close": 4.84
+        },
+        {
           "date": "2026-08-28",
-          "close": 4.82
+          "close": 4.81
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.83
+          "close": 4.84
         },
         {
           "date": "2026-08-28",
-          "close": 4.82
+          "close": 4.81
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.83
+          "close": 4.84
         },
         {
           "date": "2026-08-28",
-          "close": 4.82
+          "close": 4.81
         }
       ]
     },
     "audjpy": {
-      "value": 114.9,
-      "change": 0.48,
-      "changePercent": 0.42,
+      "value": 114.63,
+      "change": 0.21,
+      "changePercent": 0.18,
       "previousClose": 114.42,
       "asOf": "2026-08-28",
       "history": [
@@ -3479,8 +3503,12 @@
           "close": 114.36
         },
         {
+          "date": "2026-08-27",
+          "close": 114.62
+        },
+        {
           "date": "2026-08-28",
-          "close": 114.9
+          "close": 114.63
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 114.36
         },
         {
+          "date": "2026-08-27",
+          "close": 114.62
+        },
+        {
           "date": "2026-08-28",
-          "close": 114.9
+          "close": 114.63
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.36
+          "close": 114.62
         },
         {
           "date": "2026-08-28",
-          "close": 114.9
+          "close": 114.63
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.36
+          "close": 114.62
         },
         {
           "date": "2026-08-28",
-          "close": 114.9
+          "close": 114.63
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 3.03,
+    "changePercent": 2.53,
     "previousClose": 0.7,
     "asOf": "2026-08-28",
     "history": [
@@ -4603,6 +4635,10 @@
       },
       {
         "date": "2026-08-26",
+        "close": 0.72
+      },
+      {
+        "date": "2026-08-27",
         "close": 0.72
       },
       {
@@ -4876,6 +4912,10 @@
       },
       {
         "date": "2026-08-26",
+        "close": 0.72
+      },
+      {
+        "date": "2026-08-27",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 83.06,
-      "change": 3.8,
-      "changePercent": 4.79,
+      "value": 83.44,
+      "change": 4.18,
+      "changePercent": 5.27,
       "previousClose": 79.26,
       "asOf": "2026-08-28",
       "history": [
@@ -5926,16 +5966,16 @@
         },
         {
           "date": "2026-08-28",
-          "close": 83.06
+          "close": 83.44
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.11,
-      "change": 4.02,
-      "changePercent": 4.78,
+      "value": 88.29,
+      "change": 4.2,
+      "changePercent": 4.99,
       "previousClose": 84.09,
       "asOf": "2026-08-28",
       "history": [
@@ -6033,7 +6073,7 @@
         },
         {
           "date": "2026-08-28",
-          "close": 88.11
+          "close": 88.29
         }
       ],
       "name": "Brent Crude",
@@ -6041,8 +6081,8 @@
     },
     "gas": {
       "value": 2.88,
-      "change": 0.21,
-      "changePercent": 8.08,
+      "change": 0.22,
+      "changePercent": 8.23,
       "previousClose": 2.66,
       "asOf": "2026-08-28",
       "history": [
@@ -6323,10 +6363,6 @@
       {
         "date": "2026-08-27",
         "close": 9038.2
-      },
-      {
-        "date": "2026-08-28",
-        "close": 9092.3
       }
     ]
   },
@@ -7489,21 +7525,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4650.8,
-      "change": 614.5,
-      "changePercent": 15.22
+      "price": 4504.1,
+      "change": 467.8,
+      "changePercent": 11.59
     },
     {
       "name": "Silver",
-      "price": 71.03,
-      "change": 13.73,
-      "changePercent": 23.96
+      "price": 67.09,
+      "change": 9.79,
+      "changePercent": 17.09
     },
     {
       "name": "Copper",
-      "price": 6.72,
-      "change": 0.4,
-      "changePercent": 6.34
+      "price": 6.64,
+      "change": 0.32,
+      "changePercent": 5.03
     }
   ],
   "housing": {
@@ -7860,11 +7896,11 @@
       "source": "SMH"
     },
     {
-      "title": "New planes, fuel hedging shield Virgin from oil price shock",
-      "link": "https://www.smh.com.au/business/companies/virgin-post-strong-rise-in-profits-helped-by-fuel-hedging-20260827-p60s9o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The airline took delivery of 17 planes in the fiscal year, including 13 Boeing 737-8 Max aircraft with engines that burn less fuel.",
-      "pubDate": "Fri, 28 Aug 2026 12:18:02 +1000",
-      "source": "SMH"
+      "title": "Australian talent is the biggest loser in Super Netball signings",
+      "link": "https://www.abc.net.au/news/2026-08-29/aussie-talent-the-biggest-loser-in-super-netball-signings/107092654",
+      "snippet": "",
+      "pubDate": "Fri, 28 Aug 2026 21:26:53 +0000",
+      "source": "ABC"
     },
     {
       "title": "Childcare in upheaval as losses, closures, and plunging revenue mount",
@@ -7881,11 +7917,32 @@
       "source": "SMH"
     },
     {
-      "title": "Min Woo leads after flying start at Tour playoff finale",
-      "link": "https://www.abc.net.au/news/2026-08-28/min-woo-lee-leads-tour-championship-playoff-finale/107089826",
+      "title": "Paralympic champ out to conquer 'hardest' course at Sydney Marathon",
+      "link": "https://www.abc.net.au/news/2026-08-29/sydney-marathon-paralympic-champion-madison-de-rozario-competing/107090132",
       "snippet": "",
-      "pubDate": "Fri, 28 Aug 2026 03:19:13 +0000",
+      "pubDate": "Fri, 28 Aug 2026 19:38:16 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "A viral Facebook call-out for ring-ins saved this country footy side",
+      "link": "https://www.abc.net.au/news/2026-08-29/violet-town-facebook-post-fills-reserve-football-team/107088476",
+      "snippet": "",
+      "pubDate": "Fri, 28 Aug 2026 19:00:52 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "This hotel lost its gloss for decades. Now it’s a tribute to a classic cinematic era",
+      "link": "https://www.smh.com.au/business/consumer-affairs/this-hotel-lost-its-gloss-for-decades-now-it-s-a-tribute-to-a-classic-cinematic-era-20260813-p60nzs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Guests can choose dreamer suites or revenge rooms in a classic old cinema, vacant for decades, that has morphed into a modern hotel.",
+      "pubDate": "Sat, 29 Aug 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Highly inappropriate’: Leaked trove reveals serious concerns at new-look Star",
+      "link": "https://www.smh.com.au/business/companies/highly-inappropriate-leaked-trove-reveals-serious-concerns-at-new-look-star-20260827-p60s3r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The confidential documents detail issues with handling problem gamblers, accounting and senior executive conduct.",
+      "pubDate": "Sat, 29 Aug 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "The world’s most influential economist is under heavy fire",
@@ -7895,17 +7952,10 @@
       "source": "SMH"
     },
     {
-      "title": "Marathon runner felt part of identity 'stolen' after losing national record",
-      "link": "https://www.abc.net.au/news/2026-08-28/sydney-marathon-andy-buchanan-moving-on-from-losing-record/107086724",
+      "title": "Penrith go top after spiteful clash that all but ends Canterbury's finals hopes",
+      "link": "https://www.abc.net.au/news/2026-08-28/nrl-live-manly-dragons-panthers-bulldogs/107091402",
       "snippet": "",
-      "pubDate": "Fri, 28 Aug 2026 01:58:44 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "New captain and changes in scrum as Wallabies name side to face Argentina",
-      "link": "https://www.abc.net.au/news/2026-08-28/wallabies-team-announcement-first-test-argentina/107027072",
-      "snippet": "",
-      "pubDate": "Thu, 27 Aug 2026 21:33:05 +0000",
+      "pubDate": "Fri, 28 Aug 2026 07:24:48 +0000",
       "source": "ABC"
     }
   ]
