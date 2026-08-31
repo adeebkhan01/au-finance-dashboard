@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-08-31T14:16:11.734Z",
+  "fetchedAt": "2026-08-31T22:57:43.820Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.98,
+      "changePercent": 2.04,
       "previousClose": 0.7,
       "asOf": "2026-08-31",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.28,
+      "changePercent": 1.21,
       "previousClose": 0.61,
       "asOf": "2026-08-31",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.81,
+      "value": 4.82,
       "change": 0.07,
-      "changePercent": 1.42,
+      "changePercent": 1.5,
       "previousClose": 4.75,
       "asOf": "2026-08-31",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-08-31",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-08-31",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "h6m": [
@@ -2701,11 +2701,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.84
+          "close": 4.82
         },
         {
           "date": "2026-08-31",
-          "close": 4.81
+          "close": 4.82
         }
       ],
       "h3y": [
@@ -3335,18 +3335,18 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.84
+          "close": 4.82
         },
         {
           "date": "2026-08-31",
-          "close": 4.81
+          "close": 4.82
         }
       ]
     },
     "audjpy": {
-      "value": 114.45,
-      "change": 1.94,
-      "changePercent": 1.72,
+      "value": 114.49,
+      "change": 1.98,
+      "changePercent": 1.76,
       "previousClose": 112.51,
       "asOf": "2026-08-31",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-08-31",
-          "close": 114.45
+          "close": 114.49
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-08-31",
-          "close": 114.45
+          "close": 114.49
         }
       ],
       "h6m": [
@@ -3815,11 +3815,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.62
+          "close": 114.7
         },
         {
           "date": "2026-08-31",
-          "close": 114.45
+          "close": 114.49
         }
       ],
       "h3y": [
@@ -4449,11 +4449,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.62
+          "close": 114.7
         },
         {
           "date": "2026-08-31",
-          "close": 114.45
+          "close": 114.49
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.98,
+    "changePercent": 2.04,
     "previousClose": 0.7,
     "asOf": "2026-08-31",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.6,
-      "change": 0.93,
-      "changePercent": 1.1,
+      "value": 86.21,
+      "change": 1.54,
+      "changePercent": 1.82,
       "previousClose": 84.67,
       "asOf": "2026-08-31",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-08-31",
-          "close": 85.6
+          "close": 86.21
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 88.46,
-      "change": -1.66,
-      "changePercent": -1.84,
+      "value": 88.52,
+      "change": -1.6,
+      "changePercent": -1.78,
       "previousClose": 90.12,
       "asOf": "2026-08-31",
       "history": [
@@ -5957,16 +5957,16 @@
         },
         {
           "date": "2026-08-31",
-          "close": 88.46
+          "close": 88.52
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.89,
-      "change": 0.14,
-      "changePercent": 5.21,
+      "value": 2.93,
+      "change": 0.18,
+      "changePercent": 6.66,
       "previousClose": 2.75,
       "asOf": "2026-08-31",
       "history": [
@@ -6056,7 +6056,7 @@
         },
         {
           "date": "2026-08-31",
-          "close": 2.89
+          "close": 2.93
         }
       ],
       "name": "Natural Gas",
@@ -7297,21 +7297,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4474.7,
-      "change": 425.6,
-      "changePercent": 10.51
+      "price": 4496.3,
+      "change": 447.2,
+      "changePercent": 11.04
     },
     {
       "name": "Silver",
-      "price": 67.15,
-      "change": 9.55,
-      "changePercent": 16.59
+      "price": 67.24,
+      "change": 9.64,
+      "changePercent": 16.75
     },
     {
       "name": "Copper",
-      "price": 6.71,
-      "change": 0.28,
-      "changePercent": 4.27
+      "price": 6.7,
+      "change": 0.26,
+      "changePercent": 4.03
     }
   ],
   "housing": {
@@ -7647,6 +7647,13 @@
   ],
   "news": [
     {
+      "title": "‘Contagion risk’: Top central banker warns AI could spark global economic downturn",
+      "link": "https://www.smh.com.au/business/banking-and-finance/ai-threatens-to-unleash-global-market-downturn-top-central-banker-warns-20260831-p60t6o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Andrew Bailey has warned of a severe downturn in global stock markets if the AI bubble bursts.",
+      "pubDate": "Tue, 01 Sep 2026 05:41:25 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX dips as oil rises on Middle East tensions",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-as-wall-street-retreats-fed-chief-talks-up-inflation-fight-20260831-p60svl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket started the week lower, but rose over August, the fifth straight calendar month of gains.",
@@ -7654,10 +7661,10 @@
       "source": "SMH"
     },
     {
-      "title": "Great Southern drilling unlocks second growth front at WA gold play",
-      "link": "https://www.smh.com.au/business/companies/great-southern-drilling-unlocks-second-growth-front-at-wa-gold-play-20260831-p60t3t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Great Southern Mining has hit 14m at 1.05g/t gold north of its Mon Ami resource near Laverton, opening a potential northern extension, as the system also grew at depth.",
-      "pubDate": "Mon, 31 Aug 2026 14:36:29 +1000",
+      "title": "ASX set to retreat as Wall Street slides; Oil prices climb after US strike on Iranian sites",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-retreat-as-wall-street-slides-oil-prices-climb-after-us-strike-on-iranian-sites-20260901-p60t80.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The price of oil rose and stocks fell on Wall Street after the US launched its first military action in a month against Iran.",
+      "pubDate": "Tue, 01 Sep 2026 06:39:40 +1000",
       "source": "SMH"
     },
     {
@@ -7682,10 +7689,24 @@
       "source": "SMH"
     },
     {
-      "title": "Lindian locks in early feed for Kazakh heavy rare earths plant",
-      "link": "https://www.smh.com.au/business/companies/lindian-locks-in-early-feed-for-kazakh-heavy-rare-earths-plant-20260831-p60t3i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Lindian Resources has secured an option on a heavy rare earths stockpile in Kazakhstan, potentially providing early feedstock for its processing plant.",
-      "pubDate": "Mon, 31 Aug 2026 14:23:07 +1000",
+      "title": "Former grand slam semifinalist smashes racquet after early US Open exit",
+      "link": "https://www.abc.net.au/news/2026-09-01/aryna-sabalenka-begins-us-open-title-defence-arthur-fils-out/107100648",
+      "snippet": "",
+      "pubDate": "Mon, 31 Aug 2026 20:35:51 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Birrell saves match point as Aussies advance to US Open second rounds",
+      "link": "https://www.abc.net.au/news/2026-09-01/kim-birrell-defeats-petra-marcinko-in-us-open-first-round/107100632",
+      "snippet": "",
+      "pubDate": "Mon, 31 Aug 2026 20:15:13 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘Urgent attention’: The desperate emails Star ignored before a tragic death",
+      "link": "https://www.smh.com.au/business/companies/urgent-attention-the-desperate-emails-star-ignored-before-a-tragic-death-20260830-p60sqv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Eight months before a 24-year-old took her own life at Brisbane’s newest casino, a manager pleaded for a “major and obvious” vulnerability to be fixed.",
+      "pubDate": "Tue, 01 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7703,31 +7724,10 @@
       "source": "ABC"
     },
     {
-      "title": "Barkly NT test cracks 99% magnet rare earths extraction",
-      "link": "https://www.smh.com.au/business/companies/barkly-nt-test-cracks-99-percent-magnet-rare-earths-extraction-20260831-p60t2d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Barkly Rare Earths has cracked 99% magnet rare earths extraction in a new test, a huge lift that could unlock its 40-million-tonne resource in the Northern Territory.",
-      "pubDate": "Mon, 31 Aug 2026 13:08:12 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Knight's prop cops season-ending ban after send-off",
       "link": "https://www.abc.net.au/news/2026-08-31/newcastle-knights-prop-jacob-saifiti-four-match-nrl-ban/107097474",
       "snippet": "",
       "pubDate": "Mon, 31 Aug 2026 01:45:40 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Tearful Djokovic makes shock US Open exit in first round",
-      "link": "https://www.abc.net.au/news/2026-08-31/daniil-medvedev-wins-us-open-first-round-marin-cilic-out/107096532",
-      "snippet": "",
-      "pubDate": "Sun, 30 Aug 2026 21:34:32 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Rain forces Aussies off with US Open matches in the balance, Preston wins",
-      "link": "https://www.abc.net.au/news/2026-08-31/us-open-first-round-taylah-preston-wins-rain-suspends-play/107096452",
-      "snippet": "",
-      "pubDate": "Sun, 30 Aug 2026 20:24:06 +0000",
       "source": "ABC"
     }
   ]
