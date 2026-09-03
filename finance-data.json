@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-03T16:35:55.731Z",
+  "fetchedAt": "2026-09-03T21:12:30.982Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 2.27,
+      "changePercent": 2.26,
       "previousClose": 0.7,
       "asOf": "2026-09-03",
       "history": [
@@ -99,6 +99,10 @@
         {
           "date": "2026-09-01",
           "close": 0.71
+        },
+        {
+          "date": "2026-09-02",
+          "close": 0.72
         },
         {
           "date": "2026-09-03",
@@ -374,6 +378,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-09-02",
+          "close": 0.72
+        },
+        {
           "date": "2026-09-03",
           "close": 0.72
         }
@@ -485,7 +493,7 @@
         },
         {
           "date": "2026-08-30",
-          "close": 0.71
+          "close": 0.72
         },
         {
           "date": "2026-09-03",
@@ -1123,7 +1131,7 @@
         },
         {
           "date": "2026-08-30",
-          "close": 0.71
+          "close": 0.72
         },
         {
           "date": "2026-09-03",
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.43,
+      "changePercent": 1.44,
       "previousClose": 0.61,
       "asOf": "2026-09-03",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-09-01",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-02",
           "close": 0.62
         },
         {
@@ -1504,6 +1516,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-09-02",
+          "close": 0.62
+        },
+        {
           "date": "2026-09-03",
           "close": 0.62
         }
@@ -1611,7 +1627,7 @@
         },
         {
           "date": "2026-08-23",
-          "close": 0.62
+          "close": 0.6
         },
         {
           "date": "2026-08-30",
@@ -2249,7 +2265,7 @@
         },
         {
           "date": "2026-08-23",
-          "close": 0.62
+          "close": 0.6
         },
         {
           "date": "2026-08-30",
@@ -2264,7 +2280,7 @@
     "audcny": {
       "value": 4.84,
       "change": 0.08,
-      "changePercent": 1.78,
+      "changePercent": 1.79,
       "previousClose": 4.76,
       "asOf": "2026-09-03",
       "history": [
@@ -2359,6 +2375,10 @@
         {
           "date": "2026-09-01",
           "close": 4.8
+        },
+        {
+          "date": "2026-09-02",
+          "close": 4.81
         },
         {
           "date": "2026-09-03",
@@ -2634,6 +2654,10 @@
           "close": 4.8
         },
         {
+          "date": "2026-09-02",
+          "close": 4.81
+        },
+        {
           "date": "2026-09-03",
           "close": 4.84
         }
@@ -2741,11 +2765,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.82
+          "close": 4.83
         },
         {
           "date": "2026-08-30",
-          "close": 4.8
+          "close": 4.81
         },
         {
           "date": "2026-09-03",
@@ -3379,11 +3403,11 @@
         },
         {
           "date": "2026-08-23",
-          "close": 4.82
+          "close": 4.83
         },
         {
           "date": "2026-08-30",
-          "close": 4.8
+          "close": 4.81
         },
         {
           "date": "2026-09-03",
@@ -3392,9 +3416,9 @@
       ]
     },
     "audjpy": {
-      "value": 111.92,
-      "change": 0.9,
-      "changePercent": 0.81,
+      "value": 112.17,
+      "change": 1.15,
+      "changePercent": 1.04,
       "previousClose": 111.02,
       "asOf": "2026-09-03",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 114.49
         },
         {
+          "date": "2026-09-02",
+          "close": 113.84
+        },
+        {
           "date": "2026-09-03",
-          "close": 111.92
+          "close": 112.17
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 114.49
         },
         {
+          "date": "2026-09-02",
+          "close": 113.84
+        },
+        {
           "date": "2026-09-03",
-          "close": 111.92
+          "close": 112.17
         }
       ],
       "h6m": [
@@ -3871,15 +3903,15 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.7
+          "close": 114.62
         },
         {
           "date": "2026-08-30",
-          "close": 114.49
+          "close": 113.84
         },
         {
           "date": "2026-09-03",
-          "close": 111.92
+          "close": 112.17
         }
       ],
       "h3y": [
@@ -4509,15 +4541,15 @@
         },
         {
           "date": "2026-08-23",
-          "close": 114.7
+          "close": 114.62
         },
         {
           "date": "2026-08-30",
-          "close": 114.49
+          "close": 113.84
         },
         {
           "date": "2026-09-03",
-          "close": 111.91
+          "close": 112.17
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 2.27,
+    "changePercent": 2.26,
     "previousClose": 0.7,
     "asOf": "2026-09-03",
     "history": [
@@ -4620,6 +4652,10 @@
       {
         "date": "2026-09-01",
         "close": 0.71
+      },
+      {
+        "date": "2026-09-02",
+        "close": 0.72
       },
       {
         "date": "2026-09-03",
@@ -4895,6 +4931,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-09-02",
+        "close": 0.72
+      },
+      {
         "date": "2026-09-03",
         "close": 0.72
       }
@@ -5006,7 +5046,7 @@
       },
       {
         "date": "2026-08-30",
-        "close": 0.71
+        "close": 0.72
       },
       {
         "date": "2026-09-03",
@@ -5644,7 +5684,7 @@
       },
       {
         "date": "2026-08-30",
-        "close": 0.71
+        "close": 0.72
       },
       {
         "date": "2026-09-03",
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.54,
-      "change": 11.2,
-      "changePercent": 13.94,
+      "value": 91.67,
+      "change": 11.33,
+      "changePercent": 14.1,
       "previousClose": 80.34,
       "asOf": "2026-09-03",
       "history": [
@@ -5946,16 +5986,16 @@
         },
         {
           "date": "2026-09-03",
-          "close": 91.54
+          "close": 91.67
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.71,
-      "change": 11.94,
-      "changePercent": 14.25,
+      "value": 95.82,
+      "change": 12.05,
+      "changePercent": 14.38,
       "previousClose": 83.77,
       "asOf": "2026-09-03",
       "history": [
@@ -6053,16 +6093,16 @@
         },
         {
           "date": "2026-09-03",
-          "close": 95.71
+          "close": 95.82
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.91,
-      "change": 0.12,
-      "changePercent": 4.46,
+      "value": 2.93,
+      "change": 0.14,
+      "changePercent": 5.18,
       "previousClose": 2.78,
       "asOf": "2026-09-03",
       "history": [
@@ -6160,7 +6200,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 2.9
+          "close": 2.92
         }
       ],
       "name": "Natural Gas",
@@ -7505,21 +7545,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4539.3,
-      "change": 505.6,
-      "changePercent": 12.53
+      "price": 4520.3,
+      "change": 486.6,
+      "changePercent": 12.06
     },
     {
       "name": "Silver",
-      "price": 67.7,
-      "change": 10.03,
-      "changePercent": 17.4
+      "price": 67.58,
+      "change": 9.92,
+      "changePercent": 17.2
     },
     {
       "name": "Copper",
-      "price": 6.65,
-      "change": 0.13,
-      "changePercent": 2.04
+      "price": 6.67,
+      "change": 0.16,
+      "changePercent": 2.39
     }
   ],
   "housing": {
@@ -7855,17 +7895,66 @@
   ],
   "news": [
     {
-      "title": "TMK Energy gas rates surge as Mongolian drilling push looms",
-      "link": "https://www.smh.com.au/business/companies/tmk-energy-gas-rates-surge-as-mongolian-drilling-push-looms-20260903-p60u89.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "TMK Energy’s Mongolian gas production is up four per cent, with flow rates spiking above 50,000scfd ahead of a new drilling and well re-completion program.",
-      "pubDate": "Thu, 03 Sep 2026 16:26:04 +1000",
+      "title": "How a legal loophole lets CBA and Westpac charge their most loyal customers more",
+      "link": "https://www.smh.com.au/business/companies/how-a-legal-loophole-lets-cba-and-westpac-charge-their-most-loyal-customers-more-20260903-p60u02.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "NAB has removed fees for customers who go over credit card limits, while ANZ has sharply curbed their use, but the other two big banks have not.",
+      "pubDate": "Fri, 04 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Dalaroo ups the ante with 12,000m drilling assault on African gold",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-ups-the-ante-with-12-000m-drilling-assault-on-african-gold-20260903-p60u6s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals has started a 12,000m drill program at its Bondoukou gold project in Côte d’Ivoire, targeting a 7km corridor with high-grade surface gold anomalies.",
-      "pubDate": "Thu, 03 Sep 2026 14:38:22 +1000",
+      "title": "ASX set to advance as Wall Street climbs; Nvidia rises after sealing $18b deal",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-advance-as-wall-street-climbs-a-over-us72c-20260904-p60uc9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Gains in big technology stocks and easing bond yields helped lift Wall Street even as oil prices ticked higher amid an escalation in the US war with Iran.",
+      "pubDate": "Fri, 04 Sep 2026 06:12:37 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Sydney buyers swoop: Carla Zampatti nets blue-chip Brighton shop",
+      "link": "https://www.smh.com.au/business/companies/sydney-buyers-swoop-carla-zampatti-nets-blue-chip-brighton-shop-20260903-p60u40.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Priced out of Sydney, buyers are treating Melbourne and Victorian real estate as the alternative.",
+      "pubDate": "Fri, 04 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Australians are flocking to electric vehicles. There’s a hidden cost",
+      "link": "https://www.smh.com.au/business/the-economy/australians-are-flocking-to-electric-vehicles-there-s-a-hidden-cost-20260903-p60u4j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Our bid to save money on our cars could keep prices – and interest rates – high ... at least for now.",
+      "pubDate": "Fri, 04 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Osaka, Keys overcome mid-match stumbles to fight on at US Open",
+      "link": "https://www.abc.net.au/news/2026-09-04/us-open-naomi-osaka-madison-keys/107114720",
+      "snippet": "",
+      "pubDate": "Thu, 03 Sep 2026 20:56:04 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "French trio minted as billionaires as the world’s most valuable company swoops",
+      "link": "https://www.smh.com.au/business/companies/french-trio-minted-as-billionaires-as-the-world-s-most-valuable-company-swoops-20260904-p60uc8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Their platform was hacked by rogue OpenAI agents in July. Now it has been snapped up by Nvidia.",
+      "pubDate": "Fri, 04 Sep 2026 06:23:41 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "I can’t get a job because I can work only from home. What can I do?",
+      "link": "https://www.smh.com.au/business/workplace/i-can-t-get-a-job-because-i-can-work-only-from-home-what-can-i-do-20260903-p60u01.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "I have a job that involves desk work. I just need to do it at my desk instead of someone else’s. It costs nothing to accommodate me.",
+      "pubDate": "Fri, 04 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘I was just weak’: How an avoidant Rupert Murdoch could have warded off family fight",
+      "link": "https://www.smh.com.au/business/companies/i-was-just-weak-how-an-avoidant-rupert-murdoch-could-have-warded-off-family-fight-20260903-p60u5d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "For years, Murdoch took on unions, billionaires and his own family. But in his old age, he claims he has become conflict averse.",
+      "pubDate": "Fri, 04 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Billionaire pub owner downsizes in Darlinghurst",
+      "link": "https://www.smh.com.au/business/small-business/billionaire-pub-owner-downsizes-in-darlinghurst-20260903-p60u5z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Dubbed the man with the Midas touch, Sam Arnaout, a former panel beater, owns some of NSW’s highest-earning and most valuable hotels.",
+      "pubDate": "Fri, 04 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7876,20 +7965,6 @@
       "source": "ABC"
     },
     {
-      "title": "Plus-size pyjamas and nerves: Qantas A380 bringing NFL’s 49ers to Australia is on its way",
-      "link": "https://www.smh.com.au/business/companies/qantas-a380-arrives-in-san-francisco-to-bring-nfl-s-49ers-to-australia-20260903-p60u41.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The San Francisco team are bound for Melbourne before an expected sell-out match against the Los Angeles Rams at the MCG next week.",
-      "pubDate": "Thu, 03 Sep 2026 18:08:08 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Ozempic’s maker is in trouble. Tablets may be the answer",
-      "link": "https://www.smh.com.au/business/companies/ozempic-s-maker-is-in-trouble-tablets-may-be-the-answer-20260902-p60tl2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Just a few years ago, Novo Nordisk was the darling of the healthcare industry. Now it is teetering.",
-      "pubDate": "Thu, 03 Sep 2026 17:22:00 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Sabalenka fumes over reporter's 'parties' claim after US Open win",
       "link": "https://www.abc.net.au/news/2026-09-03/tennis-aryna-sabalenka-fumes-partying-claim-us-open/107112312",
       "snippet": "",
@@ -7897,38 +7972,10 @@
       "source": "ABC"
     },
     {
-      "title": "Big tech can’t stop people hating data centres",
-      "link": "https://www.smh.com.au/business/companies/big-tech-can-t-stop-people-hating-data-centres-20260903-p60u2o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Big AI companies have “assured” Australia that they won’t build data centres near homes. Will anybody believe them?",
-      "pubDate": "Thu, 03 Sep 2026 15:54:07 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "You have a new boss, and they’re younger than you. It’s a jolt",
-      "link": "https://www.smh.com.au/business/workplace/you-have-a-new-boss-and-they-re-younger-than-you-it-s-a-jolt-20260903-p60u26.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "For most of our working lives, we report to managers who are older and more experienced than us – until that changes one day.",
-      "pubDate": "Thu, 03 Sep 2026 15:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Boyd 'extremely honoured' after signing two-year deal as Maroons coach",
+      "title": "Boyd 'extremely honoured' after signing on as Maroons coach",
       "link": "https://www.abc.net.au/news/2026-09-03/darius-boyd-queensland-maroons-coach-state-of-origin/107112298",
       "snippet": "",
       "pubDate": "Thu, 03 Sep 2026 04:37:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Five Sydney Swans players to remain banned regardless of police investigation, coach says",
-      "link": "https://www.abc.net.au/news/2026-09-03/afl-dean-cox-sydney-players-remain-banned-police-investigation/107111808",
-      "snippet": "",
-      "pubDate": "Thu, 03 Sep 2026 04:13:35 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Fagan lashes Kangaroos over 'unfair' comments after Clarkson axing",
-      "link": "https://www.abc.net.au/news/2026-09-03/afl-brisbane-chris-fagan-unfair-kangaroos-alastair-clarkson-exit/107111038",
-      "snippet": "",
-      "pubDate": "Thu, 03 Sep 2026 02:39:40 +0000",
       "source": "ABC"
     }
   ]
