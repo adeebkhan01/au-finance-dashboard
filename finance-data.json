@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-03T11:30:38.637Z",
+  "fetchedAt": "2026-09-03T16:35:55.731Z",
   "fx": {
     "audusd": {
       "value": 0.72,
-      "change": 0.01,
-      "changePercent": 2.11,
+      "change": 0.02,
+      "changePercent": 2.27,
       "previousClose": 0.7,
       "asOf": "2026-09-03",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.49,
+      "changePercent": 1.43,
       "previousClose": 0.61,
       "asOf": "2026-09-03",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.82,
-      "change": 0.06,
-      "changePercent": 1.31,
+      "value": 4.84,
+      "change": 0.08,
+      "changePercent": 1.78,
       "previousClose": 4.76,
       "asOf": "2026-09-03",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 4.82
+          "close": 4.84
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 4.82
+          "close": 4.84
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 4.82
+          "close": 4.84
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-09-03",
-          "close": 4.82
+          "close": 4.84
         }
       ]
     },
     "audjpy": {
-      "value": 112.29,
-      "change": 1.27,
-      "changePercent": 1.15,
+      "value": 111.92,
+      "change": 0.9,
+      "changePercent": 0.81,
       "previousClose": 111.02,
       "asOf": "2026-09-03",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 112.29
+          "close": 111.92
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 112.29
+          "close": 111.92
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 112.29
+          "close": 111.92
         }
       ],
       "h3y": [
@@ -4517,15 +4517,15 @@
         },
         {
           "date": "2026-09-03",
-          "close": 112.29
+          "close": 111.91
         }
       ]
     }
   },
   "audusd": {
     "value": 0.72,
-    "change": 0.01,
-    "changePercent": 2.11,
+    "change": 0.02,
+    "changePercent": 2.27,
     "previousClose": 0.7,
     "asOf": "2026-09-03",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 92.31,
-      "change": 11.97,
-      "changePercent": 14.9,
+      "value": 91.54,
+      "change": 11.2,
+      "changePercent": 13.94,
       "previousClose": 80.34,
       "asOf": "2026-09-03",
       "history": [
@@ -5946,16 +5946,16 @@
         },
         {
           "date": "2026-09-03",
-          "close": 92.31
+          "close": 91.54
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.59,
-      "change": 12.82,
-      "changePercent": 15.3,
+      "value": 95.71,
+      "change": 11.94,
+      "changePercent": 14.25,
       "previousClose": 83.77,
       "asOf": "2026-09-03",
       "history": [
@@ -6053,16 +6053,16 @@
         },
         {
           "date": "2026-09-03",
-          "close": 96.59
+          "close": 95.71
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.99,
-      "change": 0.21,
-      "changePercent": 7.48,
+      "value": 2.91,
+      "change": 0.12,
+      "changePercent": 4.46,
       "previousClose": 2.78,
       "asOf": "2026-09-03",
       "history": [
@@ -6160,7 +6160,7 @@
         },
         {
           "date": "2026-09-03",
-          "close": 2.99
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -6343,10 +6343,6 @@
       {
         "date": "2026-09-02",
         "close": 8978.4
-      },
-      {
-        "date": "2026-09-03",
-        "close": 9020.1
       }
     ]
   },
@@ -7509,21 +7505,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4477.9,
-      "change": 444.2,
-      "changePercent": 11.01
+      "price": 4539.3,
+      "change": 505.6,
+      "changePercent": 12.53
     },
     {
       "name": "Silver",
-      "price": 66.32,
-      "change": 8.65,
-      "changePercent": 15.01
+      "price": 67.7,
+      "change": 10.03,
+      "changePercent": 17.4
     },
     {
       "name": "Copper",
-      "price": 6.62,
-      "change": 0.11,
-      "changePercent": 1.67
+      "price": 6.65,
+      "change": 0.13,
+      "changePercent": 2.04
     }
   ],
   "housing": {
@@ -7873,7 +7869,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Hawks dominate first half to stun Dockers in qualifying final",
+      "title": "Hawks complete stunning upset over Freo to clinch prelim berth",
       "link": "https://www.abc.net.au/news/2026-09-03/afl-qualifying-final-dockers-hawks-live-blog/107112142",
       "snippet": "",
       "pubDate": "Thu, 03 Sep 2026 09:12:51 +0000",
@@ -7922,7 +7918,7 @@
       "source": "ABC"
     },
     {
-      "title": "Cox says Swans five will remain banned regardless of police probe result",
+      "title": "Five Sydney Swans players to remain banned regardless of police investigation, coach says",
       "link": "https://www.abc.net.au/news/2026-09-03/afl-dean-cox-sydney-players-remain-banned-police-investigation/107111808",
       "snippet": "",
       "pubDate": "Thu, 03 Sep 2026 04:13:35 +0000",
