@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-04T16:31:16.636Z",
+  "fetchedAt": "2026-09-04T20:55:14.725Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 3.06,
+      "changePercent": 3,
       "previousClose": 0.7,
       "asOf": "2026-09-04",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-09-02",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-03",
           "close": 0.72
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-09-02",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-03",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.99,
+      "changePercent": 2.01,
       "previousClose": 0.61,
       "asOf": "2026-09-04",
       "history": [
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-09-02",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-03",
           "close": 0.62
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-09-02",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-03",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.82,
-      "change": 0.1,
-      "changePercent": 2.1,
+      "value": 4.83,
+      "change": 0.11,
+      "changePercent": 2.34,
       "previousClose": 4.72,
       "asOf": "2026-09-04",
       "history": [
@@ -2353,8 +2369,12 @@
           "close": 4.81
         },
         {
+          "date": "2026-09-03",
+          "close": 4.84
+        },
+        {
           "date": "2026-09-04",
-          "close": 4.82
+          "close": 4.83
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.81
         },
         {
+          "date": "2026-09-03",
+          "close": 4.84
+        },
+        {
           "date": "2026-09-04",
-          "close": 4.82
+          "close": 4.83
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-08-30",
-          "close": 4.81
+          "close": 4.84
         },
         {
           "date": "2026-09-04",
-          "close": 4.82
+          "close": 4.83
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-08-30",
-          "close": 4.81
+          "close": 4.84
         },
         {
           "date": "2026-09-04",
-          "close": 4.82
+          "close": 4.83
         }
       ]
     },
     "audjpy": {
-      "value": 112.52,
-      "change": 2.29,
-      "changePercent": 2.08,
+      "value": 112.57,
+      "change": 2.34,
+      "changePercent": 2.12,
       "previousClose": 110.23,
       "asOf": "2026-09-04",
       "history": [
@@ -3479,8 +3503,12 @@
           "close": 113.84
         },
         {
+          "date": "2026-09-03",
+          "close": 112.09
+        },
+        {
           "date": "2026-09-04",
-          "close": 112.52
+          "close": 112.57
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 113.84
         },
         {
+          "date": "2026-09-03",
+          "close": 112.09
+        },
+        {
           "date": "2026-09-04",
-          "close": 112.53
+          "close": 112.56
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-08-30",
-          "close": 113.84
+          "close": 112.09
         },
         {
           "date": "2026-09-04",
-          "close": 112.53
+          "close": 112.56
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-08-30",
-          "close": 113.84
+          "close": 112.09
         },
         {
           "date": "2026-09-04",
-          "close": 112.53
+          "close": 112.56
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 3.06,
+    "changePercent": 3,
     "previousClose": 0.7,
     "asOf": "2026-09-04",
     "history": [
@@ -4603,6 +4635,10 @@
       },
       {
         "date": "2026-09-02",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-03",
         "close": 0.72
       },
       {
@@ -4876,6 +4912,10 @@
       },
       {
         "date": "2026-09-02",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-03",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.57,
-      "change": 14.8,
-      "changePercent": 19.53,
+      "value": 91.28,
+      "change": 15.51,
+      "changePercent": 20.47,
       "previousClose": 75.77,
       "asOf": "2026-09-04",
       "history": [
@@ -5926,16 +5966,16 @@
         },
         {
           "date": "2026-09-04",
-          "close": 90.57
+          "close": 91.28
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.36,
-      "change": 16,
-      "changePercent": 20.16,
+      "value": 95.93,
+      "change": 16.57,
+      "changePercent": 20.88,
       "previousClose": 79.36,
       "asOf": "2026-09-04",
       "history": [
@@ -6033,7 +6073,7 @@
         },
         {
           "date": "2026-09-04",
-          "close": 95.36
+          "close": 95.93
         }
       ],
       "name": "Brent Crude",
@@ -6041,8 +6081,8 @@
     },
     "gas": {
       "value": 2.95,
-      "change": 0.27,
-      "changePercent": 10.14,
+      "change": 0.26,
+      "changePercent": 9.84,
       "previousClose": 2.68,
       "asOf": "2026-09-04",
       "history": [
@@ -7485,21 +7525,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4488.6,
-      "change": 393.2,
-      "changePercent": 9.6
+      "price": 4477.3,
+      "change": 381.9,
+      "changePercent": 9.33
     },
     {
       "name": "Silver",
-      "price": 66.83,
-      "change": 6.78,
-      "changePercent": 11.29
+      "price": 66.79,
+      "change": 6.73,
+      "changePercent": 11.2
     },
     {
       "name": "Copper",
-      "price": 6.69,
-      "change": 0.07,
-      "changePercent": 1.02
+      "price": 6.67,
+      "change": 0.05,
+      "changePercent": 0.76
     }
   ],
   "housing": {
@@ -7863,6 +7903,13 @@
       "source": "SMH"
     },
     {
+      "title": "Adelaide returns to scene of finals flop to face biggest test of growth",
+      "link": "https://www.abc.net.au/news/2026-09-05/afl-adelaide-midfield-test-western-bulldogs-analysis/107116116",
+      "snippet": "",
+      "pubDate": "Fri, 04 Sep 2026 19:02:34 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "How Swans midfielder is supporting banned housemate amid trade rumours",
       "link": "https://www.abc.net.au/news/2026-09-04/afl-sydney-swans-rowbottom-on-blakey-ban-support/107116932",
       "snippet": "",
@@ -7881,6 +7928,13 @@
       "link": "https://www.smh.com.au/business/the-economy/australians-are-flocking-to-electric-vehicles-there-s-a-hidden-cost-20260903-p60u4j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Our bid to save money on our cars could keep prices – and interest rates – high ... at least for now.",
       "pubDate": "Fri, 04 Sep 2026 11:16:40 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Worksafe cleared Star over staff death, but now it’s looking again",
+      "link": "https://www.smh.com.au/business/companies/worksafe-cleared-star-over-staff-death-but-now-it-s-looking-again-20260904-p60uhm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The regulator confirmed it is examining a fatal incident after leaked files revealed internal warnings about the risk.",
+      "pubDate": "Sat, 05 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7903,20 +7957,6 @@
       "snippet": "",
       "pubDate": "Fri, 04 Sep 2026 05:56:04 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Fan-built roller-coaster sets new standard in match-day choreography",
-      "link": "https://www.abc.net.au/news/2026-09-04/german-roller-coaster-tifo-catches-the-eye/107114970",
-      "snippet": "",
-      "pubDate": "Fri, 04 Sep 2026 03:32:11 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "LIVE STREAM: Good Food Symposium on Melbourne’s changing dining scene",
-      "link": "https://www.smh.com.au/business/workplace/melbourne-changing-dining-scene-good-food-symposium-20260901-p60tg7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Top hospo operators discuss how takeaway and delivery is reshaping how we eat. Hear from Smith &amp; Deli’s Shannon Martinez, Tulum’s Coskun Uysal and more.",
-      "pubDate": "Fri, 04 Sep 2026 13:14:04 +1000",
-      "source": "SMH"
     }
   ]
 }
