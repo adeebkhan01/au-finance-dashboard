@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-08T16:46:53.691Z",
+  "fetchedAt": "2026-09-08T21:18:44.314Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 2.64,
+      "changePercent": 2.7,
       "previousClose": 0.7,
       "asOf": "2026-09-08",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-09-06",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-07",
           "close": 0.72
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-09-06",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-07",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.72,
+      "changePercent": 1.74,
       "previousClose": 0.61,
       "asOf": "2026-09-08",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-09-06",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-07",
           "close": 0.62
         },
         {
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-09-06",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-07",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.83,
-      "change": 0.08,
-      "changePercent": 1.68,
+      "value": 4.85,
+      "change": 0.1,
+      "changePercent": 2.09,
       "previousClose": 4.75,
       "asOf": "2026-09-08",
       "history": [
@@ -2345,8 +2361,12 @@
           "close": 4.84
         },
         {
+          "date": "2026-09-07",
+          "close": 4.85
+        },
+        {
           "date": "2026-09-08",
-          "close": 4.83
+          "close": 4.85
         }
       ],
       "label": "AUD/CNY",
@@ -2618,8 +2638,12 @@
           "close": 4.84
         },
         {
+          "date": "2026-09-07",
+          "close": 4.85
+        },
+        {
           "date": "2026-09-08",
-          "close": 4.83
+          "close": 4.85
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 4.84
+          "close": 4.85
         },
         {
           "date": "2026-09-08",
-          "close": 4.83
+          "close": 4.85
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-09-06",
-          "close": 4.84
+          "close": 4.85
         },
         {
           "date": "2026-09-08",
-          "close": 4.83
+          "close": 4.85
         }
       ]
     },
     "audjpy": {
-      "value": 111.36,
-      "change": -0.05,
-      "changePercent": -0.05,
+      "value": 111.1,
+      "change": -0.32,
+      "changePercent": -0.28,
       "previousClose": 111.41,
       "asOf": "2026-09-08",
       "history": [
@@ -3471,8 +3495,12 @@
           "close": 112.56
         },
         {
+          "date": "2026-09-07",
+          "close": 111.09
+        },
+        {
           "date": "2026-09-08",
-          "close": 111.36
+          "close": 111.1
         }
       ],
       "label": "AUD/JPY",
@@ -3744,8 +3772,12 @@
           "close": 112.56
         },
         {
+          "date": "2026-09-07",
+          "close": 111.09
+        },
+        {
           "date": "2026-09-08",
-          "close": 111.35
+          "close": 111.1
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 112.56
+          "close": 111.09
         },
         {
           "date": "2026-09-08",
-          "close": 111.35
+          "close": 111.1
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 112.56
+          "close": 111.09
         },
         {
           "date": "2026-09-08",
-          "close": 111.35
+          "close": 111.1
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 2.64,
+    "changePercent": 2.7,
     "previousClose": 0.7,
     "asOf": "2026-09-08",
     "history": [
@@ -4595,6 +4627,10 @@
       },
       {
         "date": "2026-09-06",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-07",
         "close": 0.72
       },
       {
@@ -4868,6 +4904,10 @@
       },
       {
         "date": "2026-09-06",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-07",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 92.22,
-      "change": 14.04,
-      "changePercent": 17.96,
+      "value": 94.25,
+      "change": 16.07,
+      "changePercent": 20.56,
       "previousClose": 78.18,
       "asOf": "2026-09-08",
       "history": [
@@ -5914,16 +5954,16 @@
         },
         {
           "date": "2026-09-08",
-          "close": 92.22
+          "close": 94.25
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.32,
-      "change": 13.77,
-      "changePercent": 16.48,
+      "value": 99.31,
+      "change": 15.76,
+      "changePercent": 18.86,
       "previousClose": 83.55,
       "asOf": "2026-09-08",
       "history": [
@@ -6009,16 +6049,16 @@
         },
         {
           "date": "2026-09-08",
-          "close": 97.32
+          "close": 99.31
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": 0.21,
-      "changePercent": 8.04,
+      "value": 2.91,
+      "change": 0.24,
+      "changePercent": 9.13,
       "previousClose": 2.66,
       "asOf": "2026-09-08",
       "history": [
@@ -6104,7 +6144,7 @@
         },
         {
           "date": "2026-09-08",
-          "close": 2.88
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4439.9,
-      "change": 99.2,
-      "changePercent": 2.29
+      "price": 4400,
+      "change": 59.3,
+      "changePercent": 1.37
     },
     {
       "name": "Silver",
-      "price": 66.88,
-      "change": 3.55,
-      "changePercent": 5.6
+      "price": 66.38,
+      "change": 3.04,
+      "changePercent": 4.8
     },
     {
       "name": "Copper",
-      "price": 6.82,
-      "change": 0.25,
-      "changePercent": 3.85
+      "price": 6.78,
+      "change": 0.21,
+      "changePercent": 3.14
     }
   ],
   "housing": {
@@ -7727,10 +7767,17 @@
   ],
   "news": [
     {
-      "title": "ASX slides as rising oil price fuels rate hike bets; Big four banks fall",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-as-oil-prices-rise-a-stronger-20260908-p60v9u.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket slumped to a six-week low on Tuesday, with investors bracing for higher interest rates as the Middle East conflict continues to push up fuel costs.",
-      "pubDate": "Tue, 08 Sep 2026 11:12:16 +1000",
+      "title": "‘Ferris Bueller gone bad’: The 22-year-old who went on a spending spree after stealing $339 million",
+      "link": "https://www.smh.com.au/business/markets/ferris-bueller-gone-bad-the-22-year-old-who-went-on-a-spending-spree-after-339-million-heist-20260908-p60vce.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Malone Lam pleaded guilty to teaming up with friends to steal bitcoin before using the proceeds to buy a fleet of sports cars, rent mansions in Miami and spend millions at nightclubs, including $US569,000 in one night in Los Angeles.",
+      "pubDate": "Wed, 09 Sep 2026 06:24:44 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "ASX eyes gains, Wall Street drifts lower; Oil hovers near $US100",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-gains-wall-street-drifts-lower-oil-hovers-near-us100-20260909-p60vm9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street has declined in its return to trading from a three-day weekend.",
+      "pubDate": "Wed, 09 Sep 2026 06:17:30 +1000",
       "source": "SMH"
     },
     {
@@ -7748,28 +7795,35 @@
       "source": "SMH"
     },
     {
-      "title": "Minor change to title costs worker her job",
-      "link": "https://www.smh.com.au/business/workplace/minor-change-to-title-costs-worker-her-job-20260907-p60v3b.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The employee was fired after scrubbing the word “senior” from her job title in legal correspondence, showing the importance of a title.",
-      "pubDate": "Tue, 08 Sep 2026 05:17:00 +1000",
+      "title": "Sabalenka stays alive at US Open by telling herself 'the match is over'",
+      "link": "https://www.abc.net.au/news/2026-09-09/aryna-sabalenka-scrapes-into-us-open-semifinals/107131594",
+      "snippet": "",
+      "pubDate": "Tue, 08 Sep 2026 20:59:58 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "It’s easy to blame politicians for our grumpiness. It’s also valid",
+      "link": "https://www.smh.com.au/business/the-economy/it-s-easy-to-blame-politicians-for-our-grumpiness-it-s-also-valid-20260908-p60veb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We’re often angry, sceptical and pessimistic about how our nation is being run. But right now, the research suggests, we’re despairing.",
+      "pubDate": "Wed, 09 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Tears, sex toys and slurs: A month on the Kyle Sandilands show",
-      "link": "https://www.smh.com.au/business/companies/tears-sex-toys-and-slurs-a-month-on-the-kyle-sandilands-show-20260907-p60uzy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The controversial broadcaster has escaped the reach of Australia’s media regulator, but a mainstream media company still gets a fifth of his revenue.",
-      "pubDate": "Tue, 08 Sep 2026 05:00:00 +1000",
+      "title": "Fiji Airways to feed tourism boom through Western Sydney Airport",
+      "link": "https://www.smh.com.au/business/companies/fiji-airways-to-feed-tourism-boom-through-western-sydney-airport-20260908-p60viz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The airline will be the sixth carrier to commit to flying from the new airport. Across town, Sydney Airport will welcome EgyptAir in 2027.",
+      "pubDate": "Wed, 09 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "What the price of gold tells us about Trump and the future",
-      "link": "https://www.smh.com.au/business/markets/what-the-price-of-gold-tells-us-about-trump-and-the-future-20260907-p60v4o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gold has risen sharply due to the “Trump risk premium” and the Ukraine war.",
-      "pubDate": "Tue, 08 Sep 2026 05:00:00 +1000",
-      "source": "SMH"
+      "title": "Schumacher comparisons made as Antonelli continues historic F1 season",
+      "link": "https://www.abc.net.au/news/2026-09-09/f1-kimi-antonelli-compared-to-michael-schumacher/107130402",
+      "snippet": "",
+      "pubDate": "Tue, 08 Sep 2026 18:53:14 +0000",
+      "source": "ABC"
     },
     {
-      "title": "‘Where’s Karl?’: Podcast falls silent as advertising deal ends",
+      "title": "‘Where’s Karl?’ Podcast falls silent as advertising deal ends",
       "link": "https://www.smh.com.au/business/companies/where-s-karl-podcast-falls-silent-as-advertising-deal-ends-20260908-p60vhv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Karl Stefanovic’s followers have begun leaving comments on his social media accounts after his podcast did not upload any new content for more than two weeks.",
       "pubDate": "Tue, 08 Sep 2026 18:52:52 +1000",
@@ -7787,20 +7841,6 @@
       "link": "https://www.abc.net.au/news/2026-09-08/us-open-comeback-for-botic-van-de-zandschulp/107128698",
       "snippet": "",
       "pubDate": "Tue, 08 Sep 2026 03:13:42 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Aussie Maya Joint caught up in handshake snub at US Open",
-      "link": "https://www.abc.net.au/news/2026-09-08/aussie-maya-joint-caught-up-in-handshake-snub-at-us-open/107127004",
-      "snippet": "",
-      "pubDate": "Mon, 07 Sep 2026 21:17:14 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Everything you need to know ahead of NFL Melbourne",
-      "link": "https://www.abc.net.au/news/2026-09-08/nfl-in-melbourne-49ers-vs-rams-when-where-how-to-watch/107123128",
-      "snippet": "",
-      "pubDate": "Mon, 07 Sep 2026 19:03:59 +0000",
       "source": "ABC"
     }
   ]
