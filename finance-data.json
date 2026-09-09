@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-09T16:49:10.120Z",
+  "fetchedAt": "2026-09-09T21:03:58.200Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.02,
-      "changePercent": 2.72,
+      "changePercent": 2.73,
       "previousClose": 0.7,
       "asOf": "2026-09-09",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-09-07",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-08",
           "close": 0.72
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-09-07",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-08",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.64,
+      "changePercent": 1.7,
       "previousClose": 0.61,
       "asOf": "2026-09-09",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-09-07",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-08",
           "close": 0.62
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-09-07",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-08",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.83,
-      "change": 0.08,
-      "changePercent": 1.72,
+      "value": 4.84,
+      "change": 0.1,
+      "changePercent": 2.02,
       "previousClose": 4.75,
       "asOf": "2026-09-09",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.85
         },
         {
+          "date": "2026-09-08",
+          "close": 4.85
+        },
+        {
           "date": "2026-09-09",
-          "close": 4.83
+          "close": 4.84
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.85
         },
         {
+          "date": "2026-09-08",
+          "close": 4.85
+        },
+        {
           "date": "2026-09-09",
-          "close": 4.83
+          "close": 4.84
         }
       ],
       "h6m": [
@@ -2737,7 +2761,7 @@
         },
         {
           "date": "2026-09-09",
-          "close": 4.83
+          "close": 4.84
         }
       ],
       "h3y": [
@@ -3375,14 +3399,14 @@
         },
         {
           "date": "2026-09-09",
-          "close": 4.83
+          "close": 4.84
         }
       ]
     },
     "audjpy": {
-      "value": 110.84,
-      "change": -0.57,
-      "changePercent": -0.51,
+      "value": 110.76,
+      "change": -0.65,
+      "changePercent": -0.58,
       "previousClose": 111.41,
       "asOf": "2026-09-09",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 111.09
         },
         {
+          "date": "2026-09-08",
+          "close": 110.82
+        },
+        {
           "date": "2026-09-09",
-          "close": 110.84
+          "close": 110.76
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 111.09
         },
         {
+          "date": "2026-09-08",
+          "close": 110.82
+        },
+        {
           "date": "2026-09-09",
-          "close": 110.84
+          "close": 110.76
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 111.09
+          "close": 110.82
         },
         {
           "date": "2026-09-09",
-          "close": 110.84
+          "close": 110.76
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 111.09
+          "close": 110.82
         },
         {
           "date": "2026-09-09",
-          "close": 110.84
+          "close": 110.76
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.02,
-    "changePercent": 2.72,
+    "changePercent": 2.73,
     "previousClose": 0.7,
     "asOf": "2026-09-09",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-09-07",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-08",
         "close": 0.72
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-09-07",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-08",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.01,
-      "change": 13.88,
-      "changePercent": 16.9,
+      "value": 96.65,
+      "change": 14.52,
+      "changePercent": 17.68,
       "previousClose": 82.13,
       "asOf": "2026-09-09",
       "history": [
@@ -5918,16 +5958,16 @@
         },
         {
           "date": "2026-09-09",
-          "close": 96.01
+          "close": 96.65
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 100.84,
-      "change": 13.12,
-      "changePercent": 14.96,
+      "value": 101.59,
+      "change": 13.87,
+      "changePercent": 15.81,
       "previousClose": 87.72,
       "asOf": "2026-09-09",
       "history": [
@@ -6017,16 +6057,16 @@
         },
         {
           "date": "2026-09-09",
-          "close": 100.84
+          "close": 101.59
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.84,
-      "change": 0.05,
-      "changePercent": 1.68,
+      "value": 2.8,
+      "change": 0.01,
+      "changePercent": 0.36,
       "previousClose": 2.79,
       "asOf": "2026-09-09",
       "history": [
@@ -6116,7 +6156,7 @@
         },
         {
           "date": "2026-09-09",
-          "close": 2.84
+          "close": 2.8
         }
       ],
       "name": "Natural Gas",
@@ -7425,21 +7465,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4447.1,
-      "change": 85.3,
-      "changePercent": 1.96
+      "price": 4445.5,
+      "change": 83.7,
+      "changePercent": 1.92
     },
     {
       "name": "Silver",
-      "price": 68.14,
-      "change": 3.03,
-      "changePercent": 4.66
+      "price": 67.91,
+      "change": 2.8,
+      "changePercent": 4.31
     },
     {
       "name": "Copper",
-      "price": 6.86,
-      "change": 0.27,
-      "changePercent": 4.08
+      "price": 6.85,
+      "change": 0.26,
+      "changePercent": 3.93
     }
   ],
   "housing": {
@@ -7782,6 +7822,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to fall sharply as Wall Street declines; Trump sends oil price warning as Iran war escalates",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-sharply-as-wall-street-declines-trump-sends-oil-price-warning-as-iran-war-escalates-20260910-p60vzz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks fell on Wall Street as the price of crude oil rose back above $US100 a barrel amid further escalation in the US war with Iran.",
+      "pubDate": "Thu, 10 Sep 2026 06:08:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Auric adds 102koz shovel-ready gold kicker to WA Coolgardie ambitions",
       "link": "https://www.smh.com.au/business/companies/auric-adds-102koz-shovel-ready-gold-kicker-to-wa-coolgardie-ambitions-20260909-p60vue.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Auric Mining has snapped up its Union Jack gold project near Coolgardie, WA, in a cash-and-scrip deal to bolt on an extra 102,000 ounces of shovel-ready resources, just a stone’s throw from its Burbanks mill.",
@@ -7817,11 +7864,11 @@
       "source": "SMH"
     },
     {
-      "title": "Golden Dragon breathes fire with high-grade WA gold hits",
-      "link": "https://www.smh.com.au/business/companies/golden-dragon-breathes-fire-with-high-grade-wa-gold-hits-20260909-p60vu7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Golden Dragon has struck high-grade gold at its WA Behring Bore. A new lode landed 4m at 6.98g/t gold, with re-assays from nearby Coodardy hitting up to 59.2g/t gold.",
-      "pubDate": "Wed, 09 Sep 2026 14:31:11 +1000",
-      "source": "SMH"
+      "title": "Greyhound trainer handed lifetime ban for 'egregious' actions",
+      "link": "https://www.abc.net.au/news/2026-09-10/greyhound-trainer-gets-lifetime-ban-over-undisclosed-fracture/107133432",
+      "snippet": "",
+      "pubDate": "Wed, 09 Sep 2026 20:24:31 +0000",
+      "source": "ABC"
     },
     {
       "title": "Australian cars stolen for parts to sell to Iran and Russia, insurers say",
@@ -7829,6 +7876,13 @@
       "snippet": "With Melbourne the epicentre of car theft in Australia, insurers believe stolen vehicles are being dismantled for parts and sold in sanctioned Iran and Russia.",
       "pubDate": "Wed, 09 Sep 2026 22:30:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "'Purpose I had is no longer': Hollands opens up on Blues axing",
+      "link": "https://www.abc.net.au/news/2026-09-09/elijah-hollands-opens-up-on-axing-from-carlton-afl-roster/107135600",
+      "snippet": "",
+      "pubDate": "Wed, 09 Sep 2026 09:15:57 +0000",
+      "source": "ABC"
     },
     {
       "title": "Lynagh makes timely return after Wallabies fly half Gordon breaks leg",
@@ -7842,20 +7896,6 @@
       "link": "https://www.abc.net.au/news/2026-09-09/jack-cole-penrith-panthers-nrl-finals-perth/107133130",
       "snippet": "",
       "pubDate": "Wed, 09 Sep 2026 03:19:48 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "US Open thriller finishes after 3:30am as Shelton knocks out Alcaraz",
-      "link": "https://www.abc.net.au/news/2026-09-09/alex-michelsen-frances-tiafoe-us-open-carlos-alcaraz-ben-shelton/107131770",
-      "snippet": "",
-      "pubDate": "Wed, 09 Sep 2026 01:03:22 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "How Ned overcame a decade of pain to return to running",
-      "link": "https://www.abc.net.au/news/2026-09-09/melbourne-marathon-festival-ballarat-runner-ned-buckell/107128898",
-      "snippet": "",
-      "pubDate": "Wed, 09 Sep 2026 00:23:39 +0000",
       "source": "ABC"
     }
   ]
