@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-10T16:35:26.543Z",
+  "fetchedAt": "2026-09-10T21:03:39.735Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.5,
+      "changePercent": 1.42,
       "previousClose": 0.71,
       "asOf": "2026-09-10",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-09-08",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-09",
           "close": 0.72
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-09-08",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-09",
           "close": 0.72
         },
         {
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 0.85,
+      "changePercent": 0.83,
       "previousClose": 0.61,
       "asOf": "2026-09-10",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-09-08",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-09",
           "close": 0.62
         },
         {
@@ -1501,6 +1513,10 @@
         },
         {
           "date": "2026-09-08",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-09",
           "close": 0.62
         },
         {
@@ -2263,8 +2279,8 @@
     },
     "audcny": {
       "value": 4.81,
-      "change": 0.05,
-      "changePercent": 0.97,
+      "change": 0.04,
+      "changePercent": 0.82,
       "previousClose": 4.77,
       "asOf": "2026-09-10",
       "history": [
@@ -2358,6 +2374,10 @@
         },
         {
           "date": "2026-09-08",
+          "close": 4.85
+        },
+        {
+          "date": "2026-09-09",
           "close": 4.85
         },
         {
@@ -2631,6 +2651,10 @@
         },
         {
           "date": "2026-09-08",
+          "close": 4.85
+        },
+        {
+          "date": "2026-09-09",
           "close": 4.85
         },
         {
@@ -3392,9 +3416,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.57,
-      "change": -0.95,
-      "changePercent": -0.85,
+      "value": 110.53,
+      "change": -0.99,
+      "changePercent": -0.89,
       "previousClose": 111.52,
       "asOf": "2026-09-10",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 110.82
         },
         {
+          "date": "2026-09-09",
+          "close": 110.89
+        },
+        {
           "date": "2026-09-10",
-          "close": 110.57
+          "close": 110.53
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 110.82
         },
         {
+          "date": "2026-09-09",
+          "close": 110.89
+        },
+        {
           "date": "2026-09-10",
-          "close": 110.57
+          "close": 110.53
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 110.82
+          "close": 110.89
         },
         {
           "date": "2026-09-10",
-          "close": 110.57
+          "close": 110.53
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 110.82
+          "close": 110.89
         },
         {
           "date": "2026-09-10",
-          "close": 110.57
+          "close": 110.53
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.5,
+    "changePercent": 1.42,
     "previousClose": 0.71,
     "asOf": "2026-09-10",
     "history": [
@@ -4619,6 +4651,10 @@
       },
       {
         "date": "2026-09-08",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-09",
         "close": 0.72
       },
       {
@@ -4892,6 +4928,10 @@
       },
       {
         "date": "2026-09-08",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-09",
         "close": 0.72
       },
       {
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.82,
-      "change": 19.69,
-      "changePercent": 23.97,
+      "value": 103.88,
+      "change": 21.75,
+      "changePercent": 26.48,
       "previousClose": 82.13,
       "asOf": "2026-09-10",
       "history": [
@@ -5942,16 +5982,16 @@
         },
         {
           "date": "2026-09-10",
-          "close": 101.82
+          "close": 103.88
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 107.06,
-      "change": 19.34,
-      "changePercent": 22.05,
+      "value": 108.93,
+      "change": 21.21,
+      "changePercent": 24.18,
       "previousClose": 87.72,
       "asOf": "2026-09-10",
       "history": [
@@ -6045,16 +6085,16 @@
         },
         {
           "date": "2026-09-10",
-          "close": 107.06
+          "close": 108.93
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.81,
-      "change": 0.02,
-      "changePercent": 0.57,
+      "value": 2.84,
+      "change": 0.05,
+      "changePercent": 1.68,
       "previousClose": 2.79,
       "asOf": "2026-09-10",
       "history": [
@@ -6148,7 +6188,7 @@
         },
         {
           "date": "2026-09-10",
-          "close": 2.81
+          "close": 2.84
         }
       ],
       "name": "Natural Gas",
@@ -7493,21 +7533,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4402.2,
-      "change": 40.4,
-      "changePercent": 0.93
+      "price": 4357.8,
+      "change": -4,
+      "changePercent": -0.09
     },
     {
       "name": "Silver",
-      "price": 64.76,
-      "change": -0.35,
-      "changePercent": -0.54
+      "price": 64.11,
+      "change": -0.99,
+      "changePercent": -1.52
     },
     {
       "name": "Copper",
-      "price": 6.54,
-      "change": -0.05,
-      "changePercent": -0.77
+      "price": 6.53,
+      "change": -0.07,
+      "changePercent": -1.04
     }
   ],
   "housing": {
@@ -7850,39 +7890,60 @@
       "source": "SMH"
     },
     {
-      "title": "Australia softens local gas supply rules, easing fears in Asia",
-      "link": "https://www.smh.com.au/business/the-economy/australia-softens-local-gas-supply-rules-easing-fears-in-asia-20260910-p60w54.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Labor has softened new laws designed to hold back more gas for Australian buyers after talks with producers and pressure from key Asian trade partners.",
-      "pubDate": "Thu, 10 Sep 2026 16:07:36 +1000",
+      "title": "ASX set to slump, Wall Street falls as oil climbs to its highest mark since May",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slump-wall-street-falls-as-oil-climbs-to-its-highest-mark-since-may-20260911-p60wff.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Oil prices keep jumping as the war with Iran keeps clogging the global flow of crude.",
+      "pubDate": "Fri, 11 Sep 2026 06:27:18 +1000",
       "source": "SMH"
     },
     {
-      "title": "Trump’s ‘top bond salesman’ is getting a reality check",
-      "link": "https://www.smh.com.au/business/markets/trump-s-top-bond-salesman-is-getting-a-reality-check-20260910-p60w1s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "US Treasury Secretary Scott Bessent has a strategy for capping US bond yields. It’s not working.",
-      "pubDate": "Thu, 10 Sep 2026 12:12:58 +1000",
+      "title": "Early access to super benefits one group. You’re probably not a part of it",
+      "link": "https://www.smh.com.au/business/the-economy/early-access-to-super-benefits-one-group-you-re-probably-not-a-part-of-it-20260910-p60w5r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "One Nation’s latest policy could benefit a small club of people. Some Australians might believe that includes them.",
+      "pubDate": "Fri, 11 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Kuniko chases depth in growing NSW gold-silver system",
-      "link": "https://www.smh.com.au/business/companies/kuniko-chases-depth-in-growing-nsw-gold-silver-system-20260910-p60w7m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Promising visuals from Kuniko Limited’s latest drilling have expanded its Silica Hill prospect in NSW, potentially stretching the mineralisation an extra 100m at depth.",
-      "pubDate": "Thu, 10 Sep 2026 13:34:54 +1000",
+      "title": "Crows' quest for premiership glory just beginning as they prepare to take on Lions",
+      "link": "https://www.abc.net.au/news/2026-09-11/adelaide-crows-quest-for-premiership-glory-just-beginning/107127980",
+      "snippet": "",
+      "pubDate": "Thu, 10 Sep 2026 20:09:38 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Recent finals history is against Freo, but these numbers could save them",
+      "link": "https://www.abc.net.au/news/2026-09-11/afl-fremantle-vs-geelong-analysis-key-stats-preview/107137866",
+      "snippet": "",
+      "pubDate": "Thu, 10 Sep 2026 19:00:51 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "When did we become so concerned about trivial things at work?",
+      "link": "https://www.smh.com.au/business/workplace/when-did-we-become-so-concerned-about-trivial-things-at-work-20260909-p60vqq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Two colleagues sometimes come into the office after 9am and the office is grumbling – for no good reason.",
+      "pubDate": "Fri, 11 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Critical Resources battery tech holds firm in month-long test",
-      "link": "https://www.smh.com.au/business/companies/critical-resources-battery-tech-holds-firm-in-month-long-test-20260910-p60wam.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critical Resources’ battery tech powered through a one-month cycling test, with its full-format cell retaining 75% capacity, a key de-risking step for its solvent-free process.",
-      "pubDate": "Thu, 10 Sep 2026 15:31:56 +1000",
+      "title": "Can someone ‘please explain’ One Nation’s messaging muddle?",
+      "link": "https://www.smh.com.au/business/companies/can-someone-please-explain-one-nation-s-messaging-muddle-20260910-p60w6d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "One Nation is riding high in the polls, but Pauline Hanson just can’t seem to get her team’s messaging in order.",
+      "pubDate": "Fri, 11 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "New 3km Cowza look-alike fires up Gateway WA gold hunt",
-      "link": "https://www.smh.com.au/business/companies/new-3km-cowza-look-alike-fires-up-gateway-wa-gold-hunt-20260910-p60w6y.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gateway Mining has defined a new 3km gold target at its Yandal project, a dead ringer for its Cowza discovery. With over $60m in cash, drilling starts next month.",
-      "pubDate": "Thu, 10 Sep 2026 13:01:13 +1000",
+      "title": "‘I’m stoked’: Change of fortune for village pub as new owner vows to revive it",
+      "link": "https://www.smh.com.au/business/companies/i-m-stoked-change-of-fortune-for-village-pub-as-new-owner-vows-to-revive-it-20260910-p60w8p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Clifton Hill’s Royal Hotel has been snapped up for $5.51 million by a local publican keen to reopen the local favourite.",
+      "pubDate": "Fri, 11 Sep 2026 05:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "The FIFO Rams may have lost the battle for hearts and minds",
+      "link": "https://www.abc.net.au/news/2026-09-11/nfl-la-rams-mcg-home-san-fran-49ers-hearts-and-minds/107124154",
+      "snippet": "",
+      "pubDate": "Thu, 10 Sep 2026 18:59:21 +0000",
+      "source": "ABC"
     },
     {
       "title": "She lost her sight. Her Wall Street billionaire father bet on a daring new treatment",
@@ -7903,20 +7964,6 @@
       "link": "https://www.abc.net.au/news/2026-09-10/dane-gagai-newcastle-knights-nrl-finals/107136258",
       "snippet": "",
       "pubDate": "Thu, 10 Sep 2026 04:04:41 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Melbourne's NFL game is a battle of opposing jet lag strategies",
-      "link": "https://www.abc.net.au/news/2026-09-10/nfl-rams-49ers-melbourne-jet-lag/107135424",
-      "snippet": "",
-      "pubDate": "Thu, 10 Sep 2026 02:02:46 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "F1 debuts a new track with a corner so grand it is called Monumental",
-      "link": "https://www.abc.net.au/news/2026-09-10/f1-debuts-at-madring-for-spanish-grand-prix/106834996",
-      "snippet": "",
-      "pubDate": "Thu, 10 Sep 2026 01:46:44 +0000",
       "source": "ABC"
     }
   ]
