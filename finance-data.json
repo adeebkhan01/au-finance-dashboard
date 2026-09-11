@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-11T11:40:12.170Z",
+  "fetchedAt": "2026-09-11T16:40:19.575Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.72,
+      "changePercent": 1.76,
       "previousClose": 0.71,
       "asOf": "2026-09-11",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.24,
+      "changePercent": 1.19,
       "previousClose": 0.61,
       "asOf": "2026-09-11",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.81,
-      "change": 0.05,
-      "changePercent": 1.1,
+      "value": 4.8,
+      "change": 0.04,
+      "changePercent": 0.8,
       "previousClose": 4.76,
       "asOf": "2026-09-11",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 4.81
+          "close": 4.8
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 4.81
+          "close": 4.8
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 4.81
+          "close": 4.8
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-09-11",
-          "close": 4.81
+          "close": 4.8
         }
       ]
     },
     "audjpy": {
-      "value": 110.49,
-      "change": -1.79,
-      "changePercent": -1.59,
+      "value": 110.26,
+      "change": -2.02,
+      "changePercent": -1.8,
       "previousClose": 112.28,
       "asOf": "2026-09-11",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 110.49
+          "close": 110.26
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 110.49
+          "close": 110.26
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 110.5
+          "close": 110.26
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 110.5
+          "close": 110.26
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.72,
+    "changePercent": 1.76,
     "previousClose": 0.71,
     "asOf": "2026-09-11",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 99.52,
-      "change": 16.32,
-      "changePercent": 19.62,
+      "value": 100.03,
+      "change": 16.83,
+      "changePercent": 20.23,
       "previousClose": 83.2,
       "asOf": "2026-09-11",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-09-11",
-          "close": 99.52
+          "close": 100.03
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.2,
-      "change": 15.29,
-      "changePercent": 17.2,
+      "value": 105.37,
+      "change": 16.46,
+      "changePercent": 18.51,
       "previousClose": 88.91,
       "asOf": "2026-09-11",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-09-11",
-          "close": 104.2
+          "close": 105.37
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.8,
-      "change": 0.03,
-      "changePercent": 1.16,
+      "value": 2.82,
+      "change": 0.05,
+      "changePercent": 1.73,
       "previousClose": 2.77,
       "asOf": "2026-09-11",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 2.8
+          "close": 2.82
         }
       ],
       "name": "Natural Gas",
@@ -6311,10 +6311,6 @@
       {
         "date": "2026-09-10",
         "close": 8819.4
-      },
-      {
-        "date": "2026-09-11",
-        "close": 8741.2
       }
     ]
   },
@@ -7477,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4377.8,
-      "change": -5.2,
-      "changePercent": -0.12
+      "price": 4397.7,
+      "change": 14.7,
+      "changePercent": 0.34
     },
     {
       "name": "Silver",
-      "price": 64.35,
-      "change": -0.42,
-      "changePercent": -0.65
+      "price": 64.8,
+      "change": 0.03,
+      "changePercent": 0.05
     },
     {
       "name": "Copper",
-      "price": 6.53,
-      "change": -0.08,
-      "changePercent": -1.19
+      "price": 6.55,
+      "change": -0.06,
+      "changePercent": -0.97
     }
   ],
   "housing": {
@@ -7876,7 +7872,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Souths have miracle try ruled out as Knights near elimination final win",
+      "title": "Bennett bemoans Bunker as Knights stun Souths in elimination final",
       "link": "https://www.abc.net.au/news/2026-09-11/nrl-finals-live-updates-rabbitohs-vs-knights/107136652",
       "snippet": "",
       "pubDate": "Fri, 11 Sep 2026 08:53:33 +0000",
