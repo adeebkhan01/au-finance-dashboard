@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-11T16:40:19.575Z",
+  "fetchedAt": "2026-09-11T21:08:27.580Z",
   "fx": {
     "audusd": {
       "value": 0.72,
       "change": 0.01,
-      "changePercent": 1.76,
+      "changePercent": 1.67,
       "previousClose": 0.71,
       "asOf": "2026-09-11",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-09-09",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-10",
           "close": 0.72
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-09-09",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-10",
           "close": 0.72
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.19,
+      "changePercent": 1.15,
       "previousClose": 0.61,
       "asOf": "2026-09-11",
       "history": [
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-09-09",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-10",
           "close": 0.62
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-09-09",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-10",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.8,
-      "change": 0.04,
-      "changePercent": 0.8,
+      "value": 4.81,
+      "change": 0.05,
+      "changePercent": 1.07,
       "previousClose": 4.76,
       "asOf": "2026-09-11",
       "history": [
@@ -2353,8 +2369,12 @@
           "close": 4.85
         },
         {
-          "date": "2026-09-11",
+          "date": "2026-09-10",
           "close": 4.8
+        },
+        {
+          "date": "2026-09-11",
+          "close": 4.81
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.85
         },
         {
-          "date": "2026-09-11",
+          "date": "2026-09-10",
           "close": 4.8
+        },
+        {
+          "date": "2026-09-11",
+          "close": 4.81
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 4.85
+          "close": 4.8
         },
         {
           "date": "2026-09-11",
-          "close": 4.8
+          "close": 4.81
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-09-06",
-          "close": 4.85
+          "close": 4.8
         },
         {
           "date": "2026-09-11",
-          "close": 4.8
+          "close": 4.81
         }
       ]
     },
     "audjpy": {
-      "value": 110.26,
-      "change": -2.02,
-      "changePercent": -1.8,
+      "value": 110.12,
+      "change": -2.17,
+      "changePercent": -1.93,
       "previousClose": 112.28,
       "asOf": "2026-09-11",
       "history": [
@@ -3479,8 +3503,12 @@
           "close": 110.89
         },
         {
+          "date": "2026-09-10",
+          "close": 110.54
+        },
+        {
           "date": "2026-09-11",
-          "close": 110.26
+          "close": 110.12
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 110.89
         },
         {
+          "date": "2026-09-10",
+          "close": 110.54
+        },
+        {
           "date": "2026-09-11",
-          "close": 110.26
+          "close": 110.12
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 110.89
+          "close": 110.54
         },
         {
           "date": "2026-09-11",
-          "close": 110.26
+          "close": 110.12
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-06",
-          "close": 110.89
+          "close": 110.54
         },
         {
           "date": "2026-09-11",
-          "close": 110.26
+          "close": 110.12
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.72,
     "change": 0.01,
-    "changePercent": 1.76,
+    "changePercent": 1.67,
     "previousClose": 0.71,
     "asOf": "2026-09-11",
     "history": [
@@ -4603,6 +4635,10 @@
       },
       {
         "date": "2026-09-09",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-10",
         "close": 0.72
       },
       {
@@ -4876,6 +4912,10 @@
       },
       {
         "date": "2026-09-09",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-10",
         "close": 0.72
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100.03,
-      "change": 16.83,
-      "changePercent": 20.23,
+      "value": 100.01,
+      "change": 16.81,
+      "changePercent": 20.2,
       "previousClose": 83.2,
       "asOf": "2026-09-11",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-09-11",
-          "close": 100.03
+          "close": 100.01
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 105.37,
-      "change": 16.46,
-      "changePercent": 18.51,
+      "value": 104.42,
+      "change": 15.51,
+      "changePercent": 17.44,
       "previousClose": 88.91,
       "asOf": "2026-09-11",
       "history": [
@@ -6025,7 +6065,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 105.37
+          "close": 104.42
         }
       ],
       "name": "Brent Crude",
@@ -6034,7 +6074,7 @@
     "gas": {
       "value": 2.82,
       "change": 0.05,
-      "changePercent": 1.73,
+      "changePercent": 1.95,
       "previousClose": 2.77,
       "asOf": "2026-09-11",
       "history": [
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4397.7,
-      "change": 14.7,
-      "changePercent": 0.34
+      "price": 4390.6,
+      "change": 7.6,
+      "changePercent": 0.17
     },
     {
       "name": "Silver",
-      "price": 64.8,
-      "change": 0.03,
-      "changePercent": 0.05
+      "price": 65.02,
+      "change": 0.25,
+      "changePercent": 0.38
     },
     {
       "name": "Copper",
-      "price": 6.55,
-      "change": -0.06,
-      "changePercent": -0.97
+      "price": 6.56,
+      "change": -0.05,
+      "changePercent": -0.82
     }
   ],
   "housing": {
@@ -7844,10 +7884,24 @@
       "source": "SMH"
     },
     {
+      "title": "After axing 3500 jobs, ANZ chief’s grand plan has a long way to go",
+      "link": "https://www.smh.com.au/business/companies/after-axing-3500-jobs-anz-chief-s-grand-plan-has-a-long-way-to-go-20260909-p60vxp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A year ago, ANZ boss Nuno Matos made sweeping job cuts and signalled a cultural shake-up. It’s only part of the planned overhaul at the big four bank.",
+      "pubDate": "Sat, 12 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Big Hits: PolarX, Sunstone Metals and Manuka Resources",
       "link": "https://www.smh.com.au/business/companies/big-hits-polarx-sunstone-metals-and-manuka-resources-20260911-p60wo3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Bulls N’ Bears Big Hits looks at notable drill intercepts reported to the ASX last week, led by PolarX Ltd, Sunstone Metals and Manuka Resources.",
       "pubDate": "Fri, 11 Sep 2026 16:47:37 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘A love letter to concrete and steel’: This suburban house is different",
+      "link": "https://www.smh.com.au/business/consumer-affairs/a-love-letter-to-concrete-and-steel-this-suburban-house-is-different-20260910-p60w4t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "At the end of a quiet cul-de-sac in Melbourne’s inner north-west is a unique and remarkable house surrounded by typical suburban McMansions.",
+      "pubDate": "Sat, 12 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7865,11 +7919,18 @@
       "source": "SMH"
     },
     {
-      "title": "Early access to super benefits one group. You’re probably not a part of it",
-      "link": "https://www.smh.com.au/business/the-economy/early-access-to-super-benefits-one-group-you-re-probably-not-a-part-of-it-20260910-p60w5r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "One Nation’s latest policy could benefit a small club of people. Some Australians might believe that includes them.",
-      "pubDate": "Fri, 11 Sep 2026 05:00:00 +1000",
-      "source": "SMH"
+      "title": "England has won 38 straight Tests but Wallaroos won't die wondering",
+      "link": "https://www.abc.net.au/news/2026-09-12/wxv-global-series-test-australia-wallaroos-england-red-roses/107139972",
+      "snippet": "",
+      "pubDate": "Fri, 11 Sep 2026 21:01:57 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Lions' shock loss to Swans was about more than complacency",
+      "link": "https://www.abc.net.au/news/2026-09-12/afl-finals-brisbane-lions-sydney-swans-adelaide-crows/107142558",
+      "snippet": "",
+      "pubDate": "Fri, 11 Sep 2026 21:01:28 +0000",
+      "source": "ABC"
     },
     {
       "title": "Bennett bemoans Bunker as Knights stun Souths in elimination final",
@@ -7884,27 +7945,6 @@
       "snippet": "",
       "pubDate": "Fri, 11 Sep 2026 05:40:19 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Gliders return to world stage after missing last Paralympics",
-      "link": "https://www.abc.net.au/news/2026-09-11/gliders-return-to-wheelchair-basketball-world-stage/107134412",
-      "snippet": "",
-      "pubDate": "Fri, 11 Sep 2026 05:01:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "49ers ransack 'Rams House' in epic Melbourne NFL show",
-      "link": "https://www.abc.net.au/news/2026-09-11/nfl-la-rams-san-francisco-49ers-in-melbourne-experience/107141756",
-      "snippet": "",
-      "pubDate": "Fri, 11 Sep 2026 04:20:24 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "When did we become so concerned about trivial things at work?",
-      "link": "https://www.smh.com.au/business/workplace/when-did-we-become-so-concerned-about-trivial-things-at-work-20260909-p60vqq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Two colleagues sometimes come into the office after 9am and the office is grumbling – for no good reason.",
-      "pubDate": "Fri, 11 Sep 2026 05:00:00 +1000",
-      "source": "SMH"
     }
   ]
 }
