@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-14T13:10:26.773Z",
+  "fetchedAt": "2026-09-14T21:56:28.491Z",
   "fx": {
     "audusd": {
       "value": 0.71,
-      "change": 0,
-      "changePercent": 0.69,
+      "change": 0.01,
+      "changePercent": 1.1,
       "previousClose": 0.71,
       "asOf": "2026-09-14",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-09-10",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-13",
           "close": 0.72
         },
         {
@@ -362,6 +366,10 @@
           "close": 0.72
         },
         {
+          "date": "2026-09-13",
+          "close": 0.72
+        },
+        {
           "date": "2026-09-14",
           "close": 0.71
         }
@@ -473,6 +481,10 @@
         },
         {
           "date": "2026-09-06",
+          "close": 0.72
+        },
+        {
+          "date": "2026-09-13",
           "close": 0.72
         },
         {
@@ -1110,6 +1122,10 @@
           "close": 0.72
         },
         {
+          "date": "2026-09-13",
+          "close": 0.72
+        },
+        {
           "date": "2026-09-14",
           "close": 0.71
         }
@@ -1117,8 +1133,8 @@
     },
     "audeur": {
       "value": 0.62,
-      "change": 0,
-      "changePercent": 0.65,
+      "change": 0.01,
+      "changePercent": 0.88,
       "previousClose": 0.61,
       "asOf": "2026-09-14",
       "history": [
@@ -1204,6 +1220,10 @@
         },
         {
           "date": "2026-09-10",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-13",
           "close": 0.62
         },
         {
@@ -1476,6 +1496,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-09-13",
+          "close": 0.62
+        },
+        {
           "date": "2026-09-14",
           "close": 0.62
         }
@@ -1588,6 +1612,10 @@
         {
           "date": "2026-09-06",
           "close": 0.6
+        },
+        {
+          "date": "2026-09-13",
+          "close": 0.62
         },
         {
           "date": "2026-09-14",
@@ -2224,15 +2252,19 @@
           "close": 0.6
         },
         {
+          "date": "2026-09-13",
+          "close": 0.62
+        },
+        {
           "date": "2026-09-14",
           "close": 0.62
         }
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": 0.01,
-      "changePercent": 0.15,
+      "value": 4.79,
+      "change": 0.03,
+      "changePercent": 0.58,
       "previousClose": 4.76,
       "asOf": "2026-09-14",
       "history": [
@@ -2321,8 +2353,12 @@
           "close": 4.8
         },
         {
+          "date": "2026-09-13",
+          "close": 4.8
+        },
+        {
           "date": "2026-09-14",
-          "close": 4.77
+          "close": 4.79
         }
       ],
       "label": "AUD/CNY",
@@ -2590,8 +2626,12 @@
           "close": 4.8
         },
         {
+          "date": "2026-09-13",
+          "close": 4.8
+        },
+        {
           "date": "2026-09-14",
-          "close": 4.77
+          "close": 4.79
         }
       ],
       "h6m": [
@@ -2704,8 +2744,12 @@
           "close": 4.81
         },
         {
+          "date": "2026-09-13",
+          "close": 4.8
+        },
+        {
           "date": "2026-09-14",
-          "close": 4.77
+          "close": 4.79
         }
       ],
       "h3y": [
@@ -3338,15 +3382,19 @@
           "close": 4.81
         },
         {
+          "date": "2026-09-13",
+          "close": 4.8
+        },
+        {
           "date": "2026-09-14",
-          "close": 4.77
+          "close": 4.79
         }
       ]
     },
     "audjpy": {
-      "value": 110.11,
-      "change": -2.49,
-      "changePercent": -2.22,
+      "value": 110.09,
+      "change": -2.52,
+      "changePercent": -2.24,
       "previousClose": 112.61,
       "asOf": "2026-09-14",
       "history": [
@@ -3435,8 +3483,12 @@
           "close": 110.54
         },
         {
+          "date": "2026-09-13",
+          "close": 109.73
+        },
+        {
           "date": "2026-09-14",
-          "close": 110.11
+          "close": 110.09
         }
       ],
       "label": "AUD/JPY",
@@ -3704,8 +3756,12 @@
           "close": 110.54
         },
         {
+          "date": "2026-09-13",
+          "close": 109.73
+        },
+        {
           "date": "2026-09-14",
-          "close": 110.11
+          "close": 110.09
         }
       ],
       "h6m": [
@@ -3818,8 +3874,12 @@
           "close": 109.21
         },
         {
+          "date": "2026-09-13",
+          "close": 109.73
+        },
+        {
           "date": "2026-09-14",
-          "close": 110.11
+          "close": 110.13
         }
       ],
       "h3y": [
@@ -4452,16 +4512,20 @@
           "close": 109.21
         },
         {
+          "date": "2026-09-13",
+          "close": 109.73
+        },
+        {
           "date": "2026-09-14",
-          "close": 110.11
+          "close": 110.13
         }
       ]
     }
   },
   "audusd": {
     "value": 0.71,
-    "change": 0,
-    "changePercent": 0.69,
+    "change": 0.01,
+    "changePercent": 1.1,
     "previousClose": 0.71,
     "asOf": "2026-09-14",
     "history": [
@@ -4547,6 +4611,10 @@
       },
       {
         "date": "2026-09-10",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-13",
         "close": 0.72
       },
       {
@@ -4819,6 +4887,10 @@
         "close": 0.72
       },
       {
+        "date": "2026-09-13",
+        "close": 0.72
+      },
+      {
         "date": "2026-09-14",
         "close": 0.71
       }
@@ -4930,6 +5002,10 @@
       },
       {
         "date": "2026-09-06",
+        "close": 0.72
+      },
+      {
+        "date": "2026-09-13",
         "close": 0.72
       },
       {
@@ -5567,6 +5643,10 @@
         "close": 0.72
       },
       {
+        "date": "2026-09-13",
+        "close": 0.72
+      },
+      {
         "date": "2026-09-14",
         "close": 0.71
       }
@@ -5766,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 104.27,
-      "change": 21.87,
-      "changePercent": 26.54,
+      "value": 101.89,
+      "change": 19.49,
+      "changePercent": 23.65,
       "previousClose": 82.4,
       "asOf": "2026-09-14",
       "history": [
@@ -5854,16 +5934,16 @@
         },
         {
           "date": "2026-09-14",
-          "close": 104.27
+          "close": 101.89
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.96,
-      "change": 20.44,
-      "changePercent": 23.09,
+      "value": 106.15,
+      "change": 17.63,
+      "changePercent": 19.92,
       "previousClose": 88.52,
       "asOf": "2026-09-14",
       "history": [
@@ -5949,16 +6029,16 @@
         },
         {
           "date": "2026-09-14",
-          "close": 108.96
+          "close": 106.15
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.87,
-      "change": 0.14,
-      "changePercent": 5.12,
+      "value": 2.88,
+      "change": 0.15,
+      "changePercent": 5.53,
       "previousClose": 2.73,
       "asOf": "2026-09-14",
       "history": [
@@ -6044,7 +6124,7 @@
         },
         {
           "date": "2026-09-14",
-          "close": 2.87
+          "close": 2.88
         }
       ],
       "name": "Natural Gas",
@@ -6219,10 +6299,6 @@
       {
         "date": "2026-09-11",
         "close": 8741.2
-      },
-      {
-        "date": "2026-09-14",
-        "close": 8749.9
       }
     ]
   },
@@ -7321,21 +7397,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4311.2,
-      "change": -69.2,
-      "changePercent": -1.58
+      "price": 4340,
+      "change": -40.4,
+      "changePercent": -0.92
     },
     {
       "name": "Silver",
-      "price": 63.36,
-      "change": -1.63,
-      "changePercent": -2.51
+      "price": 63.76,
+      "change": -1.23,
+      "changePercent": -1.9
     },
     {
       "name": "Copper",
-      "price": 6.38,
-      "change": -0.22,
-      "changePercent": -3.32
+      "price": 6.4,
+      "change": -0.2,
+      "changePercent": -3.06
     }
   ],
   "housing": {
@@ -7678,11 +7754,32 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to slip, tech stocks weigh on Wall Street; Trump lashes out over ‘SICK conspiracy’ against AI",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-flat-start-ai-stocks-weigh-on-wall-street-after-calls-for-slowdown-20260915-p60xbz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Artificial-intelligence stocks are sliding worldwide after leaders of the industry warned a slowdown is needed for the safety of humanity.",
+      "pubDate": "Tue, 15 Sep 2026 06:31:02 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Mongolian gas flows surge as TMK Energy field comes alive",
       "link": "https://www.smh.com.au/business/companies/mongolian-gas-flows-surge-as-tmk-energy-field-comes-alive-20260914-p60xa6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "TMK Energy has hit a new Mongolian gas production high, with flows surging 11 per cent on August’s numbers as production spreads across multiple wells, lifting commercial hopes.",
       "pubDate": "Mon, 14 Sep 2026 16:56:13 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "HYROX Beijing sparks backlash after Aussie athlete soils herself mid-race",
+      "link": "https://www.abc.net.au/news/2026-09-14/hyrox-beijing-backlash-after-athlete-soils-herself/107151004",
+      "snippet": "",
+      "pubDate": "Mon, 14 Sep 2026 07:59:55 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "The Stinear effect: The stat changing Geelong in 2026",
+      "link": "https://www.abc.net.au/news/2026-09-15/mick-stinear-effect-geelong-aflw/107151114",
+      "snippet": "",
+      "pubDate": "Mon, 14 Sep 2026 19:18:02 +0000",
+      "source": "ABC"
     },
     {
       "title": "SA Health employee reprimanded for accessing Tony Modra's medical records",
@@ -7732,27 +7829,6 @@
       "snippet": "While younger people are drinking less, this is a simplistic view of changing drinking patterns.",
       "pubDate": "Mon, 14 Sep 2026 15:58:26 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Stefanovic in legal battle with podcast partner as talkback offer lapses",
-      "link": "https://www.smh.com.au/business/companies/stefanovic-in-legal-battle-with-podcast-partner-as-talkback-offer-lapses-20260914-p60x3k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Lawyers for Karl Stefanovic and Keshnee Ibrahim, the producer behind his controversial podcast, will face off in court on Tuesday.",
-      "pubDate": "Mon, 14 Sep 2026 15:49:35 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Mas 'fulfils his destiny' to win historic Vuelta",
-      "link": "https://www.abc.net.au/news/2026-09-14/enric-mas-wins-vuelta-a-espana/107150480",
-      "snippet": "",
-      "pubDate": "Mon, 14 Sep 2026 03:50:57 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Antonelli edges closer to historic title as teammate concedes the fight",
-      "link": "https://www.abc.net.au/news/2026-09-14/kimi-antonelli-george-russell-f1-drivers-championship/107148982",
-      "snippet": "",
-      "pubDate": "Mon, 14 Sep 2026 01:28:37 +0000",
-      "source": "ABC"
     }
   ]
 }
