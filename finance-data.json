@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-15T11:58:48.148Z",
+  "fetchedAt": "2026-09-15T17:11:06.622Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 0.95,
+      "changePercent": 0.99,
       "previousClose": 0.71,
       "asOf": "2026-09-15",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 0.83,
+      "changePercent": 0.88,
       "previousClose": 0.61,
       "asOf": "2026-09-15",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.77,
-      "change": 0.01,
-      "changePercent": 0.13,
+      "value": 4.79,
+      "change": 0.02,
+      "changePercent": 0.5,
       "previousClose": 4.76,
       "asOf": "2026-09-15",
       "history": [
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 4.77
+          "close": 4.79
         }
       ],
       "label": "AUD/CNY",
@@ -2619,7 +2619,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 4.77
+          "close": 4.79
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 4.77
+          "close": 4.79
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-09-15",
-          "close": 4.77
+          "close": 4.79
         }
       ]
     },
     "audjpy": {
-      "value": 110.4,
-      "change": -2.21,
-      "changePercent": -1.96,
+      "value": 110.6,
+      "change": -2.01,
+      "changePercent": -1.78,
       "previousClose": 112.61,
       "asOf": "2026-09-15",
       "history": [
@@ -3472,7 +3472,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 110.4
+          "close": 110.6
         }
       ],
       "label": "AUD/JPY",
@@ -3745,7 +3745,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 110.4
+          "close": 110.6
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 110.4
+          "close": 110.6
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 110.4
+          "close": 110.6
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 0.95,
+    "changePercent": 0.99,
     "previousClose": 0.71,
     "asOf": "2026-09-15",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.26,
-      "change": 19.86,
-      "changePercent": 24.1,
+      "value": 105.99,
+      "change": 23.59,
+      "changePercent": 28.63,
       "previousClose": 82.4,
       "asOf": "2026-09-15",
       "history": [
@@ -5914,16 +5914,16 @@
         },
         {
           "date": "2026-09-15",
-          "close": 102.26
+          "close": 105.99
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 101.11,
-      "change": 12.59,
-      "changePercent": 14.22,
+      "value": 108.7,
+      "change": 20.18,
+      "changePercent": 22.8,
       "previousClose": 88.52,
       "asOf": "2026-09-15",
       "history": [
@@ -6009,16 +6009,16 @@
         },
         {
           "date": "2026-09-15",
-          "close": 101.11
+          "close": 108.7
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": 0.15,
-      "changePercent": 5.53,
+      "value": 2.91,
+      "change": 0.18,
+      "changePercent": 6.51,
       "previousClose": 2.73,
       "asOf": "2026-09-15",
       "history": [
@@ -6104,7 +6104,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 2.88
+          "close": 2.91
         }
       ],
       "name": "Natural Gas",
@@ -6279,10 +6279,6 @@
       {
         "date": "2026-09-14",
         "close": 8749.9
-      },
-      {
-        "date": "2026-09-15",
-        "close": 8672.5
       }
     ]
   },
@@ -7381,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4324.4,
-      "change": -56,
-      "changePercent": -1.28
+      "price": 4335.9,
+      "change": -101.4,
+      "changePercent": -2.29
     },
     {
       "name": "Silver",
-      "price": 63.74,
-      "change": -1.25,
-      "changePercent": -1.92
+      "price": 63.97,
+      "change": -1.02,
+      "changePercent": -1.57
     },
     {
       "name": "Copper",
-      "price": 6.41,
-      "change": -0.19,
-      "changePercent": -2.88
+      "price": 6.44,
+      "change": -0.16,
+      "changePercent": -2.36
     }
   ],
   "housing": {
@@ -7738,13 +7734,6 @@
       "source": "SMH"
     },
     {
-      "title": "Broken Hill Gold turns up heat on deeper SA gold-copper hunt",
-      "link": "https://www.smh.com.au/business/companies/broken-hill-gold-turns-up-heat-on-deeper-sa-gold-copper-hunt-20260915-p60xih.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Broken Hill Gold has stepped up its White Dam sulphide hunt in SA, deploying major geophysics and a second drill rig to chase deeper gold-copper targets well beyond Icebreaker.",
-      "pubDate": "Tue, 15 Sep 2026 12:54:20 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Fresh high-grade hit stretches Aureka gold footprint in Vic",
       "link": "https://www.smh.com.au/business/companies/fresh-high-grade-hits-stretch-aureka-gold-footprint-in-vic-20260915-p60xko.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aureka has hit high-grade gold outside its Irvine resource, including 16.1g/t gold, while cracking a previously underexplored 2km gap between its two main lodes in Victoria.",
@@ -7764,6 +7753,13 @@
       "snippet": "",
       "pubDate": "Tue, 15 Sep 2026 01:29:09 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "Gambling company let more than 150 problem gamblers stay on platform",
+      "link": "https://www.smh.com.au/business/companies/gambling-company-let-more-than-150-problem-gamblers-stay-on-platform-20260915-p60xhn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Social-media linked betting platform hit with $1 million fine for breaching gambling safety laws.",
+      "pubDate": "Wed, 16 Sep 2026 00:01:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "ODI live scores: Australia faces Zimbabwe in first of African series",
