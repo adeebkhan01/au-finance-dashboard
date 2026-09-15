@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-15T17:11:06.622Z",
+  "fetchedAt": "2026-09-15T21:37:05.425Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 0.99,
+      "changePercent": 0.95,
       "previousClose": 0.71,
       "asOf": "2026-09-15",
       "history": [
@@ -91,6 +91,10 @@
         {
           "date": "2026-09-13",
           "close": 0.72
+        },
+        {
+          "date": "2026-09-14",
+          "close": 0.71
         },
         {
           "date": "2026-09-15",
@@ -366,6 +370,10 @@
           "close": 0.72
         },
         {
+          "date": "2026-09-14",
+          "close": 0.71
+        },
+        {
           "date": "2026-09-15",
           "close": 0.71
         }
@@ -481,7 +489,7 @@
         },
         {
           "date": "2026-09-13",
-          "close": 0.72
+          "close": 0.71
         },
         {
           "date": "2026-09-15",
@@ -1119,7 +1127,7 @@
         },
         {
           "date": "2026-09-13",
-          "close": 0.72
+          "close": 0.71
         },
         {
           "date": "2026-09-15",
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 0.88,
+      "changePercent": 0.85,
       "previousClose": 0.61,
       "asOf": "2026-09-15",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-09-13",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-14",
           "close": 0.62
         },
         {
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-09-13",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-14",
           "close": 0.62
         },
         {
@@ -2256,7 +2272,7 @@
     "audcny": {
       "value": 4.79,
       "change": 0.02,
-      "changePercent": 0.5,
+      "changePercent": 0.47,
       "previousClose": 4.76,
       "asOf": "2026-09-15",
       "history": [
@@ -2343,6 +2359,10 @@
         {
           "date": "2026-09-13",
           "close": 4.8
+        },
+        {
+          "date": "2026-09-14",
+          "close": 4.79
         },
         {
           "date": "2026-09-15",
@@ -2618,6 +2638,10 @@
           "close": 4.8
         },
         {
+          "date": "2026-09-14",
+          "close": 4.79
+        },
+        {
           "date": "2026-09-15",
           "close": 4.79
         }
@@ -2733,7 +2757,7 @@
         },
         {
           "date": "2026-09-13",
-          "close": 4.8
+          "close": 4.79
         },
         {
           "date": "2026-09-15",
@@ -3371,7 +3395,7 @@
         },
         {
           "date": "2026-09-13",
-          "close": 4.8
+          "close": 4.79
         },
         {
           "date": "2026-09-15",
@@ -3380,9 +3404,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.6,
-      "change": -2.01,
-      "changePercent": -1.78,
+      "value": 110.48,
+      "change": -2.13,
+      "changePercent": -1.89,
       "previousClose": 112.61,
       "asOf": "2026-09-15",
       "history": [
@@ -3471,8 +3495,12 @@
           "close": 109.73
         },
         {
+          "date": "2026-09-14",
+          "close": 110.18
+        },
+        {
           "date": "2026-09-15",
-          "close": 110.6
+          "close": 110.48
         }
       ],
       "label": "AUD/JPY",
@@ -3744,8 +3772,12 @@
           "close": 109.73
         },
         {
+          "date": "2026-09-14",
+          "close": 110.18
+        },
+        {
           "date": "2026-09-15",
-          "close": 110.6
+          "close": 110.48
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-13",
-          "close": 109.73
+          "close": 110.18
         },
         {
           "date": "2026-09-15",
-          "close": 110.6
+          "close": 110.49
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-13",
-          "close": 109.73
+          "close": 110.18
         },
         {
           "date": "2026-09-15",
-          "close": 110.6
+          "close": 110.49
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 0.99,
+    "changePercent": 0.95,
     "previousClose": 0.71,
     "asOf": "2026-09-15",
     "history": [
@@ -4596,6 +4628,10 @@
       {
         "date": "2026-09-13",
         "close": 0.72
+      },
+      {
+        "date": "2026-09-14",
+        "close": 0.71
       },
       {
         "date": "2026-09-15",
@@ -4871,6 +4907,10 @@
         "close": 0.72
       },
       {
+        "date": "2026-09-14",
+        "close": 0.71
+      },
+      {
         "date": "2026-09-15",
         "close": 0.71
       }
@@ -4986,7 +5026,7 @@
       },
       {
         "date": "2026-09-13",
-        "close": 0.72
+        "close": 0.71
       },
       {
         "date": "2026-09-15",
@@ -5624,7 +5664,7 @@
       },
       {
         "date": "2026-09-13",
-        "close": 0.72
+        "close": 0.71
       },
       {
         "date": "2026-09-15",
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 105.99,
-      "change": 23.59,
-      "changePercent": 28.63,
+      "value": 105.48,
+      "change": 23.08,
+      "changePercent": 28.01,
       "previousClose": 82.4,
       "asOf": "2026-09-15",
       "history": [
@@ -5914,16 +5954,16 @@
         },
         {
           "date": "2026-09-15",
-          "close": 105.99
+          "close": 105.48
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.7,
-      "change": 20.18,
-      "changePercent": 22.8,
+      "value": 108.5,
+      "change": 19.98,
+      "changePercent": 22.57,
       "previousClose": 88.52,
       "asOf": "2026-09-15",
       "history": [
@@ -6009,16 +6049,16 @@
         },
         {
           "date": "2026-09-15",
-          "close": 108.7
+          "close": 108.5
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.91,
-      "change": 0.18,
-      "changePercent": 6.51,
+      "value": 2.94,
+      "change": 0.21,
+      "changePercent": 7.72,
       "previousClose": 2.73,
       "asOf": "2026-09-15",
       "history": [
@@ -6104,7 +6144,7 @@
         },
         {
           "date": "2026-09-15",
-          "close": 2.91
+          "close": 2.94
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4335.9,
-      "change": -101.4,
-      "changePercent": -2.29
+      "price": 4333.4,
+      "change": -103.9,
+      "changePercent": -2.34
     },
     {
       "name": "Silver",
-      "price": 63.97,
-      "change": -1.02,
-      "changePercent": -1.57
+      "price": 64.19,
+      "change": -0.8,
+      "changePercent": -1.24
     },
     {
       "name": "Copper",
-      "price": 6.44,
-      "change": -0.16,
-      "changePercent": -2.36
+      "price": 6.46,
+      "change": -0.14,
+      "changePercent": -2.13
     }
   ],
   "housing": {
@@ -7727,6 +7767,13 @@
   ],
   "news": [
     {
+      "title": "ASX eyes gains, Wall Street slips as oil prices, bond market crank up pressure; Bitcoin falls",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-gains-wall-street-slips-as-oil-prices-bond-market-crank-up-pressure-20260916-p60xp0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market recorded losses but the Australian sharemarket is set for a positive start to the session.",
+      "pubDate": "Wed, 16 Sep 2026 06:33:52 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX slides to three-month low as banks, miners fall; oil jumps again",
       "link": "https://www.smh.com.au/business/markets/asx-eyes-flat-start-ai-stocks-weigh-on-wall-street-after-calls-for-slowdown-20260915-p60xbz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket closed at its lowest level in more than three months, weighed down by the mining heavyweights and the big four banks after another jump in oil prices.",
@@ -7734,35 +7781,42 @@
       "source": "SMH"
     },
     {
-      "title": "Fresh high-grade hit stretches Aureka gold footprint in Vic",
-      "link": "https://www.smh.com.au/business/companies/fresh-high-grade-hits-stretch-aureka-gold-footprint-in-vic-20260915-p60xko.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka has hit high-grade gold outside its Irvine resource, including 16.1g/t gold, while cracking a previously underexplored 2km gap between its two main lodes in Victoria.",
-      "pubDate": "Tue, 15 Sep 2026 15:00:18 +1000",
+      "title": "Feeling the pinch? Blame the pay rise you didn’t get",
+      "link": "https://www.smh.com.au/business/the-economy/feeling-the-pinch-blame-the-pay-rise-you-didn-t-get-20260915-p60xho.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "One economist has blown the whistle on who’s keeping inflation high. It’s not the workers.",
+      "pubDate": "Wed, 16 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "High-grade WA titanium hit puts McLaren on the money",
-      "link": "https://www.smh.com.au/business/companies/high-grade-wa-titanium-hit-puts-mclaren-on-the-money-20260915-p60xja.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "McLaren Minerals has hit 24m at a lofty 7.54 per cent heavy minerals from surface at its WA titanium project, boosting confidence for a resource upgrade later this year.",
-      "pubDate": "Tue, 15 Sep 2026 13:28:47 +1000",
+      "title": "Rewriting Retirement",
+      "link": "https://www.smh.com.au/business/banking-and-finance/rewriting-retirement-20260914-p60x8t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "For those thinking of retirement, this six-part series provides the clarity and confidence to take the next step.",
+      "pubDate": "Wed, 16 Sep 2026 04:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "HYROX apologises after Aussie athlete soils herself mid-race",
-      "link": "https://www.abc.net.au/news/2026-09-15/hyrox-co-founder-apologies-after-athlete-soils-herself/107153700",
+      "title": "Sturt versus Norwood stirs up 1978 controversy ahead of SANFL final",
+      "link": "https://www.abc.net.au/news/2026-09-16/sanfl-2026-grand-final-sturt-norwood-1978-controversial-goal/107155750",
       "snippet": "",
-      "pubDate": "Tue, 15 Sep 2026 01:29:09 +0000",
+      "pubDate": "Tue, 15 Sep 2026 20:46:38 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Rush to put Zverev in Alcaraz-Sinner tier premature despite twin titles",
+      "link": "https://www.abc.net.au/news/2026-09-16/tennis-zverev-below-alcaraz-sinner-despite-grand-slam-wins/107155534",
+      "snippet": "",
+      "pubDate": "Tue, 15 Sep 2026 20:40:22 +0000",
       "source": "ABC"
     },
     {
       "title": "Gambling company let more than 150 problem gamblers stay on platform",
       "link": "https://www.smh.com.au/business/companies/gambling-company-let-more-than-150-problem-gamblers-stay-on-platform-20260915-p60xhn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Social-media linked betting platform hit with $1 million fine for breaching gambling safety laws.",
+      "snippet": "Social media-linked betting platform hit with $1 million fine for breaching gambling safety laws.",
       "pubDate": "Wed, 16 Sep 2026 00:01:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "ODI live scores: Australia faces Zimbabwe in first of African series",
+      "title": "Renshaw scores first ODI century as Aussies defeat Zimbabwe",
       "link": "https://www.abc.net.au/news/2026-09-15/cricket-live-australia-zimbabwe-first-odi-scorecentre/107154728",
       "snippet": "",
       "pubDate": "Tue, 15 Sep 2026 07:31:59 +0000",
@@ -7794,20 +7848,6 @@
       "link": "https://www.abc.net.au/news/2026-09-15/fremantle-dockers-not-taking-sydney-swans-lightly-in-afl-finals/107154240",
       "snippet": "",
       "pubDate": "Tue, 15 Sep 2026 05:04:35 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Amplia opens new front in ovarian cancer fight",
-      "link": "https://www.smh.com.au/business/companies/amplia-opens-new-front-in-ovarian-cancer-fight-20260915-p60xkn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Amplia Therapeutics has finalised plans for its PRROSE phase two ovarian cancer trial, with site activation and patient recruitment targeted before year-end.",
-      "pubDate": "Tue, 15 Sep 2026 14:53:36 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "The moment this Knights finals rookie will hold on to forever",
-      "link": "https://www.abc.net.au/news/2026-09-15/jermaine-mcewen-nrl-finals-newcastle-knights/107154780",
-      "snippet": "",
-      "pubDate": "Tue, 15 Sep 2026 02:24:43 +0000",
       "source": "ABC"
     }
   ]
