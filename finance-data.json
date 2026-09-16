@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-16T11:55:07.554Z",
+  "fetchedAt": "2026-09-16T17:12:00.912Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0.01,
-      "changePercent": 1.01,
+      "changePercent": 0.95,
       "previousClose": 0.71,
       "asOf": "2026-09-16",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 0.93,
+      "changePercent": 0.91,
       "previousClose": 0.61,
       "asOf": "2026-09-16",
       "history": [
@@ -2256,7 +2256,7 @@
     "audcny": {
       "value": 4.78,
       "change": 0.02,
-      "changePercent": 0.42,
+      "changePercent": 0.39,
       "previousClose": 4.76,
       "asOf": "2026-09-16",
       "history": [
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0.01,
-    "changePercent": 1.01,
+    "changePercent": 0.95,
     "previousClose": 0.71,
     "asOf": "2026-09-16",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 103.32,
-      "change": 18.82,
-      "changePercent": 22.27,
+      "value": 102.45,
+      "change": 17.95,
+      "changePercent": 21.24,
       "previousClose": 84.5,
       "asOf": "2026-09-16",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-09-16",
-          "close": 103.32
+          "close": 102.45
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 107.26,
-      "change": 16.39,
-      "changePercent": 18.04,
+      "value": 105.62,
+      "change": 14.75,
+      "changePercent": 16.23,
       "previousClose": 90.87,
       "asOf": "2026-09-16",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-09-16",
-          "close": 107.26
+          "close": 105.62
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.95,
-      "change": 0.25,
-      "changePercent": 9.48,
+      "value": 2.89,
+      "change": 0.2,
+      "changePercent": 7.32,
       "previousClose": 2.69,
       "asOf": "2026-09-16",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-09-16",
-          "close": 2.94
+          "close": 2.89
         }
       ],
       "name": "Natural Gas",
@@ -6295,10 +6295,6 @@
       {
         "date": "2026-09-15",
         "close": 8672.5
-      },
-      {
-        "date": "2026-09-16",
-        "close": 8696.5
       }
     ]
   },
@@ -7429,21 +7425,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4391.7,
-      "change": -82,
-      "changePercent": -1.83
+      "price": 4385.2,
+      "change": -88.5,
+      "changePercent": -1.98
     },
     {
       "name": "Silver",
-      "price": 65.42,
-      "change": -0.7,
-      "changePercent": -1.06
+      "price": 64.82,
+      "change": -1.3,
+      "changePercent": -1.97
     },
     {
       "name": "Copper",
-      "price": 6.52,
-      "change": -0.08,
-      "changePercent": -1.24
+      "price": 6.5,
+      "change": -0.1,
+      "changePercent": -1.51
     }
   ],
   "housing": {
