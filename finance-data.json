@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-17T17:11:15.671Z",
+  "fetchedAt": "2026-09-17T21:35:43.254Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": 0.44,
+      "changePercent": 0.4,
       "previousClose": 0.71,
       "asOf": "2026-09-17",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-09-15",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-16",
           "close": 0.71
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-09-15",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-16",
           "close": 0.71
         },
         {
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.23,
+      "changePercent": 1.19,
       "previousClose": 0.61,
       "asOf": "2026-09-17",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-09-15",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-16",
           "close": 0.62
         },
         {
@@ -1501,6 +1513,10 @@
         },
         {
           "date": "2026-09-15",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-16",
           "close": 0.62
         },
         {
@@ -2264,7 +2280,7 @@
     "audcny": {
       "value": 4.77,
       "change": -0.01,
-      "changePercent": -0.11,
+      "changePercent": -0.14,
       "previousClose": 4.78,
       "asOf": "2026-09-17",
       "history": [
@@ -2359,6 +2375,10 @@
         {
           "date": "2026-09-15",
           "close": 4.78
+        },
+        {
+          "date": "2026-09-16",
+          "close": 4.75
         },
         {
           "date": "2026-09-17",
@@ -2634,6 +2654,10 @@
           "close": 4.78
         },
         {
+          "date": "2026-09-16",
+          "close": 4.75
+        },
+        {
           "date": "2026-09-17",
           "close": 4.77
         }
@@ -2745,7 +2769,7 @@
         },
         {
           "date": "2026-09-13",
-          "close": 4.78
+          "close": 4.75
         },
         {
           "date": "2026-09-17",
@@ -3383,7 +3407,7 @@
         },
         {
           "date": "2026-09-13",
-          "close": 4.78
+          "close": 4.75
         },
         {
           "date": "2026-09-17",
@@ -3392,9 +3416,9 @@
       ]
     },
     "audjpy": {
-      "value": 111,
-      "change": -1.81,
-      "changePercent": -1.6,
+      "value": 110.87,
+      "change": -1.93,
+      "changePercent": -1.71,
       "previousClose": 112.81,
       "asOf": "2026-09-17",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 110.64
         },
         {
+          "date": "2026-09-16",
+          "close": 110.58
+        },
+        {
           "date": "2026-09-17",
-          "close": 111
+          "close": 110.87
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 110.64
         },
         {
+          "date": "2026-09-16",
+          "close": 110.58
+        },
+        {
           "date": "2026-09-17",
-          "close": 111
+          "close": 110.87
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-09-13",
-          "close": 110.64
+          "close": 110.58
         },
         {
           "date": "2026-09-17",
-          "close": 111
+          "close": 110.87
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-09-13",
-          "close": 110.64
+          "close": 110.58
         },
         {
           "date": "2026-09-17",
-          "close": 111
+          "close": 110.87
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.44,
+    "changePercent": 0.4,
     "previousClose": 0.71,
     "asOf": "2026-09-17",
     "history": [
@@ -4619,6 +4651,10 @@
       },
       {
         "date": "2026-09-15",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-16",
         "close": 0.71
       },
       {
@@ -4892,6 +4928,10 @@
       },
       {
         "date": "2026-09-15",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-16",
         "close": 0.71
       },
       {
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.16,
-      "change": 17.66,
-      "changePercent": 20.9,
+      "value": 101.09,
+      "change": 16.59,
+      "changePercent": 19.63,
       "previousClose": 84.5,
       "asOf": "2026-09-17",
       "history": [
@@ -5942,16 +5982,16 @@
         },
         {
           "date": "2026-09-17",
-          "close": 102.16
+          "close": 101.09
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.61,
-      "change": 13.74,
-      "changePercent": 15.12,
+      "value": 104.09,
+      "change": 13.22,
+      "changePercent": 14.55,
       "previousClose": 90.87,
       "asOf": "2026-09-17",
       "history": [
@@ -6045,16 +6085,16 @@
         },
         {
           "date": "2026-09-17",
-          "close": 104.61
+          "close": 104.09
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.92,
-      "change": 0.23,
-      "changePercent": 8.48,
+      "value": 2.87,
+      "change": 0.18,
+      "changePercent": 6.65,
       "previousClose": 2.69,
       "asOf": "2026-09-17",
       "history": [
@@ -6148,7 +6188,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 2.92
+          "close": 2.87
         }
       ],
       "name": "Natural Gas",
@@ -7493,21 +7533,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4402.1,
-      "change": -71.6,
-      "changePercent": -1.6
+      "price": 4380.6,
+      "change": -93.1,
+      "changePercent": -2.08
     },
     {
       "name": "Silver",
-      "price": 66.24,
-      "change": 0.11,
-      "changePercent": 0.17
+      "price": 65.72,
+      "change": -0.41,
+      "changePercent": -0.61
     },
     {
       "name": "Copper",
-      "price": 6.67,
-      "change": 0.06,
-      "changePercent": 0.92
+      "price": 6.61,
+      "change": 0.01,
+      "changePercent": 0.15
     }
   ],
   "housing": {
@@ -7843,17 +7883,24 @@
   ],
   "news": [
     {
-      "title": "ASX gains as oil prices, bond yields ease; Big four banks advance",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-steady-as-fed-raises-rates-signals-one-more-hike-this-year-20260917-p60y1c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket has risen for the second day in a row after the Federal Reserve’s first interest rate rise in three years and a drop in oil prices.",
-      "pubDate": "Thu, 17 Sep 2026 17:54:11 +1000",
+      "title": "ASX set to rise, Wall Street climbs as oil prices slide, bond market pressure eases; UK keeps rates on hold",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-wall-street-climbs-as-oil-prices-slide-and-pressure-from-the-bond-market-eases-20260918-p60yfh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market rallied to its best day in six weeks after falling oil prices and easing pressure from the bond market helped Wall Street reverse many of its moves from the prior day, setting up the Australian sharemarket for a positive start to ",
+      "pubDate": "Fri, 18 Sep 2026 06:25:49 +1000",
       "source": "SMH"
     },
     {
-      "title": "‘They’re wolves’: Coles keeps milk prices higher despite axing farmer support",
-      "link": "https://www.smh.com.au/business/companies/they-re-wolves-coles-keep-milk-prices-higher-despite-axing-farmer-support-20260917-p60ycp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The supermarket giant started charging customers more when war broke out in the Middle East to support farmers. Now it and a Woolworths supplier have ended subsidies.",
-      "pubDate": "Thu, 17 Sep 2026 19:01:24 +1000",
+      "title": "My accent is unremarkable. But it has almost certainly helped me",
+      "link": "https://www.smh.com.au/business/the-economy/my-accent-is-unremarkable-but-it-has-almost-certainly-helped-me-20260918-p60y6x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There’s a type of bias holding us back, economically and socially. Here’s how the way we speak might be shaping how people perceive us.",
+      "pubDate": "Fri, 18 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Hard to say there won’t be job cuts’, freshly arrived ABC news chief declares",
+      "link": "https://www.smh.com.au/business/companies/hard-to-say-there-won-t-be-job-cuts-freshly-arrived-abc-news-chief-declares-20260918-p60y8o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "In his first big day greeting staff, Simon Robinson did not confirm there would be job cuts, but pointedly avoided ruling out redundancies.",
+      "pubDate": "Fri, 18 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7864,45 +7911,52 @@
       "source": "ABC"
     },
     {
-      "title": "WTA Finals hoped to become 'Super Bowl of women's sports'",
-      "link": "https://www.abc.net.au/news/2026-09-17/wta-finals-tennis-move-to-charlotte-united-states-2027/107162290",
+      "title": "From African shepherd to Australia's marathon record holder",
+      "link": "https://www.abc.net.au/news/2026-09-18/haftu-strintzos-journey-shepherd-to-australia-marathon-record/107160046",
       "snippet": "",
-      "pubDate": "Wed, 16 Sep 2026 21:12:09 +0000",
+      "pubDate": "Thu, 17 Sep 2026 20:13:41 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "How Swans rebuilt their midfield to challenge for premiership",
+      "link": "https://www.abc.net.au/news/2026-09-18/afl-sydney-swans-fremantle-dockers-preliminary-final/107163234",
+      "snippet": "",
+      "pubDate": "Thu, 17 Sep 2026 19:21:50 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Worried about losing creativity and other skills to AI? You’re not alone",
+      "link": "https://www.smh.com.au/business/workplace/worried-about-losing-creativity-and-other-skills-to-ai-you-re-not-alone-20260918-p60nxg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Many of us fear AI weakens independent thought, creativity and learning, especially among young people who may rely on it to think for them.",
+      "pubDate": "Fri, 18 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "This city slicker took a job in Darwin. What happened next surprised her",
+      "link": "https://www.smh.com.au/business/workplace/this-city-slicker-took-a-job-in-darwin-what-happened-next-surprised-her-20260918-p60qyd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Long-time city dweller Emma Jane Edwards decided to move on whim 18 months ago.",
+      "pubDate": "Fri, 18 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "They transformed the Espy. Now they want to revive a vacant Fitzroy pub",
+      "link": "https://www.smh.com.au/business/companies/they-transformed-the-espy-now-they-want-to-revive-a-vacant-fitzroy-pub-20260918-p60xxg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Five mates who launched a pub empire in their 20s have purchased a historic pub in Brunswick Street.",
+      "pubDate": "Fri, 18 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Why your closest friends probably won’t help you find a job",
+      "link": "https://www.smh.com.au/business/workplace/why-your-closest-friends-probably-won-t-help-you-find-a-job-20260917-p60y47.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The surprising reality is that your next career move will probably emerge from the very edge of your orbit.",
+      "pubDate": "Fri, 18 Sep 2026 05:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Qantas ground staff set to strike over ‘Joyce-era’ bargaining agreements",
       "link": "https://www.smh.com.au/business/workplace/qantas-ground-staff-set-to-strike-over-joyce-era-bargaining-agreements-20260918-p60y9f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The 600 workers poised to go on strike are the last remaining Qantas ground workers, after 1800 of their colleagues were illegally sacked during the COVID pandemic.",
       "pubDate": "Fri, 18 Sep 2026 03:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Why AI hasn’t taken your job yet",
-      "link": "https://www.smh.com.au/business/companies/why-ai-hasn-t-taken-your-job-yet-20260917-p60y6e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The predicted AI job apocalypse hasn’t landed yet. But the industry is more concerned about the bigger problem of human extinction.",
-      "pubDate": "Thu, 17 Sep 2026 15:56:17 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "KPMG consultant admits to ‘gaps’ in its whistleblower report",
-      "link": "https://www.smh.com.au/business/companies/kpmg-consultant-admits-to-gaps-in-its-whistleblower-report-20260917-p60y8m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A comprehensive report on KPMG’s whistleblower failings has come up short, as key staff weren’t interviewed and there were no records of crucial meetings.",
-      "pubDate": "Thu, 17 Sep 2026 15:56:09 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Why you should be wary when your boss asks for feedback",
-      "link": "https://www.smh.com.au/business/workplace/why-you-should-be-wary-when-your-boss-asks-for-feedback-20260917-p60y68.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The idea of the “360-degree feedback” has always struck me as worthy in theory but highly dubious in practice.",
-      "pubDate": "Thu, 17 Sep 2026 15:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "WA Jupiter giant repeats 58% rare earths carbonate trick for Critica",
-      "link": "https://www.smh.com.au/business/companies/wa-jupiter-giant-repeats-58-percent-rare-earths-carbonate-trick-for-critica-20260917-p60yb3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critica has delivered a second high-grade 58% TREO product from its WA Jupiter project, increasing key magnet and heavy rare earth content and de-risking its flowsheet.",
-      "pubDate": "Thu, 17 Sep 2026 14:40:54 +1000",
       "source": "SMH"
     },
     {
