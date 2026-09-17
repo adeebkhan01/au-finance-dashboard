@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-17T11:57:31.635Z",
+  "fetchedAt": "2026-09-17T17:11:15.671Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": 0.35,
+      "changePercent": 0.44,
       "previousClose": 0.71,
       "asOf": "2026-09-17",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.21,
+      "changePercent": 1.23,
       "previousClose": 0.61,
       "asOf": "2026-09-17",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": -0.03,
-      "changePercent": -0.55,
+      "value": 4.77,
+      "change": -0.01,
+      "changePercent": -0.11,
       "previousClose": 4.78,
       "asOf": "2026-09-17",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-09-17",
-          "close": 4.75
+          "close": 4.77
         }
       ]
     },
     "audjpy": {
-      "value": 110.79,
-      "change": -2.02,
-      "changePercent": -1.79,
+      "value": 111,
+      "change": -1.81,
+      "changePercent": -1.6,
       "previousClose": 112.81,
       "asOf": "2026-09-17",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 110.79
+          "close": 111
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 110.79
+          "close": 111
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 110.79
+          "close": 111
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 110.79
+          "close": 111
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.35,
+    "changePercent": 0.44,
     "previousClose": 0.71,
     "asOf": "2026-09-17",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100.7,
-      "change": 16.2,
-      "changePercent": 19.17,
+      "value": 102.16,
+      "change": 17.66,
+      "changePercent": 20.9,
       "previousClose": 84.5,
       "asOf": "2026-09-17",
       "history": [
@@ -5942,16 +5942,16 @@
         },
         {
           "date": "2026-09-17",
-          "close": 100.7
+          "close": 102.16
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 99.36,
-      "change": 8.49,
-      "changePercent": 9.34,
+      "value": 104.61,
+      "change": 13.74,
+      "changePercent": 15.12,
       "previousClose": 90.87,
       "asOf": "2026-09-17",
       "history": [
@@ -6045,16 +6045,16 @@
         },
         {
           "date": "2026-09-17",
-          "close": 99.36
+          "close": 104.61
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.87,
-      "change": 0.18,
-      "changePercent": 6.77,
+      "value": 2.92,
+      "change": 0.23,
+      "changePercent": 8.48,
       "previousClose": 2.69,
       "asOf": "2026-09-17",
       "history": [
@@ -6148,7 +6148,7 @@
         },
         {
           "date": "2026-09-17",
-          "close": 2.87
+          "close": 2.92
         }
       ],
       "name": "Natural Gas",
@@ -6331,10 +6331,6 @@
       {
         "date": "2026-09-16",
         "close": 8696.5
-      },
-      {
-        "date": "2026-09-17",
-        "close": 8732.4
       }
     ]
   },
@@ -7497,21 +7493,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4369.8,
-      "change": -103.9,
-      "changePercent": -2.32
+      "price": 4402.1,
+      "change": -71.6,
+      "changePercent": -1.6
     },
     {
       "name": "Silver",
-      "price": 64.63,
-      "change": -1.49,
-      "changePercent": -2.25
+      "price": 66.24,
+      "change": 0.11,
+      "changePercent": 0.17
     },
     {
       "name": "Copper",
-      "price": 6.59,
-      "change": -0.01,
-      "changePercent": -0.21
+      "price": 6.67,
+      "change": 0.06,
+      "changePercent": 0.92
     }
   ],
   "housing": {
@@ -7861,11 +7857,25 @@
       "source": "SMH"
     },
     {
+      "title": "Athlete Joanna Wietrzyk apologises for continuing HYROX race after soiling herself",
+      "link": "https://www.abc.net.au/news/2026-09-18/soiled-hyrox-athlete-gives-back-points/107166578",
+      "snippet": "",
+      "pubDate": "Thu, 17 Sep 2026 15:32:25 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "WTA Finals hoped to become 'Super Bowl of women's sports'",
       "link": "https://www.abc.net.au/news/2026-09-17/wta-finals-tennis-move-to-charlotte-united-states-2027/107162290",
       "snippet": "",
       "pubDate": "Wed, 16 Sep 2026 21:12:09 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "Qantas ground staff set to strike over ‘Joyce-era’ bargaining agreements",
+      "link": "https://www.smh.com.au/business/workplace/qantas-ground-staff-set-to-strike-over-joyce-era-bargaining-agreements-20260918-p60y9f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The 600 workers poised to go on strike are the last remaining Qantas ground workers, after 1800 of their colleagues were illegally sacked during the COVID pandemic.",
+      "pubDate": "Fri, 18 Sep 2026 03:00:00 +1000",
+      "source": "SMH"
     },
     {
       "title": "Why AI hasn’t taken your job yet",
