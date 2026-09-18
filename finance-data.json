@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T16:37:26.729Z",
+  "fetchedAt": "2026-09-18T21:06:20.849Z",
   "fx": {
     "audusd": {
       "value": 0.71,
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.09,
+      "changePercent": 1.01,
       "previousClose": 0.61,
       "asOf": "2026-09-18",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.75,
-      "change": -0.04,
-      "changePercent": -0.75,
+      "value": 4.77,
+      "change": -0.02,
+      "changePercent": -0.42,
       "previousClose": 4.79,
       "asOf": "2026-09-18",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.75
+          "close": 4.77
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.75
+          "close": 4.77
         }
       ]
     },
     "audjpy": {
-      "value": 111.58,
-      "change": -1.67,
-      "changePercent": -1.47,
+      "value": 111.68,
+      "change": -1.58,
+      "changePercent": -1.39,
       "previousClose": 113.25,
       "asOf": "2026-09-18",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 111.58
+          "close": 111.68
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 111.59
+          "close": 111.68
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 111.59
+          "close": 111.68
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 111.59
+          "close": 111.68
         }
       ]
     }
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.64,
-      "change": 11.7,
-      "changePercent": 13.77,
+      "value": 95.46,
+      "change": 10.52,
+      "changePercent": 12.39,
       "previousClose": 84.94,
       "asOf": "2026-09-18",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-09-18",
-          "close": 96.64
+          "close": 95.46
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 99.81,
-      "change": 8.79,
-      "changePercent": 9.66,
+      "value": 98.74,
+      "change": 7.72,
+      "changePercent": 8.48,
       "previousClose": 91.02,
       "asOf": "2026-09-18",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-09-18",
-          "close": 99.81
+          "close": 98.74
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.92,
-      "change": 0.14,
-      "changePercent": 5.01,
+      "value": 2.9,
+      "change": 0.12,
+      "changePercent": 4.47,
       "previousClose": 2.78,
       "asOf": "2026-09-18",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 2.91
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4405.7,
-      "change": -14.9,
-      "changePercent": -0.34
+      "price": 4416.9,
+      "change": -3.7,
+      "changePercent": -0.08
     },
     {
       "name": "Silver",
-      "price": 66.9,
-      "change": 2.96,
-      "changePercent": 4.63
+      "price": 66.78,
+      "change": 2.83,
+      "changePercent": 4.43
     },
     {
       "name": "Copper",
-      "price": 6.68,
-      "change": 0.2,
-      "changePercent": 3.05
+      "price": 6.71,
+      "change": 0.23,
+      "changePercent": 3.56
     }
   ],
   "housing": {
@@ -7844,13 +7844,6 @@
       "source": "SMH"
     },
     {
-      "title": "Aurum nails high-grade gold outside 3.22Moz Côte d’Ivoire resource",
-      "link": "https://www.smh.com.au/business/companies/aurum-nails-high-grade-gold-outside-3-22moz-c-te-d-ivoire-resource-20260918-p60ykz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aurum Resources has hit bonanza gold grades up to 51.38g/t outside its 3.22-million-ounce Boundiali resource in West Africa, pointing to further resource growth.",
-      "pubDate": "Fri, 18 Sep 2026 13:35:45 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "The four horsemen of the apocalypse are coming for the global economy",
       "link": "https://www.smh.com.au/business/the-economy/the-four-horsemen-of-the-apocalypse-are-coming-for-the-global-economy-20260918-p60xp1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "A perfect storm has formed as four powerful threats escalate and feed on each other. We seem to be in no fit state to handle the challenge.",
@@ -7862,6 +7855,27 @@
       "link": "https://www.smh.com.au/business/companies/forrestania-monster-newsflow-lands-four-wa-gold-project-prefeasibility-studies-20260918-p60ynz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Forrestania Resources has unleashed four prefeasibility studies across its WA gold portfolio, including maiden ore reserves that will sharpen its path to production.",
       "pubDate": "Fri, 18 Sep 2026 16:36:49 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "How Jack Gunston became an unlikely key to Hawthorn's flag hopes",
+      "link": "https://www.abc.net.au/news/2026-09-19/jack-gunston-footballer-reborn-holds-key-hawthorn-flag-hopes/107167174",
+      "snippet": "",
+      "pubDate": "Fri, 18 Sep 2026 19:44:59 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Wallaroos edge towards their version of the 'Matildas effect'",
+      "link": "https://www.abc.net.au/news/2026-09-19/wallaroos-matildas-2029-rugby-world-cup-england-france/107169670",
+      "snippet": "",
+      "pubDate": "Fri, 18 Sep 2026 19:21:03 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "EVs are taking over as Australians flee the bowser. What happens next?",
+      "link": "https://www.smh.com.au/business/consumer-affairs/evs-are-taking-over-as-australians-flee-the-bowser-what-happens-next-20260919-p60ylr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "EVs now make up a quarter of new car sales in Australia as fuel prices soar. The rollout of public chargers, parts warehouses and technicians now must keep pace.",
+      "pubDate": "Sat, 19 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7879,31 +7893,17 @@
       "source": "ABC"
     },
     {
+      "title": "'Devastated' Swans' tumultuous season ended by stirring Freo fightback",
+      "link": "https://www.abc.net.au/news/2026-09-18/afl-prelim-final-sydney-swans-fremantle-dockers-live-blog/107164694",
+      "snippet": "",
+      "pubDate": "Fri, 18 Sep 2026 08:29:06 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Blistering Head ton leads Australia to victory in second ODI in Zimbabwe",
       "link": "https://www.abc.net.au/news/2026-09-18/head-ton-leads-australia-to-odi-victory-over-zimbabwe/107169640",
       "snippet": "",
       "pubDate": "Fri, 18 Sep 2026 07:17:41 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "LA Rams coach hopes his NFL team never plays in Australia again",
-      "link": "https://www.abc.net.au/news/2026-09-18/la-rams-coach-sean-mcvay-happy-mcg-nfl-game-is-one-off/107170370",
-      "snippet": "",
-      "pubDate": "Fri, 18 Sep 2026 07:05:46 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Stone the crows! Popular north shore watering hole to close",
-      "link": "https://www.smh.com.au/business/small-business/stone-the-crows-popular-north-shore-watering-hole-to-close-20260918-p60yb2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "One of the lower north shore’s best-known watering holes, the Stoned Crow, is closing its doors.",
-      "pubDate": "Fri, 18 Sep 2026 15:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "A-League season start under threat with referees on strike",
-      "link": "https://www.abc.net.au/news/2026-09-18/a-league-referees-strike-season/107163594",
-      "snippet": "",
-      "pubDate": "Fri, 18 Sep 2026 01:35:39 +0000",
       "source": "ABC"
     }
   ]
