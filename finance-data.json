@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-18T11:37:04.433Z",
+  "fetchedAt": "2026-09-18T16:37:26.729Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": 0.27,
+      "changePercent": 0.18,
       "previousClose": 0.71,
       "asOf": "2026-09-18",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.25,
+      "changePercent": 1.09,
       "previousClose": 0.61,
       "asOf": "2026-09-18",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.76,
-      "change": -0.03,
-      "changePercent": -0.67,
+      "value": 4.75,
+      "change": -0.04,
+      "changePercent": -0.75,
       "previousClose": 4.79,
       "asOf": "2026-09-18",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-09-18",
-          "close": 4.76
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 112.38,
-      "change": -0.87,
-      "changePercent": -0.77,
+      "value": 111.58,
+      "change": -1.67,
+      "changePercent": -1.47,
       "previousClose": 113.25,
       "asOf": "2026-09-18",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 112.38
+          "close": 111.58
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 112.38
+          "close": 111.59
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 112.38
+          "close": 111.59
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 112.38
+          "close": 111.59
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.27,
+    "changePercent": 0.18,
     "previousClose": 0.71,
     "asOf": "2026-09-18",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.23,
-      "change": 11.29,
-      "changePercent": 13.29,
+      "value": 96.64,
+      "change": 11.7,
+      "changePercent": 13.77,
       "previousClose": 84.94,
       "asOf": "2026-09-18",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-09-18",
-          "close": 96.23
+          "close": 96.64
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 98.74,
-      "change": 7.72,
-      "changePercent": 8.48,
+      "value": 99.81,
+      "change": 8.79,
+      "changePercent": 9.66,
       "previousClose": 91.02,
       "asOf": "2026-09-18",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-09-18",
-          "close": 98.74
+          "close": 99.81
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.85,
-      "change": 0.08,
-      "changePercent": 2.81,
+      "value": 2.92,
+      "change": 0.14,
+      "changePercent": 5.01,
       "previousClose": 2.78,
       "asOf": "2026-09-18",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-09-18",
-          "close": 2.85
+          "close": 2.91
         }
       ],
       "name": "Natural Gas",
@@ -6311,10 +6311,6 @@
       {
         "date": "2026-09-17",
         "close": 8732.4
-      },
-      {
-        "date": "2026-09-18",
-        "close": 8731.2
       }
     ]
   },
@@ -7477,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4421.4,
-      "change": 0.8,
-      "changePercent": 0.02
+      "price": 4405.7,
+      "change": -14.9,
+      "changePercent": -0.34
     },
     {
       "name": "Silver",
-      "price": 67.68,
-      "change": 3.73,
-      "changePercent": 5.84
+      "price": 66.9,
+      "change": 2.96,
+      "changePercent": 4.63
     },
     {
       "name": "Copper",
-      "price": 6.66,
-      "change": 0.18,
-      "changePercent": 2.78
+      "price": 6.68,
+      "change": 0.2,
+      "changePercent": 3.05
     }
   ],
   "housing": {
@@ -7883,15 +7879,8 @@
       "source": "ABC"
     },
     {
-      "title": "Live: 'Rattled' Dockers struggling to contain red-hot Swans in blockbuster prelim",
-      "link": "https://www.abc.net.au/news/2026-09-18/afl-prelim-final-sydney-swans-fremantle-dockers-live-blog/107164694",
-      "snippet": "",
-      "pubDate": "Fri, 18 Sep 2026 08:29:06 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "ODI live: Head smashes quickfire ton as Aussies take on Zimbabwe",
-      "link": "https://www.abc.net.au/news/2026-09-18/zimbabwe-vs-australia-second-odi-live-scores/107169640",
+      "title": "Blistering Head ton leads Australia to victory in second ODI in Zimbabwe",
+      "link": "https://www.abc.net.au/news/2026-09-18/head-ton-leads-australia-to-odi-victory-over-zimbabwe/107169640",
       "snippet": "",
       "pubDate": "Fri, 18 Sep 2026 07:17:41 +0000",
       "source": "ABC"
@@ -7909,6 +7898,13 @@
       "snippet": "One of the lower north shore’s best-known watering holes, the Stoned Crow, is closing its doors.",
       "pubDate": "Fri, 18 Sep 2026 15:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "A-League season start under threat with referees on strike",
+      "link": "https://www.abc.net.au/news/2026-09-18/a-league-referees-strike-season/107163594",
+      "snippet": "",
+      "pubDate": "Fri, 18 Sep 2026 01:35:39 +0000",
+      "source": "ABC"
     }
   ]
 }
