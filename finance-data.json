@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-21T13:08:54.603Z",
+  "fetchedAt": "2026-09-21T22:06:48.050Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": 0.25,
+      "changePercent": 0.03,
       "previousClose": 0.71,
       "asOf": "2026-09-21",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-09-17",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-20",
           "close": 0.71
         },
         {
@@ -362,6 +366,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-09-20",
+          "close": 0.71
+        },
+        {
           "date": "2026-09-21",
           "close": 0.71
         }
@@ -473,6 +481,10 @@
         },
         {
           "date": "2026-09-13",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-20",
           "close": 0.71
         },
         {
@@ -1110,6 +1122,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-09-20",
+          "close": 0.71
+        },
+        {
           "date": "2026-09-21",
           "close": 0.71
         }
@@ -1118,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.97,
+      "changePercent": 1.92,
       "previousClose": 0.61,
       "asOf": "2026-09-21",
       "history": [
@@ -1204,6 +1220,10 @@
         },
         {
           "date": "2026-09-17",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-20",
           "close": 0.62
         },
         {
@@ -1476,6 +1496,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-09-20",
+          "close": 0.62
+        },
+        {
           "date": "2026-09-21",
           "close": 0.62
         }
@@ -1588,6 +1612,10 @@
         {
           "date": "2026-09-13",
           "close": 0.6
+        },
+        {
+          "date": "2026-09-20",
+          "close": 0.62
         },
         {
           "date": "2026-09-21",
@@ -2224,15 +2252,19 @@
           "close": 0.6
         },
         {
+          "date": "2026-09-20",
+          "close": 0.62
+        },
+        {
           "date": "2026-09-21",
           "close": 0.62
         }
       ]
     },
     "audcny": {
-      "value": 4.76,
+      "value": 4.77,
       "change": -0.02,
-      "changePercent": -0.51,
+      "changePercent": -0.43,
       "previousClose": 4.79,
       "asOf": "2026-09-21",
       "history": [
@@ -2321,8 +2353,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-09-20",
+          "close": 4.77
+        },
+        {
           "date": "2026-09-21",
-          "close": 4.76
+          "close": 4.77
         }
       ],
       "label": "AUD/CNY",
@@ -2590,8 +2626,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-09-20",
+          "close": 4.77
+        },
+        {
           "date": "2026-09-21",
-          "close": 4.76
+          "close": 4.77
         }
       ],
       "h6m": [
@@ -2704,8 +2744,12 @@
           "close": 4.78
         },
         {
+          "date": "2026-09-20",
+          "close": 4.77
+        },
+        {
           "date": "2026-09-21",
-          "close": 4.76
+          "close": 4.77
         }
       ],
       "h3y": [
@@ -3338,15 +3382,19 @@
           "close": 4.78
         },
         {
+          "date": "2026-09-20",
+          "close": 4.77
+        },
+        {
           "date": "2026-09-21",
-          "close": 4.76
+          "close": 4.77
         }
       ]
     },
     "audjpy": {
-      "value": 112.23,
-      "change": -0.88,
-      "changePercent": -0.78,
+      "value": 112.04,
+      "change": -1.07,
+      "changePercent": -0.94,
       "previousClose": 113.1,
       "asOf": "2026-09-21",
       "history": [
@@ -3435,8 +3483,12 @@
           "close": 111.09
         },
         {
+          "date": "2026-09-20",
+          "close": 111.83
+        },
+        {
           "date": "2026-09-21",
-          "close": 112.23
+          "close": 112.04
         }
       ],
       "label": "AUD/JPY",
@@ -3704,8 +3756,12 @@
           "close": 111.09
         },
         {
+          "date": "2026-09-20",
+          "close": 111.83
+        },
+        {
           "date": "2026-09-21",
-          "close": 112.23
+          "close": 112.04
         }
       ],
       "h6m": [
@@ -3818,8 +3874,12 @@
           "close": 111.92
         },
         {
+          "date": "2026-09-20",
+          "close": 111.83
+        },
+        {
           "date": "2026-09-21",
-          "close": 112.23
+          "close": 112.04
         }
       ],
       "h3y": [
@@ -4452,8 +4512,12 @@
           "close": 111.92
         },
         {
+          "date": "2026-09-20",
+          "close": 111.83
+        },
+        {
           "date": "2026-09-21",
-          "close": 112.23
+          "close": 112.04
         }
       ]
     }
@@ -4461,7 +4525,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": 0.25,
+    "changePercent": 0.03,
     "previousClose": 0.71,
     "asOf": "2026-09-21",
     "history": [
@@ -4547,6 +4611,10 @@
       },
       {
         "date": "2026-09-17",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-20",
         "close": 0.71
       },
       {
@@ -4819,6 +4887,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-09-20",
+        "close": 0.71
+      },
+      {
         "date": "2026-09-21",
         "close": 0.71
       }
@@ -4930,6 +5002,10 @@
       },
       {
         "date": "2026-09-13",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-20",
         "close": 0.71
       },
       {
@@ -5567,6 +5643,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-09-20",
+        "close": 0.71
+      },
+      {
         "date": "2026-09-21",
         "close": 0.71
       }
@@ -5766,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 93.54,
-      "change": 6.48,
-      "changePercent": 7.44,
+      "value": 91.97,
+      "change": 4.91,
+      "changePercent": 5.64,
       "previousClose": 87.06,
       "asOf": "2026-09-21",
       "history": [
@@ -5854,16 +5934,16 @@
         },
         {
           "date": "2026-09-21",
-          "close": 93.54
+          "close": 91.97
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 101.17,
-      "change": 6.78,
-      "changePercent": 7.18,
+      "value": 95.96,
+      "change": 1.57,
+      "changePercent": 1.66,
       "previousClose": 94.39,
       "asOf": "2026-09-21",
       "history": [
@@ -5949,16 +6029,16 @@
         },
         {
           "date": "2026-09-21",
-          "close": 101.17
+          "close": 95.96
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.85,
-      "change": 0.08,
-      "changePercent": 2.81,
+      "value": 2.83,
+      "change": 0.06,
+      "changePercent": 2.02,
       "previousClose": 2.77,
       "asOf": "2026-09-21",
       "history": [
@@ -6044,7 +6124,7 @@
         },
         {
           "date": "2026-09-21",
-          "close": 2.85
+          "close": 2.83
         }
       ],
       "name": "Natural Gas",
@@ -6219,10 +6299,6 @@
       {
         "date": "2026-09-18",
         "close": 8731.2
-      },
-      {
-        "date": "2026-09-21",
-        "close": 8731.9
       }
     ]
   },
@@ -7321,21 +7397,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4398.1,
-      "change": -282.5,
-      "changePercent": -6.04
+      "price": 4381,
+      "change": -299.6,
+      "changePercent": -6.4
     },
     {
       "name": "Silver",
-      "price": 67.29,
-      "change": -2.18,
-      "changePercent": -3.14
+      "price": 66.53,
+      "change": -2.94,
+      "changePercent": -4.23
     },
     {
       "name": "Copper",
-      "price": 6.83,
-      "change": 0.25,
-      "changePercent": 3.84
+      "price": 6.79,
+      "change": 0.21,
+      "changePercent": 3.23
     }
   ],
   "housing": {
@@ -7671,10 +7747,10 @@
   ],
   "news": [
     {
-      "title": "ASX treads water as interest rate fears loom over markets",
-      "link": "https://www.smh.com.au/business/markets/asx-eyes-losses-as-oil-prices-bond-yields-weigh-on-wall-street-20260921-p60yzw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The sharemarket has had a flat start to the week as interest rate concerns, soaring bond yields and stubborn oil prices keep investors on the back foot.",
-      "pubDate": "Mon, 21 Sep 2026 13:19:04 +1000",
+      "title": "ASX set to rise as Wall Street surges; Road clears for $154b Paramount-Warner Bros merger",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-rise-as-wall-street-surges-oil-prices-fall-road-clears-for-paramount-warner-bros-merger-20260922-p60zbl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are climbing with markets worldwide after oil prices and yields in the bond market gave back some of their jumps from last week.",
+      "pubDate": "Tue, 22 Sep 2026 06:32:55 +1000",
       "source": "SMH"
     },
     {
@@ -7699,14 +7775,35 @@
       "source": "SMH"
     },
     {
-      "title": "Corporate cop sues former Super Retail boss, alleging he misled the market",
-      "link": "https://www.smh.com.au/business/companies/corporate-cop-sues-former-super-retail-boss-alleging-he-misled-the-market-20260921-p60z3k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ASIC alleges the former CEO of Rebel Sport’s owner misled the market and breached his directors’ duties over a relationship with a former senior executive.",
-      "pubDate": "Mon, 21 Sep 2026 12:54:05 +1000",
+      "title": "Lions 'praying' Neale gets off but confident they will cope if ban stands",
+      "link": "https://www.abc.net.au/news/2026-09-22/afl-lachie-neale-brisbane-of-lions-facing-ban-from-grand-final/107179634",
+      "snippet": "",
+      "pubDate": "Mon, 21 Sep 2026 21:31:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Fishbowl is changing its name, and the founders don’t mind if you hate it",
+      "link": "https://www.smh.com.au/business/entrepreneurship/fishbowl-is-changing-its-name-and-the-founders-don-t-mind-if-you-hate-it-20260922-p60xlf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Customers are welcome to keep calling it Fishbowl if they want – just don’t call it a slop bowl.",
+      "pubDate": "Tue, 22 Sep 2026 07:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Live: Daicos wins first Brownlow Medal and sets new modern-day voting record",
+      "title": "Banned Swan falls well short in Brownlow Medal vote",
+      "link": "https://www.abc.net.au/news/2026-09-22/brownlow-medal-afl-sydney-swans-isaac-heeney-nick-daicos/107179564",
+      "snippet": "",
+      "pubDate": "Mon, 21 Sep 2026 20:36:50 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Thirteen-year-old surfer breaking records as first Indigenous world champ",
+      "link": "https://www.abc.net.au/news/2026-09-22/leihani-zoric-first-aboriginal-world-champion-surfer/107175888",
+      "snippet": "",
+      "pubDate": "Mon, 21 Sep 2026 19:12:01 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Daicos wins first Brownlow Medal and sets voting record",
       "link": "https://www.abc.net.au/news/2026-09-21/2026-brownlow-medal-afl-live-blog/107173812",
       "snippet": "",
       "pubDate": "Mon, 21 Sep 2026 08:01:22 +0000",
@@ -7731,20 +7828,6 @@
       "link": "https://www.smh.com.au/business/companies/broken-hill-lifts-sa-gold-resource-as-deeper-sulphides-beckon-20260921-p60z8n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Broken Hill Gold has lifted Vertigo’s indicated oxide ounces 160% to 24,300 ounces, firming up its SA White Dam restart case as drilling targets a gold-copper sulphide prize.",
       "pubDate": "Mon, 21 Sep 2026 16:03:34 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Wallabies eye Springboks scalp amid Dockers frenzy in Perth",
-      "link": "https://www.abc.net.au/news/2026-09-21/wallabies-springboks-test-rugby-perth/107176740",
-      "snippet": "",
-      "pubDate": "Mon, 21 Sep 2026 05:59:37 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Dalaroo cracks geological code to Greenland rare earths",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-cracks-geological-code-to-greenland-rare-earths-20260921-p60z7i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals has mapped the key structural controls at its Blue Lagoon rare earths project in Greenland, noting similarities to a nearby REE discovery.",
-      "pubDate": "Mon, 21 Sep 2026 14:38:32 +1000",
       "source": "SMH"
     }
   ]
