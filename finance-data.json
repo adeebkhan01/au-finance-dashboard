@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-22T17:08:17.847Z",
+  "fetchedAt": "2026-09-22T21:33:02.768Z",
   "fx": {
     "audusd": {
       "value": 0.71,
       "change": 0,
-      "changePercent": -0.17,
+      "changePercent": -0.06,
       "previousClose": 0.71,
       "asOf": "2026-09-22",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-09-20",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-21",
           "close": 0.71
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-09-20",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-21",
           "close": 0.71
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.97,
+      "changePercent": 1.99,
       "previousClose": 0.61,
       "asOf": "2026-09-22",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-09-20",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-21",
           "close": 0.62
         },
         {
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-09-20",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-21",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.76,
-      "change": -0.03,
-      "changePercent": -0.58,
+      "value": 4.75,
+      "change": -0.04,
+      "changePercent": -0.74,
       "previousClose": 4.79,
       "asOf": "2026-09-22",
       "history": [
@@ -2345,8 +2361,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-09-21",
+          "close": 4.77
+        },
+        {
           "date": "2026-09-22",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "label": "AUD/CNY",
@@ -2618,8 +2638,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-09-21",
+          "close": 4.77
+        },
+        {
           "date": "2026-09-22",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h6m": [
@@ -2737,7 +2761,7 @@
         },
         {
           "date": "2026-09-22",
-          "close": 4.76
+          "close": 4.75
         }
       ],
       "h3y": [
@@ -3375,14 +3399,14 @@
         },
         {
           "date": "2026-09-22",
-          "close": 4.76
+          "close": 4.75
         }
       ]
     },
     "audjpy": {
-      "value": 111.89,
-      "change": -1.21,
-      "changePercent": -1.07,
+      "value": 111.91,
+      "change": -1.19,
+      "changePercent": -1.05,
       "previousClose": 113.1,
       "asOf": "2026-09-22",
       "history": [
@@ -3471,8 +3495,12 @@
           "close": 111.83
         },
         {
+          "date": "2026-09-21",
+          "close": 112.02
+        },
+        {
           "date": "2026-09-22",
-          "close": 111.89
+          "close": 111.91
         }
       ],
       "label": "AUD/JPY",
@@ -3744,8 +3772,12 @@
           "close": 111.83
         },
         {
+          "date": "2026-09-21",
+          "close": 112.02
+        },
+        {
           "date": "2026-09-22",
-          "close": 111.89
+          "close": 111.91
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 111.83
+          "close": 112.02
         },
         {
           "date": "2026-09-22",
-          "close": 111.89
+          "close": 111.91
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 111.83
+          "close": 112.02
         },
         {
           "date": "2026-09-22",
-          "close": 111.89
+          "close": 111.91
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.71,
     "change": 0,
-    "changePercent": -0.17,
+    "changePercent": -0.06,
     "previousClose": 0.71,
     "asOf": "2026-09-22",
     "history": [
@@ -4595,6 +4627,10 @@
       },
       {
         "date": "2026-09-20",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-21",
         "close": 0.71
       },
       {
@@ -4868,6 +4904,10 @@
       },
       {
         "date": "2026-09-20",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-21",
         "close": 0.71
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.39,
-      "change": 4.33,
-      "changePercent": 4.97,
+      "value": 89.85,
+      "change": 2.79,
+      "changePercent": 3.2,
       "previousClose": 87.06,
       "asOf": "2026-09-22",
       "history": [
@@ -5914,16 +5954,16 @@
         },
         {
           "date": "2026-09-22",
-          "close": 91.39
+          "close": 89.85
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 100.18,
-      "change": 5.79,
-      "changePercent": 6.13,
+      "value": 98.65,
+      "change": 4.26,
+      "changePercent": 4.51,
       "previousClose": 94.39,
       "asOf": "2026-09-22",
       "history": [
@@ -6009,16 +6049,16 @@
         },
         {
           "date": "2026-09-22",
-          "close": 100.18
+          "close": 98.65
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.11,
-      "change": 0.34,
-      "changePercent": 12.26,
+      "value": 3.16,
+      "change": 0.39,
+      "changePercent": 14.03,
       "previousClose": 2.77,
       "asOf": "2026-09-22",
       "history": [
@@ -6104,7 +6144,7 @@
         },
         {
           "date": "2026-09-22",
-          "close": 3.11
+          "close": 3.16
         }
       ],
       "name": "Natural Gas",
@@ -7377,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4374.5,
-      "change": -306.1,
-      "changePercent": -6.54
+      "price": 4396.2,
+      "change": -284.4,
+      "changePercent": -6.08
     },
     {
       "name": "Silver",
-      "price": 66.59,
-      "change": -2.88,
-      "changePercent": -4.14
+      "price": 67.61,
+      "change": -1.86,
+      "changePercent": -2.67
     },
     {
       "name": "Copper",
-      "price": 6.84,
-      "change": 0.26,
-      "changePercent": 3.91
+      "price": 6.91,
+      "change": 0.33,
+      "changePercent": 4.95
     }
   ],
   "housing": {
@@ -7741,17 +7781,17 @@
       "source": "SMH"
     },
     {
-      "title": "Dalaroo cranks up Côte d’Ivoire gold quest as assays loom",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-cranks-up-c-te-d-ivoire-gold-quest-as-assays-loom-20260922-p60zjh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals has cranked up its Côte d’Ivoire gold drilling to two shifts, with first samples from its 7km Gold Ridge corridor now in the laboratory as assays loom.",
-      "pubDate": "Tue, 22 Sep 2026 15:00:55 +1000",
+      "title": "ASX set to advance, Wall Street steady; Oil prices slip",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-advance-wall-street-steady-oil-prices-slip-20260923-p60zna.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street held near its record high in a relatively quiet day for markets worldwide.",
+      "pubDate": "Wed, 23 Sep 2026 06:16:04 +1000",
       "source": "SMH"
     },
     {
-      "title": "Advance nails 4120g/t silver stunner in Mexico",
-      "link": "https://www.smh.com.au/business/companies/advance-nails-4120g-t-silver-stunner-in-mexico-20260922-p60zi7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Advance Metals has drilled a bonanza 1m hit of 4120g/t silver at its Gavilanes project in Mexico, associated with the project’s highest-grade zinc-lead mineralisation to date.",
-      "pubDate": "Tue, 22 Sep 2026 13:57:47 +1000",
+      "title": "‘Crack pipe and two meth bags’: Coles worker fails to regain job after alleged drug use",
+      "link": "https://www.smh.com.au/business/workplace/crack-pipe-and-two-meth-bags-coles-worker-fails-to-regain-job-after-alleged-drug-use-20260923-p60zjk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A manager at Coles has failed to prove her resignation was made “in the heat of the moment” after she was accused of stealing and drug use while on the job.",
+      "pubDate": "Wed, 23 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7801,13 +7841,6 @@
       "link": "https://www.abc.net.au/news/2026-09-22/formula-1-shorter-races-2027-world-championship/107179748",
       "snippet": "",
       "pubDate": "Mon, 21 Sep 2026 22:06:59 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Lions 'praying' Neale gets off but confident they will cope if ban stands",
-      "link": "https://www.abc.net.au/news/2026-09-22/afl-lachie-neale-brisbane-of-lions-facing-ban-from-grand-final/107179634",
-      "snippet": "",
-      "pubDate": "Mon, 21 Sep 2026 21:31:26 +0000",
       "source": "ABC"
     }
   ]
