@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-23T11:56:39.524Z",
+  "fetchedAt": "2026-09-23T17:21:25.809Z",
   "fx": {
     "audusd": {
-      "value": 0.71,
-      "change": 0,
-      "changePercent": -0.67,
+      "value": 0.7,
+      "change": -0.01,
+      "changePercent": -1.19,
       "previousClose": 0.71,
       "asOf": "2026-09-23",
       "history": [
@@ -98,7 +98,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
@@ -371,7 +371,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -485,7 +485,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 0.71
+          "close": 0.7
         }
       ],
       "h3y": [
@@ -1123,14 +1123,14 @@
         },
         {
           "date": "2026-09-23",
-          "close": 0.71
+          "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.67,
+      "changePercent": 1.49,
       "previousClose": 0.61,
       "asOf": "2026-09-23",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.74,
-      "change": -0.04,
-      "changePercent": -0.91,
+      "value": 4.72,
+      "change": -0.06,
+      "changePercent": -1.35,
       "previousClose": 4.79,
       "asOf": "2026-09-23",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 4.74
+          "close": 4.72
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 4.74
+          "close": 4.72
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 4.74
+          "close": 4.72
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-09-23",
-          "close": 4.74
+          "close": 4.72
         }
       ]
     },
     "audjpy": {
-      "value": 111.64,
-      "change": -1.46,
-      "changePercent": -1.29,
+      "value": 111.36,
+      "change": -1.75,
+      "changePercent": -1.54,
       "previousClose": 113.1,
       "asOf": "2026-09-23",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 111.64
+          "close": 111.36
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 111.64
+          "close": 111.36
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 111.64
+          "close": 111.36
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-09-23",
-          "close": 111.64
+          "close": 111.36
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.71,
-    "change": 0,
-    "changePercent": -0.67,
+    "value": 0.7,
+    "change": -0.01,
+    "changePercent": -1.19,
     "previousClose": 0.71,
     "asOf": "2026-09-23",
     "history": [
@@ -4603,7 +4603,7 @@
       },
       {
         "date": "2026-09-23",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
@@ -4876,7 +4876,7 @@
       },
       {
         "date": "2026-09-23",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4990,7 +4990,7 @@
       },
       {
         "date": "2026-09-23",
-        "close": 0.71
+        "close": 0.7
       }
     ],
     "h3y": [
@@ -5628,7 +5628,7 @@
       },
       {
         "date": "2026-09-23",
-        "close": 0.71
+        "close": 0.7
       }
     ]
   },
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.63,
-      "change": 5.62,
-      "changePercent": 6.61,
+      "value": 91.44,
+      "change": 6.43,
+      "changePercent": 7.56,
       "previousClose": 85.01,
       "asOf": "2026-09-23",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-09-23",
-          "close": 90.63
+          "close": 91.44
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.17,
-      "change": 4,
-      "changePercent": 4.34,
+      "value": 97.61,
+      "change": 5.44,
+      "changePercent": 5.9,
       "previousClose": 92.17,
       "asOf": "2026-09-23",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-09-23",
-          "close": 96.17
+          "close": 97.61
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.18,
-      "change": 0.4,
-      "changePercent": 14.45,
+      "value": 3.14,
+      "change": 0.36,
+      "changePercent": 12.83,
       "previousClose": 2.78,
       "asOf": "2026-09-23",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 3.18
+          "close": 3.14
         }
       ],
       "name": "Natural Gas",
@@ -6291,10 +6291,6 @@
       {
         "date": "2026-09-21",
         "close": 8731.9
-      },
-      {
-        "date": "2026-09-23",
-        "close": 8765.3
       }
     ]
   },
@@ -7425,21 +7421,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4345.2,
-      "change": -352.6,
-      "changePercent": -7.51
+      "price": 4318.3,
+      "change": -379.5,
+      "changePercent": -8.08
     },
     {
       "name": "Silver",
-      "price": 65.55,
-      "change": -3,
-      "changePercent": -4.37
+      "price": 64.96,
+      "change": -3.58,
+      "changePercent": -5.22
     },
     {
       "name": "Copper",
-      "price": 6.8,
-      "change": 0.2,
-      "changePercent": 3.05
+      "price": 6.75,
+      "change": 0.15,
+      "changePercent": 2.24
     }
   ],
   "housing": {
