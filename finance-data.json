@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-23T17:21:25.809Z",
+  "fetchedAt": "2026-09-23T21:38:58.615Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.19,
+      "changePercent": -1.05,
       "previousClose": 0.71,
       "asOf": "2026-09-23",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-09-21",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-22",
           "close": 0.71
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-09-21",
+          "close": 0.71
+        },
+        {
+          "date": "2026-09-22",
           "close": 0.71
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.49,
+      "changePercent": 1.51,
       "previousClose": 0.61,
       "asOf": "2026-09-23",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-09-21",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-22",
           "close": 0.62
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-09-21",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-22",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.72,
+      "value": 4.73,
       "change": -0.06,
-      "changePercent": -1.35,
+      "changePercent": -1.19,
       "previousClose": 4.79,
       "asOf": "2026-09-23",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-09-22",
+          "close": 4.76
+        },
+        {
           "date": "2026-09-23",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.77
         },
         {
+          "date": "2026-09-22",
+          "close": 4.76
+        },
+        {
           "date": "2026-09-23",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 4.77
+          "close": 4.76
         },
         {
           "date": "2026-09-23",
-          "close": 4.72
+          "close": 4.73
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-09-20",
-          "close": 4.77
+          "close": 4.76
         },
         {
           "date": "2026-09-23",
-          "close": 4.72
+          "close": 4.73
         }
       ]
     },
     "audjpy": {
-      "value": 111.36,
-      "change": -1.75,
-      "changePercent": -1.54,
+      "value": 111.37,
+      "change": -1.74,
+      "changePercent": -1.53,
       "previousClose": 113.1,
       "asOf": "2026-09-23",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 112.02
         },
         {
+          "date": "2026-09-22",
+          "close": 111.99
+        },
+        {
           "date": "2026-09-23",
-          "close": 111.36
+          "close": 111.37
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 112.02
         },
         {
+          "date": "2026-09-22",
+          "close": 111.99
+        },
+        {
           "date": "2026-09-23",
-          "close": 111.36
+          "close": 111.37
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 112.02
+          "close": 111.99
         },
         {
           "date": "2026-09-23",
-          "close": 111.36
+          "close": 111.37
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 112.02
+          "close": 111.99
         },
         {
           "date": "2026-09-23",
-          "close": 111.36
+          "close": 111.37
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.19,
+    "changePercent": -1.05,
     "previousClose": 0.71,
     "asOf": "2026-09-23",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-09-21",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-22",
         "close": 0.71
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-09-21",
+        "close": 0.71
+      },
+      {
+        "date": "2026-09-22",
         "close": 0.71
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.44,
-      "change": 6.43,
-      "changePercent": 7.56,
+      "value": 92.71,
+      "change": 7.7,
+      "changePercent": 9.06,
       "previousClose": 85.01,
       "asOf": "2026-09-23",
       "history": [
@@ -5918,16 +5958,16 @@
         },
         {
           "date": "2026-09-23",
-          "close": 91.44
+          "close": 92.71
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.61,
-      "change": 5.44,
-      "changePercent": 5.9,
+      "value": 98.36,
+      "change": 6.19,
+      "changePercent": 6.72,
       "previousClose": 92.17,
       "asOf": "2026-09-23",
       "history": [
@@ -6017,16 +6057,16 @@
         },
         {
           "date": "2026-09-23",
-          "close": 97.61
+          "close": 98.36
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.14,
-      "change": 0.36,
-      "changePercent": 12.83,
+      "value": 3.17,
+      "change": 0.39,
+      "changePercent": 14.05,
       "previousClose": 2.78,
       "asOf": "2026-09-23",
       "history": [
@@ -6116,7 +6156,7 @@
         },
         {
           "date": "2026-09-23",
-          "close": 3.14
+          "close": 3.17
         }
       ],
       "name": "Natural Gas",
@@ -7421,21 +7461,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4318.3,
-      "change": -379.5,
-      "changePercent": -8.08
+      "price": 4322.7,
+      "change": -375.1,
+      "changePercent": -7.98
     },
     {
       "name": "Silver",
-      "price": 64.96,
-      "change": -3.58,
-      "changePercent": -5.22
+      "price": 64.93,
+      "change": -3.61,
+      "changePercent": -5.27
     },
     {
       "name": "Copper",
-      "price": 6.75,
-      "change": 0.15,
-      "changePercent": 2.24
+      "price": 6.79,
+      "change": 0.19,
+      "changePercent": 2.92
     }
   ],
   "housing": {
@@ -7771,10 +7811,17 @@
   ],
   "news": [
     {
-      "title": "ASX finishes flat as miners rise, oil stocks struggle; IDP plummets",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-advance-wall-street-steady-oil-prices-slip-20260923-p60zna.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket was treading water on Wednesday, with gains by mining stocks offset by weaker energy stocks as oil dropped below the $US100-a-barrel mark.",
-      "pubDate": "Wed, 23 Sep 2026 17:06:56 +1000",
+      "title": "ASX set to slump as bond market pressure rattles Wall Street; Oil prices jump",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slump-as-bond-market-pressure-rattles-wall-street-oil-prices-jump-20260924-p6100n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Pressure from the US bond market hit a new level on Wall Street after a surprisingly strong report on the economy raised worries about inflation, while oil prices halted their slide.",
+      "pubDate": "Thu, 24 Sep 2026 05:19:29 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "The RBA will hike rates again but inflation is testing the bank’s most valuable asset",
+      "link": "https://www.smh.com.au/business/the-economy/the-rba-will-hike-rates-again-but-inflation-is-testing-the-bank-s-most-valuable-asset-20260924-p60zp0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Our independent Reserve Bank is in a protracted battle against high inflation. But the RBA faces another reputational threat: credibility.",
+      "pubDate": "Thu, 24 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7799,6 +7846,13 @@
       "source": "SMH"
     },
     {
+      "title": "Chinese carmaker’s new EV battery will charge in under five minutes",
+      "link": "https://www.smh.com.au/business/companies/chinese-carmakers-new-ev-battery-will-charge-in-under-five-minutes-20260924-p6100j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Geely has just upped the ante in its “flash charging” battle with rival BYD, unveiling a battery it says is the fastest in the industry.",
+      "pubDate": "Thu, 24 Sep 2026 06:18:39 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Heeney 'extremely thankful' after addressing entire Swans club on return",
       "link": "https://www.abc.net.au/news/2026-09-23/afl-sydney-swans-banned-players-heeney-blakey-warner-speak/107187988",
       "snippet": "",
@@ -7813,17 +7867,10 @@
       "source": "SMH"
     },
     {
-      "title": "I gave my life over to Meta’s AI agent and was blown away",
-      "link": "https://www.smh.com.au/business/companies/i-gave-my-life-over-to-meta-s-ai-agent-and-was-blown-away-20260923-p60zqu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Muse, Meta’s AI agent, helped handle my dental insurance, booked dinner reservations and created a podcast for me. It also required my most personal data, and trust.",
-      "pubDate": "Wed, 23 Sep 2026 16:10:25 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Mary Fowler's Man City score controversial goal with flare burning on pitch",
-      "link": "https://www.abc.net.au/news/2026-09-23/manchester-city-bayern-munich-flare-womens-champions-league-draw/107184194",
+      "title": "Finals battle between an unstoppable force and an immovable object",
+      "link": "https://www.abc.net.au/news/2026-09-23/brian-too-greg-marzhew-nrl-finals-panthers-knights/107185734",
       "snippet": "",
-      "pubDate": "Tue, 22 Sep 2026 23:12:10 +0000",
+      "pubDate": "Wed, 23 Sep 2026 04:24:32 +0000",
       "source": "ABC"
     }
   ]
