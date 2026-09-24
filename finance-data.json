@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-24T12:04:05.152Z",
+  "fetchedAt": "2026-09-24T17:26:29.743Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": -0.01,
-      "changePercent": -1.98,
+      "change": -0.02,
+      "changePercent": -2.09,
       "previousClose": 0.72,
       "asOf": "2026-09-24",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.68,
+      "changePercent": 0.52,
       "previousClose": 0.61,
       "asOf": "2026-09-24",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.72,
-      "change": -0.1,
-      "changePercent": -2.09,
+      "value": 4.7,
+      "change": -0.12,
+      "changePercent": -2.49,
       "previousClose": 4.82,
       "asOf": "2026-09-24",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 4.72
+          "close": 4.7
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 4.72
+          "close": 4.7
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 4.72
+          "close": 4.7
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-09-24",
-          "close": 4.72
+          "close": 4.7
         }
       ]
     },
     "audjpy": {
-      "value": 111.62,
-      "change": -2.33,
-      "changePercent": -2.05,
+      "value": 111.51,
+      "change": -2.44,
+      "changePercent": -2.14,
       "previousClose": 113.95,
       "asOf": "2026-09-24",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 111.62
+          "close": 111.51
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 111.62
+          "close": 111.51
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 111.61
+          "close": 111.51
         }
       ],
       "h3y": [
@@ -4517,15 +4517,15 @@
         },
         {
           "date": "2026-09-24",
-          "close": 111.62
+          "close": 111.51
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": -0.01,
-    "changePercent": -1.98,
+    "change": -0.02,
+    "changePercent": -2.09,
     "previousClose": 0.72,
     "asOf": "2026-09-24",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 93.61,
-      "change": 8.6,
-      "changePercent": 10.12,
+      "value": 94.32,
+      "change": 9.31,
+      "changePercent": 10.95,
       "previousClose": 85.01,
       "asOf": "2026-09-24",
       "history": [
@@ -5942,16 +5942,16 @@
         },
         {
           "date": "2026-09-24",
-          "close": 93.61
+          "close": 94.32
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 104.92,
-      "change": 12.75,
-      "changePercent": 13.83,
+      "value": 105.75,
+      "change": 13.58,
+      "changePercent": 14.73,
       "previousClose": 92.17,
       "asOf": "2026-09-24",
       "history": [
@@ -6045,16 +6045,16 @@
         },
         {
           "date": "2026-09-24",
-          "close": 104.92
+          "close": 105.75
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.17,
-      "change": 0.39,
-      "changePercent": 14.05,
+      "value": 3.36,
+      "change": 0.58,
+      "changePercent": 20.7,
       "previousClose": 2.78,
       "asOf": "2026-09-24",
       "history": [
@@ -6148,7 +6148,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 3.17
+          "close": 3.36
         }
       ],
       "name": "Natural Gas",
@@ -6327,10 +6327,6 @@
       {
         "date": "2026-09-23",
         "close": 8765.3
-      },
-      {
-        "date": "2026-09-24",
-        "close": 8702
       }
     ]
   },
@@ -7493,21 +7489,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4295.1,
-      "change": -402.7,
-      "changePercent": -8.57
+      "price": 4303.7,
+      "change": -394.1,
+      "changePercent": -8.39
     },
     {
       "name": "Silver",
-      "price": 63.93,
-      "change": -4.61,
-      "changePercent": -6.73
+      "price": 64.11,
+      "change": -4.44,
+      "changePercent": -6.47
     },
     {
       "name": "Copper",
-      "price": 6.77,
-      "change": 0.17,
-      "changePercent": 2.61
+      "price": 6.79,
+      "change": 0.19,
+      "changePercent": 2.87
     }
   ],
   "housing": {
@@ -7889,6 +7885,13 @@
       "link": "https://www.abc.net.au/news/2026-09-24/asian-games-fariba-hashimi-shares-afghanistan-training-story/107189282",
       "snippet": "",
       "pubDate": "Wed, 23 Sep 2026 23:03:27 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Tyson Fury vs Anthony Joshua boxing megafight announced",
+      "link": "https://www.abc.net.au/news/2026-09-24/tyson-fury-anthony-joshua-boxing-fight-announced/107193730",
+      "snippet": "",
+      "pubDate": "Thu, 24 Sep 2026 13:05:19 +0000",
       "source": "ABC"
     },
     {
