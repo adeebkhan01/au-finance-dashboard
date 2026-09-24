@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-24T17:26:29.743Z",
+  "fetchedAt": "2026-09-24T21:41:18.483Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.09,
+      "changePercent": -2.18,
       "previousClose": 0.72,
       "asOf": "2026-09-24",
       "history": [
@@ -99,6 +99,10 @@
         {
           "date": "2026-09-22",
           "close": 0.71
+        },
+        {
+          "date": "2026-09-23",
+          "close": 0.7
         },
         {
           "date": "2026-09-24",
@@ -374,6 +378,10 @@
           "close": 0.71
         },
         {
+          "date": "2026-09-23",
+          "close": 0.7
+        },
+        {
           "date": "2026-09-24",
           "close": 0.7
         }
@@ -485,7 +493,7 @@
         },
         {
           "date": "2026-09-20",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-09-24",
@@ -1123,7 +1131,7 @@
         },
         {
           "date": "2026-09-20",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-09-24",
@@ -1134,7 +1142,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.52,
+      "changePercent": 0.39,
       "previousClose": 0.61,
       "asOf": "2026-09-24",
       "history": [
@@ -1228,6 +1236,10 @@
         },
         {
           "date": "2026-09-22",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-23",
           "close": 0.62
         },
         {
@@ -1501,6 +1513,10 @@
         },
         {
           "date": "2026-09-22",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-23",
           "close": 0.62
         },
         {
@@ -2262,9 +2278,9 @@
       ]
     },
     "audcny": {
-      "value": 4.7,
-      "change": -0.12,
-      "changePercent": -2.49,
+      "value": 4.71,
+      "change": -0.11,
+      "changePercent": -2.26,
       "previousClose": 4.82,
       "asOf": "2026-09-24",
       "history": [
@@ -2361,8 +2377,12 @@
           "close": 4.76
         },
         {
+          "date": "2026-09-23",
+          "close": 4.72
+        },
+        {
           "date": "2026-09-24",
-          "close": 4.7
+          "close": 4.71
         }
       ],
       "label": "AUD/CNY",
@@ -2634,8 +2654,12 @@
           "close": 4.76
         },
         {
+          "date": "2026-09-23",
+          "close": 4.72
+        },
+        {
           "date": "2026-09-24",
-          "close": 4.7
+          "close": 4.71
         }
       ],
       "h6m": [
@@ -2745,11 +2769,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 4.76
+          "close": 4.72
         },
         {
           "date": "2026-09-24",
-          "close": 4.7
+          "close": 4.71
         }
       ],
       "h3y": [
@@ -3383,18 +3407,18 @@
         },
         {
           "date": "2026-09-20",
-          "close": 4.76
+          "close": 4.72
         },
         {
           "date": "2026-09-24",
-          "close": 4.7
+          "close": 4.71
         }
       ]
     },
     "audjpy": {
-      "value": 111.51,
-      "change": -2.44,
-      "changePercent": -2.14,
+      "value": 111.34,
+      "change": -2.61,
+      "changePercent": -2.29,
       "previousClose": 113.95,
       "asOf": "2026-09-24",
       "history": [
@@ -3491,8 +3515,12 @@
           "close": 111.99
         },
         {
+          "date": "2026-09-23",
+          "close": 111.32
+        },
+        {
           "date": "2026-09-24",
-          "close": 111.51
+          "close": 111.34
         }
       ],
       "label": "AUD/JPY",
@@ -3764,8 +3792,12 @@
           "close": 111.99
         },
         {
+          "date": "2026-09-23",
+          "close": 111.32
+        },
+        {
           "date": "2026-09-24",
-          "close": 111.51
+          "close": 111.34
         }
       ],
       "h6m": [
@@ -3875,11 +3907,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 111.99
+          "close": 111.32
         },
         {
           "date": "2026-09-24",
-          "close": 111.51
+          "close": 111.34
         }
       ],
       "h3y": [
@@ -4513,11 +4545,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 111.99
+          "close": 111.32
         },
         {
           "date": "2026-09-24",
-          "close": 111.51
+          "close": 111.34
         }
       ]
     }
@@ -4525,7 +4557,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.09,
+    "changePercent": -2.18,
     "previousClose": 0.72,
     "asOf": "2026-09-24",
     "history": [
@@ -4620,6 +4652,10 @@
       {
         "date": "2026-09-22",
         "close": 0.71
+      },
+      {
+        "date": "2026-09-23",
+        "close": 0.7
       },
       {
         "date": "2026-09-24",
@@ -4895,6 +4931,10 @@
         "close": 0.71
       },
       {
+        "date": "2026-09-23",
+        "close": 0.7
+      },
+      {
         "date": "2026-09-24",
         "close": 0.7
       }
@@ -5006,7 +5046,7 @@
       },
       {
         "date": "2026-09-20",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-09-24",
@@ -5644,7 +5684,7 @@
       },
       {
         "date": "2026-09-20",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-09-24",
@@ -5846,9 +5886,9 @@
   },
   "energy": {
     "wti": {
-      "value": 94.32,
-      "change": 9.31,
-      "changePercent": 10.95,
+      "value": 94.76,
+      "change": 9.75,
+      "changePercent": 11.47,
       "previousClose": 85.01,
       "asOf": "2026-09-24",
       "history": [
@@ -5942,16 +5982,16 @@
         },
         {
           "date": "2026-09-24",
-          "close": 94.32
+          "close": 94.76
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 105.75,
-      "change": 13.58,
-      "changePercent": 14.73,
+      "value": 107.03,
+      "change": 14.86,
+      "changePercent": 16.12,
       "previousClose": 92.17,
       "asOf": "2026-09-24",
       "history": [
@@ -6045,16 +6085,16 @@
         },
         {
           "date": "2026-09-24",
-          "close": 105.75
+          "close": 107.03
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.36,
-      "change": 0.58,
-      "changePercent": 20.7,
+      "value": 3.32,
+      "change": 0.54,
+      "changePercent": 19.27,
       "previousClose": 2.78,
       "asOf": "2026-09-24",
       "history": [
@@ -6148,7 +6188,7 @@
         },
         {
           "date": "2026-09-24",
-          "close": 3.36
+          "close": 3.32
         }
       ],
       "name": "Natural Gas",
@@ -7489,21 +7529,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4303.7,
-      "change": -394.1,
-      "changePercent": -8.39
+      "price": 4310.1,
+      "change": -387.7,
+      "changePercent": -8.25
     },
     {
       "name": "Silver",
-      "price": 64.11,
-      "change": -4.44,
-      "changePercent": -6.47
+      "price": 64.28,
+      "change": -4.27,
+      "changePercent": -6.22
     },
     {
       "name": "Copper",
-      "price": 6.79,
-      "change": 0.19,
-      "changePercent": 2.87
+      "price": 6.77,
+      "change": 0.17,
+      "changePercent": 2.64
     }
   ],
   "housing": {
@@ -7839,53 +7879,46 @@
   ],
   "news": [
     {
-      "title": "Aureka adds gold processing firepower to Victorian push",
-      "link": "https://www.smh.com.au/business/companies/aureka-adds-gold-processing-firepower-to-victorian-push-20260924-p6109a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka Ltd has nominated a 30-year veteran metallurgist to its board ahead of a pivotal, low-cash deal that will deliver a producing Victorian gold mine and mill.",
-      "pubDate": "Thu, 24 Sep 2026 14:31:23 +1000",
+      "title": "ASX set to retreat after shaky day on Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-dip-wall-street-slips-as-oil-prices-seesaw-20260925-p610dx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "After whipping through a couple sudden reversals, stocks ended a wobbly day of trading on Wall Street roughly where they began.",
+      "pubDate": "Fri, 25 Sep 2026 06:34:11 +1000",
       "source": "SMH"
     },
     {
-      "title": "Manhattan opens up 1.25km Canadian gold corridor at Jaws",
-      "link": "https://www.smh.com.au/business/companies/manhattan-opens-up-1-25km-canadian-gold-corridor-at-jaws-20260924-p6108p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Manhattan Gold has hit 21.34m at 1.72g/t gold from a step-out hole in Canada, extending the strike at its Jaws prospect to 1.25km, with results for 10 holes remaining.",
-      "pubDate": "Thu, 24 Sep 2026 13:54:09 +1000",
+      "title": "Dusty Martin faces property haircut as he sells down $20m real estate portfolio",
+      "link": "https://www.smh.com.au/business/companies/dusty-martin-faces-property-haircut-as-he-sells-down-20m-real-estate-portfolio-20260925-p6103f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Brownlow medallist is likely to get less than the $3 million he paid for a building in the Melbourne suburb of Abbotsford.",
+      "pubDate": "Fri, 25 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Rio2 launches major drill assault at Peruvian copper mine",
-      "link": "https://www.smh.com.au/business/companies/rio2-launches-major-drill-assault-at-peruvian-copper-mine-20260924-p610bn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Rio2 has launched a 33,870m drilling assault at its burgeoning Condestable copper mine in Peru, with plans to drill its emerging Canadian tungsten asset locked and loaded for early next year.",
-      "pubDate": "Thu, 24 Sep 2026 17:02:51 +1000",
+      "title": "Australia’s oldest lending library lists historic CBD tower for $40m",
+      "link": "https://www.smh.com.au/business/small-business/australia-s-oldest-lending-library-lists-historic-cbd-tower-for-40m-20260925-p6108s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Sydney Mechanics’ School of Arts is selling its building at 280 Pitt Street.",
+      "pubDate": "Fri, 25 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Auric hits high-grade gold beyond WA Munda pit shell",
-      "link": "https://www.smh.com.au/business/companies/auric-hits-high-grade-gold-beyond-wa-munda-pit-shell-20260924-p610ax.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Auric Mining has hit 4m at 10.49g/t gold in drilling west of its planned WA Munda pit, alongside grade control drilling, which jagged15m at 5.56g/t gold near surface.",
-      "pubDate": "Thu, 24 Sep 2026 16:15:38 +1000",
+      "title": "Pickle Pepsis, Dragonberry Energisers: Is the humble Coke still fun enough for fast food?",
+      "link": "https://www.smh.com.au/business/companies/pickle-pepsis-dragonberry-energisers-is-the-humble-coke-still-fun-enough-for-fast-food-20260925-p60zdl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s biggest fast food giants are leaning hard into the trend of brightly coloured, wacky-flavoured soft drinks.",
+      "pubDate": "Fri, 25 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "How McDonald’s is grappling with the Ozempic boom",
-      "link": "https://www.smh.com.au/business/companies/how-mcdonald-s-is-grappling-with-the-ozempic-boom-20260924-p61055.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The company synonymous with super-sized everything is revamping its menu for an era of slimming waist lines.",
-      "pubDate": "Thu, 24 Sep 2026 15:59:01 +1000",
+      "title": "News24 merch sold using the face of pro-migrant influencer",
+      "link": "https://www.smh.com.au/business/companies/news24-merch-sold-using-the-face-of-pro-migrant-influencer-20260925-p61035.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A Brazilian-Latvian influencer who has spoken out about racism is the inadvertent face of T-shirts for the conservative news and opinion outlet.",
+      "pubDate": "Fri, 25 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Sarytogan nails 452m of continuous copper in Kazakhstan",
-      "link": "https://www.smh.com.au/business/companies/sarytogan-nails-452m-of-continuous-copper-in-kazakhstan-20260924-p6109o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Sarytogan Graphite has bored a massive 452m copper intercept from surface at its Ilksan prospect in Kazakhstan, confirming a large-scale porphyry system at the project.",
-      "pubDate": "Thu, 24 Sep 2026 14:59:22 +1000",
+      "title": "We don’t need more babies - and not just because we have migrants",
+      "link": "https://www.smh.com.au/business/the-economy/we-don-t-need-more-babies-and-not-just-because-we-have-migrants-20260925-p6106s.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We shouldn’t be aiming for more children, but it might be a side-effect of focusing on the right thing as we face an ageing population.",
+      "pubDate": "Fri, 25 Sep 2026 05:00:00 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "'That's why Taliban is scared': Cyclist's incredible journey to silver",
-      "link": "https://www.abc.net.au/news/2026-09-24/asian-games-fariba-hashimi-shares-afghanistan-training-story/107189282",
-      "snippet": "",
-      "pubDate": "Wed, 23 Sep 2026 23:03:27 +0000",
-      "source": "ABC"
     },
     {
       "title": "Tyson Fury vs Anthony Joshua boxing megafight announced",
@@ -7895,7 +7928,7 @@
       "source": "ABC"
     },
     {
-      "title": "‘A more affordable Bentley’: Luxury carmaker unveils $325,000 electric vehicle",
+      "title": "‘More affordable’: Bentley unveils its $325,000 electric vehicle",
       "link": "https://www.smh.com.au/business/companies/a-more-affordable-bentley-luxury-carmaker-unveils-its-first-electric-vehicle-20260924-p6100g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Bentley is betting that wealthy buyers want zero-emission motoring without sacrificing the luxury design for which it is renowned.",
       "pubDate": "Thu, 24 Sep 2026 19:13:44 +1000",
