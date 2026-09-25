@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-25T17:24:49.206Z",
+  "fetchedAt": "2026-09-25T21:44:39.610Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.75,
+      "changePercent": -1.8,
       "previousClose": 0.72,
       "asOf": "2026-09-25",
       "history": [
@@ -98,6 +98,10 @@
         },
         {
           "date": "2026-09-23",
+          "close": 0.7
+        },
+        {
+          "date": "2026-09-24",
           "close": 0.7
         },
         {
@@ -371,6 +375,10 @@
         },
         {
           "date": "2026-09-23",
+          "close": 0.7
+        },
+        {
+          "date": "2026-09-24",
           "close": 0.7
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.62,
+      "changePercent": 0.54,
       "previousClose": 0.61,
       "asOf": "2026-09-25",
       "history": [
@@ -1224,6 +1232,10 @@
         },
         {
           "date": "2026-09-23",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-24",
           "close": 0.62
         },
         {
@@ -1497,6 +1509,10 @@
         },
         {
           "date": "2026-09-23",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-24",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.72,
-      "change": -0.09,
-      "changePercent": -1.91,
+      "value": 4.7,
+      "change": -0.11,
+      "changePercent": -2.21,
       "previousClose": 4.81,
       "asOf": "2026-09-25",
       "history": [
@@ -2353,8 +2369,12 @@
           "close": 4.72
         },
         {
+          "date": "2026-09-24",
+          "close": 4.7
+        },
+        {
           "date": "2026-09-25",
-          "close": 4.72
+          "close": 4.7
         }
       ],
       "label": "AUD/CNY",
@@ -2626,8 +2646,12 @@
           "close": 4.72
         },
         {
+          "date": "2026-09-24",
+          "close": 4.7
+        },
+        {
           "date": "2026-09-25",
-          "close": 4.72
+          "close": 4.7
         }
       ],
       "h6m": [
@@ -2737,11 +2761,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 4.72
+          "close": 4.7
         },
         {
           "date": "2026-09-25",
-          "close": 4.72
+          "close": 4.7
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-09-20",
-          "close": 4.72
+          "close": 4.7
         },
         {
           "date": "2026-09-25",
-          "close": 4.72
+          "close": 4.7
         }
       ]
     },
     "audjpy": {
-      "value": 110.55,
-      "change": -3.3,
-      "changePercent": -2.89,
+      "value": 110.43,
+      "change": -3.42,
+      "changePercent": -3,
       "previousClose": 113.85,
       "asOf": "2026-09-25",
       "history": [
@@ -3479,8 +3503,12 @@
           "close": 111.32
         },
         {
+          "date": "2026-09-24",
+          "close": 111.25
+        },
+        {
           "date": "2026-09-25",
-          "close": 110.55
+          "close": 110.43
         }
       ],
       "label": "AUD/JPY",
@@ -3752,8 +3780,12 @@
           "close": 111.32
         },
         {
+          "date": "2026-09-24",
+          "close": 111.25
+        },
+        {
           "date": "2026-09-25",
-          "close": 110.55
+          "close": 110.43
         }
       ],
       "h6m": [
@@ -3863,11 +3895,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 111.32
+          "close": 111.25
         },
         {
           "date": "2026-09-25",
-          "close": 110.55
+          "close": 110.43
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-20",
-          "close": 111.32
+          "close": 111.25
         },
         {
           "date": "2026-09-25",
-          "close": 110.55
+          "close": 110.43
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.75,
+    "changePercent": -1.8,
     "previousClose": 0.72,
     "asOf": "2026-09-25",
     "history": [
@@ -4603,6 +4635,10 @@
       },
       {
         "date": "2026-09-23",
+        "close": 0.7
+      },
+      {
+        "date": "2026-09-24",
         "close": 0.7
       },
       {
@@ -4876,6 +4912,10 @@
       },
       {
         "date": "2026-09-23",
+        "close": 0.7
+      },
+      {
+        "date": "2026-09-24",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 92.23,
-      "change": 9.87,
-      "changePercent": 11.98,
+      "value": 92.44,
+      "change": 10.08,
+      "changePercent": 12.24,
       "previousClose": 82.36,
       "asOf": "2026-09-25",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-09-25",
-          "close": 92.23
+          "close": 92.44
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.85,
-      "change": 8.27,
-      "changePercent": 9.34,
+      "value": 97.47,
+      "change": 8.89,
+      "changePercent": 10.04,
       "previousClose": 88.58,
       "asOf": "2026-09-25",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-09-25",
-          "close": 96.85
+          "close": 97.47
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.2,
-      "change": 0.43,
-      "changePercent": 15.6,
+      "value": 3.25,
+      "change": 0.48,
+      "changePercent": 17.36,
       "previousClose": 2.77,
       "asOf": "2026-09-25",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-09-25",
-          "close": 3.2
+          "close": 3.25
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4326.6,
-      "change": -367.9,
-      "changePercent": -7.84
+      "price": 4320.5,
+      "change": -374,
+      "changePercent": -7.97
     },
     {
       "name": "Silver",
-      "price": 64.79,
-      "change": -3.85,
-      "changePercent": -5.61
+      "price": 64.71,
+      "change": -3.93,
+      "changePercent": -5.72
     },
     {
       "name": "Copper",
-      "price": 6.77,
-      "change": 0.06,
-      "changePercent": 0.89
+      "price": 6.78,
+      "change": 0.07,
+      "changePercent": 1.04
     }
   ],
   "housing": {
@@ -7844,17 +7884,38 @@
       "source": "SMH"
     },
     {
-      "title": "I am a single mother by choice. Why am I hit with a ‘solo parent’ penalty?",
-      "link": "https://www.smh.com.au/business/the-economy/i-am-a-single-mother-by-choice-why-am-i-hit-with-a-solo-parent-penalty-20260925-p610ez.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "There is no ‘spare adult’ to play backstop in single-parent households – and Australia has 1.2 million of them. We haven’t adjusted for this reality.",
-      "pubDate": "Fri, 25 Sep 2026 15:30:00 +1000",
+      "title": "Neale the common thread in Fremantle and Brisbane's eerie shared history",
+      "link": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-lachie-neale-history-analysis/107190640",
+      "snippet": "",
+      "pubDate": "Fri, 25 Sep 2026 20:15:47 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Man City guilty of breaching EPL financial rules, punishment still pending",
+      "link": "https://www.abc.net.au/news/2026-09-26/man-city-guilty-of-breaching-epl-financial-rules/107198524",
+      "snippet": "",
+      "pubDate": "Fri, 25 Sep 2026 15:44:10 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Why Sarah 4.0 needs no further upgrades following year of injury hell",
+      "link": "https://www.abc.net.au/news/2026-09-26/uci-world-cycling-championships-sarah-gigante-australia/107187500",
+      "snippet": "",
+      "pubDate": "Fri, 25 Sep 2026 20:13:18 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Finally, this food bible’s coming to Australia. But Sydney and Melbourne must wait",
+      "link": "https://www.smh.com.au/business/consumer-affairs/finally-this-food-bible-s-coming-to-australia-but-sydney-and-melbourne-must-wait-20260926-p60yoe.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "South Australia is getting Australia’s Michelin Guide, and there’s a story behind that.",
+      "pubDate": "Sat, 26 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Aurum jags 155g/t West African gold ahead of resource update",
-      "link": "https://www.smh.com.au/business/companies/aurum-jags-155g-t-west-african-gold-ahead-of-resource-update-20260925-p610jm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aurum Resources has tabled a stunning 1.3m hit grading 155g/t gold at its 3.22Moz Boundiali project in Côte d’Ivoire, West Africa, ahead of a key resource update.",
-      "pubDate": "Fri, 25 Sep 2026 14:04:23 +1000",
+      "title": "Squeezed skies: How avoiding war zones is driving up the cost of your flight",
+      "link": "https://www.smh.com.au/business/companies/squeezed-skies-how-avoiding-war-zones-is-driving-up-the-cost-of-your-flight-20260926-p60z60.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Regional conflicts and security risks are fragmenting global airspace, forcing airlines into longer, costlier detours.",
+      "pubDate": "Sat, 26 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7870,13 +7931,6 @@
       "snippet": "The NSW regulator said questions remained about the casino’s progress in improving its governance, leadership and culture.",
       "pubDate": "Fri, 25 Sep 2026 16:45:44 +1000",
       "source": "SMH"
-    },
-    {
-      "title": "Front-running Freo ready to claim first flag",
-      "link": "https://www.abc.net.au/news/2026-09-25/afl-grand-final-fremantle-dockers-analysis-preview/107194876",
-      "snippet": "",
-      "pubDate": "Fri, 25 Sep 2026 01:39:46 +0000",
-      "source": "ABC"
     }
   ]
 }
