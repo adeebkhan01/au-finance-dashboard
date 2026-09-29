@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-29T13:12:17.208Z",
+  "fetchedAt": "2026-09-29T22:30:03.731Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.84,
+      "changePercent": -2.89,
       "previousClose": 0.72,
       "asOf": "2026-09-29",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-09-27",
+          "close": 0.7
+        },
+        {
+          "date": "2026-09-28",
           "close": 0.7
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-09-27",
+          "close": 0.7
+        },
+        {
+          "date": "2026-09-28",
           "close": 0.7
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": -0.24,
+      "changePercent": -0.26,
       "previousClose": 0.62,
       "asOf": "2026-09-29",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-09-27",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-28",
           "close": 0.62
         },
         {
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-09-27",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-28",
           "close": 0.62
         },
         {
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.15,
-      "changePercent": -3.06,
+      "value": 4.68,
+      "change": -0.16,
+      "changePercent": -3.22,
       "previousClose": 4.84,
       "asOf": "2026-09-29",
       "history": [
@@ -2345,8 +2361,12 @@
           "close": 4.7
         },
         {
+          "date": "2026-09-28",
+          "close": 4.71
+        },
+        {
           "date": "2026-09-29",
-          "close": 4.69
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2618,8 +2638,12 @@
           "close": 4.7
         },
         {
+          "date": "2026-09-28",
+          "close": 4.71
+        },
+        {
           "date": "2026-09-29",
-          "close": 4.69
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 4.7
+          "close": 4.71
         },
         {
           "date": "2026-09-29",
-          "close": 4.69
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-09-27",
-          "close": 4.7
+          "close": 4.71
         },
         {
           "date": "2026-09-29",
-          "close": 4.69
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 109.95,
-      "change": -4.67,
-      "changePercent": -4.08,
+      "value": 109.89,
+      "change": -4.74,
+      "changePercent": -4.13,
       "previousClose": 114.62,
       "asOf": "2026-09-29",
       "history": [
@@ -3471,8 +3495,12 @@
           "close": 110.36
         },
         {
+          "date": "2026-09-28",
+          "close": 110.4
+        },
+        {
           "date": "2026-09-29",
-          "close": 109.95
+          "close": 109.89
         }
       ],
       "label": "AUD/JPY",
@@ -3744,8 +3772,12 @@
           "close": 110.36
         },
         {
+          "date": "2026-09-28",
+          "close": 110.4
+        },
+        {
           "date": "2026-09-29",
-          "close": 109.95
+          "close": 109.89
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 110.36
+          "close": 110.4
         },
         {
           "date": "2026-09-29",
-          "close": 109.95
+          "close": 109.89
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 110.36
+          "close": 110.4
         },
         {
           "date": "2026-09-29",
-          "close": 109.96
+          "close": 109.89
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.84,
+    "changePercent": -2.89,
     "previousClose": 0.72,
     "asOf": "2026-09-29",
     "history": [
@@ -4595,6 +4627,10 @@
       },
       {
         "date": "2026-09-27",
+        "close": 0.7
+      },
+      {
+        "date": "2026-09-28",
         "close": 0.7
       },
       {
@@ -4868,6 +4904,10 @@
       },
       {
         "date": "2026-09-27",
+        "close": 0.7
+      },
+      {
+        "date": "2026-09-28",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.65,
-      "change": 7.25,
-      "changePercent": 8.69,
+      "value": 88.69,
+      "change": 5.29,
+      "changePercent": 6.34,
       "previousClose": 83.4,
       "asOf": "2026-09-29",
       "history": [
@@ -5914,16 +5954,16 @@
         },
         {
           "date": "2026-09-29",
-          "close": 90.65
+          "close": 88.69
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.14,
-      "change": 6.83,
-      "changePercent": 7.65,
+      "value": 95.49,
+      "change": 6.18,
+      "changePercent": 6.92,
       "previousClose": 89.31,
       "asOf": "2026-09-29",
       "history": [
@@ -6009,16 +6049,16 @@
         },
         {
           "date": "2026-09-29",
-          "close": 96.14
+          "close": 95.49
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.07,
-      "change": 0.18,
-      "changePercent": 6.16,
+      "value": 3.02,
+      "change": 0.13,
+      "changePercent": 4.54,
       "previousClose": 2.89,
       "asOf": "2026-09-29",
       "history": [
@@ -6104,7 +6144,7 @@
         },
         {
           "date": "2026-09-29",
-          "close": 3.07
+          "close": 3.02
         }
       ],
       "name": "Natural Gas",
@@ -6279,10 +6319,6 @@
       {
         "date": "2026-09-28",
         "close": 8679.7
-      },
-      {
-        "date": "2026-09-29",
-        "close": 8709.3
       }
     ]
   },
@@ -7381,21 +7417,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4184.5,
-      "change": -345.4,
-      "changePercent": -7.62
+      "price": 4214.3,
+      "change": -315.6,
+      "changePercent": -6.97
     },
     {
       "name": "Silver",
-      "price": 61.13,
-      "change": -5.87,
-      "changePercent": -8.75
+      "price": 61.92,
+      "change": -5.08,
+      "changePercent": -7.58
     },
     {
       "name": "Copper",
-      "price": 6.61,
-      "change": 0.05,
-      "changePercent": 0.74
+      "price": 6.66,
+      "change": 0.09,
+      "changePercent": 1.42
     }
   ],
   "housing": {
@@ -7731,6 +7767,13 @@
   ],
   "news": [
     {
+      "title": "ASX set for a slow start ahead of inflation data; stocks slip on Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-a-slow-start-ahead-of-inflation-data-stocks-slip-on-wall-street-20260930-p611kp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket is poised to open little changed on Wednesday, as traders digest the Reserve Bank’s move to lift interest rates to a 15-year high and await inflation figures for clues on whether there’s more rate hikes to come.",
+      "pubDate": "Wed, 30 Sep 2026 07:12:31 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "ASX edges higher after RBA boss tempers Cup day rate hike fears",
       "link": "https://www.smh.com.au/business/markets/asx-to-open-flat-ahead-of-rba-rate-call-wall-street-wobbles-as-bonds-spike-20260929-p6118c.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian market was initially down in the mid-afternoon, when the central bank flagged it was willing to inflict more pain on home owners if needed.",
@@ -7738,17 +7781,10 @@
       "source": "SMH"
     },
     {
-      "title": "Mortgage calculator: Here’s how much extra your repayments will be",
-      "link": "https://www.smh.com.au/business/the-economy/mortgage-calculator-here-s-how-much-extra-your-repayments-will-be-20260929-p611c1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The RBA has increased interest rates to 4.60 per cent. Use our calculator to see how much extra your mortgage repayments will be.",
-      "pubDate": "Tue, 29 Sep 2026 14:30:40 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Japan could redraw the global oil map",
-      "link": "https://www.smh.com.au/business/markets/japan-could-redraw-the-global-oil-map-20260929-p6117e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Importing almost all of its fuel, Japan springs into action after every major energy shock to reassess its supply sources, making it a bellwether of global trends. Its direction this time? Run away from the Middle East.",
-      "pubDate": "Tue, 29 Sep 2026 14:03:37 +1000",
+      "title": "Anthropic warns investors its AI could pose ‘existential risks to humanity’",
+      "link": "https://www.smh.com.au/business/companies/anthropic-warns-investors-its-ai-could-pose-existential-risks-to-humanity-20260930-p611jo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "In the prospectus for its $US2 trillion sharemarket float, the company uses 80 pages to outline its AI models’ dangers, including unpredictable behaviours such as attempts to “resist shutdown” and “conceal or manipulate information.”",
+      "pubDate": "Wed, 30 Sep 2026 05:40:15 +1000",
       "source": "SMH"
     },
     {
@@ -7773,17 +7809,24 @@
       "source": "SMH"
     },
     {
-      "title": "TikTok and Meta ran hundreds of ads for illegal tobacco, vapes",
-      "link": "https://www.smh.com.au/business/companies/tiktok-and-meta-ran-hundreds-of-ads-for-illegal-tobacco-vapes-20260928-p60zsn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The ads, many of which have since been pulled, helped to fuel a mammoth black market that has spawned firebombings and crime around the country.",
-      "pubDate": "Tue, 29 Sep 2026 15:51:40 +1000",
+      "title": "Trump rejects AI laws after tech titans agree to ‘self-police’ AI development",
+      "link": "https://www.smh.com.au/business/markets/trump-rejects-ai-laws-after-tech-titans-agree-to-self-police-ai-development-20260930-p611ks.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US president shot down the idea of new regulations for AI, but signed an accord with top tech executives setting a “morally binding” set of voluntary safety commitments.",
+      "pubDate": "Wed, 30 Sep 2026 06:39:00 +1000",
       "source": "SMH"
     },
     {
-      "title": "Accelerate grabs full control of Pilbara manganese play",
-      "link": "https://www.smh.com.au/business/companies/accelerate-grabs-full-control-of-pilbara-manganese-play-20260929-p611fu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Accelerate Resources has taken 100 per cent ownership of its Woodie Woodie North manganese project in WA, issuing shares to remove all future milestone payments and royalties.",
-      "pubDate": "Tue, 29 Sep 2026 14:36:23 +1000",
+      "title": "When are the Dally M Awards? Who is the favourite?",
+      "link": "https://www.abc.net.au/news/2026-09-30/dally-m-awards-night-nrl-when-is-it-who-is-favourite/107204386",
+      "snippet": "",
+      "pubDate": "Tue, 29 Sep 2026 19:54:54 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Asking for free dental care is like pulling teeth. But we still need to do it",
+      "link": "https://www.smh.com.au/business/the-economy/asking-for-free-dental-care-is-like-pulling-teeth-but-we-still-need-to-do-it-20260930-p610l5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "I’m far from the only one delaying treatment. Like my wisdom tooth, though, the cost of keeping dental care unaffordable will probably only grow.",
+      "pubDate": "Wed, 30 Sep 2026 05:00:00 +1000",
       "source": "SMH"
     }
   ]
