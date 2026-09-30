@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-30T12:52:37.748Z",
+  "fetchedAt": "2026-09-30T22:28:07.250Z",
   "fx": {
     "audusd": {
-      "value": 0.7,
+      "value": 0.69,
       "change": -0.02,
-      "changePercent": -2.99,
+      "changePercent": -3.42,
       "previousClose": 0.72,
       "asOf": "2026-09-30",
       "history": [
@@ -97,8 +97,12 @@
           "close": 0.7
         },
         {
-          "date": "2026-09-30",
+          "date": "2026-09-29",
           "close": 0.7
+        },
+        {
+          "date": "2026-09-30",
+          "close": 0.69
         }
       ],
       "label": "AUD/USD",
@@ -370,8 +374,12 @@
           "close": 0.7
         },
         {
-          "date": "2026-09-30",
+          "date": "2026-09-29",
           "close": 0.7
+        },
+        {
+          "date": "2026-09-30",
+          "close": 0.69
         }
       ],
       "h6m": [
@@ -485,7 +493,7 @@
         },
         {
           "date": "2026-09-30",
-          "close": 0.7
+          "close": 0.69
         }
       ],
       "h3y": [
@@ -1123,14 +1131,14 @@
         },
         {
           "date": "2026-09-30",
-          "close": 0.7
+          "close": 0.69
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.62,
+      "changePercent": -0.73,
       "previousClose": 0.62,
       "asOf": "2026-09-30",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-09-28",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-29",
           "close": 0.62
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-09-28",
+          "close": 0.62
+        },
+        {
+          "date": "2026-09-29",
           "close": 0.62
         },
         {
@@ -2256,7 +2272,7 @@
     "audcny": {
       "value": 4.66,
       "change": -0.17,
-      "changePercent": -3.57,
+      "changePercent": -3.61,
       "previousClose": 4.84,
       "asOf": "2026-09-30",
       "history": [
@@ -2347,6 +2363,10 @@
         {
           "date": "2026-09-28",
           "close": 4.71
+        },
+        {
+          "date": "2026-09-29",
+          "close": 4.68
         },
         {
           "date": "2026-09-30",
@@ -2622,6 +2642,10 @@
           "close": 4.71
         },
         {
+          "date": "2026-09-29",
+          "close": 4.68
+        },
+        {
           "date": "2026-09-30",
           "close": 4.66
         }
@@ -2733,7 +2757,7 @@
         },
         {
           "date": "2026-09-27",
-          "close": 4.71
+          "close": 4.68
         },
         {
           "date": "2026-09-30",
@@ -3371,7 +3395,7 @@
         },
         {
           "date": "2026-09-27",
-          "close": 4.71
+          "close": 4.68
         },
         {
           "date": "2026-09-30",
@@ -3380,9 +3404,9 @@
       ]
     },
     "audjpy": {
-      "value": 109.37,
-      "change": -5.25,
-      "changePercent": -4.58,
+      "value": 109.32,
+      "change": -5.3,
+      "changePercent": -4.63,
       "previousClose": 114.62,
       "asOf": "2026-09-30",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 110.4
         },
         {
+          "date": "2026-09-29",
+          "close": 110
+        },
+        {
           "date": "2026-09-30",
-          "close": 109.37
+          "close": 109.32
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 110.4
         },
         {
+          "date": "2026-09-29",
+          "close": 110
+        },
+        {
           "date": "2026-09-30",
-          "close": 109.36
+          "close": 109.32
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 110.4
+          "close": 110
         },
         {
           "date": "2026-09-30",
-          "close": 109.36
+          "close": 109.32
         }
       ],
       "h3y": [
@@ -4497,19 +4529,19 @@
         },
         {
           "date": "2026-09-27",
-          "close": 110.4
+          "close": 110
         },
         {
           "date": "2026-09-30",
-          "close": 109.36
+          "close": 109.32
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.7,
+    "value": 0.69,
     "change": -0.02,
-    "changePercent": -2.99,
+    "changePercent": -3.42,
     "previousClose": 0.72,
     "asOf": "2026-09-30",
     "history": [
@@ -4602,8 +4634,12 @@
         "close": 0.7
       },
       {
-        "date": "2026-09-30",
+        "date": "2026-09-29",
         "close": 0.7
+      },
+      {
+        "date": "2026-09-30",
+        "close": 0.69
       }
     ],
     "label": "AUD/USD",
@@ -4875,8 +4911,12 @@
         "close": 0.7
       },
       {
-        "date": "2026-09-30",
+        "date": "2026-09-29",
         "close": 0.7
+      },
+      {
+        "date": "2026-09-30",
+        "close": 0.69
       }
     ],
     "h6m": [
@@ -4990,7 +5030,7 @@
       },
       {
         "date": "2026-09-30",
-        "close": 0.7
+        "close": 0.69
       }
     ],
     "h3y": [
@@ -5628,7 +5668,7 @@
       },
       {
         "date": "2026-09-30",
-        "close": 0.7
+        "close": 0.69
       }
     ]
   },
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.64,
-      "change": 4.88,
-      "changePercent": 5.69,
+      "value": 90.21,
+      "change": 4.45,
+      "changePercent": 5.19,
       "previousClose": 85.76,
       "asOf": "2026-09-30",
       "history": [
@@ -5918,16 +5958,16 @@
         },
         {
           "date": "2026-09-30",
-          "close": 90.64
+          "close": 90.21
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.88,
-      "change": 7.39,
-      "changePercent": 8.17,
+      "value": 97.74,
+      "change": 7.25,
+      "changePercent": 8.01,
       "previousClose": 90.49,
       "asOf": "2026-09-30",
       "history": [
@@ -6017,16 +6057,16 @@
         },
         {
           "date": "2026-09-30",
-          "close": 97.88
+          "close": 97.74
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3,
-      "change": 0.07,
-      "changePercent": 2.25,
+      "value": 3.01,
+      "change": 0.08,
+      "changePercent": 2.62,
       "previousClose": 2.94,
       "asOf": "2026-09-30",
       "history": [
@@ -6116,7 +6156,7 @@
         },
         {
           "date": "2026-09-30",
-          "close": 3
+          "close": 3.01
         }
       ],
       "name": "Natural Gas",
@@ -6295,10 +6335,6 @@
       {
         "date": "2026-09-29",
         "close": 8709.3
-      },
-      {
-        "date": "2026-09-30",
-        "close": 8789.3
       }
     ]
   },
@@ -7429,21 +7465,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4242.8,
-      "change": -238.7,
-      "changePercent": -5.33
+      "price": 4185.7,
+      "change": -295.8,
+      "changePercent": -6.6
     },
     {
       "name": "Silver",
-      "price": 61.6,
-      "change": -4.62,
-      "changePercent": -6.98
+      "price": 60.72,
+      "change": -5.5,
+      "changePercent": -8.31
     },
     {
       "name": "Copper",
-      "price": 6.64,
+      "price": 6.63,
       "change": 0.04,
-      "changePercent": 0.68
+      "changePercent": 0.57
     }
   ],
   "housing": {
@@ -7779,6 +7815,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to slide, Wall Street falls late as bond market ramps up pressure",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-higher-after-inflation-update-20261001-p611wg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Most of the US stock market fell as Wall Street contended with the downside of a US economy that keeps powering through its many challenges.",
+      "pubDate": "Thu, 01 Oct 2026 06:51:11 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Shares bounce in strongest session since early August",
       "link": "https://www.smh.com.au/business/markets/asx-set-for-a-slow-start-ahead-of-inflation-data-stocks-slip-on-wall-street-20260930-p611kp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Lower-than-feared inflation figures tempered concerns among investors of further imminent interest rate hikes.",
@@ -7786,17 +7829,17 @@
       "source": "SMH"
     },
     {
+      "title": "Giant gold miner eager to keep $38b Australian mega-deal alive",
+      "link": "https://www.smh.com.au/business/companies/giant-gold-miner-eager-to-keep-38b-australian-mega-deal-alive-20261001-p611ol.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The South African giant vying to buy Australia’s largest gold miner is ‘open to further dialogue’ after its initial $38 billion takeover bid was shot down.",
+      "pubDate": "Thu, 01 Oct 2026 04:00:00 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Big four banks sting home owners with rate rise",
       "link": "https://www.smh.com.au/business/banking-and-finance/big-banks-expected-to-follow-macquarie-and-sting-home-owners-with-rate-rise-20260930-p611mn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "While the country’s five biggest home lenders have passed on the rate rise to borrowers in full, only two also committed to increasing the amount they pay savers.",
       "pubDate": "Wed, 30 Sep 2026 16:59:08 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Aureka drill bit chases 786g/t Vic gold trail at Fiddlers Creek",
-      "link": "https://www.smh.com.au/business/companies/aureka-drill-bit-chases-786g-t-vic-gold-trail-at-fiddlers-creek-20260930-p611sa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka is drilling its newly acquired and cash-producing Vic gold mine, chasing bonanza grades while building an integrated gold business around a strategic processing mill.",
-      "pubDate": "Wed, 30 Sep 2026 14:35:09 +1000",
       "source": "SMH"
     },
     {
@@ -7814,52 +7857,45 @@
       "source": "SMH"
     },
     {
-      "title": "Broken Hill grabs rich historic goldfields to double SA footprint",
-      "link": "https://www.smh.com.au/business/companies/broken-hill-grabs-rich-historic-goldfields-to-double-sa-footprint-20260930-p611sv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Broken Hill Gold has doubled its tenure by securing two historic goldfields near its White Dam project in SA that produced 48,400 gold ounces grading up to 23g/t.",
-      "pubDate": "Wed, 30 Sep 2026 15:04:32 +1000",
+      "title": "‘Quite ill-prepared’: Shops scramble to meet new card surcharge ban",
+      "link": "https://www.smh.com.au/business/consumer-affairs/quite-ill-prepared-shops-scramble-to-meet-new-card-surcharge-ban-20261001-p611p9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Business lobby groups warn that some Australians will encounter card payment surcharges at the checkout despite a ban on the practice coming into effect.",
+      "pubDate": "Thu, 01 Oct 2026 08:07:56 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Indian smashes fastest-ever ODI double century in huge run chase",
+      "link": "https://www.abc.net.au/news/2026-10-01/india-defeats-west-indies-second-odi-shubman-gill-double-century/107214848",
+      "snippet": "",
+      "pubDate": "Wed, 30 Sep 2026 21:52:18 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "For love, not money — Tasmania's elite eight ready to represent the map",
+      "link": "https://www.abc.net.au/news/2026-10-01/tasmania-devils-confirm-first-afl-signings/107210390",
+      "snippet": "",
+      "pubDate": "Wed, 30 Sep 2026 20:59:19 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Australia strikes back to avoid ODI whitewash ahead of Test series",
+      "link": "https://www.abc.net.au/news/2026-10-01/australia-defeats-south-africa-in-third-odi-by-45-runs-dls/107214814",
+      "snippet": "",
+      "pubDate": "Wed, 30 Sep 2026 20:56:57 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Nathan Cleary has no worlds left to conquer after Dally M win",
+      "link": "https://www.abc.net.au/news/2026-10-01/nathan-cleary-dally-m-win-analysis/107214524",
+      "snippet": "",
+      "pubDate": "Wed, 30 Sep 2026 19:58:30 +0000",
+      "source": "ABC"
     },
     {
       "title": "Stawell Gift winner suspended for 12 months after positive drug test",
       "link": "https://www.abc.net.au/news/2026-09-30/olufemi-komolafe-stawell-gift-winner-suspended-drug-test/107213386",
       "snippet": "",
       "pubDate": "Wed, 30 Sep 2026 08:41:47 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Nathan Cleary accepts maiden Dally M Medal from his dad's couch",
-      "link": "https://www.abc.net.au/news/2026-09-30/dally-m-medal-awards-ceremony-red-carpet-live-blog/107204384",
-      "snippet": "",
-      "pubDate": "Wed, 30 Sep 2026 07:11:34 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Size does matter: KFC is promising bigger, crispier chicken in menu revamp",
-      "link": "https://www.smh.com.au/business/companies/size-does-matter-kfc-is-promising-bigger-crispier-chicken-in-menu-revamp-20260930-p611hv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Dirty Bird is not only jumping on global taste trends like pickles but is revamping its core chicken serves.",
-      "pubDate": "Wed, 30 Sep 2026 15:56:28 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Ten years after their lowest ebb, Newcastle are one win from salvation",
-      "link": "https://www.abc.net.au/news/2026-09-30/newcastle-knights-2016-wooden-spoon-grand-final/107212560",
-      "snippet": "",
-      "pubDate": "Wed, 30 Sep 2026 05:44:38 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Your next phone could take four years to pay off",
-      "link": "https://www.smh.com.au/business/consumer-affairs/your-next-phone-could-take-four-years-to-pay-off-20260930-p611od.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Vodafone says Australians are keeping phones for longer. Handset prices of up to $5000 may have something to do with it.",
-      "pubDate": "Wed, 30 Sep 2026 15:00:00 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Neale set to join Magpies as Lions confirm exit",
-      "link": "https://www.abc.net.au/news/2026-09-30/afl-lachie-neale-collingwood-magpies-brisbane-lions/107211164",
-      "snippet": "",
-      "pubDate": "Wed, 30 Sep 2026 01:40:50 +0000",
       "source": "ABC"
     }
   ]
