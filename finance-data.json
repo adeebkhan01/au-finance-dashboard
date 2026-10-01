@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-01T06:21:06.092Z",
+  "fetchedAt": "2026-10-01T13:43:56.075Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -3.03,
+      "changePercent": -3.11,
       "previousClose": 0.72,
       "asOf": "2026-10-01",
       "history": [
@@ -98,7 +98,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 0.7
+          "close": 0.69
         }
       ],
       "label": "AUD/USD",
@@ -1128,9 +1128,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.62,
       "change": 0,
-      "changePercent": -0.52,
+      "changePercent": -0.28,
       "previousClose": 0.62,
       "asOf": "2026-10-01",
       "history": [
@@ -1224,7 +1224,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1497,7 +1497,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1611,7 +1611,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2249,14 +2249,14 @@
         },
         {
           "date": "2026-10-01",
-          "close": 0.61
+          "close": 0.62
         }
       ]
     },
     "audcny": {
       "value": 4.66,
       "change": -0.16,
-      "changePercent": -3.33,
+      "changePercent": -3.31,
       "previousClose": 4.82,
       "asOf": "2026-10-01",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 109.99,
-      "change": -4.55,
-      "changePercent": -3.97,
+      "value": 109.75,
+      "change": -4.8,
+      "changePercent": -4.19,
       "previousClose": 114.54,
       "asOf": "2026-10-01",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 109.99
+          "close": 109.75
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 109.99
+          "close": 109.75
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 109.99
+          "close": 109.75
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 109.99
+          "close": 109.75
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -3.03,
+    "changePercent": -3.11,
     "previousClose": 0.72,
     "asOf": "2026-10-01",
     "history": [
@@ -4603,7 +4603,7 @@
       },
       {
         "date": "2026-10-01",
-        "close": 0.7
+        "close": 0.69
       }
     ],
     "label": "AUD/USD",
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.72,
-      "change": -0.5,
-      "changePercent": -0.55,
+      "value": 90.57,
+      "change": 0.35,
+      "changePercent": 0.39,
       "previousClose": 90.22,
       "asOf": "2026-10-01",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-10-01",
-          "close": 89.72
+          "close": 90.57
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 97.56,
-      "change": 2.91,
-      "changePercent": 3.07,
+      "value": 99.9,
+      "change": 5.25,
+      "changePercent": 5.55,
       "previousClose": 94.65,
       "asOf": "2026-10-01",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-10-01",
-          "close": 97.56
+          "close": 99.9
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.97,
-      "change": 0.07,
-      "changePercent": 2.38,
+      "value": 3.01,
+      "change": 0.11,
+      "changePercent": 3.79,
       "previousClose": 2.9,
       "asOf": "2026-10-01",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 2.97
+          "close": 3.01
         }
       ],
       "name": "Natural Gas",
@@ -6202,9 +6202,9 @@
     ]
   },
   "asx200": {
-    "value": 8622.1,
-    "change": -444.6,
-    "changePercent": -4.9,
+    "value": 8614.4,
+    "change": -452.3,
+    "changePercent": -4.99,
     "previousClose": 9066.7,
     "asOf": "2026-10-01",
     "history": [
@@ -6298,97 +6298,97 @@
       },
       {
         "date": "2026-10-01",
-        "close": 8622.1
+        "close": 8614.4
       }
     ]
   },
   "sectors": [
     {
       "name": "Financials",
-      "changePercent": -2.56,
+      "changePercent": -2.58,
       "stocks": [
         {
           "name": "CBA",
-          "price": 149.47,
-          "changePercent": -1.02
+          "price": 149.71,
+          "changePercent": -0.86
         },
         {
           "name": "WBC",
-          "price": 34,
-          "changePercent": -3.05
+          "price": 33.9,
+          "changePercent": -3.34
         },
         {
           "name": "ANZ",
-          "price": 37.13,
-          "changePercent": -3.08
+          "price": 37.19,
+          "changePercent": -2.92
         },
         {
           "name": "NAB",
-          "price": 37.95,
-          "changePercent": -3.08
+          "price": 37.89,
+          "changePercent": -3.22
         }
       ]
     },
     {
       "name": "Materials",
-      "changePercent": -1.99,
+      "changePercent": -2.27,
       "stocks": [
         {
           "name": "BHP",
-          "price": 60.56,
-          "changePercent": -0.43
+          "price": 60.26,
+          "changePercent": -0.92
         },
         {
           "name": "RIO",
-          "price": 163.61,
-          "changePercent": -1.99
+          "price": 162.85,
+          "changePercent": -2.44
         },
         {
           "name": "FMG",
-          "price": 16.22,
-          "changePercent": -1.34
+          "price": 16.25,
+          "changePercent": -1.16
         },
         {
           "name": "MIN",
-          "price": 50.09,
-          "changePercent": -4.21
+          "price": 49.9,
+          "changePercent": -4.57
         }
       ]
     },
     {
       "name": "Health Care",
-      "changePercent": -3.32,
+      "changePercent": -3.3,
       "stocks": [
         {
           "name": "CSL",
-          "price": 178.41,
-          "changePercent": -3.15
+          "price": 178.24,
+          "changePercent": -3.25
         },
         {
           "name": "COH",
-          "price": 130.57,
-          "changePercent": -6.46
+          "price": 130.34,
+          "changePercent": -6.63
         },
         {
           "name": "RMD",
-          "price": 31.56,
-          "changePercent": -1.31
+          "price": 31.55,
+          "changePercent": -1.34
         },
         {
           "name": "SHL",
-          "price": 18.54,
-          "changePercent": -2.37
+          "price": 18.61,
+          "changePercent": -2
         }
       ]
     },
     {
       "name": "Consumer Discretionary",
-      "changePercent": -0.91,
+      "changePercent": -0.92,
       "stocks": [
         {
           "name": "WES",
-          "price": 75.66,
-          "changePercent": -1.24
+          "price": 75.73,
+          "changePercent": -1.15
         },
         {
           "name": "HVN",
@@ -6397,34 +6397,34 @@
         },
         {
           "name": "JBH",
-          "price": 70.3,
-          "changePercent": 0.03
+          "price": 70.09,
+          "changePercent": -0.27
         },
         {
           "name": "ALL",
-          "price": 58.76,
-          "changePercent": -1.28
+          "price": 58.88,
+          "changePercent": -1.08
         }
       ]
     },
     {
       "name": "Industrials",
-      "changePercent": -1.68,
+      "changePercent": -1.67,
       "stocks": [
         {
           "name": "TCL",
-          "price": 12.97,
-          "changePercent": -2.04
+          "price": 13.01,
+          "changePercent": -1.74
         },
         {
           "name": "BXB",
-          "price": 19.01,
-          "changePercent": -2.61
+          "price": 18.92,
+          "changePercent": -3.07
         },
         {
           "name": "QAN",
-          "price": 8.95,
-          "changePercent": -2.08
+          "price": 8.97,
+          "changePercent": -1.86
         },
         {
           "name": "SYD",
@@ -6435,17 +6435,17 @@
     },
     {
       "name": "Real Estate",
-      "changePercent": -2.6,
+      "changePercent": -2.88,
       "stocks": [
         {
           "name": "GMG",
-          "price": 26.65,
-          "changePercent": -1.95
+          "price": 26.59,
+          "changePercent": -2.17
         },
         {
           "name": "SGP",
-          "price": 4.17,
-          "changePercent": -3.36
+          "price": 4.15,
+          "changePercent": -3.71
         },
         {
           "name": "GPT",
@@ -6454,55 +6454,55 @@
         },
         {
           "name": "MGR",
-          "price": 1.8,
-          "changePercent": -2.7
+          "price": 1.79,
+          "changePercent": -3.24
         }
       ]
     },
     {
       "name": "Consumer Staples",
-      "changePercent": -1.69,
+      "changePercent": -2.08,
       "stocks": [
         {
           "name": "WOW",
-          "price": 38.29,
-          "changePercent": -2.32
+          "price": 38.06,
+          "changePercent": -2.91
         },
         {
           "name": "COL",
-          "price": 22.82,
-          "changePercent": -2.31
+          "price": 22.75,
+          "changePercent": -2.61
         },
         {
           "name": "TWE",
-          "price": 5.38,
-          "changePercent": -1.47
+          "price": 5.39,
+          "changePercent": -1.28
         },
         {
           "name": "A2M",
-          "price": 6.62,
-          "changePercent": -0.68
+          "price": 6.56,
+          "changePercent": -1.5
         }
       ]
     },
     {
       "name": "Energy",
-      "changePercent": -3,
+      "changePercent": -2.92,
       "stocks": [
         {
           "name": "WDS",
-          "price": 30.83,
-          "changePercent": -3.29
+          "price": 30.89,
+          "changePercent": -3.11
         },
         {
           "name": "STO",
-          "price": 8.4,
-          "changePercent": -2.55
+          "price": 8.39,
+          "changePercent": -2.67
         },
         {
           "name": "ORG",
-          "price": 10.8,
-          "changePercent": -1.64
+          "price": 10.83,
+          "changePercent": -1.37
         },
         {
           "name": "WHC",
@@ -6513,22 +6513,22 @@
     },
     {
       "name": "Info Technology",
-      "changePercent": -2.6,
+      "changePercent": -2.62,
       "stocks": [
         {
           "name": "XRO",
-          "price": 55.22,
-          "changePercent": -2.99
+          "price": 55.31,
+          "changePercent": -2.83
         },
         {
           "name": "WTC",
-          "price": 31.44,
-          "changePercent": -3.14
+          "price": 31.34,
+          "changePercent": -3.45
         },
         {
           "name": "CPU",
-          "price": 39.86,
-          "changePercent": -2.18
+          "price": 39.89,
+          "changePercent": -2.11
         },
         {
           "name": "APX",
@@ -6539,53 +6539,53 @@
     },
     {
       "name": "Comm Services",
-      "changePercent": -0.99,
+      "changePercent": -1.03,
       "stocks": [
         {
           "name": "TLS",
-          "price": 4.82,
-          "changePercent": -0.21
+          "price": 4.81,
+          "changePercent": -0.41
         },
         {
           "name": "REA",
-          "price": 154.37,
-          "changePercent": -1.99
+          "price": 154.12,
+          "changePercent": -2.15
         },
         {
           "name": "CAR",
-          "price": 21.91,
-          "changePercent": -2.06
+          "price": 22,
+          "changePercent": -1.65
         },
         {
           "name": "NWS",
-          "price": 45.39,
-          "changePercent": 0.31
+          "price": 45.29,
+          "changePercent": 0.09
         }
       ]
     },
     {
       "name": "Utilities",
-      "changePercent": -1.04,
+      "changePercent": -0.47,
       "stocks": [
         {
           "name": "AGL",
-          "price": 8.03,
-          "changePercent": -1.71
+          "price": 8.07,
+          "changePercent": -1.22
         },
         {
           "name": "APA",
-          "price": 10.55,
-          "changePercent": -0.57
+          "price": 10.59,
+          "changePercent": -0.19
         },
         {
           "name": "ORG",
-          "price": 10.8,
-          "changePercent": -1.64
+          "price": 10.83,
+          "changePercent": -1.37
         },
         {
           "name": "MEZ",
-          "price": 4.38,
-          "changePercent": -0.23
+          "price": 4.43,
+          "changePercent": 0.91
         }
       ]
     }
@@ -6596,9 +6596,9 @@
       "name": "Commonwealth Bank",
       "ticker": "CBA",
       "color": "#f59e0b",
-      "price": 149.47,
-      "change": -9.68,
-      "changePercent": -6.08,
+      "price": 149.71,
+      "change": -9.44,
+      "changePercent": -5.93,
       "previousClose": 159.15,
       "history": [
         {
@@ -6691,7 +6691,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 149.47
+          "close": 149.71
         }
       ]
     },
@@ -6700,9 +6700,9 @@
       "name": "NAB",
       "ticker": "NAB",
       "color": "#1a7a4a",
-      "price": 37.95,
-      "change": -0.55,
-      "changePercent": -1.44,
+      "price": 37.89,
+      "change": -0.61,
+      "changePercent": -1.58,
       "previousClose": 38.5,
       "history": [
         {
@@ -6795,7 +6795,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 37.94
+          "close": 37.89
         }
       ]
     },
@@ -6804,9 +6804,9 @@
       "name": "ANZ",
       "ticker": "ANZ",
       "color": "#2563eb",
-      "price": 37.13,
-      "change": -0.21,
-      "changePercent": -0.56,
+      "price": 37.19,
+      "change": -0.15,
+      "changePercent": -0.4,
       "previousClose": 37.34,
       "history": [
         {
@@ -6899,7 +6899,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 37.13
+          "close": 37.19
         }
       ]
     },
@@ -6908,9 +6908,9 @@
       "name": "Westpac",
       "ticker": "WBC",
       "color": "#c23a3a",
-      "price": 34,
-      "change": -0.36,
-      "changePercent": -1.05,
+      "price": 33.9,
+      "change": -0.46,
+      "changePercent": -1.34,
       "previousClose": 34.36,
       "history": [
         {
@@ -7003,7 +7003,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 34
+          "close": 33.9
         }
       ]
     }
@@ -7014,9 +7014,9 @@
       "name": "BHP Group",
       "ticker": "BHP",
       "color": "#1a7a4a",
-      "price": 60.56,
-      "change": -6.28,
-      "changePercent": -9.4,
+      "price": 60.26,
+      "change": -6.58,
+      "changePercent": -9.84,
       "previousClose": 66.84,
       "history": [
         {
@@ -7109,7 +7109,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 60.56
+          "close": 60.26
         }
       ]
     },
@@ -7118,9 +7118,9 @@
       "name": "Rio Tinto",
       "ticker": "RIO",
       "color": "#2563eb",
-      "price": 163.61,
-      "change": -13.9,
-      "changePercent": -7.83,
+      "price": 162.85,
+      "change": -14.66,
+      "changePercent": -8.26,
       "previousClose": 177.51,
       "history": [
         {
@@ -7213,7 +7213,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 163.61
+          "close": 162.85
         }
       ]
     },
@@ -7222,9 +7222,9 @@
       "name": "Fortescue",
       "ticker": "FMG",
       "color": "#f59e0b",
-      "price": 16.22,
-      "change": -1.19,
-      "changePercent": -6.84,
+      "price": 16.25,
+      "change": -1.16,
+      "changePercent": -6.66,
       "previousClose": 17.41,
       "history": [
         {
@@ -7317,7 +7317,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 16.22
+          "close": 16.25
         }
       ]
     },
@@ -7326,9 +7326,9 @@
       "name": "Woodside",
       "ticker": "WDS",
       "color": "#7c3aed",
-      "price": 30.83,
-      "change": -1.87,
-      "changePercent": -5.72,
+      "price": 30.89,
+      "change": -1.81,
+      "changePercent": -5.54,
       "previousClose": 32.7,
       "history": [
         {
@@ -7421,7 +7421,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 30.83
+          "close": 30.89
         }
       ]
     }
@@ -7429,21 +7429,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4220.3,
-      "change": -176.1,
-      "changePercent": -4.01
+      "price": 4200,
+      "change": -196.4,
+      "changePercent": -4.47
     },
     {
       "name": "Silver",
-      "price": 61.65,
-      "change": -2.97,
-      "changePercent": -4.6
+      "price": 61.48,
+      "change": -3.14,
+      "changePercent": -4.86
     },
     {
       "name": "Copper",
-      "price": 6.64,
-      "change": 0.13,
-      "changePercent": 1.97
+      "price": 6.57,
+      "change": 0.07,
+      "changePercent": 1.02
     }
   ],
   "housing": {
@@ -7779,10 +7779,31 @@
   ],
   "news": [
     {
+      "title": "Bonanza gold hits keep rolling for Aurum in West Africa",
+      "link": "https://www.smh.com.au/business/companies/bonanza-gold-hits-keep-rolling-for-aurum-in-west-africa-20261001-p6125p.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Aurum Resources has hit its best-ever gold intercept at the Boundiali project in West Africa, with a stunning 28.8m section grading 22.92g/t gold as it pushes towards a DFS.",
+      "pubDate": "Thu, 01 Oct 2026 16:29:07 +1000",
+      "source": "SMH"
+    },
+    {
       "title": "Broken Hill bags remnant gold ahead of SA mine restart",
       "link": "https://www.smh.com.au/business/companies/broken-hill-bags-remnant-gold-ahead-of-sa-mine-restart-20261001-p6125a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Broken Hill Gold has poured an extra 174 gold ounces from its White Dam heap leach project in South Australia, with proceeds to fund the restart of mining at its Vertigo pit.",
       "pubDate": "Thu, 01 Oct 2026 16:09:12 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Trump’s ‘betrayal’ of America’s heartland will cost him",
+      "link": "https://www.smh.com.au/business/the-economy/trump-s-betrayal-of-america-s-heartland-will-cost-him-20261001-p611wf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "We are about to find out whether the American people are finally going to rein in the belligerent fabulist that they so recklessly unleashed a second time.",
+      "pubDate": "Thu, 01 Oct 2026 18:35:00 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Critica adds global commodities clout to board",
+      "link": "https://www.smh.com.au/business/companies/critica-adds-global-commodities-clout-to-board-20261001-p61262.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Critica has added global commodities specialist Hannah Badenach to its board, bringing key offtake and financing experience to its Mt Lindsay and Jupiter critical minerals projects.",
+      "pubDate": "Thu, 01 Oct 2026 16:50:22 +1000",
       "source": "SMH"
     },
     {
@@ -7800,13 +7821,6 @@
       "source": "SMH"
     },
     {
-      "title": "Cash discounts and refunds: Your card surcharge ban cheat sheet",
-      "link": "https://www.smh.com.au/business/consumer-affairs/cash-discounts-and-refunds-your-card-surcharge-ban-cheat-sheet-20261001-p611xp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "What’s changing, what businesses can and can’t display, how to get a discount or a refund, and more. Here’s everything you need to know about the new regime.",
-      "pubDate": "Thu, 01 Oct 2026 14:03:21 +1000",
-      "source": "SMH"
-    },
-    {
       "title": "Man City could face fines, EPL expulsion, over financial rules scandal",
       "link": "https://www.abc.net.au/news/2026-10-01/manchester-city-face-possible-fines-epl-expulsion/107215854",
       "snippet": "",
@@ -7814,11 +7828,25 @@
       "source": "ABC"
     },
     {
-      "title": "An office chat about ‘Wharfie Time’ upset a colleague. What went wrong?",
-      "link": "https://www.smh.com.au/business/workplace/an-office-chat-about-wharfie-time-upset-a-colleague-what-went-wrong-20261001-p611z3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Sometimes a water cooler conversation about a weekend event, or a premature celebration of a seemingly certain victory, can go sideways.",
-      "pubDate": "Thu, 01 Oct 2026 15:00:00 +1000",
+      "title": "Heeney wins Sydney Swans best and fairest award amid club suspension",
+      "link": "https://www.abc.net.au/news/2026-10-01/isaac-heeney-wins-sydney-swans-best-and-fairest/107218662",
+      "snippet": "",
+      "pubDate": "Thu, 01 Oct 2026 12:59:30 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "The hidden traps lurking in your office WhatsApp group",
+      "link": "https://www.smh.com.au/business/workplace/the-hidden-traps-lurking-in-your-office-whatsapp-group-20261001-p611zs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Every message you send contains potential dangers, and you should be across them all.",
+      "pubDate": "Thu, 01 Oct 2026 18:00:00 +1000",
       "source": "SMH"
+    },
+    {
+      "title": "Chris Fagan headed the ultimate Lions reawakening",
+      "link": "https://www.abc.net.au/news/2026-10-01/chris-fagan-career-with-brisbane-lions/107204968",
+      "snippet": "",
+      "pubDate": "Thu, 01 Oct 2026 05:04:47 +0000",
+      "source": "ABC"
     },
     {
       "title": "From tattoos to blue sausages, Newcastle has gone 'Knights crazy'",
@@ -7828,31 +7856,10 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Chris Fagan steps down from Brisbane Lions",
+      "title": "'Grateful' Chris Fagan steps down from Brisbane Lions",
       "link": "https://www.abc.net.au/news/2026-10-01/chris-fagan-leaves-brisbane-lions/107216896",
       "snippet": "",
       "pubDate": "Thu, 01 Oct 2026 04:12:26 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Flagship tables huge Thai tungsten target",
-      "link": "https://www.smh.com.au/business/companies/flagship-tables-huge-thai-tungsten-target-20261001-p6122n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Flagship Minerals has outlined a monster 40Mt high-grade tungsten exploration target at Khao Soon in southern Thailand, adding serious scale to its global portfolio.",
-      "pubDate": "Thu, 01 Oct 2026 13:22:14 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Forrester breaks 17yo record at short course titles",
-      "link": "https://www.abc.net.au/news/2026-10-01/australian-short-course-record-jenna-forrester/107216014",
-      "snippet": "",
-      "pubDate": "Thu, 01 Oct 2026 03:12:03 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Indian smashes fastest-ever ODI double century in huge run chase",
-      "link": "https://www.abc.net.au/news/2026-10-01/india-defeats-west-indies-second-odi-shubman-gill-double-century/107214848",
-      "snippet": "",
-      "pubDate": "Wed, 30 Sep 2026 21:52:18 +0000",
       "source": "ABC"
     }
   ]
