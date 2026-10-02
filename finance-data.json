@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-02T12:58:53.672Z",
+  "fetchedAt": "2026-10-02T22:26:19.286Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.49,
+      "changePercent": -2.66,
       "previousClose": 0.71,
       "asOf": "2026-10-02",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-09-30",
+          "close": 0.69
+        },
+        {
+          "date": "2026-10-01",
           "close": 0.69
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-09-30",
+          "close": 0.69
+        },
+        {
+          "date": "2026-10-01",
           "close": 0.69
         },
         {
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.32,
+      "changePercent": 0.23,
       "previousClose": 0.62,
       "asOf": "2026-10-02",
       "history": [
@@ -1217,6 +1225,10 @@
         {
           "date": "2026-09-30",
           "close": 0.61
+        },
+        {
+          "date": "2026-10-01",
+          "close": 0.62
         },
         {
           "date": "2026-10-02",
@@ -1492,6 +1504,10 @@
           "close": 0.61
         },
         {
+          "date": "2026-10-01",
+          "close": 0.62
+        },
+        {
           "date": "2026-10-02",
           "close": 0.62
         }
@@ -1603,7 +1619,7 @@
         },
         {
           "date": "2026-09-27",
-          "close": 0.61
+          "close": 0.62
         },
         {
           "date": "2026-10-02",
@@ -2237,7 +2253,7 @@
         },
         {
           "date": "2026-09-27",
-          "close": 0.61
+          "close": 0.62
         },
         {
           "date": "2026-10-02",
@@ -2246,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.66,
-      "change": -0.14,
-      "changePercent": -3,
+      "value": 4.65,
+      "change": -0.15,
+      "changePercent": -3.12,
       "previousClose": 4.8,
       "asOf": "2026-10-02",
       "history": [
@@ -2341,8 +2357,12 @@
           "close": 4.66
         },
         {
+          "date": "2026-10-01",
+          "close": 4.64
+        },
+        {
           "date": "2026-10-02",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "label": "AUD/CNY",
@@ -2614,8 +2634,12 @@
           "close": 4.66
         },
         {
+          "date": "2026-10-01",
+          "close": 4.64
+        },
+        {
           "date": "2026-10-02",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "h6m": [
@@ -2725,11 +2749,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 4.66
+          "close": 4.64
         },
         {
           "date": "2026-10-02",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "h3y": [
@@ -3359,18 +3383,18 @@
         },
         {
           "date": "2026-09-27",
-          "close": 4.66
+          "close": 4.64
         },
         {
           "date": "2026-10-02",
-          "close": 4.66
+          "close": 4.65
         }
       ]
     },
     "audjpy": {
-      "value": 109.51,
-      "change": -4.98,
-      "changePercent": -4.35,
+      "value": 109.8,
+      "change": -4.69,
+      "changePercent": -4.09,
       "previousClose": 114.49,
       "asOf": "2026-10-02",
       "history": [
@@ -3463,8 +3487,12 @@
           "close": 109.42
         },
         {
+          "date": "2026-10-01",
+          "close": 109.4
+        },
+        {
           "date": "2026-10-02",
-          "close": 109.51
+          "close": 109.8
         }
       ],
       "label": "AUD/JPY",
@@ -3736,8 +3764,12 @@
           "close": 109.42
         },
         {
+          "date": "2026-10-01",
+          "close": 109.4
+        },
+        {
           "date": "2026-10-02",
-          "close": 109.51
+          "close": 109.8
         }
       ],
       "h6m": [
@@ -3847,11 +3879,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 109.42
+          "close": 109.4
         },
         {
           "date": "2026-10-02",
-          "close": 109.51
+          "close": 109.8
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-09-27",
-          "close": 109.42
+          "close": 109.4
         },
         {
           "date": "2026-10-02",
-          "close": 109.51
+          "close": 109.8
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.49,
+    "changePercent": -2.66,
     "previousClose": 0.71,
     "asOf": "2026-10-02",
     "history": [
@@ -4583,6 +4615,10 @@
       },
       {
         "date": "2026-09-30",
+        "close": 0.69
+      },
+      {
+        "date": "2026-10-01",
         "close": 0.69
       },
       {
@@ -4856,6 +4892,10 @@
       },
       {
         "date": "2026-09-30",
+        "close": 0.69
+      },
+      {
+        "date": "2026-10-01",
         "close": 0.69
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.41,
-      "change": -1.6,
-      "changePercent": -1.76,
+      "value": 91.26,
+      "change": 0.25,
+      "changePercent": 0.27,
       "previousClose": 91.01,
       "asOf": "2026-10-02",
       "history": [
@@ -5898,16 +5938,16 @@
         },
         {
           "date": "2026-10-02",
-          "close": 89.41
+          "close": 91.26
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 99.67,
-      "change": 4.04,
-      "changePercent": 4.22,
+      "value": 102.7,
+      "change": 7.07,
+      "changePercent": 7.39,
       "previousClose": 95.63,
       "asOf": "2026-10-02",
       "history": [
@@ -5997,16 +6037,16 @@
         },
         {
           "date": "2026-10-02",
-          "close": 99.67
+          "close": 102.7
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.97,
-      "change": 0.01,
-      "changePercent": 0.34,
+      "value": 3.04,
+      "change": 0.08,
+      "changePercent": 2.81,
       "previousClose": 2.96,
       "asOf": "2026-10-02",
       "history": [
@@ -6096,7 +6136,7 @@
         },
         {
           "date": "2026-10-02",
-          "close": 2.97
+          "close": 3.04
         }
       ],
       "name": "Natural Gas",
@@ -6275,10 +6315,6 @@
       {
         "date": "2026-10-01",
         "close": 8614.4
-      },
-      {
-        "date": "2026-10-02",
-        "close": 8682.1
       }
     ]
   },
@@ -7409,21 +7445,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4241.2,
-      "change": -173.4,
-      "changePercent": -3.93
+      "price": 4172.1,
+      "change": -242.5,
+      "changePercent": -5.49
     },
     {
       "name": "Silver",
-      "price": 61.96,
-      "change": -2.76,
-      "changePercent": -4.27
+      "price": 60.71,
+      "change": -4.01,
+      "changePercent": -6.2
     },
     {
       "name": "Copper",
       "price": 6.58,
       "change": 0.08,
-      "changePercent": 1.17
+      "changePercent": 1.2
     }
   ],
   "housing": {
@@ -7794,10 +7830,38 @@
       "source": "SMH"
     },
     {
+      "title": "Roosters met with Rabbi Eli Schlanger days before Bondi attack",
+      "link": "https://www.abc.net.au/news/2026-10-03/roosters-met-with-rabbi-eli-schlanger-days-before-bondi-attack/107223728",
+      "snippet": "",
+      "pubDate": "Fri, 02 Oct 2026 21:51:34 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Man City appeals guilty findings of breaking EPL's financial rules",
+      "link": "https://www.abc.net.au/news/2026-10-02/manchester-city-appeal-guilty-findings-after-epl-finance-probe/107223868",
+      "snippet": "",
+      "pubDate": "Fri, 02 Oct 2026 12:04:31 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Patriot puts 3km Peru silver corridor under microscope",
       "link": "https://www.smh.com.au/business/companies/patriot-puts-3km-peru-silver-corridor-under-microscope-20261002-p612bi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Patriot Resources has kicked off a major exploration push at its Tassa project in Peru, aiming to grow its 31.4-million-ounce silver-equivalent resource after first samples went to the lab.",
       "pubDate": "Fri, 02 Oct 2026 11:26:16 +1000",
+      "source": "SMH"
+    },
+    {
+      "title": "Brisbane 2032 emblems leaked by official YouTube channel",
+      "link": "https://www.abc.net.au/news/2026-10-03/brisbane-2032-olympic-emblem-leaked-by-official-youtube-channel/107223880",
+      "snippet": "",
+      "pubDate": "Fri, 02 Oct 2026 20:57:22 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Not OK, Boomers? The repercussions of a generation on its way out",
+      "link": "https://www.smh.com.au/business/the-economy/not-ok-boomers-the-repercussions-of-a-generation-on-its-way-out-20261003-p612b2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Baby Boomers, who entered the world in an optimistic postwar birth rate explosion, are heading into their 80s and starting to exit the world.",
+      "pubDate": "Sat, 03 Oct 2026 05:00:00 +1000",
       "source": "SMH"
     },
     {
@@ -7808,31 +7872,10 @@
       "source": "ABC"
     },
     {
-      "title": "Piastri likens track to 'sandpaper' as F1 returns to Malaysia",
-      "link": "https://www.abc.net.au/news/2026-10-02/f1-returns-to-malaysia-oscar-piastri/107220710",
-      "snippet": "",
-      "pubDate": "Fri, 02 Oct 2026 02:12:31 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Australia calls Maddinson and Harper into Test squad",
-      "link": "https://www.abc.net.au/news/2026-10-02/australia-calls-nic-maddinson-and-sam-harper-into-test-squad/107219810",
-      "snippet": "",
-      "pubDate": "Fri, 02 Oct 2026 00:08:28 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "13-year-long bribery investigation by AFP ends with no prosecution",
       "link": "https://www.smh.com.au/business/companies/13-year-long-afp-bribery-investigation-ends-with-no-prosecution-20261002-p61297.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "A storied Australian engineering giant that originated with the Snowy Hydro scheme and still has government contracts paid $9 million as part of the settlement.",
       "pubDate": "Fri, 02 Oct 2026 09:51:47 +1000",
-      "source": "SMH"
-    },
-    {
-      "title": "Publisher Morry Schwartz plays publican at Collingwood’s Bar Nero",
-      "link": "https://www.smh.com.au/business/companies/publisher-morry-schwartz-plays-publican-at-collingwood-s-bar-nero-20261002-p611um.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Morry Schwartz bought the Smith Street pub in 2019 for $5.65 million with plans to raze it and build a 10-storey office.",
-      "pubDate": "Fri, 02 Oct 2026 05:00:00 +1000",
       "source": "SMH"
     }
   ]
