@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-06T06:41:12.613Z",
+  "fetchedAt": "2026-10-06T18:31:49.897Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -3.26,
+      "changePercent": -2.97,
       "previousClose": 0.72,
       "asOf": "2026-10-06",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.29,
+      "changePercent": 0.15,
       "previousClose": 0.62,
       "asOf": "2026-10-06",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.65,
-      "change": -0.19,
-      "changePercent": -3.83,
+      "value": 4.68,
+      "change": -0.16,
+      "changePercent": -3.24,
       "previousClose": 4.84,
       "asOf": "2026-10-06",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 4.65
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 4.65
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 4.65
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-10-06",
-          "close": 4.65
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 110.14,
-      "change": -1.96,
-      "changePercent": -1.74,
+      "value": 110.43,
+      "change": -1.67,
+      "changePercent": -1.49,
       "previousClose": 112.09,
       "asOf": "2026-10-06",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 110.14
+          "close": 110.43
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 110.14
+          "close": 110.43
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 110.14
+          "close": 110.43
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 110.14
+          "close": 110.42
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -3.26,
+    "changePercent": -2.97,
     "previousClose": 0.72,
     "asOf": "2026-10-06",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 88.89,
-      "change": -4.14,
-      "changePercent": -4.45,
+      "value": 89.23,
+      "change": -3.8,
+      "changePercent": -4.08,
       "previousClose": 93.03,
       "asOf": "2026-10-06",
       "history": [
@@ -5894,16 +5894,16 @@
         },
         {
           "date": "2026-10-06",
-          "close": 88.89
+          "close": 89.23
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 99.87,
-      "change": 1.95,
-      "changePercent": 1.99,
+      "value": 100.32,
+      "change": 2.4,
+      "changePercent": 2.45,
       "previousClose": 97.92,
       "asOf": "2026-10-06",
       "history": [
@@ -5989,16 +5989,16 @@
         },
         {
           "date": "2026-10-06",
-          "close": 99.87
+          "close": 100.32
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.08,
-      "change": 0.17,
-      "changePercent": 5.69,
+      "value": 3.11,
+      "change": 0.19,
+      "changePercent": 6.52,
       "previousClose": 2.92,
       "asOf": "2026-10-06",
       "history": [
@@ -6084,7 +6084,7 @@
         },
         {
           "date": "2026-10-06",
-          "close": 3.08
+          "close": 3.11
         }
       ],
       "name": "Natural Gas",
@@ -6650,6 +6650,10 @@
           "close": 151.22
         },
         {
+          "date": "2026-10-05",
+          "close": 152.38
+        },
+        {
           "date": "2026-10-06",
           "close": 152.38
         }
@@ -6748,6 +6752,10 @@
         {
           "date": "2026-10-04",
           "close": 38.4
+        },
+        {
+          "date": "2026-10-05",
+          "close": 38.7
         },
         {
           "date": "2026-10-06",
@@ -6850,6 +6858,10 @@
           "close": 37.65
         },
         {
+          "date": "2026-10-05",
+          "close": 37.86
+        },
+        {
           "date": "2026-10-06",
           "close": 37.86
         }
@@ -6948,6 +6960,10 @@
         {
           "date": "2026-10-04",
           "close": 34.44
+        },
+        {
+          "date": "2026-10-05",
+          "close": 34.66
         },
         {
           "date": "2026-10-06",
@@ -7052,6 +7068,10 @@
           "close": 61.89
         },
         {
+          "date": "2026-10-05",
+          "close": 62.86
+        },
+        {
           "date": "2026-10-06",
           "close": 62.86
         }
@@ -7150,6 +7170,10 @@
         {
           "date": "2026-10-04",
           "close": 165.96
+        },
+        {
+          "date": "2026-10-05",
+          "close": 167.77
         },
         {
           "date": "2026-10-06",
@@ -7252,6 +7276,10 @@
           "close": 16.19
         },
         {
+          "date": "2026-10-05",
+          "close": 16.41
+        },
+        {
           "date": "2026-10-06",
           "close": 16.41
         }
@@ -7352,6 +7380,10 @@
           "close": 31.22
         },
         {
+          "date": "2026-10-05",
+          "close": 31.24
+        },
+        {
           "date": "2026-10-06",
           "close": 31.24
         }
@@ -7361,21 +7393,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4160.3,
-      "change": -278.7,
-      "changePercent": -6.28
+      "price": 4198.3,
+      "change": -240.7,
+      "changePercent": -5.42
     },
     {
       "name": "Silver",
-      "price": 61.07,
-      "change": -5.23,
-      "changePercent": -7.89
+      "price": 61.87,
+      "change": -4.43,
+      "changePercent": -6.68
     },
     {
       "name": "Copper",
-      "price": 6.65,
-      "change": -0.09,
-      "changePercent": -1.39
+      "price": 6.66,
+      "change": -0.08,
+      "changePercent": -1.25
     }
   ],
   "housing": {
@@ -7713,29 +7745,36 @@
     {
       "title": "ASX gains, led by miners and property stocks; oil prices steady",
       "link": "https://www.smh.com.au/business/markets/asx-eyes-gains-as-wall-street-climbs-towards-records-20261006-p6131f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket advanced in early trade after a tech-led rally pushed Wall Street higher as investors largely shrugged off concerns about bond yields at multi-decade highs. Oil prices fell.",
+      "snippet": "The Australian sharemarket advanced on Tuesday, fuelled by a tech-led rally on Wall Street as investors largely shrugged off concerns about bond yields at multi-decade highs.",
       "pubDate": "Tue, 06 Oct 2026 17:14:14 +1100",
       "source": "SMH"
     },
     {
-      "title": "TMK smashes gas flow records as Mongolian drilling gears up",
-      "link": "https://www.smh.com.au/business/companies/tmk-smashes-gas-flow-records-as-mongolian-drilling-gears-up-20261006-p6139x.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "TMK Energy set a new gas production record at its Mongolian coal seam gas project, with September flows up 8% and multiple wells hitting new highs across its 1.2Tcf resource.",
-      "pubDate": "Tue, 06 Oct 2026 15:19:35 +1100",
+      "title": "ASX set to edge up, Wall Street rallies towards an all-time high",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-rallies-towards-an-all-time-high-20261007-p613dd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Even with worries about war, high inflation and cranked-up pressure from the bond market continuing to weigh on it, Wall Street’s benchmark index soared 23 per cent since hitting a bottom in late March.",
+      "pubDate": "Wed, 07 Oct 2026 05:16:11 +1100",
       "source": "SMH"
     },
     {
-      "title": "Gateway maps twin 4km gold soil anomalies in WA Gascoyne",
-      "link": "https://www.smh.com.au/business/companies/gateway-maps-twin-4km-gold-soil-anomalies-in-wa-gascoyne-20261006-p6139t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gateway Mining has defined two gold-in-soil anomalies from first-pass soil sampling at its Glenburgh South gold project in WA’s Gascoyne region, next to Benz Mining’s recent tier-one gold discovery.",
-      "pubDate": "Tue, 06 Oct 2026 15:07:51 +1100",
+      "title": "Trying to tame inflation with higher interest rates is dumb and unfair",
+      "link": "https://www.smh.com.au/business/the-economy/trying-to-tame-inflation-with-higher-interest-rates-is-dumb-and-unfair-20261007-p61343.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Our use of interest rates to control inflation is yet another respect in which our economic system is biased against the young.",
+      "pubDate": "Wed, 07 Oct 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Manhattan strikes high-grade polymetallic pay dirt in Canada",
-      "link": "https://www.smh.com.au/business/companies/manhattan-strikes-high-grade-polymetallic-pay-dirt-in-canada-20261006-p6139i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Manhattan Gold Corp has hit high-grade copper, gold, silver and zinc in maiden drilling at its Spectre prospect in Canada, including 6.1m at 3.18% copper and 1.37g/t gold.",
-      "pubDate": "Tue, 06 Oct 2026 14:49:09 +1100",
+      "title": "Tesla and power giants revolt against Australia’s ‘EV charger tax’",
+      "link": "https://www.smh.com.au/business/consumer-affairs/tesla-and-power-giants-revolt-against-australia-s-ev-charger-tax-20261007-p613a1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A battle has erupted over plans to let grid operators to mount EV chargers to their power poles – and bill non-EV drivers for the cost.",
+      "pubDate": "Wed, 07 Oct 2026 05:20:47 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Australia’s great AI hope just hit a speed bump",
+      "link": "https://www.smh.com.au/business/companies/australia-s-great-ai-hope-just-hit-a-speed-bump-20261006-p61360.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Its plan to double Australia’s data centre computing power may have fallen over but ASX-bound Firmus’ backers – from a Canberra air-conditioning family to billionaires – aren’t worried.",
+      "pubDate": "Tue, 06 Oct 2026 18:15:25 +1100",
       "source": "SMH"
     },
     {
@@ -7743,13 +7782,6 @@
       "link": "https://www.smh.com.au/business/companies/aguia-hits-colombia-gold-record-and-breaks-even-20261006-p613ad.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Aguia Resources has set a gold production record in Colombia, with September revenue of A$218,000 covering its local corporate and operating costs for the first time.",
       "pubDate": "Tue, 06 Oct 2026 15:41:41 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Flagship puts bigger fence around Canadian copper giant",
-      "link": "https://www.smh.com.au/business/companies/flagship-puts-bigger-fence-around-canadian-copper-giant-20261006-p6138d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Flagship Minerals has more than doubled its Canadian Whipsaw copper footprint, chasing extensions to its large-scale porphyry play ahead of a potential spin-out.",
-      "pubDate": "Tue, 06 Oct 2026 13:19:45 +1100",
       "source": "SMH"
     },
     {
@@ -7767,13 +7799,6 @@
       "source": "SMH"
     },
     {
-      "title": "Rogue pilots may be the most dangerous threat to passengers. They’re ‘just about impossible’ to stop",
-      "link": "https://www.smh.com.au/business/companies/rogue-pilots-may-be-the-most-dangerous-threat-to-passengers-they-re-just-about-impossible-to-stop-20261006-p612zf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The insider threat risk has been part of the international aviation security framework for many years. But the options for confrontation remain limited.",
-      "pubDate": "Tue, 06 Oct 2026 13:22:29 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "Mary Fowler withdraws from Matildas squad for Germany, Haiti games",
       "link": "https://www.abc.net.au/news/2026-10-06/mary-fowler-withdraws-matildas-squad-for-germany-haiti-games/107231866",
       "snippet": "",
@@ -7781,17 +7806,10 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Hawks make King offer official as Tigers swing move for Freo winger",
+      "title": "Hawks make King offer official as Tigers swing move for Freo winger",
       "link": "https://www.abc.net.au/news/2026-10-06/afl-trade-period-live-blog-tuesday-october-6/107232060",
       "snippet": "",
       "pubDate": "Mon, 05 Oct 2026 21:18:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Wiradjuri Aboriginal Rivers, Newcastle Yowies claim Koori Knockout glory",
-      "link": "https://www.abc.net.au/news/2026-10-05/koori-knockout-raymond-terrace-results-wiradjuri-aboriginal-/107229574",
-      "snippet": "",
-      "pubDate": "Mon, 05 Oct 2026 07:19:29 +0000",
       "source": "ABC"
     }
   ]
