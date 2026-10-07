@@ -1,17 +1,13 @@
 {
-  "fetchedAt": "2026-10-07T13:42:27.145Z",
+  "fetchedAt": "2026-10-07T23:14:16.367Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.03,
-      "changePercent": -3.54,
+      "changePercent": -3.57,
       "previousClose": 0.72,
       "asOf": "2026-10-07",
       "history": [
-        {
-          "date": "2026-09-06",
-          "close": 0.72
-        },
         {
           "date": "2026-09-07",
           "close": 0.72
@@ -97,6 +93,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-10-06",
+          "close": 0.7
+        },
+        {
           "date": "2026-10-07",
           "close": 0.7
         }
@@ -105,10 +105,6 @@
       "symbol": "AUDUSD=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-07-06",
-          "close": 0.7
-        },
         {
           "date": "2026-07-07",
           "close": 0.69
@@ -367,6 +363,10 @@
         },
         {
           "date": "2026-10-05",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-06",
           "close": 0.7
         },
         {
@@ -1130,14 +1130,10 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.18,
+      "changePercent": 0.05,
       "previousClose": 0.62,
       "asOf": "2026-10-07",
       "history": [
-        {
-          "date": "2026-09-06",
-          "close": 0.62
-        },
         {
           "date": "2026-09-07",
           "close": 0.62
@@ -1223,6 +1219,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-10-06",
+          "close": 0.62
+        },
+        {
           "date": "2026-10-07",
           "close": 0.62
         }
@@ -1231,10 +1231,6 @@
       "symbol": "AUDEUR=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-07-06",
-          "close": 0.61
-        },
         {
           "date": "2026-07-07",
           "close": 0.61
@@ -1493,6 +1489,10 @@
         },
         {
           "date": "2026-10-05",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-06",
           "close": 0.62
         },
         {
@@ -2254,16 +2254,12 @@
       ]
     },
     "audcny": {
-      "value": 4.65,
-      "change": -0.19,
-      "changePercent": -3.91,
-      "previousClose": 4.84,
+      "value": 4.67,
+      "change": -0.18,
+      "changePercent": -3.68,
+      "previousClose": 4.85,
       "asOf": "2026-10-07",
       "history": [
-        {
-          "date": "2026-09-06",
-          "close": 4.84
-        },
         {
           "date": "2026-09-07",
           "close": 4.85
@@ -2349,18 +2345,18 @@
           "close": 4.67
         },
         {
+          "date": "2026-10-06",
+          "close": 4.68
+        },
+        {
           "date": "2026-10-07",
-          "close": 4.65
+          "close": 4.67
         }
       ],
       "label": "AUD/CNY",
       "symbol": "AUDCNY=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-07-06",
-          "close": 4.73
-        },
         {
           "date": "2026-07-07",
           "close": 4.7
@@ -2622,8 +2618,12 @@
           "close": 4.67
         },
         {
+          "date": "2026-10-06",
+          "close": 4.68
+        },
+        {
           "date": "2026-10-07",
-          "close": 4.65
+          "close": 4.67
         }
       ],
       "h6m": [
@@ -2733,11 +2733,11 @@
         },
         {
           "date": "2026-10-04",
-          "close": 4.67
+          "close": 4.68
         },
         {
           "date": "2026-10-07",
-          "close": 4.65
+          "close": 4.67
         }
       ],
       "h3y": [
@@ -3371,25 +3371,21 @@
         },
         {
           "date": "2026-10-04",
-          "close": 4.67
+          "close": 4.68
         },
         {
           "date": "2026-10-07",
-          "close": 4.65
+          "close": 4.67
         }
       ]
     },
     "audjpy": {
-      "value": 110,
-      "change": -2.55,
-      "changePercent": -2.27,
-      "previousClose": 112.56,
+      "value": 109.99,
+      "change": -1.11,
+      "changePercent": -1,
+      "previousClose": 111.09,
       "asOf": "2026-10-07",
       "history": [
-        {
-          "date": "2026-09-06",
-          "close": 112.56
-        },
         {
           "date": "2026-09-07",
           "close": 111.09
@@ -3475,18 +3471,18 @@
           "close": 110.05
         },
         {
+          "date": "2026-10-06",
+          "close": 110.48
+        },
+        {
           "date": "2026-10-07",
-          "close": 110
+          "close": 109.99
         }
       ],
       "label": "AUD/JPY",
       "symbol": "AUDJPY=X",
       "dec": 2,
       "h3m": [
-        {
-          "date": "2026-07-06",
-          "close": 112.73
-        },
         {
           "date": "2026-07-07",
           "close": 112.38
@@ -3748,8 +3744,12 @@
           "close": 110.05
         },
         {
+          "date": "2026-10-06",
+          "close": 110.48
+        },
+        {
           "date": "2026-10-07",
-          "close": 110
+          "close": 109.99
         }
       ],
       "h6m": [
@@ -3859,11 +3859,11 @@
         },
         {
           "date": "2026-10-04",
-          "close": 110.05
+          "close": 110.48
         },
         {
           "date": "2026-10-07",
-          "close": 110
+          "close": 109.99
         }
       ],
       "h3y": [
@@ -4497,11 +4497,11 @@
         },
         {
           "date": "2026-10-04",
-          "close": 110.05
+          "close": 110.48
         },
         {
           "date": "2026-10-07",
-          "close": 110
+          "close": 109.99
         }
       ]
     }
@@ -4509,14 +4509,10 @@
   "audusd": {
     "value": 0.7,
     "change": -0.03,
-    "changePercent": -3.54,
+    "changePercent": -3.57,
     "previousClose": 0.72,
     "asOf": "2026-10-07",
     "history": [
-      {
-        "date": "2026-09-06",
-        "close": 0.72
-      },
       {
         "date": "2026-09-07",
         "close": 0.72
@@ -4602,6 +4598,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-10-06",
+        "close": 0.7
+      },
+      {
         "date": "2026-10-07",
         "close": 0.7
       }
@@ -4610,10 +4610,6 @@
     "symbol": "AUDUSD=X",
     "dec": 4,
     "h3m": [
-      {
-        "date": "2026-07-06",
-        "close": 0.7
-      },
       {
         "date": "2026-07-07",
         "close": 0.69
@@ -4872,6 +4868,10 @@
       },
       {
         "date": "2026-10-05",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-06",
         "close": 0.7
       },
       {
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.69,
-      "change": -2.34,
-      "changePercent": -2.52,
+      "value": 88.86,
+      "change": -4.17,
+      "changePercent": -4.48,
       "previousClose": 93.03,
       "asOf": "2026-10-07",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-10-07",
-          "close": 90.69
+          "close": 88.86
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 102.27,
-      "change": 4.35,
-      "changePercent": 4.44,
+      "value": 100.92,
+      "change": 3,
+      "changePercent": 3.06,
       "previousClose": 97.92,
       "asOf": "2026-10-07",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-10-07",
-          "close": 102.27
+          "close": 100.92
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.17,
-      "change": 0.26,
-      "changePercent": 8.78,
+      "value": 3.26,
+      "change": 0.35,
+      "changePercent": 11.9,
       "previousClose": 2.92,
       "asOf": "2026-10-07",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 3.17
+          "close": 3.26
         }
       ],
       "name": "Natural Gas",
@@ -6203,15 +6203,11 @@
   },
   "asx200": {
     "value": 8727.7,
-    "change": -283.2,
-    "changePercent": -3.14,
-    "previousClose": 9010.9,
+    "change": -193.1,
+    "changePercent": -2.16,
+    "previousClose": 8920.8,
     "asOf": "2026-10-07",
     "history": [
-      {
-        "date": "2026-09-07",
-        "close": 9010.9
-      },
       {
         "date": "2026-09-08",
         "close": 8920.8
@@ -6295,10 +6291,6 @@
       {
         "date": "2026-10-05",
         "close": 8735.7
-      },
-      {
-        "date": "2026-10-07",
-        "close": 8727.7
       }
     ]
   },
@@ -6597,14 +6589,10 @@
       "ticker": "CBA",
       "color": "#f59e0b",
       "price": 150.37,
-      "change": -11.17,
-      "changePercent": -6.91,
-      "previousClose": 161.54,
+      "change": -8.32,
+      "changePercent": -5.24,
+      "previousClose": 158.69,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 161.54
-        },
         {
           "date": "2026-09-08",
           "close": 158.69
@@ -6692,10 +6680,6 @@
         {
           "date": "2026-10-06",
           "close": 150.37
-        },
-        {
-          "date": "2026-10-07",
-          "close": 150.37
         }
       ]
     },
@@ -6705,14 +6689,10 @@
       "ticker": "NAB",
       "color": "#1a7a4a",
       "price": 38.4,
-      "change": -1.04,
-      "changePercent": -2.64,
-      "previousClose": 39.44,
+      "change": -0.47,
+      "changePercent": -1.21,
+      "previousClose": 38.87,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 39.44
-        },
         {
           "date": "2026-09-08",
           "close": 38.87
@@ -6800,10 +6780,6 @@
         {
           "date": "2026-10-06",
           "close": 38.4
-        },
-        {
-          "date": "2026-10-07",
-          "close": 38.4
         }
       ]
     },
@@ -6813,14 +6789,10 @@
       "ticker": "ANZ",
       "color": "#2563eb",
       "price": 37.95,
-      "change": 0.02,
-      "changePercent": 0.05,
-      "previousClose": 37.93,
+      "change": 1.01,
+      "changePercent": 2.73,
+      "previousClose": 36.94,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 37.93
-        },
         {
           "date": "2026-09-08",
           "close": 36.94
@@ -6908,10 +6880,6 @@
         {
           "date": "2026-10-06",
           "close": 37.95
-        },
-        {
-          "date": "2026-10-07",
-          "close": 37.95
         }
       ]
     },
@@ -6921,14 +6889,10 @@
       "ticker": "WBC",
       "color": "#c23a3a",
       "price": 34.24,
-      "change": -0.78,
-      "changePercent": -2.23,
-      "previousClose": 35.02,
+      "change": -0.34,
+      "changePercent": -0.98,
+      "previousClose": 34.58,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 35.02
-        },
         {
           "date": "2026-09-08",
           "close": 34.58
@@ -7016,10 +6980,6 @@
         {
           "date": "2026-10-06",
           "close": 34.24
-        },
-        {
-          "date": "2026-10-07",
-          "close": 34.24
         }
       ]
     }
@@ -7031,14 +6991,10 @@
       "ticker": "BHP",
       "color": "#1a7a4a",
       "price": 62.45,
-      "change": -0.48,
-      "changePercent": -0.76,
-      "previousClose": 62.93,
+      "change": -0.1,
+      "changePercent": -0.16,
+      "previousClose": 62.55,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 62.93
-        },
         {
           "date": "2026-09-08",
           "close": 62.55
@@ -7126,10 +7082,6 @@
         {
           "date": "2026-10-06",
           "close": 62.45
-        },
-        {
-          "date": "2026-10-07",
-          "close": 62.45
         }
       ]
     },
@@ -7139,14 +7091,10 @@
       "ticker": "RIO",
       "color": "#2563eb",
       "price": 166.74,
-      "change": -10.62,
-      "changePercent": -5.99,
-      "previousClose": 177.36,
+      "change": -9.26,
+      "changePercent": -5.26,
+      "previousClose": 176,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 177.36
-        },
         {
           "date": "2026-09-08",
           "close": 176
@@ -7234,10 +7182,6 @@
         {
           "date": "2026-10-06",
           "close": 166.74
-        },
-        {
-          "date": "2026-10-07",
-          "close": 166.74
         }
       ]
     },
@@ -7247,14 +7191,10 @@
       "ticker": "FMG",
       "color": "#f59e0b",
       "price": 16.01,
-      "change": -1.76,
-      "changePercent": -9.9,
-      "previousClose": 17.77,
+      "change": -1.52,
+      "changePercent": -8.67,
+      "previousClose": 17.53,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 17.77
-        },
         {
           "date": "2026-09-08",
           "close": 17.53
@@ -7342,10 +7282,6 @@
         {
           "date": "2026-10-06",
           "close": 16.01
-        },
-        {
-          "date": "2026-10-07",
-          "close": 16.01
         }
       ]
     },
@@ -7355,14 +7291,10 @@
       "ticker": "WDS",
       "color": "#7c3aed",
       "price": 31.5,
-      "change": -0.83,
-      "changePercent": -2.57,
-      "previousClose": 32.33,
+      "change": -0.8,
+      "changePercent": -2.48,
+      "previousClose": 32.3,
       "history": [
-        {
-          "date": "2026-09-07",
-          "close": 32.33
-        },
         {
           "date": "2026-09-08",
           "close": 32.3
@@ -7450,10 +7382,6 @@
         {
           "date": "2026-10-06",
           "close": 31.5
-        },
-        {
-          "date": "2026-10-07",
-          "close": 31.5
         }
       ]
     }
@@ -7461,21 +7389,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4113.1,
-      "change": -325.9,
-      "changePercent": -7.34
+      "price": 4134,
+      "change": -305,
+      "changePercent": -6.87
     },
     {
       "name": "Silver",
-      "price": 59.88,
-      "change": -6.42,
-      "changePercent": -9.69
+      "price": 60.08,
+      "change": -6.22,
+      "changePercent": -9.39
     },
     {
       "name": "Copper",
       "price": 6.64,
       "change": -0.1,
-      "changePercent": -1.44
+      "changePercent": -1.46
     }
   ],
   "housing": {
@@ -7811,17 +7739,10 @@
   ],
   "news": [
     {
-      "title": "ASX wavers as banks decline, gold miners shine; Wall Street hits record",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-rallies-towards-an-all-time-high-20261007-p613dd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket dithered in Wednesday’s session, in contrast to Wall Street’s record-setting rally, as local traders tiptoed around rising bond yields and oil prices.",
-      "pubDate": "Wed, 07 Oct 2026 12:01:49 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Shrugging off war, the bond rout and oil crunch: Why Wall Street keeps rallying",
-      "link": "https://www.smh.com.au/business/markets/shrugging-off-war-the-bond-rout-and-oil-crunch-why-wall-street-keeps-rallying-20261007-p613ev.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The US sharemarket goes up and up, but it’s not a broad-based bull run. In fact, it comes down to two tech stars that are stemming the tide for investors.",
-      "pubDate": "Wed, 07 Oct 2026 12:18:45 +1100",
+      "title": "ASX set to slide, Wall Street retreats as bond yields, oil prices rebound",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-retreats-as-bond-yields-oil-prices-rebound-20261008-p613po.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket is set to retreat at the open as Wall Street’s benchmark index pulled back from its record high.",
+      "pubDate": "Thu, 08 Oct 2026 08:02:25 +1100",
       "source": "SMH"
     },
     {
@@ -7836,6 +7757,13 @@
       "link": "https://www.smh.com.au/business/companies/auric-boosts-gold-bounty-50-percent-with-bargain-wa-buy-20261007-p613l4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Auric Mining has locked in its WA Union Jack acquisition for $9.5m in cash and shares, lifting the company’s global resource by 51% to 301,000 mine-ready gold ounces.",
       "pubDate": "Wed, 07 Oct 2026 14:06:45 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Exploring new ways’: Big banks want to share regional branches",
+      "link": "https://www.smh.com.au/business/companies/exploring-new-ways-big-banks-want-to-share-regional-branches-20261008-p613je.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s big banks have asked for an exemption to competition law to co-operate on plans for regional banking hubs.",
+      "pubDate": "Thu, 08 Oct 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7860,38 +7788,38 @@
       "source": "SMH"
     },
     {
-      "title": "Gauff hits out at racist abuse after China Open incident",
-      "link": "https://www.abc.net.au/news/2026-10-07/tennis-china-open-coco-gauff-racist-abuse-sun-xinran/107237016",
+      "title": "Adelaide 36ers coach claims he was 'targeted' by refs in United loss",
+      "link": "https://www.abc.net.au/news/2026-10-08/nbl-adelaide-36ers-trevor-gleeson-referees-melbourne-united/107241520",
       "snippet": "",
-      "pubDate": "Tue, 06 Oct 2026 20:18:00 +0000",
+      "pubDate": "Wed, 07 Oct 2026 21:50:26 +0000",
       "source": "ABC"
     },
     {
-      "title": "The biggest media deal in history has all the hallmarks of Trump’s America",
-      "link": "https://www.smh.com.au/business/companies/the-biggest-media-deal-in-history-has-all-the-hallmarks-of-trump-s-america-20261007-p613g0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The marriage of Paramount and Warner Bros is a seismic event for Hollywood and may well change how you and I watch (and pay for) our favourite shows.",
-      "pubDate": "Wed, 07 Oct 2026 17:40:46 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "'One of the greats' signs off after fourth Roosters premiership",
-      "link": "https://www.abc.net.au/news/2026-10-07/daniel-tupou-retirement-sydney-roosters-nrl-grand-final/107238806",
+      "title": "Major Australian gambling companies face restrictions if NT bill passes",
+      "link": "https://www.abc.net.au/news/2026-10-08/online-gambling-regulation-nt-bill-inducements-deposit-caps/107229354",
       "snippet": "",
-      "pubDate": "Wed, 07 Oct 2026 05:07:32 +0000",
+      "pubDate": "Wed, 07 Oct 2026 20:37:49 +0000",
       "source": "ABC"
     },
     {
-      "title": "Lionel Messi scores final goal in emotional farewell to Argentina",
-      "link": "https://www.abc.net.au/news/2026-10-07/lionel-messi-final-argentina-international-benin/107238572",
+      "title": "CA 'actively' looking at women's schedule as Aussie stars raise concerns",
+      "link": "https://www.abc.net.au/news/2026-10-08/cricket-australia-women-schedule-beth-mooney-todd-greenberg/107241362",
       "snippet": "",
-      "pubDate": "Wed, 07 Oct 2026 02:56:21 +0000",
+      "pubDate": "Wed, 07 Oct 2026 20:14:02 +0000",
       "source": "ABC"
     },
     {
-      "title": "Bombers call draft 'a priority' after Ridley deal amid Blakey link",
-      "link": "https://www.abc.net.au/news/2026-10-07/afl-trade-period-live-blog-wednesday-october-7/107234160",
+      "title": "Aussies hit back at ex-players in build-up to first South Africa Test",
+      "link": "https://www.abc.net.au/news/2026-10-08/australia-south-africa-first-test-durban-travis-head/107241292",
       "snippet": "",
-      "pubDate": "Tue, 06 Oct 2026 21:23:33 +0000",
+      "pubDate": "Wed, 07 Oct 2026 19:48:04 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Bathurst 1000: How to watch, race start time and weather forecast",
+      "link": "https://www.abc.net.au/news/2026-10-08/bathurst-1000-how-to-watch-race-start-time-weather-forecast/107232620",
+      "snippet": "",
+      "pubDate": "Wed, 07 Oct 2026 19:33:22 +0000",
       "source": "ABC"
     }
   ]
