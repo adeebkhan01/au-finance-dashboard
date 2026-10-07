@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-07T06:17:31.731Z",
+  "fetchedAt": "2026-10-07T13:42:27.145Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": -0.02,
-      "changePercent": -3.26,
+      "change": -0.03,
+      "changePercent": -3.54,
       "previousClose": 0.72,
       "asOf": "2026-10-07",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.05,
+      "changePercent": 0.18,
       "previousClose": 0.62,
       "asOf": "2026-10-07",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
-      "change": -0.16,
-      "changePercent": -3.36,
+      "value": 4.65,
+      "change": -0.19,
+      "changePercent": -3.91,
       "previousClose": 4.84,
       "asOf": "2026-10-07",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 4.67
+          "close": 4.65
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 4.67
+          "close": 4.65
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 4.67
+          "close": 4.65
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-10-07",
-          "close": 4.67
+          "close": 4.65
         }
       ]
     },
     "audjpy": {
-      "value": 110.37,
-      "change": -2.19,
-      "changePercent": -1.94,
+      "value": 110,
+      "change": -2.55,
+      "changePercent": -2.27,
       "previousClose": 112.56,
       "asOf": "2026-10-07",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 110.37
+          "close": 110
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 110.37
+          "close": 110
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 110.37
+          "close": 110
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-10-07",
-          "close": 110.37
+          "close": 110
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": -0.02,
-    "changePercent": -3.26,
+    "change": -0.03,
+    "changePercent": -3.54,
     "previousClose": 0.72,
     "asOf": "2026-10-07",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.21,
-      "change": -2.82,
-      "changePercent": -3.03,
+      "value": 90.69,
+      "change": -2.34,
+      "changePercent": -2.52,
       "previousClose": 93.03,
       "asOf": "2026-10-07",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-10-07",
-          "close": 90.21
+          "close": 90.69
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 101.45,
-      "change": 3.53,
-      "changePercent": 3.6,
+      "value": 102.27,
+      "change": 4.35,
+      "changePercent": 4.44,
       "previousClose": 97.92,
       "asOf": "2026-10-07",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-10-07",
-          "close": 101.45
+          "close": 102.27
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.14,
-      "change": 0.23,
-      "changePercent": 7.75,
+      "value": 3.17,
+      "change": 0.26,
+      "changePercent": 8.78,
       "previousClose": 2.92,
       "asOf": "2026-10-07",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-10-07",
-          "close": 3.14
+          "close": 3.17
         }
       ],
       "name": "Natural Gas",
@@ -6690,6 +6690,10 @@
           "close": 152.38
         },
         {
+          "date": "2026-10-06",
+          "close": 150.37
+        },
+        {
           "date": "2026-10-07",
           "close": 150.37
         }
@@ -6792,6 +6796,10 @@
         {
           "date": "2026-10-05",
           "close": 38.7
+        },
+        {
+          "date": "2026-10-06",
+          "close": 38.4
         },
         {
           "date": "2026-10-07",
@@ -6898,6 +6906,10 @@
           "close": 37.86
         },
         {
+          "date": "2026-10-06",
+          "close": 37.95
+        },
+        {
           "date": "2026-10-07",
           "close": 37.95
         }
@@ -7000,6 +7012,10 @@
         {
           "date": "2026-10-05",
           "close": 34.66
+        },
+        {
+          "date": "2026-10-06",
+          "close": 34.24
         },
         {
           "date": "2026-10-07",
@@ -7108,6 +7124,10 @@
           "close": 62.86
         },
         {
+          "date": "2026-10-06",
+          "close": 62.45
+        },
+        {
           "date": "2026-10-07",
           "close": 62.45
         }
@@ -7210,6 +7230,10 @@
         {
           "date": "2026-10-05",
           "close": 167.77
+        },
+        {
+          "date": "2026-10-06",
+          "close": 166.74
         },
         {
           "date": "2026-10-07",
@@ -7316,6 +7340,10 @@
           "close": 16.41
         },
         {
+          "date": "2026-10-06",
+          "close": 16.01
+        },
+        {
           "date": "2026-10-07",
           "close": 16.01
         }
@@ -7420,6 +7448,10 @@
           "close": 31.24
         },
         {
+          "date": "2026-10-06",
+          "close": 31.5
+        },
+        {
           "date": "2026-10-07",
           "close": 31.5
         }
@@ -7429,21 +7461,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4158.4,
-      "change": -280.6,
-      "changePercent": -6.32
+      "price": 4113.1,
+      "change": -325.9,
+      "changePercent": -7.34
     },
     {
       "name": "Silver",
-      "price": 60.93,
-      "change": -5.37,
-      "changePercent": -8.1
+      "price": 59.88,
+      "change": -6.42,
+      "changePercent": -9.69
     },
     {
       "name": "Copper",
-      "price": 6.63,
-      "change": -0.11,
-      "changePercent": -1.64
+      "price": 6.64,
+      "change": -0.1,
+      "changePercent": -1.44
     }
   ],
   "housing": {
@@ -7779,9 +7811,9 @@
   ],
   "news": [
     {
-      "title": "ASX turns lower as banks decline, gold miners shine; Wall Street hits record",
+      "title": "ASX wavers as banks decline, gold miners shine; Wall Street hits record",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-rallies-towards-an-all-time-high-20261007-p613dd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The local sharemarket opened higher but then swung into the red, even after Wall Street traders drove US stocks to all-time highs overnight.",
+      "snippet": "The Australian sharemarket dithered in Wednesday’s session, in contrast to Wall Street’s record-setting rally, as local traders tiptoed around rising bond yields and oil prices.",
       "pubDate": "Wed, 07 Oct 2026 12:01:49 +1100",
       "source": "SMH"
     },
@@ -7804,13 +7836,6 @@
       "link": "https://www.smh.com.au/business/companies/auric-boosts-gold-bounty-50-percent-with-bargain-wa-buy-20261007-p613l4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Auric Mining has locked in its WA Union Jack acquisition for $9.5m in cash and shares, lifting the company’s global resource by 51% to 301,000 mine-ready gold ounces.",
       "pubDate": "Wed, 07 Oct 2026 14:06:45 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Tesla and power giants revolt against Australia’s ‘EV charger tax’",
-      "link": "https://www.smh.com.au/business/consumer-affairs/tesla-and-power-giants-revolt-against-australia-s-ev-charger-tax-20261007-p613a1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A battle has erupted over plans to let grid operators mount EV chargers on their power poles – and bill non-EV drivers for the cost.",
-      "pubDate": "Wed, 07 Oct 2026 10:24:36 +1100",
       "source": "SMH"
     },
     {
@@ -7840,6 +7865,13 @@
       "snippet": "",
       "pubDate": "Tue, 06 Oct 2026 20:18:00 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "The biggest media deal in history has all the hallmarks of Trump’s America",
+      "link": "https://www.smh.com.au/business/companies/the-biggest-media-deal-in-history-has-all-the-hallmarks-of-trump-s-america-20261007-p613g0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The marriage of Paramount and Warner Bros is a seismic event for Hollywood and may well change how you and I watch (and pay for) our favourite shows.",
+      "pubDate": "Wed, 07 Oct 2026 17:40:46 +1100",
+      "source": "SMH"
     },
     {
       "title": "'One of the greats' signs off after fourth Roosters premiership",
