@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-08T06:27:16.643Z",
+  "fetchedAt": "2026-10-08T13:53:22.243Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.03,
-      "changePercent": -3.67,
+      "changePercent": -3.66,
       "previousClose": 0.72,
       "asOf": "2026-10-08",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": -0.06,
+      "changePercent": -0.03,
       "previousClose": 0.62,
       "asOf": "2026-10-08",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.66,
-      "change": -0.18,
-      "changePercent": -3.81,
+      "value": 4.65,
+      "change": -0.2,
+      "changePercent": -4.09,
       "previousClose": 4.85,
       "asOf": "2026-10-08",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-10-08",
-          "close": 4.66
+          "close": 4.65
         }
       ]
     },
     "audjpy": {
-      "value": 109.94,
-      "change": -1.16,
-      "changePercent": -1.04,
+      "value": 109.99,
+      "change": -1.1,
+      "changePercent": -0.99,
       "previousClose": 111.09,
       "asOf": "2026-10-08",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 109.94
+          "close": 109.99
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 109.94
+          "close": 109.99
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 109.94
+          "close": 109.99
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 109.94
+          "close": 109.99
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.03,
-    "changePercent": -3.67,
+    "changePercent": -3.66,
     "previousClose": 0.72,
     "asOf": "2026-10-08",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.34,
-      "change": -2.69,
-      "changePercent": -2.89,
+      "value": 92.17,
+      "change": -0.86,
+      "changePercent": -0.92,
       "previousClose": 93.03,
       "asOf": "2026-10-08",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-10-08",
-          "close": 90.34
+          "close": 92.17
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 102.75,
-      "change": 4.83,
-      "changePercent": 4.93,
+      "value": 104.52,
+      "change": 6.6,
+      "changePercent": 6.74,
       "previousClose": 97.92,
       "asOf": "2026-10-08",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-10-08",
-          "close": 102.75
+          "close": 104.52
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.25,
-      "change": 0.33,
-      "changePercent": 11.39,
+      "value": 3.24,
+      "change": 0.32,
+      "changePercent": 11.04,
       "previousClose": 2.92,
       "asOf": "2026-10-08",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-10-08",
-          "close": 3.25
+          "close": 3.24
         }
       ],
       "name": "Natural Gas",
@@ -6702,6 +6702,10 @@
           "close": 150.37
         },
         {
+          "date": "2026-10-07",
+          "close": 148.12
+        },
+        {
           "date": "2026-10-08",
           "close": 148.12
         }
@@ -6804,6 +6808,10 @@
         {
           "date": "2026-10-06",
           "close": 38.4
+        },
+        {
+          "date": "2026-10-07",
+          "close": 37.8
         },
         {
           "date": "2026-10-08",
@@ -6910,6 +6918,10 @@
           "close": 37.95
         },
         {
+          "date": "2026-10-07",
+          "close": 37.36
+        },
+        {
           "date": "2026-10-08",
           "close": 37.36
         }
@@ -7012,6 +7024,10 @@
         {
           "date": "2026-10-06",
           "close": 34.24
+        },
+        {
+          "date": "2026-10-07",
+          "close": 33.71
         },
         {
           "date": "2026-10-08",
@@ -7120,6 +7136,10 @@
           "close": 62.45
         },
         {
+          "date": "2026-10-07",
+          "close": 61.19
+        },
+        {
           "date": "2026-10-08",
           "close": 61.19
         }
@@ -7222,6 +7242,10 @@
         {
           "date": "2026-10-06",
           "close": 166.74
+        },
+        {
+          "date": "2026-10-07",
+          "close": 161.97
         },
         {
           "date": "2026-10-08",
@@ -7328,6 +7352,10 @@
           "close": 16.01
         },
         {
+          "date": "2026-10-07",
+          "close": 15.79
+        },
+        {
           "date": "2026-10-08",
           "close": 15.79
         }
@@ -7432,6 +7460,10 @@
           "close": 31.5
         },
         {
+          "date": "2026-10-07",
+          "close": 32.31
+        },
+        {
           "date": "2026-10-08",
           "close": 32.31
         }
@@ -7441,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4144.8,
-      "change": -294.2,
-      "changePercent": -6.63
+      "price": 4148.4,
+      "change": -290.6,
+      "changePercent": -6.55
     },
     {
       "name": "Silver",
-      "price": 59.49,
-      "change": -6.81,
-      "changePercent": -10.27
+      "price": 59.44,
+      "change": -6.86,
+      "changePercent": -10.35
     },
     {
       "name": "Copper",
-      "price": 6.69,
-      "change": -0.04,
-      "changePercent": -0.67
+      "price": 6.6,
+      "change": -0.14,
+      "changePercent": -2.06
     }
   ],
   "housing": {
@@ -7791,10 +7823,10 @@
   ],
   "news": [
     {
-      "title": "Miners plunge, sending the ASX lower after Wall Street retreats",
+      "title": "ASX finishes lower as oil jumps again on renewed Iran tensions",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-wall-street-retreats-as-bond-yields-oil-prices-rebound-20261008-p613po.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket slumped in early trade, tracking moves on Wall Street, which pulled back from its record high as elevated oil prices continued to stoke inflation concerns.",
-      "pubDate": "Thu, 08 Oct 2026 08:02:25 +1100",
+      "snippet": "The Australian sharemarket declined on Thursday as oil prices jumped on renewed Middle East tensions, stoking concerns about inflation. Miners led the losses.",
+      "pubDate": "Thu, 08 Oct 2026 17:37:11 +1100",
       "source": "SMH"
     },
     {
@@ -7809,6 +7841,13 @@
       "link": "https://www.smh.com.au/business/markets/europe-raids-trump-s-tool-box-for-new-trade-bazooka-against-china-20261008-p613rp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "France and Germany have proposed measures that could cut China off its biggest and richest market if it doesn’t change its ways.",
       "pubDate": "Thu, 08 Oct 2026 12:14:04 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "’Tis the season for (AI) shortcuts: Inside Coles and Woolies’ fight over Christmas",
+      "link": "https://www.smh.com.au/business/companies/tis-the-season-for-ai-shortcuts-inside-coles-and-woolies-fight-over-christmas-20261008-p613t5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s two biggest supermarkets were in agreement on when to hold their Christmas launches this year, but a new battleground has emerged.",
+      "pubDate": "Thu, 08 Oct 2026 20:20:07 +1100",
       "source": "SMH"
     },
     {
@@ -7833,6 +7872,20 @@
       "source": "SMH"
     },
     {
+      "title": "Matildas coach backs Mary Fowler's absence from friendlies",
+      "link": "https://www.abc.net.au/news/2026-10-08/matildas-coach-backs-mary-fowler-absence-from-friendlies/107245238",
+      "snippet": "",
+      "pubDate": "Thu, 08 Oct 2026 09:15:17 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Kai Allen shines as Ford gets engine change for Bathurst",
+      "link": "https://www.abc.net.au/news/2026-10-08/bathurst-1000-supercars-kai-allen-fastest-practice-thursday/107244458",
+      "snippet": "",
+      "pubDate": "Thu, 08 Oct 2026 06:35:17 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Dropped Aussie opener out of Sheffield Shield match with concussion",
       "link": "https://www.abc.net.au/news/2026-10-08/jake-weatherald-out-of-sheffield-shield-match-with-concussion/107244118",
       "snippet": "",
@@ -7852,27 +7905,6 @@
       "snippet": "I asked my manager directly whether I was being pushed out. They were defensive, and said that was just their job.",
       "pubDate": "Thu, 08 Oct 2026 15:00:00 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Amateur players' chance to win $1m against pros returns to Australian Open",
-      "link": "https://www.abc.net.au/news/2026-10-08/australian-open-1-point-slam-alcaraz-sinner-osaka-gauff/107243436",
-      "snippet": "",
-      "pubDate": "Thu, 08 Oct 2026 03:41:25 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Wallabies resist urge to shift Suaalii from wing for Bledisloe Cup Test",
-      "link": "https://www.abc.net.au/news/2026-10-08/wallabies-all-blacks-joseph-aukuso-suaalii-bledisloe-cup/107242770",
-      "snippet": "",
-      "pubDate": "Thu, 08 Oct 2026 02:26:14 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Sally 'couldn't run to the mailbox'. Now she tackles ultramarathons",
-      "link": "https://www.abc.net.au/news/2026-10-08/ultramarathons-and-trail-running/106947538",
-      "snippet": "",
-      "pubDate": "Thu, 08 Oct 2026 02:00:00 +0000",
-      "source": "ABC"
     }
   ]
 }
