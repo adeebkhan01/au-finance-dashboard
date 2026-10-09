@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-09T13:38:58.694Z",
+  "fetchedAt": "2026-10-09T22:47:37.724Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -3.41,
+      "changePercent": -3.21,
       "previousClose": 0.72,
       "asOf": "2026-10-09",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-10-07",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-08",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-10-07",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-08",
           "close": 0.7
         },
         {
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.26,
+      "changePercent": 0.4,
       "previousClose": 0.62,
       "asOf": "2026-10-09",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-10-07",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-08",
           "close": 0.62
         },
         {
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-10-07",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-08",
           "close": 0.62
         },
         {
@@ -2248,7 +2264,7 @@
     "audcny": {
       "value": 4.66,
       "change": -0.18,
-      "changePercent": -3.72,
+      "changePercent": -3.8,
       "previousClose": 4.85,
       "asOf": "2026-10-09",
       "history": [
@@ -2339,6 +2355,10 @@
         {
           "date": "2026-10-07",
           "close": 4.67
+        },
+        {
+          "date": "2026-10-08",
+          "close": 4.66
         },
         {
           "date": "2026-10-09",
@@ -2614,6 +2634,10 @@
           "close": 4.67
         },
         {
+          "date": "2026-10-08",
+          "close": 4.66
+        },
+        {
           "date": "2026-10-09",
           "close": 4.66
         }
@@ -2725,7 +2749,7 @@
         },
         {
           "date": "2026-10-04",
-          "close": 4.67
+          "close": 4.66
         },
         {
           "date": "2026-10-09",
@@ -3359,7 +3383,7 @@
         },
         {
           "date": "2026-10-04",
-          "close": 4.67
+          "close": 4.66
         },
         {
           "date": "2026-10-09",
@@ -3368,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.39,
-      "change": -0.43,
-      "changePercent": -0.38,
+      "value": 110.57,
+      "change": -0.25,
+      "changePercent": -0.22,
       "previousClose": 110.82,
       "asOf": "2026-10-09",
       "history": [
@@ -3463,8 +3487,12 @@
           "close": 110.04
         },
         {
+          "date": "2026-10-08",
+          "close": 109.96
+        },
+        {
           "date": "2026-10-09",
-          "close": 110.39
+          "close": 110.57
         }
       ],
       "label": "AUD/JPY",
@@ -3736,8 +3764,12 @@
           "close": 110.04
         },
         {
+          "date": "2026-10-08",
+          "close": 109.96
+        },
+        {
           "date": "2026-10-09",
-          "close": 110.39
+          "close": 110.57
         }
       ],
       "h6m": [
@@ -3847,11 +3879,11 @@
         },
         {
           "date": "2026-10-04",
-          "close": 110.04
+          "close": 109.96
         },
         {
           "date": "2026-10-09",
-          "close": 110.39
+          "close": 110.57
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-10-04",
-          "close": 110.04
+          "close": 109.96
         },
         {
           "date": "2026-10-09",
-          "close": 110.39
+          "close": 110.57
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -3.41,
+    "changePercent": -3.21,
     "previousClose": 0.72,
     "asOf": "2026-10-09",
     "history": [
@@ -4583,6 +4615,10 @@
       },
       {
         "date": "2026-10-07",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-08",
         "close": 0.7
       },
       {
@@ -4856,6 +4892,10 @@
       },
       {
         "date": "2026-10-07",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-08",
         "close": 0.7
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 90.83,
-      "change": -5.22,
-      "changePercent": -5.43,
+      "value": 91.66,
+      "change": -4.39,
+      "changePercent": -4.57,
       "previousClose": 96.05,
       "asOf": "2026-10-09",
       "history": [
@@ -5902,16 +5942,16 @@
         },
         {
           "date": "2026-10-09",
-          "close": 90.83
+          "close": 91.66
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 103.31,
-      "change": 2.1,
-      "changePercent": 2.07,
+      "value": 104.43,
+      "change": 3.22,
+      "changePercent": 3.18,
       "previousClose": 101.21,
       "asOf": "2026-10-09",
       "history": [
@@ -6005,16 +6045,16 @@
         },
         {
           "date": "2026-10-09",
-          "close": 103.31
+          "close": 104.43
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.18,
-      "change": 0.36,
-      "changePercent": 12.58,
+      "value": 3.2,
+      "change": 0.38,
+      "changePercent": 13.54,
       "previousClose": 2.82,
       "asOf": "2026-10-09",
       "history": [
@@ -6108,7 +6148,7 @@
         },
         {
           "date": "2026-10-09",
-          "close": 3.18
+          "close": 3.2
         }
       ],
       "name": "Natural Gas",
@@ -7453,21 +7493,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4213.4,
-      "change": -247.3,
-      "changePercent": -5.54
+      "price": 4220.3,
+      "change": -240.4,
+      "changePercent": -5.39
     },
     {
       "name": "Silver",
-      "price": 61.05,
-      "change": -6.89,
-      "changePercent": -10.14
+      "price": 61.11,
+      "change": -6.83,
+      "changePercent": -10.06
     },
     {
       "name": "Copper",
       "price": 6.71,
       "change": -0.09,
-      "changePercent": -1.39
+      "changePercent": -1.36
     }
   ],
   "housing": {
@@ -7838,13 +7878,6 @@
       "source": "SMH"
     },
     {
-      "title": "Anthony De Ceglie steps down as Perth Bears CEO",
-      "link": "https://www.abc.net.au/news/2026-10-09/perth-bears-ceo-anthony-de-ceglie-steps-down/107250116",
-      "snippet": "",
-      "pubDate": "Fri, 09 Oct 2026 09:21:24 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "The world’s richest person is testing Wall Street’s limits",
       "link": "https://www.smh.com.au/business/markets/the-world-s-richest-person-is-testing-wall-street-s-limits-20261009-p613qf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Elon Musk has always been a mixed blessing for Wall Street. Now, as the AI party rolls on, he is testing the limits of the debt boom.",
@@ -7866,24 +7899,31 @@
       "source": "SMH"
     },
     {
-      "title": "Litchfield fireworks help Australia to ODI victory over Bangladesh",
-      "link": "https://www.abc.net.au/news/2026-10-09/australia-romps-to-odi-victory-over-bangladesh/107250156",
+      "title": "Australia's Test start no disaster, but order issues hint at troubles ahead",
+      "link": "https://www.abc.net.au/news/2026-10-10/first-test-australia-south-africa-day-one-analysis/107250280",
       "snippet": "",
-      "pubDate": "Fri, 09 Oct 2026 10:57:02 +0000",
+      "pubDate": "Fri, 09 Oct 2026 19:51:32 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Bad light pauses play with Renshaw on the brink of drought-breaking milestone",
-      "link": "https://www.abc.net.au/news/2026-10-09/south-africa-australia-live-first-test-durban-day-one/107249690",
+      "title": "Quick hits: Maddinson makes historic 33-ball duck as Aussie batters flounder",
+      "link": "https://www.abc.net.au/news/2026-10-10/test-cricket-quick-hits-steve-smith-nic-maddinson-aus-sa/107249920",
       "snippet": "",
-      "pubDate": "Fri, 09 Oct 2026 06:31:15 +0000",
+      "pubDate": "Fri, 09 Oct 2026 19:18:12 +0000",
       "source": "ABC"
     },
     {
-      "title": "Wallabies must 'walk the walk' if 40-year-old curse is to end",
-      "link": "https://www.abc.net.au/news/2026-10-09/rugby-wallabies-all-blacks-bledisloe-cup-eden-park/107247998",
+      "title": "Young gun favourite for Bathurst shootout as Kostecki attempts record feat",
+      "link": "https://www.abc.net.au/news/2026-10-10/bathurst-1000-drivers-prepare-for-top-10-shootout/107232628",
       "snippet": "",
-      "pubDate": "Fri, 09 Oct 2026 04:03:28 +0000",
+      "pubDate": "Fri, 09 Oct 2026 19:17:02 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Wallabies join former boss Rennie in mutual admiration society",
+      "link": "https://www.abc.net.au/news/2026-10-10/wallabies-all-blacks-dave-rennie-harry-wilson-bledisloe-cup-test/107249598",
+      "snippet": "",
+      "pubDate": "Fri, 09 Oct 2026 19:16:24 +0000",
       "source": "ABC"
     }
   ]
