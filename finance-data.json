@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-14T12:13:22.147Z",
+  "fetchedAt": "2026-10-14T17:26:58.862Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": -0.01,
-      "changePercent": -1.99,
+      "change": -0.02,
+      "changePercent": -2.6,
       "previousClose": 0.72,
       "asOf": "2026-10-14",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.63,
       "change": 0.01,
-      "changePercent": 1.48,
+      "changePercent": 1.36,
       "previousClose": 0.62,
       "asOf": "2026-10-14",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.69,
-      "change": -0.11,
-      "changePercent": -2.2,
+      "value": 4.66,
+      "change": -0.13,
+      "changePercent": -2.76,
       "previousClose": 4.8,
       "asOf": "2026-10-14",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 4.69
+          "close": 4.66
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 4.69
+          "close": 4.66
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 4.69
+          "close": 4.66
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-10-14",
-          "close": 4.69
+          "close": 4.66
         }
       ]
     },
     "audjpy": {
-      "value": 111.05,
-      "change": 1.32,
-      "changePercent": 1.2,
+      "value": 110.44,
+      "change": 0.71,
+      "changePercent": 0.65,
       "previousClose": 109.73,
       "asOf": "2026-10-14",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 111.05
+          "close": 110.44
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 111.05
+          "close": 110.44
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 111.05
+          "close": 110.43
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-10-14",
-          "close": 111.05
+          "close": 110.43
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": -0.01,
-    "changePercent": -1.99,
+    "change": -0.02,
+    "changePercent": -2.6,
     "previousClose": 0.72,
     "asOf": "2026-10-14",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 95.56,
-      "change": -5.83,
-      "changePercent": -5.75,
+      "value": 95.79,
+      "change": -5.6,
+      "changePercent": -5.52,
       "previousClose": 101.39,
       "asOf": "2026-10-14",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-10-14",
-          "close": 95.56
+          "close": 95.79
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 106.3,
-      "change": 0.62,
-      "changePercent": 0.59,
+      "value": 106.58,
+      "change": 0.9,
+      "changePercent": 0.85,
       "previousClose": 105.68,
       "asOf": "2026-10-14",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-10-14",
-          "close": 106.3
+          "close": 106.58
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.27,
-      "change": 0.37,
-      "changePercent": 12.74,
+      "value": 3.17,
+      "change": 0.27,
+      "changePercent": 9.46,
       "previousClose": 2.9,
       "asOf": "2026-10-14",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 3.27
+          "close": 3.17
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4166.4,
-      "change": -185.5,
-      "changePercent": -4.26
+      "price": 4100.6,
+      "change": -251.3,
+      "changePercent": -5.77
     },
     {
       "name": "Silver",
-      "price": 58.77,
-      "change": -4.75,
-      "changePercent": -7.48
+      "price": 55.69,
+      "change": -7.83,
+      "changePercent": -12.33
     },
     {
       "name": "Copper",
-      "price": 6.75,
-      "change": 0.42,
-      "changePercent": 6.67
+      "price": 6.65,
+      "change": 0.32,
+      "changePercent": 5.01
     }
   ],
   "housing": {
