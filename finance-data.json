@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-14T17:26:58.862Z",
+  "fetchedAt": "2026-10-14T21:51:45.409Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.02,
-      "changePercent": -2.6,
+      "changePercent": -2.49,
       "previousClose": 0.72,
       "asOf": "2026-10-14",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-10-12",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-13",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-10-12",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-13",
           "close": 0.7
         },
         {
@@ -1128,9 +1136,9 @@
       ]
     },
     "audeur": {
-      "value": 0.63,
+      "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.36,
+      "changePercent": 1.31,
       "previousClose": 0.62,
       "asOf": "2026-10-14",
       "history": [
@@ -1223,8 +1231,12 @@
           "close": 0.62
         },
         {
+          "date": "2026-10-13",
+          "close": 0.62
+        },
+        {
           "date": "2026-10-14",
-          "close": 0.63
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1496,8 +1508,12 @@
           "close": 0.62
         },
         {
+          "date": "2026-10-13",
+          "close": 0.62
+        },
+        {
           "date": "2026-10-14",
-          "close": 0.63
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1611,7 +1627,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 0.63
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2249,14 +2265,14 @@
         },
         {
           "date": "2026-10-14",
-          "close": 0.63
+          "close": 0.62
         }
       ]
     },
     "audcny": {
       "value": 4.66,
       "change": -0.13,
-      "changePercent": -2.76,
+      "changePercent": -2.77,
       "previousClose": 4.8,
       "asOf": "2026-10-14",
       "history": [
@@ -2347,6 +2363,10 @@
         {
           "date": "2026-10-12",
           "close": 4.65
+        },
+        {
+          "date": "2026-10-13",
+          "close": 4.67
         },
         {
           "date": "2026-10-14",
@@ -2622,6 +2642,10 @@
           "close": 4.65
         },
         {
+          "date": "2026-10-13",
+          "close": 4.67
+        },
+        {
           "date": "2026-10-14",
           "close": 4.66
         }
@@ -2733,7 +2757,7 @@
         },
         {
           "date": "2026-10-11",
-          "close": 4.65
+          "close": 4.67
         },
         {
           "date": "2026-10-14",
@@ -3371,7 +3395,7 @@
         },
         {
           "date": "2026-10-11",
-          "close": 4.65
+          "close": 4.67
         },
         {
           "date": "2026-10-14",
@@ -3380,9 +3404,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.44,
-      "change": 0.71,
-      "changePercent": 0.65,
+      "value": 110.31,
+      "change": 0.59,
+      "changePercent": 0.53,
       "previousClose": 109.73,
       "asOf": "2026-10-14",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 110.26
         },
         {
+          "date": "2026-10-13",
+          "close": 110.54
+        },
+        {
           "date": "2026-10-14",
-          "close": 110.44
+          "close": 110.31
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 110.26
         },
         {
+          "date": "2026-10-13",
+          "close": 110.54
+        },
+        {
           "date": "2026-10-14",
-          "close": 110.44
+          "close": 110.32
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-10-11",
-          "close": 110.26
+          "close": 110.54
         },
         {
           "date": "2026-10-14",
-          "close": 110.43
+          "close": 110.32
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-10-11",
-          "close": 110.26
+          "close": 110.54
         },
         {
           "date": "2026-10-14",
-          "close": 110.43
+          "close": 110.33
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.02,
-    "changePercent": -2.6,
+    "changePercent": -2.49,
     "previousClose": 0.72,
     "asOf": "2026-10-14",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-10-12",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-13",
         "close": 0.7
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-10-12",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-13",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 95.79,
-      "change": -5.6,
-      "changePercent": -5.52,
+      "value": 95.17,
+      "change": -6.22,
+      "changePercent": -6.13,
       "previousClose": 101.39,
       "asOf": "2026-10-14",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-10-14",
-          "close": 95.79
+          "close": 95.17
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 106.58,
-      "change": 0.9,
-      "changePercent": 0.85,
+      "value": 106.06,
+      "change": 0.38,
+      "changePercent": 0.36,
       "previousClose": 105.68,
       "asOf": "2026-10-14",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-10-14",
-          "close": 106.58
+          "close": 106.06
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.17,
-      "change": 0.27,
-      "changePercent": 9.46,
+      "value": 3.29,
+      "change": 0.39,
+      "changePercent": 13.5,
       "previousClose": 2.9,
       "asOf": "2026-10-14",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-10-14",
-          "close": 3.17
+          "close": 3.29
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4100.6,
-      "change": -251.3,
-      "changePercent": -5.77
+      "price": 4127.3,
+      "change": -224.6,
+      "changePercent": -5.16
     },
     {
       "name": "Silver",
-      "price": 55.69,
-      "change": -7.83,
-      "changePercent": -12.33
+      "price": 55.8,
+      "change": -7.71,
+      "changePercent": -12.14
     },
     {
       "name": "Copper",
-      "price": 6.65,
-      "change": 0.32,
-      "changePercent": 5.01
+      "price": 6.62,
+      "change": 0.29,
+      "changePercent": 4.5
     }
   ],
   "housing": {
@@ -7837,11 +7877,25 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to fall, Wall Street slumps as inflation gets worse; Netflix job cuts",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-wall-street-slumps-as-inflation-gets-worse-20261015-p615oq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Worries about worsening inflation are weighing on Wall Street and pulling the US stock market further from its record.",
+      "pubDate": "Thu, 15 Oct 2026 07:16:01 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "TMK Energy steps on gas with fresh Mongolian drilling",
       "link": "https://www.smh.com.au/business/companies/tmk-energy-steps-on-gas-with-fresh-mongolian-drilling-20261014-p615lo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "TMK Energy has kicked off a drilling and re-completion program at its Mongolian Gurvantes XXXV gas project to boost production from existing pilot wells.",
       "pubDate": "Wed, 14 Oct 2026 16:27:50 +1100",
       "source": "SMH"
+    },
+    {
+      "title": "Aussie cyclists begin World Championships with silver medal",
+      "link": "https://www.abc.net.au/news/2026-10-15/uci-track-world-championships-australia-silver-team-sprint/107268230",
+      "snippet": "",
+      "pubDate": "Wed, 14 Oct 2026 20:14:06 +0000",
+      "source": "ABC"
     },
     {
       "title": "Atlassian engineer claims his ADHD should save him from the chop",
@@ -7858,27 +7912,6 @@
       "source": "SMH"
     },
     {
-      "title": "2GB’s Ben Fordham interviews Ben Roberts-Smith ahead of war crimes trial",
-      "link": "https://www.smh.com.au/business/companies/2gb-s-ben-fordham-to-interview-ben-roberts-smith-ahead-of-war-crime-trial-20261014-p615jy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The radio station has nabbed its big fish, with an interview with the disgraced special forces soldier now waiting for an opportune day to go live.",
-      "pubDate": "Wed, 14 Oct 2026 15:37:31 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Moonlight eyes 662,000 gold ounces in Queensland treasure hunt",
-      "link": "https://www.smh.com.au/business/companies/moonlight-eyes-662-000-gold-ounces-in-queensland-treasure-hunt-20261014-p615kp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Moonlight Resources has tabled a near-surface exploration target of up to 662,000oz gold across three prospects at its Qld Clermont project, prompting a 13,000m drilling program.",
-      "pubDate": "Wed, 14 Oct 2026 15:31:29 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "PLC Resources calls in satellites for WA gold chase",
-      "link": "https://www.smh.com.au/business/companies/plc-resources-calls-in-satellites-for-wa-gold-chase-20261014-p615k9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "PLC Resources will harness satellite surveys at its Abbotts gold project in WA to map gold-related alteration and structures, sharpening gold target discovery.",
-      "pubDate": "Wed, 14 Oct 2026 14:56:48 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "Roos miss out as Dees, Dons and Eagles complete dramatic deadline day trades",
       "link": "https://www.abc.net.au/news/2026-10-14/afl-trade-period-deadline-day-live-updates-coleman-viney-short/107264274",
       "snippet": "",
@@ -7886,25 +7919,32 @@
       "source": "ABC"
     },
     {
-      "title": "Afghan batter recreates infamous hamstring injury used against Australia",
-      "link": "https://www.abc.net.au/news/2026-10-14/afghan-batter-recreates-infamous-hamstring-injury/107264528",
+      "title": "‘Obsessed’: The reclusive billionaire heiress who can’t stop getting richer",
+      "link": "https://www.smh.com.au/business/companies/the-reluctant-billionaire-heiress-who-can-t-stop-getting-richer-20261015-p613ze.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Sandra Ortega has amassed enormous wealth without ever playing a role at the business her parents started - now the world’s biggest fashion retailer.",
+      "pubDate": "Thu, 15 Oct 2026 07:20:54 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Top gymnastics coach fined after assaulting two female teen athletes",
+      "link": "https://www.abc.net.au/news/2026-10-15/gymnastics-coach-jamie-glen-cannon-fined-assaulting-teen-girls/107263964",
       "snippet": "",
-      "pubDate": "Wed, 14 Oct 2026 02:14:11 +0000",
+      "pubDate": "Wed, 14 Oct 2026 20:03:36 +0000",
       "source": "ABC"
     },
     {
-      "title": "F1 returns to Africa with Rwanda signing 10-year deal",
-      "link": "https://www.abc.net.au/news/2026-10-14/f1-to-host-african-grand-prix-in-rwanda/107263392",
+      "title": "Schutt stars as Aussies sweep Bangladesh in ODI series",
+      "link": "https://www.abc.net.au/news/2026-10-15/australia-bangladesh-odi-series-brisbane/107268200",
       "snippet": "",
-      "pubDate": "Tue, 13 Oct 2026 22:33:22 +0000",
+      "pubDate": "Wed, 14 Oct 2026 19:31:25 +0000",
       "source": "ABC"
     },
     {
-      "title": "De Minaur sets up Shanghai quarterfinal with Zverev",
-      "link": "https://www.abc.net.au/news/2026-10-14/alex-de-minaur-advances-to-quarterfinals-of-shanghai-masters/107263278",
-      "snippet": "",
-      "pubDate": "Tue, 13 Oct 2026 22:00:27 +0000",
-      "source": "ABC"
+      "title": "Delta to offer free in-flight Wi-Fi on all Australian flights within weeks",
+      "link": "https://www.smh.com.au/business/companies/delta-to-offer-free-in-flight-wi-fi-on-all-australian-flights-within-weeks-20261015-p615ib.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US airline says it has no regrets about picking a fight with Elon Musk by saying no to using his Starlink system to keep its passengers connected.",
+      "pubDate": "Thu, 15 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
     }
   ]
 }
