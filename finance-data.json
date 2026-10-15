@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-15T17:14:44.013Z",
+  "fetchedAt": "2026-10-15T21:36:51.326Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -3.12,
+      "changePercent": -3.01,
       "previousClose": 0.71,
       "asOf": "2026-10-15",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-10-13",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-14",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-10-13",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-14",
           "close": 0.7
         },
         {
@@ -1130,7 +1138,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": -0.26,
+      "changePercent": -0.19,
       "previousClose": 0.62,
       "asOf": "2026-10-15",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-10-13",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-14",
           "close": 0.62
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-10-13",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-14",
           "close": 0.62
         },
         {
@@ -2255,8 +2271,8 @@
     },
     "audcny": {
       "value": 4.63,
-      "change": -0.16,
-      "changePercent": -3.37,
+      "change": -0.15,
+      "changePercent": -3.23,
       "previousClose": 4.79,
       "asOf": "2026-10-15",
       "history": [
@@ -2346,6 +2362,10 @@
         },
         {
           "date": "2026-10-13",
+          "close": 4.67
+        },
+        {
+          "date": "2026-10-14",
           "close": 4.67
         },
         {
@@ -2619,6 +2639,10 @@
         },
         {
           "date": "2026-10-13",
+          "close": 4.67
+        },
+        {
+          "date": "2026-10-14",
           "close": 4.67
         },
         {
@@ -3380,9 +3404,9 @@
       ]
     },
     "audjpy": {
-      "value": 109.29,
-      "change": -0.89,
-      "changePercent": -0.81,
+      "value": 109.32,
+      "change": -0.86,
+      "changePercent": -0.78,
       "previousClose": 110.18,
       "asOf": "2026-10-15",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 110.54
         },
         {
+          "date": "2026-10-14",
+          "close": 110.23
+        },
+        {
           "date": "2026-10-15",
-          "close": 109.29
+          "close": 109.32
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 110.54
         },
         {
+          "date": "2026-10-14",
+          "close": 110.23
+        },
+        {
           "date": "2026-10-15",
-          "close": 109.29
+          "close": 109.31
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-10-11",
-          "close": 110.54
+          "close": 110.23
         },
         {
           "date": "2026-10-15",
-          "close": 109.29
+          "close": 109.31
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-10-11",
-          "close": 110.54
+          "close": 110.23
         },
         {
           "date": "2026-10-15",
-          "close": 109.29
+          "close": 109.31
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -3.12,
+    "changePercent": -3.01,
     "previousClose": 0.71,
     "asOf": "2026-10-15",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-10-13",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-14",
         "close": 0.7
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-10-13",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-14",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.54,
-      "change": -9.29,
-      "changePercent": -8.78,
+      "value": 96.12,
+      "change": -9.71,
+      "changePercent": -9.18,
       "previousClose": 105.83,
       "asOf": "2026-10-15",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-10-15",
-          "close": 96.54
+          "close": 96.12
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 106.16,
-      "change": -2.59,
-      "changePercent": -2.38,
+      "value": 105.73,
+      "change": -3.02,
+      "changePercent": -2.78,
       "previousClose": 108.75,
       "asOf": "2026-10-15",
       "history": [
@@ -6025,7 +6065,7 @@
         },
         {
           "date": "2026-10-15",
-          "close": 106.16
+          "close": 105.73
         }
       ],
       "name": "Brent Crude",
@@ -6034,7 +6074,7 @@
     "gas": {
       "value": 3.21,
       "change": 0.29,
-      "changePercent": 10.04,
+      "changePercent": 10,
       "previousClose": 2.92,
       "asOf": "2026-10-15",
       "history": [
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4168.4,
-      "change": -164.4,
-      "changePercent": -3.79
+      "price": 4192.5,
+      "change": -140.3,
+      "changePercent": -3.24
     },
     {
       "name": "Silver",
-      "price": 57.07,
-      "change": -6.17,
-      "changePercent": -9.76
+      "price": 57.61,
+      "change": -5.63,
+      "changePercent": -8.9
     },
     {
       "name": "Copper",
-      "price": 6.55,
-      "change": 0.18,
-      "changePercent": 2.9
+      "price": 6.56,
+      "change": 0.19,
+      "changePercent": 3.05
     }
   ],
   "housing": {
@@ -7823,17 +7863,10 @@
   ],
   "news": [
     {
-      "title": "Broken Hill lines up drill bit on huge copper-gold target in SA",
-      "link": "https://www.smh.com.au/business/companies/broken-hill-lines-up-drill-bit-on-huge-copper-gold-target-in-sa-20261015-p615y4.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Broken Hill Gold has launched 3000m of drilling to test a massive geophysical target beneath high-grade copper-gold hits at its White Dam project in South Australia.",
-      "pubDate": "Thu, 15 Oct 2026 16:46:58 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Gateway reshuffles top brass for WA Yandal gold push",
-      "link": "https://www.smh.com.au/business/companies/gateway-reshuffles-top-brass-for-wa-yandal-gold-push-20261015-p615x9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Gateway Mining has reshuffled its board, appointing a new MD and Chairman to drive aggressive gold exploration at its well-funded Yandal project, 85km northeast of Wiluna in WA.",
-      "pubDate": "Thu, 15 Oct 2026 15:55:45 +1100",
+      "title": "ASX set to jump as Wall Street pushes higher",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-as-wall-street-steadies-20261016-p6160q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street’s indexes muscled higher, led by companies delivering bigger profits, even as AI stocks kept swinging on worries about how much longer their boom will last.",
+      "pubDate": "Fri, 16 Oct 2026 05:20:15 +1100",
       "source": "SMH"
     },
     {
@@ -7844,18 +7877,60 @@
       "source": "SMH"
     },
     {
-      "title": "Golden Dragon sniffs out 2.2km gold footprint in WA",
-      "link": "https://www.smh.com.au/business/companies/golden-dragon-sniffs-out-2-2km-gold-footprint-in-wa-20261015-p615y8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Golden Dragon Mining has outlined a 2.2km gold anomaly at its Stella Range project in WA, just 12km south of Brightstar Resources’ 267,000-ounce Lord Byron deposit.",
-      "pubDate": "Thu, 15 Oct 2026 16:56:38 +1100",
+      "title": "De Minaur falls to world number one Zverev in Shanghai",
+      "link": "https://www.abc.net.au/news/2026-10-16/alexander-zverev-defeats-alex-de-minaur-shanghai-masters/107272886",
+      "snippet": "",
+      "pubDate": "Thu, 15 Oct 2026 19:09:03 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Builder revealed, but cost of new stadium still 'being worked through'",
+      "link": "https://www.abc.net.au/news/2026-10-16/cost-pressures-hobart-afl-stadium-price-tag/107270728",
+      "snippet": "",
+      "pubDate": "Thu, 15 Oct 2026 18:54:42 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "How the joy of Pride is 'a form of resistance' against queer discrimination",
+      "link": "https://www.abc.net.au/news/2026-10-16/tilly-lucas-rodd-ahead-of-pride-and-100th-game/107264008",
+      "snippet": "",
+      "pubDate": "Thu, 15 Oct 2026 18:49:58 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "McKinsey leader steps down from charity board days after controversial ‘glass cliff’ comments",
+      "link": "https://www.smh.com.au/business/workplace/mckinsey-leader-steps-down-from-charity-board-over-controversial-glass-cliff-comments-20261016-p615zy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Chris Bradley resigned from Opportunity International Australia just days after his controversial remarks about the challenges female CEOs face.",
+      "pubDate": "Fri, 16 Oct 2026 05:30:41 +1100",
       "source": "SMH"
     },
     {
-      "title": "Aussie cyclists begin World Championships with silver medal",
-      "link": "https://www.abc.net.au/news/2026-10-15/uci-track-world-championships-australia-silver-team-sprint/107268230",
-      "snippet": "",
-      "pubDate": "Wed, 14 Oct 2026 20:14:06 +0000",
-      "source": "ABC"
+      "title": "The three factors driving NSW unemployment to a five-year high",
+      "link": "https://www.smh.com.au/business/the-economy/the-three-factors-driving-nsw-unemployment-to-a-five-year-high-20261015-p615vd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The NSW unemployment rate hit 4.7 per cent last month, the highest level since November 2021.",
+      "pubDate": "Fri, 16 Oct 2026 05:00:51 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Eisen family spend chunk of Afterpay billions on swanky $12m Armadale shop",
+      "link": "https://www.smh.com.au/business/companies/eisen-family-spend-chunk-of-afterpay-billions-on-swanky-12m-armadale-shop-20261016-p615lg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The couple moved to Melbourne around 2020 and paid $26 million for a Toorak mansion. They also splashed out $13 million on a “modest” Byron Bay pad.",
+      "pubDate": "Fri, 16 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Is Karl Stefanovic now Australia’s most famous small business owner?",
+      "link": "https://www.smh.com.au/business/companies/is-karl-stefanovic-now-australia-s-most-famous-small-business-owner-20261016-p615qw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "In this week’s On Background, Karl Stefanovic’s love fest at the CPAC Australia conference, ABC’s latest recruit gets a taste of what he is up against at the public broadcaster and News24 goes gaga for MAGA.",
+      "pubDate": "Fri, 16 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Scheduling a 4.55pm meeting on Friday should be a workplace offence",
+      "link": "https://www.smh.com.au/business/workplace/scheduling-a-4-55pm-meeting-on-friday-should-be-a-workplace-offence-20261016-p615r8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "If you want to work 10 or 12-hour days, go for it. But don’t force it on others and, for goodness’ (and your own) sake, leave Friday exempt.",
+      "pubDate": "Fri, 16 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
     },
     {
       "title": "Quick hits: Walsh vomits after try, Ponga shines then suffers in epic duel",
@@ -7869,27 +7944,6 @@
       "link": "https://www.abc.net.au/news/2026-10-15/auckland-fc-sam-cosgrove-reporter-exchange-over-suspension/107272002",
       "snippet": "",
       "pubDate": "Thu, 15 Oct 2026 07:34:00 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "The three factors driving NSW unemployment to a five-year high",
-      "link": "https://www.smh.com.au/business/the-economy/the-three-factors-driving-nsw-unemployment-to-a-five-year-high-20261015-p615vd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The NSW unemployment rate hit 4.7 per cent last month, the highest level since November 2021.",
-      "pubDate": "Thu, 15 Oct 2026 18:28:41 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Wallabies show faith in rookie fly half for final All Blacks Test",
-      "link": "https://www.abc.net.au/news/2026-10-15/wallabies-all-blacks-bledisloe-cup-declan-meredith-/107269916",
-      "snippet": "",
-      "pubDate": "Thu, 15 Oct 2026 02:34:00 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Wallaroos lose star but regain experience for historic 'quadruple header'",
-      "link": "https://www.abc.net.au/news/2026-10-15/wallaroos-scotland-rugby-test-maya-stewart-sydney/107269436",
-      "snippet": "",
-      "pubDate": "Thu, 15 Oct 2026 00:48:27 +0000",
       "source": "ABC"
     }
   ]
