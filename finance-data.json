@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-16T16:51:01.842Z",
+  "fetchedAt": "2026-10-16T21:30:17.429Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.02,
-      "changePercent": -2.54,
+      "changePercent": -2.48,
       "previousClose": 0.71,
       "asOf": "2026-10-16",
       "history": [
@@ -95,6 +95,10 @@
         {
           "date": "2026-10-14",
           "close": 0.7
+        },
+        {
+          "date": "2026-10-15",
+          "close": 0.69
         },
         {
           "date": "2026-10-16",
@@ -370,6 +374,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-10-15",
+          "close": 0.69
+        },
+        {
           "date": "2026-10-16",
           "close": 0.69
         }
@@ -481,7 +489,7 @@
         },
         {
           "date": "2026-10-11",
-          "close": 0.7
+          "close": 0.69
         },
         {
           "date": "2026-10-16",
@@ -1115,7 +1123,7 @@
         },
         {
           "date": "2026-10-11",
-          "close": 0.7
+          "close": 0.69
         },
         {
           "date": "2026-10-16",
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.24,
+      "changePercent": 0.06,
       "previousClose": 0.62,
       "asOf": "2026-10-16",
       "history": [
@@ -1216,6 +1224,10 @@
         },
         {
           "date": "2026-10-14",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-15",
           "close": 0.62
         },
         {
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-10-14",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-15",
           "close": 0.62
         },
         {
@@ -2248,7 +2264,7 @@
     "audcny": {
       "value": 4.64,
       "change": -0.14,
-      "changePercent": -2.89,
+      "changePercent": -2.88,
       "previousClose": 4.78,
       "asOf": "2026-10-16",
       "history": [
@@ -2339,6 +2355,10 @@
         {
           "date": "2026-10-14",
           "close": 4.67
+        },
+        {
+          "date": "2026-10-15",
+          "close": 4.63
         },
         {
           "date": "2026-10-16",
@@ -2614,6 +2634,10 @@
           "close": 4.67
         },
         {
+          "date": "2026-10-15",
+          "close": 4.63
+        },
+        {
           "date": "2026-10-16",
           "close": 4.64
         }
@@ -2725,7 +2749,7 @@
         },
         {
           "date": "2026-10-11",
-          "close": 4.67
+          "close": 4.63
         },
         {
           "date": "2026-10-16",
@@ -3359,7 +3383,7 @@
         },
         {
           "date": "2026-10-11",
-          "close": 4.67
+          "close": 4.63
         },
         {
           "date": "2026-10-16",
@@ -3368,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 109.91,
-      "change": -0.73,
-      "changePercent": -0.66,
+      "value": 109.75,
+      "change": -0.88,
+      "changePercent": -0.8,
       "previousClose": 110.64,
       "asOf": "2026-10-16",
       "history": [
@@ -3463,8 +3487,12 @@
           "close": 110.23
         },
         {
+          "date": "2026-10-15",
+          "close": 109.4
+        },
+        {
           "date": "2026-10-16",
-          "close": 109.91
+          "close": 109.75
         }
       ],
       "label": "AUD/JPY",
@@ -3736,8 +3764,12 @@
           "close": 110.23
         },
         {
+          "date": "2026-10-15",
+          "close": 109.4
+        },
+        {
           "date": "2026-10-16",
-          "close": 109.91
+          "close": 109.75
         }
       ],
       "h6m": [
@@ -3847,11 +3879,11 @@
         },
         {
           "date": "2026-10-11",
-          "close": 110.23
+          "close": 109.4
         },
         {
           "date": "2026-10-16",
-          "close": 109.91
+          "close": 109.75
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-10-11",
-          "close": 110.23
+          "close": 109.4
         },
         {
           "date": "2026-10-16",
-          "close": 109.92
+          "close": 109.75
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.02,
-    "changePercent": -2.54,
+    "changePercent": -2.48,
     "previousClose": 0.71,
     "asOf": "2026-10-16",
     "history": [
@@ -4584,6 +4616,10 @@
       {
         "date": "2026-10-14",
         "close": 0.7
+      },
+      {
+        "date": "2026-10-15",
+        "close": 0.69
       },
       {
         "date": "2026-10-16",
@@ -4859,6 +4895,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-10-15",
+        "close": 0.69
+      },
+      {
         "date": "2026-10-16",
         "close": 0.69
       }
@@ -4970,7 +5010,7 @@
       },
       {
         "date": "2026-10-11",
-        "close": 0.7
+        "close": 0.69
       },
       {
         "date": "2026-10-16",
@@ -5604,7 +5644,7 @@
       },
       {
         "date": "2026-10-11",
-        "close": 0.7
+        "close": 0.69
       },
       {
         "date": "2026-10-16",
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 98.58,
-      "change": -3.85,
-      "changePercent": -3.76,
+      "value": 99.04,
+      "change": -3.39,
+      "changePercent": -3.31,
       "previousClose": 102.43,
       "asOf": "2026-10-16",
       "history": [
@@ -5902,16 +5942,16 @@
         },
         {
           "date": "2026-10-16",
-          "close": 98.58
+          "close": 99.04
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 109.37,
-      "change": 3.54,
-      "changePercent": 3.34,
+      "value": 109.69,
+      "change": 3.86,
+      "changePercent": 3.65,
       "previousClose": 105.83,
       "asOf": "2026-10-16",
       "history": [
@@ -6005,16 +6045,16 @@
         },
         {
           "date": "2026-10-16",
-          "close": 109.37
+          "close": 109.69
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.14,
-      "change": 0.25,
-      "changePercent": 8.51,
+      "value": 3.12,
+      "change": 0.23,
+      "changePercent": 7.82,
       "previousClose": 2.89,
       "asOf": "2026-10-16",
       "history": [
@@ -6108,7 +6148,7 @@
         },
         {
           "date": "2026-10-16",
-          "close": 3.14
+          "close": 3.12
         }
       ],
       "name": "Natural Gas",
@@ -7453,21 +7493,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4182.3,
-      "change": -205.2,
-      "changePercent": -4.68
+      "price": 4186.7,
+      "change": -200.8,
+      "changePercent": -4.58
     },
     {
       "name": "Silver",
-      "price": 57.41,
-      "change": -6.88,
-      "changePercent": -10.7
+      "price": 57.14,
+      "change": -7.15,
+      "changePercent": -11.13
     },
     {
       "name": "Copper",
-      "price": 6.57,
-      "change": 0.14,
-      "changePercent": 2.22
+      "price": 6.56,
+      "change": 0.13,
+      "changePercent": 2.03
     }
   ],
   "housing": {
@@ -7803,13 +7843,6 @@
   ],
   "news": [
     {
-      "title": "Miners and tech stocks rally, taking ASX to third week of gains",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-as-wall-street-steadies-20261016-p6160q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket has clocked a third straight positive week despite a brutal mid-week sell-down, as investors grapple with fast-moving market risks.",
-      "pubDate": "Fri, 16 Oct 2026 11:37:20 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "ASX Runners of the Week: Identifai, Avenira &amp; Image Resources",
       "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-identifai-avenira-and-image-resources-20261016-p6168w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "This week’s Bulls N’ Bears ASX Runner of the Week is… Identifai, after the Israeli biotech newcomer made a stellar debut on the ASX with its AI-powered prenatal screening technology.",
@@ -7852,10 +7885,17 @@
       "source": "SMH"
     },
     {
-      "title": "Supercars to return to Phillip Island, plugging hole left by MotoGP exit",
-      "link": "https://www.abc.net.au/news/2026-10-16/supercars-return-to-phillip-island-after-motogp-exit/106901836",
+      "title": "Jillaroos lived up to their end of the bargain, but fans need to follow",
+      "link": "https://www.abc.net.au/news/2026-10-17/jillaroos-samoa-rugby-league-world-cup/107277782",
       "snippet": "",
-      "pubDate": "Thu, 15 Oct 2026 22:42:21 +0000",
+      "pubDate": "Fri, 16 Oct 2026 20:06:12 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Proteas urged to wear down Australia's bowling machines in second Test",
+      "link": "https://www.abc.net.au/news/2026-10-17/proteas-urged-wear-down-australias-bowlers-in-second-test/107278752",
+      "snippet": "",
+      "pubDate": "Fri, 16 Oct 2026 19:53:35 +0000",
       "source": "ABC"
     },
     {
