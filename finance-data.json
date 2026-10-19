@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-19T13:47:03.721Z",
+  "fetchedAt": "2026-10-19T22:32:38.822Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.83,
+      "changePercent": -1.86,
       "previousClose": 0.71,
       "asOf": "2026-10-19",
       "history": [
@@ -87,6 +87,10 @@
         {
           "date": "2026-10-15",
           "close": 0.69
+        },
+        {
+          "date": "2026-10-18",
+          "close": 0.7
         },
         {
           "date": "2026-10-19",
@@ -358,6 +362,10 @@
           "close": 0.69
         },
         {
+          "date": "2026-10-18",
+          "close": 0.7
+        },
+        {
           "date": "2026-10-19",
           "close": 0.7
         }
@@ -469,6 +477,10 @@
         },
         {
           "date": "2026-10-11",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-18",
           "close": 0.7
         },
         {
@@ -1106,6 +1118,10 @@
           "close": 0.7
         },
         {
+          "date": "2026-10-18",
+          "close": 0.7
+        },
+        {
           "date": "2026-10-19",
           "close": 0.7
         }
@@ -1114,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.37,
+      "changePercent": 0.4,
       "previousClose": 0.62,
       "asOf": "2026-10-19",
       "history": [
@@ -1196,6 +1212,10 @@
         },
         {
           "date": "2026-10-15",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-18",
           "close": 0.62
         },
         {
@@ -1468,6 +1488,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-10-18",
+          "close": 0.62
+        },
+        {
           "date": "2026-10-19",
           "close": 0.62
         }
@@ -1580,6 +1604,10 @@
         {
           "date": "2026-10-11",
           "close": 0.6
+        },
+        {
+          "date": "2026-10-18",
+          "close": 0.62
         },
         {
           "date": "2026-10-19",
@@ -2216,15 +2244,19 @@
           "close": 0.6
         },
         {
+          "date": "2026-10-18",
+          "close": 0.62
+        },
+        {
           "date": "2026-10-19",
           "close": 0.62
         }
       ]
     },
     "audcny": {
-      "value": 4.67,
+      "value": 4.66,
       "change": -0.11,
-      "changePercent": -2.25,
+      "changePercent": -2.32,
       "previousClose": 4.77,
       "asOf": "2026-10-19",
       "history": [
@@ -2309,8 +2341,12 @@
           "close": 4.63
         },
         {
+          "date": "2026-10-18",
+          "close": 4.66
+        },
+        {
           "date": "2026-10-19",
-          "close": 4.67
+          "close": 4.66
         }
       ],
       "label": "AUD/CNY",
@@ -2578,8 +2614,12 @@
           "close": 4.63
         },
         {
+          "date": "2026-10-18",
+          "close": 4.66
+        },
+        {
           "date": "2026-10-19",
-          "close": 4.67
+          "close": 4.66
         }
       ],
       "h6m": [
@@ -2692,8 +2732,12 @@
           "close": 4.66
         },
         {
+          "date": "2026-10-18",
+          "close": 4.66
+        },
+        {
           "date": "2026-10-19",
-          "close": 4.67
+          "close": 4.66
         }
       ],
       "h3y": [
@@ -3326,15 +3370,19 @@
           "close": 4.66
         },
         {
+          "date": "2026-10-18",
+          "close": 4.66
+        },
+        {
           "date": "2026-10-19",
-          "close": 4.67
+          "close": 4.66
         }
       ]
     },
     "audjpy": {
-      "value": 110.58,
-      "change": -0.51,
-      "changePercent": -0.46,
+      "value": 110.67,
+      "change": -0.43,
+      "changePercent": -0.38,
       "previousClose": 111.09,
       "asOf": "2026-10-19",
       "history": [
@@ -3419,8 +3467,12 @@
           "close": 109.4
         },
         {
+          "date": "2026-10-18",
+          "close": 110
+        },
+        {
           "date": "2026-10-19",
-          "close": 110.58
+          "close": 110.67
         }
       ],
       "label": "AUD/JPY",
@@ -3688,8 +3740,12 @@
           "close": 109.4
         },
         {
+          "date": "2026-10-18",
+          "close": 110
+        },
+        {
           "date": "2026-10-19",
-          "close": 110.58
+          "close": 110.67
         }
       ],
       "h6m": [
@@ -3802,8 +3858,12 @@
           "close": 109.87
         },
         {
+          "date": "2026-10-18",
+          "close": 110
+        },
+        {
           "date": "2026-10-19",
-          "close": 110.58
+          "close": 110.67
         }
       ],
       "h3y": [
@@ -4436,8 +4496,12 @@
           "close": 109.87
         },
         {
+          "date": "2026-10-18",
+          "close": 110
+        },
+        {
           "date": "2026-10-19",
-          "close": 110.58
+          "close": 110.67
         }
       ]
     }
@@ -4445,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.83,
+    "changePercent": -1.86,
     "previousClose": 0.71,
     "asOf": "2026-10-19",
     "history": [
@@ -4528,6 +4592,10 @@
       {
         "date": "2026-10-15",
         "close": 0.69
+      },
+      {
+        "date": "2026-10-18",
+        "close": 0.7
       },
       {
         "date": "2026-10-19",
@@ -4799,6 +4867,10 @@
         "close": 0.69
       },
       {
+        "date": "2026-10-18",
+        "close": 0.7
+      },
+      {
         "date": "2026-10-19",
         "close": 0.7
       }
@@ -4910,6 +4982,10 @@
       },
       {
         "date": "2026-10-11",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-18",
         "close": 0.7
       },
       {
@@ -5547,6 +5623,10 @@
         "close": 0.7
       },
       {
+        "date": "2026-10-18",
+        "close": 0.7
+      },
+      {
         "date": "2026-10-19",
         "close": 0.7
       }
@@ -5746,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 97.29,
-      "change": -3.01,
-      "changePercent": -3,
+      "value": 98.2,
+      "change": -2.1,
+      "changePercent": -2.09,
       "previousClose": 100.3,
       "asOf": "2026-10-19",
       "history": [
@@ -5834,16 +5914,16 @@
         },
         {
           "date": "2026-10-19",
-          "close": 97.29
+          "close": 98.2
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 107.77,
-      "change": 3.9,
-      "changePercent": 3.75,
+      "value": 109.26,
+      "change": 5.39,
+      "changePercent": 5.19,
       "previousClose": 103.87,
       "asOf": "2026-10-19",
       "history": [
@@ -5929,16 +6009,16 @@
         },
         {
           "date": "2026-10-19",
-          "close": 107.77
+          "close": 109.26
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.11,
-      "change": 0.2,
-      "changePercent": 6.94,
+      "value": 3.03,
+      "change": 0.12,
+      "changePercent": 4.09,
       "previousClose": 2.91,
       "asOf": "2026-10-19",
       "history": [
@@ -6024,7 +6104,7 @@
         },
         {
           "date": "2026-10-19",
-          "close": 3.11
+          "close": 3.03
         }
       ],
       "name": "Natural Gas",
@@ -7297,21 +7377,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4180.3,
-      "change": -244.6,
-      "changePercent": -5.53
+      "price": 4160,
+      "change": -264.9,
+      "changePercent": -5.99
     },
     {
       "name": "Silver",
-      "price": 57.55,
-      "change": -9.01,
-      "changePercent": -13.54
+      "price": 57.17,
+      "change": -9.39,
+      "changePercent": -14.1
     },
     {
       "name": "Copper",
-      "price": 6.57,
-      "change": -0.04,
-      "changePercent": -0.67
+      "price": 6.58,
+      "change": -0.03,
+      "changePercent": -0.5
     }
   ],
   "housing": {
@@ -7654,6 +7734,27 @@
       "source": "SMH"
     },
     {
+      "title": "NAB announces it will cut thousands of jobs",
+      "link": "https://www.smh.com.au/business/banking-and-finance/nab-announces-it-will-cut-thousands-of-jobs-20261020-p616yq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The National Australia Bank has announced it will axe up to 2500 jobs over the next financial year.",
+      "pubDate": "Tue, 20 Oct 2026 08:52:18 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "ASX set to fall, AI stocks rebound on Wall Street; Musk pledges to give SpaceX shares to kids",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-ai-stocks-rebound-on-wall-street-20261020-p616wq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks in the AI industry bounced back on Wall Street and recovered some of their steep losses from last week, but the rest of the market and stocks worldwide were shaky.",
+      "pubDate": "Tue, 20 Oct 2026 07:39:34 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "‘We want to show our sincerity’: Stax to relaunch with credit program for lost orders",
+      "link": "https://www.smh.com.au/business/entrepreneurship/we-want-to-show-our-sincerity-stax-relaunches-with-credit-program-for-lost-orders-20261020-p616nt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The activewear label is under new management, but has brought back some familiar faces – and is keen to set things right.",
+      "pubDate": "Tue, 20 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Forget tall poppy syndrome, corporate Australia is a second-chance saloon",
       "link": "https://www.smh.com.au/business/companies/forget-tall-poppy-syndrome-corporate-australia-is-a-second-chance-saloon-20261019-p616ll.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "AI start-up Firmus’ planned public listing wasn’t derailed by its boss’ history. Will a retail chief’s alleged lies denying an affair scupper his shot at a float?",
@@ -7668,66 +7769,45 @@
       "source": "SMH"
     },
     {
-      "title": "Great Southern uncovers new high-grade hits in WA gold hunt",
-      "link": "https://www.smh.com.au/business/companies/great-southern-uncovers-new-high-grade-hits-in-wa-gold-hunt-20261019-p616rk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Great Southern has hit high-grade gold in maiden RC drilling near Laverton in WA, with a top hit of 5m at 6.71g/t, including 3m at 10.4g/t, along a 4.7km corridor.",
-      "pubDate": "Mon, 19 Oct 2026 13:39:25 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Rare earths strike in NT extends 8km beyond previous Barkly hits",
-      "link": "https://www.smh.com.au/business/companies/rare-earths-strike-in-nt-extends-8km-beyond-previous-barkly-hits-20261019-p616r5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Barkly Rare Earths has expanded its NT rare earths discovery, with new drilling hitting significant intercepts up to 8km from previous results, including high-grade hits up to 4550ppm TREO.",
-      "pubDate": "Mon, 19 Oct 2026 13:13:20 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Vietjet’s domestic ambitions dealt a blow after court orders global asset freeze",
-      "link": "https://www.smh.com.au/business/companies/vietjet-s-domestic-ambitions-dealt-a-blow-after-court-orders-global-asset-freeze-20261019-p616nq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The order comes after a long-running battle with an investment firm seeking back payment for the use of four planes by the airline.",
-      "pubDate": "Mon, 19 Oct 2026 12:46:09 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "RLWC quick hits: Ponga's power, Tonga's triumph and Fiji's sunny day",
-      "link": "https://www.abc.net.au/news/2026-10-19/rugby-league-world-cup-quick-hits/107282480",
+      "title": "NFL QB in hospital at 4am before London game due to blood clots",
+      "link": "https://www.abc.net.au/news/2026-10-20/philadelphia-eagles-qb-jalen-hurts-blood-clots-in-lungs/107286260",
       "snippet": "",
-      "pubDate": "Mon, 19 Oct 2026 01:21:13 +0000",
+      "pubDate": "Mon, 19 Oct 2026 22:01:05 +0000",
       "source": "ABC"
     },
     {
-      "title": "Nightmare on Wall Street: The AI alarm bells are ringing louder",
-      "link": "https://www.smh.com.au/business/markets/wall-street-s-boom-is-sitting-on-a-shaky-foundation-20261019-p616lj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The implosion in the share price of one neocloud company has highlighted just how vulnerable Wall Street is.",
-      "pubDate": "Mon, 19 Oct 2026 11:59:31 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Live: Play finally set to begin on day two of second Australia-RSA Test",
-      "link": "https://www.abc.net.au/news/2026-10-19/test-cricket-live-updates-south-africa-vs-australia/107282378",
+      "title": "Quick hits: Renshaw floored by miracle grab as Bavuma's six stops traffic",
+      "link": "https://www.abc.net.au/news/2026-10-20/australia-sa-quick-hits-day-two-reshaw-bavuma-hazlewood/107285064",
       "snippet": "",
-      "pubDate": "Mon, 19 Oct 2026 07:14:24 +0000",
+      "pubDate": "Mon, 19 Oct 2026 21:16:34 +0000",
       "source": "ABC"
     },
     {
-      "title": "Aussie seamer Darcie Brown cut down by back injury",
-      "link": "https://www.abc.net.au/news/2026-10-19/darcie-brown-back-injury-ruled-out-of-wbbl/107284702",
+      "title": "Toll of war in Ukraine cited as Svitolina, Monfils announce end of marriage",
+      "link": "https://www.abc.net.au/news/2026-10-20/elina-svitolina-gael-monfils-end-marriage-cite-ukraine-war/107286014",
       "snippet": "",
-      "pubDate": "Mon, 19 Oct 2026 06:56:50 +0000",
+      "pubDate": "Mon, 19 Oct 2026 20:12:10 +0000",
       "source": "ABC"
     },
     {
-      "title": "Chancellor announces Wallaroos retirement ahead of Scotland Test",
-      "link": "https://www.abc.net.au/news/2026-10-19/emily-chancellor-announces-wallaroos-retirement/107283692",
+      "title": "One man down and on a flattening pitch, Boland and Starc continue to shine",
+      "link": "https://www.abc.net.au/news/2026-10-20/scott-boland-and-mitchell-starc-keep-australia-on-top-day-two/107285958",
       "snippet": "",
-      "pubDate": "Mon, 19 Oct 2026 04:20:11 +0000",
+      "pubDate": "Mon, 19 Oct 2026 19:55:32 +0000",
       "source": "ABC"
     },
     {
-      "title": "Accelerate hits manganese jackpot with 59.6% Pilbara grades",
-      "link": "https://www.smh.com.au/business/companies/accelerate-hits-manganese-jackpot-with-59-6-percent-pilbara-grades-20261019-p616ss.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Accelerate Resources has unearthed near-60% manganese rock chips at its Woodie Woodie North project in WA, bolstering a 12km underexplored mineralised corridor.",
-      "pubDate": "Mon, 19 Oct 2026 15:16:07 +1100",
+      "title": "Athletes out for gold at 'really important' Special Olympics Australia",
+      "link": "https://www.abc.net.au/news/2026-10-20/special-olympics-australia-national-games-melbourne/107282812",
+      "snippet": "",
+      "pubDate": "Mon, 19 Oct 2026 19:20:46 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "CNN anchor Christiane Amanpour to leave after 43 years",
+      "link": "https://www.smh.com.au/business/companies/cnn-anchor-christiane-amanpour-to-leave-after-43-years-20261020-p616wp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The network’s chief international anchor will sign off next year as CNN comes under controversial new ownership after the biggest media deal in history.",
+      "pubDate": "Tue, 20 Oct 2026 05:54:35 +1100",
       "source": "SMH"
     }
   ]
