@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-20T11:56:23.886Z",
+  "fetchedAt": "2026-10-20T17:25:10.304Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.81,
+      "changePercent": -1.57,
       "previousClose": 0.71,
       "asOf": "2026-10-20",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.5,
+      "changePercent": 0.52,
       "previousClose": 0.62,
       "asOf": "2026-10-20",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
-      "change": -0.11,
-      "changePercent": -2.26,
+      "value": 4.68,
+      "change": -0.1,
+      "changePercent": -2.04,
       "previousClose": 4.77,
       "asOf": "2026-10-20",
       "history": [
@@ -2338,7 +2338,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2611,7 +2611,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-10-20",
-          "close": 4.67
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 110.46,
-      "change": -0.64,
-      "changePercent": -0.57,
+      "value": 110.73,
+      "change": -0.36,
+      "changePercent": -0.32,
       "previousClose": 111.09,
       "asOf": "2026-10-20",
       "history": [
@@ -3460,7 +3460,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 110.46
+          "close": 110.73
         }
       ],
       "label": "AUD/JPY",
@@ -3733,7 +3733,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 110.46
+          "close": 110.73
         }
       ],
       "h6m": [
@@ -3847,7 +3847,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 110.46
+          "close": 110.73
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 110.46
+          "close": 110.73
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.81,
+    "changePercent": -1.57,
     "previousClose": 0.71,
     "asOf": "2026-10-20",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.09,
-      "change": 5.31,
-      "changePercent": 5.54,
+      "value": 98.12,
+      "change": 2.34,
+      "changePercent": 2.44,
       "previousClose": 95.78,
       "asOf": "2026-10-20",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-10-20",
-          "close": 101.09
+          "close": 98.12
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 111.72,
-      "change": 11.38,
-      "changePercent": 11.34,
+      "value": 108.96,
+      "change": 8.62,
+      "changePercent": 8.59,
       "previousClose": 100.34,
       "asOf": "2026-10-20",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-10-20",
-          "close": 111.72
+          "close": 108.96
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.03,
-      "change": 0.19,
-      "changePercent": 6.84,
+      "value": 2.97,
+      "change": 0.14,
+      "changePercent": 4.76,
       "previousClose": 2.84,
       "asOf": "2026-10-20",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 3.03
+          "close": 2.97
         }
       ],
       "name": "Natural Gas",
@@ -7405,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4139.4,
-      "change": -244.5,
-      "changePercent": -5.58
+      "price": 4138.4,
+      "change": -245.5,
+      "changePercent": -5.6
     },
     {
       "name": "Silver",
-      "price": 57.28,
-      "change": -8.55,
-      "changePercent": -12.99
+      "price": 57.98,
+      "change": -7.85,
+      "changePercent": -11.93
     },
     {
       "name": "Copper",
-      "price": 6.57,
-      "change": -0.11,
-      "changePercent": -1.68
+      "price": 6.61,
+      "change": -0.08,
+      "changePercent": -1.18
     }
   ],
   "housing": {
@@ -7811,7 +7811,7 @@
       "source": "SMH"
     },
     {
-      "title": "Live: South African dasher dismissed moments after nasty blow",
+      "title": "Bavuma's brilliant knock flips the script and puts Australia on the ropes",
       "link": "https://www.abc.net.au/news/2026-10-20/test-cricket-live-updates-south-africa-vs-australia/107287648",
       "snippet": "",
       "pubDate": "Tue, 20 Oct 2026 07:07:36 +0000",
