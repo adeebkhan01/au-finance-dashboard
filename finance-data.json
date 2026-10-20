@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-20T17:25:10.304Z",
+  "fetchedAt": "2026-10-20T21:46:47.505Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.57,
+      "changePercent": -1.52,
       "previousClose": 0.71,
       "asOf": "2026-10-20",
       "history": [
@@ -90,6 +90,10 @@
         },
         {
           "date": "2026-10-18",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-19",
           "close": 0.7
         },
         {
@@ -363,6 +367,10 @@
         },
         {
           "date": "2026-10-18",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-19",
           "close": 0.7
         },
         {
@@ -1126,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": 0.52,
+      "changePercent": 0.53,
       "previousClose": 0.62,
       "asOf": "2026-10-20",
       "history": [
@@ -1212,6 +1220,10 @@
         },
         {
           "date": "2026-10-18",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-19",
           "close": 0.62
         },
         {
@@ -1485,6 +1497,10 @@
         },
         {
           "date": "2026-10-18",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-19",
           "close": 0.62
         },
         {
@@ -2248,7 +2264,7 @@
     "audcny": {
       "value": 4.68,
       "change": -0.1,
-      "changePercent": -2.04,
+      "changePercent": -2.02,
       "previousClose": 4.77,
       "asOf": "2026-10-20",
       "history": [
@@ -2335,6 +2351,10 @@
         {
           "date": "2026-10-18",
           "close": 4.66
+        },
+        {
+          "date": "2026-10-19",
+          "close": 4.67
         },
         {
           "date": "2026-10-20",
@@ -2610,6 +2630,10 @@
           "close": 4.66
         },
         {
+          "date": "2026-10-19",
+          "close": 4.67
+        },
+        {
           "date": "2026-10-20",
           "close": 4.68
         }
@@ -2721,7 +2745,7 @@
         },
         {
           "date": "2026-10-18",
-          "close": 4.66
+          "close": 4.67
         },
         {
           "date": "2026-10-20",
@@ -3359,7 +3383,7 @@
         },
         {
           "date": "2026-10-18",
-          "close": 4.66
+          "close": 4.67
         },
         {
           "date": "2026-10-20",
@@ -3368,8 +3392,8 @@
       ]
     },
     "audjpy": {
-      "value": 110.73,
-      "change": -0.36,
+      "value": 110.74,
+      "change": -0.35,
       "changePercent": -0.32,
       "previousClose": 111.09,
       "asOf": "2026-10-20",
@@ -3459,8 +3483,12 @@
           "close": 110
         },
         {
+          "date": "2026-10-19",
+          "close": 110.69
+        },
+        {
           "date": "2026-10-20",
-          "close": 110.73
+          "close": 110.74
         }
       ],
       "label": "AUD/JPY",
@@ -3732,8 +3760,12 @@
           "close": 110
         },
         {
+          "date": "2026-10-19",
+          "close": 110.69
+        },
+        {
           "date": "2026-10-20",
-          "close": 110.73
+          "close": 110.77
         }
       ],
       "h6m": [
@@ -3843,11 +3875,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 110
+          "close": 110.69
         },
         {
           "date": "2026-10-20",
-          "close": 110.73
+          "close": 110.74
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 110
+          "close": 110.69
         },
         {
           "date": "2026-10-20",
-          "close": 110.73
+          "close": 110.77
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.57,
+    "changePercent": -1.52,
     "previousClose": 0.71,
     "asOf": "2026-10-20",
     "history": [
@@ -4579,6 +4611,10 @@
       },
       {
         "date": "2026-10-18",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-19",
         "close": 0.7
       },
       {
@@ -4852,6 +4888,10 @@
       },
       {
         "date": "2026-10-18",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-19",
         "close": 0.7
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 98.12,
-      "change": 2.34,
-      "changePercent": 2.44,
+      "value": 98.18,
+      "change": 2.4,
+      "changePercent": 2.51,
       "previousClose": 95.78,
       "asOf": "2026-10-20",
       "history": [
@@ -5898,16 +5938,16 @@
         },
         {
           "date": "2026-10-20",
-          "close": 98.12
+          "close": 98.18
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.96,
-      "change": 8.62,
-      "changePercent": 8.59,
+      "value": 109.12,
+      "change": 8.78,
+      "changePercent": 8.75,
       "previousClose": 100.34,
       "asOf": "2026-10-20",
       "history": [
@@ -5997,16 +6037,16 @@
         },
         {
           "date": "2026-10-20",
-          "close": 108.96
+          "close": 109.12
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.97,
-      "change": 0.14,
-      "changePercent": 4.76,
+      "value": 2.99,
+      "change": 0.16,
+      "changePercent": 5.54,
       "previousClose": 2.84,
       "asOf": "2026-10-20",
       "history": [
@@ -6096,7 +6136,7 @@
         },
         {
           "date": "2026-10-20",
-          "close": 2.97
+          "close": 2.99
         }
       ],
       "name": "Natural Gas",
@@ -7405,21 +7445,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4138.4,
-      "change": -245.5,
-      "changePercent": -5.6
+      "price": 4142.5,
+      "change": -241.4,
+      "changePercent": -5.51
     },
     {
       "name": "Silver",
-      "price": 57.98,
-      "change": -7.85,
-      "changePercent": -11.93
+      "price": 58.14,
+      "change": -7.69,
+      "changePercent": -11.67
     },
     {
       "name": "Copper",
-      "price": 6.61,
-      "change": -0.08,
-      "changePercent": -1.18
+      "price": 6.62,
+      "change": -0.07,
+      "changePercent": -1.05
     }
   ],
   "housing": {
@@ -7755,10 +7795,10 @@
   ],
   "news": [
     {
-      "title": "China’s export boom is becoming its Achilles heel",
-      "link": "https://www.smh.com.au/business/markets/china-s-export-boom-is-becoming-its-achilles-heel-20261020-p616yb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "China is on track for a record trade surplus, but is facing increasing pushback from the countries whose economies are being ravaged by its flood of exports.",
-      "pubDate": "Tue, 20 Oct 2026 12:16:53 +1100",
+      "title": "ASX set to climb as Wall Street rises; SpaceX shines, Anthropic loss",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-climb-as-wall-street-rises-a-over-us70c-20261021-p6179f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is rising following strong profit reports for Equifax, Hasbro and other companies, while oil prices ease back after nearing their highest levels since the war with Iran began.",
+      "pubDate": "Wed, 21 Oct 2026 07:17:17 +1100",
       "source": "SMH"
     },
     {
@@ -7766,6 +7806,13 @@
       "link": "https://www.smh.com.au/business/companies/mongolian-gas-prize-beckons-as-tmk-energy-clears-discovery-hurdle-20261020-p6177d.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "TMK Energy’s Declaration of Discovery for its 1.2Tcf Gurvantes XXXV project in Mongolia has been accepted, the first step towards a production licence, ahead of appraisal.",
       "pubDate": "Tue, 20 Oct 2026 16:52:47 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Nobody wants to pay more tax, except me",
+      "link": "https://www.smh.com.au/business/the-economy/nobody-wants-to-pay-more-tax-except-me-20261021-p6170l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Our tax system is designed to favour the old over the young. The young pay income tax but, for the most part, the retired don’t.",
+      "pubDate": "Wed, 21 Oct 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7797,46 +7844,39 @@
       "source": "SMH"
     },
     {
-      "title": "Critical Resources locks in Suriname gold trifecta",
-      "link": "https://www.smh.com.au/business/companies/critical-resources-locks-in-suriname-gold-trifecta-20261020-p6174j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critical Resources has grabbed its third gold play in Suriname, securing exclusivity over the Gadu Manda project, just 4km from Zijin Mining’s 6-million-ounce Rosebel mine.",
-      "pubDate": "Tue, 20 Oct 2026 14:23:57 +1100",
+      "title": "Ellis scores monster 47 points, most in WNBL game for over two decades",
+      "link": "https://www.abc.net.au/news/2026-10-21/abbey-ellis-fires-townsville-fire-to-win/107290798",
+      "snippet": "",
+      "pubDate": "Tue, 20 Oct 2026 21:09:13 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Gardner smashes 84 as Australia retains Rose Bowl over NZ",
+      "link": "https://www.abc.net.au/news/2026-10-21/australia-defeats-new-zealand-in-second-t20/107290720",
+      "snippet": "",
+      "pubDate": "Tue, 20 Oct 2026 20:09:55 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Bavuma's batting masterclass takes control from Australia",
+      "link": "https://www.abc.net.au/news/2026-10-21/temba-bavuma-batting-masterclass-takes-test-away-from-australia/107285960",
+      "snippet": "",
+      "pubDate": "Tue, 20 Oct 2026 20:03:42 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Jansen hit where it hurts as Bavuma grinds Aussies into the dirt",
+      "link": "https://www.abc.net.au/news/2026-10-21/australia-rsa-quick-hits-day-three-bavuma-jansen-starc/107289848",
+      "snippet": "",
+      "pubDate": "Tue, 20 Oct 2026 19:16:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Qatar Airways plans flights to western Sydney from late 2027",
+      "link": "https://www.smh.com.au/business/companies/qatar-airways-plans-flights-to-western-sydney-from-late-2027-20261021-p616ug.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Gulf carrier will fly from Western Sydney International three times a week, making it the fifth foreign carrier to serve Australia’s newest airport.",
+      "pubDate": "Wed, 21 Oct 2026 06:00:00 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Critica tables monster $2.7B valuation for WA rare earths play",
-      "link": "https://www.smh.com.au/business/companies/critica-tables-monster-2-7b-valuation-for-wa-rare-earths-play-20261020-p6173j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critica Limited’s WA rare earths scoping study has delivered a huge $2.7 billion pre-tax valuation, 56% IRR and $556 million in upfront capital earmarked for a 14-year operation.",
-      "pubDate": "Tue, 20 Oct 2026 13:43:06 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Bavuma's brilliant knock flips the script and puts Australia on the ropes",
-      "link": "https://www.abc.net.au/news/2026-10-20/test-cricket-live-updates-south-africa-vs-australia/107287648",
-      "snippet": "",
-      "pubDate": "Tue, 20 Oct 2026 07:07:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Tedesco parachutes in as Kangaroos captain in first Test since 2023",
-      "link": "https://www.abc.net.au/news/2026-10-20/james-tedesco-returns-to-captain-kangaroos/107289522",
-      "snippet": "",
-      "pubDate": "Tue, 20 Oct 2026 06:29:35 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Aussie Opal's block fires Dream to WNBA finals win",
-      "link": "https://www.abc.net.au/news/2026-10-20/izzy-borlase-angel-reese-atlanta-dream-wnba-finals/107289118",
-      "snippet": "",
-      "pubDate": "Tue, 20 Oct 2026 05:45:02 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Diamonds boosted by imminent return of vice-captain",
-      "link": "https://www.abc.net.au/news/2026-10-20/diamonds-vice-captain-kate-moloney-return-constellation-cup/107287940",
-      "snippet": "",
-      "pubDate": "Tue, 20 Oct 2026 02:35:48 +0000",
-      "source": "ABC"
     }
   ]
 }
