@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-21T17:30:58.634Z",
+  "fetchedAt": "2026-10-21T21:52:46.207Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.24,
+      "changePercent": -1.33,
       "previousClose": 0.71,
       "asOf": "2026-10-21",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-10-19",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-20",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-10-19",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-20",
           "close": 0.7
         },
         {
@@ -1129,8 +1137,8 @@
     },
     "audeur": {
       "value": 0.63,
-      "change": 0.01,
-      "changePercent": 0.89,
+      "change": 0,
+      "changePercent": 0.79,
       "previousClose": 0.62,
       "asOf": "2026-10-21",
       "history": [
@@ -1220,6 +1228,10 @@
         },
         {
           "date": "2026-10-19",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-20",
           "close": 0.62
         },
         {
@@ -1493,6 +1505,10 @@
         },
         {
           "date": "2026-10-19",
+          "close": 0.62
+        },
+        {
+          "date": "2026-10-20",
           "close": 0.62
         },
         {
@@ -2256,7 +2272,7 @@
     "audcny": {
       "value": 4.69,
       "change": -0.08,
-      "changePercent": -1.57,
+      "changePercent": -1.62,
       "previousClose": 4.77,
       "asOf": "2026-10-21",
       "history": [
@@ -2347,6 +2363,10 @@
         {
           "date": "2026-10-19",
           "close": 4.67
+        },
+        {
+          "date": "2026-10-20",
+          "close": 4.68
         },
         {
           "date": "2026-10-21",
@@ -2622,6 +2642,10 @@
           "close": 4.67
         },
         {
+          "date": "2026-10-20",
+          "close": 4.68
+        },
+        {
           "date": "2026-10-21",
           "close": 4.69
         }
@@ -2733,7 +2757,7 @@
         },
         {
           "date": "2026-10-18",
-          "close": 4.67
+          "close": 4.68
         },
         {
           "date": "2026-10-21",
@@ -3371,7 +3395,7 @@
         },
         {
           "date": "2026-10-18",
-          "close": 4.67
+          "close": 4.68
         },
         {
           "date": "2026-10-21",
@@ -3380,9 +3404,9 @@
       ]
     },
     "audjpy": {
-      "value": 111.15,
-      "change": -0.68,
-      "changePercent": -0.61,
+      "value": 110.98,
+      "change": -0.86,
+      "changePercent": -0.77,
       "previousClose": 111.84,
       "asOf": "2026-10-21",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 110.69
         },
         {
+          "date": "2026-10-20",
+          "close": 110.88
+        },
+        {
           "date": "2026-10-21",
-          "close": 111.15
+          "close": 110.97
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 110.69
         },
         {
+          "date": "2026-10-20",
+          "close": 110.88
+        },
+        {
           "date": "2026-10-21",
-          "close": 111.16
+          "close": 110.97
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 110.69
+          "close": 110.88
         },
         {
           "date": "2026-10-21",
-          "close": 111.16
+          "close": 110.97
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 110.69
+          "close": 110.88
         },
         {
           "date": "2026-10-21",
-          "close": 111.16
+          "close": 110.97
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.24,
+    "changePercent": -1.33,
     "previousClose": 0.71,
     "asOf": "2026-10-21",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-10-19",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-20",
         "close": 0.7
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-10-19",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-20",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 96.9,
-      "change": 1.12,
-      "changePercent": 1.17,
+      "value": 97.71,
+      "change": 1.93,
+      "changePercent": 2.02,
       "previousClose": 95.78,
       "asOf": "2026-10-21",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-10-21",
-          "close": 96.9
+          "close": 97.71
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 108.61,
-      "change": 8.27,
-      "changePercent": 8.24,
+      "value": 109.73,
+      "change": 9.39,
+      "changePercent": 9.36,
       "previousClose": 100.34,
       "asOf": "2026-10-21",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-10-21",
-          "close": 108.61
+          "close": 109.73
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.82,
-      "change": -0.02,
-      "changePercent": -0.71,
+      "value": 2.78,
+      "change": -0.06,
+      "changePercent": -2.15,
       "previousClose": 2.84,
       "asOf": "2026-10-21",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-10-21",
-          "close": 2.82
+          "close": 2.78
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4149.7,
-      "change": -234.2,
-      "changePercent": -5.34
+      "price": 4159.5,
+      "change": -224.4,
+      "changePercent": -5.12
     },
     {
       "name": "Silver",
-      "price": 57.68,
-      "change": -8.15,
-      "changePercent": -12.38
+      "price": 58.12,
+      "change": -7.71,
+      "changePercent": -11.71
     },
     {
       "name": "Copper",
       "price": 6.58,
       "change": -0.11,
-      "changePercent": -1.62
+      "changePercent": -1.65
     }
   ],
   "housing": {
@@ -7823,6 +7863,13 @@
   ],
   "news": [
     {
+      "title": "ASX set for flat start, Wall Street climbs; Meta ordered to pay $36 billion in privacy case; Tesla beats expectations",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-flat-start-wall-street-climbs-meta-ordered-to-pay-36-billion-in-privacy-case-tesla-results-ahead-20261022-p617mw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market rose following strong profit reports from SpaceX, Capital One Financial and other big companies, while Meta and Tesla delivered results after the closing bell.",
+      "pubDate": "Thu, 22 Oct 2026 07:24:28 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "ASX finishes higher as banks rise, NextDC tanks; CSL names new CEO",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-climb-as-wall-street-rises-a-over-us70c-20261021-p6179f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket whipsawed on Wednesday as banks and tech stocks advanced and data centre company NextDC plunged.",
@@ -7858,7 +7905,14 @@
       "source": "SMH"
     },
     {
-      "title": "Smith injured, Australia facing crushing defeat in Gqeberha",
+      "title": "Quick hits: Sore Smith doesn't return as Marnus throws it away on horror day",
+      "link": "https://www.abc.net.au/news/2026-10-22/australia-sa-quick-hits-second-test-day-four-smith-labuschagne/107294194",
+      "snippet": "",
+      "pubDate": "Wed, 21 Oct 2026 19:43:42 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Smith to return despite injury as Australia looks to save second Test",
       "link": "https://www.abc.net.au/news/2026-10-21/test-cricket-live-updates-south-africa-vs-australia/107293438",
       "snippet": "",
       "pubDate": "Wed, 21 Oct 2026 07:12:21 +0000",
@@ -7870,13 +7924,6 @@
       "snippet": "",
       "pubDate": "Wed, 21 Oct 2026 06:06:05 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Red Metal scales up leach tests at QLD rare earths monster",
-      "link": "https://www.smh.com.au/business/companies/red-metal-scales-up-leach-tests-at-qld-rare-earths-monster-20261021-p617jf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Red Metal is putting its monster Sybella rare earths resource to the processing test, kicking off six-metre column leach trials to prove whether it can develop a cheap, heap leaching QLD operation.",
-      "pubDate": "Wed, 21 Oct 2026 15:20:07 +1100",
-      "source": "SMH"
     },
     {
       "title": "How Antonelli can become F1's youngest world champion this weekend",
@@ -7897,13 +7944,6 @@
       "link": "https://www.abc.net.au/news/2026-10-21/former-snooker-number-one-mark-allen-considers-retirement/107291400",
       "snippet": "",
       "pubDate": "Wed, 21 Oct 2026 00:06:18 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Ellis scores monster 47 points, most in WNBL game for over two decades",
-      "link": "https://www.abc.net.au/news/2026-10-21/abbey-ellis-fires-townsville-fire-to-win/107290798",
-      "snippet": "",
-      "pubDate": "Tue, 20 Oct 2026 21:09:13 +0000",
       "source": "ABC"
     }
   ]
