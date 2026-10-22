@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-22T17:28:12.354Z",
+  "fetchedAt": "2026-10-22T21:49:58.026Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.33,
+      "changePercent": -1.4,
       "previousClose": 0.71,
       "asOf": "2026-10-22",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-10-20",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-21",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-10-20",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-21",
           "close": 0.7
         },
         {
@@ -1223,6 +1231,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-10-21",
+          "close": 0.63
+        },
+        {
           "date": "2026-10-22",
           "close": 0.63
         }
@@ -1496,6 +1508,10 @@
           "close": 0.62
         },
         {
+          "date": "2026-10-21",
+          "close": 0.63
+        },
+        {
           "date": "2026-10-22",
           "close": 0.63
         }
@@ -1607,7 +1623,7 @@
         },
         {
           "date": "2026-10-18",
-          "close": 0.62
+          "close": 0.63
         },
         {
           "date": "2026-10-22",
@@ -2245,7 +2261,7 @@
         },
         {
           "date": "2026-10-18",
-          "close": 0.62
+          "close": 0.63
         },
         {
           "date": "2026-10-22",
@@ -2254,9 +2270,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
-      "change": -0.09,
-      "changePercent": -1.95,
+      "value": 4.69,
+      "change": -0.08,
+      "changePercent": -1.7,
       "previousClose": 4.77,
       "asOf": "2026-10-22",
       "history": [
@@ -2349,8 +2365,12 @@
           "close": 4.68
         },
         {
+          "date": "2026-10-21",
+          "close": 4.69
+        },
+        {
           "date": "2026-10-22",
-          "close": 4.67
+          "close": 4.69
         }
       ],
       "label": "AUD/CNY",
@@ -2622,8 +2642,12 @@
           "close": 4.68
         },
         {
+          "date": "2026-10-21",
+          "close": 4.69
+        },
+        {
           "date": "2026-10-22",
-          "close": 4.67
+          "close": 4.69
         }
       ],
       "h6m": [
@@ -2733,11 +2757,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 4.68
+          "close": 4.69
         },
         {
           "date": "2026-10-22",
-          "close": 4.67
+          "close": 4.69
         }
       ],
       "h3y": [
@@ -3371,18 +3395,18 @@
         },
         {
           "date": "2026-10-18",
-          "close": 4.68
+          "close": 4.69
         },
         {
           "date": "2026-10-22",
-          "close": 4.67
+          "close": 4.69
         }
       ]
     },
     "audjpy": {
-      "value": 110.19,
-      "change": -1.83,
-      "changePercent": -1.64,
+      "value": 109.93,
+      "change": -2.09,
+      "changePercent": -1.87,
       "previousClose": 112.02,
       "asOf": "2026-10-22",
       "history": [
@@ -3475,8 +3499,12 @@
           "close": 110.88
         },
         {
+          "date": "2026-10-21",
+          "close": 111.15
+        },
+        {
           "date": "2026-10-22",
-          "close": 110.19
+          "close": 109.93
         }
       ],
       "label": "AUD/JPY",
@@ -3748,8 +3776,12 @@
           "close": 110.88
         },
         {
+          "date": "2026-10-21",
+          "close": 111.15
+        },
+        {
           "date": "2026-10-22",
-          "close": 110.19
+          "close": 109.93
         }
       ],
       "h6m": [
@@ -3859,11 +3891,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 110.88
+          "close": 111.15
         },
         {
           "date": "2026-10-22",
-          "close": 110.19
+          "close": 109.93
         }
       ],
       "h3y": [
@@ -4497,11 +4529,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 110.88
+          "close": 111.15
         },
         {
           "date": "2026-10-22",
-          "close": 110.19
+          "close": 109.93
         }
       ]
     }
@@ -4509,7 +4541,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.33,
+    "changePercent": -1.4,
     "previousClose": 0.71,
     "asOf": "2026-10-22",
     "history": [
@@ -4599,6 +4631,10 @@
       },
       {
         "date": "2026-10-20",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-21",
         "close": 0.7
       },
       {
@@ -4872,6 +4908,10 @@
       },
       {
         "date": "2026-10-20",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-21",
         "close": 0.7
       },
       {
@@ -5826,9 +5866,9 @@
   },
   "energy": {
     "wti": {
-      "value": 99.35,
-      "change": 4.76,
-      "changePercent": 5.03,
+      "value": 99.1,
+      "change": 4.51,
+      "changePercent": 4.77,
       "previousClose": 94.59,
       "asOf": "2026-10-22",
       "history": [
@@ -5922,16 +5962,16 @@
         },
         {
           "date": "2026-10-22",
-          "close": 99.35
+          "close": 99.1
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 112.4,
-      "change": 13.15,
-      "changePercent": 13.25,
+      "value": 112.87,
+      "change": 13.62,
+      "changePercent": 13.72,
       "previousClose": 99.25,
       "asOf": "2026-10-22",
       "history": [
@@ -6025,16 +6065,16 @@
         },
         {
           "date": "2026-10-22",
-          "close": 112.4
+          "close": 112.87
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.82,
-      "change": -0.15,
-      "changePercent": -4.89,
+      "value": 2.78,
+      "change": -0.19,
+      "changePercent": -6.34,
       "previousClose": 2.97,
       "asOf": "2026-10-22",
       "history": [
@@ -6128,7 +6168,7 @@
         },
         {
           "date": "2026-10-22",
-          "close": 2.82
+          "close": 2.78
         }
       ],
       "name": "Natural Gas",
@@ -7473,21 +7513,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4061.7,
-      "change": -314.7,
-      "changePercent": -7.19
+      "price": 4039.8,
+      "change": -336.6,
+      "changePercent": -7.69
     },
     {
       "name": "Silver",
-      "price": 54.97,
-      "change": -10.96,
-      "changePercent": -16.63
+      "price": 54.63,
+      "change": -11.3,
+      "changePercent": -17.14
     },
     {
       "name": "Copper",
-      "price": 6.42,
-      "change": -0.34,
-      "changePercent": -5.08
+      "price": 6.4,
+      "change": -0.36,
+      "changePercent": -5.34
     }
   ],
   "housing": {
@@ -7830,31 +7870,66 @@
       "source": "SMH"
     },
     {
-      "title": "Zenith bid goes unconditional as Forrestania builds WA gold stockpile",
-      "link": "https://www.smh.com.au/business/companies/zenith-bid-goes-unconditional-as-forrestania-builds-wa-gold-stockpile-20261022-p617wo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Forrestania Resources has declared its Zenith Minerals takeover bid unconditional, clearing the decks for a bigger WA gold business as it snaps up 400,000 tonnes of ore feed from Star Minerals.",
-      "pubDate": "Thu, 22 Oct 2026 16:44:33 +1100",
+      "title": "ASX set to slide, tech stocks tumble on Wall Street; oil highest since May",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-as-wall-street-falls-oil-at-highest-since-may-20261023-p617yh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Drops for stocks in the artificial-intelligence industry are dragging markets down worldwide, while oil prices hit their highest levels since May on worries about the war with Iran.",
+      "pubDate": "Fri, 23 Oct 2026 07:27:57 +1100",
       "source": "SMH"
     },
     {
-      "title": "If you feel like everything’s falling apart, you’re probably right",
-      "link": "https://www.smh.com.au/business/markets/if-you-feel-like-everything-s-falling-apart-you-re-probably-right-20261022-p617lk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Trump’s erratic White House, Putin’s aggression, China’s mercantilism, globe-affecting wars, rising debt levels and skyrocketing costs of living – it’s one toxic global cocktail.",
-      "pubDate": "Thu, 22 Oct 2026 17:30:00 +1100",
+      "title": "I spent thousands on a ‘potentially dangerous’ marathon. I’d do it again",
+      "link": "https://www.smh.com.au/business/the-economy/i-spent-thousands-on-a-potentially-dangerous-marathon-i-d-do-it-again-20261023-p617lr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "I fell short of my goal and blew my budget. But here’s how joggers like me are keeping the economy running.",
+      "pubDate": "Fri, 23 Oct 2026 06:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "China iron ore stoush puts Australian mines in the firing line",
-      "link": "https://www.smh.com.au/business/companies/china-iron-ore-stoush-puts-australian-mines-in-the-firing-line-20261022-p617r1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "One of Australia’s biggest mining companies warns deadlocked price talks with Beijing over iron ore prices may force production cuts by the year’s end.",
-      "pubDate": "Thu, 22 Oct 2026 15:59:51 +1100",
+      "title": "Collingwood’s The Vine Hotel looking for new owner in $4m sale",
+      "link": "https://www.smh.com.au/business/companies/collingwood-s-the-vine-hotel-looking-for-new-owner-in-4m-sale-20261023-p617r0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The last of the Melbourne pubs embroiled in the spectacular collapse of Jon Adgemis’ Public Hospitality Group is up for grabs.",
+      "pubDate": "Fri, 23 Oct 2026 05:01:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Kuniko goes deep to light up NSW polymetallic riches",
-      "link": "https://www.smh.com.au/business/companies/kuniko-goes-deep-to-light-up-nsw-polymetallic-riches-20261022-p617vi.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Kuniko has deployed a downhole electromagnetic probe at its Commonwealth-Silica Hill project in NSW, hunting extensions to its recent ultra-high-grade gold-silver discovery.",
-      "pubDate": "Thu, 22 Oct 2026 15:21:58 +1100",
+      "title": "Awkward questions linger as creaky Australia receives South African hiding",
+      "link": "https://www.abc.net.au/news/2026-10-23/cricket-awkward-questions-linger-after-australia-heavy-defeat/107299452",
+      "snippet": "",
+      "pubDate": "Thu, 22 Oct 2026 21:29:37 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "England stunned as Sri Lanka chases 430 after Brook's record ODI knock",
+      "link": "https://www.abc.net.au/news/2026-10-23/cricket-sri-lanka-chases-430-england-harry-brook-double-century/107299378",
+      "snippet": "",
+      "pubDate": "Thu, 22 Oct 2026 20:27:02 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Wallaroos great inspired by mantra 'you can't be what you can't see'",
+      "link": "https://www.abc.net.au/news/2026-10-23/rugby-australia-wallaroos-emily-chancellor-scotland/107297400",
+      "snippet": "",
+      "pubDate": "Thu, 22 Oct 2026 19:41:55 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Bavuma hides from Smith implosion as Australia falls to South Africa",
+      "link": "https://www.abc.net.au/news/2026-10-23/australia-sa-quick-hits-day-five-smith-bavuma-boland/107298586",
+      "snippet": "",
+      "pubDate": "Thu, 22 Oct 2026 19:30:31 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "How the News Corp tabloids lifted Seven’s harrowing exclusive",
+      "link": "https://www.smh.com.au/business/companies/how-the-news-corp-tabloids-lifted-seven-s-harrowing-exclusive-20261023-p617sv.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "News Corp outlets were lightning fast in reporting the attack on Helen Haines after 7News Melbourne broke the news. How did they confirm it so quickly?",
+      "pubDate": "Fri, 23 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "The men at work call each other ‘mate’. Why does it make me uncomfortable?",
+      "link": "https://www.smh.com.au/business/workplace/the-men-at-work-call-each-other-mate-why-does-it-make-me-uncomfortable-20261023-p617um.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "I think your nagging concern about this situation is something felt by many people at work, especially when they know their colleagues are not being malicious.",
+      "pubDate": "Fri, 23 Oct 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7865,45 +7940,10 @@
       "source": "SMH"
     },
     {
-      "title": "Australia falls to defeat in final session, South Africa levels series",
+      "title": "Cummins admits Australia 'long way from our best' as South Africa levels series",
       "link": "https://www.abc.net.au/news/2026-10-22/test-cricket-live-updates-south-africa-vs-australia/107298268",
       "snippet": "",
       "pubDate": "Thu, 22 Oct 2026 07:08:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Aussie Borlase on winning side as Atlanta Dream leads WNBA Finals",
-      "link": "https://www.abc.net.au/news/2026-10-22/aussie-borlase-on-winning-side-atlanta-dream-leads-wnba-finals/107297062",
-      "snippet": "",
-      "pubDate": "Thu, 22 Oct 2026 04:48:45 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "‘It’s madness’: Safety fears prompt calls to bring back buttons on car dashboards",
-      "link": "https://www.smh.com.au/business/consumer-affairs/it-s-madness-safety-fears-prompt-calls-to-bring-back-buttons-on-car-dashboards-20261022-p617t0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Increasingly complex in-car touchscreen menus are unnecessarily distracting drivers, experts say.",
-      "pubDate": "Thu, 22 Oct 2026 15:04:35 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Amplia uncovers new clue in pancreatic cancer drug trial",
-      "link": "https://www.smh.com.au/business/companies/amplia-uncovers-new-clue-in-pancreatic-cancer-drug-trial-20261022-p617v6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Amplia Therapeutics has advanced its cancer drug narmafotinib across four trials, with data suggesting it may work independently of common tumour-causing KRAS gene mutations.",
-      "pubDate": "Thu, 22 Oct 2026 15:04:27 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Potential PNG signing helping to heal Cooper Bai's family rift",
-      "link": "https://www.abc.net.au/news/2026-10-22/nrl-cooper-bai-marcus-bai-rift-healed-amid-png-chiefs-signing/107295720",
-      "snippet": "",
-      "pubDate": "Thu, 22 Oct 2026 00:20:05 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Man United captain branded 'disgrace' for comments following latest loss",
-      "link": "https://www.abc.net.au/news/2026-10-22/football-man-united-captain-bruno-fernandes-michael-carrick-feud/107295234",
-      "snippet": "",
-      "pubDate": "Wed, 21 Oct 2026 22:37:48 +0000",
       "source": "ABC"
     }
   ]
