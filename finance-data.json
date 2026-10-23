@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-23T17:20:50.195Z",
+  "fetchedAt": "2026-10-23T21:33:55.397Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
-      "changePercent": -1.12,
+      "changePercent": -1.04,
       "previousClose": 0.71,
       "asOf": "2026-10-23",
       "history": [
@@ -94,6 +94,10 @@
         },
         {
           "date": "2026-10-21",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-22",
           "close": 0.7
         },
         {
@@ -367,6 +371,10 @@
         },
         {
           "date": "2026-10-21",
+          "close": 0.7
+        },
+        {
+          "date": "2026-10-22",
           "close": 0.7
         },
         {
@@ -1219,6 +1227,10 @@
           "close": 0.63
         },
         {
+          "date": "2026-10-22",
+          "close": 0.63
+        },
+        {
           "date": "2026-10-23",
           "close": 0.63
         }
@@ -1489,6 +1501,10 @@
         },
         {
           "date": "2026-10-21",
+          "close": 0.63
+        },
+        {
+          "date": "2026-10-22",
           "close": 0.63
         },
         {
@@ -2246,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
-      "change": -0.09,
-      "changePercent": -1.89,
+      "value": 4.68,
+      "change": -0.08,
+      "changePercent": -1.78,
       "previousClose": 4.76,
       "asOf": "2026-10-23",
       "history": [
@@ -2341,8 +2357,12 @@
           "close": 4.69
         },
         {
+          "date": "2026-10-22",
+          "close": 4.69
+        },
+        {
           "date": "2026-10-23",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2614,8 +2634,12 @@
           "close": 4.69
         },
         {
+          "date": "2026-10-22",
+          "close": 4.69
+        },
+        {
           "date": "2026-10-23",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2729,7 +2753,7 @@
         },
         {
           "date": "2026-10-23",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3363,14 +3387,14 @@
         },
         {
           "date": "2026-10-23",
-          "close": 4.67
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 110.27,
-      "change": -1.72,
-      "changePercent": -1.53,
+      "value": 110.36,
+      "change": -1.63,
+      "changePercent": -1.46,
       "previousClose": 111.99,
       "asOf": "2026-10-23",
       "history": [
@@ -3463,8 +3487,12 @@
           "close": 111.15
         },
         {
+          "date": "2026-10-22",
+          "close": 109.85
+        },
+        {
           "date": "2026-10-23",
-          "close": 110.27
+          "close": 110.36
         }
       ],
       "label": "AUD/JPY",
@@ -3736,8 +3764,12 @@
           "close": 111.15
         },
         {
+          "date": "2026-10-22",
+          "close": 109.85
+        },
+        {
           "date": "2026-10-23",
-          "close": 110.27
+          "close": 110.36
         }
       ],
       "h6m": [
@@ -3847,11 +3879,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 111.15
+          "close": 109.85
         },
         {
           "date": "2026-10-23",
-          "close": 110.27
+          "close": 110.36
         }
       ],
       "h3y": [
@@ -4481,11 +4513,11 @@
         },
         {
           "date": "2026-10-18",
-          "close": 111.15
+          "close": 109.85
         },
         {
           "date": "2026-10-23",
-          "close": 110.27
+          "close": 110.36
         }
       ]
     }
@@ -4493,7 +4525,7 @@
   "audusd": {
     "value": 0.7,
     "change": -0.01,
-    "changePercent": -1.12,
+    "changePercent": -1.04,
     "previousClose": 0.71,
     "asOf": "2026-10-23",
     "history": [
@@ -4583,6 +4615,10 @@
       },
       {
         "date": "2026-10-21",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-22",
         "close": 0.7
       },
       {
@@ -4856,6 +4892,10 @@
       },
       {
         "date": "2026-10-21",
+        "close": 0.7
+      },
+      {
+        "date": "2026-10-22",
         "close": 0.7
       },
       {
@@ -5806,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.88,
-      "change": 10.72,
-      "changePercent": 11.63,
+      "value": 103.44,
+      "change": 11.28,
+      "changePercent": 12.24,
       "previousClose": 92.16,
       "asOf": "2026-10-23",
       "history": [
@@ -5902,16 +5942,16 @@
         },
         {
           "date": "2026-10-23",
-          "close": 102.88
+          "close": 103.44
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 111.52,
-      "change": 8.44,
-      "changePercent": 8.19,
+      "value": 111.66,
+      "change": 8.58,
+      "changePercent": 8.32,
       "previousClose": 103.08,
       "asOf": "2026-10-23",
       "history": [
@@ -6005,7 +6045,7 @@
         },
         {
           "date": "2026-10-23",
-          "close": 111.52
+          "close": 111.66
         }
       ],
       "name": "Brent Crude",
@@ -6014,7 +6054,7 @@
     "gas": {
       "value": 3.05,
       "change": 0.02,
-      "changePercent": 0.76,
+      "changePercent": 0.79,
       "previousClose": 3.02,
       "asOf": "2026-10-23",
       "history": [
@@ -7453,21 +7493,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4011.6,
-      "change": -306.8,
-      "changePercent": -7.1
+      "price": 4010,
+      "change": -308.4,
+      "changePercent": -7.14
     },
     {
       "name": "Silver",
-      "price": 54.1,
-      "change": -10.28,
-      "changePercent": -15.97
+      "price": 53.96,
+      "change": -10.42,
+      "changePercent": -16.19
     },
     {
       "name": "Copper",
       "price": 6.5,
       "change": -0.18,
-      "changePercent": -2.7
+      "changePercent": -2.71
     }
   ],
   "housing": {
@@ -7810,6 +7850,13 @@
       "source": "SMH"
     },
     {
+      "title": "The gym junkie tech boss whose company sustained a $3 billion wipeout",
+      "link": "https://www.smh.com.au/business/companies/the-gym-junkie-tech-boss-whose-company-sustained-a-3-billion-wipeout-20261024-p617rk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The fortunes of data centre business NextDC took a massive dive this week when its massive expansion plans hit a power pole in suburban Melbourne.",
+      "pubDate": "Sat, 24 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Cap Raise Crucible: Gold books, big fees and bruised punters",
       "link": "https://www.smh.com.au/business/companies/cap-raise-crucible-gold-books-big-fees-and-bruised-punters-20261023-p6186o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Argonaut led $225m of gold raisings; however, Wiluna plunged 22.3%. With eight of our ten featured stocks underwater, brokers’ fees and options stole the Cap Raise Crucible spotlight.",
@@ -7838,6 +7885,20 @@
       "source": "ABC"
     },
     {
+      "title": "Bayern Munich manager Vincent Kompany hospitalised after training collapse",
+      "link": "https://www.abc.net.au/news/2026-10-24/bayern-munich-manager-kompany-hospitalised-after-collapse/107304286",
+      "snippet": "",
+      "pubDate": "Fri, 23 Oct 2026 20:50:53 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Sydney marathon champion Jepchirchir provisionally banned over EPO finding",
+      "link": "https://www.abc.net.au/news/2026-10-24/sydney-marathon-champion-jepchirchir-provisional-ban-epo/107304266",
+      "snippet": "",
+      "pubDate": "Fri, 23 Oct 2026 20:15:13 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "The prince’s bet on Trump is blowing up in his face",
       "link": "https://www.smh.com.au/business/the-economy/the-prince-s-bet-on-trump-is-blowing-up-in-his-face-20261023-p617aa.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Saudi Arabia’s crown prince Mohammed bin Salman made a few big gambles as he rose to power, including one on Donald Trump.",
@@ -7852,13 +7913,6 @@
       "source": "SMH"
     },
     {
-      "title": "NextDC boss Craig Scroggie goes viral with gym video",
-      "link": "https://www.smh.com.au/business/nextdc-boss-craig-scroggie-goes-viral-with-gym-video-20261023-p61845.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "NextDC boss Craig Scroggie has been very public about his extreme diet and exercise regime.",
-      "pubDate": "Fri, 23 Oct 2026 13:15:01 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "Trump calls LeBron 'total disgrace' over perceived anthem disrespect",
       "link": "https://www.abc.net.au/news/2026-10-23/basketball-donald-trump-accuses-lebron-james-anthem-disrespect/107300334",
       "snippet": "",
@@ -7870,20 +7924,6 @@
       "link": "https://www.abc.net.au/news/2026-10-23/cricket-awkward-questions-linger-after-australia-heavy-defeat/107299452",
       "snippet": "",
       "pubDate": "Thu, 22 Oct 2026 21:29:37 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "England stunned as Sri Lanka chases 430 after Brook's record ODI knock",
-      "link": "https://www.abc.net.au/news/2026-10-23/cricket-sri-lanka-chases-430-england-harry-brook-double-century/107299378",
-      "snippet": "",
-      "pubDate": "Thu, 22 Oct 2026 20:27:02 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Wallaroos great inspired by mantra 'you can't be what you can't see'",
-      "link": "https://www.abc.net.au/news/2026-10-23/rugby-australia-wallaroos-emily-chancellor-scotland/107297400",
-      "snippet": "",
-      "pubDate": "Thu, 22 Oct 2026 19:41:55 +0000",
       "source": "ABC"
     }
   ]
