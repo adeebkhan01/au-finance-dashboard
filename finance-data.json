@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-24T21:02:30.694Z",
+  "fetchedAt": "2026-10-25T05:04:46.842Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": -0.01,
       "changePercent": -1.04,
       "previousClose": 0.71,
-      "asOf": "2026-10-24",
+      "asOf": "2026-10-25",
       "history": [
         {
           "date": "2026-09-22",
@@ -1136,7 +1136,7 @@
       "change": 0.01,
       "changePercent": 1.08,
       "previousClose": 0.62,
-      "asOf": "2026-10-24",
+      "asOf": "2026-10-25",
       "history": [
         {
           "date": "2026-09-22",
@@ -2266,7 +2266,7 @@
       "change": -0.08,
       "changePercent": -1.78,
       "previousClose": 4.76,
-      "asOf": "2026-10-24",
+      "asOf": "2026-10-25",
       "history": [
         {
           "date": "2026-09-22",
@@ -2361,7 +2361,7 @@
           "close": 4.69
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "close": 4.68
         }
       ],
@@ -2638,7 +2638,7 @@
           "close": 4.69
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "close": 4.68
         }
       ],
@@ -2752,7 +2752,7 @@
           "close": 4.69
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "close": 4.68
         }
       ],
@@ -3386,7 +3386,7 @@
           "close": 4.69
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "close": 4.68
         }
       ]
@@ -3396,7 +3396,7 @@
       "change": -1.63,
       "changePercent": -1.46,
       "previousClose": 111.99,
-      "asOf": "2026-10-24",
+      "asOf": "2026-10-25",
       "history": [
         {
           "date": "2026-09-22",
@@ -4527,7 +4527,7 @@
     "change": -0.01,
     "changePercent": -1.04,
     "previousClose": 0.71,
-    "asOf": "2026-10-24",
+    "asOf": "2026-10-25",
     "history": [
       {
         "date": "2026-09-22",
@@ -5847,15 +5847,11 @@
   "energy": {
     "wti": {
       "value": 103.27,
-      "change": 11.11,
-      "changePercent": 12.06,
-      "previousClose": 92.16,
-      "asOf": "2026-10-24",
+      "change": 10.86,
+      "changePercent": 11.75,
+      "previousClose": 92.41,
+      "asOf": "2026-10-25",
       "history": [
-        {
-          "date": "2026-09-24",
-          "close": 94.61
-        },
         {
           "date": "2026-09-25",
           "close": 92.41
@@ -5946,15 +5942,11 @@
     },
     "brent": {
       "value": 111.7,
-      "change": 8.62,
-      "changePercent": 8.36,
-      "previousClose": 103.08,
-      "asOf": "2026-10-24",
+      "change": 7.38,
+      "changePercent": 7.07,
+      "previousClose": 104.32,
+      "asOf": "2026-10-25",
       "history": [
-        {
-          "date": "2026-09-24",
-          "close": 106.6
-        },
         {
           "date": "2026-09-25",
           "close": 104.32
@@ -6037,7 +6029,7 @@
         },
         {
           "date": "2026-10-23",
-          "close": 116.72
+          "close": 111.7
         }
       ],
       "name": "Brent Crude",
@@ -6045,15 +6037,11 @@
     },
     "gas": {
       "value": 3.05,
-      "change": 0.03,
-      "changePercent": 0.89,
-      "previousClose": 3.02,
-      "asOf": "2026-10-24",
+      "change": -0.15,
+      "changePercent": -4.57,
+      "previousClose": 3.2,
+      "asOf": "2026-10-25",
       "history": [
-        {
-          "date": "2026-09-24",
-          "close": 3.3
-        },
         {
           "date": "2026-09-25",
           "close": 3.2
@@ -6136,7 +6124,7 @@
         },
         {
           "date": "2026-10-23",
-          "close": 2.64
+          "close": 3.05
         }
       ],
       "name": "Natural Gas",
@@ -6226,7 +6214,7 @@
     "change": 29.9,
     "changePercent": 0.34,
     "previousClose": 8765.3,
-    "asOf": "2026-10-24",
+    "asOf": "2026-10-25",
     "history": [
       {
         "date": "2026-09-23",
@@ -7486,20 +7474,20 @@
     {
       "name": "Gold",
       "price": 4007.9,
-      "change": -310.5,
-      "changePercent": -7.19
+      "change": -313.3,
+      "changePercent": -7.25
     },
     {
       "name": "Silver",
       "price": 53.95,
-      "change": -10.43,
-      "changePercent": -16.2
+      "change": -10.3,
+      "changePercent": -16.03
     },
     {
       "name": "Copper",
       "price": 6.51,
-      "change": -0.17,
-      "changePercent": -2.55
+      "change": -0.19,
+      "changePercent": -2.79
     }
   ],
   "housing": {
@@ -7849,32 +7837,60 @@
       "source": "SMH"
     },
     {
-      "title": "Cap Raise Crucible: Gold books, big fees and bruised punters",
-      "link": "https://www.smh.com.au/business/companies/cap-raise-crucible-gold-books-big-fees-and-bruised-punters-20261023-p6186o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Argonaut led $225m of gold raisings; however, Wiluna plunged 22.3%. With eight of our ten featured stocks underwater, brokers’ fees and options stole the Cap Raise Crucible spotlight.",
-      "pubDate": "Fri, 23 Oct 2026 17:00:59 +1100",
+      "title": "Live: Diamonds play Constellation Cup on home soil",
+      "link": "https://www.abc.net.au/news/2026-10-25/constellation-cup-netball-diamonds-silver-ferns-game-three/107306516",
+      "snippet": "",
+      "pubDate": "Sun, 25 Oct 2026 04:21:37 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Big W has spent more than a decade in Kmart’s shadow. Can it pull off a comeback?",
+      "link": "https://www.smh.com.au/business/companies/big-w-has-spent-more-than-a-decade-in-kmart-s-shadow-can-it-pull-off-a-comeback-20261025-p614sq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The discount retailer has been outpaced and outperformed by its much larger, more successful rival for years but is aiming for a turnaround.",
+      "pubDate": "Sun, 25 Oct 2026 12:43:17 +1100",
       "source": "SMH"
     },
     {
-      "title": "Big Hits: Rapid Critical Metals, Benz Mining, Encounter Resources",
-      "link": "https://www.smh.com.au/business/companies/big-hits-rapid-critical-metals-benz-mining-encounter-resources-20261023-p6186t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Big Hits looks at notable drill intercepts reported to the ASX this week, led by Rapid Critical Metals in NSW, with runners-up Benz Mining and Encounter Resources in WA.",
-      "pubDate": "Fri, 23 Oct 2026 16:59:49 +1100",
+      "title": "‘Final piece of the puzzle’: Western Sydney Airport opens for business",
+      "link": "https://www.smh.com.au/business/companies/historic-day-for-aviation-first-flight-from-western-sydney-departs-today-20261025-p6184j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The first domestic Jetstar flight has departed Sydney’s new airport as the low-cost carrier bets big on Australia’s first new major airport in 50 years.",
+      "pubDate": "Sun, 25 Oct 2026 13:40:29 +1100",
       "source": "SMH"
     },
     {
-      "title": "Women report stalkers abusing exercise apps to harass them",
+      "title": "Antonelli on pole as he eyes record-setting world F1 title",
+      "link": "https://www.abc.net.au/news/2026-10-25/antonelli-on-pole-as-he-eyes-record-setting-world-f1-title/107306218",
+      "snippet": "",
+      "pubDate": "Sun, 25 Oct 2026 01:53:12 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Volkanovski underscores UFC greatness with record ninth title win",
+      "link": "https://www.abc.net.au/news/2026-10-25/volkanovski-underscores-ufc-greatness-win-over-movsar-evloev/107306090",
+      "snippet": "",
+      "pubDate": "Sun, 25 Oct 2026 00:23:49 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Sam Konstas cracks yet another century",
+      "link": "https://www.abc.net.au/news/2026-10-25/sam-konstas-cracks-yet-another-century-one-day-cup/107306058",
+      "snippet": "",
+      "pubDate": "Sat, 24 Oct 2026 22:58:18 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Valkyries shut down Borlase's Dream to square WNBA Finals",
+      "link": "https://www.abc.net.au/news/2026-10-25/valkyries-shut-down-dream-in-game-4-to-square-wnba-finals/107305956",
+      "snippet": "",
+      "pubDate": "Sat, 24 Oct 2026 21:54:20 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Cyber stalking a growing problem for female cyclists, runners",
       "link": "https://www.abc.net.au/news/2026-10-25/women-cyclists-runners-stalking-exercise-apps/107295476",
       "snippet": "",
       "pubDate": "Sat, 24 Oct 2026 18:00:00 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "‘Historic day for aviation’: First flight from Western Sydney departs today",
-      "link": "https://www.smh.com.au/business/companies/historic-day-for-aviation-first-flight-from-western-sydney-departs-today-20261025-p6184j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Flight JQ362 is expected to depart at 11am as the low-cost carrier bets big on the new airport and announces a flash sale.",
-      "pubDate": "Sun, 25 Oct 2026 00:01:00 +1100",
-      "source": "SMH"
     },
     {
       "title": "‘Slow burn’: Western Sydney Airport’s real challenge awaits after launch",
@@ -7882,20 +7898,6 @@
       "snippet": "A lot of what happens next for Sydney’s newest airport depends on how much underlying demand is not being met by capacity-constrained Sydney Kingsford Smith.",
       "pubDate": "Sat, 24 Oct 2026 15:00:00 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Aussie Picklum aglow on top of WSL standings after Portugal win",
-      "link": "https://www.abc.net.au/news/2026-10-24/aussie-picklum-back-on-top-wsl-standings-portugal-win/107304474",
-      "snippet": "",
-      "pubDate": "Sat, 24 Oct 2026 00:29:50 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Wallaroos send retiring pair out with win over Scotland",
-      "link": "https://www.abc.net.au/news/2026-10-24/wallaroos-send-retiring-pair-out-with-win-over-scotland/107304368",
-      "snippet": "",
-      "pubDate": "Fri, 23 Oct 2026 23:16:33 +0000",
-      "source": "ABC"
     },
     {
       "title": "The prince’s bet on Trump is blowing up in his face",
