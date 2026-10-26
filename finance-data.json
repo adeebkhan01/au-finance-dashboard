@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-26T13:26:14.449Z",
+  "fetchedAt": "2026-10-26T22:48:50.065Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.21,
+      "changePercent": 0.11,
       "previousClose": 0.7,
       "asOf": "2026-10-26",
       "history": [
@@ -1114,7 +1114,7 @@
     "audeur": {
       "value": 0.63,
       "change": 0.01,
-      "changePercent": 1.9,
+      "changePercent": 1.88,
       "previousClose": 0.62,
       "asOf": "2026-10-26",
       "history": [
@@ -2222,9 +2222,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
-      "change": -0.03,
-      "changePercent": -0.74,
+      "value": 4.68,
+      "change": -0.02,
+      "changePercent": -0.5,
       "previousClose": 4.7,
       "asOf": "2026-10-26",
       "history": [
@@ -2310,7 +2310,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2579,7 +2579,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2693,7 +2693,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3327,14 +3327,14 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.67
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 110.54,
-      "change": -0.7,
-      "changePercent": -0.63,
+      "value": 110.44,
+      "change": -0.81,
+      "changePercent": -0.73,
       "previousClose": 111.25,
       "asOf": "2026-10-26",
       "history": [
@@ -3420,7 +3420,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.54
+          "close": 110.44
         }
       ],
       "label": "AUD/JPY",
@@ -3689,7 +3689,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.54
+          "close": 110.44
         }
       ],
       "h6m": [
@@ -3803,7 +3803,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.54
+          "close": 110.43
         }
       ],
       "h3y": [
@@ -4437,7 +4437,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.54
+          "close": 110.43
         }
       ]
     }
@@ -4445,7 +4445,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.21,
+    "changePercent": 0.11,
     "previousClose": 0.7,
     "asOf": "2026-10-26",
     "history": [
@@ -5746,9 +5746,9 @@
   },
   "energy": {
     "wti": {
-      "value": 102.11,
-      "change": 9.7,
-      "changePercent": 10.5,
+      "value": 101.42,
+      "change": 9.01,
+      "changePercent": 9.75,
       "previousClose": 92.41,
       "asOf": "2026-10-26",
       "history": [
@@ -5834,16 +5834,16 @@
         },
         {
           "date": "2026-10-26",
-          "close": 102.11
+          "close": 101.42
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.82,
-      "change": 6.5,
-      "changePercent": 6.23,
+      "value": 110.24,
+      "change": 5.92,
+      "changePercent": 5.67,
       "previousClose": 104.32,
       "asOf": "2026-10-26",
       "history": [
@@ -5929,16 +5929,16 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.82
+          "close": 110.24
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.03,
+      "value": 3.04,
       "change": -0.16,
-      "changePercent": -5.13,
+      "changePercent": -5.01,
       "previousClose": 3.2,
       "asOf": "2026-10-26",
       "history": [
@@ -6024,7 +6024,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 3.03
+          "close": 3.04
         }
       ],
       "name": "Natural Gas",
@@ -7297,21 +7297,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4025.2,
-      "change": -296,
-      "changePercent": -6.85
+      "price": 4025.8,
+      "change": -295.4,
+      "changePercent": -6.84
     },
     {
       "name": "Silver",
-      "price": 53.8,
-      "change": -10.45,
-      "changePercent": -16.26
+      "price": 53.96,
+      "change": -10.29,
+      "changePercent": -16.02
     },
     {
       "name": "Copper",
-      "price": 6.53,
-      "change": -0.16,
-      "changePercent": -2.43
+      "price": 6.55,
+      "change": -0.15,
+      "changePercent": -2.17
     }
   ],
   "housing": {
@@ -7647,6 +7647,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to dip, Wall Street climbs; Anthropic files for IPO; Microsoft offers buyouts to 60,000 workers",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-wall-street-climbs-anthropic-files-for-ipo-20261027-p618sc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are climbing as investors digest Anthropic’s filing for its initial public offering and look forward to key big tech earnings this week.",
+      "pubDate": "Tue, 27 Oct 2026 08:15:38 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "ASX rebounds to end on a high; CSL names new chair",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-wall-street-loses-ground-as-oil-prices-rise-20261026-p618gx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket has rebounded after an early fall to close in the green, with materials and energy stocks posting gains.",
@@ -7668,17 +7675,52 @@
       "source": "SMH"
     },
     {
-      "title": "‘One way or the other’: Trump’s threats send oil prices surging",
-      "link": "https://www.smh.com.au/business/markets/we-don-t-play-games-trump-s-threats-have-markets-nervous-20261026-p618il.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The flow of oil through the Strait of Hormuz has returned to something close to pre-war levels but prices continue to rise. Trump is a big reason why.",
-      "pubDate": "Mon, 26 Oct 2026 11:58:59 +1100",
+      "title": "Former ABC News chief’s payout revealed",
+      "link": "https://www.smh.com.au/business/companies/former-abc-news-chief-s-payout-revealed-20261027-p618th.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Former ABC News director Justin Stevens was given a $353,000 payout when he abruptly exited the public broadcaster in May.",
+      "pubDate": "Tue, 27 Oct 2026 08:55:20 +1100",
       "source": "SMH"
     },
     {
-      "title": "AI darling NextDC announces board and pay purge after Melbourne power disaster",
-      "link": "https://www.smh.com.au/business/companies/ai-darling-nextdc-announces-board-and-pay-purge-after-melbourne-power-disaster-20261026-p618ij.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The data centre group will lose its chairman, other board members will take a pay cut and the CEO will lose all of his bonuses this year in response to last week’s disastrous downgrade.",
-      "pubDate": "Mon, 26 Oct 2026 10:14:14 +1100",
+      "title": "De Minaur pulls off massive comeback to improve ATP Finals hopes",
+      "link": "https://www.abc.net.au/news/2026-10-27/alex-de-minaur-comeback-win-at-vienna-open/107312384",
+      "snippet": "",
+      "pubDate": "Mon, 26 Oct 2026 20:44:44 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Roosters stunningly withdraw contract offer to halfback Sam Walker",
+      "link": "https://www.abc.net.au/news/2026-10-27/sydney-roosters-withdraw-contract-offer-to-halfback-sam-walker/107312396",
+      "snippet": "",
+      "pubDate": "Mon, 26 Oct 2026 20:30:25 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Labuschagne must beat mental block to overcome the 30s in third Test",
+      "link": "https://www.abc.net.au/news/2026-10-27/marnus-labuschagne-set-to-keep-spot-for-third-test/107312346",
+      "snippet": "",
+      "pubDate": "Mon, 26 Oct 2026 19:43:41 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "This brother and sister co-founded Anthropic five years ago. Now they are worth $19 billion each",
+      "link": "https://www.smh.com.au/business/companies/this-brother-and-sister-co-founded-anthropic-five-years-ago-now-they-are-worth-19b-each-20261027-p618s9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The staggering fortunes of Anthropic’s seven co-founders have been revealed as the company heads to Wall Street. They have pledged to give most of it away.",
+      "pubDate": "Tue, 27 Oct 2026 05:55:05 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Sports commission urges kids not to specialise in sports",
+      "link": "https://www.abc.net.au/news/2026-10-27/australian-sport-commission-sport-specialisation-advice/107310058",
+      "snippet": "",
+      "pubDate": "Mon, 26 Oct 2026 18:53:34 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Yo-Chi gets political: 80 MPs are about to receive a flurry of anti-plastic postcards",
+      "link": "https://www.smh.com.au/business/entrepreneurship/yo-chi-gets-political-80-mps-are-about-to-receive-a-flurry-of-anti-plastic-postcards-20261027-p618kq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia’s largest frozen yoghurt chain is engaging customers in environmental activism.",
+      "pubDate": "Tue, 27 Oct 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7686,48 +7728,6 @@
       "link": "https://www.abc.net.au/news/2026-10-26/dr-redmayne-aims-to-lift-brisbane-heat-wbbl-fortunes/107311252",
       "snippet": "",
       "pubDate": "Mon, 26 Oct 2026 08:40:42 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Tyranny of distance' weighs against big cycling call",
-      "link": "https://www.abc.net.au/news/2026-10-26/tyranny-of-distance-weighs-against-big-cycling-call/107310180",
-      "snippet": "",
-      "pubDate": "Mon, 26 Oct 2026 07:10:10 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Accelerate puts 12km Pilbara manganese corridor to the test",
-      "link": "https://www.smh.com.au/business/companies/accelerate-puts-12km-pilbara-manganese-corridor-to-the-test-20261026-p618or.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Accelerate Resources has launched a drilling blitz along a 12km manganese corridor in WA’s Pilbara after identifying 200-plus outcrops and rock chips grading up to 59.6% manganese.",
-      "pubDate": "Mon, 26 Oct 2026 15:28:44 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Three-game Bledisloe Cup series looms as new deal struck",
-      "link": "https://www.abc.net.au/news/2026-10-26/three-game-bledisloe-cup-series-looms-as-new-deal-struck/107309132",
-      "snippet": "",
-      "pubDate": "Mon, 26 Oct 2026 03:39:15 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "RLWC quick hits: Big crowds and bigger scorelines in week two",
-      "link": "https://www.abc.net.au/news/2026-10-26/rugby-league-world-cup-rlwc-week-two-quick-hits-scores-crowds/107308904",
-      "snippet": "",
-      "pubDate": "Mon, 26 Oct 2026 03:28:38 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "‘Glad we checked our tickets’: First international flight departs Western Sydney airport",
-      "link": "https://www.smh.com.au/business/companies/glad-we-checked-our-tickets-first-international-flight-departs-western-sydney-20261026-p618gy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "New Zealand passengers Matt and Serena Ross were taken by surprise when they saw their departure airport.",
-      "pubDate": "Mon, 26 Oct 2026 12:15:34 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Antonelli is two points away from the F1 title, and can win it next week",
-      "link": "https://www.abc.net.au/news/2026-10-26/how-kimi-antonelli-can-win-f1-drivers-championship/107308200",
-      "snippet": "",
-      "pubDate": "Mon, 26 Oct 2026 00:27:03 +0000",
       "source": "ABC"
     }
   ]
