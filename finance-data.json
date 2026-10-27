@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-27T12:32:55.447Z",
+  "fetchedAt": "2026-10-27T22:28:39.847Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.41,
+      "changePercent": 0.29,
       "previousClose": 0.7,
       "asOf": "2026-10-27",
       "history": [
@@ -1125,8 +1125,8 @@
     },
     "audeur": {
       "value": 0.63,
-      "change": 0.01,
-      "changePercent": 2.4,
+      "change": 0.02,
+      "changePercent": 2.48,
       "previousClose": 0.62,
       "asOf": "2026-10-27",
       "history": [
@@ -2247,8 +2247,8 @@
     },
     "audcny": {
       "value": 4.68,
-      "change": -0.03,
-      "changePercent": -0.54,
+      "change": -0.02,
+      "changePercent": -0.41,
       "previousClose": 4.7,
       "asOf": "2026-10-27",
       "history": [
@@ -2721,7 +2721,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.69
+          "close": 4.68
         },
         {
           "date": "2026-10-27",
@@ -3359,7 +3359,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.69
+          "close": 4.68
         },
         {
           "date": "2026-10-27",
@@ -3369,7 +3369,7 @@
     },
     "audjpy": {
       "value": 110.98,
-      "change": -0.27,
+      "change": -0.26,
       "changePercent": -0.24,
       "previousClose": 111.25,
       "asOf": "2026-10-27",
@@ -3843,7 +3843,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.24
+          "close": 110.57
         },
         {
           "date": "2026-10-27",
@@ -4481,7 +4481,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 110.24
+          "close": 110.57
         },
         {
           "date": "2026-10-27",
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.41,
+    "changePercent": 0.29,
     "previousClose": 0.7,
     "asOf": "2026-10-27",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100.99,
-      "change": 8.39,
-      "changePercent": 9.06,
+      "value": 99.94,
+      "change": 7.34,
+      "changePercent": 7.93,
       "previousClose": 92.6,
       "asOf": "2026-10-27",
       "history": [
@@ -5898,16 +5898,16 @@
         },
         {
           "date": "2026-10-27",
-          "close": 100.99
+          "close": 99.94
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.11,
-      "change": 4.83,
-      "changePercent": 4.59,
+      "value": 109.38,
+      "change": 4.1,
+      "changePercent": 3.89,
       "previousClose": 105.28,
       "asOf": "2026-10-27",
       "history": [
@@ -5997,16 +5997,16 @@
         },
         {
           "date": "2026-10-27",
-          "close": 110.11
+          "close": 109.38
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.04,
-      "change": 0.04,
-      "changePercent": 1.47,
+      "value": 3.05,
+      "change": 0.05,
+      "changePercent": 1.8,
       "previousClose": 3,
       "asOf": "2026-10-27",
       "history": [
@@ -6096,7 +6096,7 @@
         },
         {
           "date": "2026-10-27",
-          "close": 3.04
+          "close": 3.05
         }
       ],
       "name": "Natural Gas",
@@ -7405,21 +7405,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4029.5,
-      "change": -138.9,
-      "changePercent": -3.33
+      "price": 4074.9,
+      "change": -93.5,
+      "changePercent": -2.24
     },
     {
       "name": "Silver",
-      "price": 53.38,
-      "change": -7.84,
-      "changePercent": -12.81
+      "price": 54.54,
+      "change": -6.69,
+      "changePercent": -10.92
     },
     {
       "name": "Copper",
-      "price": 6.62,
-      "change": 0.05,
-      "changePercent": 0.78
+      "price": 6.66,
+      "change": 0.09,
+      "changePercent": 1.4
     }
   ],
   "housing": {
@@ -7762,24 +7762,52 @@
       "source": "SMH"
     },
     {
-      "title": "D-day for David Jones: Department store’s future to be decided by Christmas",
-      "link": "https://www.smh.com.au/business/companies/d-day-for-david-jones-department-store-s-future-to-be-decided-by-christmas-20261027-p618x9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The private equity owners of the 188-year-old retailer are hoping to strike a deal with landlords and suppliers sooner rather than later.",
-      "pubDate": "Tue, 27 Oct 2026 14:21:32 +1100",
+      "title": "ASX set to edge up ahead of inflation data, AI stocks drive Wall Street higher; Boeing tumbles",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-tech-stocks-drive-wall-street-higher-20261028-p6195g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks in the artificial-intelligence industry are leading Wall Street mostly higher as their yo-yo moves swing back upward.",
+      "pubDate": "Wed, 28 Oct 2026 07:24:49 +1100",
       "source": "SMH"
     },
     {
-      "title": "PLC Resources satellite survey lights up WA Murchison gold",
-      "link": "https://www.smh.com.au/business/companies/plc-resources-satellite-survey-lights-up-wa-murchison-gold-20261027-p6191e.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "PLC Resources has generated a suite of ranked gold targets at its project near Meekatharra in WA, with some showing spectral signatures similar to a nearby producing gold mine.",
-      "pubDate": "Tue, 27 Oct 2026 14:40:55 +1100",
+      "title": "On the day that ‘stops the nation’, the RBA will stop inflation (again)",
+      "link": "https://www.smh.com.au/business/the-economy/on-the-day-that-stops-the-nation-the-rba-will-tackle-inflation-again-20261028-p61918.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "On Melbourne Cup day – bet on interest rates rising. It’s a sure thing.",
+      "pubDate": "Wed, 28 Oct 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Zenith fills in blanks on 600m WA gold corridor",
-      "link": "https://www.smh.com.au/business/companies/zenith-fills-in-blanks-on-600m-wa-gold-corridor-20261027-p618yn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Zenith Minerals hit gold in 83% of holes across a 600m gap at its WA Dulcie project, opening the door to a maiden resource alongside its existing 675,000-ounce gold inventory.",
-      "pubDate": "Tue, 27 Oct 2026 12:39:43 +1100",
+      "title": "Quick hits: Starc's six balls of fury after Cummins's questionable call",
+      "link": "https://www.abc.net.au/news/2026-10-28/australia-sa-quick-hits-cape-town-cummins-hazlewood-toss/107316382",
+      "snippet": "",
+      "pubDate": "Tue, 27 Oct 2026 19:44:08 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "NBA's shortest-ever player to have his jersey retired",
+      "link": "https://www.abc.net.au/news/2026-10-28/nba-muggsy-bogues-to-have-his-jersey-retired/107317372",
+      "snippet": "",
+      "pubDate": "Tue, 27 Oct 2026 22:12:31 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Maya Joint makes mockery of rankings with big win in Tokyo",
+      "link": "https://www.abc.net.au/news/2026-10-28/maya-joint-defeats-sorana-cirstea-at-pan-pacific-open-in-tokyo/107317294",
+      "snippet": "",
+      "pubDate": "Tue, 27 Oct 2026 21:07:38 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Australia clawed its way back into the third Test, but big challenges await",
+      "link": "https://www.abc.net.au/news/2026-10-28/analysis-on-australia-and-third-test-in-cape-town/107317062",
+      "snippet": "",
+      "pubDate": "Tue, 27 Oct 2026 20:16:44 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Uber faces Australian class action over sexual assaults, harassment by drivers",
+      "link": "https://www.smh.com.au/business/consumer-affairs/uber-faces-australian-class-action-over-sexual-assaults-harassment-by-drivers-20261028-p618w8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The managing law firm’s class action callout follows a flood of legal actions in Australia and abroad concerning Uber’s handling of driver misconduct claims.",
+      "pubDate": "Wed, 28 Oct 2026 00:01:00 +1100",
       "source": "SMH"
     },
     {
@@ -7790,7 +7818,7 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Aussies make belated breakthrough after horror morning in Cape Town",
+      "title": "Starc's ferocious late spell helps Australia recover from horror start",
       "link": "https://www.abc.net.au/news/2026-10-27/test-cricket-live-updates-south-africa-vs-australia/107308494",
       "snippet": "",
       "pubDate": "Tue, 27 Oct 2026 07:30:17 +0000",
@@ -7809,34 +7837,6 @@
       "snippet": "",
       "pubDate": "Tue, 27 Oct 2026 06:17:52 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Orbit Resources uncovers 1km magnetic target in NSW",
-      "link": "https://www.smh.com.au/business/companies/orbit-resources-uncovers-1km-magnetic-target-in-nsw-20261027-p6192t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Orbit Resources has unveiled a 1km magnetic target at its Lewis Ponds project in NSW, along strike from Cousin Jack, pointing to the potential for new sulphide mineralisation.",
-      "pubDate": "Tue, 27 Oct 2026 16:20:48 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Cease and desist! ABC demands One Nation stop casting Bluey in its cartoons",
-      "link": "https://www.smh.com.au/business/companies/former-abc-news-chief-s-payout-revealed-20261027-p618th.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ABC boss Hugh Marks says the depiction of Bluey is a “shocking use of Australia’s most loved character.”",
-      "pubDate": "Tue, 27 Oct 2026 16:14:18 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Borlase's WNBA dream fading after Game 5 finals loss to Valkyries",
-      "link": "https://www.abc.net.au/news/2026-10-27/borlase-wnba-dream-fading-after-game-5-finals-loss/107314598",
-      "snippet": "",
-      "pubDate": "Tue, 27 Oct 2026 04:21:25 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Coles worker sacked after restraining suspected thief to receive $6500",
-      "link": "https://www.smh.com.au/business/workplace/coles-worker-sacked-after-restraining-suspected-thief-to-receive-6500-20261027-p618ut.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The fair work umpire has ordered Coles to pay a man $6500 after he was sacked for breaching workplace policy by trying to stop two suspected thieves at a neighbouring Liquorland store.",
-      "pubDate": "Tue, 27 Oct 2026 15:03:25 +1100",
-      "source": "SMH"
     }
   ]
 }
