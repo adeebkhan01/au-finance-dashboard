@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-28T06:01:16.943Z",
+  "fetchedAt": "2026-10-28T13:20:38.769Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.36,
+      "changePercent": 0.37,
       "previousClose": 0.7,
       "asOf": "2026-10-28",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.63,
       "change": 0.02,
-      "changePercent": 2.65,
+      "changePercent": 2.53,
       "previousClose": 0.62,
       "asOf": "2026-10-28",
       "history": [
@@ -2256,7 +2256,7 @@
     "audcny": {
       "value": 4.67,
       "change": -0.03,
-      "changePercent": -0.69,
+      "changePercent": -0.68,
       "previousClose": 4.7,
       "asOf": "2026-10-28",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.99,
-      "change": 0.62,
-      "changePercent": 0.56,
+      "value": 111.08,
+      "change": 0.71,
+      "changePercent": 0.65,
       "previousClose": 110.37,
       "asOf": "2026-10-28",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-10-28",
-          "close": 110.99
+          "close": 111.08
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-10-28",
-          "close": 110.99
+          "close": 111.08
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-10-28",
-          "close": 110.99
+          "close": 111.08
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-10-28",
-          "close": 110.99
+          "close": 111.08
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.36,
+    "changePercent": 0.37,
     "previousClose": 0.7,
     "asOf": "2026-10-28",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 101.59,
-      "change": 8.99,
-      "changePercent": 9.71,
+      "value": 101.52,
+      "change": 8.92,
+      "changePercent": 9.63,
       "previousClose": 92.6,
       "asOf": "2026-10-28",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-10-28",
-          "close": 101.59
+          "close": 101.52
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 111.26,
-      "change": 5.98,
-      "changePercent": 5.68,
+      "value": 110.99,
+      "change": 5.71,
+      "changePercent": 5.42,
       "previousClose": 105.28,
       "asOf": "2026-10-28",
       "history": [
@@ -6025,7 +6025,7 @@
         },
         {
           "date": "2026-10-28",
-          "close": 111.26
+          "close": 110.99
         }
       ],
       "name": "Brent Crude",
@@ -6034,7 +6034,7 @@
     "gas": {
       "value": 3.05,
       "change": 0.05,
-      "changePercent": 1.63,
+      "changePercent": 1.6,
       "previousClose": 3,
       "asOf": "2026-10-28",
       "history": [
@@ -6702,6 +6702,10 @@
           "close": 162.02
         },
         {
+          "date": "2026-10-27",
+          "close": 163.01
+        },
+        {
           "date": "2026-10-28",
           "close": 163.01
         }
@@ -6804,6 +6808,10 @@
         {
           "date": "2026-10-26",
           "close": 40.29
+        },
+        {
+          "date": "2026-10-27",
+          "close": 40.42
         },
         {
           "date": "2026-10-28",
@@ -6910,6 +6918,10 @@
           "close": 39.86
         },
         {
+          "date": "2026-10-27",
+          "close": 39.86
+        },
+        {
           "date": "2026-10-28",
           "close": 39.86
         }
@@ -7012,6 +7024,10 @@
         {
           "date": "2026-10-26",
           "close": 36.18
+        },
+        {
+          "date": "2026-10-27",
+          "close": 36.53
         },
         {
           "date": "2026-10-28",
@@ -7120,6 +7136,10 @@
           "close": 57.99
         },
         {
+          "date": "2026-10-27",
+          "close": 58.04
+        },
+        {
           "date": "2026-10-28",
           "close": 58.04
         }
@@ -7222,6 +7242,10 @@
         {
           "date": "2026-10-26",
           "close": 150.32
+        },
+        {
+          "date": "2026-10-27",
+          "close": 150.58
         },
         {
           "date": "2026-10-28",
@@ -7328,6 +7352,10 @@
           "close": 14.5
         },
         {
+          "date": "2026-10-27",
+          "close": 14.51
+        },
+        {
           "date": "2026-10-28",
           "close": 14.51
         }
@@ -7432,6 +7460,10 @@
           "close": 33.18
         },
         {
+          "date": "2026-10-27",
+          "close": 32.13
+        },
+        {
           "date": "2026-10-28",
           "close": 32.13
         }
@@ -7441,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4046.7,
-      "change": -121.7,
-      "changePercent": -2.92
+      "price": 4068.8,
+      "change": -99.6,
+      "changePercent": -2.39
     },
     {
       "name": "Silver",
-      "price": 53.94,
-      "change": -7.28,
-      "changePercent": -11.89
+      "price": 54.31,
+      "change": -6.91,
+      "changePercent": -11.29
     },
     {
       "name": "Copper",
-      "price": 6.64,
-      "change": 0.08,
-      "changePercent": 1.18
+      "price": 6.66,
+      "change": 0.1,
+      "changePercent": 1.48
     }
   ],
   "housing": {
@@ -7791,31 +7823,31 @@
   ],
   "news": [
     {
-      "title": "ASX pares gains as inflation figures put pressure on RBA",
+      "title": "ASX ends flat as inflation boosts rate rise bets; tech stocks rally",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-tech-stocks-drive-wall-street-higher-20261028-p6195g.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket has shed some of its morning gains after the release of the nation’s latest inflation figures increased pressure on the Reserve Bank to lift interest rates at its meeting next week.",
-      "pubDate": "Wed, 28 Oct 2026 11:55:02 +1100",
+      "snippet": "The Australian sharemarket erased its morning gains after the release of the nation’s latest inflation figures increased pressure on the Reserve Bank to lift interest rates next week.",
+      "pubDate": "Wed, 28 Oct 2026 17:43:59 +1100",
       "source": "SMH"
     },
     {
-      "title": "Thank you, Mr President: BlueScope gets a windfall from Trump’s tariffs",
-      "link": "https://www.smh.com.au/business/markets/thank-you-mr-president-bluescope-gets-a-windfall-from-trump-s-tariffs-20261028-p6196z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump’s tariffs on steel imports have kicked off a bonanza for steel producers in the US, including BlueScope. They’re a pain for the wider economy.",
-      "pubDate": "Wed, 28 Oct 2026 12:12:45 +1100",
+      "title": "Anthropic brings its mega IPO to Australia’s AI-starved investors",
+      "link": "https://www.smh.com.au/business/markets/anthropic-brings-its-mega-ipo-to-australia-s-ai-starved-investors-20261028-p619es.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Australia is one of a few countries around the world where mum and dad investors can directly buy into the Anthropic IPO.",
+      "pubDate": "Wed, 28 Oct 2026 18:35:20 +1100",
       "source": "SMH"
     },
     {
-      "title": "Dateline pledges to deliver US gold vision of late chairman",
-      "link": "https://www.smh.com.au/business/companies/dateline-pledges-to-deliver-us-gold-vision-of-late-chairman-20261028-p619b8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dateline Resources has vowed to advance its billion-dollar Colosseum gold project in California following the passing of longtime chairman Mark Johnson.",
-      "pubDate": "Wed, 28 Oct 2026 12:00:17 +1100",
+      "title": "Trump’s America is facing a reckoning as it drowns in debt",
+      "link": "https://www.smh.com.au/business/the-economy/trump-s-america-is-facing-a-reckoning-as-it-drowns-in-debt-20261028-p618gq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The clock may be ticking on America’s “exorbitant privilege”.",
+      "pubDate": "Wed, 28 Oct 2026 18:35:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "‘Profit over compliance’: Star hit with $260m fine for money laundering breaches",
-      "link": "https://www.smh.com.au/business/companies/star-hit-with-260m-fine-for-money-laundering-breaches-20261028-p618o6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Federal Court has hit the casino operator with a much larger fine than it says it can afford.",
-      "pubDate": "Wed, 28 Oct 2026 10:54:13 +1100",
+      "title": "Right Resources clocks 90% gold recoveries in NSW met test",
+      "link": "https://www.smh.com.au/business/companies/right-resources-clocks-90-percent-gold-recoveries-in-nsw-met-test-20261028-p619hg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Right Resources achieved 89.9% gold recoveries in cyanide leach tests at its NSW pilot project, with low reagent consumption strengthening its processing outlook.",
+      "pubDate": "Wed, 28 Oct 2026 17:55:16 +1100",
       "source": "SMH"
     },
     {
@@ -7826,10 +7858,17 @@
       "source": "SMH"
     },
     {
-      "title": "Quick hits: Starc's six balls of fury after Cummins's questionable call",
-      "link": "https://www.abc.net.au/news/2026-10-28/australia-sa-quick-hits-cape-town-cummins-hazlewood-toss/107316382",
+      "title": "Diamonds avoid clean sweep in Constellation Cup",
+      "link": "https://www.abc.net.au/news/2026-10-28/constellation-cup-netball-diamonds-silver-ferns-game-four/107319776",
       "snippet": "",
-      "pubDate": "Tue, 27 Oct 2026 19:44:08 +0000",
+      "pubDate": "Wed, 28 Oct 2026 07:42:03 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: Green, Renshaw score half tons after close calls, Labuschagne falls for a duck",
+      "link": "https://www.abc.net.au/news/2026-10-28/cricket-south-africa-vs-australia-third-test-day-two-live-blog/107320620",
+      "snippet": "",
+      "pubDate": "Wed, 28 Oct 2026 07:30:17 +0000",
       "source": "ABC"
     },
     {
@@ -7865,13 +7904,6 @@
       "link": "https://www.abc.net.au/news/2026-10-28/stan-wawrinka-ends-illustrious-tennis-career/107318162",
       "snippet": "",
       "pubDate": "Wed, 28 Oct 2026 00:54:15 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Arsenal knocked out of League Cup by fourth-tier minnow in all-time upset",
-      "link": "https://www.abc.net.au/news/2026-10-28/arsenal-eliminated-efl-league-cup-fleetwood-town/107317536",
-      "snippet": "",
-      "pubDate": "Tue, 27 Oct 2026 22:54:59 +0000",
       "source": "ABC"
     }
   ]
