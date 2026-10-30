@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-30T13:19:03.243Z",
+  "fetchedAt": "2026-10-30T22:33:25.489Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.5,
+      "changePercent": 0.66,
       "previousClose": 0.7,
       "asOf": "2026-10-30",
       "history": [
@@ -481,7 +481,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-10-30",
@@ -1115,7 +1115,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 0.71
+          "close": 0.7
         },
         {
           "date": "2026-10-30",
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.63,
       "change": 0.01,
-      "changePercent": 2.04,
+      "changePercent": 2.26,
       "previousClose": 0.62,
       "asOf": "2026-10-30",
       "history": [
@@ -2247,8 +2247,8 @@
     },
     "audcny": {
       "value": 4.67,
-      "change": -0.01,
-      "changePercent": -0.23,
+      "change": -0.02,
+      "changePercent": -0.4,
       "previousClose": 4.68,
       "asOf": "2026-10-30",
       "history": [
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.7
+          "close": 4.68
         },
         {
           "date": "2026-10-30",
@@ -3359,7 +3359,7 @@
         },
         {
           "date": "2026-10-26",
-          "close": 4.7
+          "close": 4.68
         },
         {
           "date": "2026-10-30",
@@ -3368,9 +3368,9 @@
       ]
     },
     "audjpy": {
-      "value": 110.44,
-      "change": 0.44,
-      "changePercent": 0.4,
+      "value": 110.81,
+      "change": 0.8,
+      "changePercent": 0.73,
       "previousClose": 110.01,
       "asOf": "2026-10-30",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.44
+          "close": 110.81
         }
       ],
       "label": "AUD/JPY",
@@ -3737,7 +3737,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.44
+          "close": 110.81
         }
       ],
       "h6m": [
@@ -3847,11 +3847,11 @@
         },
         {
           "date": "2026-10-26",
-          "close": 111.36
+          "close": 110.88
         },
         {
           "date": "2026-10-30",
-          "close": 110.44
+          "close": 110.81
         }
       ],
       "h3y": [
@@ -4481,11 +4481,11 @@
         },
         {
           "date": "2026-10-26",
-          "close": 111.36
+          "close": 110.88
         },
         {
           "date": "2026-10-30",
-          "close": 110.44
+          "close": 110.81
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.5,
+    "changePercent": 0.66,
     "previousClose": 0.7,
     "asOf": "2026-10-30",
     "history": [
@@ -4970,7 +4970,7 @@
       },
       {
         "date": "2026-10-26",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-10-30",
@@ -5604,7 +5604,7 @@
       },
       {
         "date": "2026-10-26",
-        "close": 0.71
+        "close": 0.7
       },
       {
         "date": "2026-10-30",
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 103.77,
-      "change": 13.35,
-      "changePercent": 14.76,
+      "value": 102.95,
+      "change": 12.53,
+      "changePercent": 13.86,
       "previousClose": 90.42,
       "asOf": "2026-10-30",
       "history": [
@@ -5902,16 +5902,16 @@
         },
         {
           "date": "2026-10-30",
-          "close": 103.77
+          "close": 102.95
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 112.88,
-      "change": 9.35,
-      "changePercent": 9.03,
+      "value": 112.33,
+      "change": 8.8,
+      "changePercent": 8.5,
       "previousClose": 103.53,
       "asOf": "2026-10-30",
       "history": [
@@ -6005,16 +6005,16 @@
         },
         {
           "date": "2026-10-30",
-          "close": 112.88
+          "close": 112.33
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.86,
-      "change": -0.17,
-      "changePercent": -5.65,
+      "value": 2.88,
+      "change": -0.14,
+      "changePercent": -4.73,
       "previousClose": 3.03,
       "asOf": "2026-10-30",
       "history": [
@@ -6108,7 +6108,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 2.86
+          "close": 2.88
         }
       ],
       "name": "Natural Gas",
@@ -7453,21 +7453,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3950.9,
-      "change": -235.8,
-      "changePercent": -5.63
+      "price": 3884.9,
+      "change": -301.8,
+      "changePercent": -7.21
     },
     {
       "name": "Silver",
-      "price": 49.84,
-      "change": -10.26,
-      "changePercent": -17.08
+      "price": 49.14,
+      "change": -10.96,
+      "changePercent": -18.24
     },
     {
       "name": "Copper",
       "price": 6.51,
       "change": -0.05,
-      "changePercent": -0.8
+      "changePercent": -0.75
     }
   ],
   "housing": {
@@ -7810,13 +7810,6 @@
       "source": "SMH"
     },
     {
-      "title": "ASX finishes the week higher as bank shares improve",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-alphabet-s-plunge-weighs-down-wall-street-ecb-chief-lagarde-resigns-20261030-p619vp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket ended the week higher, after three of the big four banks gained on Friday.",
-      "pubDate": "Fri, 30 Oct 2026 12:41:27 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "Big Hits: New Murchison Gold, Elk Range Mining and WhiteRock Lithium",
       "link": "https://www.smh.com.au/business/companies/big-hits-new-murchison-gold-elk-range-mining-and-whiterock-lithium-20261030-p61a4a.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Big Hits looks at notable drill intercepts reported to the ASX this week, led by New Murchison Gold in WA, with runners-up Elk Range Mining in Idaho and WhiteRock Lithium in Quebec.",
@@ -7831,11 +7824,32 @@
       "source": "SMH"
     },
     {
+      "title": "David Jones hosted Queen Elizabeth II and Dior – but nostalgia won’t save it",
+      "link": "https://www.smh.com.au/business/companies/david-jones-hosted-queen-elizabeth-ii-and-dior-but-nostalgia-won-t-save-it-20261031-p619m6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "On the brink of financial collapse, the 188-year-old institution has a legacy worth saving – but no one seems to believe it can ever return to its former glory.",
+      "pubDate": "Sat, 31 Oct 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Trump the lame duck would be a relief for the world",
       "link": "https://www.smh.com.au/business/the-economy/trump-the-lame-duck-would-be-a-relief-for-the-world-20261030-p618gu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "There is no shortage of reasons to worry about the global economy. And yet there is at least one piece of good news on the horizon.",
       "pubDate": "Fri, 30 Oct 2026 17:35:00 +1100",
       "source": "SMH"
+    },
+    {
+      "title": "Series set for epic finale as Aussie batters must stand up",
+      "link": "https://www.abc.net.au/news/2026-10-31/series-set-for-epic-finale-as-aussie-batters-must-stand-up/107331288",
+      "snippet": "",
+      "pubDate": "Fri, 30 Oct 2026 21:21:19 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Quick hits: Mix-up ends schoolmates' mammoth stand, Breetzke brings the fight",
+      "link": "https://www.abc.net.au/news/2026-10-31/australia-sa-quick-hits-day-four-rickleton-cummmins-mulder/107330472",
+      "snippet": "",
+      "pubDate": "Fri, 30 Oct 2026 20:13:35 +0000",
+      "source": "ABC"
     },
     {
       "title": "Joint's promising run in Japan ends with QF exit",
@@ -7845,7 +7859,7 @@
       "source": "ABC"
     },
     {
-      "title": "Live: South Africa extends lead over Australia as new ball taken",
+      "title": "Australia facing monster chase to win series after Mulder, Rickelton tons",
       "link": "https://www.abc.net.au/news/2026-10-30/test-cricket-live-updates-south-africa-vs-australia-cape-town/107330346",
       "snippet": "",
       "pubDate": "Fri, 30 Oct 2026 07:45:49 +0000",
@@ -7871,20 +7885,6 @@
       "snippet": "Coles shares have plunged after a profit warning, amid signs of stiff competition with arch-rival Woolworths.",
       "pubDate": "Fri, 30 Oct 2026 14:17:43 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Annie Cannon-Brookes’ paddock-to-plate precinct under investigation",
-      "link": "https://www.smh.com.au/business/entrepreneurship/annie-cannon-brookes-paddock-to-plate-precinct-under-investigation-20261030-p619z2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The billionaire’s regenerative farm and hospitality venture in the Southern Highlands is facing questions from council over its development approval.",
-      "pubDate": "Fri, 30 Oct 2026 12:49:53 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Dream shakes off scheduling controversy to force WNBA Finals decider",
-      "link": "https://www.abc.net.au/news/2026-10-30/wnba-finals-game-six-izzy-borlase-angel-reese/107326500",
-      "snippet": "",
-      "pubDate": "Thu, 29 Oct 2026 23:19:24 +0000",
-      "source": "ABC"
     }
   ]
 }
