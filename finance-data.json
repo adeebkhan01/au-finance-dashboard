@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-30T06:12:15.342Z",
+  "fetchedAt": "2026-10-30T13:19:03.243Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0,
-      "changePercent": 0.6,
+      "changePercent": 0.5,
       "previousClose": 0.7,
       "asOf": "2026-10-30",
       "history": [
@@ -1126,7 +1126,7 @@
     "audeur": {
       "value": 0.63,
       "change": 0.01,
-      "changePercent": 1.93,
+      "changePercent": 2.04,
       "previousClose": 0.62,
       "asOf": "2026-10-30",
       "history": [
@@ -2246,9 +2246,9 @@
       ]
     },
     "audcny": {
-      "value": 4.68,
+      "value": 4.67,
       "change": -0.01,
-      "changePercent": -0.13,
+      "changePercent": -0.23,
       "previousClose": 4.68,
       "asOf": "2026-10-30",
       "history": [
@@ -2342,7 +2342,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 4.68
+          "close": 4.67
         }
       ],
       "label": "AUD/CNY",
@@ -2615,7 +2615,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 4.68
+          "close": 4.67
         }
       ],
       "h6m": [
@@ -2729,7 +2729,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 4.68
+          "close": 4.67
         }
       ],
       "h3y": [
@@ -3363,14 +3363,14 @@
         },
         {
           "date": "2026-10-30",
-          "close": 4.68
+          "close": 4.67
         }
       ]
     },
     "audjpy": {
-      "value": 110.76,
-      "change": 0.75,
-      "changePercent": 0.68,
+      "value": 110.44,
+      "change": 0.44,
+      "changePercent": 0.4,
       "previousClose": 110.01,
       "asOf": "2026-10-30",
       "history": [
@@ -3464,7 +3464,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.76
+          "close": 110.44
         }
       ],
       "label": "AUD/JPY",
@@ -3737,7 +3737,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.76
+          "close": 110.44
         }
       ],
       "h6m": [
@@ -3851,7 +3851,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.75
+          "close": 110.44
         }
       ],
       "h3y": [
@@ -4485,7 +4485,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.75
+          "close": 110.44
         }
       ]
     }
@@ -4493,7 +4493,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0,
-    "changePercent": 0.6,
+    "changePercent": 0.5,
     "previousClose": 0.7,
     "asOf": "2026-10-30",
     "history": [
@@ -5806,9 +5806,9 @@
   },
   "energy": {
     "wti": {
-      "value": 103.24,
-      "change": 12.82,
-      "changePercent": 14.18,
+      "value": 103.77,
+      "change": 13.35,
+      "changePercent": 14.76,
       "previousClose": 90.42,
       "asOf": "2026-10-30",
       "history": [
@@ -5902,16 +5902,16 @@
         },
         {
           "date": "2026-10-30",
-          "close": 103.24
+          "close": 103.77
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 112.23,
-      "change": 8.7,
-      "changePercent": 8.4,
+      "value": 112.88,
+      "change": 9.35,
+      "changePercent": 9.03,
       "previousClose": 103.53,
       "asOf": "2026-10-30",
       "history": [
@@ -6005,16 +6005,16 @@
         },
         {
           "date": "2026-10-30",
-          "close": 112.23
+          "close": 112.88
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.9,
-      "change": -0.13,
-      "changePercent": -4.26,
+      "value": 2.86,
+      "change": -0.17,
+      "changePercent": -5.65,
       "previousClose": 3.03,
       "asOf": "2026-10-30",
       "history": [
@@ -6108,7 +6108,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 2.9
+          "close": 2.86
         }
       ],
       "name": "Natural Gas",
@@ -6682,6 +6682,10 @@
           "close": 166.39
         },
         {
+          "date": "2026-10-29",
+          "close": 166.72
+        },
+        {
           "date": "2026-10-30",
           "close": 166.72
         }
@@ -6784,6 +6788,10 @@
         {
           "date": "2026-10-28",
           "close": 41.36
+        },
+        {
+          "date": "2026-10-29",
+          "close": 41.51
         },
         {
           "date": "2026-10-30",
@@ -6890,6 +6898,10 @@
           "close": 40.72
         },
         {
+          "date": "2026-10-29",
+          "close": 40.81
+        },
+        {
           "date": "2026-10-30",
           "close": 40.81
         }
@@ -6992,6 +7004,10 @@
         {
           "date": "2026-10-28",
           "close": 37.21
+        },
+        {
+          "date": "2026-10-29",
+          "close": 36.82
         },
         {
           "date": "2026-10-30",
@@ -7100,6 +7116,10 @@
           "close": 57.52
         },
         {
+          "date": "2026-10-29",
+          "close": 57.56
+        },
+        {
           "date": "2026-10-30",
           "close": 57.56
         }
@@ -7202,6 +7222,10 @@
         {
           "date": "2026-10-28",
           "close": 149.69
+        },
+        {
+          "date": "2026-10-29",
+          "close": 147.31
         },
         {
           "date": "2026-10-30",
@@ -7308,6 +7332,10 @@
           "close": 14.59
         },
         {
+          "date": "2026-10-29",
+          "close": 14.27
+        },
+        {
           "date": "2026-10-30",
           "close": 14.27
         }
@@ -7412,6 +7440,10 @@
           "close": 32.74
         },
         {
+          "date": "2026-10-29",
+          "close": 33.33
+        },
+        {
           "date": "2026-10-30",
           "close": 33.33
         }
@@ -7421,21 +7453,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3999.8,
-      "change": -186.9,
-      "changePercent": -4.46
+      "price": 3950.9,
+      "change": -235.8,
+      "changePercent": -5.63
     },
     {
       "name": "Silver",
-      "price": 51.06,
-      "change": -9.04,
-      "changePercent": -15.05
+      "price": 49.84,
+      "change": -10.26,
+      "changePercent": -17.08
     },
     {
       "name": "Copper",
-      "price": 6.56,
-      "change": 0,
-      "changePercent": -0.02
+      "price": 6.51,
+      "change": -0.05,
+      "changePercent": -0.8
     }
   ],
   "housing": {
@@ -7778,9 +7810,9 @@
       "source": "SMH"
     },
     {
-      "title": "ASX climbs, banks jump; Binance freezes $3.5b in assets after suspected hack",
+      "title": "ASX finishes the week higher as bank shares improve",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-edge-up-alphabet-s-plunge-weighs-down-wall-street-ecb-chief-lagarde-resigns-20261030-p619vp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian sharemarket has opened higher after a volatile night on overseas markets.",
+      "snippet": "The Australian sharemarket ended the week higher, after three of the big four banks gained on Friday.",
       "pubDate": "Fri, 30 Oct 2026 12:41:27 +1100",
       "source": "SMH"
     },
@@ -7799,17 +7831,31 @@
       "source": "SMH"
     },
     {
-      "title": "Our OH&amp;S officer is on a power trip. How do we make them stop?",
-      "link": "https://www.smh.com.au/business/workplace/our-oh-and-s-officer-is-on-a-power-trip-how-do-we-make-them-stop-20261030-p619pg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "I can see how frustrating, and sometimes offensive, this person’s behaviour is. But there might be a hidden reason for it.",
-      "pubDate": "Fri, 30 Oct 2026 05:01:00 +1100",
+      "title": "Trump the lame duck would be a relief for the world",
+      "link": "https://www.smh.com.au/business/the-economy/trump-the-lame-duck-would-be-a-relief-for-the-world-20261030-p618gu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There is no shortage of reasons to worry about the global economy. And yet there is at least one piece of good news on the horizon.",
+      "pubDate": "Fri, 30 Oct 2026 17:35:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Coles sacked a worker for grabbing a shoplifter. As a lawyer, here’s why it was the right call",
-      "link": "https://www.smh.com.au/business/workplace/coles-sacked-a-worker-for-grabbing-a-shoplifter-as-a-lawyer-here-s-why-it-was-the-right-call-20261030-p619fx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "When I worked at a suburban Woolworths I saw outrageous theft. The store managers would tackle thieves to the ground in the car park.",
-      "pubDate": "Fri, 30 Oct 2026 05:00:00 +1100",
+      "title": "Joint's promising run in Japan ends with QF exit",
+      "link": "https://www.abc.net.au/news/2026-10-30/maya-joints-promising-run-in-japan-ends-with-quarterfinal-exit/107330478",
+      "snippet": "",
+      "pubDate": "Fri, 30 Oct 2026 08:36:40 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: South Africa extends lead over Australia as new ball taken",
+      "link": "https://www.abc.net.au/news/2026-10-30/test-cricket-live-updates-south-africa-vs-australia-cape-town/107330346",
+      "snippet": "",
+      "pubDate": "Fri, 30 Oct 2026 07:45:49 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘Biggest hack in history’: Crypto giant freezes assets after $8.9b heist",
+      "link": "https://www.smh.com.au/business/markets/biggest-hack-in-history-crypto-giant-freezes-assets-after-8-9b-heist-20261030-p61a4q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Binance says a security breach had resulted in an estimated $8.9 billion impact. Analysts said it could amount to the biggest crypto heist ever.",
+      "pubDate": "Fri, 30 Oct 2026 17:33:41 +1100",
       "source": "SMH"
     },
     {
@@ -7838,20 +7884,6 @@
       "link": "https://www.abc.net.au/news/2026-10-30/wnba-finals-game-six-izzy-borlase-angel-reese/107326500",
       "snippet": "",
       "pubDate": "Thu, 29 Oct 2026 23:19:24 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Australia's Cape Town desperation evident on another pulsating Test day",
-      "link": "https://www.abc.net.au/news/2026-10-30/cape-town-test-set-up-for-thrilling-finale/107326410",
-      "snippet": "",
-      "pubDate": "Thu, 29 Oct 2026 20:39:18 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: Marnus caught in ugly exchange after all-time send off",
-      "link": "https://www.abc.net.au/news/2026-10-30/australia-sa-quick-hits-day-three-labuschagne-drs-bavuma/107325486",
-      "snippet": "",
-      "pubDate": "Thu, 29 Oct 2026 19:54:18 +0000",
       "source": "ABC"
     }
   ]
