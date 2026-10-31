@@ -1,17 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T22:33:25.489Z",
+  "fetchedAt": "2026-10-31T06:05:34.955Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": 0,
-      "changePercent": 0.66,
-      "previousClose": 0.7,
-      "asOf": "2026-10-30",
+      "change": 0.01,
+      "changePercent": 1.28,
+      "previousClose": 0.69,
+      "asOf": "2026-10-31",
       "history": [
-        {
-          "date": "2026-09-29",
-          "close": 0.7
-        },
         {
           "date": "2026-09-30",
           "close": 0.69
@@ -99,16 +95,16 @@
         {
           "date": "2026-10-30",
           "close": 0.7
+        },
+        {
+          "date": "2026-10-31",
+          "close": 0.7
         }
       ],
       "label": "AUD/USD",
       "symbol": "AUDUSD=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-07-29",
-          "close": 0.7
-        },
         {
           "date": "2026-07-30",
           "close": 0.7
@@ -372,6 +368,10 @@
         {
           "date": "2026-10-30",
           "close": 0.7
+        },
+        {
+          "date": "2026-10-31",
+          "close": 0.7
         }
       ],
       "h6m": [
@@ -484,7 +484,7 @@
           "close": 0.7
         },
         {
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "close": 0.7
         }
       ],
@@ -1118,22 +1118,18 @@
           "close": 0.7
         },
         {
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "close": 0.7
         }
       ]
     },
     "audeur": {
       "value": 0.63,
-      "change": 0.01,
-      "changePercent": 2.26,
-      "previousClose": 0.62,
-      "asOf": "2026-10-30",
+      "change": 0.02,
+      "changePercent": 2.77,
+      "previousClose": 0.61,
+      "asOf": "2026-10-31",
       "history": [
-        {
-          "date": "2026-09-29",
-          "close": 0.62
-        },
         {
           "date": "2026-09-30",
           "close": 0.61
@@ -1227,10 +1223,6 @@
       "symbol": "AUDEUR=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-07-29",
-          "close": 0.61
-        },
         {
           "date": "2026-07-30",
           "close": 0.61
@@ -2247,15 +2239,11 @@
     },
     "audcny": {
       "value": 4.67,
-      "change": -0.02,
-      "changePercent": -0.4,
-      "previousClose": 4.68,
-      "asOf": "2026-10-30",
+      "change": 0.01,
+      "changePercent": 0.19,
+      "previousClose": 4.66,
+      "asOf": "2026-10-31",
       "history": [
-        {
-          "date": "2026-09-29",
-          "close": 4.68
-        },
         {
           "date": "2026-09-30",
           "close": 4.66
@@ -2342,6 +2330,10 @@
         },
         {
           "date": "2026-10-30",
+          "close": 4.68
+        },
+        {
+          "date": "2026-10-31",
           "close": 4.67
         }
       ],
@@ -2349,10 +2341,6 @@
       "symbol": "AUDCNY=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-07-29",
-          "close": 4.71
-        },
         {
           "date": "2026-07-30",
           "close": 4.75
@@ -2615,6 +2603,10 @@
         },
         {
           "date": "2026-10-30",
+          "close": 4.68
+        },
+        {
+          "date": "2026-10-31",
           "close": 4.67
         }
       ],
@@ -2728,7 +2720,7 @@
           "close": 4.68
         },
         {
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "close": 4.67
         }
       ],
@@ -3362,22 +3354,18 @@
           "close": 4.68
         },
         {
-          "date": "2026-10-30",
+          "date": "2026-10-31",
           "close": 4.67
         }
       ]
     },
     "audjpy": {
       "value": 110.81,
-      "change": 0.8,
-      "changePercent": 0.73,
-      "previousClose": 110.01,
-      "asOf": "2026-10-30",
+      "change": 1.39,
+      "changePercent": 1.27,
+      "previousClose": 109.42,
+      "asOf": "2026-10-31",
       "history": [
-        {
-          "date": "2026-09-29",
-          "close": 110
-        },
         {
           "date": "2026-09-30",
           "close": 109.42
@@ -3464,17 +3452,13 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.81
+          "close": 110.88
         }
       ],
       "label": "AUD/JPY",
       "symbol": "AUDJPY=X",
       "dec": 2,
       "h3m": [
-        {
-          "date": "2026-07-29",
-          "close": 113.63
-        },
         {
           "date": "2026-07-30",
           "close": 112.51
@@ -3737,7 +3721,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 110.81
+          "close": 110.88
         }
       ],
       "h6m": [
@@ -4492,15 +4476,11 @@
   },
   "audusd": {
     "value": 0.7,
-    "change": 0,
-    "changePercent": 0.66,
-    "previousClose": 0.7,
-    "asOf": "2026-10-30",
+    "change": 0.01,
+    "changePercent": 1.28,
+    "previousClose": 0.69,
+    "asOf": "2026-10-31",
     "history": [
-      {
-        "date": "2026-09-29",
-        "close": 0.7
-      },
       {
         "date": "2026-09-30",
         "close": 0.69
@@ -4588,16 +4568,16 @@
       {
         "date": "2026-10-30",
         "close": 0.7
+      },
+      {
+        "date": "2026-10-31",
+        "close": 0.7
       }
     ],
     "label": "AUD/USD",
     "symbol": "AUDUSD=X",
     "dec": 4,
     "h3m": [
-      {
-        "date": "2026-07-29",
-        "close": 0.7
-      },
       {
         "date": "2026-07-30",
         "close": 0.7
@@ -4861,6 +4841,10 @@
       {
         "date": "2026-10-30",
         "close": 0.7
+      },
+      {
+        "date": "2026-10-31",
+        "close": 0.7
       }
     ],
     "h6m": [
@@ -4973,7 +4957,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "close": 0.7
       }
     ],
@@ -5607,7 +5591,7 @@
         "close": 0.7
       },
       {
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "close": 0.7
       }
     ]
@@ -5806,11 +5790,11 @@
   },
   "energy": {
     "wti": {
-      "value": 102.95,
-      "change": 12.53,
-      "changePercent": 13.86,
-      "previousClose": 90.42,
-      "asOf": "2026-10-30",
+      "value": 104.12,
+      "change": 14.74,
+      "changePercent": 16.49,
+      "previousClose": 89.38,
+      "asOf": "2026-10-31",
       "history": [
         {
           "date": "2026-09-30",
@@ -5902,18 +5886,18 @@
         },
         {
           "date": "2026-10-30",
-          "close": 102.95
+          "close": 104.12
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 112.33,
-      "change": 8.8,
-      "changePercent": 8.5,
-      "previousClose": 103.53,
-      "asOf": "2026-10-30",
+      "value": 113.43,
+      "change": 10.84,
+      "changePercent": 10.57,
+      "previousClose": 102.59,
+      "asOf": "2026-10-31",
       "history": [
         {
           "date": "2026-09-30",
@@ -6005,18 +5989,18 @@
         },
         {
           "date": "2026-10-30",
-          "close": 112.33
+          "close": 117.64
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": -0.14,
-      "changePercent": -4.73,
-      "previousClose": 3.03,
-      "asOf": "2026-10-30",
+      "value": 2.9,
+      "change": -0.11,
+      "changePercent": -3.75,
+      "previousClose": 3.01,
+      "asOf": "2026-10-31",
       "history": [
         {
           "date": "2026-09-30",
@@ -6108,7 +6092,7 @@
         },
         {
           "date": "2026-10-30",
-          "close": 2.88
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -6198,7 +6182,7 @@
     "change": 118.8,
     "changePercent": 1.35,
     "previousClose": 8789.3,
-    "asOf": "2026-10-30",
+    "asOf": "2026-10-31",
     "history": [
       {
         "date": "2026-09-30",
@@ -6287,6 +6271,10 @@
       {
         "date": "2026-10-28",
         "close": 8891.8
+      },
+      {
+        "date": "2026-10-29",
+        "close": 8908.1
       },
       {
         "date": "2026-10-30",
@@ -7453,21 +7441,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3884.9,
-      "change": -301.8,
-      "changePercent": -7.21
+      "price": 3898.9,
+      "change": -280.8,
+      "changePercent": -6.72
     },
     {
       "name": "Silver",
-      "price": 49.14,
-      "change": -10.96,
-      "changePercent": -18.24
+      "price": 49.28,
+      "change": -11.39,
+      "changePercent": -18.78
     },
     {
       "name": "Copper",
-      "price": 6.51,
-      "change": -0.05,
-      "changePercent": -0.75
+      "price": 6.48,
+      "change": -0.06,
+      "changePercent": -0.94
     }
   ],
   "housing": {
@@ -7838,6 +7826,20 @@
       "source": "SMH"
     },
     {
+      "title": "Ferrari fastest as Verstappen says Kiwi rival should 'act a little smarter'",
+      "link": "https://www.abc.net.au/news/2026-10-31/charles-leclerc-fastest-in-both-f1-mexico-practice-sessions/107331904",
+      "snippet": "",
+      "pubDate": "Sat, 31 Oct 2026 03:45:25 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Fancied Melbourne Cup horse Defiantly ruled out by vets",
+      "link": "https://www.abc.net.au/news/2026-10-31/fancied-melbourne-cup-horse-defiantly-ruled-out-by-vets/107331588",
+      "snippet": "",
+      "pubDate": "Sat, 31 Oct 2026 01:18:31 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Series set for epic finale as Aussie batters must stand up",
       "link": "https://www.abc.net.au/news/2026-10-31/series-set-for-epic-finale-as-aussie-batters-must-stand-up/107331288",
       "snippet": "",
@@ -7852,20 +7854,6 @@
       "source": "ABC"
     },
     {
-      "title": "Joint's promising run in Japan ends with QF exit",
-      "link": "https://www.abc.net.au/news/2026-10-30/maya-joints-promising-run-in-japan-ends-with-quarterfinal-exit/107330478",
-      "snippet": "",
-      "pubDate": "Fri, 30 Oct 2026 08:36:40 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Australia facing monster chase to win series after Mulder, Rickelton tons",
-      "link": "https://www.abc.net.au/news/2026-10-30/test-cricket-live-updates-south-africa-vs-australia-cape-town/107330346",
-      "snippet": "",
-      "pubDate": "Fri, 30 Oct 2026 07:45:49 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "‘Biggest hack in history’: Crypto giant freezes assets after $8.9b heist",
       "link": "https://www.smh.com.au/business/markets/biggest-hack-in-history-crypto-giant-freezes-assets-after-8-9b-heist-20261030-p61a4q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Binance says a security breach had resulted in an estimated $8.9 billion impact. Analysts said it could amount to the biggest crypto heist ever.",
@@ -7873,17 +7861,17 @@
       "source": "SMH"
     },
     {
-      "title": "Retiring Swan Rampe 'hurt' over Pullman Hotel saga",
-      "link": "https://www.abc.net.au/news/2026-10-30/retiring-sydney-swans-dane-rampe-admits-hurt-pullman-hotel-saga/107329700",
-      "snippet": "",
-      "pubDate": "Fri, 30 Oct 2026 05:52:45 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "Billions wiped off Coles as it loses ground to Woolworths",
       "link": "https://www.smh.com.au/business/companies/billions-wiped-off-coles-as-it-loses-ground-to-woolworths-20261030-p619zx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Coles shares have plunged after a profit warning, amid signs of stiff competition with arch-rival Woolworths.",
       "pubDate": "Fri, 30 Oct 2026 14:17:43 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Annie Cannon-Brookes’ paddock-to-plate precinct under investigation",
+      "link": "https://www.smh.com.au/business/entrepreneurship/annie-cannon-brookes-paddock-to-plate-precinct-under-investigation-20261030-p619z2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The billionaire’s regenerative farm and hospitality venture in the Southern Highlands is facing questions from council over its development approval.",
+      "pubDate": "Fri, 30 Oct 2026 12:49:53 +1100",
       "source": "SMH"
     }
   ]
