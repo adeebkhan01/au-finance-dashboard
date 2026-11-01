@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-01T18:00:53.038Z",
+  "fetchedAt": "2026-11-01T22:14:43.750Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.25,
+      "changePercent": 1.24,
       "previousClose": 0.69,
       "asOf": "2026-11-01",
       "history": [
@@ -2238,9 +2238,9 @@
       ]
     },
     "audcny": {
-      "value": 4.67,
-      "change": 0.01,
-      "changePercent": 0.19,
+      "value": 4.68,
+      "change": 0.02,
+      "changePercent": 0.45,
       "previousClose": 4.66,
       "asOf": "2026-11-01",
       "history": [
@@ -2334,7 +2334,7 @@
         },
         {
           "date": "2026-11-01",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "label": "AUD/CNY",
@@ -2607,7 +2607,7 @@
         },
         {
           "date": "2026-11-01",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h6m": [
@@ -2721,7 +2721,7 @@
         },
         {
           "date": "2026-11-01",
-          "close": 4.67
+          "close": 4.68
         }
       ],
       "h3y": [
@@ -3355,14 +3355,14 @@
         },
         {
           "date": "2026-11-01",
-          "close": 4.67
+          "close": 4.68
         }
       ]
     },
     "audjpy": {
-      "value": 110.81,
-      "change": 1.39,
-      "changePercent": 1.27,
+      "value": 110.64,
+      "change": 1.22,
+      "changePercent": 1.11,
       "previousClose": 109.42,
       "asOf": "2026-11-01",
       "history": [
@@ -3453,6 +3453,10 @@
         {
           "date": "2026-10-30",
           "close": 110.88
+        },
+        {
+          "date": "2026-11-01",
+          "close": 110.64
         }
       ],
       "label": "AUD/JPY",
@@ -3722,6 +3726,10 @@
         {
           "date": "2026-10-30",
           "close": 110.88
+        },
+        {
+          "date": "2026-11-01",
+          "close": 110.64
         }
       ],
       "h6m": [
@@ -3834,8 +3842,8 @@
           "close": 110.88
         },
         {
-          "date": "2026-10-30",
-          "close": 110.81
+          "date": "2026-11-01",
+          "close": 110.64
         }
       ],
       "h3y": [
@@ -4468,8 +4476,8 @@
           "close": 110.88
         },
         {
-          "date": "2026-10-30",
-          "close": 110.81
+          "date": "2026-11-01",
+          "close": 110.64
         }
       ]
     }
@@ -4477,7 +4485,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.25,
+    "changePercent": 1.24,
     "previousClose": 0.69,
     "asOf": "2026-11-01",
     "history": [
@@ -7779,10 +7787,24 @@
   ],
   "news": [
     {
-      "title": "Here’s another thing AI is making worse: the cost of borrowing money",
+      "title": "Westpac expects 11 per cent house price fall, posts $6.8 billion profit",
+      "link": "https://www.smh.com.au/business/banking-and-finance/westpac-expects-11-per-cent-house-price-fall-posts-6-8-billion-profit-20261102-p61ah6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The nation’s second-biggest lender expects interest rates to remain “elevated” and for house prices to have fallen more than 10 per cent by March.",
+      "pubDate": "Mon, 02 Nov 2026 08:40:09 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "The $315b debt binge that’s driving up the cost of borrowing",
       "link": "https://www.smh.com.au/business/banking-and-finance/here-s-another-thing-ai-is-making-worse-the-cost-of-borrowing-money-20261102-p619us.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The AI craze is not only threatening to wipe out jobs and inflate a sharemarket bubble. It’s also costing governments more when they borrow.",
       "pubDate": "Mon, 02 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "ASX set to slip, Wall Street hit by tech rout; Binance sees withdrawals spike as it returns online",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slip-wall-street-hit-by-tech-rout-binance-sees-withdrawals-spike-as-it-returns-online-20261102-p61afh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A selloff for tech stocks got even worse on worries that Wall Street’s frenzy around artificial-intelligence technology sent prices too high.",
+      "pubDate": "Mon, 02 Nov 2026 05:25:07 +1100",
       "source": "SMH"
     },
     {
@@ -7800,18 +7822,46 @@
       "source": "SMH"
     },
     {
-      "title": "David Jones hosted Queen Elizabeth II and Dior – but nostalgia won’t save it",
-      "link": "https://www.smh.com.au/business/companies/david-jones-hosted-queen-elizabeth-ii-and-dior-but-nostalgia-won-t-save-it-20261031-p619m6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "On the brink of financial collapse, the 188-year-old institution has a legacy worth saving – but no one seems to believe it can ever return to its former glory.",
-      "pubDate": "Sat, 31 Oct 2026 05:00:00 +1100",
-      "source": "SMH"
+      "title": "Matildas star continues remarkable WSL goalscoring run in huge win",
+      "link": "https://www.abc.net.au/news/2026-11-02/football-carpenter-stars-chelsea-arsenal-wsl-wrap/107335080",
+      "snippet": "",
+      "pubDate": "Sun, 01 Nov 2026 21:59:55 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Trump the lame duck would be a relief for the world",
-      "link": "https://www.smh.com.au/business/the-economy/trump-the-lame-duck-would-be-a-relief-for-the-world-20261030-p618gu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "There is no shortage of reasons to worry about the global economy. And yet there is at least one piece of good news on the horizon.",
-      "pubDate": "Fri, 30 Oct 2026 17:35:00 +1100",
-      "source": "SMH"
+      "title": "'We have 50 cameras': Arsenal's drought-breaking win marred by VAR drama",
+      "link": "https://www.abc.net.au/news/2026-11-02/football-arsenal-ends-anfield-drought-liverpool-var-drama/107334968",
+      "snippet": "",
+      "pubDate": "Sun, 01 Nov 2026 20:35:50 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "'Annoying' Alcaraz denies de Minaur Vienna Open title in final",
+      "link": "https://www.abc.net.au/news/2026-11-02/tennis-de-minaur-beaten-vienna-open-final-alcaraz/107334926",
+      "snippet": "",
+      "pubDate": "Sun, 01 Nov 2026 19:47:48 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Live: High-speed wheel failure leads to huge crash that stops F1 race",
+      "link": "https://www.abc.net.au/news/2026-11-02/f1-live-mexico-city-grand-prix-oscar-piastri-kimi-antonelli/106998720",
+      "snippet": "",
+      "pubDate": "Sun, 01 Nov 2026 18:53:32 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "When Bart Cummings broke his Melbourne Cup rule for Saintly",
+      "link": "https://www.abc.net.au/news/2026-11-02/saintly-melbourne-cup-win-30-years-ago/107315230",
+      "snippet": "",
+      "pubDate": "Sun, 01 Nov 2026 18:40:37 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "What time is the Melbourne Cup? How to watch and the weather forecast",
+      "link": "https://www.abc.net.au/news/2026-11-02/melbourne-cup-time-how-to-watch-weather-forecast/107333664",
+      "snippet": "",
+      "pubDate": "Sun, 01 Nov 2026 18:38:39 +0000",
+      "source": "ABC"
     },
     {
       "title": "Tonga and Samoa can be State of Origin for the new century",
@@ -7819,48 +7869,6 @@
       "snippet": "",
       "pubDate": "Sun, 01 Nov 2026 12:25:07 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Suns miss top four by a whisker despite win over Giants",
-      "link": "https://www.abc.net.au/news/2026-11-01/suns-miss-top-four-by-a-whisker-despite-win-over-giants/107333824",
-      "snippet": "",
-      "pubDate": "Sun, 01 Nov 2026 05:51:40 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Soaring jet fuel prices are a headwind for Australia’s newest airport",
-      "link": "https://www.smh.com.au/business/companies/soaring-jet-fuel-prices-are-a-headwind-for-australia-s-newest-airport-20261101-p61a2j.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Qatar Airways, which has committed to Western Sydney International, has reduced the number of passengers it flies daily around the world by about 25,000 since the US-Israel-Iran War erupted.",
-      "pubDate": "Sun, 01 Nov 2026 16:44:17 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Agony and ecstasy for Australian duo in WNBA Finals game seven",
-      "link": "https://www.abc.net.au/news/2026-11-01/agony-and-ecstasy-for-australian-duo-in-wnba-finals-game-seven/107333884",
-      "snippet": "",
-      "pubDate": "Sun, 01 Nov 2026 04:54:03 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Inside the scramble to contain the largest crypto heist in history",
-      "link": "https://www.smh.com.au/business/markets/inside-the-scramble-to-contain-the-largest-crypto-heist-in-history-20261101-p61ac9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "From New York to Abu Dhabi and Kyiv, security researchers and Binance executives rushed to trace the stolen money after a hack that has shocked the crypto world.",
-      "pubDate": "Sun, 01 Nov 2026 12:29:22 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Hamilton takes F1 pole in Mexico, Piastri down in 13th",
-      "link": "https://www.abc.net.au/news/2026-11-01/lewis-hamilton-on-pole-f1-mexico-city-gp-oscar-piastri-13th/106998724",
-      "snippet": "",
-      "pubDate": "Sat, 31 Oct 2026 23:23:44 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "‘Thanks for raiding us’: Inside the crackdown on underquoting",
-      "link": "https://www.smh.com.au/business/consumer-affairs/thanks-for-raiding-us-inside-the-crackdown-on-underquoting-20261101-p617fk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "As the NSW government ramps up fines for underquoting and brings in new pricing transparency rules for agents, we spend a day with those enforcing the rules.",
-      "pubDate": "Sun, 01 Nov 2026 05:00:00 +1100",
-      "source": "SMH"
     }
   ]
 }
