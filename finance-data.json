@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-02T06:35:26.187Z",
+  "fetchedAt": "2026-11-02T21:51:12.664Z",
   "fx": {
     "audusd": {
       "value": 0.7,
       "change": 0.01,
-      "changePercent": 1.3,
+      "changePercent": 1.04,
       "previousClose": 0.69,
       "asOf": "2026-11-02",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.63,
       "change": 0.01,
-      "changePercent": 1.87,
+      "changePercent": 1.53,
       "previousClose": 0.62,
       "asOf": "2026-11-02",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.66,
-      "change": 0.02,
-      "changePercent": 0.38,
+      "value": 4.65,
+      "change": 0.01,
+      "changePercent": 0.19,
       "previousClose": 4.64,
       "asOf": "2026-11-02",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "h6m": [
@@ -2705,7 +2705,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 4.66
+          "close": 4.65
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-11-02",
-          "close": 4.66
+          "close": 4.65
         }
       ]
     },
     "audjpy": {
-      "value": 110.75,
-      "change": 1.35,
-      "changePercent": 1.23,
+      "value": 110.51,
+      "change": 1.11,
+      "changePercent": 1.01,
       "previousClose": 109.4,
       "asOf": "2026-11-02",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 110.75
+          "close": 110.51
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 110.75
+          "close": 110.51
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 110.75
+          "close": 110.51
         }
       ],
       "h3y": [
@@ -4453,7 +4453,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 110.75
+          "close": 110.51
         }
       ]
     }
@@ -4461,7 +4461,7 @@
   "audusd": {
     "value": 0.7,
     "change": 0.01,
-    "changePercent": 1.3,
+    "changePercent": 1.04,
     "previousClose": 0.69,
     "asOf": "2026-11-02",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 100.71,
-      "change": 9.6,
-      "changePercent": 10.54,
+      "value": 96.4,
+      "change": 5.29,
+      "changePercent": 5.81,
       "previousClose": 91.11,
       "asOf": "2026-11-02",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-11-02",
-          "close": 100.71
+          "close": 96.4
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 110.04,
-      "change": 7.79,
-      "changePercent": 7.62,
+      "value": 104.3,
+      "change": 2.05,
+      "changePercent": 2,
       "previousClose": 102.25,
       "asOf": "2026-11-02",
       "history": [
@@ -5957,16 +5957,16 @@
         },
         {
           "date": "2026-11-02",
-          "close": 110.04
+          "close": 104.3
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.93,
-      "change": -0.11,
-      "changePercent": -3.59,
+      "value": 2.86,
+      "change": -0.17,
+      "changePercent": -5.73,
       "previousClose": 3.04,
       "asOf": "2026-11-02",
       "history": [
@@ -6056,7 +6056,7 @@
         },
         {
           "date": "2026-11-02",
-          "close": 2.93
+          "close": 2.86
         }
       ],
       "name": "Natural Gas",
@@ -6622,6 +6622,10 @@
           "close": 166.72
         },
         {
+          "date": "2026-11-01",
+          "close": 165.05
+        },
+        {
           "date": "2026-11-02",
           "close": 165.05
         }
@@ -6720,6 +6724,10 @@
         {
           "date": "2026-10-29",
           "close": 41.51
+        },
+        {
+          "date": "2026-11-01",
+          "close": 40.91
         },
         {
           "date": "2026-11-02",
@@ -6822,6 +6830,10 @@
           "close": 40.81
         },
         {
+          "date": "2026-11-01",
+          "close": 40.56
+        },
+        {
           "date": "2026-11-02",
           "close": 40.56
         }
@@ -6920,6 +6932,10 @@
         {
           "date": "2026-10-29",
           "close": 36.82
+        },
+        {
+          "date": "2026-11-01",
+          "close": 37.19
         },
         {
           "date": "2026-11-02",
@@ -7024,6 +7040,10 @@
           "close": 57.56
         },
         {
+          "date": "2026-11-01",
+          "close": 56.74
+        },
+        {
           "date": "2026-11-02",
           "close": 56.74
         }
@@ -7124,6 +7144,10 @@
           "close": 147.31
         },
         {
+          "date": "2026-11-01",
+          "close": 145.59
+        },
+        {
           "date": "2026-11-02",
           "close": 145.59
         }
@@ -7221,6 +7245,10 @@
         },
         {
           "date": "2026-10-29",
+          "close": 14.27
+        },
+        {
+          "date": "2026-11-01",
           "close": 14.27
         },
         {
@@ -7324,6 +7352,10 @@
           "close": 33.33
         },
         {
+          "date": "2026-11-01",
+          "close": 33.42
+        },
+        {
           "date": "2026-11-02",
           "close": 33.42
         }
@@ -7333,21 +7365,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3919.1,
-      "change": -243.2,
-      "changePercent": -5.84
+      "price": 3955.4,
+      "change": -206.9,
+      "changePercent": -4.97
     },
     {
       "name": "Silver",
-      "price": 50.3,
-      "change": -9.68,
-      "changePercent": -16.13
+      "price": 50.65,
+      "change": -9.33,
+      "changePercent": -15.55
     },
     {
       "name": "Copper",
-      "price": 6.52,
-      "change": 0.03,
-      "changePercent": 0.43
+      "price": 6.54,
+      "change": 0.05,
+      "changePercent": 0.75
     }
   ],
   "housing": {
@@ -7683,10 +7715,10 @@
   ],
   "news": [
     {
-      "title": "Westpac expects 11 per cent house price fall, posts $6.8 billion profit",
-      "link": "https://www.smh.com.au/business/banking-and-finance/westpac-expects-11-per-cent-house-price-fall-posts-6-8-billion-profit-20261102-p61ah6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The nation’s second-biggest lender expects interest rates to remain “elevated” and for property prices to continue tumbling.",
-      "pubDate": "Mon, 02 Nov 2026 13:13:45 +1100",
+      "title": "ASX set to rise on RBA day, Wall Street rally runs out of puff; Oil prices tumble",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-on-rba-day-wall-street-rises-as-oil-prices-tumble-20261103-p61ar8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market is rising and recovering some of last week’s sell-off that was led by the tech and AI industries.",
+      "pubDate": "Tue, 03 Nov 2026 05:23:20 +1100",
       "source": "SMH"
     },
     {
@@ -7697,24 +7729,10 @@
       "source": "SMH"
     },
     {
-      "title": "Aguia revenue triples as twin South American projects fire",
-      "link": "https://www.smh.com.au/business/companies/aguia-revenue-triples-as-twin-south-american-projects-fire-20261102-p61anf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aguia Resources has posted a more than threefold increase in quarterly revenue to $639,000, signalling a turnaround as its South American gold and phosphate projects begin to deliver cash flow.",
-      "pubDate": "Mon, 02 Nov 2026 14:06:40 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Rip Curl’s owner in takeover talks with US retail giant",
-      "link": "https://www.smh.com.au/business/companies/rip-curl-s-owner-in-takeover-talks-with-us-retail-giant-20261102-p61alr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The owner of surfwear staple Rip Curl and outdoor adventure brand Kathmandu is in talks about a possible deal, it revealed on Monday.",
-      "pubDate": "Mon, 02 Nov 2026 12:50:50 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "King River lights up new gold targets at WA Murchison project",
-      "link": "https://www.smh.com.au/business/companies/king-river-lights-up-new-gold-targets-at-wa-murchison-project-20261102-p61alb.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Soil sampling at King River Resources’ Mindoolah gold project in WA’s Murchison has returned a high-grade 231.8ppb gold result, with drilling now underway on the new targets.",
-      "pubDate": "Mon, 02 Nov 2026 12:27:13 +1100",
+      "title": "The reason why another rate rise will hurt Sydneysiders most",
+      "link": "https://www.smh.com.au/business/the-economy/the-reason-why-a-rate-rise-will-hurt-sydneysiders-most-20261103-p61aj1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "NSW is “particularly sensitive” to interest rate increases, according to NSW Treasury modelling.",
+      "pubDate": "Tue, 03 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7732,6 +7750,41 @@
       "source": "SMH"
     },
     {
+      "title": "Addo-Carr's future in Parramatta's hands as B-sample returns negative",
+      "link": "https://www.abc.net.au/news/2026-11-03/nrl-josh-addo-carr-b-sample-negative-eels-deciding-future/107339382",
+      "snippet": "",
+      "pubDate": "Mon, 02 Nov 2026 20:17:16 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘They’re just fatigued’: Why Lachlan Murdoch says Fox ratings are diving",
+      "link": "https://www.smh.com.au/business/companies/trump-slump-lachlan-murdoch-cites-viewer-fatigue-as-fox-ratings-dive-20261103-p61ar6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Some media observers attribute the decline to President Donald Trump’s slipping approval ratings but Fox chief Lachlan Murdoch says there is a simpler explanation.",
+      "pubDate": "Tue, 03 Nov 2026 05:46:46 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Usyk's path to global dominance goes through Gatton",
+      "link": "https://www.abc.net.au/news/2026-11-02/oleksandr-usyk-cruiserweight-david-nyika-gatton/107338446",
+      "snippet": "",
+      "pubDate": "Mon, 02 Nov 2026 08:04:51 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "America Inc is turning away from Trump",
+      "link": "https://www.smh.com.au/business/companies/america-inc-is-turning-away-from-trump-20261102-p6195o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "With the president’s grip on Washington set to be much weaker after the midterms, US bosses are desperately trying to de-MAGAfy their companies.",
+      "pubDate": "Mon, 02 Nov 2026 18:10:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Wanderers' chair calls out 'totally unacceptable' fan treatment by police",
+      "link": "https://www.abc.net.au/news/2026-11-02/western-sydney-wanderers-chair-slams-police-over-fan-treatment/107338162",
+      "snippet": "",
+      "pubDate": "Mon, 02 Nov 2026 06:43:46 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Big is beautiful as Australia's first UFC champion finally comes home",
       "link": "https://www.abc.net.au/news/2026-11-02/rob-whittaker-ufc-sydney-bogdan-guskov/107337446",
       "snippet": "",
@@ -7744,27 +7797,6 @@
       "snippet": "The company’s boss, Changpeng Zhao, served time in jail over anti-money laundering failures. To get his users’ money back, he must hope the rest of the industry has learned a lesson.",
       "pubDate": "Mon, 02 Nov 2026 15:55:25 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Australian batting 'stronger' despite repeat South Africa collapses",
-      "link": "https://www.abc.net.au/news/2026-11-02/australia-in-better-position-after-south-africa-defeat/107337552",
-      "snippet": "",
-      "pubDate": "Mon, 02 Nov 2026 04:40:04 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "West Coast Eagles star suffers brutal injury news",
-      "link": "https://www.abc.net.au/news/2026-11-02/ella-roberts-aflw-west-coast-eagles-acl-injury/107337482",
-      "snippet": "",
-      "pubDate": "Mon, 02 Nov 2026 04:14:57 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Quick hits: NZ duo on brink of history as Lebanon goes into folklore",
-      "link": "https://www.abc.net.au/news/2026-11-02/rugby-league-world-cup-week-three-lebanon-tonga-samoa/107335910",
-      "snippet": "",
-      "pubDate": "Mon, 02 Nov 2026 01:42:39 +0000",
-      "source": "ABC"
     }
   ]
 }
