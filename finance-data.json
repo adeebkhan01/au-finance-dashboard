@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-03T07:05:10.839Z",
+  "fetchedAt": "2026-11-03T19:41:47.028Z",
   "fx": {
     "audusd": {
       "value": 0.7,
-      "change": 0.01,
-      "changePercent": 0.76,
+      "change": 0,
+      "changePercent": 0.55,
       "previousClose": 0.69,
       "asOf": "2026-11-03",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0.01,
-      "changePercent": 1.23,
+      "changePercent": 1.02,
       "previousClose": 0.62,
       "asOf": "2026-11-03",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.66,
-      "change": 0.01,
-      "changePercent": 0.31,
+      "value": 4.64,
+      "change": 0,
+      "changePercent": -0.01,
       "previousClose": 4.64,
       "asOf": "2026-11-03",
       "history": [
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 4.66
+          "close": 4.64
         }
       ],
       "label": "AUD/CNY",
@@ -2619,7 +2619,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 4.66
+          "close": 4.64
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 4.66
+          "close": 4.64
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-11-03",
-          "close": 4.66
+          "close": 4.64
         }
       ]
     },
     "audjpy": {
-      "value": 110.2,
-      "change": 0.79,
-      "changePercent": 0.73,
+      "value": 110.55,
+      "change": 1.14,
+      "changePercent": 1.05,
       "previousClose": 109.4,
       "asOf": "2026-11-03",
       "history": [
@@ -3472,7 +3472,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 110.2
+          "close": 110.55
         }
       ],
       "label": "AUD/JPY",
@@ -3745,7 +3745,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 110.19
+          "close": 110.55
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 110.2
+          "close": 110.55
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-11-03",
-          "close": 110.19
+          "close": 110.54
         }
       ]
     }
   },
   "audusd": {
     "value": 0.7,
-    "change": 0.01,
-    "changePercent": 0.76,
+    "change": 0,
+    "changePercent": 0.55,
     "previousClose": 0.69,
     "asOf": "2026-11-03",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 98.06,
-      "change": 6.95,
-      "changePercent": 7.63,
+      "value": 96.23,
+      "change": 5.12,
+      "changePercent": 5.62,
       "previousClose": 91.11,
       "asOf": "2026-11-03",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-11-03",
-          "close": 98.06
+          "close": 96.23
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 106.5,
-      "change": 4.25,
-      "changePercent": 4.16,
+      "value": 103.77,
+      "change": 1.52,
+      "changePercent": 1.49,
       "previousClose": 102.25,
       "asOf": "2026-11-03",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-11-03",
-          "close": 106.5
+          "close": 103.77
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 2.88,
-      "change": -0.16,
-      "changePercent": -5.21,
+      "value": 2.9,
+      "change": -0.14,
+      "changePercent": -4.48,
       "previousClose": 3.04,
       "asOf": "2026-11-03",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-11-03",
-          "close": 2.88
+          "close": 2.9
         }
       ],
       "name": "Natural Gas",
@@ -6682,6 +6682,10 @@
           "close": 165.05
         },
         {
+          "date": "2026-11-02",
+          "close": 167.23
+        },
+        {
           "date": "2026-11-03",
           "close": 167.23
         }
@@ -6780,6 +6784,10 @@
         {
           "date": "2026-11-01",
           "close": 40.91
+        },
+        {
+          "date": "2026-11-02",
+          "close": 40.97
         },
         {
           "date": "2026-11-03",
@@ -6882,6 +6890,10 @@
           "close": 40.56
         },
         {
+          "date": "2026-11-02",
+          "close": 40.34
+        },
+        {
           "date": "2026-11-03",
           "close": 40.34
         }
@@ -6980,6 +6992,10 @@
         {
           "date": "2026-11-01",
           "close": 37.19
+        },
+        {
+          "date": "2026-11-02",
+          "close": 36.82
         },
         {
           "date": "2026-11-03",
@@ -7084,6 +7100,10 @@
           "close": 56.74
         },
         {
+          "date": "2026-11-02",
+          "close": 56.42
+        },
+        {
           "date": "2026-11-03",
           "close": 56.42
         }
@@ -7182,6 +7202,10 @@
         {
           "date": "2026-11-01",
           "close": 145.59
+        },
+        {
+          "date": "2026-11-02",
+          "close": 145.51
         },
         {
           "date": "2026-11-03",
@@ -7284,6 +7308,10 @@
           "close": 14.27
         },
         {
+          "date": "2026-11-02",
+          "close": 14.4
+        },
+        {
           "date": "2026-11-03",
           "close": 14.4
         }
@@ -7384,6 +7412,10 @@
           "close": 33.42
         },
         {
+          "date": "2026-11-02",
+          "close": 32.24
+        },
+        {
           "date": "2026-11-03",
           "close": 32.24
         }
@@ -7393,21 +7425,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3923.5,
-      "change": -238.8,
-      "changePercent": -5.74
+      "price": 3933.8,
+      "change": -228.5,
+      "changePercent": -5.49
     },
     {
       "name": "Silver",
-      "price": 49.17,
-      "change": -10.81,
-      "changePercent": -18.02
+      "price": 49.64,
+      "change": -10.34,
+      "changePercent": -17.23
     },
     {
       "name": "Copper",
-      "price": 6.38,
-      "change": -0.11,
-      "changePercent": -1.75
+      "price": 6.39,
+      "change": -0.1,
+      "changePercent": -1.56
     }
   ],
   "housing": {
@@ -7750,17 +7782,38 @@
       "source": "SMH"
     },
     {
-      "title": "Mortgage calculator: Here’s how much extra your repayments will be",
-      "link": "https://www.smh.com.au/business/the-economy/mortgage-calculator-here-s-how-much-extra-your-repayments-will-be-20260929-p611c1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The RBA has increased interest rates to 4.85 per cent. Use our calculator to see how much extra your mortgage repayments will be.",
-      "pubDate": "Tue, 03 Nov 2026 14:30:40 +1100",
+      "title": "ASX set to slide, tech stocks boost Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-tech-stocks-boost-wall-street-20261104-p61b54.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A rebound for several influential Big Tech stocks is helping to lift the US market despite a fall for Apple and mixed trading elsewhere on Wall Street.",
+      "pubDate": "Wed, 04 Nov 2026 05:18:52 +1100",
       "source": "SMH"
     },
     {
-      "title": "The reason why another rate rise will hurt Sydneysiders most",
-      "link": "https://www.smh.com.au/business/the-economy/the-reason-why-a-rate-rise-will-hurt-sydneysiders-most-20261103-p61aj1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "NSW is “particularly sensitive” to interest rate increases, according to NSW Treasury modelling.",
-      "pubDate": "Tue, 03 Nov 2026 05:00:00 +1100",
+      "title": "If the RBA gets its job wrong, the PM will pay with his",
+      "link": "https://www.smh.com.au/business/the-economy/if-the-rba-gets-its-job-wrong-the-pm-will-pay-with-his-20261104-p61axk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Anthony Albanese. He’s a man who’s taken little interest in the economy now being caught by the iron rule of politics: if the economy turns bad on your watch, you take the blame.",
+      "pubDate": "Wed, 04 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Summer Super Check",
+      "link": "https://www.smh.com.au/business/banking-and-finance/summer-super-check-20261104-p61ani.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A six-part series featuring practical tips and advice to help you kick off the year with financial clarity.",
+      "pubDate": "Wed, 04 Nov 2026 04:30:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "The fake job interview that helped spark a $9 billion theft",
+      "link": "https://www.smh.com.au/business/markets/the-fake-job-interview-that-helped-spark-a-9-billion-heist-20261104-p61b5i.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Binance has released a report into one of the biggest financial heists in history, detailing how hackers tricked their employees.",
+      "pubDate": "Wed, 04 Nov 2026 06:16:49 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Take this 15-minute financial pitstop before your summer road trip",
+      "link": "https://www.smh.com.au/business/banking-and-finance/take-this-15-minute-financial-pitstop-before-your-summer-road-trip-20261104-p61ap5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "You don’t need a marathon spreadsheet session - taking a few minutes before your summer break gives you a fresh financial start for the year ahead.",
+      "pubDate": "Wed, 04 Nov 2026 04:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7771,21 +7824,14 @@
       "source": "ABC"
     },
     {
-      "title": "ClearVue plants Hong Kong flag in Asian solar expansion",
-      "link": "https://www.smh.com.au/business/companies/clearvue-plants-hong-kong-flag-in-asian-solar-expansion-20261103-p61b0q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ClearVue has set up a Hong Kong base and showroom to pursue 15 regional project opportunities, leveraging its recent solar window installation at a Macau hotel.",
-      "pubDate": "Tue, 03 Nov 2026 15:12:25 +1100",
-      "source": "SMH"
+      "title": "Ciaron Maher makes Cup history — but is it good for racing?",
+      "link": "https://www.abc.net.au/news/2026-11-04/melbourne-cup-analysis-ciaron-maher-dominance/107342712",
+      "snippet": "",
+      "pubDate": "Tue, 03 Nov 2026 18:48:26 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Trump has lost control of his war with Canada",
-      "link": "https://www.smh.com.au/business/the-economy/trump-has-lost-control-of-his-war-with-canada-20261103-p61asr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The US president tried and failed to bully Canada in tense negotiations this year. Now he may pay a heavy price.",
-      "pubDate": "Tue, 03 Nov 2026 11:59:34 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Quick hits: A-listers, mistakes and the King's Melbourne Cup connection",
+      "title": "Quick hits: A-listers, mistakes and the king's Melbourne Cup connection",
       "link": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-quick-hits-robbie-williams-jamie-foxx-king-charles/107341802",
       "snippet": "",
       "pubDate": "Tue, 03 Nov 2026 06:59:30 +0000",
@@ -7806,24 +7852,10 @@
       "source": "ABC"
     },
     {
-      "title": "‘Alarming’: David Jones workers brace for job losses as store closures loom",
-      "link": "https://www.smh.com.au/business/companies/alarming-david-jones-workers-brace-for-job-losses-as-store-closures-loom-20261103-p61av0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The union representing thousands of David Jones workers is planning for the worst as the troubled department store chain prepares to close up to half its stores.",
-      "pubDate": "Tue, 03 Nov 2026 12:02:32 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "Opals veteran opens door to Australian return after WNBA retirement",
       "link": "https://www.abc.net.au/news/2026-11-03/basketball-bec-allen-open-to-wnbl-return-after-wnba-retirement/107340240",
       "snippet": "",
       "pubDate": "Tue, 03 Nov 2026 00:19:34 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Ciaron Maher becomes first trainer to sweep Melbourne Cup placings",
-      "link": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-2026-live-flemington/107335812",
-      "snippet": "",
-      "pubDate": "Mon, 02 Nov 2026 22:45:22 +0000",
       "source": "ABC"
     }
   ]
