@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-06T07:09:31.728Z",
+  "fetchedAt": "2026-11-06T19:37:02.266Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.33,
+      "changePercent": -1.42,
       "previousClose": 0.7,
       "asOf": "2026-11-06",
       "history": [
@@ -1128,9 +1128,9 @@
       ]
     },
     "audeur": {
-      "value": 0.61,
+      "value": 0.62,
       "change": -0.01,
-      "changePercent": -1.09,
+      "changePercent": -0.81,
       "previousClose": 0.62,
       "asOf": "2026-11-06",
       "history": [
@@ -1228,7 +1228,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1501,7 +1501,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1615,7 +1615,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h3y": [
@@ -2249,14 +2249,14 @@
         },
         {
           "date": "2026-11-06",
-          "close": 0.61
+          "close": 0.62
         }
       ]
     },
     "audcny": {
       "value": 4.58,
       "change": -0.09,
-      "changePercent": -1.94,
+      "changePercent": -1.9,
       "previousClose": 4.67,
       "asOf": "2026-11-06",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 108.62,
-      "change": -1.43,
-      "changePercent": -1.3,
+      "value": 108.81,
+      "change": -1.24,
+      "changePercent": -1.12,
       "previousClose": 110.05,
       "asOf": "2026-11-06",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 108.62
+          "close": 108.81
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 108.62
+          "close": 108.82
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 108.62
+          "close": 108.82
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 108.62
+          "close": 108.82
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.33,
+    "changePercent": -1.42,
     "previousClose": 0.7,
     "asOf": "2026-11-06",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 91.41,
-      "change": 1.97,
-      "changePercent": 2.2,
+      "value": 91.01,
+      "change": 1.57,
+      "changePercent": 1.76,
       "previousClose": 89.44,
       "asOf": "2026-11-06",
       "history": [
@@ -5926,16 +5926,16 @@
         },
         {
           "date": "2026-11-06",
-          "close": 91.41
+          "close": 91.01
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 99.67,
-      "change": -0.91,
-      "changePercent": -0.9,
+      "value": 98.48,
+      "change": -2.1,
+      "changePercent": -2.09,
       "previousClose": 100.58,
       "asOf": "2026-11-06",
       "history": [
@@ -6033,7 +6033,7 @@
         },
         {
           "date": "2026-11-06",
-          "close": 99.67
+          "close": 98.48
         }
       ],
       "name": "Brent Crude",
@@ -6042,7 +6042,7 @@
     "gas": {
       "value": 2.99,
       "change": -0.12,
-      "changePercent": -3.85,
+      "changePercent": -3.98,
       "previousClose": 3.11,
       "asOf": "2026-11-06",
       "history": [
@@ -6722,6 +6722,10 @@
           "close": 166.29
         },
         {
+          "date": "2026-11-05",
+          "close": 167.51
+        },
+        {
           "date": "2026-11-06",
           "close": 167.51
         }
@@ -6828,6 +6832,10 @@
         {
           "date": "2026-11-04",
           "close": 38.96
+        },
+        {
+          "date": "2026-11-05",
+          "close": 40
         },
         {
           "date": "2026-11-06",
@@ -6938,6 +6946,10 @@
           "close": 40.1
         },
         {
+          "date": "2026-11-05",
+          "close": 40.34
+        },
+        {
           "date": "2026-11-06",
           "close": 40.34
         }
@@ -7044,6 +7056,10 @@
         {
           "date": "2026-11-04",
           "close": 36.64
+        },
+        {
+          "date": "2026-11-05",
+          "close": 37.03
         },
         {
           "date": "2026-11-06",
@@ -7156,6 +7172,10 @@
           "close": 59
         },
         {
+          "date": "2026-11-05",
+          "close": 57.62
+        },
+        {
           "date": "2026-11-06",
           "close": 57.62
         }
@@ -7262,6 +7282,10 @@
         {
           "date": "2026-11-04",
           "close": 153.04
+        },
+        {
+          "date": "2026-11-05",
+          "close": 149.93
         },
         {
           "date": "2026-11-06",
@@ -7372,6 +7396,10 @@
           "close": 15.49
         },
         {
+          "date": "2026-11-05",
+          "close": 15.18
+        },
+        {
           "date": "2026-11-06",
           "close": 15.18
         }
@@ -7480,6 +7508,10 @@
           "close": 30.59
         },
         {
+          "date": "2026-11-05",
+          "close": 30.74
+        },
+        {
           "date": "2026-11-06",
           "close": 30.74
         }
@@ -7489,21 +7521,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4058.7,
-      "change": -128.4,
-      "changePercent": -3.07
+      "price": 4076.9,
+      "change": -110.2,
+      "changePercent": -2.63
     },
     {
       "name": "Silver",
-      "price": 51.6,
-      "change": -9.57,
-      "changePercent": -15.64
+      "price": 52.03,
+      "change": -9.14,
+      "changePercent": -14.95
     },
     {
       "name": "Copper",
-      "price": 6.2,
-      "change": -0.39,
-      "changePercent": -5.96
+      "price": 6.26,
+      "change": -0.33,
+      "changePercent": -5.08
     }
   ],
   "housing": {
@@ -7860,6 +7892,13 @@
       "source": "SMH"
     },
     {
+      "title": "Behind closed doors: Inside the $5 million meeting that sealed the downfall of David Jones",
+      "link": "https://www.smh.com.au/business/companies/behind-closed-doors-inside-the-5-million-meeting-that-sealed-the-downfall-of-david-jones-20261107-p61bjg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The ugly, inglorious end to the 188-year-old luxury department store came down to $5 million in unpaid rent.",
+      "pubDate": "Sat, 07 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Big gold raise menu feeds broker picnic",
       "link": "https://www.smh.com.au/business/companies/big-gold-raise-menu-feeds-broker-picnic-20261106-p61c4q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Cap Raise Crucible looks at how gold raisings kept the brokers busy and some punters celebrating. Elsewhere, strategic cheques, fat fees and options have delivered mixed fortunes.",
@@ -7867,11 +7906,18 @@
       "source": "SMH"
     },
     {
-      "title": "Critical Resources kicks off new Canadian lithium hunt",
-      "link": "https://www.smh.com.au/business/companies/critical-resources-kicks-off-new-canadian-lithium-hunt-20261106-p61c17.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Critical Resources has started prospecting for lithium at its Vermillion Bay project in Ontario, Canada, just 70km from its eight-million-tonne Mavis Lake resource.",
-      "pubDate": "Fri, 06 Nov 2026 12:29:00 +1100",
-      "source": "SMH"
+      "title": "Breaking: Khawaja claims all players knew about Sandpapergate ball tampering",
+      "link": "https://www.abc.net.au/news/2026-11-07/usman-khawaja-sandpapergate-ball-tampering-south-africa-cricket/107345086",
+      "snippet": "",
+      "pubDate": "Fri, 06 Nov 2026 18:38:58 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Asofa-Solomona leaps into crowd, apologises after 'frightening' Gallen KO",
+      "link": "https://www.abc.net.au/news/2026-11-06/paul-gallen-vs-nelson-asofa-solomona-live-heavyweight-boxing/107346162",
+      "snippet": "",
+      "pubDate": "Fri, 06 Nov 2026 07:57:37 +0000",
+      "source": "ABC"
     },
     {
       "title": "Lone wolf: Trump is capable of anything after being embarrassed",
@@ -7879,6 +7925,13 @@
       "snippet": "A conversation I had with the future president two decades ago gives us an inkling of what could be ahead.",
       "pubDate": "Fri, 06 Nov 2026 17:35:00 +1100",
       "source": "SMH"
+    },
+    {
+      "title": "Baseballer loses sight in one eye in 'horrific freak accident'",
+      "link": "https://www.abc.net.au/news/2026-11-06/adelaide-baseballer-loses-sight-in-eye-in-onfield-accident/107356100",
+      "snippet": "",
+      "pubDate": "Fri, 06 Nov 2026 05:05:35 +0000",
+      "source": "ABC"
     },
     {
       "title": "Aussie Calleja ready for winner-takes-all world championship weekend",
@@ -7899,27 +7952,6 @@
       "link": "https://www.abc.net.au/news/2026-11-06/chris-lynn-secret-drugs-ban-revealed/107355802",
       "snippet": "",
       "pubDate": "Fri, 06 Nov 2026 02:07:57 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "The anthem mix-up that became an enduring myth in the Alan Jones legend",
-      "link": "https://www.abc.net.au/news/2026-11-06/f1-alan-jones-anthem-mix-up-story-fed-lingering-myth/107353864",
-      "snippet": "",
-      "pubDate": "Fri, 06 Nov 2026 01:22:38 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "A Batmobile, Wharfie Time and an elephant — the footy gimmicks gone wrong",
-      "link": "https://www.abc.net.au/news/2026-11-06/afl-football-wharfie-time-gimmicks-go-wrong/107346228",
-      "snippet": "",
-      "pubDate": "Thu, 05 Nov 2026 23:45:45 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "WA quick Lance 'Wild Thing' Morris hopes to be even faster after surgery",
-      "link": "https://www.abc.net.au/news/2026-11-06/wa-cricket-lance-morris-back-surgery-test-matches/107222308",
-      "snippet": "",
-      "pubDate": "Thu, 05 Nov 2026 21:18:46 +0000",
       "source": "ABC"
     }
   ]
