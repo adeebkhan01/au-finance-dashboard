@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-08T13:47:29.331Z",
+  "fetchedAt": "2026-11-08T22:19:28.395Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.63,
+      "changePercent": -1.66,
       "previousClose": 0.7,
       "asOf": "2026-11-08",
       "history": [
@@ -1225,6 +1225,10 @@
         {
           "date": "2026-11-06",
           "close": 0.62
+        },
+        {
+          "date": "2026-11-08",
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
@@ -1494,6 +1498,10 @@
         {
           "date": "2026-11-06",
           "close": 0.62
+        },
+        {
+          "date": "2026-11-08",
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -1606,7 +1614,7 @@
           "close": 0.62
         },
         {
-          "date": "2026-11-06",
+          "date": "2026-11-08",
           "close": 0.62
         }
       ],
@@ -2240,15 +2248,15 @@
           "close": 0.62
         },
         {
-          "date": "2026-11-06",
+          "date": "2026-11-08",
           "close": 0.62
         }
       ]
     },
     "audcny": {
-      "value": 4.57,
-      "change": -0.11,
-      "changePercent": -2.39,
+      "value": 4.59,
+      "change": -0.09,
+      "changePercent": -2,
       "previousClose": 4.68,
       "asOf": "2026-11-08",
       "history": [
@@ -2346,7 +2354,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 4.57
+          "close": 4.59
         }
       ],
       "label": "AUD/CNY",
@@ -2619,7 +2627,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 4.57
+          "close": 4.59
         }
       ],
       "h6m": [
@@ -2733,7 +2741,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 4.57
+          "close": 4.59
         }
       ],
       "h3y": [
@@ -3367,14 +3375,14 @@
         },
         {
           "date": "2026-11-08",
-          "close": 4.57
+          "close": 4.59
         }
       ]
     },
     "audjpy": {
-      "value": 108.79,
-      "change": -1.69,
-      "changePercent": -1.53,
+      "value": 108.63,
+      "change": -1.86,
+      "changePercent": -1.68,
       "previousClose": 110.48,
       "asOf": "2026-11-08",
       "history": [
@@ -3472,7 +3480,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 108.79
+          "close": 108.63
         }
       ],
       "label": "AUD/JPY",
@@ -3745,7 +3753,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 108.79
+          "close": 108.63
         }
       ],
       "h6m": [
@@ -3859,7 +3867,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 108.79
+          "close": 108.68
         }
       ],
       "h3y": [
@@ -4493,7 +4501,7 @@
         },
         {
           "date": "2026-11-08",
-          "close": 108.79
+          "close": 108.68
         }
       ]
     }
@@ -4501,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.63,
+    "changePercent": -1.66,
     "previousClose": 0.7,
     "asOf": "2026-11-08",
     "history": [
@@ -7507,7 +7515,7 @@
       "name": "Copper",
       "price": 6.24,
       "change": -0.28,
-      "changePercent": -4.31
+      "changePercent": -4.32
     }
   ],
   "housing": {
@@ -7843,6 +7851,48 @@
   ],
   "news": [
     {
+      "title": "Why younger home buyers risk being locked in mortgage prison",
+      "link": "https://www.smh.com.au/business/banking-and-finance/why-younger-homebuyers-risk-being-locked-in-mortgage-prison-20261109-p61byd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "There’s a generational gap between those who can switch banks to get a better home-loan deal, and those who cannot.",
+      "pubDate": "Mon, 09 Nov 2026 05:01:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "The ‘immediate warning sign’ to protect your super",
+      "link": "https://www.smh.com.au/business/banking-and-finance/the-immediate-warning-sign-to-protect-your-super-20261109-p61c3q.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The financial regulator has put firms on notice after it found some were using unlicensed marketers trying to convince customers to switch or review their super.",
+      "pubDate": "Mon, 09 Nov 2026 05:01:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "ANZ profit surges to $7.6b as cost-cutting drive pays off",
+      "link": "https://www.smh.com.au/business/banking-and-finance/anz-profit-surges-to-7-6b-as-cost-cutting-drive-pays-off-20261109-p61chr.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "ANZ’s bottom line benefited from a 14 per cent decline in operating expenses, while its operating income rose 3 per cent.",
+      "pubDate": "Mon, 09 Nov 2026 08:32:10 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "ASX eyes gains, Wall Street steadies as AI stocks rebound",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-gains-wall-street-steadies-as-ai-stocks-rebound-20261109-p61cfz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "AI stocks bounced back and recovered some of their sell-off from the previous two sessions.",
+      "pubDate": "Mon, 09 Nov 2026 05:20:48 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Khawaja says player used super glue on the ball in Sheffield Shield game",
+      "link": "https://www.abc.net.au/news/2026-11-09/usman-khawaja-says-victoria-best-at-ball-tampering/107362336",
+      "snippet": "",
+      "pubDate": "Sun, 08 Nov 2026 21:42:07 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘Heist’ merchants or white knights? The private equity firm that owned David Jones",
+      "link": "https://www.smh.com.au/business/companies/heist-merchants-or-white-knights-the-private-equity-firm-that-owned-david-jones-20261109-p61b13.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Anchorage Capital Partners has owned more than 20 companies, with none more controversial than its tenure at Dick Smith Electronics.",
+      "pubDate": "Mon, 09 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Against Samoa, Australia's old power conquered the new world",
       "link": "https://www.abc.net.au/news/2026-11-08/samoa-australia-rugby-league-world-cup-/107361410",
       "snippet": "",
@@ -7850,18 +7900,25 @@
       "source": "ABC"
     },
     {
-      "title": "House prices wouldn’t be falling so fast if Albanese was a man of his word",
-      "link": "https://www.smh.com.au/business/the-economy/house-prices-wouldn-t-be-falling-so-fast-if-albanese-was-a-man-of-his-word-20261108-p61bcj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Imagine how a first-time buyer who bought into the 5 per cent deposit scheme feels owing 95 per cent on an asset that’s losing value thanks to the backflip on negative gearing.",
-      "pubDate": "Sun, 08 Nov 2026 05:00:00 +1100",
-      "source": "SMH"
+      "title": "Wallabies' woes mount after terrible Twickenham outing",
+      "link": "https://www.abc.net.au/news/2026-11-09/wallabies-worries-continue-england-twickenham-defeat/107362044",
+      "snippet": "",
+      "pubDate": "Sun, 08 Nov 2026 19:51:27 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Behind closed doors: Inside the $5 million meeting that sealed the downfall of David Jones",
-      "link": "https://www.smh.com.au/business/companies/behind-closed-doors-inside-the-5-million-meeting-that-sealed-the-downfall-of-david-jones-20261107-p61bjg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The ugly, inglorious end to the 188-year-old luxury department store came down to $5 million in unpaid rent.",
-      "pubDate": "Sat, 07 Nov 2026 05:00:00 +1100",
-      "source": "SMH"
+      "title": "Norris suffers champagne mishap as Mercedes spins to world title",
+      "link": "https://www.abc.net.au/news/2026-11-09/f1-live-s%C3%A3o-paulo-grand-prix-oscar-piastri-lando-norris/106998734",
+      "snippet": "",
+      "pubDate": "Sun, 08 Nov 2026 16:07:39 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "England hammer Wallabies with record-breaking, seven-try spectacular",
+      "link": "https://www.abc.net.au/news/2026-11-09/live-updates-england-vs-wallabies-nations-championship/107351328",
+      "snippet": "",
+      "pubDate": "Sun, 08 Nov 2026 14:04:49 +0000",
+      "source": "ABC"
     },
     {
       "title": "Crypto’s Trump-fuelled Washington boom comes to an abrupt halt",
@@ -7871,38 +7928,10 @@
       "source": "SMH"
     },
     {
-      "title": "Khawaja says he has thrown nobody 'under the bus'",
-      "link": "https://www.abc.net.au/news/2026-11-08/usman-khawaja-defends-timing-of-sandpaper-revelations/107360744",
-      "snippet": "",
-      "pubDate": "Sun, 08 Nov 2026 01:00:21 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Extraordinary scenes as fog descends on 'farcical' FA Cup tie",
-      "link": "https://www.abc.net.au/news/2026-11-08/notts-county-altrincham-fa-cup-penalties-fog/107360612",
-      "snippet": "",
-      "pubDate": "Sat, 07 Nov 2026 23:57:15 +0000",
-      "source": "ABC"
-    },
-    {
       "title": "It was the email of my dreams! From Sally Sara. Or so I thought",
       "link": "https://www.smh.com.au/business/consumer-affairs/it-was-the-email-of-my-dreams-from-sally-sara-or-so-i-thought-20261108-p61awk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "I’m Sally’s biggest fan. Overwhelmed with excitement, I wrote back saying I’d be delighted to contribute.",
       "pubDate": "Sun, 08 Nov 2026 10:00:00 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Donald Trump’s humiliation is an opportunity for America",
-      "link": "https://www.smh.com.au/business/the-economy/donald-trump-s-humiliation-is-an-opportunity-for-america-20261107-p61byf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "US voters have done their job, now politicians have to do theirs. But Trump is not a man who likes to be left out.",
-      "pubDate": "Sat, 07 Nov 2026 18:15:00 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Lone wolf: Trump is capable of anything after being embarrassed",
-      "link": "https://www.smh.com.au/business/the-economy/lone-wolf-trump-is-capable-of-anything-after-being-embarrassed-20261106-p61bvn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A conversation I had with the future president two decades ago gives us an inkling of what could be ahead.",
-      "pubDate": "Fri, 06 Nov 2026 17:35:00 +1100",
       "source": "SMH"
     }
   ]
