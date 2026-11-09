@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-09T06:59:44.457Z",
+  "fetchedAt": "2026-11-09T22:36:52.633Z",
   "fx": {
     "audusd": {
       "value": 0.69,
-      "change": -0.01,
-      "changePercent": -0.95,
+      "change": 0,
+      "changePercent": -0.46,
       "previousClose": 0.7,
       "asOf": "2026-11-09",
       "history": [
@@ -1118,7 +1118,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": -0.56,
+      "changePercent": -0.58,
       "previousClose": 0.62,
       "asOf": "2026-11-09",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.58,
-      "change": -0.08,
-      "changePercent": -1.68,
+      "value": 4.62,
+      "change": -0.04,
+      "changePercent": -0.94,
       "previousClose": 4.66,
       "asOf": "2026-11-09",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 4.58
+          "close": 4.62
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 4.58
+          "close": 4.62
         }
       ],
       "h6m": [
@@ -2705,7 +2705,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 4.58
+          "close": 4.62
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-11-09",
-          "close": 4.58
+          "close": 4.62
         }
       ]
     },
     "audjpy": {
-      "value": 108.98,
-      "change": -0.98,
-      "changePercent": -0.89,
+      "value": 109.33,
+      "change": -0.63,
+      "changePercent": -0.57,
       "previousClose": 109.96,
       "asOf": "2026-11-09",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 108.97
+          "close": 109.33
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 108.97
+          "close": 109.33
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 108.97
+          "close": 109.33
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-11-09",
-          "close": 108.97
+          "close": 109.33
         }
       ]
     }
   },
   "audusd": {
     "value": 0.69,
-    "change": -0.01,
-    "changePercent": -0.95,
+    "change": 0,
+    "changePercent": -0.46,
     "previousClose": 0.7,
     "asOf": "2026-11-09",
     "history": [
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.47,
-      "change": -2.38,
-      "changePercent": -2.59,
+      "value": 86.38,
+      "change": -5.47,
+      "changePercent": -5.96,
       "previousClose": 91.85,
       "asOf": "2026-11-09",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-11-09",
-          "close": 89.47
+          "close": 86.38
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.37,
-      "change": -8.35,
-      "changePercent": -7.97,
+      "value": 92.17,
+      "change": -12.55,
+      "changePercent": -11.98,
       "previousClose": 104.72,
       "asOf": "2026-11-09",
       "history": [
@@ -5957,16 +5957,16 @@
         },
         {
           "date": "2026-11-09",
-          "close": 96.37
+          "close": 92.17
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3,
-      "change": -0.22,
-      "changePercent": -6.71,
+      "value": 3.21,
+      "change": -0.02,
+      "changePercent": -0.47,
       "previousClose": 3.22,
       "asOf": "2026-11-09",
       "history": [
@@ -6056,7 +6056,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 3
+          "close": 3.2
         }
       ],
       "name": "Natural Gas",
@@ -6622,6 +6622,10 @@
           "close": 167.51
         },
         {
+          "date": "2026-11-08",
+          "close": 165.97
+        },
+        {
           "date": "2026-11-09",
           "close": 165.97
         }
@@ -6720,6 +6724,10 @@
         {
           "date": "2026-11-05",
           "close": 40
+        },
+        {
+          "date": "2026-11-08",
+          "close": 39.45
         },
         {
           "date": "2026-11-09",
@@ -6822,6 +6830,10 @@
           "close": 40.34
         },
         {
+          "date": "2026-11-08",
+          "close": 39.05
+        },
+        {
           "date": "2026-11-09",
           "close": 39.05
         }
@@ -6920,6 +6932,10 @@
         {
           "date": "2026-11-05",
           "close": 37.03
+        },
+        {
+          "date": "2026-11-08",
+          "close": 36.81
         },
         {
           "date": "2026-11-09",
@@ -7024,6 +7040,10 @@
           "close": 57.62
         },
         {
+          "date": "2026-11-08",
+          "close": 59.2
+        },
+        {
           "date": "2026-11-09",
           "close": 59.2
         }
@@ -7122,6 +7142,10 @@
         {
           "date": "2026-11-05",
           "close": 149.93
+        },
+        {
+          "date": "2026-11-08",
+          "close": 152.26
         },
         {
           "date": "2026-11-09",
@@ -7224,6 +7248,10 @@
           "close": 15.18
         },
         {
+          "date": "2026-11-08",
+          "close": 15.28
+        },
+        {
           "date": "2026-11-09",
           "close": 15.28
         }
@@ -7324,6 +7352,10 @@
           "close": 30.74
         },
         {
+          "date": "2026-11-08",
+          "close": 30.7
+        },
+        {
           "date": "2026-11-09",
           "close": 30.7
         }
@@ -7333,21 +7365,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4121.9,
-      "change": -94.4,
-      "changePercent": -2.24
+      "price": 4149.5,
+      "change": -66.8,
+      "changePercent": -1.58
     },
     {
       "name": "Silver",
-      "price": 52.57,
-      "change": -8.1,
-      "changePercent": -13.35
+      "price": 53.46,
+      "change": -7.22,
+      "changePercent": -11.89
     },
     {
       "name": "Copper",
-      "price": 6.32,
-      "change": -0.32,
-      "changePercent": -4.82
+      "price": 6.38,
+      "change": -0.26,
+      "changePercent": -3.91
     }
   ],
   "housing": {
@@ -7690,10 +7722,17 @@
       "source": "SMH"
     },
     {
-      "title": "Wall Street’s $4.7 trillion meltdown may have a silver lining",
-      "link": "https://www.smh.com.au/business/markets/wall-street-s-4-7-trillion-meltdown-may-have-a-silver-lining-20261109-p61chg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The “blue tsunami” that hit Donald Trump sent shockwaves through Wall Street. But there may be a bright side to the sharemarket turmoil.",
-      "pubDate": "Mon, 09 Nov 2026 12:40:54 +1100",
+      "title": "ASX set to jump as Wall Street rallies; Nvidia tumbles amid ‘Chinese spy’ probe; Oil falls",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-jump-as-wall-street-rallies-nvidia-tumbles-amid-chinese-spy-probe-oil-falls-20261110-p61cqw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The stock market is rallying and recovering more of its big loss from last week as oil prices swing lower. The strength came even though Nvidia, one of Wall Street’s most influential stocks, sank.",
+      "pubDate": "Tue, 10 Nov 2026 09:10:19 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Corporate cop investigating $3b collapse of major Sydney builder",
+      "link": "https://www.smh.com.au/business/banking-and-finance/corporate-cop-investigating-collapse-of-major-sydney-builder-20261110-p61cky.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Financial advisers are channelling money into a sector that ASIC has accused of being home to some operators that use hidden fees and shift investor cash around.",
+      "pubDate": "Tue, 10 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7704,10 +7743,10 @@
       "source": "SMH"
     },
     {
-      "title": "Beetaloo locks in key licence for NT gas giant",
-      "link": "https://www.smh.com.au/business/companies/beetaloo-locks-in-key-licence-for-nt-gas-giant-20261109-p61clu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Beetaloo Energy has locked in a critical Retention Licence over its Carpentaria gas discovery, securing tenure as it advances its NT pilot project towards first gas sales.",
-      "pubDate": "Mon, 09 Nov 2026 12:48:42 +1100",
+      "title": "Data centre giant apologises to Melbourne residents, vows to get power to site",
+      "link": "https://www.smh.com.au/business/companies/data-centre-giant-apologises-to-melbourne-residents-vows-to-get-power-to-site-20261109-p61cpm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "NextDC boss Craig Scroggie said he was sorry residents felt they had been left behind by his plans to build a major AI data centre in West Footscray.",
+      "pubDate": "Mon, 09 Nov 2026 18:13:35 +1100",
       "source": "SMH"
     },
     {
@@ -7718,17 +7757,38 @@
       "source": "SMH"
     },
     {
-      "title": "Forrestania high-grade gold hits fuel 35% WA resource surge",
-      "link": "https://www.smh.com.au/business/companies/forrestania-high-grade-gold-hits-fuel-35-percent-wa-resource-surge-20261109-p61cmf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Forrestania Resources has upgraded its WA British Hill gold resource by 35% to 286,00oz after hitting 16m at 5.77g/t, while signing a separate 750,000-tonne ore purchase deal.",
-      "pubDate": "Mon, 09 Nov 2026 13:19:05 +1100",
-      "source": "SMH"
+      "title": "Oscar Piastri splits with manager Mark Webber",
+      "link": "https://www.abc.net.au/news/2026-11-10/oscar-piastri-splits-with-manager-mark-webber/107366884",
+      "snippet": "",
+      "pubDate": "Mon, 09 Nov 2026 20:29:27 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Coach Aloisi oversees stunning capitulation in Chinese Super League title race",
-      "link": "https://www.abc.net.au/news/2026-11-09/chinese-super-league-john-aloisi-oversees-stunning-capitulation/107364010",
+      "title": "Sandpapergate continues to wound Australia eight years on",
+      "link": "https://www.abc.net.au/news/2026-11-10/sandpapergate-ball-tampering-scandal-still-wounding-australia/107366182",
       "snippet": "",
-      "pubDate": "Mon, 09 Nov 2026 02:12:12 +0000",
+      "pubDate": "Mon, 09 Nov 2026 19:08:19 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Focus on Sheffield Shield as Test selection comes to the crunch",
+      "link": "https://www.abc.net.au/news/2026-11-10/sheffield-shield-matches-crucial-as-batters-hunt-test-spots/107351178",
+      "snippet": "",
+      "pubDate": "Mon, 09 Nov 2026 18:51:37 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Fagan's understudy Bruce named Brisbane's new senior coach",
+      "link": "https://www.abc.net.au/news/2026-11-09/afl-cameron-bruce-brisbane-lions-new-senior-coach/107365956",
+      "snippet": "",
+      "pubDate": "Mon, 09 Nov 2026 08:26:56 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Warner says Khawaja's ball-tampering claim '100 per cent accurate'",
+      "link": "https://www.abc.net.au/news/2026-11-09/cricket-warner-backs-khawaja-ball-tampering-claims-slams-probe/107365778",
+      "snippet": "",
+      "pubDate": "Mon, 09 Nov 2026 07:38:18 +0000",
       "source": "ABC"
     },
     {
@@ -7737,34 +7797,6 @@
       "snippet": "Critica Ltd has achieved high gallium and scandium extractions at its Jupiter rare earths project, unlocking potential value not yet included in its $2B scoping study.",
       "pubDate": "Mon, 09 Nov 2026 16:53:35 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Business class beef over seats goes viral",
-      "link": "https://www.smh.com.au/business/companies/make-it-ugly-business-class-beef-over-seats-goes-viral-20261109-p61clk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Described as being like a “suit with a sneaker”, the new Singapore Airlines’ seat has garnered a frosty public reception.",
-      "pubDate": "Mon, 09 Nov 2026 15:49:30 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Leniu handed two-match ban after making money gesture to referees",
-      "link": "https://www.abc.net.au/news/2026-11-09/rugby-league-world-cup-leniu-banned-referee-money-gesture/107364806",
-      "snippet": "",
-      "pubDate": "Mon, 09 Nov 2026 04:23:17 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Luckless Test hopeful Morris continues horror injury run at party",
-      "link": "https://www.abc.net.au/news/2026-11-09/cricket-lance-morris-injures-hand-at-party-western-australia/107364454",
-      "snippet": "",
-      "pubDate": "Mon, 09 Nov 2026 03:24:12 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Alcaraz downs Shelton in final to claim maiden Paris Masters title",
-      "link": "https://www.abc.net.au/news/2026-11-09/tennis-carlos-alcaraz-beats-ben-shelton-paris-masters-final/107364040",
-      "snippet": "",
-      "pubDate": "Mon, 09 Nov 2026 02:17:59 +0000",
-      "source": "ABC"
     }
   ]
 }
