@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-10T07:36:42.795Z",
+  "fetchedAt": "2026-11-10T19:54:25.011Z",
   "fx": {
     "audusd": {
       "value": 0.69,
-      "change": 0,
-      "changePercent": -0.49,
+      "change": -0.01,
+      "changePercent": -1.28,
       "previousClose": 0.7,
       "asOf": "2026-11-10",
       "history": [
@@ -1128,9 +1128,9 @@
       ]
     },
     "audeur": {
-      "value": 0.62,
-      "change": 0,
-      "changePercent": -0.71,
+      "value": 0.61,
+      "change": -0.01,
+      "changePercent": -0.9,
       "previousClose": 0.62,
       "asOf": "2026-11-10",
       "history": [
@@ -1220,7 +1220,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 0.62
+          "close": 0.61
         }
       ],
       "label": "AUD/EUR",
@@ -1493,7 +1493,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 0.62
+          "close": 0.61
         }
       ],
       "h6m": [
@@ -1611,7 +1611,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 0.62
+          "close": 0.61
         }
       ],
       "h3y": [
@@ -2249,14 +2249,14 @@
         },
         {
           "date": "2026-11-10",
-          "close": 0.62
+          "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.62,
-      "change": -0.05,
-      "changePercent": -1.03,
+      "value": 4.58,
+      "change": -0.08,
+      "changePercent": -1.68,
       "previousClose": 4.66,
       "asOf": "2026-11-10",
       "history": [
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 4.62
+          "close": 4.58
         }
       ],
       "label": "AUD/CNY",
@@ -2619,7 +2619,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 4.62
+          "close": 4.58
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 4.62
+          "close": 4.58
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-11-10",
-          "close": 4.62
+          "close": 4.58
         }
       ]
     },
     "audjpy": {
-      "value": 109.37,
-      "change": -0.58,
-      "changePercent": -0.53,
+      "value": 109.03,
+      "change": -0.93,
+      "changePercent": -0.85,
       "previousClose": 109.96,
       "asOf": "2026-11-10",
       "history": [
@@ -3472,7 +3472,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 109.37
+          "close": 109.03
         }
       ],
       "label": "AUD/JPY",
@@ -3745,7 +3745,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 109.37
+          "close": 109.03
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 109.37
+          "close": 109.02
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-11-10",
-          "close": 109.38
+          "close": 109.02
         }
       ]
     }
   },
   "audusd": {
     "value": 0.69,
-    "change": 0,
-    "changePercent": -0.49,
+    "change": -0.01,
+    "changePercent": -1.28,
     "previousClose": 0.7,
     "asOf": "2026-11-10",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.65,
-      "change": -6.2,
-      "changePercent": -6.75,
+      "value": 86.26,
+      "change": -5.59,
+      "changePercent": -6.09,
       "previousClose": 91.85,
       "asOf": "2026-11-10",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-11-10",
-          "close": 85.65
+          "close": 86.26
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.48,
-      "change": -13.24,
-      "changePercent": -12.64,
+      "value": 91.79,
+      "change": -12.93,
+      "changePercent": -12.35,
       "previousClose": 104.72,
       "asOf": "2026-11-10",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-11-10",
-          "close": 91.48
+          "close": 91.79
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.22,
-      "change": 0,
-      "changePercent": 0,
+      "value": 3.32,
+      "change": 0.1,
+      "changePercent": 3.11,
       "previousClose": 3.22,
       "asOf": "2026-11-10",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-11-10",
-          "close": 3.22
+          "close": 3.32
         }
       ],
       "name": "Natural Gas",
@@ -6682,6 +6682,10 @@
           "close": 165.97
         },
         {
+          "date": "2026-11-09",
+          "close": 168.99
+        },
+        {
           "date": "2026-11-10",
           "close": 168.99
         }
@@ -6780,6 +6784,10 @@
         {
           "date": "2026-11-08",
           "close": 39.45
+        },
+        {
+          "date": "2026-11-09",
+          "close": 39.15
         },
         {
           "date": "2026-11-10",
@@ -6882,6 +6890,10 @@
           "close": 39.05
         },
         {
+          "date": "2026-11-09",
+          "close": 39.44
+        },
+        {
           "date": "2026-11-10",
           "close": 39.44
         }
@@ -6980,6 +6992,10 @@
         {
           "date": "2026-11-08",
           "close": 36.81
+        },
+        {
+          "date": "2026-11-09",
+          "close": 37.26
         },
         {
           "date": "2026-11-10",
@@ -7084,6 +7100,10 @@
           "close": 59.2
         },
         {
+          "date": "2026-11-09",
+          "close": 59.87
+        },
+        {
           "date": "2026-11-10",
           "close": 59.87
         }
@@ -7182,6 +7202,10 @@
         {
           "date": "2026-11-08",
           "close": 152.26
+        },
+        {
+          "date": "2026-11-09",
+          "close": 152.84
         },
         {
           "date": "2026-11-10",
@@ -7284,6 +7308,10 @@
           "close": 15.28
         },
         {
+          "date": "2026-11-09",
+          "close": 15.36
+        },
+        {
           "date": "2026-11-10",
           "close": 15.36
         }
@@ -7384,6 +7412,10 @@
           "close": 30.7
         },
         {
+          "date": "2026-11-09",
+          "close": 30.74
+        },
+        {
           "date": "2026-11-10",
           "close": 30.74
         }
@@ -7393,21 +7425,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4126.5,
-      "change": -89.8,
-      "changePercent": -2.13
+      "price": 4037.2,
+      "change": -179.1,
+      "changePercent": -4.25
     },
     {
       "name": "Silver",
-      "price": 52.95,
-      "change": -7.73,
-      "changePercent": -12.73
+      "price": 51.38,
+      "change": -9.29,
+      "changePercent": -15.31
     },
     {
       "name": "Copper",
-      "price": 6.32,
-      "change": -0.32,
-      "changePercent": -4.88
+      "price": 6.26,
+      "change": -0.38,
+      "changePercent": -5.71
     }
   ],
   "housing": {
@@ -7757,6 +7789,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to fall as Wall Street slumps on inflation report; Anthropic targets $2 trillion valuation",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-wall-street-slumps-on-inflation-anthropic-targets-2-trillion-valuation-20261111-p61d3m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks are falling after a report showed inflation was worse across the country last month than economists expected.",
+      "pubDate": "Wed, 11 Nov 2026 05:21:08 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Who keeps crashing China’s sharemarket?",
       "link": "https://www.smh.com.au/business/the-economy/who-keeps-crashing-china-s-sharemarket-20261110-p61bkk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "China is again in the midst of a sharemarket rout. The blame game has already begun.",
@@ -7764,10 +7803,17 @@
       "source": "SMH"
     },
     {
-      "title": "Nvidia CEO’s fling will be an affair to remember for AI, and for Trump",
-      "link": "https://www.smh.com.au/business/companies/nvidia-ceo-s-fling-will-be-an-affair-to-remember-for-ai-and-for-trump-20261110-p61csf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Jensen Huang’s liaison with an alleged Chinese spy could cost Nvidia billions, set America’s AI sector back in its arms race with China, and embroil the US president.",
-      "pubDate": "Tue, 10 Nov 2026 12:12:24 +1100",
+      "title": "The midterm message to Trump and Albanese: Fix the economy to keep your job",
+      "link": "https://www.smh.com.au/business/the-economy/the-midterm-message-to-trump-and-albanese-fix-the-economy-to-keep-your-job-20261111-p61cz0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "What can governments do about cost of living? Nothing that is quick or painless.",
+      "pubDate": "Wed, 11 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Stressed and out of pocket: David Jones’ great-great-great grandson is owed money, too",
+      "link": "https://www.smh.com.au/business/companies/stressed-and-out-of-pocket-david-jones-great-great-great-grandson-is-owed-money-too-20261110-p61cz7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Ben Nothling, a sixth-generation descendant of the Welsh entrepreneur David Jones, owns a shoe business. He’s owed $130,000 by the collapsed retailer.",
+      "pubDate": "Tue, 10 Nov 2026 20:30:00 +1100",
       "source": "SMH"
     },
     {
@@ -7778,14 +7824,21 @@
       "source": "SMH"
     },
     {
-      "title": "Qantas to cut 850 local jobs as it shifts roles to India",
-      "link": "https://www.smh.com.au/business/companies/qantas-to-cut-850-local-jobs-as-it-shifts-roles-to-india-20261110-p61ctc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A leading union said it was told by Qantas earlier in the year there was “no plan” to offshore any jobs. Qantas vigorously denies the claim.",
-      "pubDate": "Tue, 10 Nov 2026 12:18:10 +1100",
-      "source": "SMH"
+      "title": "Khawaja denies starting 'witch-hunt' over Sandpapergate claims",
+      "link": "https://www.abc.net.au/news/2026-11-10/usman-khawaja-talks-sandpapergate-friendship-racism/107370242",
+      "snippet": "",
+      "pubDate": "Tue, 10 Nov 2026 09:59:31 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Starc's 'opinion hasn't changed' as he disputes Khawaja sandpaper claims",
+      "title": "22yo jockey dies from injuries sustained in race fall",
+      "link": "https://www.abc.net.au/news/2026-11-10/izzy-neale-jockey-dies-after-fall-warren/107370756",
+      "snippet": "",
+      "pubDate": "Tue, 10 Nov 2026 09:32:40 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Starc's 'opinion hasn't changed' as he disputes Khawaja ball-tampering revelations",
       "link": "https://www.abc.net.au/news/2026-11-10/mitchell-starc-responds-to-usman-khawaja-sandpaper-claims/107369870",
       "snippet": "",
       "pubDate": "Tue, 10 Nov 2026 05:58:17 +0000",
@@ -7803,13 +7856,6 @@
       "link": "https://www.abc.net.au/news/2026-11-10/john-aloisi-sacked-from-chinese-club/107367670",
       "snippet": "",
       "pubDate": "Tue, 10 Nov 2026 00:27:55 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Oscar Piastri splits with manager Mark Webber",
-      "link": "https://www.abc.net.au/news/2026-11-10/oscar-piastri-splits-with-manager-mark-webber/107366884",
-      "snippet": "",
-      "pubDate": "Mon, 09 Nov 2026 20:29:27 +0000",
       "source": "ABC"
     }
   ]
