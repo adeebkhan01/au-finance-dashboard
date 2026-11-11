@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-11T06:55:10.270Z",
+  "fetchedAt": "2026-11-11T19:47:12.375Z",
   "fx": {
     "audusd": {
       "value": 0.69,
       "change": -0.01,
-      "changePercent": -1.21,
+      "changePercent": -1.52,
       "previousClose": 0.7,
       "asOf": "2026-11-11",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.62,
       "change": 0,
-      "changePercent": -0.71,
+      "changePercent": -0.5,
       "previousClose": 0.62,
       "asOf": "2026-11-11",
       "history": [
@@ -2256,7 +2256,7 @@
     "audcny": {
       "value": 4.57,
       "change": -0.09,
-      "changePercent": -1.92,
+      "changePercent": -1.97,
       "previousClose": 4.66,
       "asOf": "2026-11-11",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 109.18,
-      "change": -0.78,
-      "changePercent": -0.71,
+      "value": 109.5,
+      "change": -0.46,
+      "changePercent": -0.41,
       "previousClose": 109.96,
       "asOf": "2026-11-11",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-11-11",
-          "close": 109.18
+          "close": 109.5
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-11-11",
-          "close": 109.18
+          "close": 109.5
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-11",
-          "close": 109.18
+          "close": 109.5
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-11-11",
-          "close": 109.18
+          "close": 109.5
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.69,
     "change": -0.01,
-    "changePercent": -1.21,
+    "changePercent": -1.52,
     "previousClose": 0.7,
     "asOf": "2026-11-11",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 86.68,
-      "change": -7.06,
-      "changePercent": -7.53,
+      "value": 86.31,
+      "change": -7.43,
+      "changePercent": -7.93,
       "previousClose": 93.74,
       "asOf": "2026-11-11",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-11-11",
-          "close": 86.68
+          "close": 86.31
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 92.53,
-      "change": -14.12,
-      "changePercent": -13.24,
+      "value": 92.52,
+      "change": -14.13,
+      "changePercent": -13.25,
       "previousClose": 106.65,
       "asOf": "2026-11-11",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-11-11",
-          "close": 92.53
+          "close": 92.52
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.31,
-      "change": 0.14,
-      "changePercent": 4.42,
+      "value": 3.21,
+      "change": 0.04,
+      "changePercent": 1.26,
       "previousClose": 3.17,
       "asOf": "2026-11-11",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-11-11",
-          "close": 3.31
+          "close": 3.21
         }
       ],
       "name": "Natural Gas",
@@ -6702,6 +6702,10 @@
           "close": 168.99
         },
         {
+          "date": "2026-11-10",
+          "close": 166.94
+        },
+        {
           "date": "2026-11-11",
           "close": 166.94
         }
@@ -6804,6 +6808,10 @@
         {
           "date": "2026-11-09",
           "close": 39.15
+        },
+        {
+          "date": "2026-11-10",
+          "close": 38.56
         },
         {
           "date": "2026-11-11",
@@ -6910,6 +6918,10 @@
           "close": 39.44
         },
         {
+          "date": "2026-11-10",
+          "close": 39.98
+        },
+        {
           "date": "2026-11-11",
           "close": 39.98
         }
@@ -7012,6 +7024,10 @@
         {
           "date": "2026-11-09",
           "close": 37.26
+        },
+        {
+          "date": "2026-11-10",
+          "close": 37.29
         },
         {
           "date": "2026-11-11",
@@ -7120,6 +7136,10 @@
           "close": 59.87
         },
         {
+          "date": "2026-11-10",
+          "close": 60.39
+        },
+        {
           "date": "2026-11-11",
           "close": 60.39
         }
@@ -7222,6 +7242,10 @@
         {
           "date": "2026-11-09",
           "close": 152.84
+        },
+        {
+          "date": "2026-11-10",
+          "close": 153.87
         },
         {
           "date": "2026-11-11",
@@ -7328,6 +7352,10 @@
           "close": 15.36
         },
         {
+          "date": "2026-11-10",
+          "close": 15.42
+        },
+        {
           "date": "2026-11-11",
           "close": 15.42
         }
@@ -7432,6 +7460,10 @@
           "close": 30.74
         },
         {
+          "date": "2026-11-10",
+          "close": 30.9
+        },
+        {
           "date": "2026-11-11",
           "close": 30.9
         }
@@ -7441,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 4063,
-      "change": -127.6,
-      "changePercent": -3.04
+      "price": 3997.5,
+      "change": -193.1,
+      "changePercent": -4.61
     },
     {
       "name": "Silver",
-      "price": 52.95,
-      "change": -7.2,
-      "changePercent": -11.97
+      "price": 51.9,
+      "change": -8.24,
+      "changePercent": -13.7
     },
     {
       "name": "Copper",
-      "price": 6.32,
-      "change": -0.38,
-      "changePercent": -5.65
+      "price": 6.28,
+      "change": -0.42,
+      "changePercent": -6.27
     }
   ],
   "housing": {
@@ -7805,6 +7837,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX set to fall, AI stocks drive Wall Street higher",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-ai-stocks-drive-wall-street-higher-20261112-p61dg7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A rebound for stocks in the artificial intelligence industry is lifting the US market.",
+      "pubDate": "Thu, 12 Nov 2026 05:16:23 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Orbit kicks off partner-funded NSW copper-gold drilling",
       "link": "https://www.smh.com.au/business/companies/orbit-kicks-off-partner-funded-nsw-copper-gold-drilling-20261111-p61dcx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Orbit Resources has started partner-funded drilling at its Goodrich copper-gold project in NSW, targeting extensions to a previous porphyry discovery that hit 136.55m of mineralisation.",
@@ -7812,31 +7851,31 @@
       "source": "SMH"
     },
     {
-      "title": "Locksley locks onto 10km copper trend in NSW land grab",
-      "link": "https://www.smh.com.au/business/companies/locksley-locks-onto-10km-copper-trend-in-nsw-land-grab-20261111-p61db3.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Locksley Resources has grown its NSW copper-gold footprint to 1,000sq km after securing a new licence hosting an undrilled 10km geological structure on the prospective Tritton Trend.",
-      "pubDate": "Wed, 11 Nov 2026 14:11:53 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Larvotto extends NSW high-grade gold-antimony system at Hillgrove",
-      "link": "https://www.smh.com.au/business/companies/larvotto-extends-nsw-high-grade-gold-antimony-system-at-hillgrove-20261111-p61dc2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Larvotto Resources has hit high-grade gold-antimony up to 9.61g/t gold equivalent at the Freehold prospect in its NSW Hillgrove project, doubling the mineralised strike to 700m.",
-      "pubDate": "Wed, 11 Nov 2026 14:59:47 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Qantas using AI as ‘Trojan horse’ for lay-offs, says union",
-      "link": "https://www.smh.com.au/business/companies/significant-damage-transport-minister-warns-qantas-over-ai-job-cuts-20261111-p61d5l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Citing the impact of AI, the airline will send 850 back-office jobs, “mostly” to India, through professional services firm Accenture.",
-      "pubDate": "Wed, 11 Nov 2026 14:48:48 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "‘We still have a plan’: David Jones to close 19 stores",
+      "title": "‘We still have a plan’: David Jones to shut 19 stores, thousands of jobs to go",
       "link": "https://www.smh.com.au/business/companies/alarm-bells-were-ringing-for-david-jones-months-before-collapse-20261111-p61d4t.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "David Jones has told suppliers and staff that half of its stores will close as the receivers in charge of the embattled department store owner attempt to make the business viable again.",
-      "pubDate": "Wed, 11 Nov 2026 14:36:16 +1100",
+      "pubDate": "Wed, 11 Nov 2026 17:58:53 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "The women's RLWC final is a fight against fate",
+      "link": "https://www.abc.net.au/news/2026-11-12/womens-rugby-league-world-cup-australia-new-zealand/107374882",
+      "snippet": "",
+      "pubDate": "Wed, 11 Nov 2026 19:29:24 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Chinese car giant BYD apologises after putting wheels on the wrong way",
+      "link": "https://www.smh.com.au/business/companies/chinese-car-giant-byd-apologises-after-putting-wheels-on-the-wrong-way-20261112-p61dgk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "BYD apologised for an assembly mistake that meant some of its Great Tang electric sport utility vehicles had their front and rear wheel rims installed in reverse.",
+      "pubDate": "Thu, 12 Nov 2026 06:22:59 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "‘Gotta prioritise things’: Bosses brace for a wave of GTA VI sickies",
+      "link": "https://www.smh.com.au/technology/video-games/gotta-prioritise-things-bosses-brace-for-a-wave-of-gta-vi-sickies-20261112-p61czg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The video game is the first new instalment in 13 years of one of the best-selling entertainment franchises in history. Australian businesses expect staff absenteeism to soar.",
+      "pubDate": "Thu, 12 Nov 2026 05:30:00 +1100",
       "source": "SMH"
     },
     {
@@ -7851,20 +7890,6 @@
       "link": "https://www.abc.net.au/news/2026-11-11/david-warner-backs-chris-broad-comments-over-darren-lehmann/107372218",
       "snippet": "",
       "pubDate": "Wed, 11 Nov 2026 01:10:13 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Usman Khawaja makes changes to book tour after tense TV interview",
-      "link": "https://www.abc.net.au/news/2026-11-11/cricket-usman-khawaja-book-tour-adjustments-sandpaper-interview/107371958",
-      "snippet": "",
-      "pubDate": "Wed, 11 Nov 2026 00:54:30 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Legends urge Australia to 'move on' from Sandpapergate amid opposing claims",
-      "link": "https://www.abc.net.au/news/2026-11-11/cricket-gilchrist-urges-australia-move-on-sandpaper-recollection/107371446",
-      "snippet": "",
-      "pubDate": "Tue, 10 Nov 2026 21:21:50 +0000",
       "source": "ABC"
     }
   ]
