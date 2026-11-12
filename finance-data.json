@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-12T07:31:00.720Z",
+  "fetchedAt": "2026-11-12T20:15:26.126Z",
   "fx": {
     "audusd": {
       "value": 0.68,
       "change": -0.02,
-      "changePercent": -2.29,
+      "changePercent": -2.55,
       "previousClose": 0.7,
       "asOf": "2026-11-12",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.62,
       "change": -0.01,
-      "changePercent": -1.22,
+      "changePercent": -1.3,
       "previousClose": 0.62,
       "asOf": "2026-11-12",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.53,
-      "change": -0.14,
-      "changePercent": -2.99,
+      "value": 4.54,
+      "change": -0.13,
+      "changePercent": -2.83,
       "previousClose": 4.67,
       "asOf": "2026-11-12",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 4.53
+          "close": 4.54
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 4.53
+          "close": 4.54
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 4.53
+          "close": 4.54
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-11-12",
-          "close": 4.53
+          "close": 4.54
         }
       ]
     },
     "audjpy": {
-      "value": 109.1,
-      "change": -1.4,
-      "changePercent": -1.27,
+      "value": 108.74,
+      "change": -1.76,
+      "changePercent": -1.59,
       "previousClose": 110.5,
       "asOf": "2026-11-12",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 109.1
+          "close": 108.74
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 109.1
+          "close": 108.74
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 109.1
+          "close": 108.74
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 109.1
+          "close": 108.74
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.68,
     "change": -0.02,
-    "changePercent": -2.29,
+    "changePercent": -2.55,
     "previousClose": 0.7,
     "asOf": "2026-11-12",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 86.87,
-      "change": -6.87,
-      "changePercent": -7.33,
+      "value": 89,
+      "change": -4.74,
+      "changePercent": -5.06,
       "previousClose": 93.74,
       "asOf": "2026-11-12",
       "history": [
@@ -5946,16 +5946,16 @@
         },
         {
           "date": "2026-11-12",
-          "close": 86.87
+          "close": 89
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 93.24,
-      "change": -13.41,
-      "changePercent": -12.57,
+      "value": 96.04,
+      "change": -10.61,
+      "changePercent": -9.95,
       "previousClose": 106.65,
       "asOf": "2026-11-12",
       "history": [
@@ -6053,16 +6053,16 @@
         },
         {
           "date": "2026-11-12",
-          "close": 93.24
+          "close": 96.04
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.24,
-      "change": 0.07,
-      "changePercent": 2.24,
+      "value": 3.35,
+      "change": 0.18,
+      "changePercent": 5.62,
       "previousClose": 3.17,
       "asOf": "2026-11-12",
       "history": [
@@ -6160,7 +6160,7 @@
         },
         {
           "date": "2026-11-12",
-          "close": 3.24
+          "close": 3.35
         }
       ],
       "name": "Natural Gas",
@@ -6742,6 +6742,10 @@
           "close": 166.94
         },
         {
+          "date": "2026-11-11",
+          "close": 171.76
+        },
+        {
           "date": "2026-11-12",
           "close": 171.76
         }
@@ -6848,6 +6852,10 @@
         {
           "date": "2026-11-10",
           "close": 38.56
+        },
+        {
+          "date": "2026-11-11",
+          "close": 38.77
         },
         {
           "date": "2026-11-12",
@@ -6958,6 +6966,10 @@
           "close": 39.98
         },
         {
+          "date": "2026-11-11",
+          "close": 39.6
+        },
+        {
           "date": "2026-11-12",
           "close": 39.6
         }
@@ -7064,6 +7076,10 @@
         {
           "date": "2026-11-10",
           "close": 37.29
+        },
+        {
+          "date": "2026-11-11",
+          "close": 38.01
         },
         {
           "date": "2026-11-12",
@@ -7176,6 +7192,10 @@
           "close": 60.39
         },
         {
+          "date": "2026-11-11",
+          "close": 59.61
+        },
+        {
           "date": "2026-11-12",
           "close": 59.61
         }
@@ -7282,6 +7302,10 @@
         {
           "date": "2026-11-10",
           "close": 153.87
+        },
+        {
+          "date": "2026-11-11",
+          "close": 150.57
         },
         {
           "date": "2026-11-12",
@@ -7392,6 +7416,10 @@
           "close": 15.42
         },
         {
+          "date": "2026-11-11",
+          "close": 15.05
+        },
+        {
           "date": "2026-11-12",
           "close": 15.05
         }
@@ -7500,6 +7528,10 @@
           "close": 30.9
         },
         {
+          "date": "2026-11-11",
+          "close": 30.91
+        },
+        {
           "date": "2026-11-12",
           "close": 30.91
         }
@@ -7509,21 +7541,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3969.1,
-      "change": -221.5,
-      "changePercent": -5.29
+      "price": 3889.3,
+      "change": -301.3,
+      "changePercent": -7.19
     },
     {
       "name": "Silver",
-      "price": 51.19,
-      "change": -8.95,
-      "changePercent": -14.88
+      "price": 50.04,
+      "change": -10.1,
+      "changePercent": -16.8
     },
     {
       "name": "Copper",
-      "price": 6.22,
-      "change": -0.48,
-      "changePercent": -7.22
+      "price": 6.19,
+      "change": -0.51,
+      "changePercent": -7.58
     }
   ],
   "housing": {
@@ -7859,6 +7891,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to slide, Nvidia dives to weigh on Wall Street; Trump sends oil higher",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-nvidia-dives-to-weigh-on-wall-street-trump-sends-oil-higher-20261113-p61dtz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The US stock market has erased its early losses after absorbing big swings for Nvidia’s stock and oil prices.",
+      "pubDate": "Fri, 13 Nov 2026 05:25:06 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "ASX treads water as Nvidia scandal rocks AI sector; Xero soars",
       "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-ai-stocks-drive-wall-street-higher-20261112-p61dg7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket has finished little changed amid new uncertainty for global markets, with reports Nvidia is preparing to oust its CEO and founder Jensen Huang.",
@@ -7866,38 +7905,66 @@
       "source": "SMH"
     },
     {
-      "title": "Capability X defies AI blues with stellar ASX debut",
-      "link": "https://www.smh.com.au/business/companies/capability-x-defies-ai-blues-with-stellar-asx-debut-20261112-p61dqq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Capability X has defied weak IPO conditions and global AI stock jitters, surging almost 50% to close at 29c on ASX debut after raising $12 million to expand its industrial safety technology.",
-      "pubDate": "Thu, 12 Nov 2026 16:49:33 +1100",
+      "title": "We’re supposed to be struggling, yet we’re spending more. Why?",
+      "link": "https://www.smh.com.au/business/the-economy/we-re-supposed-to-be-struggling-yet-we-re-spending-more-why-20261113-p61czy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Most Australians feeling the cost-of-living crunch are continuing to spend on non-essentials. It’s not an irrational response.",
+      "pubDate": "Fri, 13 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Auric pockets $17M for broad WA gold growth",
-      "link": "https://www.smh.com.au/business/companies/auric-pockets-17m-for-broad-wa-gold-growth-20261112-p61dqk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Auric Mining has locked in $17 million to accelerate its WA gold growth strategy, including drilling at its Munda, Union Jack and newly acquired Iron Maiden projects.",
-      "pubDate": "Thu, 12 Nov 2026 16:46:55 +1100",
+      "title": "Kiwi duo Ponga and Waaka claim Golden Boot awards after stunning seasons",
+      "link": "https://www.abc.net.au/news/2026-11-12/kalyn-ponga-stacey-waaka-win-rugby-league-golden-boot-awards/107379252",
+      "snippet": "",
+      "pubDate": "Thu, 12 Nov 2026 07:31:06 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Sixers win WBBL clash despite Ellyse Perry's strange run-out",
+      "link": "https://www.abc.net.au/news/2026-11-13/sydney-sixers-ellyse-perry-wbbl-run-out/107380950",
+      "snippet": "",
+      "pubDate": "Thu, 12 Nov 2026 20:07:28 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Nobody reads my job applications anyway. Why should I put the effort in?",
+      "link": "https://www.smh.com.au/business/workplace/nobody-reads-my-job-applications-anyway-why-should-i-put-the-effort-in-20261113-p61do9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The job market in Australia has fundamentally changed over the last few years. With that change has come a new set of conventions in the job application process.",
+      "pubDate": "Fri, 13 Nov 2026 05:11:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Flagship bags district-scale Chilean copper-gold project",
-      "link": "https://www.smh.com.au/business/companies/flagship-bags-district-scale-chilean-copper-gold-project-20261112-p61dp0.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Flagship Minerals secured an option over the district-scale Fortuna Valle copper-gold project in Chile’s prolific Coquimbo region, boasting widespread historical drill hits.",
-      "pubDate": "Thu, 12 Nov 2026 15:10:44 +1100",
+      "title": "Overreaction, error and anger still plague Australia's sandpaper response",
+      "link": "https://www.abc.net.au/news/2026-11-13/cricket-australia-response-sandpaper-error-usman-khawaja-book/107378542",
+      "snippet": "",
+      "pubDate": "Thu, 12 Nov 2026 18:00:00 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Rupert Murdoch makes a death-defying appearance",
+      "link": "https://www.smh.com.au/business/companies/rupert-murdoch-makes-a-death-defying-appearance-20261113-p61d9m.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The media tycoon’s appearance at an event in New York was followed by former employee Siobhan McKenna’s farewell bash before she jets off to the same city.",
+      "pubDate": "Fri, 13 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Dalaroo fires up diamond drill hunt for African gold riches",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-fires-up-diamond-drill-hunt-for-african-gold-riches-20261112-p61dn1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals is set to drill its high-grade Bondoukou gold discovery in Côte d’Ivoire, with a rig now mobilising to site to test extensions of an 18m hit grading 7.31 g/t gold.",
-      "pubDate": "Thu, 12 Nov 2026 13:00:40 +1100",
+      "title": "Australia’s biggest home builder gets itself ... a bigger home",
+      "link": "https://www.smh.com.au/business/companies/australia-s-biggest-home-builder-gets-itself-a-bigger-home-20261113-p61dkj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Metricon is moving house, shifting its head office to Ferntree Business Park in Notting Hill.",
+      "pubDate": "Fri, 13 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Miro clears TGA audit ahead of Crohn’s disease trial",
-      "link": "https://www.smh.com.au/business/companies/miro-clears-tga-audit-ahead-of-crohn-s-disease-trial-20261112-p61dlz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Miro Sciences has cleared a TGA manufacturing hurdle for its Crohn’s trial, with the regulator inspecting its partner’s facility ahead of a planned Phase 2 study for its StemSmart cell therapy.",
-      "pubDate": "Thu, 12 Nov 2026 12:24:03 +1100",
+      "title": "Marsh dodges Sandpapergate questions in testy press conference exchange",
+      "link": "https://www.abc.net.au/news/2026-11-12/cricket-mitch-marsh-refuses-sandpaper-questions-press-conference/107380282",
+      "snippet": "",
+      "pubDate": "Thu, 12 Nov 2026 08:33:12 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Nvidia billionaire’s affair scandal drags his wife of 41 years into the spotlight",
+      "link": "https://www.smh.com.au/business/companies/nvidia-billionaire-s-affair-scandal-drags-his-wife-of-41-years-into-the-spotlight-20261112-p61dg9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Lori Huang has been by Jensen Huang’s side for decades but has kept a low profile as he built his fledgling start-up into one of the most valuable companies in the world. That all changed this week.",
+      "pubDate": "Thu, 12 Nov 2026 19:05:00 +1100",
       "source": "SMH"
     },
     {
@@ -7905,41 +7972,6 @@
       "link": "https://www.abc.net.au/news/2026-11-12/nrl-parramatta-eels-wont-extend-josh-addo-carr-contract/107378652",
       "snippet": "",
       "pubDate": "Thu, 12 Nov 2026 03:41:00 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Cummins to 'respond properly' to Khawaja claims tomorrow",
-      "link": "https://www.abc.net.au/news/2026-11-12/pat-cummins-to-respond-properly-to-usman-khawaja/107377786",
-      "snippet": "",
-      "pubDate": "Thu, 12 Nov 2026 03:09:46 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Want a bigger pay rise? You’re probably making this mistake",
-      "link": "https://www.smh.com.au/business/workplace/want-a-bigger-pay-rise-you-re-probably-making-this-mistake-20261112-p61dmm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The ‘peanut butter raise’ usually gets spread evenly, but there are always a few extra crunchy bits for those who can make the right case.",
-      "pubDate": "Thu, 12 Nov 2026 13:37:57 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Vescio won't quit this habit even if 'it's uncomfortable to watch'",
-      "link": "https://www.abc.net.au/news/2026-11-12/aflw-darcy-vescio-legacy-ahead-of-100th-game-carlton/107377710",
-      "snippet": "",
-      "pubDate": "Thu, 12 Nov 2026 01:54:11 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Nvidia ‘preparing to oust’ Jensen Huang, allegation of second affair emerges",
-      "link": "https://www.smh.com.au/business/companies/nvidia-preparing-to-oust-jensen-huang-report-20261112-p61diy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Nvidia’s board is believed to be meeting to discuss the future of its founder and CEO following reports of multiple extramarital affairs, including one with a suspected Chinese spy.",
-      "pubDate": "Thu, 12 Nov 2026 12:26:15 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "What is in Usman Khawaja's book Sabr and what did he actually say about Sandpapergate?",
-      "link": "https://www.abc.net.au/news/2026-11-12/usman-khawaja-and-sandpaper-whats-in-the-book/107376576",
-      "snippet": "",
-      "pubDate": "Thu, 12 Nov 2026 01:15:44 +0000",
       "source": "ABC"
     }
   ]
