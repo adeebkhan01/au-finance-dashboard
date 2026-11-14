@@ -1,17 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T19:56:09.105Z",
+  "fetchedAt": "2026-11-14T06:52:15.948Z",
   "fx": {
     "audusd": {
       "value": 0.68,
       "change": -0.02,
-      "changePercent": -2.59,
+      "changePercent": -3.02,
       "previousClose": 0.7,
-      "asOf": "2026-11-13",
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-12",
-          "close": 0.7
-        },
         {
           "date": "2026-10-13",
           "close": 0.7
@@ -103,16 +99,16 @@
         {
           "date": "2026-11-13",
           "close": 0.68
+        },
+        {
+          "date": "2026-11-14",
+          "close": 0.68
         }
       ],
       "label": "AUD/USD",
       "symbol": "AUDUSD=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-08-12",
-          "close": 0.71
-        },
         {
           "date": "2026-08-13",
           "close": 0.71
@@ -376,6 +372,10 @@
         {
           "date": "2026-11-13",
           "close": 0.68
+        },
+        {
+          "date": "2026-11-14",
+          "close": 0.68
         }
       ],
       "h6m": [
@@ -488,7 +488,7 @@
           "close": 0.68
         },
         {
-          "date": "2026-11-13",
+          "date": "2026-11-14",
           "close": 0.68
         }
       ],
@@ -1122,7 +1122,7 @@
           "close": 0.68
         },
         {
-          "date": "2026-11-13",
+          "date": "2026-11-14",
           "close": 0.68
         }
       ]
@@ -1130,14 +1130,10 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.43,
+      "changePercent": -1.48,
       "previousClose": 0.62,
-      "asOf": "2026-11-13",
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-12",
-          "close": 0.62
-        },
         {
           "date": "2026-10-13",
           "close": 0.62
@@ -1228,17 +1224,13 @@
         },
         {
           "date": "2026-11-13",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "label": "AUD/EUR",
       "symbol": "AUDEUR=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-08-12",
-          "close": 0.61
-        },
         {
           "date": "2026-08-13",
           "close": 0.61
@@ -1501,7 +1493,7 @@
         },
         {
           "date": "2026-11-13",
-          "close": 0.61
+          "close": 0.62
         }
       ],
       "h6m": [
@@ -2254,16 +2246,12 @@
       ]
     },
     "audcny": {
-      "value": 4.52,
-      "change": -0.14,
-      "changePercent": -2.93,
-      "previousClose": 4.65,
-      "asOf": "2026-11-13",
+      "value": 4.51,
+      "change": -0.17,
+      "changePercent": -3.56,
+      "previousClose": 4.67,
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-12",
-          "close": 4.65
-        },
         {
           "date": "2026-10-13",
           "close": 4.67
@@ -2354,17 +2342,17 @@
         },
         {
           "date": "2026-11-13",
-          "close": 4.52
+          "close": 4.54
+        },
+        {
+          "date": "2026-11-14",
+          "close": 4.51
         }
       ],
       "label": "AUD/CNY",
       "symbol": "AUDCNY=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-08-12",
-          "close": 4.76
-        },
         {
           "date": "2026-08-13",
           "close": 4.76
@@ -2627,7 +2615,11 @@
         },
         {
           "date": "2026-11-13",
-          "close": 4.52
+          "close": 4.54
+        },
+        {
+          "date": "2026-11-14",
+          "close": 4.51
         }
       ],
       "h6m": [
@@ -2737,11 +2729,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 4.56
+          "close": 4.54
         },
         {
-          "date": "2026-11-13",
-          "close": 4.52
+          "date": "2026-11-14",
+          "close": 4.51
         }
       ],
       "h3y": [
@@ -3371,25 +3363,21 @@
         },
         {
           "date": "2026-11-09",
-          "close": 4.56
+          "close": 4.54
         },
         {
-          "date": "2026-11-13",
-          "close": 4.52
+          "date": "2026-11-14",
+          "close": 4.51
         }
       ]
     },
     "audjpy": {
-      "value": 108.22,
-      "change": -2.04,
-      "changePercent": -1.85,
-      "previousClose": 110.26,
-      "asOf": "2026-11-13",
+      "value": 108.14,
+      "change": -2.4,
+      "changePercent": -2.17,
+      "previousClose": 110.54,
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-12",
-          "close": 110.26
-        },
         {
           "date": "2026-10-13",
           "close": 110.54
@@ -3480,17 +3468,13 @@
         },
         {
           "date": "2026-11-13",
-          "close": 108.22
+          "close": 108.82
         }
       ],
       "label": "AUD/JPY",
       "symbol": "AUDJPY=X",
       "dec": 2,
       "h3m": [
-        {
-          "date": "2026-08-12",
-          "close": 112.51
-        },
         {
           "date": "2026-08-13",
           "close": 112.61
@@ -3753,7 +3737,7 @@
         },
         {
           "date": "2026-11-13",
-          "close": 108.22
+          "close": 108.82
         }
       ],
       "h6m": [
@@ -3863,11 +3847,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 109.29
+          "close": 108.82
         },
         {
           "date": "2026-11-13",
-          "close": 108.22
+          "close": 108.14
         }
       ],
       "h3y": [
@@ -4497,11 +4481,11 @@
         },
         {
           "date": "2026-11-09",
-          "close": 109.29
+          "close": 108.82
         },
         {
           "date": "2026-11-13",
-          "close": 108.22
+          "close": 108.14
         }
       ]
     }
@@ -4509,14 +4493,10 @@
   "audusd": {
     "value": 0.68,
     "change": -0.02,
-    "changePercent": -2.59,
+    "changePercent": -3.02,
     "previousClose": 0.7,
-    "asOf": "2026-11-13",
+    "asOf": "2026-11-14",
     "history": [
-      {
-        "date": "2026-10-12",
-        "close": 0.7
-      },
       {
         "date": "2026-10-13",
         "close": 0.7
@@ -4608,16 +4588,16 @@
       {
         "date": "2026-11-13",
         "close": 0.68
+      },
+      {
+        "date": "2026-11-14",
+        "close": 0.68
       }
     ],
     "label": "AUD/USD",
     "symbol": "AUDUSD=X",
     "dec": 4,
     "h3m": [
-      {
-        "date": "2026-08-12",
-        "close": 0.71
-      },
       {
         "date": "2026-08-13",
         "close": 0.71
@@ -4881,6 +4861,10 @@
       {
         "date": "2026-11-13",
         "close": 0.68
+      },
+      {
+        "date": "2026-11-14",
+        "close": 0.68
       }
     ],
     "h6m": [
@@ -4993,7 +4977,7 @@
         "close": 0.68
       },
       {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "close": 0.68
       }
     ],
@@ -5627,7 +5611,7 @@
         "close": 0.68
       },
       {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "close": 0.68
       }
     ]
@@ -5826,16 +5810,12 @@
   },
   "energy": {
     "wti": {
-      "value": 88.62,
-      "change": -5.52,
-      "changePercent": -5.86,
-      "previousClose": 94.14,
-      "asOf": "2026-11-13",
+      "value": 88.56,
+      "change": -6.53,
+      "changePercent": -6.87,
+      "previousClose": 95.09,
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-13",
-          "close": 94.14
-        },
         {
           "date": "2026-10-14",
           "close": 95.09
@@ -5926,23 +5906,19 @@
         },
         {
           "date": "2026-11-13",
-          "close": 88.62
+          "close": 88.56
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 95.8,
-      "change": -9.89,
-      "changePercent": -9.36,
-      "previousClose": 105.69,
-      "asOf": "2026-11-13",
+      "value": 95.84,
+      "change": -10.22,
+      "changePercent": -9.64,
+      "previousClose": 106.06,
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-13",
-          "close": 105.69
-        },
         {
           "date": "2026-10-14",
           "close": 106.06
@@ -6033,23 +6009,19 @@
         },
         {
           "date": "2026-11-13",
-          "close": 95.8
+          "close": 95.84
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.24,
-      "change": -0.05,
-      "changePercent": -1.43,
-      "previousClose": 3.28,
-      "asOf": "2026-11-13",
+      "value": 3.23,
+      "change": 0.03,
+      "changePercent": 1,
+      "previousClose": 3.2,
+      "asOf": "2026-11-14",
       "history": [
-        {
-          "date": "2026-10-13",
-          "close": 3.28
-        },
         {
           "date": "2026-10-14",
           "close": 3.2
@@ -6140,7 +6112,7 @@
         },
         {
           "date": "2026-11-13",
-          "close": 3.24
+          "close": 3.23
         }
       ],
       "name": "Natural Gas",
@@ -6230,7 +6202,7 @@
     "change": 298.3,
     "changePercent": 3.4,
     "previousClose": 8783.9,
-    "asOf": "2026-11-13",
+    "asOf": "2026-11-14",
     "history": [
       {
         "date": "2026-10-12",
@@ -6323,6 +6295,10 @@
       {
         "date": "2026-11-11",
         "close": 9146.8
+      },
+      {
+        "date": "2026-11-12",
+        "close": 9082.2
       },
       {
         "date": "2026-11-13",
@@ -7521,21 +7497,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3877.8,
-      "change": -299.5,
-      "changePercent": -7.17
+      "price": 3886.3,
+      "change": -221.6,
+      "changePercent": -5.39
     },
     {
       "name": "Silver",
-      "price": 48.84,
-      "change": -10.32,
-      "changePercent": -17.45
+      "price": 49.12,
+      "change": -6.43,
+      "changePercent": -11.57
     },
     {
       "name": "Copper",
-      "price": 6.08,
-      "change": -0.6,
-      "changePercent": -9.01
+      "price": 6.09,
+      "change": -0.52,
+      "changePercent": -7.88
     }
   ],
   "housing": {
@@ -7878,11 +7854,39 @@
       "source": "SMH"
     },
     {
-      "title": "Australian shares limp across the line to end week higher",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-slide-nvidia-dives-to-weigh-on-wall-street-trump-sends-oil-higher-20261113-p61dtz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The sharemarket has risen for six of the past seven weeks despite a weak finish in the final session.",
-      "pubDate": "Fri, 13 Nov 2026 17:54:53 +1100",
+      "title": "‘I don’t care’: Inside Jensen Huang’s last hours as Nvidia CEO",
+      "link": "https://www.smh.com.au/business/companies/i-don-t-care-inside-jensen-huang-s-last-hours-as-nvidia-ceo-20261114-p61dzp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "At the end, Jensen Huang looked broken and shattered, his legendary energy depleted.",
+      "pubDate": "Sat, 14 Nov 2026 16:30:00 +1100",
       "source": "SMH"
+    },
+    {
+      "title": "Hauser ends stunning triathlon season with silver",
+      "link": "https://www.abc.net.au/news/2026-11-14/matt-hauser-silver-world-triathlon-championship-series-abu-dhabi/107386078",
+      "snippet": "",
+      "pubDate": "Sat, 14 Nov 2026 03:17:33 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Australia's newest fast-bowling sensation tipped for big things from a young age",
+      "link": "https://www.abc.net.au/news/2026-11-14/mahli-beardman-junior-cricket-celebration/107386108",
+      "snippet": "",
+      "pubDate": "Sat, 14 Nov 2026 05:17:48 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Cape Town inquiry spoke to all Aussie bowlers, ABC understands",
+      "link": "https://www.abc.net.au/news/2026-11-14/david-warner-cricket-australia-ball-tampering-investigation/107386252",
+      "snippet": "",
+      "pubDate": "Sat, 14 Nov 2026 03:44:22 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Tears for Pochettino as Man Utd turn to former Spurs boss",
+      "link": "https://www.abc.net.au/news/2026-11-14/manchester-united-hire-tearful-us-coach-mauricio-pochettino/107385644",
+      "snippet": "",
+      "pubDate": "Fri, 13 Nov 2026 22:01:05 +0000",
+      "source": "ABC"
     },
     {
       "title": "I worked part-time at David Jones. I know exactly why the business failed",
@@ -7918,41 +7922,6 @@
       "snippet": "Here’s a look at some of the most famous corporate scandals in history. Jensen Huang is really in a league of his own.",
       "pubDate": "Sat, 14 Nov 2026 05:00:00 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Australia's next fast bowling star blows England away on ODI debut",
-      "link": "https://www.abc.net.au/news/2026-11-13/mahli-beardman-australia-england-first-odi/107384130",
-      "snippet": "",
-      "pubDate": "Fri, 13 Nov 2026 06:59:08 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Cummins hopes his answers ended the sandpaper war. He is sadly mistaken",
-      "link": "https://www.abc.net.au/news/2026-11-13/pat-cummins-press-conference-sandpaper-civil-war/107382866",
-      "snippet": "",
-      "pubDate": "Fri, 13 Nov 2026 03:56:54 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "David Warner slams Pat Cummins over Sandpapergate denial",
-      "link": "https://www.abc.net.au/news/2026-11-13/david-warner-slams-pat-cummins-over-sandpapergate-denial/107383074",
-      "snippet": "",
-      "pubDate": "Fri, 13 Nov 2026 03:46:12 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Cummins addresses Khawaja claims in passionate hour-long press conference",
-      "link": "https://www.abc.net.au/news/2026-11-13/pat-cummins-says-usman-khawaja-casual-with-peoples-lives/107381770",
-      "snippet": "",
-      "pubDate": "Fri, 13 Nov 2026 00:39:48 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "'Insufficient evidence' to charge Sydney Swans players with sexual assault",
-      "link": "https://www.abc.net.au/news/2026-11-13/sydney-swans-players-cleared-by-police-over-pullman/107372082",
-      "snippet": "",
-      "pubDate": "Thu, 12 Nov 2026 23:56:20 +0000",
-      "source": "ABC"
     }
   ]
 }
