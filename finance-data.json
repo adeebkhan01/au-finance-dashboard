@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-15T06:56:38.039Z",
+  "fetchedAt": "2026-11-15T19:00:47.440Z",
   "fx": {
     "audusd": {
       "value": 0.68,
       "change": -0.02,
-      "changePercent": -3.02,
+      "changePercent": -2.98,
       "previousClose": 0.7,
       "asOf": "2026-11-15",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.48,
+      "changePercent": -1.49,
       "previousClose": 0.62,
       "asOf": "2026-11-15",
       "history": [
@@ -1225,6 +1225,10 @@
         {
           "date": "2026-11-13",
           "close": 0.62
+        },
+        {
+          "date": "2026-11-15",
+          "close": 0.61
         }
       ],
       "label": "AUD/EUR",
@@ -1494,6 +1498,10 @@
         {
           "date": "2026-11-13",
           "close": 0.62
+        },
+        {
+          "date": "2026-11-15",
+          "close": 0.61
         }
       ],
       "h6m": [
@@ -1606,7 +1614,7 @@
           "close": 0.62
         },
         {
-          "date": "2026-11-13",
+          "date": "2026-11-15",
           "close": 0.61
         }
       ],
@@ -2240,15 +2248,15 @@
           "close": 0.62
         },
         {
-          "date": "2026-11-13",
+          "date": "2026-11-15",
           "close": 0.61
         }
       ]
     },
     "audcny": {
-      "value": 4.52,
-      "change": -0.15,
-      "changePercent": -3.28,
+      "value": 4.51,
+      "change": -0.17,
+      "changePercent": -3.56,
       "previousClose": 4.67,
       "asOf": "2026-11-15",
       "history": [
@@ -2345,8 +2353,8 @@
           "close": 4.54
         },
         {
-          "date": "2026-11-14",
-          "close": 4.52
+          "date": "2026-11-15",
+          "close": 4.51
         }
       ],
       "label": "AUD/CNY",
@@ -2618,8 +2626,8 @@
           "close": 4.54
         },
         {
-          "date": "2026-11-14",
-          "close": 4.52
+          "date": "2026-11-15",
+          "close": 4.51
         }
       ],
       "h6m": [
@@ -2732,8 +2740,8 @@
           "close": 4.54
         },
         {
-          "date": "2026-11-14",
-          "close": 4.52
+          "date": "2026-11-15",
+          "close": 4.51
         }
       ],
       "h3y": [
@@ -3366,15 +3374,15 @@
           "close": 4.54
         },
         {
-          "date": "2026-11-14",
-          "close": 4.52
+          "date": "2026-11-15",
+          "close": 4.51
         }
       ]
     },
     "audjpy": {
-      "value": 108.14,
-      "change": -2.4,
-      "changePercent": -2.17,
+      "value": 108.04,
+      "change": -2.5,
+      "changePercent": -2.26,
       "previousClose": 110.54,
       "asOf": "2026-11-15",
       "history": [
@@ -3469,6 +3477,10 @@
         {
           "date": "2026-11-13",
           "close": 108.82
+        },
+        {
+          "date": "2026-11-15",
+          "close": 108.04
         }
       ],
       "label": "AUD/JPY",
@@ -3738,6 +3750,10 @@
         {
           "date": "2026-11-13",
           "close": 108.82
+        },
+        {
+          "date": "2026-11-15",
+          "close": 108.04
         }
       ],
       "h6m": [
@@ -3850,8 +3866,8 @@
           "close": 108.82
         },
         {
-          "date": "2026-11-13",
-          "close": 108.14
+          "date": "2026-11-15",
+          "close": 108.04
         }
       ],
       "h3y": [
@@ -4484,8 +4500,8 @@
           "close": 108.82
         },
         {
-          "date": "2026-11-13",
-          "close": 108.14
+          "date": "2026-11-15",
+          "close": 108.04
         }
       ]
     }
@@ -4493,7 +4509,7 @@
   "audusd": {
     "value": 0.68,
     "change": -0.02,
-    "changePercent": -3.02,
+    "changePercent": -2.98,
     "previousClose": 0.7,
     "asOf": "2026-11-15",
     "history": [
@@ -7835,10 +7851,31 @@
   ],
   "news": [
     {
-      "title": "M.J. Bale axed its retail boss while she was on maternity leave. Now she’s fighting back",
-      "link": "https://www.smh.com.au/business/companies/m-j-bale-axed-its-retail-boss-while-she-was-on-maternity-leave-now-she-s-fighting-back-20261114-p61dft.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Australian menswear retailer made its high-flying retail boss redundant days before her scheduled return from parental leave.",
-      "pubDate": "Sat, 14 Nov 2026 05:00:00 +1100",
+      "title": "ASX set for flat start, Nvidia scandal weighs on Wall Street",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-flat-start-nvidia-scandal-weighs-on-wall-street-20261116-p61eck.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "US stocks closed lower as a pullback in big AI-focused companies weighed on the market, capping a turbulent week on Wall Street.",
+      "pubDate": "Mon, 16 Nov 2026 05:21:14 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "The real pain from rising interest rates is yet to come",
+      "link": "https://www.smh.com.au/business/banking-and-finance/the-real-pain-from-rising-interest-rates-is-yet-to-come-20261116-p61e0r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The number of borrowers who are behind on their mortgage payments is rising, and it’s likely to climb further as rate hikes bite.",
+      "pubDate": "Mon, 16 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Coalition threat to sink gas reform triggers rare industry backlash",
+      "link": "https://www.smh.com.au/business/companies/coalition-threat-to-sink-gas-reform-triggers-rare-industry-backlash-20261116-p61e7n.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A broad alliance of business chiefs and unions has mounted a last-minute push for the Coalition to pass Labor’s domestic gas-reservation laws.",
+      "pubDate": "Mon, 16 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "A new fast-food giant is coming to Australia. Its unusual ingredients aren’t the only talking point",
+      "link": "https://www.smh.com.au/business/consumer-affairs/a-new-fast-food-giant-is-coming-to-australia-its-unusual-ingredients-aren-t-the-only-talking-point-20261116-p61e96.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A new chain will enter Australia’s crowded fast-food chicken market after wowing Anthony Albanese at one of its Manila stores. We put some of its dishes to the test.",
+      "pubDate": "Mon, 16 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7856,11 +7893,11 @@
       "source": "SMH"
     },
     {
-      "title": "Australia bowls first as rising star Beardman is rested following stunning debut",
-      "link": "https://www.abc.net.au/news/2026-11-15/australia-vs-england-second-odi-at-adelaide-oval/107387540",
-      "snippet": "",
-      "pubDate": "Sun, 15 Nov 2026 05:28:36 +0000",
-      "source": "ABC"
+      "title": "The superchip genius or the big name wildcard? Eight contenders to replace Huang as Nvidia’s CEO",
+      "link": "https://www.smh.com.au/business/companies/billions-lost-affairs-and-a-trump-bromance-10-things-you-need-to-know-about-the-nvidia-scandal-20261113-p61du7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Nvidia chief Jensen Huang has resigned from the chipmaker he co-founded after reports of extramarital affairs made the spotlight.",
+      "pubDate": "Mon, 16 Nov 2026 05:41:00 +1100",
+      "source": "SMH"
     },
     {
       "title": "Inside Boeing’s mission to rebuild trust in the 737 after years of turbulence",
@@ -7870,53 +7907,32 @@
       "source": "SMH"
     },
     {
-      "title": "‘I don’t care’: Inside Jensen Huang’s last hours as Nvidia CEO",
-      "link": "https://www.smh.com.au/business/companies/i-don-t-care-inside-jensen-huang-s-last-hours-as-nvidia-ceo-20261114-p61dzp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "At the end, Jensen Huang looked broken and shattered, his legendary energy depleted.",
-      "pubDate": "Sat, 14 Nov 2026 16:30:00 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Aussie quick says 'everyone knew' about sandpaper, as Warner doubles down",
-      "link": "https://www.abc.net.au/news/2026-11-15/australia-cricket-sandpaper-claims-chadd-sayers-david-warner/107387424",
+      "title": "Scotland beat Wallabies in desperate, dour Murrayfield arm-wrestle",
+      "link": "https://www.abc.net.au/news/2026-11-16/wallabies-live-updates-scotland-vs-australia-murrayfield/107385882",
       "snippet": "",
-      "pubDate": "Sun, 15 Nov 2026 04:27:21 +0000",
+      "pubDate": "Sun, 15 Nov 2026 14:03:14 +0000",
       "source": "ABC"
     },
     {
-      "title": "Live: Chapman scores stunning hat-trick with Jillaroos overwhelming Kiwi Ferns",
-      "link": "https://www.abc.net.au/news/2026-11-15/kangaroos-jillaroos-live-rugby-league-world-cup-finals/107376474",
+      "title": "Shark attack hero breaks through for Iron Series win",
+      "link": "https://www.abc.net.au/news/2026-11-15/shark-attack-hero-charlie-verco-iron-series-win/107387616",
       "snippet": "",
-      "pubDate": "Sun, 15 Nov 2026 03:57:48 +0000",
+      "pubDate": "Sun, 15 Nov 2026 07:57:27 +0000",
       "source": "ABC"
     },
     {
-      "title": "How Swim GP may have given a glimpse of the future of para-sport",
-      "link": "https://www.abc.net.au/news/2026-11-15/swim-gp-boost-for-para-swimming/107387140",
+      "title": "After tragically losing a mate, Herbert is helping businesses with his shirt",
+      "link": "https://www.abc.net.au/news/2026-11-15/golfer-lucas-herbert-advertising-small-business-at-nsw-open/107387488",
       "snippet": "",
-      "pubDate": "Sun, 15 Nov 2026 02:31:02 +0000",
+      "pubDate": "Sun, 15 Nov 2026 07:09:18 +0000",
       "source": "ABC"
     },
     {
-      "title": "Carpenter leads Chelsea to victory against Manchester City",
-      "link": "https://www.abc.net.au/news/2026-11-15/ellie-carpenter-helps-chelsea-get-win-over-mary-fowler-man-city/107387146",
+      "title": "Aussies crashes to record ODI loss against England after top order collapse",
+      "link": "https://www.abc.net.au/news/2026-11-15/australia-crashes-to-record-odi-loss-to-england/107387540",
       "snippet": "",
-      "pubDate": "Sat, 14 Nov 2026 21:29:32 +0000",
+      "pubDate": "Sun, 15 Nov 2026 05:28:36 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "All Blacks suffer 73-year first in defeat to Wales",
-      "link": "https://www.abc.net.au/news/2026-11-15/all-blacks-beaten-by-wales-for-first-time-in-73-years/107387094",
-      "snippet": "",
-      "pubDate": "Sat, 14 Nov 2026 20:35:19 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "I worked part-time at David Jones. I know exactly why the business failed",
-      "link": "https://www.smh.com.au/business/consumer-affairs/i-worked-part-time-at-david-jones-i-know-exactly-why-the-business-failed-20261114-p61dbl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Lift operators, bra fitters and lying sales assistants – I mourn you all.",
-      "pubDate": "Sat, 14 Nov 2026 05:30:00 +1100",
-      "source": "SMH"
     }
   ]
 }
