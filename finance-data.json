@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-16T07:02:00.421Z",
+  "fetchedAt": "2026-11-16T22:25:00.897Z",
   "fx": {
     "audusd": {
-      "value": 0.68,
+      "value": 0.67,
       "change": -0.02,
-      "changePercent": -2.3,
+      "changePercent": -2.59,
       "previousClose": 0.69,
       "asOf": "2026-11-16",
       "history": [
@@ -94,7 +94,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 0.68
+          "close": 0.67
         }
       ],
       "label": "AUD/USD",
@@ -363,7 +363,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 0.68
+          "close": 0.67
         }
       ],
       "h6m": [
@@ -477,7 +477,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 0.68
+          "close": 0.67
         }
       ],
       "h3y": [
@@ -1111,14 +1111,14 @@
         },
         {
           "date": "2026-11-16",
-          "close": 0.68
+          "close": 0.67
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": 0,
-      "changePercent": -0.54,
+      "changePercent": -0.68,
       "previousClose": 0.62,
       "asOf": "2026-11-16",
       "history": [
@@ -2230,9 +2230,9 @@
       ]
     },
     "audcny": {
-      "value": 4.51,
-      "change": -0.12,
-      "changePercent": -2.66,
+      "value": 4.49,
+      "change": -0.14,
+      "changePercent": -3,
       "previousClose": 4.63,
       "asOf": "2026-11-16",
       "history": [
@@ -2322,7 +2322,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 4.51
+          "close": 4.49
         }
       ],
       "label": "AUD/CNY",
@@ -2591,7 +2591,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 4.51
+          "close": 4.49
         }
       ],
       "h6m": [
@@ -2705,7 +2705,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 4.51
+          "close": 4.49
         }
       ],
       "h3y": [
@@ -3339,14 +3339,14 @@
         },
         {
           "date": "2026-11-16",
-          "close": 4.51
+          "close": 4.49
         }
       ]
     },
     "audjpy": {
-      "value": 107.76,
-      "change": -1.65,
-      "changePercent": -1.51,
+      "value": 107.39,
+      "change": -2.01,
+      "changePercent": -1.84,
       "previousClose": 109.4,
       "asOf": "2026-11-16",
       "history": [
@@ -3436,7 +3436,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 107.76
+          "close": 107.39
         }
       ],
       "label": "AUD/JPY",
@@ -3705,7 +3705,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 107.76
+          "close": 107.39
         }
       ],
       "h6m": [
@@ -3819,7 +3819,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 107.76
+          "close": 107.39
         }
       ],
       "h3y": [
@@ -4453,15 +4453,15 @@
         },
         {
           "date": "2026-11-16",
-          "close": 107.76
+          "close": 107.39
         }
       ]
     }
   },
   "audusd": {
-    "value": 0.68,
+    "value": 0.67,
     "change": -0.02,
-    "changePercent": -2.3,
+    "changePercent": -2.59,
     "previousClose": 0.69,
     "asOf": "2026-11-16",
     "history": [
@@ -4551,7 +4551,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 0.68
+        "close": 0.67
       }
     ],
     "label": "AUD/USD",
@@ -4820,7 +4820,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 0.68
+        "close": 0.67
       }
     ],
     "h6m": [
@@ -4934,7 +4934,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 0.68
+        "close": 0.67
       }
     ],
     "h3y": [
@@ -5568,7 +5568,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 0.68
+        "close": 0.67
       }
     ]
   },
@@ -5766,9 +5766,9 @@
   },
   "energy": {
     "wti": {
-      "value": 89.11,
-      "change": -12.3,
-      "changePercent": -12.13,
+      "value": 85.06,
+      "change": -16.35,
+      "changePercent": -16.12,
       "previousClose": 101.41,
       "asOf": "2026-11-16",
       "history": [
@@ -5858,16 +5858,16 @@
         },
         {
           "date": "2026-11-16",
-          "close": 89.11
+          "close": 85.06
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 96.5,
-      "change": -13.36,
-      "changePercent": -12.16,
+      "value": 91.84,
+      "change": -18.02,
+      "changePercent": -16.4,
       "previousClose": 109.86,
       "asOf": "2026-11-16",
       "history": [
@@ -5957,7 +5957,7 @@
         },
         {
           "date": "2026-11-16",
-          "close": 96.5
+          "close": 91.84
         }
       ],
       "name": "Brent Crude",
@@ -5965,8 +5965,8 @@
     },
     "gas": {
       "value": 3.12,
-      "change": 0.01,
-      "changePercent": 0.26,
+      "change": 0,
+      "changePercent": 0.16,
       "previousClose": 3.12,
       "asOf": "2026-11-16",
       "history": [
@@ -6622,6 +6622,10 @@
           "close": 170.87
         },
         {
+          "date": "2026-11-15",
+          "close": 171.14
+        },
+        {
           "date": "2026-11-16",
           "close": 171.14
         }
@@ -6720,6 +6724,10 @@
         {
           "date": "2026-11-12",
           "close": 38.86
+        },
+        {
+          "date": "2026-11-15",
+          "close": 38.84
         },
         {
           "date": "2026-11-16",
@@ -6822,6 +6830,10 @@
           "close": 39.59
         },
         {
+          "date": "2026-11-15",
+          "close": 39.81
+        },
+        {
           "date": "2026-11-16",
           "close": 39.81
         }
@@ -6920,6 +6932,10 @@
         {
           "date": "2026-11-12",
           "close": 37.83
+        },
+        {
+          "date": "2026-11-15",
+          "close": 37.77
         },
         {
           "date": "2026-11-16",
@@ -7024,6 +7040,10 @@
           "close": 58.86
         },
         {
+          "date": "2026-11-15",
+          "close": 57.21
+        },
+        {
           "date": "2026-11-16",
           "close": 57.21
         }
@@ -7122,6 +7142,10 @@
         {
           "date": "2026-11-12",
           "close": 149.52
+        },
+        {
+          "date": "2026-11-15",
+          "close": 146.22
         },
         {
           "date": "2026-11-16",
@@ -7224,6 +7248,10 @@
           "close": 14.85
         },
         {
+          "date": "2026-11-15",
+          "close": 14.42
+        },
+        {
           "date": "2026-11-16",
           "close": 14.42
         }
@@ -7324,6 +7352,10 @@
           "close": 30.94
         },
         {
+          "date": "2026-11-15",
+          "close": 30.93
+        },
+        {
           "date": "2026-11-16",
           "close": 30.93
         }
@@ -7333,21 +7365,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3843.7,
-      "change": -337.4,
-      "changePercent": -8.07
+      "price": 3859,
+      "change": -322.1,
+      "changePercent": -7.7
     },
     {
       "name": "Silver",
-      "price": 47.27,
-      "change": -9.72,
-      "changePercent": -17.06
+      "price": 46.91,
+      "change": -10.09,
+      "changePercent": -17.69
     },
     {
       "name": "Copper",
-      "price": 6.03,
-      "change": -0.5,
-      "changePercent": -7.64
+      "price": 5.99,
+      "change": -0.55,
+      "changePercent": -8.35
     }
   ],
   "housing": {
@@ -7683,6 +7715,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to fall as Nvidia drives Wall Street sharply lower",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-fall-as-nvidia-drags-wall-street-lower-20261117-p61eor.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Nvidia led another sell-off in technology stocks and helped drag the US market lower.",
+      "pubDate": "Tue, 17 Nov 2026 08:17:14 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Forrestania grabs control of Zenith in WA gold power play",
       "link": "https://www.smh.com.au/business/companies/forrestania-grabs-control-of-zenith-in-wa-gold-power-play-20261116-p61eml.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Forrestania Resources has locked in a controlling 72.56 per cent stake in Zenith Minerals, closing its takeover offer and advancing its WA gold consolidation strategy.",
@@ -7690,7 +7729,14 @@
       "source": "SMH"
     },
     {
-      "title": "Property giant says it will consider replacing David Jones stores in Westfield malls",
+      "title": "Westpac’s rolling job cuts near 300 positions as banks swing axe",
+      "link": "https://www.smh.com.au/business/companies/westpac-s-rolling-job-cuts-near-300-positions-as-banks-swing-axe-20261117-p61ejd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The country’s oldest bank has not made a headline-grabbing announcement like its peers, but its cuts are adding up.",
+      "pubDate": "Tue, 17 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Westfield owner is scoping out replacements for David Jones",
       "link": "https://www.smh.com.au/business/companies/property-giant-says-it-will-look-to-replace-david-jones-stores-in-westfield-malls-20261116-p61ef1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The owner of Westfield shopping centres has ramped up pressure on David Jones administrators, who are meeting with creditors for the first time on Tuesday.",
       "pubDate": "Mon, 16 Nov 2026 17:03:14 +1100",
@@ -7704,17 +7750,10 @@
       "source": "SMH"
     },
     {
-      "title": "Aureka seals $8.9M deal to vault into Victorian gold production",
-      "link": "https://www.smh.com.au/business/companies/aureka-seals-8-9m-deal-to-vault-into-victorian-gold-production-20261116-p61ekx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aureka Limited has completed its $8.9M Victorian gold mine and mill acquisition, transforming into a producer with positive monthly free cash flow and spare processing capacity.",
-      "pubDate": "Mon, 16 Nov 2026 15:05:00 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "ClearVue cracks Singapore market with major solar win",
-      "link": "https://www.smh.com.au/business/companies/clearvue-cracks-singapore-market-with-major-solar-win-20261116-p61eji.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ClearVue Technologies has secured a subcontract worth up to A$859,800 to supply its solar power-generating cladding for a government building project in Singapore.",
-      "pubDate": "Mon, 16 Nov 2026 13:48:21 +1100",
+      "title": "Lowering barriers: how tech is empowering entrepreneurs",
+      "link": "https://www.smh.com.au/business/entrepreneurship/lowering-barriers-how-tech-is-empowering-entrepreneurs-20261117-p61d0k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "",
+      "pubDate": "Tue, 17 Nov 2026 07:21:37 +1100",
       "source": "SMH"
     },
     {
@@ -7732,38 +7771,31 @@
       "source": "SMH"
     },
     {
-      "title": "Dalaroo turns up voltage on Côte d’Ivoire gold hunt",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-turns-up-voltage-on-c-te-d-ivoire-gold-hunt-20261116-p61ej2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals has launched a major geophysical survey across a 7km gold corridor in Côte d’Ivoire, aiming to connect two high-grade gold discoveries.",
-      "pubDate": "Mon, 16 Nov 2026 13:12:38 +1100",
-      "source": "SMH"
+      "title": "Khawaja avoids sandpaper questions on first TV appearance since 7.30",
+      "link": "https://www.abc.net.au/news/2026-11-17/usman-khawaja-avoids-sandpaper-questions-in-tv-appearance/107393304",
+      "snippet": "",
+      "pubDate": "Mon, 16 Nov 2026 21:53:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Arrest over Melbourne Cup theft but trophies still missing",
+      "link": "https://www.abc.net.au/news/2026-11-17/vic-arrest-over-makybe-diva-trophy-theft/107393046",
+      "snippet": "",
+      "pubDate": "Mon, 16 Nov 2026 19:36:26 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Tasmania seeks more stadium money amid cost blowout concerns",
+      "link": "https://www.abc.net.au/news/2026-11-17/stadium-costings-hobart-macquarie-point-afl-blowout/107388988",
+      "snippet": "",
+      "pubDate": "Mon, 16 Nov 2026 18:36:03 +0000",
+      "source": "ABC"
     },
     {
       "title": "Racehorse So You Are dies of colic 13 days after running in Melbourne Cup",
       "link": "https://www.abc.net.au/news/2026-11-16/racehorse-so-you-are-dies-of-colic-13-days-after-melbourne-cup/107390932",
       "snippet": "",
       "pubDate": "Mon, 16 Nov 2026 04:18:32 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Can non-alcoholic beer really be used as a sports drink for athletes?",
-      "link": "https://www.abc.net.au/news/2026-11-16/non-alcoholic-beer-as-a-sports-recovery-drink/107379904",
-      "snippet": "",
-      "pubDate": "Mon, 16 Nov 2026 00:57:41 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Fowler headlines big-name Matildas returns for Colombia friendlies",
-      "link": "https://www.abc.net.au/news/2026-11-16/football-mary-fowler-returns-matildas-squad-colombia-friendlies/107389656",
-      "snippet": "",
-      "pubDate": "Mon, 16 Nov 2026 00:52:17 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Walsh 'disappointed' after seeing Aussie fans cheering against Kangaroos",
-      "link": "https://www.abc.net.au/news/2026-11-16/rugby-league-reece-walsh-disappointed-australian-fans-culture/107389222",
-      "snippet": "",
-      "pubDate": "Sun, 15 Nov 2026 22:59:09 +0000",
       "source": "ABC"
     }
   ]
