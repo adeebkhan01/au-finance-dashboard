@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-17T08:17:34.857Z",
+  "fetchedAt": "2026-11-17T21:11:44.341Z",
   "fx": {
     "audusd": {
       "value": 0.67,
       "change": -0.02,
-      "changePercent": -2.69,
+      "changePercent": -2.64,
       "previousClose": 0.69,
       "asOf": "2026-11-17",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -0.81,
+      "changePercent": -0.83,
       "previousClose": 0.62,
       "asOf": "2026-11-17",
       "history": [
@@ -2256,7 +2256,7 @@
     "audcny": {
       "value": 4.49,
       "change": -0.14,
-      "changePercent": -3.11,
+      "changePercent": -3.06,
       "previousClose": 4.63,
       "asOf": "2026-11-17",
       "history": [
@@ -3380,9 +3380,9 @@
       ]
     },
     "audjpy": {
-      "value": 107.18,
-      "change": -2.22,
-      "changePercent": -2.03,
+      "value": 107.29,
+      "change": -2.11,
+      "changePercent": -1.93,
       "previousClose": 109.4,
       "asOf": "2026-11-17",
       "history": [
@@ -3472,7 +3472,7 @@
         },
         {
           "date": "2026-11-17",
-          "close": 107.18
+          "close": 107.29
         }
       ],
       "label": "AUD/JPY",
@@ -3745,7 +3745,7 @@
         },
         {
           "date": "2026-11-17",
-          "close": 107.18
+          "close": 107.29
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-17",
-          "close": 107.18
+          "close": 107.29
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-11-17",
-          "close": 107.18
+          "close": 107.29
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.67,
     "change": -0.02,
-    "changePercent": -2.69,
+    "changePercent": -2.64,
     "previousClose": 0.69,
     "asOf": "2026-11-17",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 85.17,
-      "change": -16.24,
-      "changePercent": -16.01,
+      "value": 85.69,
+      "change": -15.72,
+      "changePercent": -15.5,
       "previousClose": 101.41,
       "asOf": "2026-11-17",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-11-17",
-          "close": 85.17
+          "close": 85.69
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.78,
-      "change": -18.08,
-      "changePercent": -16.46,
+      "value": 92.85,
+      "change": -17.01,
+      "changePercent": -15.48,
       "previousClose": 109.86,
       "asOf": "2026-11-17",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-11-17",
-          "close": 91.78
+          "close": 92.85
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.13,
-      "change": 0.01,
-      "changePercent": 0.29,
+      "value": 3.19,
+      "change": 0.08,
+      "changePercent": 2.44,
       "previousClose": 3.12,
       "asOf": "2026-11-17",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-11-17",
-          "close": 3.13
+          "close": 3.19
         }
       ],
       "name": "Natural Gas",
@@ -6682,6 +6682,10 @@
           "close": 171.14
         },
         {
+          "date": "2026-11-16",
+          "close": 170.44
+        },
+        {
           "date": "2026-11-17",
           "close": 170.44
         }
@@ -6780,6 +6784,10 @@
         {
           "date": "2026-11-15",
           "close": 38.84
+        },
+        {
+          "date": "2026-11-16",
+          "close": 37.77
         },
         {
           "date": "2026-11-17",
@@ -6882,6 +6890,10 @@
           "close": 39.81
         },
         {
+          "date": "2026-11-16",
+          "close": 39.49
+        },
+        {
           "date": "2026-11-17",
           "close": 39.49
         }
@@ -6980,6 +6992,10 @@
         {
           "date": "2026-11-15",
           "close": 37.77
+        },
+        {
+          "date": "2026-11-16",
+          "close": 37.23
         },
         {
           "date": "2026-11-17",
@@ -7084,6 +7100,10 @@
           "close": 57.21
         },
         {
+          "date": "2026-11-16",
+          "close": 54.38
+        },
+        {
           "date": "2026-11-17",
           "close": 54.38
         }
@@ -7182,6 +7202,10 @@
         {
           "date": "2026-11-15",
           "close": 146.22
+        },
+        {
+          "date": "2026-11-16",
+          "close": 143.21
         },
         {
           "date": "2026-11-17",
@@ -7284,6 +7308,10 @@
           "close": 14.42
         },
         {
+          "date": "2026-11-16",
+          "close": 13.62
+        },
+        {
           "date": "2026-11-17",
           "close": 13.62
         }
@@ -7384,6 +7412,10 @@
           "close": 30.93
         },
         {
+          "date": "2026-11-16",
+          "close": 30.44
+        },
+        {
           "date": "2026-11-17",
           "close": 30.44
         }
@@ -7393,21 +7425,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3869.7,
-      "change": -311.4,
-      "changePercent": -7.45
+      "price": 3852.6,
+      "change": -328.5,
+      "changePercent": -7.86
     },
     {
       "name": "Silver",
-      "price": 47.4,
-      "change": -9.6,
-      "changePercent": -16.84
+      "price": 47.22,
+      "change": -9.77,
+      "changePercent": -17.15
     },
     {
       "name": "Copper",
-      "price": 5.96,
-      "change": -0.57,
-      "changePercent": -8.77
+      "price": 5.98,
+      "change": -0.55,
+      "changePercent": -8.43
     }
   ],
   "housing": {
@@ -7757,6 +7789,13 @@
       "source": "SMH"
     },
     {
+      "title": "ASX eyes more losses as Wall Street falls; Nvidia results ahead",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-more-losses-as-wall-street-falls-nvidia-results-ahead-20261118-p61f2l.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "More manic swings for Nvidia and other stocks in the artificial-intelligence industry are dragging the US market downward.",
+      "pubDate": "Wed, 18 Nov 2026 05:12:13 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "How infamous fraudster Sam Bankman-Fried missed out on a $52 billion jackpot",
       "link": "https://www.smh.com.au/business/companies/how-infamous-fraudster-sam-bankman-fried-missed-out-on-a-52-billion-jackpot-20261117-p61eos.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The 34-year-old former billionaire tries not to think about all the “could-have-beens” but one has become difficult to ignore.",
@@ -7764,10 +7803,10 @@
       "source": "SMH"
     },
     {
-      "title": "Artemis, Red Metal take first crack at giant WA Nullarbor copper target",
-      "link": "https://www.smh.com.au/business/companies/artemis-red-metal-take-first-crack-at-giant-wa-nullarbor-copper-target-20261117-p61exl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Red Metal Ltd’s JV partner Artemis Resources has begun drilling the huge Sharon Dam copper-gold target, testing a 4 km-long anomaly buried deep below WA’s Nullarbor.",
-      "pubDate": "Tue, 17 Nov 2026 14:34:55 +1100",
+      "title": "Gender pay gap drops below 20 per cent, but women still fall short of the top job",
+      "link": "https://www.smh.com.au/business/workplace/gender-pay-gap-drops-below-20-per-cent-but-women-still-fall-short-of-the-top-job-20261118-p61etu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "For the first time, the gender pay gap has fallen below 20 per cent, but women occupy smaller shares of the workforce the higher up the chain they go.",
+      "pubDate": "Wed, 18 Nov 2026 00:01:00 +1100",
       "source": "SMH"
     },
     {
@@ -7778,17 +7817,17 @@
       "source": "SMH"
     },
     {
-      "title": "Bunnings axes 350 tech jobs in AI-driven push offshore",
-      "link": "https://www.smh.com.au/business/companies/bunnings-slashes-350-tech-jobs-offshoring-to-india-20261117-p61ey8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The hardware giant’s announcement is the latest in a wave of recent job cuts across corporate Australia.",
-      "pubDate": "Tue, 17 Nov 2026 15:10:16 +1100",
-      "source": "SMH"
+      "title": "So You Are owner outraged by treatment of dead horse's remains",
+      "link": "https://www.abc.net.au/news/2026-11-18/so-you-are-owner-outraged-by-treatment-of-remains/107397186",
+      "snippet": "",
+      "pubDate": "Tue, 17 Nov 2026 20:28:04 +0000",
+      "source": "ABC"
     },
     {
-      "title": "‘Good luck to police on this one’: What thieves could do with three stolen Melbourne Cups",
-      "link": "https://www.smh.com.au/business/consumer-affairs/good-luck-to-police-on-this-one-what-thieves-could-do-with-three-stolen-melbourne-cups-20261117-p61esf.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Experts say it would not take long for criminals looking to cash in on the theft to make the gold from the trophies “totally untraceable”.",
-      "pubDate": "Tue, 17 Nov 2026 14:43:25 +1100",
+      "title": "‘I made serious mistakes’: Jensen Huang opens up as he pushes for return to Nvidia",
+      "link": "https://www.smh.com.au/business/companies/i-own-my-mistakes-jensen-huang-pushes-for-return-to-nvidia-20261118-p61f2k.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The billionaire said he “would be honoured” to return to the company after his dramatic ouster last week following revelations of an extramarital affair with an alleged Chinese spy.",
+      "pubDate": "Wed, 18 Nov 2026 05:31:04 +1100",
       "source": "SMH"
     },
     {
@@ -7803,27 +7842,6 @@
       "link": "https://www.abc.net.au/news/2026-11-17/wallabies-in-danger-of-missing-big-three-target/107394674",
       "snippet": "",
       "pubDate": "Tue, 17 Nov 2026 03:16:59 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Khawaja avoids sandpaper questions on first TV appearance since 7.30",
-      "link": "https://www.abc.net.au/news/2026-11-17/usman-khawaja-avoids-sandpaper-questions-in-tv-appearance/107393304",
-      "snippet": "",
-      "pubDate": "Mon, 16 Nov 2026 21:53:26 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Arrest over Melbourne Cup theft but trophies still missing",
-      "link": "https://www.abc.net.au/news/2026-11-17/vic-arrest-over-makybe-diva-trophy-theft/107393046",
-      "snippet": "",
-      "pubDate": "Mon, 16 Nov 2026 19:36:26 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Tasmania seeks more stadium money amid cost blowout concerns",
-      "link": "https://www.abc.net.au/news/2026-11-17/stadium-costings-hobart-macquarie-point-afl-blowout/107388988",
-      "snippet": "",
-      "pubDate": "Mon, 16 Nov 2026 18:36:03 +0000",
       "source": "ABC"
     }
   ]
