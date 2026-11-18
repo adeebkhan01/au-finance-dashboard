@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-18T07:49:27.522Z",
+  "fetchedAt": "2026-11-18T20:47:24.254Z",
   "fx": {
     "audusd": {
       "value": 0.67,
       "change": -0.02,
-      "changePercent": -2.86,
+      "changePercent": -2.92,
       "previousClose": 0.69,
       "asOf": "2026-11-18",
       "history": [
@@ -1129,8 +1129,8 @@
     },
     "audeur": {
       "value": 0.61,
-      "change": 0,
-      "changePercent": -0.75,
+      "change": -0.01,
+      "changePercent": -0.83,
       "previousClose": 0.62,
       "asOf": "2026-11-18",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.46,
-      "change": -0.17,
-      "changePercent": -3.57,
+      "value": 4.47,
+      "change": -0.15,
+      "changePercent": -3.33,
       "previousClose": 4.63,
       "asOf": "2026-11-18",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 4.46
+          "close": 4.47
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 4.46
+          "close": 4.47
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 4.46
+          "close": 4.47
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-11-18",
-          "close": 4.46
+          "close": 4.47
         }
       ]
     },
     "audjpy": {
-      "value": 107,
-      "change": -2.4,
-      "changePercent": -2.19,
+      "value": 106.96,
+      "change": -2.44,
+      "changePercent": -2.23,
       "previousClose": 109.4,
       "asOf": "2026-11-18",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 107
+          "close": 106.96
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 107
+          "close": 106.96
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 107
+          "close": 106.97
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 107
+          "close": 106.97
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.67,
     "change": -0.02,
-    "changePercent": -2.86,
+    "changePercent": -2.92,
     "previousClose": 0.69,
     "asOf": "2026-11-18",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 84.15,
-      "change": -19.51,
-      "changePercent": -18.82,
+      "value": 82.05,
+      "change": -21.61,
+      "changePercent": -20.85,
       "previousClose": 103.66,
       "asOf": "2026-11-18",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-11-18",
-          "close": 84.15
+          "close": 82.05
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 91.88,
-      "change": -17.67,
-      "changePercent": -16.13,
+      "value": 88.89,
+      "change": -20.66,
+      "changePercent": -18.86,
       "previousClose": 109.55,
       "asOf": "2026-11-18",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-11-18",
-          "close": 91.88
+          "close": 88.89
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.19,
-      "change": 0.13,
-      "changePercent": 4.25,
+      "value": 3.4,
+      "change": 0.35,
+      "changePercent": 11.28,
       "previousClose": 3.06,
       "asOf": "2026-11-18",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-11-18",
-          "close": 3.19
+          "close": 3.4
         }
       ],
       "name": "Natural Gas",
@@ -6702,6 +6702,10 @@
           "close": 170.44
         },
         {
+          "date": "2026-11-17",
+          "close": 170.88
+        },
+        {
           "date": "2026-11-18",
           "close": 170.88
         }
@@ -6804,6 +6808,10 @@
         {
           "date": "2026-11-16",
           "close": 37.77
+        },
+        {
+          "date": "2026-11-17",
+          "close": 37.04
         },
         {
           "date": "2026-11-18",
@@ -6910,6 +6918,10 @@
           "close": 39.49
         },
         {
+          "date": "2026-11-17",
+          "close": 39.02
+        },
+        {
           "date": "2026-11-18",
           "close": 39.02
         }
@@ -7012,6 +7024,10 @@
         {
           "date": "2026-11-16",
           "close": 37.23
+        },
+        {
+          "date": "2026-11-17",
+          "close": 36.82
         },
         {
           "date": "2026-11-18",
@@ -7120,6 +7136,10 @@
           "close": 54.38
         },
         {
+          "date": "2026-11-17",
+          "close": 54.34
+        },
+        {
           "date": "2026-11-18",
           "close": 54.34
         }
@@ -7222,6 +7242,10 @@
         {
           "date": "2026-11-16",
           "close": 143.21
+        },
+        {
+          "date": "2026-11-17",
+          "close": 140.72
         },
         {
           "date": "2026-11-18",
@@ -7328,6 +7352,10 @@
           "close": 13.62
         },
         {
+          "date": "2026-11-17",
+          "close": 13.49
+        },
+        {
           "date": "2026-11-18",
           "close": 13.49
         }
@@ -7432,6 +7460,10 @@
           "close": 30.44
         },
         {
+          "date": "2026-11-17",
+          "close": 30.79
+        },
+        {
           "date": "2026-11-18",
           "close": 30.79
         }
@@ -7441,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3767.1,
-      "change": -393,
-      "changePercent": -9.45
+      "price": 3731.8,
+      "change": -428.3,
+      "changePercent": -10.3
     },
     {
       "name": "Silver",
-      "price": 45.76,
-      "change": -11.22,
-      "changePercent": -19.69
+      "price": 44.98,
+      "change": -11.99,
+      "changePercent": -21.05
     },
     {
       "name": "Copper",
-      "price": 5.8,
-      "change": -0.74,
-      "changePercent": -11.32
+      "price": 5.67,
+      "change": -0.87,
+      "changePercent": -13.31
     }
   ],
   "housing": {
@@ -7791,6 +7823,13 @@
   ],
   "news": [
     {
+      "title": "ASX set for more losses ahead of jobs data, Wall Street falls as Nvidia rally falters",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-more-losses-wall-street-falls-as-nvidia-rally-falters-20261119-p61fff.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street is zigzagging lower, as Nvidia and other stocks tied to artificial-intelligence technology keep swinging on uncertainty about how much strength is left in the AI boom.",
+      "pubDate": "Thu, 19 Nov 2026 05:17:31 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Broken Hill tees up QLD gold for $26.5M spin-off",
       "link": "https://www.smh.com.au/business/companies/broken-hill-tees-up-qld-gold-for-26-5m-spin-off-20261118-p61fcz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Broken Hill Gold is set to spin out of its Queensland gold assets into a new $26.5m float, Manda Resources, with a free share distribution to existing shareholders on the cards.",
@@ -7812,18 +7851,18 @@
       "source": "SMH"
     },
     {
-      "title": "Trump has no shortage of reasons to want Huang back at Nvidia",
-      "link": "https://www.smh.com.au/business/companies/trump-has-no-shortage-of-reasons-to-want-huang-back-at-nvidia-20261118-p61f5r.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Beyond seeding their empires with family members and allegedly being unfaithful to their wives, both men have a financial interest in the company.",
-      "pubDate": "Wed, 18 Nov 2026 15:45:00 +1100",
-      "source": "SMH"
+      "title": "Bancroft says 'whole team' knew about sandpaper in explosive claims",
+      "link": "https://www.abc.net.au/news/2026-11-18/cameron-bancroft-says-australian-players-knew-about-sandpaper/107401286",
+      "snippet": "",
+      "pubDate": "Wed, 18 Nov 2026 08:35:43 +0000",
+      "source": "ABC"
     },
     {
-      "title": "KPMG cuts 230 jobs as fallout from whistleblower scandal deepens",
-      "link": "https://www.smh.com.au/business/companies/kpmg-cuts-230-jobs-as-fallout-from-whistleblower-scandal-deepens-20261118-p61f8v.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A wave of big Australian white-collar employers are cutting jobs or sending them offshore, but KPMG faces particular problems.",
-      "pubDate": "Wed, 18 Nov 2026 14:54:48 +1100",
-      "source": "SMH"
+      "title": "England wins ODI series as Australia falters in chase after Duckett ton",
+      "link": "https://www.abc.net.au/news/2026-11-18/australia-vs-england-third-odi-hobart/107399944",
+      "snippet": "",
+      "pubDate": "Wed, 18 Nov 2026 07:57:37 +0000",
+      "source": "ABC"
     },
     {
       "title": "Sydney's Papley banned for three games after roadside drug test",
@@ -7851,27 +7890,6 @@
       "link": "https://www.abc.net.au/news/2026-11-18/thieves-steal-1948-caulfield-cup-from-caulfield-racecourse/107400050",
       "snippet": "",
       "pubDate": "Wed, 18 Nov 2026 04:53:53 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Rockliff says 'no surprise' if Hobart stadium cost exceeds $1.13b estimate",
-      "link": "https://www.abc.net.au/news/2026-11-18/hobart-macquarie-point-stadium-cost-public-next-week/107399172",
-      "snippet": "",
-      "pubDate": "Wed, 18 Nov 2026 04:00:02 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Warner wants Sandpapergate 'public inquiry' as CA announces safe-space forum",
-      "link": "https://www.abc.net.au/news/2026-11-18/cricket-australia-sandpapergate-khawaja-warner-greenberg/107398200",
-      "snippet": "",
-      "pubDate": "Wed, 18 Nov 2026 01:59:03 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Sandpaper-centric response to Khawaja's story shows Australia still growing",
-      "link": "https://www.abc.net.au/news/2026-11-18/cricket-usman-khawaja-sabr-not-about-sandpaper-analysis/107394852",
-      "snippet": "",
-      "pubDate": "Tue, 17 Nov 2026 22:15:37 +0000",
       "source": "ABC"
     }
   ]
