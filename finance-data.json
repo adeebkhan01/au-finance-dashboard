@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-19T07:44:54.204Z",
+  "fetchedAt": "2026-11-19T20:52:51.316Z",
   "fx": {
     "audusd": {
       "value": 0.67,
       "change": -0.03,
-      "changePercent": -3.82,
+      "changePercent": -4.39,
       "previousClose": 0.7,
       "asOf": "2026-11-19",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.01,
-      "changePercent": -1.66,
+      "changePercent": -2.25,
       "previousClose": 0.62,
       "asOf": "2026-11-19",
       "history": [
@@ -2262,9 +2262,9 @@
       ]
     },
     "audcny": {
-      "value": 4.45,
-      "change": -0.21,
-      "changePercent": -4.5,
+      "value": 4.44,
+      "change": -0.22,
+      "changePercent": -4.78,
       "previousClose": 4.66,
       "asOf": "2026-11-19",
       "history": [
@@ -2362,7 +2362,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 4.45
+          "close": 4.44
         }
       ],
       "label": "AUD/CNY",
@@ -2635,7 +2635,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 4.45
+          "close": 4.44
         }
       ],
       "h6m": [
@@ -2749,7 +2749,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 4.45
+          "close": 4.44
         }
       ],
       "h3y": [
@@ -3387,14 +3387,14 @@
         },
         {
           "date": "2026-11-19",
-          "close": 4.45
+          "close": 4.44
         }
       ]
     },
     "audjpy": {
-      "value": 107.06,
-      "change": -2.94,
-      "changePercent": -2.68,
+      "value": 106.4,
+      "change": -3.6,
+      "changePercent": -3.27,
       "previousClose": 110,
       "asOf": "2026-11-19",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 107.06
+          "close": 106.4
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 107.06
+          "close": 106.4
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 107.05
+          "close": 106.4
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 107.05
+          "close": 106.4
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.67,
     "change": -0.03,
-    "changePercent": -3.82,
+    "changePercent": -4.39,
     "previousClose": 0.7,
     "asOf": "2026-11-19",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 82.3,
-      "change": -21.36,
-      "changePercent": -20.61,
+      "value": 83.12,
+      "change": -20.54,
+      "changePercent": -19.81,
       "previousClose": 103.66,
       "asOf": "2026-11-19",
       "history": [
@@ -5946,16 +5946,16 @@
         },
         {
           "date": "2026-11-19",
-          "close": 82.3
+          "close": 83.12
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 89.37,
-      "change": -20.18,
-      "changePercent": -18.42,
+      "value": 89.98,
+      "change": -19.57,
+      "changePercent": -17.86,
       "previousClose": 109.55,
       "asOf": "2026-11-19",
       "history": [
@@ -6053,16 +6053,16 @@
         },
         {
           "date": "2026-11-19",
-          "close": 89.37
+          "close": 89.98
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.35,
-      "change": 0.29,
-      "changePercent": 9.55,
+      "value": 3.25,
+      "change": 0.2,
+      "changePercent": 6.41,
       "previousClose": 3.06,
       "asOf": "2026-11-19",
       "history": [
@@ -6160,7 +6160,7 @@
         },
         {
           "date": "2026-11-19",
-          "close": 3.35
+          "close": 3.25
         }
       ],
       "name": "Natural Gas",
@@ -6742,6 +6742,10 @@
           "close": 170.88
         },
         {
+          "date": "2026-11-18",
+          "close": 171.63
+        },
+        {
           "date": "2026-11-19",
           "close": 171.63
         }
@@ -6848,6 +6852,10 @@
         {
           "date": "2026-11-17",
           "close": 37.04
+        },
+        {
+          "date": "2026-11-18",
+          "close": 36.72
         },
         {
           "date": "2026-11-19",
@@ -6958,6 +6966,10 @@
           "close": 39.02
         },
         {
+          "date": "2026-11-18",
+          "close": 39
+        },
+        {
           "date": "2026-11-19",
           "close": 39
         }
@@ -7064,6 +7076,10 @@
         {
           "date": "2026-11-17",
           "close": 36.82
+        },
+        {
+          "date": "2026-11-18",
+          "close": 36.76
         },
         {
           "date": "2026-11-19",
@@ -7176,6 +7192,10 @@
           "close": 54.34
         },
         {
+          "date": "2026-11-18",
+          "close": 52.34
+        },
+        {
           "date": "2026-11-19",
           "close": 52.34
         }
@@ -7282,6 +7302,10 @@
         {
           "date": "2026-11-17",
           "close": 140.72
+        },
+        {
+          "date": "2026-11-18",
+          "close": 135
         },
         {
           "date": "2026-11-19",
@@ -7392,6 +7416,10 @@
           "close": 13.49
         },
         {
+          "date": "2026-11-18",
+          "close": 13.16
+        },
+        {
           "date": "2026-11-19",
           "close": 13.16
         }
@@ -7500,6 +7528,10 @@
           "close": 30.79
         },
         {
+          "date": "2026-11-18",
+          "close": 30.19
+        },
+        {
           "date": "2026-11-19",
           "close": 30.19
         }
@@ -7509,21 +7541,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3736.4,
-      "change": -423.7,
-      "changePercent": -10.18
+      "price": 3665.9,
+      "change": -494.2,
+      "changePercent": -11.88
     },
     {
       "name": "Silver",
-      "price": 45.32,
-      "change": -11.66,
-      "changePercent": -20.46
+      "price": 43.92,
+      "change": -13.05,
+      "changePercent": -22.91
     },
     {
       "name": "Copper",
-      "price": 5.67,
-      "change": -0.87,
-      "changePercent": -13.23
+      "price": 5.61,
+      "change": -0.92,
+      "changePercent": -14.13
     }
   ],
   "housing": {
@@ -7859,88 +7891,88 @@
   ],
   "news": [
     {
-      "title": "Could AI become the new subprime crisis? Anthropic investors are undeterred",
-      "link": "https://www.smh.com.au/business/markets/could-ai-become-the-new-subprime-crisis-anthropic-investors-are-undeterred-20261119-p61fhc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Investors are clamouring to get a piece of the Anthropic IPO, even as the world’s two most important central banks warn that AI could threaten global financial stability.",
-      "pubDate": "Thu, 19 Nov 2026 12:03:40 +1100",
+      "title": "ASX eyes more losses as Wall Street falls despite strong debut for Anthropic",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-more-losses-as-wall-street-falls-despite-strong-debut-for-anthropic-20261120-p61ft6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Anthropic’s positive debut on Wall Street was not enough to carry the rest of the stock market.",
+      "pubDate": "Fri, 20 Nov 2026 05:11:28 +1100",
       "source": "SMH"
     },
     {
-      "title": "Miners slump, weighing down ASX as unemployment hits five-year high",
-      "link": "https://www.smh.com.au/business/markets/asx-set-for-more-losses-wall-street-falls-as-nvidia-rally-falters-20261119-p61fff.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The market’s losing streak continued on Thursday, with the ASX wiping out the rest of this year’s gains as global AI anxiety weighed on the mining and tech sectors.",
-      "pubDate": "Thu, 19 Nov 2026 17:18:26 +1100",
+      "title": "‘Conflict of interest’: KPMG on both sides of NAB’s underpayment scandal",
+      "link": "https://www.smh.com.au/business/banking-and-finance/conflict-of-interest-kpmg-on-both-sides-of-nab-s-underpayment-scandal-20261120-p61eqs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The bank has refused to repay staff back to when its pay issues allegedly began in 2004, despite whistleblower complaints to a hotline run by the consultancy.",
+      "pubDate": "Fri, 20 Nov 2026 05:30:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Aurum keeps gold flowing from African drilling blitz",
-      "link": "https://www.smh.com.au/business/companies/aurum-keeps-gold-flowing-from-african-drilling-blitz-20261119-p61fmu.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Aurum Resources has stacked up yet more gold hits at its 3.84Moz Boundiali project in Côte d’Ivoire, with results extending the deposit’s depth potential across multiple stacked lodes.",
-      "pubDate": "Thu, 19 Nov 2026 13:18:17 +1100",
+      "title": "Lucky seven: Anthropic hits $3 trillion value in record Wall Street debut",
+      "link": "https://www.smh.com.au/business/markets/lucky-seven-anthropic-hits-3-trillion-value-in-record-wall-street-debut-20261120-p61ft7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Anthropic is less than five years old. It is now worth trillions of dollars after making its Wall Street debut and has made its co-founders insanely wealthy.",
+      "pubDate": "Fri, 20 Nov 2026 07:00:18 +1100",
       "source": "SMH"
     },
     {
-      "title": "‘It doesn’t get better than this’: Wall Street is about to mint thousands of instant millionaires",
+      "title": "‘It doesn’t get better than this’: Anthropic mints thousands of instant millionaires",
       "link": "https://www.smh.com.au/business/companies/it-doesn-t-get-better-than-this-wall-street-is-about-to-mint-thousands-of-instant-millionaires-20261119-p61fgo.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Anthropic is finally landing on Wall Street and it’s going to make a lot of employees – even those in entry-level jobs – very rich.",
-      "pubDate": "Thu, 19 Nov 2026 15:45:00 +1100",
+      "snippet": "Anthropic has finally landed on Wall Street and it made a lot of employees – even some of those in entry-level jobs – very rich.",
+      "pubDate": "Fri, 20 Nov 2026 05:34:18 +1100",
       "source": "SMH"
     },
     {
-      "title": "Dalaroo drills deep into high-grade African gold discovery",
-      "link": "https://www.smh.com.au/business/companies/dalaroo-drills-deep-at-high-grade-african-gold-discovery-20261119-p61fnx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Dalaroo Metals has fired up diamond drilling beneath its 18m at 7.31g/t gold discovery in Côte d’Ivoire, as drilling activities heat up across its project for a planned 20,000m campaign.",
-      "pubDate": "Thu, 19 Nov 2026 14:26:11 +1100",
+      "title": "Aussie has first-round lead in prestigious Tour Championship",
+      "link": "https://www.abc.net.au/news/2026-11-20/karis-davidson-leads-first-round-of-lpga-tour-championship/107407238",
+      "snippet": "",
+      "pubDate": "Thu, 19 Nov 2026 20:49:22 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "The growing factions and fractures behind the Sandpapergate saga",
+      "link": "https://www.abc.net.au/news/2026-11-20/cricket-cards-who-has-said-what-about-sandpapergate/107376348",
+      "snippet": "",
+      "pubDate": "Thu, 19 Nov 2026 20:44:08 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Matildas star Foord named best international player in Asia",
+      "link": "https://www.abc.net.au/news/2026-11-20/matildas-star-foord-named-best-international-player-in-asia/107407140",
+      "snippet": "",
+      "pubDate": "Thu, 19 Nov 2026 20:06:21 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Cummins's agent criticises 'hysteria' as sandpaper saga continues",
+      "link": "https://www.abc.net.au/news/2026-11-20/pat-cummins-agent-criticises-sandpaper-hysteria/107407092",
+      "snippet": "",
+      "pubDate": "Thu, 19 Nov 2026 19:45:55 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "What can I do about my colleagues’ excessive use of emojis at work?",
+      "link": "https://www.smh.com.au/business/workplace/what-can-i-do-about-my-colleagues-excessive-use-of-emojis-at-work-20261120-p61fmw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Putting aside my own biases, I went digging to find out what the science says about emoji use, especially in a professional setting.",
+      "pubDate": "Fri, 20 Nov 2026 05:06:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Springboks coach banned from match, sets up website for hotel watch-along",
-      "link": "https://www.abc.net.au/news/2026-11-19/springboks-coach-rassie-erasmus-watchalong-party-ireland/107399028",
-      "snippet": "",
-      "pubDate": "Thu, 19 Nov 2026 06:14:00 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "The context you need to understand Bancroft's version of Sandpapergate",
-      "link": "https://www.abc.net.au/news/2026-11-19/cameron-bancroft-sandpaper-breakdown/107403066",
-      "snippet": "",
-      "pubDate": "Thu, 19 Nov 2026 04:53:01 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Humble Ash Barty inducted into hall of fame",
-      "link": "https://www.abc.net.au/news/2026-11-19/ash-barty-to-be-inducted-into-international-tennis-hall-of-fame/107404446",
-      "snippet": "",
-      "pubDate": "Thu, 19 Nov 2026 04:23:50 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Amplia gets nod for new cancer drug trial ahead of US push",
-      "link": "https://www.smh.com.au/business/companies/amplia-gets-nod-for-new-cancer-drug-trial-ahead-of-us-push-20261119-p61fo7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Amplia Therapeutics has received ethics approval for its ACCENT-Mini pancreatic cancer trial, paving the way to test daily doses of its narmafotinib drug alongside chemotherapy.",
-      "pubDate": "Thu, 19 Nov 2026 14:44:31 +1100",
+      "title": "Is YouTube the future for the ABC?",
+      "link": "https://www.smh.com.au/business/companies/is-youtube-the-future-for-the-abc-20261120-p61fiy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The national broadcaster is expected to make a big push on the world’s biggest video platform.",
+      "pubDate": "Fri, 20 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Wallabies looking for attacking spark against Wales",
-      "link": "https://www.abc.net.au/news/2026-11-19/wallabies-looking-for-response-against-wales/107403808",
-      "snippet": "",
-      "pubDate": "Thu, 19 Nov 2026 02:48:00 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Bancroft says he is 'freed' as Cummins hits nets with captaincy in question",
-      "link": "https://www.abc.net.au/news/2026-11-19/cameron-bancroft-makes-first-statement-since-sandpaper-article/107403394",
-      "snippet": "",
-      "pubDate": "Thu, 19 Nov 2026 02:17:26 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "A massive tech outage at work isn’t a disaster – it’s a rare gift",
-      "link": "https://www.smh.com.au/business/workplace/a-massive-tech-outage-at-work-isn-t-a-disaster-it-s-a-rare-gift-20261119-p61flj.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "What should you do next time your screen goes blank? Here are four suggestions.",
-      "pubDate": "Thu, 19 Nov 2026 13:06:44 +1100",
+      "title": "Historic $50m Balmain shipyard up for grabs for first time in 50 years",
+      "link": "https://www.smh.com.au/business/small-business/historic-50m-balmain-shipyard-up-for-grabs-for-first-time-in-50-years-20261120-p61fmn.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Nine colourful historic buildings, the estate of the late David Ashton, are for sale for the first time in 50 years.",
+      "pubDate": "Fri, 20 Nov 2026 05:00:00 +1100",
       "source": "SMH"
+    },
+    {
+      "title": "FIFA unveils Diallo and Tashima as challengers to Infantino's presidency",
+      "link": "https://www.abc.net.au/news/2026-11-19/fifa-president-challenge-candidates-infantino-diallo-tashima/107406458",
+      "snippet": "",
+      "pubDate": "Thu, 19 Nov 2026 10:42:23 +0000",
+      "source": "ABC"
     }
   ]
 }
