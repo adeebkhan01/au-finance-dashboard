@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-21T19:38:03.739Z",
+  "fetchedAt": "2026-11-22T07:15:00.460Z",
   "fx": {
     "audusd": {
       "value": 0.66,
       "change": -0.04,
       "changePercent": -5.54,
       "previousClose": 0.7,
-      "asOf": "2026-11-21",
+      "asOf": "2026-11-22",
       "history": [
         {
           "date": "2026-10-20",
@@ -1132,7 +1132,7 @@
       "change": -0.02,
       "changePercent": -3.35,
       "previousClose": 0.62,
-      "asOf": "2026-11-21",
+      "asOf": "2026-11-22",
       "history": [
         {
           "date": "2026-10-20",
@@ -2246,11 +2246,11 @@
       ]
     },
     "audcny": {
-      "value": 4.41,
-      "change": -0.27,
-      "changePercent": -5.81,
+      "value": 4.42,
+      "change": -0.26,
+      "changePercent": -5.6,
       "previousClose": 4.68,
-      "asOf": "2026-11-21",
+      "asOf": "2026-11-22",
       "history": [
         {
           "date": "2026-10-20",
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-11-21",
-          "close": 4.41
+          "close": 4.42
         }
       ],
       "label": "AUD/CNY",
@@ -2619,7 +2619,7 @@
         },
         {
           "date": "2026-11-21",
-          "close": 4.41
+          "close": 4.42
         }
       ],
       "h6m": [
@@ -2733,7 +2733,7 @@
         },
         {
           "date": "2026-11-21",
-          "close": 4.41
+          "close": 4.42
         }
       ],
       "h3y": [
@@ -3367,7 +3367,7 @@
         },
         {
           "date": "2026-11-21",
-          "close": 4.41
+          "close": 4.42
         }
       ]
     },
@@ -3376,7 +3376,7 @@
       "change": -5.97,
       "changePercent": -5.38,
       "previousClose": 110.88,
-      "asOf": "2026-11-21",
+      "asOf": "2026-11-22",
       "history": [
         {
           "date": "2026-10-20",
@@ -4495,7 +4495,7 @@
     "change": -0.04,
     "changePercent": -5.54,
     "previousClose": 0.7,
-    "asOf": "2026-11-21",
+    "asOf": "2026-11-22",
     "history": [
       {
         "date": "2026-10-20",
@@ -5811,15 +5811,11 @@
   "energy": {
     "wti": {
       "value": 83.41,
-      "change": -13.74,
-      "changePercent": -14.14,
-      "previousClose": 97.15,
-      "asOf": "2026-11-21",
+      "change": -16.06,
+      "changePercent": -16.15,
+      "previousClose": 99.47,
+      "asOf": "2026-11-22",
       "history": [
-        {
-          "date": "2026-10-21",
-          "close": 97.15
-        },
         {
           "date": "2026-10-22",
           "close": 99.47
@@ -5906,7 +5902,7 @@
         },
         {
           "date": "2026-11-20",
-          "close": 83.98
+          "close": 83.41
         }
       ],
       "name": "WTI Crude",
@@ -5914,15 +5910,11 @@
     },
     "brent": {
       "value": 89.95,
-      "change": -18.87,
-      "changePercent": -17.34,
-      "previousClose": 108.82,
-      "asOf": "2026-11-21",
+      "change": -23.22,
+      "changePercent": -20.52,
+      "previousClose": 113.17,
+      "asOf": "2026-11-22",
       "history": [
-        {
-          "date": "2026-10-21",
-          "close": 108.82
-        },
         {
           "date": "2026-10-22",
           "close": 113.17
@@ -6009,7 +6001,7 @@
         },
         {
           "date": "2026-11-20",
-          "close": 92.57
+          "close": 89.95
         }
       ],
       "name": "Brent Crude",
@@ -6017,15 +6009,11 @@
     },
     "gas": {
       "value": 3.75,
-      "change": 0.96,
-      "changePercent": 34.34,
-      "previousClose": 2.79,
-      "asOf": "2026-11-21",
+      "change": 0.95,
+      "changePercent": 34.05,
+      "previousClose": 2.8,
+      "asOf": "2026-11-22",
       "history": [
-        {
-          "date": "2026-10-21",
-          "close": 2.79
-        },
         {
           "date": "2026-10-22",
           "close": 2.8
@@ -6112,7 +6100,7 @@
         },
         {
           "date": "2026-11-20",
-          "close": 3.41
+          "close": 3.75
         }
       ],
       "name": "Natural Gas",
@@ -6202,7 +6190,7 @@
     "change": -224.3,
     "changePercent": -2.54,
     "previousClose": 8816.9,
-    "asOf": "2026-11-21",
+    "asOf": "2026-11-22",
     "history": [
       {
         "date": "2026-10-19",
@@ -7498,20 +7486,20 @@
     {
       "name": "Gold",
       "price": 3515.4,
-      "change": -634.6,
-      "changePercent": -15.29
+      "change": -545,
+      "changePercent": -13.42
     },
     {
       "name": "Silver",
       "price": 41.07,
-      "change": -16.35,
-      "changePercent": -28.48
+      "change": -13.69,
+      "changePercent": -25.01
     },
     {
       "name": "Copper",
       "price": 5.49,
-      "change": -1.06,
-      "changePercent": -16.17
+      "change": -0.88,
+      "changePercent": -13.79
     }
   ],
   "housing": {
@@ -7854,13 +7842,6 @@
       "source": "SMH"
     },
     {
-      "title": "ASX Runners of the Week: Black Rock, Mayne Pharma &amp; Metal Hawk",
-      "link": "https://www.smh.com.au/business/companies/asx-runners-of-the-week-black-rock-mayne-pharma-and-metal-hawk-20261120-p61g1o.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Bulls N’ Bears ASX Runner of the Week is… Black Rock Mining, which soared after locking in funds to kick-start early works at its Mahenge graphite project in Tanzania.",
-      "pubDate": "Fri, 20 Nov 2026 17:07:02 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "A new fight for survival begins at David Jones",
       "link": "https://www.smh.com.au/business/companies/a-new-fight-for-survival-begins-at-david-jones-20261121-p61fkh.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The retailer’s collapse is expected to trigger massive losses for creditors, but an investigation into its failure could decide who loses their shirt.",
@@ -7882,6 +7863,13 @@
       "source": "SMH"
     },
     {
+      "title": "Piastri third, snaps at McLaren team, in Vegas GP with 352 overtakes",
+      "link": "https://www.abc.net.au/news/2026-11-22/f1-live-las-vegas-grand-prix-oscar-piastri/106998746",
+      "snippet": "",
+      "pubDate": "Sun, 22 Nov 2026 02:05:49 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Dateline taps Macquarie veteran to steer US mining push",
       "link": "https://www.smh.com.au/business/companies/dateline-taps-macquarie-veteran-to-steer-us-mining-push-20261120-p61g29.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Dateline Resources has appointed former Macquarie mining dealmaker Tony Ferguson as acting chairman, securing an experienced hand to steer its growing US gold and critical minerals ambitions.",
@@ -7896,38 +7884,38 @@
       "source": "SMH"
     },
     {
-      "title": "Live: Struggling Wallabies face resurgent Wales",
-      "link": "https://www.abc.net.au/news/2026-11-22/wallabies-wales-nations-championship-rugby-test-live-blog/107413660",
+      "title": "India breaks New Zealand Test record with monster innings in Wellington",
+      "link": "https://www.abc.net.au/news/2026-11-22/cricket-india-highest-test-score-against-new-zealand/107414256",
       "snippet": "",
-      "pubDate": "Sat, 21 Nov 2026 19:28:45 +0000",
+      "pubDate": "Sun, 22 Nov 2026 06:12:37 +0000",
       "source": "ABC"
     },
     {
-      "title": "Lehmann denies knowledge of sandpaper plot despite Bancroft statement",
-      "link": "https://www.abc.net.au/news/2026-11-21/cricket-lehmann-responds-bancroft-australia-sandpaper-drama/107412988",
+      "title": "Fake websites, GTA 6 scams: What you shouldn’t click on this Black Friday",
+      "link": "https://www.smh.com.au/business/consumer-affairs/fake-websites-gta-6-scams-what-you-shouldn-t-click-on-this-black-friday-20261122-p61fqs.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Black Friday is all about getting a good deal – but shoppers could find themselves fleeced by convincing-looking shopfronts instead.",
+      "pubDate": "Sun, 22 Nov 2026 15:57:54 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Wallabies still have a pulse despite nervous moments in win over Wales",
+      "link": "https://www.abc.net.au/news/2026-11-22/wallabies-australia-wales-rugby-nations-championship-test/107414310",
       "snippet": "",
-      "pubDate": "Sat, 21 Nov 2026 08:03:56 +0000",
+      "pubDate": "Sun, 22 Nov 2026 04:14:59 +0000",
       "source": "ABC"
     },
     {
-      "title": "Aussie bowlers no longer in control of public perception of legacies",
-      "link": "https://www.abc.net.au/news/2026-11-21/cricket-australian-bowlers-legacy-no-longer-under-control/107412932",
+      "title": "Alcaraz digs deep to beat Shelton and reach ATP Finals decider",
+      "link": "https://www.abc.net.au/news/2026-11-22/alcaraz-digs-deep-to-beat-shelton-and-reach-atp-finals-decider/107413742",
       "snippet": "",
-      "pubDate": "Sat, 21 Nov 2026 06:46:52 +0000",
+      "pubDate": "Sat, 21 Nov 2026 21:17:45 +0000",
       "source": "ABC"
     },
     {
-      "title": "Roos head to fourth straight final after booking decider against Melbourne",
-      "link": "https://www.abc.net.au/news/2026-11-21/aflw-preliminary-finals-kangaroos-swans-demons-blues-results/107412906",
+      "title": "England thrash All Blacks after Moody faces haka with team",
+      "link": "https://www.abc.net.au/news/2026-11-22/england-beat-nz-all-blacks-former-skipper-lewis-moody-haka-mnd/107413688",
       "snippet": "",
-      "pubDate": "Sat, 21 Nov 2026 05:08:16 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Khawaja and Warner taken off commentary as CA backs Cummins' captaincy",
-      "link": "https://www.abc.net.au/news/2026-11-21/cricket-australia-pat-cummins-captaincy-sandpaper-ball-tampering/107412194",
-      "snippet": "",
-      "pubDate": "Sat, 21 Nov 2026 03:04:37 +0000",
+      "pubDate": "Sat, 21 Nov 2026 20:20:58 +0000",
       "source": "ABC"
     }
   ]
