@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-24T10:13:51.961Z",
+  "fetchedAt": "2026-11-24T22:40:03.160Z",
   "fx": {
     "audusd": {
       "value": 0.66,
       "change": -0.04,
-      "changePercent": -5.5,
+      "changePercent": -5.38,
       "previousClose": 0.7,
       "asOf": "2026-11-24",
       "history": [
@@ -1130,7 +1130,7 @@
     "audeur": {
       "value": 0.61,
       "change": -0.02,
-      "changePercent": -3.09,
+      "changePercent": -3.23,
       "previousClose": 0.63,
       "asOf": "2026-11-24",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.41,
-      "change": -0.28,
-      "changePercent": -6.03,
+      "value": 4.42,
+      "change": -0.26,
+      "changePercent": -5.63,
       "previousClose": 4.69,
       "asOf": "2026-11-24",
       "history": [
@@ -2346,7 +2346,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 4.41
+          "close": 4.42
         }
       ],
       "label": "AUD/CNY",
@@ -2619,7 +2619,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 4.41
+          "close": 4.42
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 4.41
+          "close": 4.42
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-11-24",
-          "close": 4.41
+          "close": 4.42
         }
       ]
     },
     "audjpy": {
-      "value": 105.79,
-      "change": -4.06,
-      "changePercent": -3.7,
+      "value": 105.73,
+      "change": -4.12,
+      "changePercent": -3.75,
       "previousClose": 109.85,
       "asOf": "2026-11-24",
       "history": [
@@ -3472,7 +3472,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 105.79
+          "close": 105.73
         }
       ],
       "label": "AUD/JPY",
@@ -3745,7 +3745,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 105.79
+          "close": 105.73
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 105.79
+          "close": 105.73
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 105.79
+          "close": 105.73
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.66,
     "change": -0.04,
-    "changePercent": -5.5,
+    "changePercent": -5.38,
     "previousClose": 0.7,
     "asOf": "2026-11-24",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 80.13,
-      "change": -23.14,
-      "changePercent": -22.41,
+      "value": 81.69,
+      "change": -21.58,
+      "changePercent": -20.9,
       "previousClose": 103.27,
       "asOf": "2026-11-24",
       "history": [
@@ -5918,16 +5918,16 @@
         },
         {
           "date": "2026-11-24",
-          "close": 80.13
+          "close": 81.69
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 86.76,
-      "change": -29.96,
-      "changePercent": -25.67,
+      "value": 88.5,
+      "change": -28.22,
+      "changePercent": -24.18,
       "previousClose": 116.72,
       "asOf": "2026-11-24",
       "history": [
@@ -6017,16 +6017,16 @@
         },
         {
           "date": "2026-11-24",
-          "close": 86.76
+          "close": 88.5
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.61,
-      "change": 0.96,
-      "changePercent": 36.55,
+      "value": 3.67,
+      "change": 1.03,
+      "changePercent": 39.02,
       "previousClose": 2.64,
       "asOf": "2026-11-24",
       "history": [
@@ -6116,7 +6116,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 3.61
+          "close": 3.67
         }
       ],
       "name": "Natural Gas",
@@ -6682,6 +6682,10 @@
           "close": 166.15
         },
         {
+          "date": "2026-11-23",
+          "close": 169.18
+        },
+        {
           "date": "2026-11-24",
           "close": 169.18
         }
@@ -6780,6 +6784,10 @@
         {
           "date": "2026-11-22",
           "close": 36.03
+        },
+        {
+          "date": "2026-11-23",
+          "close": 36.64
         },
         {
           "date": "2026-11-24",
@@ -6882,6 +6890,10 @@
           "close": 37.94
         },
         {
+          "date": "2026-11-23",
+          "close": 38.67
+        },
+        {
           "date": "2026-11-24",
           "close": 38.67
         }
@@ -6980,6 +6992,10 @@
         {
           "date": "2026-11-22",
           "close": 35.26
+        },
+        {
+          "date": "2026-11-23",
+          "close": 35.9
         },
         {
           "date": "2026-11-24",
@@ -7084,6 +7100,10 @@
           "close": 52.52
         },
         {
+          "date": "2026-11-23",
+          "close": 53.23
+        },
+        {
           "date": "2026-11-24",
           "close": 53.23
         }
@@ -7182,6 +7202,10 @@
         {
           "date": "2026-11-22",
           "close": 136.9
+        },
+        {
+          "date": "2026-11-23",
+          "close": 137.84
         },
         {
           "date": "2026-11-24",
@@ -7284,6 +7308,10 @@
           "close": 13.42
         },
         {
+          "date": "2026-11-23",
+          "close": 13.68
+        },
+        {
           "date": "2026-11-24",
           "close": 13.68
         }
@@ -7384,6 +7412,10 @@
           "close": 29.48
         },
         {
+          "date": "2026-11-23",
+          "close": 29.5
+        },
+        {
           "date": "2026-11-24",
           "close": 29.5
         }
@@ -7393,21 +7425,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3619.4,
-      "change": -388.5,
-      "changePercent": -9.69
+      "price": 3555.1,
+      "change": -452.8,
+      "changePercent": -11.3
     },
     {
       "name": "Silver",
-      "price": 41.76,
-      "change": -11.96,
-      "changePercent": -22.26
+      "price": 40.71,
+      "change": -13,
+      "changePercent": -24.21
     },
     {
       "name": "Copper",
-      "price": 5.53,
-      "change": -0.94,
-      "changePercent": -14.55
+      "price": 5.48,
+      "change": -0.99,
+      "changePercent": -15.32
     }
   ],
   "housing": {
@@ -7743,6 +7775,13 @@
   ],
   "news": [
     {
+      "title": "ASX set to slip ahead of inflation data as Wall Street falls; Anthropic tumbles below IPO price, Nvidia slumps",
+      "link": "https://www.smh.com.au/business/markets/asx-set-to-slip-as-tech-stocks-weigh-down-wall-street-nvidia-anthropic-tumble-20261125-p61gze.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Stocks tied to the artificial intelligence industry dragged the US market lower after their surge from the day before quickly fizzled.",
+      "pubDate": "Wed, 25 Nov 2026 08:45:57 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "ASX rallies after Wall Street roars higher on Huang’s shock return to Nvidia",
       "link": "https://www.smh.com.au/business/markets/asx-to-jump-as-wall-street-roars-higher-after-jensen-huang-s-shock-return-to-nvidia-20261124-p61gnl.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "The Australian sharemarket surged on Tuesday after a thunderous rally on Wall Street following the surprise return of Jensen Huang as Nvidia’s CEO.",
@@ -7750,24 +7789,52 @@
       "source": "SMH"
     },
     {
-      "title": "BRS interview supercharges 2GB ratings",
-      "link": "https://www.smh.com.au/business/companies/brs-interview-supercharges-2gb-ratings-20261124-p61gpm.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "A heavily promoted interview with alleged war criminal Ben Roberts-Smith has helped drive 2GB back to the top of Sydney’s radio market, as sister station 3AW maintained its lead in Melbourne.",
-      "pubDate": "Tue, 24 Nov 2026 11:58:41 +1100",
+      "title": "Players and umpires unite against Super Netball rule changes",
+      "link": "https://www.abc.net.au/news/2026-11-25/players-and-umpires-oppose-super-netball-rule-changes/107423222",
+      "snippet": "",
+      "pubDate": "Tue, 24 Nov 2026 22:18:23 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "England crushes Australia to level T20 series in Gold Coast massacre",
+      "link": "https://www.abc.net.au/news/2026-11-24/australia-vs-england-second-t20i-on-the-gold-coast/107421294",
+      "snippet": "",
+      "pubDate": "Tue, 24 Nov 2026 10:17:31 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘Made terrible mistakes’: Jensen Huang apologises to staff, says he is in therapy",
+      "link": "https://www.smh.com.au/business/companies/jensen-huang-admitted-to-more-affairs-before-return-report-20261125-p61h04.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Wall Street Journal reported Huang admitted to Nvidia’s board before his return that he had engaged in more than two extramarital affairs. It comes as Huang apologised to staff in a livestream and pushed back on Trump’s role in his reinstatement.",
+      "pubDate": "Wed, 25 Nov 2026 09:25:56 +1100",
       "source": "SMH"
     },
     {
-      "title": "ABC to shut free-to-air channel to fund ‘premium’ drama, kids and comedy programming",
-      "link": "https://www.smh.com.au/business/companies/abc-to-shut-free-to-air-channel-to-fund-premium-drama-kids-and-comedy-programming-20261124-p61gu9.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "ABC boss Hugh Marks has unveiled changes he hopes will save the broadcaster $50 million, allowing it to reinvest in premium programming and live broadcasts.",
-      "pubDate": "Tue, 24 Nov 2026 16:30:20 +1100",
-      "source": "SMH"
+      "title": "Indian teen wonder breaks List A record with 200 from 52 balls",
+      "link": "https://www.abc.net.au/news/2026-11-25/indian-teen-vaibhav-sooryavanshi-breaks-list-a-record/107423990",
+      "snippet": "",
+      "pubDate": "Tue, 24 Nov 2026 22:22:31 +0000",
+      "source": "ABC"
     },
     {
-      "title": "Murky business: Batting for Jensen Huang’s return could backfire on Trump",
-      "link": "https://www.smh.com.au/business/companies/murky-business-batting-for-jensen-huang-s-return-could-backfire-on-trump-20261124-p61gov.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Donald Trump intervened to return Nvidia’s disgraced chief executive to his former role. That could come back to haunt him, Nvidia and investors.",
-      "pubDate": "Tue, 24 Nov 2026 12:01:56 +1100",
+      "title": "Senegal reinstated as African champions after appeal",
+      "link": "https://www.abc.net.au/news/2026-11-25/senegal-reinstated-as-african-champions-morocco-afcon/107423820",
+      "snippet": "",
+      "pubDate": "Tue, 24 Nov 2026 21:31:33 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Jannik Sinner set to miss Australian Open",
+      "link": "https://www.abc.net.au/news/2026-11-25/jannik-sinner-australian-open-2027-injuries/107423672",
+      "snippet": "",
+      "pubDate": "Tue, 24 Nov 2026 20:04:59 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Everyone is talking rubbish on the key to our standard of living",
+      "link": "https://www.smh.com.au/business/the-economy/everyone-is-talking-rubbish-on-the-key-to-our-standard-of-living-20261125-p61gsp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Many ordinary people think improving productivity means producing more goods and services by working harder. It doesn’t.",
+      "pubDate": "Wed, 25 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7789,41 +7856,6 @@
       "link": "https://www.smh.com.au/business/companies/accelerate-uncovers-53-7-percent-manganese-as-wa-targets-pile-up-20261124-p61gx2.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Accelerate Resources has uncovered rock chips grading up to 53.7% manganese at its Woodie Woodie North project in WA, adding new targets along a prospective 12km corridor.",
       "pubDate": "Tue, 24 Nov 2026 16:31:19 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Hobart's new $1.23 billion stadium price tag explained",
-      "link": "https://www.abc.net.au/news/2026-11-24/hobart-macquarie-point-stadium-cost-explainer/107421430",
-      "snippet": "",
-      "pubDate": "Tue, 24 Nov 2026 05:02:20 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Munster calls Storm contract offer 'disappointing'",
-      "link": "https://www.abc.net.au/news/2026-11-24/cameron-munster-calls-melbourne-offer-disappointing/107421688",
-      "snippet": "",
-      "pubDate": "Tue, 24 Nov 2026 03:55:05 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Cameron Smith keen on PGA return following LIV collapse",
-      "link": "https://www.abc.net.au/news/2026-11-24/cameron-smith-pga-liv-golf-australia/107420594",
-      "snippet": "",
-      "pubDate": "Tue, 24 Nov 2026 01:29:15 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Hobart's stadium and precinct costs rise to $1.54b",
-      "link": "https://www.abc.net.au/news/2026-11-24/cost-of-hobart-macquarie-point-stadium-rises/107417074",
-      "snippet": "",
-      "pubDate": "Mon, 23 Nov 2026 21:31:14 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "‘Young people cross-subsidise older people’: Health insurance battle revs up",
-      "link": "https://www.smh.com.au/business/consumer-affairs/young-people-cross-subsidise-older-people-health-insurance-battle-revs-up-20261124-p61giw.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Former NIB boss says private health insurance is still great value for older generations, even if the government rebate falls.",
-      "pubDate": "Tue, 24 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     }
   ]
