@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-25T08:57:52.198Z",
+  "fetchedAt": "2026-11-25T21:54:33.389Z",
   "fx": {
     "audusd": {
       "value": 0.66,
       "change": -0.04,
-      "changePercent": -6.34,
+      "changePercent": -5.56,
       "previousClose": 0.7,
       "asOf": "2026-11-25",
       "history": [
@@ -1129,8 +1129,8 @@
     },
     "audeur": {
       "value": 0.6,
-      "change": -0.03,
-      "changePercent": -4.01,
+      "change": -0.02,
+      "changePercent": -3.5,
       "previousClose": 0.63,
       "asOf": "2026-11-25",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.39,
-      "change": -0.3,
-      "changePercent": -6.4,
+      "value": 4.42,
+      "change": -0.26,
+      "changePercent": -5.64,
       "previousClose": 4.69,
       "asOf": "2026-11-25",
       "history": [
@@ -2350,7 +2350,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 4.39
+          "close": 4.42
         }
       ],
       "label": "AUD/CNY",
@@ -2623,7 +2623,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 4.39
+          "close": 4.42
         }
       ],
       "h6m": [
@@ -2737,7 +2737,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 4.39
+          "close": 4.42
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-11-25",
-          "close": 4.39
+          "close": 4.42
         }
       ]
     },
     "audjpy": {
-      "value": 104.75,
-      "change": -5.1,
-      "changePercent": -4.64,
+      "value": 105.51,
+      "change": -4.34,
+      "changePercent": -3.95,
       "previousClose": 109.85,
       "asOf": "2026-11-25",
       "history": [
@@ -3476,7 +3476,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 104.75
+          "close": 105.51
         }
       ],
       "label": "AUD/JPY",
@@ -3749,7 +3749,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 104.75
+          "close": 105.51
         }
       ],
       "h6m": [
@@ -3863,7 +3863,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 104.75
+          "close": 105.51
         }
       ],
       "h3y": [
@@ -4501,7 +4501,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 104.75
+          "close": 105.51
         }
       ]
     }
@@ -4509,7 +4509,7 @@
   "audusd": {
     "value": 0.66,
     "change": -0.04,
-    "changePercent": -6.34,
+    "changePercent": -5.56,
     "previousClose": 0.7,
     "asOf": "2026-11-25",
     "history": [
@@ -5826,9 +5826,9 @@
   },
   "energy": {
     "wti": {
-      "value": 81,
-      "change": -20.76,
-      "changePercent": -20.4,
+      "value": 84.1,
+      "change": -17.66,
+      "changePercent": -17.35,
       "previousClose": 101.76,
       "asOf": "2026-11-25",
       "history": [
@@ -5922,16 +5922,16 @@
         },
         {
           "date": "2026-11-25",
-          "close": 81
+          "close": 84.1
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 87.88,
-      "change": -27.93,
-      "changePercent": -24.12,
+      "value": 90.81,
+      "change": -25,
+      "changePercent": -21.59,
       "previousClose": 115.81,
       "asOf": "2026-11-25",
       "history": [
@@ -6025,16 +6025,16 @@
         },
         {
           "date": "2026-11-25",
-          "close": 87.88
+          "close": 90.81
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.62,
-      "change": 1.02,
-      "changePercent": 39.05,
+      "value": 3.68,
+      "change": 1.08,
+      "changePercent": 41.39,
       "previousClose": 2.6,
       "asOf": "2026-11-25",
       "history": [
@@ -6128,7 +6128,7 @@
         },
         {
           "date": "2026-11-25",
-          "close": 3.62
+          "close": 3.68
         }
       ],
       "name": "Natural Gas",
@@ -6702,6 +6702,10 @@
           "close": 169.18
         },
         {
+          "date": "2026-11-24",
+          "close": 169.66
+        },
+        {
           "date": "2026-11-25",
           "close": 169.66
         }
@@ -6804,6 +6808,10 @@
         {
           "date": "2026-11-23",
           "close": 36.64
+        },
+        {
+          "date": "2026-11-24",
+          "close": 36.38
         },
         {
           "date": "2026-11-25",
@@ -6910,6 +6918,10 @@
           "close": 38.67
         },
         {
+          "date": "2026-11-24",
+          "close": 38.57
+        },
+        {
           "date": "2026-11-25",
           "close": 38.57
         }
@@ -7012,6 +7024,10 @@
         {
           "date": "2026-11-23",
           "close": 35.9
+        },
+        {
+          "date": "2026-11-24",
+          "close": 35.6
         },
         {
           "date": "2026-11-25",
@@ -7120,6 +7136,10 @@
           "close": 53.23
         },
         {
+          "date": "2026-11-24",
+          "close": 52.22
+        },
+        {
           "date": "2026-11-25",
           "close": 52.22
         }
@@ -7222,6 +7242,10 @@
         {
           "date": "2026-11-23",
           "close": 137.84
+        },
+        {
+          "date": "2026-11-24",
+          "close": 135.03
         },
         {
           "date": "2026-11-25",
@@ -7328,6 +7352,10 @@
           "close": 13.68
         },
         {
+          "date": "2026-11-24",
+          "close": 13.33
+        },
+        {
           "date": "2026-11-25",
           "close": 13.33
         }
@@ -7432,6 +7460,10 @@
           "close": 29.5
         },
         {
+          "date": "2026-11-24",
+          "close": 29.83
+        },
+        {
           "date": "2026-11-25",
           "close": 29.83
         }
@@ -7441,21 +7473,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3563,
-      "change": -475.4,
-      "changePercent": -11.77
+      "price": 3604.5,
+      "change": -433.9,
+      "changePercent": -10.74
     },
     {
       "name": "Silver",
-      "price": 40.69,
-      "change": -13.42,
-      "changePercent": -24.81
+      "price": 41.41,
+      "change": -12.7,
+      "changePercent": -23.47
     },
     {
       "name": "Copper",
-      "price": 5.43,
-      "change": -1.08,
-      "changePercent": -16.64
+      "price": 5.48,
+      "change": -1.03,
+      "changePercent": -15.84
     }
   ],
   "housing": {
@@ -7791,17 +7823,17 @@
   ],
   "news": [
     {
-      "title": "Sharemarket slips as high inflation hinders rate cut bets",
-      "link": "https://www.smh.com.au/business/markets/asx-set-to-slip-as-tech-stocks-weigh-down-wall-street-nvidia-anthropic-tumble-20261125-p61gze.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Inflation figures forced traders to delay their forecasts for interest rate cuts despite the economy floundering.",
-      "pubDate": "Wed, 25 Nov 2026 10:56:37 +1100",
-      "source": "SMH"
-    },
-    {
       "title": "‘Only going to get worse’: Harvey Norman foot traffic, profit plunges",
       "link": "https://www.smh.com.au/business/companies/harvey-norman-profits-plunge-as-aussies-cut-back-on-big-ticket-purchases-20261125-p61h3w.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Whitegoods sellers and furniture retailers are among the first to bear the brunt of tighter household budgets in the cost-of-living crisis.",
       "pubDate": "Wed, 25 Nov 2026 15:58:44 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "ASX eyes gains, Wall Street slumps as AI stocks sink",
+      "link": "https://www.smh.com.au/business/markets/asx-eyes-gains-wall-street-slumps-as-ai-stocks-sink-20261126-p61hd5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Wall Street lost ground under the weight of falling AI stocks as the enthusiasm over the return of Jensen Huang to Nvidia fades further.",
+      "pubDate": "Thu, 26 Nov 2026 05:17:09 +1100",
       "source": "SMH"
     },
     {
@@ -7819,6 +7851,13 @@
       "source": "SMH"
     },
     {
+      "title": "Star quarterback Rodgers released after stunning tirade against coach",
+      "link": "https://www.abc.net.au/news/2026-11-26/nfl-aaron-rodgers-released-after-mike-mccarthy-tirade/107428264",
+      "snippet": "",
+      "pubDate": "Wed, 25 Nov 2026 21:05:37 +0000",
+      "source": "ABC"
+    },
+    {
       "title": "Forrestania inks major 5.6Mt WA gold ore processing deal",
       "link": "https://www.smh.com.au/business/companies/forrestania-inks-major-5-6mt-wa-gold-ore-processing-deal-20261125-p61h8z.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Forrestania Resources has secured a processing deal for up to 5.6 million tonnes of gold ore from Javelin Minerals’ WA projects for its Edna May and Lake Johnston hubs.",
@@ -7826,18 +7865,39 @@
       "source": "SMH"
     },
     {
-      "title": "Golden Dragon hits 27g/t gold as WA discovery deepens",
-      "link": "https://www.smh.com.au/business/companies/golden-dragon-hits-27g-t-gold-as-wa-discovery-deepens-20261125-p61h82.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Golden Dragon Mining has struck a high-grade gold shoot at its WA Coodardy prospect, with 4m at 7.84g/t gold, including 1m at 27 g/t, confirming the system continues at depth.",
-      "pubDate": "Wed, 25 Nov 2026 14:01:42 +1100",
+      "title": "‘Quasi-legal nonsense’: Judge scolds Uber driver’s AI spiral",
+      "link": "https://www.smh.com.au/business/workplace/quasi-legal-nonsense-judge-scolds-uber-driver-s-ai-spiral-20261126-p61h7f.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Uber driver continued to rely on AI in his legal pursuit to get his job back, despite AI having failed him at earlier attempts to be reinstated.",
+      "pubDate": "Thu, 26 Nov 2026 08:45:55 +1100",
       "source": "SMH"
     },
     {
-      "title": "Players and umpires unite against Super Netball rule changes",
-      "link": "https://www.abc.net.au/news/2026-11-25/players-and-umpires-oppose-super-netball-rule-changes/107423222",
+      "title": "Renegades WBBL player bowled without facing a ball",
+      "link": "https://www.abc.net.au/news/2026-11-26/wbbl-deandra-dottin-melbourne-renegades-bowled/107428262",
       "snippet": "",
-      "pubDate": "Tue, 24 Nov 2026 22:18:23 +0000",
+      "pubDate": "Wed, 25 Nov 2026 21:34:37 +0000",
       "source": "ABC"
+    },
+    {
+      "title": "'All-time' Langer spray shut down ball tampering after Sandpapergate",
+      "link": "https://www.abc.net.au/news/2026-11-26/justin-langer-sandpaper-usman-khawaja-pat-cummins/107428088",
+      "snippet": "",
+      "pubDate": "Wed, 25 Nov 2026 20:09:22 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "‘It was our baby’: General Pants isn’t the same trend-setting denim store its founders built",
+      "link": "https://www.smh.com.au/business/entrepreneurship/it-was-our-baby-general-pants-isn-t-the-same-trend-setting-denim-store-its-founders-built-20261126-p61gks.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "It’s been more than three decades since General Pants founder Tom Tsipris sold the business that collapsed last week.",
+      "pubDate": "Thu, 26 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Elon Musk’s Tesla turns to friendly robots to save its Australian chairwoman",
+      "link": "https://www.smh.com.au/business/companies/elon-musk-s-tesla-turns-to-friendly-robots-to-save-its-australian-chairwoman-20261126-p61gxc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Robyn Denholm has become perhaps the most senior Australian in the global technology industry and a billionaire through her close alliance with Elon Musk.",
+      "pubDate": "Thu, 26 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
     },
     {
       "title": "NSW hold on for epic draw against Queensland",
@@ -7845,34 +7905,6 @@
       "snippet": "",
       "pubDate": "Wed, 25 Nov 2026 08:07:57 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Khawaja says he offered Sandpapergate peace proposal",
-      "link": "https://www.abc.net.au/news/2026-11-25/usman-khawaja-offers-sandpapergate-peace-proposal/107426926",
-      "snippet": "",
-      "pubDate": "Wed, 25 Nov 2026 06:27:06 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Matildas keeper reveals career-threatening health scare",
-      "link": "https://www.abc.net.au/news/2026-11-25/matildas-goalkeeper-teagan-micah-health-scare/107425882",
-      "snippet": "",
-      "pubDate": "Wed, 25 Nov 2026 04:13:36 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Ireland lose skipper for Wallabies clash while Suaalii relishing centre role",
-      "link": "https://www.abc.net.au/news/2026-11-25/ireland-skipper-out-of-wallabies-clash-through-suspension/107425640",
-      "snippet": "",
-      "pubDate": "Wed, 25 Nov 2026 03:31:53 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "‘Made terrible mistakes’: Jensen Huang apologises to staff, says he is in therapy",
-      "link": "https://www.smh.com.au/business/companies/jensen-huang-admitted-to-more-affairs-before-return-report-20261125-p61h04.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The Wall Street Journal reported Huang admitted to Nvidia’s board before his return that he had engaged in more than two extramarital affairs. It comes as Huang apologised to staff in a livestream and pushed back on Trump’s role in his reinstatement.",
-      "pubDate": "Wed, 25 Nov 2026 09:25:56 +1100",
-      "source": "SMH"
     }
   ]
 }
