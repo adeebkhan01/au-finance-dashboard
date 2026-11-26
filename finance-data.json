@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-26T08:44:18.329Z",
+  "fetchedAt": "2026-11-26T21:48:13.857Z",
   "fx": {
     "audusd": {
       "value": 0.66,
       "change": -0.04,
-      "changePercent": -5.56,
+      "changePercent": -5.59,
       "previousClose": 0.7,
       "asOf": "2026-11-26",
       "history": [
@@ -1134,7 +1134,7 @@
     "audeur": {
       "value": 0.6,
       "change": -0.02,
-      "changePercent": -3.48,
+      "changePercent": -3.5,
       "previousClose": 0.63,
       "asOf": "2026-11-26",
       "history": [
@@ -2263,8 +2263,8 @@
     },
     "audcny": {
       "value": 4.42,
-      "change": -0.28,
-      "changePercent": -5.89,
+      "change": -0.27,
+      "changePercent": -5.81,
       "previousClose": 4.69,
       "asOf": "2026-11-26",
       "history": [
@@ -3392,9 +3392,9 @@
       ]
     },
     "audjpy": {
-      "value": 105.63,
-      "change": -4.61,
-      "changePercent": -4.18,
+      "value": 105.67,
+      "change": -4.57,
+      "changePercent": -4.15,
       "previousClose": 110.24,
       "asOf": "2026-11-26",
       "history": [
@@ -3492,7 +3492,7 @@
         },
         {
           "date": "2026-11-26",
-          "close": 105.63
+          "close": 105.67
         }
       ],
       "label": "AUD/JPY",
@@ -3765,7 +3765,7 @@
         },
         {
           "date": "2026-11-26",
-          "close": 105.63
+          "close": 105.67
         }
       ],
       "h6m": [
@@ -3879,7 +3879,7 @@
         },
         {
           "date": "2026-11-26",
-          "close": 105.64
+          "close": 105.67
         }
       ],
       "h3y": [
@@ -4517,7 +4517,7 @@
         },
         {
           "date": "2026-11-26",
-          "close": 105.64
+          "close": 105.67
         }
       ]
     }
@@ -4525,7 +4525,7 @@
   "audusd": {
     "value": 0.66,
     "change": -0.04,
-    "changePercent": -5.56,
+    "changePercent": -5.59,
     "previousClose": 0.7,
     "asOf": "2026-11-26",
     "history": [
@@ -5846,9 +5846,9 @@
   },
   "energy": {
     "wti": {
-      "value": 84.03,
-      "change": -17.73,
-      "changePercent": -17.42,
+      "value": 84.91,
+      "change": -16.85,
+      "changePercent": -16.56,
       "previousClose": 101.76,
       "asOf": "2026-11-26",
       "history": [
@@ -5946,16 +5946,16 @@
         },
         {
           "date": "2026-11-26",
-          "close": 84.03
+          "close": 84.91
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 90.69,
-      "change": -25.12,
-      "changePercent": -21.69,
+      "value": 91.73,
+      "change": -24.08,
+      "changePercent": -20.79,
       "previousClose": 115.81,
       "asOf": "2026-11-26",
       "history": [
@@ -6053,16 +6053,16 @@
         },
         {
           "date": "2026-11-26",
-          "close": 90.69
+          "close": 91.73
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.62,
-      "change": 1.01,
-      "changePercent": 38.97,
+      "value": 3.6,
+      "change": 1,
+      "changePercent": 38.32,
       "previousClose": 2.6,
       "asOf": "2026-11-26",
       "history": [
@@ -6160,7 +6160,7 @@
         },
         {
           "date": "2026-11-26",
-          "close": 3.62
+          "close": 3.6
         }
       ],
       "name": "Natural Gas",
@@ -6742,6 +6742,10 @@
           "close": 169.66
         },
         {
+          "date": "2026-11-25",
+          "close": 169.99
+        },
+        {
           "date": "2026-11-26",
           "close": 169.99
         }
@@ -6848,6 +6852,10 @@
         {
           "date": "2026-11-24",
           "close": 36.38
+        },
+        {
+          "date": "2026-11-25",
+          "close": 36.24
         },
         {
           "date": "2026-11-26",
@@ -6958,6 +6966,10 @@
           "close": 38.57
         },
         {
+          "date": "2026-11-25",
+          "close": 38.81
+        },
+        {
           "date": "2026-11-26",
           "close": 38.81
         }
@@ -7064,6 +7076,10 @@
         {
           "date": "2026-11-24",
           "close": 35.6
+        },
+        {
+          "date": "2026-11-25",
+          "close": 35.72
         },
         {
           "date": "2026-11-26",
@@ -7176,6 +7192,10 @@
           "close": 52.22
         },
         {
+          "date": "2026-11-25",
+          "close": 53.99
+        },
+        {
           "date": "2026-11-26",
           "close": 53.99
         }
@@ -7282,6 +7302,10 @@
         {
           "date": "2026-11-24",
           "close": 135.03
+        },
+        {
+          "date": "2026-11-25",
+          "close": 139.79
         },
         {
           "date": "2026-11-26",
@@ -7392,6 +7416,10 @@
           "close": 13.33
         },
         {
+          "date": "2026-11-25",
+          "close": 13.85
+        },
+        {
           "date": "2026-11-26",
           "close": 13.85
         }
@@ -7500,6 +7528,10 @@
           "close": 29.83
         },
         {
+          "date": "2026-11-25",
+          "close": 30.8
+        },
+        {
           "date": "2026-11-26",
           "close": 30.8
         }
@@ -7509,21 +7541,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3593.5,
-      "change": -444.9,
+      "price": 3593.4,
+      "change": -445,
       "changePercent": -11.02
     },
     {
       "name": "Silver",
-      "price": 41.61,
-      "change": -12.5,
-      "changePercent": -23.1
+      "price": 41.75,
+      "change": -12.36,
+      "changePercent": -22.84
     },
     {
       "name": "Copper",
-      "price": 5.46,
-      "change": -1.04,
-      "changePercent": -16.03
+      "price": 5.43,
+      "change": -1.07,
+      "changePercent": -16.51
     }
   ],
   "housing": {
@@ -7859,31 +7891,38 @@
   ],
   "news": [
     {
-      "title": "Australian Gold and Copper turns up heat with NSW multi-metal hits",
-      "link": "https://www.smh.com.au/business/companies/australian-gold-and-copper-turns-up-heat-with-nsw-multi-metal-hits-20261126-p61hkq.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Australian Gold and Copper has hit a stunning 15m intersection grading 4.0g/t gold and 129g/t silver at its Evergreen project in NSW’s prolific Cobar Basin.",
-      "pubDate": "Thu, 26 Nov 2026 13:14:24 +1100",
+      "title": "ASX set for gains, global stocks rise; Oil prices climb",
+      "link": "https://www.smh.com.au/business/markets/asx-set-for-gains-global-stocks-rise-20261127-p61hqd.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The Australian sharemarket is set for a positiver start to the session as global stocks advanced overnight. Wall Street was closed for Thanksgiving.",
+      "pubDate": "Fri, 27 Nov 2026 05:25:51 +1100",
       "source": "SMH"
+    },
+    {
+      "title": "There’s a number the RBA has been hiding. Here’s why",
+      "link": "https://www.smh.com.au/business/the-economy/there-s-a-number-the-rba-has-been-hiding-here-s-why-20261127-p61gkt.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "RBA governor Michele Bullock said she “couldn’t give an exact number”: it wasn’t about where the bank thinks interest rates will go...or at least not directly so.",
+      "pubDate": "Fri, 27 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Gold china, Maine lobster and a billionaire host: Inside Joe Aston’s fourth trip to Trump’s Mar-a-Lago",
+      "link": "https://www.smh.com.au/business/companies/radio-national-has-a-radio-problem-enter-podcasts-20261127-p61hf6.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "In On Background this week, it’s the “last days of Versailles” at Trump’s Florida palace while ABC’s Radio National has a big “radio” problem.",
+      "pubDate": "Fri, 27 Nov 2026 05:00:00 +1100",
+      "source": "SMH"
+    },
+    {
+      "title": "Opinions split ahead of Supercars move to MotoGP track",
+      "link": "https://www.abc.net.au/news/2026-11-27/adelaide-supercars-last-event-before-move-to-motogp-track/107424684",
+      "snippet": "",
+      "pubDate": "Thu, 26 Nov 2026 20:48:06 +0000",
+      "source": "ABC"
     },
     {
       "title": "‘Rightful share’: Heiress takes billionaire father to court as family feud heats up",
       "link": "https://www.smh.com.au/business/consumer-affairs/rightful-share-heiress-takes-billionaire-father-to-court-as-family-feud-heats-up-20261126-p61hd8.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Lakshmi Venu has just escalated the fight over wealth at one of India’s oldest business dynasties.",
       "pubDate": "Thu, 26 Nov 2026 19:30:00 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Broken Hill Gold swoops on two historic SA goldfields",
-      "link": "https://www.smh.com.au/business/companies/broken-hill-gold-swoops-on-two-historic-sa-goldfields-20261126-p61hmk.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Broken Hill Gold has doubled its South Australian tenure, picking up two historic high-grade goldfields that have seen little to no modern exploration for at least 30 years",
-      "pubDate": "Thu, 26 Nov 2026 15:09:25 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Auric beefs up gold inventory ahead of WA Munda mine restart",
-      "link": "https://www.smh.com.au/business/companies/auric-beefs-up-gold-inventory-ahead-of-wa-munda-mine-restart-20261126-p61hlx.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Auric Mining has struck high-grade gold at its Munda project in WA, with 9m at 7.05g/t near surface and uncovered 56% improved grades below its planned open pit.",
-      "pubDate": "Thu, 26 Nov 2026 14:32:15 +1100",
       "source": "SMH"
     },
     {
@@ -7894,17 +7933,24 @@
       "source": "ABC"
     },
     {
-      "title": "These seven jobs don’t exist. By 2050, they’ll have millions of workers",
-      "link": "https://www.smh.com.au/business/workplace/these-seven-jobs-don-t-exist-by-2050-they-ll-have-millions-of-workers-20261126-p61hij.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "While specifics are difficult to pin down, there are global megatrends sweeping through society that show the directions we’re heading in.",
-      "pubDate": "Thu, 26 Nov 2026 12:45:52 +1100",
+      "title": "The remarkable journey behind one of oldest Wallabies debutants",
+      "link": "https://www.abc.net.au/news/2026-11-27/james-ramm-wallabies-debut-28-rugby-union/107433270",
+      "snippet": "",
+      "pubDate": "Thu, 26 Nov 2026 20:33:12 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Macca’s opens controversial Northcote store, buys Alphington site for $8.1m",
+      "link": "https://www.smh.com.au/business/companies/macca-s-opens-controversial-northcote-store-buys-alphington-site-for-8-1m-20261127-p61hji.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "Maccas has already made its next move in Melbourne’s inner-north, buying a site in Alphington.",
+      "pubDate": "Fri, 27 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
-      "title": "Horizon jags 42m gold zone as WA ounces grow",
-      "link": "https://www.smh.com.au/business/companies/horizon-jags-42m-gold-zone-as-wa-ounces-grow-20261126-p61hjz.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Horizon Gold has delivered a raft of high-grade gold hits at its Gum Creek project in WA, with multiple intersections extending mineralisation beyond its 2.3Moz resource.",
-      "pubDate": "Thu, 26 Nov 2026 12:41:01 +1100",
+      "title": "Old Bonds factory hits the market again after Bathla collapse",
+      "link": "https://www.smh.com.au/business/small-business/old-bonds-factory-hits-the-market-again-after-bathla-collapse-20261127-p61hk5.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "The large site in Pendle Hill was purchased by Bathla in July 2025 for $76 million from the previous owner which also went under.",
+      "pubDate": "Fri, 27 Nov 2026 05:00:00 +1100",
       "source": "SMH"
     },
     {
@@ -7926,20 +7972,6 @@
       "link": "https://www.abc.net.au/news/2026-11-26/kurtley-beale-back-in-wallabies-gold-for-ireland-test/107429998",
       "snippet": "",
       "pubDate": "Thu, 26 Nov 2026 02:35:47 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "David Jones’ former bosses ‘didn’t have the balls’ to make tough calls, says CEO",
-      "link": "https://www.smh.com.au/business/companies/david-jones-former-bosses-didn-t-have-the-balls-to-make-tough-calls-says-ceo-20261126-p61hgg.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "As the luxury department store’s future hangs in the balance, Erica Berchtold made a thinly veiled swipe at its previous managers and insisted she still has a plan.",
-      "pubDate": "Thu, 26 Nov 2026 12:22:09 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Sydney Swans player has driving charge dismissed by judge",
-      "link": "https://www.abc.net.au/news/2026-11-26/sydney-swans-tom-papley-driving-while-suspended-dismissed/107429248",
-      "snippet": "",
-      "pubDate": "Thu, 26 Nov 2026 00:42:06 +0000",
       "source": "ABC"
     }
   ]
