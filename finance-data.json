@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-27T08:55:07.795Z",
+  "fetchedAt": "2026-11-27T21:30:56.370Z",
   "fx": {
     "audusd": {
       "value": 0.67,
-      "change": -0.03,
-      "changePercent": -4.86,
+      "change": -0.04,
+      "changePercent": -5.26,
       "previousClose": 0.7,
       "asOf": "2026-11-27",
       "history": [
@@ -102,7 +102,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 0.67
+          "close": 0.66
         }
       ],
       "label": "AUD/USD",
@@ -375,7 +375,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 0.67
+          "close": 0.66
         }
       ],
       "h6m": [
@@ -489,7 +489,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 0.67
+          "close": 0.66
         }
       ],
       "h3y": [
@@ -1123,14 +1123,14 @@
         },
         {
           "date": "2026-11-27",
-          "close": 0.67
+          "close": 0.66
         }
       ]
     },
     "audeur": {
       "value": 0.61,
       "change": -0.02,
-      "changePercent": -3.1,
+      "changePercent": -3.25,
       "previousClose": 0.63,
       "asOf": "2026-11-27",
       "history": [
@@ -2254,9 +2254,9 @@
       ]
     },
     "audcny": {
-      "value": 4.43,
-      "change": -0.25,
-      "changePercent": -5.44,
+      "value": 4.42,
+      "change": -0.26,
+      "changePercent": -5.54,
       "previousClose": 4.68,
       "asOf": "2026-11-27",
       "history": [
@@ -2354,7 +2354,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 4.43
+          "close": 4.42
         }
       ],
       "label": "AUD/CNY",
@@ -2627,7 +2627,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 4.43
+          "close": 4.42
         }
       ],
       "h6m": [
@@ -2741,7 +2741,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 4.43
+          "close": 4.42
         }
       ],
       "h3y": [
@@ -3375,14 +3375,14 @@
         },
         {
           "date": "2026-11-27",
-          "close": 4.43
+          "close": 4.42
         }
       ]
     },
     "audjpy": {
-      "value": 106.41,
-      "change": -4.16,
-      "changePercent": -3.76,
+      "value": 106.06,
+      "change": -4.51,
+      "changePercent": -4.08,
       "previousClose": 110.57,
       "asOf": "2026-11-27",
       "history": [
@@ -3480,7 +3480,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 106.41
+          "close": 106.06
         }
       ],
       "label": "AUD/JPY",
@@ -3753,7 +3753,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 106.41
+          "close": 106.06
         }
       ],
       "h6m": [
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 106.41
+          "close": 106.06
         }
       ],
       "h3y": [
@@ -4501,15 +4501,15 @@
         },
         {
           "date": "2026-11-27",
-          "close": 106.41
+          "close": 106.06
         }
       ]
     }
   },
   "audusd": {
     "value": 0.67,
-    "change": -0.03,
-    "changePercent": -4.86,
+    "change": -0.04,
+    "changePercent": -5.26,
     "previousClose": 0.7,
     "asOf": "2026-11-27",
     "history": [
@@ -4607,7 +4607,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 0.67
+        "close": 0.66
       }
     ],
     "label": "AUD/USD",
@@ -4880,7 +4880,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 0.67
+        "close": 0.66
       }
     ],
     "h6m": [
@@ -4994,7 +4994,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 0.67
+        "close": 0.66
       }
     ],
     "h3y": [
@@ -5628,7 +5628,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 0.67
+        "close": 0.66
       }
     ]
   },
@@ -5826,20 +5826,12 @@
   },
   "energy": {
     "wti": {
-      "value": 85.65,
-      "change": -16.11,
-      "changePercent": -15.83,
-      "previousClose": 101.76,
+      "value": 83.08,
+      "change": -19.7,
+      "changePercent": -19.17,
+      "previousClose": 102.78,
       "asOf": "2026-11-27",
       "history": [
-        {
-          "date": "2026-10-26",
-          "close": 101.76
-        },
-        {
-          "date": "2026-10-27",
-          "close": 99.9
-        },
         {
           "date": "2026-10-28",
           "close": 102.78
@@ -5926,27 +5918,19 @@
         },
         {
           "date": "2026-11-27",
-          "close": 85.65
+          "close": 83.08
         }
       ],
       "name": "WTI Crude",
       "unit": "USD/bbl"
     },
     "brent": {
-      "value": 92.3,
-      "change": -23.51,
-      "changePercent": -20.3,
-      "previousClose": 115.81,
+      "value": 90.84,
+      "change": -24.48,
+      "changePercent": -21.23,
+      "previousClose": 115.32,
       "asOf": "2026-11-27",
       "history": [
-        {
-          "date": "2026-10-26",
-          "close": 115.81
-        },
-        {
-          "date": "2026-10-27",
-          "close": 113.88
-        },
         {
           "date": "2026-10-28",
           "close": 115.32
@@ -6033,27 +6017,19 @@
         },
         {
           "date": "2026-11-27",
-          "close": 92.3
+          "close": 90.84
         }
       ],
       "name": "Brent Crude",
       "unit": "USD/bbl"
     },
     "gas": {
-      "value": 3.59,
-      "change": 0.99,
-      "changePercent": 37.93,
-      "previousClose": 2.6,
+      "value": 3.49,
+      "change": 0.67,
+      "changePercent": 23.93,
+      "previousClose": 2.82,
       "asOf": "2026-11-27",
       "history": [
-        {
-          "date": "2026-10-26",
-          "close": 2.6
-        },
-        {
-          "date": "2026-10-27",
-          "close": 2.7
-        },
         {
           "date": "2026-10-28",
           "close": 2.82
@@ -6140,7 +6116,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 3.59
+          "close": 3.49
         }
       ],
       "name": "Natural Gas",
@@ -6722,6 +6698,10 @@
           "close": 169.99
         },
         {
+          "date": "2026-11-26",
+          "close": 169.29
+        },
+        {
           "date": "2026-11-27",
           "close": 169.29
         }
@@ -6828,6 +6808,10 @@
         {
           "date": "2026-11-25",
           "close": 36.24
+        },
+        {
+          "date": "2026-11-26",
+          "close": 36.33
         },
         {
           "date": "2026-11-27",
@@ -6938,6 +6922,10 @@
           "close": 38.81
         },
         {
+          "date": "2026-11-26",
+          "close": 38.98
+        },
+        {
           "date": "2026-11-27",
           "close": 38.98
         }
@@ -7044,6 +7032,10 @@
         {
           "date": "2026-11-25",
           "close": 35.72
+        },
+        {
+          "date": "2026-11-26",
+          "close": 35.74
         },
         {
           "date": "2026-11-27",
@@ -7156,6 +7148,10 @@
           "close": 53.99
         },
         {
+          "date": "2026-11-26",
+          "close": 55.06
+        },
+        {
           "date": "2026-11-27",
           "close": 55.06
         }
@@ -7262,6 +7258,10 @@
         {
           "date": "2026-11-25",
           "close": 139.79
+        },
+        {
+          "date": "2026-11-26",
+          "close": 141.88
         },
         {
           "date": "2026-11-27",
@@ -7372,6 +7372,10 @@
           "close": 13.85
         },
         {
+          "date": "2026-11-26",
+          "close": 14.11
+        },
+        {
           "date": "2026-11-27",
           "close": 14.11
         }
@@ -7480,6 +7484,10 @@
           "close": 30.8
         },
         {
+          "date": "2026-11-26",
+          "close": 31.34
+        },
+        {
           "date": "2026-11-27",
           "close": 31.34
         }
@@ -7489,21 +7497,21 @@
   "commodities": [
     {
       "name": "Gold",
-      "price": 3704.9,
-      "change": -333.5,
-      "changePercent": -8.26
+      "price": 3668.5,
+      "change": -383.1,
+      "changePercent": -9.46
     },
     {
       "name": "Silver",
-      "price": 44.64,
-      "change": -9.47,
-      "changePercent": -17.51
+      "price": 43.7,
+      "change": -9.76,
+      "changePercent": -18.25
     },
     {
       "name": "Copper",
-      "price": 5.7,
-      "change": -0.81,
-      "changePercent": -12.44
+      "price": 5.6,
+      "change": -1.04,
+      "changePercent": -15.67
     }
   ],
   "housing": {
@@ -7881,17 +7889,31 @@
       "source": "SMH"
     },
     {
-      "title": "Results of independent Sandpapergate forum to be made public",
-      "link": "https://www.abc.net.au/news/2026-11-27/sandpapergate-independent-forum-results-to-be-made-public/107433870",
+      "title": "MotoGP world champion Marquez announces shock retirement",
+      "link": "https://www.abc.net.au/news/2026-11-28/motogp-world-champion-marc-marquez-announces-shock-retirement/107437638",
       "snippet": "",
-      "pubDate": "Thu, 26 Nov 2026 23:35:10 +0000",
+      "pubDate": "Fri, 27 Nov 2026 19:38:11 +0000",
       "source": "ABC"
     },
     {
-      "title": "Opinions split ahead of Supercars move to MotoGP track",
-      "link": "https://www.abc.net.au/news/2026-11-27/adelaide-supercars-last-event-before-move-to-motogp-track/107424684",
+      "title": "Live: Wallabies on back foot against Ireland in Nations Championship Test",
+      "link": "https://www.abc.net.au/news/2026-11-28/wallabies-vs-ireland-nations-championship-live-blog-updates/107437612",
       "snippet": "",
-      "pubDate": "Thu, 26 Nov 2026 20:48:06 +0000",
+      "pubDate": "Fri, 27 Nov 2026 19:27:01 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Roos are 'finally able to say' the words they have refused all season",
+      "link": "https://www.abc.net.au/news/2026-11-28/north-melbourne-wins-third-premiership/107437178",
+      "snippet": "",
+      "pubDate": "Fri, 27 Nov 2026 19:20:25 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Australia 'have to be better,' humbled by England at rain-soaked Gabba",
+      "link": "https://www.abc.net.au/news/2026-11-27/australia-vs-england-3rd-t20i-at-the-gabba/107435858",
+      "snippet": "",
+      "pubDate": "Fri, 27 Nov 2026 10:05:50 +0000",
       "source": "ABC"
     },
     {
@@ -7907,20 +7929,6 @@
       "snippet": "Barkly Rare Earths has unveiled a five-fold resource increase at its namesake NT project to 205Mt of rare earths material, including 140,000 tonnes of high-value magnet rare earths.",
       "pubDate": "Fri, 27 Nov 2026 14:17:42 +1100",
       "source": "SMH"
-    },
-    {
-      "title": "Media regulator raps ABC over ‘Jew’ answer in Hard Quiz episode",
-      "link": "https://www.smh.com.au/business/companies/media-regulator-raps-abc-over-jew-answer-in-hard-quiz-episode-20261127-p61hv1.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "The media regulator investigated an episode of Hard Quiz over a question relating to The Social Network, a biopic about Mark Zuckerberg.",
-      "pubDate": "Fri, 27 Nov 2026 13:52:18 +1100",
-      "source": "SMH"
-    },
-    {
-      "title": "Lyon's career in limbo as he faces Test axe",
-      "link": "https://www.abc.net.au/news/2026-11-27/lyons-career-in-limbo-as-he-faces-test-axe/107434874",
-      "snippet": "",
-      "pubDate": "Fri, 27 Nov 2026 02:28:12 +0000",
-      "source": "ABC"
     }
   ]
 }
