@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-27T21:30:56.370Z",
+  "fetchedAt": "2026-11-28T08:15:21.599Z",
   "fx": {
     "audusd": {
       "value": 0.67,
       "change": -0.04,
-      "changePercent": -5.26,
+      "changePercent": -5.24,
       "previousClose": 0.7,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-27",
@@ -103,16 +103,16 @@
         {
           "date": "2026-11-27",
           "close": 0.66
+        },
+        {
+          "date": "2026-11-28",
+          "close": 0.67
         }
       ],
       "label": "AUD/USD",
       "symbol": "AUDUSD=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-08-26",
-          "close": 0.72
-        },
         {
           "date": "2026-08-27",
           "close": 0.72
@@ -376,6 +376,10 @@
         {
           "date": "2026-11-27",
           "close": 0.66
+        },
+        {
+          "date": "2026-11-28",
+          "close": 0.67
         }
       ],
       "h6m": [
@@ -488,8 +492,8 @@
           "close": 0.66
         },
         {
-          "date": "2026-11-27",
-          "close": 0.66
+          "date": "2026-11-28",
+          "close": 0.67
         }
       ],
       "h3y": [
@@ -1122,8 +1126,8 @@
           "close": 0.66
         },
         {
-          "date": "2026-11-27",
-          "close": 0.66
+          "date": "2026-11-28",
+          "close": 0.67
         }
       ]
     },
@@ -1132,7 +1136,7 @@
       "change": -0.02,
       "changePercent": -3.25,
       "previousClose": 0.63,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-27",
@@ -1228,17 +1232,13 @@
         },
         {
           "date": "2026-11-27",
-          "close": 0.61
+          "close": 0.6
         }
       ],
       "label": "AUD/EUR",
       "symbol": "AUDEUR=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-08-26",
-          "close": 0.62
-        },
         {
           "date": "2026-08-27",
           "close": 0.62
@@ -1501,7 +1501,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 0.61
+          "close": 0.6
         }
       ],
       "h6m": [
@@ -2254,11 +2254,11 @@
       ]
     },
     "audcny": {
-      "value": 4.42,
-      "change": -0.26,
-      "changePercent": -5.54,
+      "value": 4.41,
+      "change": -0.27,
+      "changePercent": -5.79,
       "previousClose": 4.68,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-27",
@@ -2355,16 +2355,16 @@
         {
           "date": "2026-11-27",
           "close": 4.42
+        },
+        {
+          "date": "2026-11-28",
+          "close": 4.41
         }
       ],
       "label": "AUD/CNY",
       "symbol": "AUDCNY=X",
       "dec": 4,
       "h3m": [
-        {
-          "date": "2026-08-26",
-          "close": 4.83
-        },
         {
           "date": "2026-08-27",
           "close": 4.84
@@ -2628,6 +2628,10 @@
         {
           "date": "2026-11-27",
           "close": 4.42
+        },
+        {
+          "date": "2026-11-28",
+          "close": 4.41
         }
       ],
       "h6m": [
@@ -2740,8 +2744,8 @@
           "close": 4.42
         },
         {
-          "date": "2026-11-27",
-          "close": 4.42
+          "date": "2026-11-28",
+          "close": 4.41
         }
       ],
       "h3y": [
@@ -3374,17 +3378,17 @@
           "close": 4.42
         },
         {
-          "date": "2026-11-27",
-          "close": 4.42
+          "date": "2026-11-28",
+          "close": 4.41
         }
       ]
     },
     "audjpy": {
-      "value": 106.06,
-      "change": -4.51,
-      "changePercent": -4.08,
+      "value": 106.08,
+      "change": -4.49,
+      "changePercent": -4.07,
       "previousClose": 110.57,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-27",
@@ -3480,17 +3484,17 @@
         },
         {
           "date": "2026-11-27",
-          "close": 106.06
+          "close": 105.69
+        },
+        {
+          "date": "2026-11-28",
+          "close": 106.07
         }
       ],
       "label": "AUD/JPY",
       "symbol": "AUDJPY=X",
       "dec": 2,
       "h3m": [
-        {
-          "date": "2026-08-26",
-          "close": 114.36
-        },
         {
           "date": "2026-08-27",
           "close": 114.62
@@ -3753,7 +3757,11 @@
         },
         {
           "date": "2026-11-27",
-          "close": 106.06
+          "close": 105.69
+        },
+        {
+          "date": "2026-11-28",
+          "close": 106.07
         }
       ],
       "h6m": [
@@ -3863,11 +3871,11 @@
         },
         {
           "date": "2026-11-23",
-          "close": 105.52
+          "close": 105.69
         },
         {
-          "date": "2026-11-27",
-          "close": 106.06
+          "date": "2026-11-28",
+          "close": 106.07
         }
       ],
       "h3y": [
@@ -4497,11 +4505,11 @@
         },
         {
           "date": "2026-11-23",
-          "close": 105.52
+          "close": 105.69
         },
         {
-          "date": "2026-11-27",
-          "close": 106.06
+          "date": "2026-11-28",
+          "close": 106.07
         }
       ]
     }
@@ -4509,9 +4517,9 @@
   "audusd": {
     "value": 0.67,
     "change": -0.04,
-    "changePercent": -5.26,
+    "changePercent": -5.24,
     "previousClose": 0.7,
-    "asOf": "2026-11-27",
+    "asOf": "2026-11-28",
     "history": [
       {
         "date": "2026-10-27",
@@ -4608,16 +4616,16 @@
       {
         "date": "2026-11-27",
         "close": 0.66
+      },
+      {
+        "date": "2026-11-28",
+        "close": 0.67
       }
     ],
     "label": "AUD/USD",
     "symbol": "AUDUSD=X",
     "dec": 4,
     "h3m": [
-      {
-        "date": "2026-08-26",
-        "close": 0.72
-      },
       {
         "date": "2026-08-27",
         "close": 0.72
@@ -4881,6 +4889,10 @@
       {
         "date": "2026-11-27",
         "close": 0.66
+      },
+      {
+        "date": "2026-11-28",
+        "close": 0.67
       }
     ],
     "h6m": [
@@ -4993,8 +5005,8 @@
         "close": 0.66
       },
       {
-        "date": "2026-11-27",
-        "close": 0.66
+        "date": "2026-11-28",
+        "close": 0.67
       }
     ],
     "h3y": [
@@ -5627,8 +5639,8 @@
         "close": 0.66
       },
       {
-        "date": "2026-11-27",
-        "close": 0.66
+        "date": "2026-11-28",
+        "close": 0.67
       }
     ]
   },
@@ -5830,7 +5842,7 @@
       "change": -19.7,
       "changePercent": -19.17,
       "previousClose": 102.78,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-28",
@@ -5929,7 +5941,7 @@
       "change": -24.48,
       "changePercent": -21.23,
       "previousClose": 115.32,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-28",
@@ -6017,7 +6029,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 90.84
+          "close": 95.44
         }
       ],
       "name": "Brent Crude",
@@ -6028,7 +6040,7 @@
       "change": 0.67,
       "changePercent": 23.93,
       "previousClose": 2.82,
-      "asOf": "2026-11-27",
+      "asOf": "2026-11-28",
       "history": [
         {
           "date": "2026-10-28",
@@ -6206,7 +6218,7 @@
     "change": -16.5,
     "changePercent": -0.19,
     "previousClose": 8850.1,
-    "asOf": "2026-11-27",
+    "asOf": "2026-11-28",
     "history": [
       {
         "date": "2026-10-26",
@@ -6299,6 +6311,10 @@
       {
         "date": "2026-11-25",
         "close": 8763.8
+      },
+      {
+        "date": "2026-11-26",
+        "close": 8833.6
       },
       {
         "date": "2026-11-27",
@@ -7875,6 +7891,13 @@
       "source": "SMH"
     },
     {
+      "title": "Baby bill shock: Data matching whacks tens of thousands of taxpayers",
+      "link": "https://www.smh.com.au/business/consumer-affairs/baby-bill-shock-tax-office-data-matching-whacks-tens-of-thousands-20261128-p61cxy.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
+      "snippet": "A Tax Office push on private health insurance is forcing people to pay thousands of dollars in Medicare surcharge despite having private cover.",
+      "pubDate": "Sat, 28 Nov 2026 11:55:00 +1100",
+      "source": "SMH"
+    },
+    {
       "title": "Implosion: The downfall of China’s money king",
       "link": "https://www.smh.com.au/business/banking-and-finance/implosion-the-downfall-of-china-s-money-king-20261127-p61hqc.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
       "snippet": "Tang Ning built his company into one of China’s most trusted wealth managers. But it has all come crashing down.",
@@ -7882,11 +7905,25 @@
       "source": "SMH"
     },
     {
-      "title": "Drill bit pierces Nullarbor cover in Artemis, Red Metal copper hunt",
-      "link": "https://www.smh.com.au/business/companies/drill-bit-pierces-nullarbor-cover-in-artemis-red-metal-copper-hunt-20261127-p61hvp.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Red Metal Ltd’s partner Artemis has hit basement rock in the first-ever test of the massive Sharon Dam magnetic and gravity anomaly on the Nullarbor Plain, with drilling ongoing.",
-      "pubDate": "Fri, 27 Nov 2026 12:51:48 +1100",
-      "source": "SMH"
+      "title": "Live: Matildas take on Colombia in Canberra",
+      "link": "https://www.abc.net.au/news/2026-11-28/matildas-live-updates-australia-vs-colombia-in-canberra/107435020",
+      "snippet": "",
+      "pubDate": "Sat, 28 Nov 2026 07:25:57 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "High-heel skipping and handbag throwing: Perth's queer sports history uncovered",
+      "link": "https://www.abc.net.au/news/2026-11-28/gay-games-perth-queer-community-olympics/107384780",
+      "snippet": "",
+      "pubDate": "Fri, 27 Nov 2026 23:00:00 +0000",
+      "source": "ABC"
+    },
+    {
+      "title": "Nathan Lyon axed as Australia names Test squad",
+      "link": "https://www.abc.net.au/news/2026-11-28/nathan-lyon-axed-as-australia-names-test-squad/107437842",
+      "snippet": "",
+      "pubDate": "Fri, 27 Nov 2026 22:55:21 +0000",
+      "source": "ABC"
     },
     {
       "title": "MotoGP world champion Marquez announces shock retirement",
@@ -7896,7 +7933,7 @@
       "source": "ABC"
     },
     {
-      "title": "Live: Wallabies on back foot against Ireland in Nations Championship Test",
+      "title": "Wallabies end 2026 with massive loss to Ireland in London",
       "link": "https://www.abc.net.au/news/2026-11-28/wallabies-vs-ireland-nations-championship-live-blog-updates/107437612",
       "snippet": "",
       "pubDate": "Fri, 27 Nov 2026 19:27:01 +0000",
@@ -7908,27 +7945,6 @@
       "snippet": "",
       "pubDate": "Fri, 27 Nov 2026 19:20:25 +0000",
       "source": "ABC"
-    },
-    {
-      "title": "Australia 'have to be better,' humbled by England at rain-soaked Gabba",
-      "link": "https://www.abc.net.au/news/2026-11-27/australia-vs-england-3rd-t20i-at-the-gabba/107435858",
-      "snippet": "",
-      "pubDate": "Fri, 27 Nov 2026 10:05:50 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Matildas legend enters arena of greatness in milestone match",
-      "link": "https://www.abc.net.au/news/2026-11-27/steph-catley-matildas-150-caps/107434880",
-      "snippet": "",
-      "pubDate": "Fri, 27 Nov 2026 07:31:52 +0000",
-      "source": "ABC"
-    },
-    {
-      "title": "Barkly unveils five-fold NT rare earths resource jump",
-      "link": "https://www.smh.com.au/business/companies/barkly-unveils-five-fold-nt-rare-earths-resource-jump-20261127-p61hx7.html?ref=rss&amp;utm_medium=rss&amp;utm_source=rss_business",
-      "snippet": "Barkly Rare Earths has unveiled a five-fold resource increase at its namesake NT project to 205Mt of rare earths material, including 140,000 tonnes of high-value magnet rare earths.",
-      "pubDate": "Fri, 27 Nov 2026 14:17:42 +1100",
-      "source": "SMH"
     }
   ]
 }
